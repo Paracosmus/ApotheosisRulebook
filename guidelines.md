@@ -32,16 +32,37 @@ Os dados utilizados são de seis faces, representados pela sigla **D6**. Em algu
 Múltiplos dados são referidos na forma {{ d2d6 }}(**2D6**), {{ d3d2 }}(**3D2**), etc.
 !!!
 
-### Quem Rola os Dados
+## Rolagem Perfeita (Perfect Roll)
+
+É quando o valor natural obtido no dado principal é 6
+
+## **Quem Rola os Dados**
 
 Quando uma mecânica de jogo determinar a rolagem de dados, o jogador que rola os dados é sempre o jogador que desencadeou a mecânica.
 
 Quando uma carta determinar a rolagem de dados, o jogador que rola os dados é sempre o jogador que tem posse da carta no momento de sua ativação.
 
+## Tipos de Dados
 
-### Dado Aleatório
+### Dado Principal
 
-Em alguns casos pode ser solicitado a rolagem de **Dados Aleatórios**, isso significa que o jogador deve rolar os dados solicitados e ignorar quaisquer bônus e efeitos de carta que afetem a rolagem de dados e considerar apenas o valor obtido no dado. Estes dados também não compartilham das características da carta ou mecânica que os solicitou.
+Do conjunto de dados rolados, um deles deve ser distinto dos demais, seja por ser rolado antes de todos ou por ter uma aparência que o diferencie. Este é chamado de dado principal e ele é utilizado para determinar se ouve uma rolagem perfeita naquela ação (obter um 6 natural no valor do dado), garantindo assim que indiferente do número de dados rolados, a chance de se obter uma rolagem crítica é sempre 1 em 6.
+
+### Dados Secundários
+
+São todos os demais dados em uma rolagem de dados que não sejam o dado principal, nem sejam dados extras obtidos por um rolagem crítica
+
+### Dados Extras
+
+Quando o valor obtido no dado principal for um 6 natura, o jogador deve rolar 1d3 adicional. Se o valor obtido neste 1d3 também for um 6 natura (já que são sempre utilizados dados de 6 faces) o jogador deve continuar rolando 1d3 adicional até quebrar a sequência, o adicionar ao valor obtido netes 1d3 ao total da rolagem.
+
+## **Dado Aleatório**
+
+Em alguns casos pode ser solicitado a rolagem de **Dados Aleatórios**, isso significa que o jogador deve rolar os dados solicitados e ignorar quaisquer bônus e efeitos de carta que afetem a rolagem de dados e considerar apenas o valor obtido no dado.
+
+Estes dados também não compartilham das características da carta ou mecânica que os solicitou.
+
+Rolagens aleatórias seguem a mesma estrutura de conjunto de dados, tendo um dado principal, secundários e extras.
 
 ---
 

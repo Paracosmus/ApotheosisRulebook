@@ -116,6 +116,7 @@ NÍVEL DA CARTA {{ free}} | NÍVEL REQUERIDO DO HERÓI
 * Dança, teatro, cinema, fotografia, etc.
 * Poesia, prosa, dramaturgia, etc.
 * Harmônico, rítmico, som, música, mantra, etc.
+* Sigilo, teografias
 
 ---
 

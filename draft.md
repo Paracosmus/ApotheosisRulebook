@@ -92,4 +92,40 @@ Elas estão listadas aqui como rascunho ou lembrete de suas existências.
         * Se o efeito disser que você "pode" usar a mesa de outro Herói, significa que a partir do momento que você decide usar a mesa dele para uma determinada ação, você só pode usar cartas da mesa dele para aquela ação, ou seja, você não pode misturar cartas da sua mesa com cartas da mesa do outro Herói na mesma ação, portanto, use até mesmo os status como atributos e bônus passivos daquele herói durante aquela ação. O caso mais claro é (Inconsiente coletivo: onde o seu personagem joga com os status de outro personagem naquele momento)
     * Note que, quem ativa também é considerado o Herói da carta, ou seja, se ativa um item com DMG FOR+1D6, considere a força de quem ativou, se o efeito diz algo como, "você ganha +1 de HP", quem ativou ganha +1 de HP, etc.
 
+- Existe apenas uma pilha de descarte para todas as cartas.
+    - A ordem das cartas na pilha de descarta não é mais relevante, e não sera referida.
+        - Quando uma carta é obtida pela Campanha, o narrador decide qual carta distribuir
+        - Quando uma carta é obtida pelo efeito de uma carta, o jogador do dono da carta escolhe qual carta pegar
+    - Em formatos como Lagvig, cada jogador tem sua própria pilha de descarte
+- Quando for mensionado que uma substituição deve ser efeito, isso significa que:
+    - Carta: Carrega contadores, anexos, exaustão
+    - Peça: Mantem a mesma vida, ação, marcadores, e tudo mais. Porém deve-se observar os valores máximos da nava peça
+- Se uma carta seleciona um alvo, mas não tem alcance definido, significa que o alcence é toda a extensão do tabuleiro. Incluindo se ela tiver um dano mas não tiver alcance
+    - Trajetória = Distância Horizontal + Distância Vertical
+    - **Direct**: O tile alvo tem -1 de distância se você estiver mais alto que ele
+    - **Arcing**: Some +1 de alcance para cada nível de altura que estiver
+    - **Area**: Não usa distância nem altura, conta por adjacência e atinge até o infinito de altura
+- Se a carta tiver dano, isso significa que aquele dano deve ser aplicado ao alvo antes de resolver o texto, a não ser que o texto da própria carta explicite o contrário.
+- Uma carta pode ter no máximo 5 anexos, e 10 contadores de cada nome
+- Toda rolagem de dado proposta pelo texto de uma carta é uma rolagem aleatória, portando não se aplicam nenhum tipo de bônus nem ativam quaisquer efeitos
+- Se um personagem morrer, todos os efeitos ligados as suas cartas são encerrados. Isso quer dizer quê
+    - Peças no tabuleiro criadas por suas cartas são removidas *(Ex.: Barreira Arcana, Abblyss)*
+    - No caso de Companions, uma regra específica define que Humanos e Criaturas continuam batalhando até o final da da batalha. Já evocações são removidas imediatamente
+    - Tiles com efeitos ligados as suas suas cartas são retornados ao seu estado original *(Ex.: Terra Arrasada)*
+    - Efeitos com a keyword PERMANENTE de suas cartas não em mais efeito, isso inclúi armaduras. Note que isso não se aplica há bônus
+- Essência pode ser convertida em SP e MP mas o inverso não é válido
+    - Todo custo de SP/MP pode ser pago com EP
+    - Recuperar EP pode ser usado como recuperação de SP / MP, mas para recuperar EP, é são necessários cartas que se refiram ao EP daquela cor, ou incolor
+    - Ao levantar troco de SP/MP, você não pode levantar EP. Se o troco for de EP, você pode levantar apenas a cor do EP. (Em outra palavras, não é possível recuperar Essência maliciosamente, simplesmente fazendo overpay)
+    - Por este mesmo motivo, se Essência for usada para pagar SP/MP, você não pode levantar nada de Essência de troco, mesmo da mesma cor, já que aquela EP se tornou SP/MP. Isso também impede a recuperação maliciosa de Essência fazendo manipulações matemáticas.
+- Vontade não é mais coringa, é uma moeda como qualquer outra no jogo. Sendo que em testes:
+    - Destino deve ser usado antes de rolar os dados, para diminuir a dificuldade do teste naquela quantidade
+    - Vontade deve ser usado a depois de rolar os dados, para somar ao valor obtido
+    - XP pode ser usado se você falhar no teste, você pode descartar XP equivalente a quantidade do teste ou superior para ser bem sucedido ao invés
+    - Se a carta de recursos descartada for do mesmo conhecimento do teste e você possuir aquele conhecimento, ela vale o dobro
+- Salvação divina pode ser usado uma vez por batalha e o custo é ( 3 de destino + 1 de destino para cada ponto de vida negativo que tiver ficado )
+- Lignum são no máximo 3 cartas por slot e um máximo de 9 cartas de lignum
+- Caso ocorra um looping infinito, o narrador deve observar quais cartas causaram o problema e escolher uma ou mais delas para serem descartadas ou banidas, conforme a necessidade.
+    - Fica a critério do narrador avaliar se o looping infinito for causado acidentalmente ou propositalmente, neste caso o jogador responsável deve ser penalizado em PvE e desclassificado em PvP
+
 ---
