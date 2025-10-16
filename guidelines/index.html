@@ -6,7 +6,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.813942419379">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.813944581903">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.11.0">
@@ -34,11 +34,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link href="../static/img/favicon.ico" rel="icon">
-    <link href="../resources/css/retype.css?v=3.11.0.813942419379" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.11.0.813944581903" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.11.0.813942419379" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.11.0.813944581903" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.11.0.813942419379" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.11.0.813944581903" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -463,21 +463,57 @@
         </div>
     </div>
 </div>
+<doc-anchor-target id="rolagem-perfeita-perfect-roll">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#rolagem-perfeita-perfect-roll">#</doc-anchor-trigger>
+        <span>Rolagem Perfeita (Perfect Roll)</span>
+    </h2>
+</doc-anchor-target>
+<p>É quando o valor natural obtido no dado principal é 6</p>
 <doc-anchor-target id="quem-rola-os-dados">
-    <h3>
+    <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#quem-rola-os-dados">#</doc-anchor-trigger>
-        <span>Quem Rola os Dados</span>
-    </h3>
+        <span><strong>Quem Rola os Dados</strong></span>
+    </h2>
 </doc-anchor-target>
 <p>Quando uma mecânica de jogo determinar a rolagem de dados, o jogador que rola os dados é sempre o jogador que desencadeou a mecânica.</p>
 <p>Quando uma carta determinar a rolagem de dados, o jogador que rola os dados é sempre o jogador que tem posse da carta no momento de sua ativação.</p>
-<doc-anchor-target id="dado-aleatório">
+<doc-anchor-target id="tipos-de-dados">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#tipos-de-dados">#</doc-anchor-trigger>
+        <span>Tipos de Dados</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="dado-principal">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#dado-aleatório">#</doc-anchor-trigger>
-        <span>Dado Aleatório</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#dado-principal">#</doc-anchor-trigger>
+        <span>Dado Principal</span>
     </h3>
 </doc-anchor-target>
-<p>Em alguns casos pode ser solicitado a rolagem de <strong>Dados Aleatórios</strong>, isso significa que o jogador deve rolar os dados solicitados e ignorar quaisquer bônus e efeitos de carta que afetem a rolagem de dados e considerar apenas o valor obtido no dado. Estes dados também não compartilham das características da carta ou mecânica que os solicitou.</p>
+<p>Do conjunto de dados rolados, um deles deve ser distinto dos demais, seja por ser rolado antes de todos ou por ter uma aparência que o diferencie. Este é chamado de dado principal e ele é utilizado para determinar se ouve uma rolagem perfeita naquela ação (obter um 6 natural no valor do dado), garantindo assim que indiferente do número de dados rolados, a chance de se obter uma rolagem crítica é sempre 1 em 6.</p>
+<doc-anchor-target id="dados-secundários">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#dados-secundários">#</doc-anchor-trigger>
+        <span>Dados Secundários</span>
+    </h3>
+</doc-anchor-target>
+<p>São todos os demais dados em uma rolagem de dados que não sejam o dado principal, nem sejam dados extras obtidos por um rolagem crítica</p>
+<doc-anchor-target id="dados-extras">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#dados-extras">#</doc-anchor-trigger>
+        <span>Dados Extras</span>
+    </h3>
+</doc-anchor-target>
+<p>Quando o valor obtido no dado principal for um 6 natura, o jogador deve rolar 1d3 adicional. Se o valor obtido neste 1d3 também for um 6 natura (já que são sempre utilizados dados de 6 faces) o jogador deve continuar rolando 1d3 adicional até quebrar a sequência, o adicionar ao valor obtido netes 1d3 ao total da rolagem.</p>
+<doc-anchor-target id="dado-aleatório">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#dado-aleatório">#</doc-anchor-trigger>
+        <span><strong>Dado Aleatório</strong></span>
+    </h2>
+</doc-anchor-target>
+<p>Em alguns casos pode ser solicitado a rolagem de <strong>Dados Aleatórios</strong>, isso significa que o jogador deve rolar os dados solicitados e ignorar quaisquer bônus e efeitos de carta que afetem a rolagem de dados e considerar apenas o valor obtido no dado.</p>
+<p>Estes dados também não compartilham das características da carta ou mecânica que os solicitou.</p>
+<p>Rolagens aleatórias seguem a mesma estrutura de conjunto de dados, tendo um dado principal, secundários e extras.</p>
 <hr>
 <doc-anchor-target id="bônus">
     <h2>

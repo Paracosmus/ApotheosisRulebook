@@ -6,7 +6,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.813942419379">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.813944581903">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.11.0">
@@ -34,11 +34,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link href="../static/img/favicon.ico" rel="icon">
-    <link href="../resources/css/retype.css?v=3.11.0.813942419379" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.11.0.813944581903" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.11.0.813942419379" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.11.0.813944581903" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.11.0.813942419379" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.11.0.813944581903" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -511,6 +511,67 @@ Elas estão listadas aqui como rascunho ou lembrete de suas existências.</p>
 </ul>
 </li>
 <li>Note que, quem ativa também é considerado o Herói da carta, ou seja, se ativa um item com DMG FOR+1D6, considere a força de quem ativou, se o efeito diz algo como, &quot;você ganha +1 de HP&quot;, quem ativou ganha +1 de HP, etc.</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>Existe apenas uma pilha de descarte para todas as cartas.
+<ul>
+<li>A ordem das cartas na pilha de descarta não é mais relevante, e não sera referida.
+<ul>
+<li>Quando uma carta é obtida pela Campanha, o narrador decide qual carta distribuir</li>
+<li>Quando uma carta é obtida pelo efeito de uma carta, o jogador do dono da carta escolhe qual carta pegar</li>
+</ul>
+</li>
+<li>Em formatos como Lagvig, cada jogador tem sua própria pilha de descarte</li>
+</ul>
+</li>
+<li>Quando for mensionado que uma substituição deve ser efeito, isso significa que:
+<ul>
+<li>Carta: Carrega contadores, anexos, exaustão</li>
+<li>Peça: Mantem a mesma vida, ação, marcadores, e tudo mais. Porém deve-se observar os valores máximos da nava peça</li>
+</ul>
+</li>
+<li>Se uma carta seleciona um alvo, mas não tem alcance definido, significa que o alcence é toda a extensão do tabuleiro. Incluindo se ela tiver um dano mas não tiver alcance
+<ul>
+<li>Trajetória = Distância Horizontal + Distância Vertical</li>
+<li><strong>Direct</strong>: O tile alvo tem -1 de distância se você estiver mais alto que ele</li>
+<li><strong>Arcing</strong>: Some +1 de alcance para cada nível de altura que estiver</li>
+<li><strong>Area</strong>: Não usa distância nem altura, conta por adjacência e atinge até o infinito de altura</li>
+</ul>
+</li>
+<li>Se a carta tiver dano, isso significa que aquele dano deve ser aplicado ao alvo antes de resolver o texto, a não ser que o texto da própria carta explicite o contrário.</li>
+<li>Uma carta pode ter no máximo 5 anexos, e 10 contadores de cada nome</li>
+<li>Toda rolagem de dado proposta pelo texto de uma carta é uma rolagem aleatória, portando não se aplicam nenhum tipo de bônus nem ativam quaisquer efeitos</li>
+<li>Se um personagem morrer, todos os efeitos ligados as suas cartas são encerrados. Isso quer dizer quê
+<ul>
+<li>Peças no tabuleiro criadas por suas cartas são removidas <em>(Ex.: Barreira Arcana, Abblyss)</em></li>
+<li>No caso de Companions, uma regra específica define que Humanos e Criaturas continuam batalhando até o final da da batalha. Já evocações são removidas imediatamente</li>
+<li>Tiles com efeitos ligados as suas suas cartas são retornados ao seu estado original <em>(Ex.: Terra Arrasada)</em></li>
+<li>Efeitos com a keyword PERMANENTE de suas cartas não em mais efeito, isso inclúi armaduras. Note que isso não se aplica há bônus</li>
+</ul>
+</li>
+<li>Essência pode ser convertida em SP e MP mas o inverso não é válido
+<ul>
+<li>Todo custo de SP/MP pode ser pago com EP</li>
+<li>Recuperar EP pode ser usado como recuperação de SP / MP, mas para recuperar EP, é são necessários cartas que se refiram ao EP daquela cor, ou incolor</li>
+<li>Ao levantar troco de SP/MP, você não pode levantar EP. Se o troco for de EP, você pode levantar apenas a cor do EP. (Em outra palavras, não é possível recuperar Essência maliciosamente, simplesmente fazendo overpay)</li>
+<li>Por este mesmo motivo, se Essência for usada para pagar SP/MP, você não pode levantar nada de Essência de troco, mesmo da mesma cor, já que aquela EP se tornou SP/MP. Isso também impede a recuperação maliciosa de Essência fazendo manipulações matemáticas.</li>
+</ul>
+</li>
+<li>Vontade não é mais coringa, é uma moeda como qualquer outra no jogo. Sendo que em testes:
+<ul>
+<li>Destino deve ser usado antes de rolar os dados, para diminuir a dificuldade do teste naquela quantidade</li>
+<li>Vontade deve ser usado a depois de rolar os dados, para somar ao valor obtido</li>
+<li>XP pode ser usado se você falhar no teste, você pode descartar XP equivalente a quantidade do teste ou superior para ser bem sucedido ao invés</li>
+<li>Se a carta de recursos descartada for do mesmo conhecimento do teste e você possuir aquele conhecimento, ela vale o dobro</li>
+</ul>
+</li>
+<li>Salvação divina pode ser usado uma vez por batalha e o custo é ( 3 de destino + 1 de destino para cada ponto de vida negativo que tiver ficado )</li>
+<li>Lignum são no máximo 3 cartas por slot e um máximo de 9 cartas de lignum</li>
+<li>Caso ocorra um looping infinito, o narrador deve observar quais cartas causaram o problema e escolher uma ou mais delas para serem descartadas ou banidas, conforme a necessidade.
+<ul>
+<li>Fica a critério do narrador avaliar se o looping infinito for causado acidentalmente ou propositalmente, neste caso o jogador responsável deve ser penalizado em PvE e desclassificado em PvP</li>
 </ul>
 </li>
 </ul>

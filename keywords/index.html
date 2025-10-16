@@ -6,7 +6,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.813942419379">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.813944581903">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.11.0">
@@ -34,11 +34,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link href="../static/img/favicon.ico" rel="icon">
-    <link href="../resources/css/retype.css?v=3.11.0.813942419379" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.11.0.813944581903" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.11.0.813942419379" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.11.0.813944581903" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.11.0.813942419379" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.11.0.813944581903" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -423,52 +423,84 @@
 <tr>
 <th></th>
 <th></th>
+<th></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>Virar</strong></td>
-<td>Girar a carta para que ela fique na horizontal, em relação à MESA do personagem</td>
+<td><strong>Consumir</strong></td>
+<td><em>Exhaust</em></td>
+<td>Girar a carta para que ela fique na horizontal, em relação à MESA do Herói</td>
 </tr>
 <tr>
-<td><strong>Desvirar</strong></td>
-<td>Girar a carta para que ela fique na vertical, em relação à MESA do personagem</td>
+<td><strong>Recuperar</strong></td>
+<td><em>Recover</em></td>
+<td>Girar a carta para que ela fique na vertical, em relação à MESA do Herói</td>
 </tr>
 <tr>
 <td><strong>Descartar</strong></td>
-<td>Colocar uma carta no topo da pilha de descarte específica do naipe</td>
+<td><em>Discard</em></td>
+<td>Colocar uma carta na pilha de descarte</td>
 </tr>
 <tr>
 <td><strong>Enterrar</strong></td>
+<td><em>Bury</em></td>
 <td>Colocar uma carta no fundo do baralho específico do naipe</td>
 </tr>
 <tr>
 <td><strong>Banir</strong></td>
+<td><em>Banish</em></td>
 <td>Remover uma carta do jogo</td>
 </tr>
 <tr>
 <td><strong>Obter</strong></td>
-<td>Adicionar uma carta ao <a href="../hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a></td>
+<td><em>Get</em></td>
+<td>Adicionar uma carta da pilha de descarte ao INVENTÁRIO</td>
+</tr>
+<tr>
+<td><strong>Baixar</strong></td>
+<td><em>Place</em></td>
+<td>Adicionar uma carta à MESA</td>
 </tr>
 <tr>
 <td><strong>Puxar</strong></td>
-<td>Pegar a carta do topo da pilha ou baralho especificado e adicionar ao <a href="../hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a>, sem mostrá-la</td>
+<td><em>Draw</em></td>
+<td>Pegar a carta do topo do baralho especificado e adicionar ao INVENTÁRIO, sem mostrá-la</td>
 </tr>
 <tr>
 <td><strong>Revelar</strong></td>
+<td><em>Reveal</em></td>
 <td>Mostrar uma carta que está oculta, geralmente virando-a de face para cima, ou mostrando-a para todos os jogadores</td>
 </tr>
 <tr>
 <td><strong>Ocultar</strong></td>
-<td>Esconder uma carta do seu revelada, geralmente virando-a de face para baixo</td>
+<td><em>Conceal</em></td>
+<td>Esconder uma carta que está revelada, geralmente virando-a de face para baixo</td>
 </tr>
 <tr>
 <td><strong>Buscar</strong></td>
-<td>Escolher uma carta na pilha ou baralho especificado, geralmente com limitações, mostrá-la e adicioná-la ao <a href="../hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a></td>
+<td><em>Search</em></td>
+<td>Escolher uma carta na pilha ou baralho especificado, geralmente com limitações, mostrá-la e adicioná-la ao INVENTÁRIO</td>
 </tr>
 <tr>
-<td><strong>Trocar</strong></td>
-<td>Uma carta é substituída por outra, a nova carta recebe todos os contadores e anexos da carta original, e a carta original é enviada para o mesmo local em que estava a nova carta, se possível, caso contrário, a carta original é descartada para a sua respectiva pilha de descarte</td>
+<td><strong>MESA</strong></td>
+<td><em>TABLE</em></td>
+<td>Local da área do jogo onde um Herói coloca suas cartas</td>
+</tr>
+<tr>
+<td><strong>FICHA</strong></td>
+<td><em>SHEET</em></td>
+<td>Zona da MESA do Herói onde estão suas cartas de ficha</td>
+</tr>
+<tr>
+<td><strong>Zona Extra</strong></td>
+<td><em>Extra Slots</em></td>
+<td>Zona da FICHA do Herói onde algumas mecânicas de jogo e efeitos de cartas podem colocar cartas de ficha extras</td>
+</tr>
+<tr>
+<td><strong>INVENTÁRIO</strong></td>
+<td><em>INVENTORY</em></td>
+<td>O conjunto de cartas na mão do jogador</td>
 </tr>
 </tbody>
 </table>
@@ -486,44 +518,64 @@
 <tr>
 <th></th>
 <th></th>
+<th></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>Casa Desabilitada</strong></td>
-<td>Nenhuma peça pode ser colocada ou passar por esta casa do tabuleiro, para todos os fins, ela não existe</td>
-</tr>
-<tr>
-<td><strong>Casa Bloqueada</strong></td>
-<td>Nenhuma peça pode ser colocado nesta casa do tabuleiro, e ataques não podem passar por esta casa.</td>
-</tr>
-<tr>
-<td><strong>Casa Ocupada</strong></td>
-<td>Existe uma peça nesta casa do tabuleiro.</td>
-</tr>
-<tr>
-<td><strong>Casa Vazia</strong></td>
-<td>Qualquer casa do tabuleiro que não tenha uma peça nela.</td>
-</tr>
-<tr>
-<td><strong>Adjacente</strong></td>
-<td>Aquilo que está em uma casa do tabuleiro, ou é uma casa do tabuleiro, que está ao lado de outra casa do tabuleiro. Não incluindo casas diagonais.</td>
-</tr>
-<tr>
-<td><strong>Trajeto</strong></td>
-<td>Conjunto de casas do tabuleiro por onde passa a linha reta entre o personagem executando a ação e o alvo de ação.</td>
-</tr>
-<tr>
-<td><strong>Sentido</strong></td>
-<td>Casa onde o ataque continuaria caso não parasse no alvo.</td>
+<td><strong>Peça</strong></td>
+<td><em>Piece</em></td>
+<td>Peão que representa um personagem ou objeto no tabuleiro de batalha</td>
 </tr>
 <tr>
 <td><strong>Mover</strong></td>
-<td>Colocar uma peça em uma outra casa do tabuleiro.</td>
+<td><em>Move</em></td>
+<td>Colocar uma peça em uma outra casa do tabuleiro</td>
 </tr>
 <tr>
-<td><strong>Andar</strong></td>
-<td>Um tipo específico de <strong>Mover</strong>. Colocar uma peça em uma casa do tabuleiro adjacente a casa onde ela estava, pagando os custos em <a href="../hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a> necessários para isso.</td>
+<td><strong>Distância</strong></td>
+<td><em>Distance</em></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Alcance</strong></td>
+<td><em>Range</em></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Trajeto / Trajetória</strong></td>
+<td><em>Trajectory</em></td>
+<td>Conjunto de casas do tabuleiro por onde passa a linha reta entre o personagem executando a ação e o alvo de ação</td>
+</tr>
+<tr>
+<td><strong>Direção</strong></td>
+<td><em>Direction</em></td>
+<td>Vetor de direção de uma ação que parte de uma casa do tabuleiro até outra casa. Sendo uma linha reta com comprimento infinito para ambos os lados e um sentido de direção</td>
+</tr>
+<tr>
+<td><strong>Adjacente</strong></td>
+<td><em>Adjacent Tile</em></td>
+<td>Aquilo que está em uma casa do tabuleiro, ou é uma casa do tabuleiro, que está ao lado de outra casa do tabuleiro. Não incluindo casas diagonais</td>
+</tr>
+<tr>
+<td><strong>Casa Bloqueada</strong></td>
+<td><em>Blocked Tile</em></td>
+<td>Nenhuma peça pode ser colocada nesta casa do tabuleiro, trajetórias de ataques DIRETOS não podem passar por esta casa. Geralmente por já estar ocupada por uma peça</td>
+</tr>
+<tr>
+<td><strong>Casa Ocupada</strong></td>
+<td><em>Occupied Tile</em></td>
+<td>Existe uma peça nesta casa do tabuleiro</td>
+</tr>
+<tr>
+<td><strong>Casa Vazia</strong></td>
+<td><em>Empty Tile</em></td>
+<td>Qualquer casa do tabuleiro que não tenha uma peça nela</td>
+</tr>
+<tr>
+<td><strong>Casa Desabilitada</strong></td>
+<td><em>Disabled Tile</em></td>
+<td>Nenhuma peça pode ser colocada ou passar por esta casa do tabuleiro, para todos os fins, ela não existe. Trajetórias de ataques não podem passar por elas</td>
 </tr>
 </tbody>
 </table>
@@ -541,17 +593,28 @@
 <tr>
 <th></th>
 <th></th>
+<th></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>Sacrificar o Turno</strong></td>
-<td>O personagem não pode realizar nenhuma outra ação ou jogada não automática (passiva) nesta rodada, a não ser a ação requerida, caso qualquer ação já tenha sido feita, não é possível sacrificar seu turno nesta rodada</td>
+<td><strong>Ação Total</strong></td>
+<td><em>All-in</em></td>
+<td>O personagem não pode ter realizado nenhuma ação ou jogada não automática (passiva) neste Ciclo para realizar uma Ação Total; feito isso, ele só terá um turno no próximo Ciclo</td>
+</tr>
+<tr>
+<td><strong>Substituir</strong></td>
+<td><em>Replace</em></td>
+<td>Um elemento de jogo é substituído por outro determinado, herdando o estado do original.<br><br><strong>Quando uma carta:</strong> Ela é substituída por outra, a nova carta recebe todos os contadores e anexos da carta original, e a carta original é enviada para o mesmo local em que estava a nova carta, se possível; caso contrário, a carta original é descartada para a pilha de descarte.<br><br><strong>Quando uma peça:</strong> Ela é substituída por outra, a nova peça mantém a VIDA, AÇÃO, Marcados e posição no tabuleiro da peça original; a peça original é removida do jogo</td>
+</tr>
+<tr>
+<td><strong>Ciclo</strong></td>
+<td><em>Stint</em></td>
+<td>O período entre uma Fase de Recomposição e outra</td>
 </tr>
 </tbody>
 </table>
 </div>
-<hr>
 <!-- Insert this at the bottom of each markdown page -->
 <!-- Tooltips -->
 <!-- *[AWS]: Amazon Web Services -->
