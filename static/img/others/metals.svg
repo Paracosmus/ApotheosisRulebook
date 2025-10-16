@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 355">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+
+      .cls-9 {
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+        font-size: 21px;
+      }
+
+      .cls-10 {
+        letter-spacing: 0em;
+      }
+
+      .cls-11 {
+        letter-spacing: 0em;
+      }
+
+      .cls-12 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+
+      .cls-13 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-14 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <polygon class="cls-12" points="250.64 55.25 316.86 299.75 148.76 103.64 379.25 208.06 120.75 213.16 347.42 102.37 190.79 299.75 250.64 55.25"/>
+  <polygon points="265.28 256.5 282.05 241.81 288.85 266.48 265.28 256.5"/>
+  <polygon points="322.88 220.23 322.4 197.94 345.67 208.59 322.88 220.23"/>
+  <polygon points="276.1 109.03 254.47 114.42 259.72 89.38 276.1 109.03"/>
+  <polygon points="194.84 236.68 216.57 241.65 200.56 261.62 194.84 236.68"/>
+  <polygon points="205.7 117.18 196.43 137.45 180.12 117.73 205.7 117.18"/>
+  <polygon points="169.76 175.93 180.12 195.66 154.55 196.51 169.76 175.93"/>
+  <polygon points="322.57 152.49 304.56 139.36 327.14 127.32 322.57 152.49"/>
+  <text class="cls-9" transform="translate(227 37)"><tspan class="cls-13" x="0" y="0">P</tspan><tspan class="cls-8" x="10.84" y="0">r</tspan><tspan class="cls-14" x="17.6" y="0">a</tspan><tspan x="27.64" y="0">ta</tspan></text>
+  <text class="cls-9" transform="translate(345.67 89.38)"><tspan class="cls-5" x="0" y="0">M</tspan><tspan class="cls-2" x="17.01" y="0">e</tspan><tspan class="cls-6" x="27.53" y="0">r</tspan><tspan class="cls-2" x="34.19" y="0">cú</tspan><tspan class="cls-11" x="55.17" y="0">r</tspan><tspan x="62.12" y="0">io</tspan></text>
+  <text class="cls-9" transform="translate(379.25 231)"><tspan class="cls-4" x="0" y="0">C</tspan><tspan x="11.95" y="0">ob</tspan><tspan class="cls-10" x="35.43" y="0">r</tspan><tspan x="42.08" y="0">e</tspan></text>
+  <text class="cls-9" transform="translate(56 231)"><tspan x="0" y="0">Estanho</tspan></text>
+  <text class="cls-9" transform="translate(299.56 331)"><tspan class="cls-1" x="0" y="0">O</tspan><tspan x="14.53" y="0">u</tspan><tspan class="cls-6" x="26.1" y="0">r</tspan><tspan class="cls-3" x="32.76" y="0">o</tspan></text>
+  <text class="cls-9" transform="translate(158.55 331)"><tspan class="cls-7" x="0" y="0">F</tspan><tspan x="9.58" y="0">e</tspan><tspan class="cls-11" x="20.1" y="0">r</tspan><tspan class="cls-6" x="27.05" y="0">r</tspan><tspan class="cls-3" x="33.71" y="0">o</tspan></text>
+  <text class="cls-9" transform="translate(81.75 89.38)"><tspan x="0" y="0">Chumbo</tspan></text>
+</svg>

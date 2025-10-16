@@ -1,0 +1,279 @@
+input: .
+output: .retype
+url: apotheosiscardgame.com
+favicon: /static/img/favicon.ico
+poweredByRetype: false
+
+branding:
+  title: Apotheosis
+  label: book
+  logo: /static/img/logo.svg
+
+  colors:
+    label:
+      # text: "#000000"
+      # background: "#000000"
+
+breadcrumb:
+  home: ":icon-home:"
+
+links:
+- text: Home
+  link: /index.md
+  icon: home
+
+- text: Palavras-Chave
+  link: /keywords.md
+  icon: list-unordered
+
+- text: Cartilha
+  link: /chart.md
+  icon: paste
+
+markdown:
+  lineBreaks: hard
+
+outbound:
+  enabled: true
+
+templating:
+  liquid: false
+
+start:
+  pro: true
+
+integrations:
+  googleAnalytics:
+    id: G-6DMTE08V5G
+
+footer:
+  copyright: "&copy; Copyright Bruno Caxito, {{ year }}. All rights reserved."
+
+exclude:
+  - "/src/"
+
+data:
+  # Suits
+  house:     '[<span class="house"><b>CASA</b></span>](/cards/house.md)'
+  class:     '[<span class="class"><b>CLASSE</b></span>](/cards/class.md)'
+  entity:    '[<span class="entity"><b>ENTE</b></span>](/cards/entity.md)'
+  item:      '[<span class="item"><b>ITEM</b></span>](/cards/item.md)'
+  skill:     '[<span class="skill"><b>HABILIDADE</b></span>](/cards/skill.md)'
+  companion: '[<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md)'
+  event:     '[<span class="event"><b>EVENTO</b></span>](/cards/event.md)'
+
+  summus: '[<span class="summus"><b>SUMMUS</b></span>](/cards/summus.md)'
+
+  # Rarity
+  common:    '[<span class="common">COMUM</span>](/cards/#raridade)'
+  uncommon:  '[<span class="uncommon">INCOMUM</span>](/cards/#raridade)'
+  rare:      '[<span class="rare">RARA</span>](/cards/#raridade)'
+  epic:      '[<span class="epic">ÉPICA</span>](/cards/#raridade)'
+  legendary: '[<span class="legendary">LENDÁRIA</span>](/cards/#raridade)'
+
+  # Attributes
+  endurance:    '[<span class="house"><b>CONSTITUIÇÃO</b>](/hero/attributes.md)'
+  strength:     '[<span class="house"><b>FORÇA</b>](/hero/attributes.md)'
+  agility:      '[<span class="house"><b>AGILIDADE</b>](/hero/attributes.md)'
+  perception:   '[<span class="house"><b>PERCEPÇÃO</b>](/hero/attributes.md)'
+  intelligence: '[<span class="house"><b>INTELIGÊNCIA</b>](/hero/attributes.md)'
+  charisma:     '[<span class="house"><b>CARISMA</b>](/hero/attributes.md)'
+  spiritual:    '[<span class="house"><b>ESPIRITUAL</b>](/hero/attributes.md)'
+
+  enr: '[<span class="house"><b>CON</b></span>](/hero/attributes.md)'
+  str: '[<span class="house"><b>FOR</b></span>](/hero/attributes.md)'
+  agi: '[<span class="house"><b>AGI</b></span>](/hero/attributes.md)'
+  per: '[<span class="house"><b>PER</b></span>](/hero/attributes.md)'
+  int: '[<span class="house"><b>INT</b></span>](/hero/attributes.md)'
+  cha: '[<span class="house"><b>CAR</b></span>](/hero/attributes.md)'
+  spt: '[<span class="house"><b>ESP</b></span>](/hero/attributes.md)'
+
+  # Knowledge
+  knowledge:     '[<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md)'
+  free:          '[<span class="knowledge"><b>LIVRE</b></span>](/hero/knowledge.md#livre)'
+
+  faith:         '[<span class="knowledge"><b>FÉ</b></span>](/hero/knowledge.md#fé)'
+  arcane:        '[<span class="knowledge"><b>ARCANO</b></span>](/hero/knowledge.md#arcano)'
+  cooperation:   '[<span class="knowledge"><b>COOPERAÇÃO</b></span>](/hero/knowledge.md#cooperação)'
+  defense:       '[<span class="knowledge"><b>DEFESA</b></span>](/hero/knowledge.md#defesa)'
+  athletics:     '[<span class="knowledge"><b>ATLETISMO</b></span>](/hero/knowledge.md#atletismo)'
+  practice:      '[<span class="knowledge"><b>PRÁTICA</b></span>](/hero/knowledge.md#prática)'
+  art:           '[<span class="knowledge"><b>ARTE</b></span>](/hero/knowledge.md#arte)'
+  instruction:   '[<span class="knowledge"><b>INSTRUÇÃO</b></span>](/hero/knowledge.md#instrução)'
+  cunning:       '[<span class="knowledge"><b>ASTÚCIA</b></span>](/hero/knowledge.md#astúcia)'
+  elemental:     '[<span class="knowledge"><b>ELEMENTAL</b></span>](/hero/knowledge.md#elemental)'
+  transmutation: '[<span class="knowledge"><b>TRANSMUTAÇÃO</b></span>](/hero/knowledge.md#transmutação)'
+  vital:         '[<span class="knowledge"><b>VITAL</b></span>](/hero/knowledge.md#vital)'
+  mental:        '[<span class="knowledge"><b>MENTAL</b></span>](/hero/knowledge.md#mental)'
+  dimensional:   '[<span class="knowledge"><b>DIMENSIONAL</b></span>](/hero/knowledge.md#dimensional)'
+
+  # Paths
+  magician:   
+  priestess:  
+  empress:    
+  emperor:    
+  priest:     
+  lovers:     
+  chariot:    
+  force:      
+  hermit:     
+  wheel:      
+  justice:    
+  hanged:     
+  death:      
+  temperance: 
+  devil:      
+  tower:      
+  star:       
+  moon:       
+  sun:        
+  judgment:   
+  world:      
+
+  # Entity Level
+  spirit: '[<span class="entity"><b>ESPÍRITO</b></span>](/cards/entity.md)'
+  deity:  '[<span class="entity"><b>DEIDADE</b></span>](/cards/entity.md)'
+  god:    '[<span class="entity"><b>DEUS</b></span>](/cards/entity.md)'
+
+  # Craft
+  cook:        '[<span class="item"><b>CULINÁRIA</b>](/cards/item.md#fabricar)'
+  drink:       '[<span class="item"><b>BEBIDA</b>](/cards/item.md#fabricar)'
+  herbalism:   '[<span class="item"><b>HERBALISMO</b>](/cards/item.md#fabricar)'
+  alchemy:     '[<span class="item"><b>ALQUIMIA</b>](/cards/item.md#fabricar)'
+  jewelry:     '[<span class="item"><b>JOIA</b>](/cards/item.md#fabricar)'
+  handicraft:  '[<span class="item"><b>ARTESANATO</b>](/cards/item.md#fabricar)'
+  forge:       '[<span class="item"><b>FORJA</b>](/cards/item.md#fabricar)'
+  dressmaking: '[<span class="item"><b>COSTURA</b>](/cards/item.md#fabricar)'
+  gunsmith:    '[<span class="item"><b>ARMEIRO</b>](/cards/item.md#fabricar)'
+  charm:       '[<span class="item"><b>ENCANTAMENTO</b>](/cards/item.md#fabricar)'
+  mechanics:   '[<span class="item"><b>MECÂNICO</b>](/cards/item.md#fabricar)'
+  orichalcum:  '[<span class="item"><b>ORICALCO</b>](/cards/item.md#fabricar)'
+  amber:       '[<span class="item"><b>ÂMBAR</b>](/cards/item.md#fabricar)'
+
+  # Companion Type
+  human:    '[<span class="companion"><b>HUMANO</b></span>](/cards/companion.md#-humano)'
+  creature: '[<span class="companion"><b>CRIATURA</b></span>](/cards/companion.md#-criatura)'
+  summon:   '[<span class="companion"><b>EVOCAÇÃO</b></span>](/cards/companion.md#-evocação)'
+
+  # Value
+  price: '[<span class="item"><b>PREÇO</b></span>](/cards/item.md)'
+  xp:    '[<span class="skill"><b>XP</b></span>](/cards/skill.md)'
+  will:  '[<span class="companion"><b>VONTADE</b></span>](/cards/companion.md)'
+  fate:  '[<span class="event"><b>DESTINO</b></span>](/cards/event.md)'
+
+  # Places
+  table:    '[<span class="main"><b>MESA</b></span>](/hero/table.md)'
+  sheet:    '[<span class="main"><b>FICHA</b></span>](/hero/table.md#-ficha)'
+  equip:    '[<span class="item"><b>EQUIPAMENTO</b></span>](/hero/table.md#-equipamento)'
+  mem:      '[<span class="skill"><b>MEMENTO</b></span>](/hero/table.md#-memento)'
+  support:  '[<span class="companion"><b>SUPORTE</b></span>](/hero/table.md#-suporte)'
+  inv:      '[<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md)'
+  scenario: '[<span class="event"><b>CENÁRIO</b></span>](/board/scenario.md)'
+  hand:     '[<span class="main"><b>MÃO DO MESTRE</b></span>](/gameplay/game-master/#mão-do-mestre)'
+
+  # Decks
+  factors:   <span class="house"><b>FATORES</b></span>
+  tavern:    <span class="class"><b>TAVERNA</b></span>
+  wound:     <span class="entity"><b>FERIDA</b></span>
+  market:    <span class="item"><b>MERCADO</b></span>
+  academy:   <span class="skill"><b>ACADEMIA</b></span>
+  bestiary:  <span class="companion"><b>BESTIÁRIO</b></span>
+  sanctuary: <span class="event"><b>SANTUÁRIO</b></span>
+
+  # Specification
+  headpiece: '[<span class="item"><b>CABEÇA</b>](/cards/item.md#fabricar)'
+  vest:      '[<span class="item"><b>VESTE</b>](/cards/item.md#fabricar)'
+  feet:      '[<span class="item"><b>PÉS</b>](/cards/item.md#fabricar)'
+  accessory: '[<span class="item"><b>ACESSÓRIO</b>](/cards/item.md#fabricar)'
+  utility:   '[<span class="item"><b>UTILITÁRIO</b>](/cards/item.md#fabricar)'
+
+  # Mana Color
+  yellow: '[<span class="skill"><span class="yellow"><b>AMARELA</b></span>](/cards/skill.md#essência)'
+  red:    '[<span class="skill"><span class="red"><b>VERMELHA</b></span>](/cards/skill.md#essência)'
+  blue:   '[<span class="skill"><span class="blue"><b>AZUL</b></span>](/cards/skill.md#essência)'
+  white:  '[<span class="skill"><span class="white"><b>BRANCA</b></span>](/cards/skill.md#essência)'
+  black:  '[<span class="skill"><span class="black"><b>PRETA</b></span>](/cards/skill.md#essência)'
+
+  # Dice
+  d1d2: 
+  d2d2: 
+  d3d2: 
+  d1d3: 
+  d2d3: 
+  d3d3: 
+  d1d6: 
+  d2d6: 
+  d3d6: 
+
+  # Action
+  hp: '[<span class="main"><b>VIDA</b></span>](/hero/#vida)'
+  ap: '[<span class="main"><b>AÇÃO</b></span>](/hero/#ação)'
+  sp: '[<span class="skill"><b>ESTAMINA</b></span>](/hero/#estamina)'
+  mp: '[<span class="skill"><b>MANA</b></span>](/hero/#mana)'
+
+  dmg:    <b>DANO</b>
+  injury: <b>LESÃO</b>
+  range:  <b>ALCANCE</b>
+
+  direct: <b>DIRETO</b>
+  arcing: <b>ARQUEADO</b>
+  area:   <b>AREA</b>
+
+  # Others
+  marker:  '[<span class="main"><b>MARCADOR</b></span>](/gameplay/characters/#marcadores)'
+  alt:     <b>ALTITUDE</b>
+
+  counter:          '[<span class="main">❂<b>CONTADOR</b></span>](/gameplay/counters/)'
+  counter_ultimate: '[<span class="main">❂<b>CONTADOR DE ULTIMATE</b></span>](/gameplay/counters/)'
+
+  # Terrain
+  aqua: <b>AQUA</b>
+
+  # Keywords
+  auto                     :  '[<span class="keyword-activation">Auto</span>](/cards/#palavras-chave-de-efeito-keyword)'
+  permanent                :  '[<span class="keyword-activation">Permanente</span>](/cards/#palavras-chave-de-efeito-keyword)'
+  temp                     :  '[<span class="keyword-activation">Temp</span>](/cards/#palavras-chave-de-efeito-keyword)'
+  onPlay                   :  '[<span class="keyword-timing">Ao Entrar</span>](/cards/#palavras-chave-de-efeito-keyword)'
+  onExit                   :  '[<span class="keyword-timing">Ao Sair</span>](/cards/#palavras-chave-de-efeito-keyword)'
+  onObtain                 :  '[<span class="keyword-timing">Ao Obter</span>](/cards/#palavras-chave-de-efeito-keyword)'
+  onReveal                 :  '[<span class="keyword-timing">Ao Revelar</span>](/cards/#palavras-chave-de-efeito-keyword)'
+  onConceal                :  '[<span class="keyword-timing">Ao Ocultar</span>](/cards/#palavras-chave-de-efeito-keyword)'
+  onExhaust                :  '[<span class="keyword-timing">Ao Exaurir</span>](/cards/#palavras-chave-de-efeito-keyword)'
+  onRecover                :  '[<span class="keyword-timing">Ao Recuperar</span>](/cards/#palavras-chave-de-efeito-keyword)'
+  onDiscard                :  '[<span class="keyword-timing">Ao Descartar</span>](/cards/#palavras-chave-de-efeito-keyword)'
+  onBury                   :  '[<span class="keyword-timing">Ao Enterrar</span>](/cards/#palavras-chave-de-efeito-keyword)'
+  onBanish                 :  '[<span class="keyword-timing">Ao Banir</span>](/cards/#palavras-chave-de-efeito-keyword)'
+  startOfYourTurn          :  '[<span class="keyword-timing">No Início do seu Turno</span>](/cards/#palavras-chave-de-efeito-keyword)'
+  endOfYourTurn            :  '[<span class="keyword-timing">No Final do seu Turno</span>](/cards/#palavras-chave-de-efeito-keyword)'
+  startOfTeamTurn          :  '[<span class="keyword-timing">No Início do Turno do Time</span>](/cards/#palavras-chave-de-efeito-keyword)'
+  endOfTeamTurn            :  '[<span class="keyword-timing">No Final do Turno do Time</span>](/cards/#palavras-chave-de-efeito-keyword)'
+  startOfPartnersTurn      :  '[<span class="keyword-timing">No Início do Turno do Parceiro</span>](/cards/#palavras-chave-de-efeito-keyword)'
+  endOfPartnersTurn        :  '[<span class="keyword-timing">No Final do Turno do Parceiro</span>](/cards/#palavras-chave-de-efeito-keyword)'
+  startOfOpponentsTurn     :  '[<span class="keyword-timing">No Início do Turno Adversário</span>](/cards/#palavras-chave-de-efeito-keyword)'
+  endOfOpponentsTurn       :  '[<span class="keyword-timing">No Final do Turno Adversário</span>](/cards/#palavras-chave-de-efeito-keyword)'
+  startOfAllTurns          :  '[<span class="keyword-timing">No Início de Todos os Turnos</span>](/cards/#palavras-chave-de-efeito-keyword)'
+  endOfAllTurns            :  '[<span class="keyword-timing">No Final de Todos os Turnos</span>](/cards/#palavras-chave-de-efeito-keyword)'
+  startOfThisCharacterTurn :  '[<span class="keyword-timing">No Início do Turno deste Personagem</span>](/cards/#palavras-chave-de-efeito-keyword)'
+  endOfThisCharacterTurn   :  '[<span class="keyword-timing">No Final do Turno deste Personagem</span>](/cards/#palavras-chave-de-efeito-keyword)'
+  startOfRound             :  '[<span class="keyword-timing">Início da Rodada</span>](/cards/#palavras-chave-de-efeito-keyword)'
+  endOfRound               :  '[<span class="keyword-timing">Fim da Rodada</span>](/cards/#palavras-chave-de-efeito-keyword)'
+  startOfBattle            :  '[<span class="keyword-timing">Início da Batalha</span>](/cards/#palavras-chave-de-efeito-keyword)'
+  endOfBattle              :  '[<span class="keyword-timing">Fim da Batalha</span>](/cards/#palavras-chave-de-efeito-keyword)'
+  checking                 :  '[<span class="keyword-timing">Realizando um Teste</span>](/cards/#palavras-chave-de-efeito-keyword)'
+  attacking                :  '[<span class="keyword-timing">Quando Atacando</span>](/cards/#palavras-chave-de-efeito-keyword)'
+  attacked                 :  '[<span class="keyword-timing">Quando Atacado</span>](/cards/#palavras-chave-de-efeito-keyword)'
+  selected                 :  '[<span class="keyword-timing">Quando Selecionado como Alvo</span>](/cards/#palavras-chave-de-efeito-keyword)'
+  rolling                  :  '[<span class="keyword-timing">Rolando um Dado</span>](/cards/#palavras-chave-de-efeito-keyword)'
+  oncePerTurn              :  '[<span class="keyword-limit">Uma vez por Turno</span>](/cards/#palavras-chave-de-efeito-keyword)'
+  oncePerRound             :  '[<span class="keyword-limit">Uma vez por Rodada</span>](/cards/#palavras-chave-de-efeito-keyword)'
+  oncePerBattle            :  '[<span class="keyword-limit">Uma vez por Batalha</span>](/cards/#palavras-chave-de-efeito-keyword)'
+  turnSacrifice            :  '[<span class="keyword-limit">Sacrifique o seu Turno</span>](/cards/#palavras-chave-de-efeito-keyword)'
+  noResponse               :  '[<span class="keyword-limit">Sem Resposta</span>](/cards/#palavras-chave-de-efeito-keyword)'
+  noNegation               :  '[<span class="keyword-limit">Sem Negação</span>](/cards/#palavras-chave-de-efeito-keyword)'
+  hand                     :  '[<span class="keyword-scope">Mão</span>](/cards/#palavras-chave-de-efeito-keyword)'
+  discardPile              :  '[<span class="keyword-scope">Pilha de Descarte</span>](/cards/#palavras-chave-de-efeito-keyword)'
+  team                     :  '[<span class="keyword-scope">Time</span>](/cards/#palavras-chave-de-efeito-keyword)'
+  discard                  :  '[<span class="keyword-task">Descarte</span>](/cards/#palavras-chave-de-efeito-keyword)'
+  bury                     :  '[<span class="keyword-task">Enterre</span>](/cards/#palavras-chave-de-efeito-keyword)'
+  banish                   :  '[<span class="keyword-task">Bana</span>](/cards/#palavras-chave-de-efeito-keyword)'
+  register                 :  '[<span class="keyword-task">Lance</span>](/cards/#palavras-chave-de-efeito-keyword)'
