@@ -14,11 +14,11 @@ Ativar Carta
 
 Enviar carta do {{ inv }} para a {{ table }}
 :   2 de {{ ap }}
-    .
+<br>
 
 Enviar carta da {{ table }} para a {{ inv }}
 :   2 de {{ ap }}
-    .
+<br>
 
 Realizar um Teste
 :   2 de {{ ap }}
