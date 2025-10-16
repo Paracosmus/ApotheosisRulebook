@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6DMTE08V5G"></script>
+    <script data-cfasync="false">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-6DMTE08V5G');</script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.813942015979">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 3.11.0">
+
+    <!-- Primary Meta Tags -->
+    <title>&#201;ter</title>
+    <meta name="title" content="Éter">
+    <meta name="description" content="(TODO)">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://apotheosiscardgame.com/world/ether/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://apotheosiscardgame.com/world/ether/">
+    <meta property="og:title" content="Éter">
+    <meta property="og:description" content="(TODO)">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://apotheosiscardgame.com/world/ether/">
+    <meta property="twitter:title" content="Éter">
+    <meta property="twitter:description" content="(TODO)">
+
+    <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
+
+    <link href="../../static/img/favicon.ico" rel="icon">
+    <link href="../../resources/css/retype.css?v=3.11.0.813942015979" rel="stylesheet">
+
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.813942015979" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.813942015979" data-turbo-eval="false" defer></script>
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <style>
+
+        /* Fallback Apotheosis Icons font */
+        @font-face {
+            font-family: 'Apotheosis';
+            src: url('/static/fonts/apotheosis.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            font-display: block;
+        }
+
+        div.container {
+            font-family: 'Open Sans', Apotheosis;
+            max-width: 1440px;
+        }
+
+        h1, h2 {
+            text-transform: uppercase;
+        }
+
+        b {
+            font-weight: 650;
+            letter-spacing: 0.2px;
+        }
+
+        .icon {
+            font-weight: normal;
+        }
+
+        /* Bonus */
+        .positive {
+            font-weight: bold;
+            color: green;
+        }
+
+        .negative {
+            font-weight: bold;
+            color: red;
+        }
+
+        /* Colors */
+        .main      { color: #212121; } .dark .main { color: #DADADA; }
+
+        .house     { color: #673AB7; }
+        .class     { color: #F44336; }
+        .entity    { color: #3F51B5; }
+        .item      { color: #FFC107; }
+        .skill     { color: #2196F3; }
+        .companion { color: #FF7043; }
+        .event     { color: #4CAF50; }
+
+        .summus    { color: #FF22B2; }
+        .knowledge { color: #995D52; }
+
+        .common    { color: #9E9E9E; }
+    	.uncommon  { color: #8BC34A; }
+    	.rare      { color: #01579B; }
+    	.epic      { color: #673AB7; }
+    	.legendary { color: #FFC400; }
+
+        .yellow    { color: #FFEB3B; }
+    	.red       { color: #B71C1C; }
+    	.blue      { color: #0D47A1; }
+    	.white     { color: #BDBDBD; }
+    	.black     { color: #424242; } .dark .black { color: #454545; }
+
+        .hidden    { color: RED; } .dark .hidden { color: #424242; }
+
+        .keyword-activation {
+            font-size: 0.8em;
+            text-transform: uppercase;
+            color: #F5F5F5;
+            background-color: #3676BC;
+            border-radius: 4px;
+            padding: 0px 5px;
+            font-weight: 600;
+        }
+
+        .keyword-timing {
+            font-size: 0.8em;
+            text-transform: uppercase;
+            color: #F5F5F5;
+            background-color: #F78A1F;
+            border-radius: 4px;
+            padding: 0px 5px;
+            font-weight: 600;
+        }
+
+        .keyword-limit {
+            font-size: 0.8em;
+            text-transform: uppercase;
+            color: #F5F5F5;
+            background-color: #EF4056;
+            border-radius: 20px;
+            padding: 0px 8px;
+            font-weight: 600;
+        }
+
+        .keyword-scope {
+            font-size: 0.8em;
+            text-transform: uppercase;
+            color: #F5F5F5;
+            background-color: #932969;
+            border-radius: 20px;
+            padding: 0px 8px;
+            font-weight: 600;
+        }
+
+        .keyword-task {
+            position: relative;
+            text-transform: uppercase;
+            display: inline-block;
+            font-size: 0.8em;
+            color: #F5F5F5;
+            background-color: #212121;
+            margin: 0px 8px;
+            padding: 0px 5px; /* espaço para as pontas */
+            font-weight: 600;
+            border-radius: 8px;
+        } .keyword-task::before, .keyword-task::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            width: 0;
+            height: 0;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+        } .keyword-task::before {
+            left: -6px;
+            border-right: 10px solid #212121; /* mesma cor do fundo */
+            transform: translateY(-50%);
+        } .keyword-task::after {
+            right: -6px;
+            border-left: 10px solid #212121; /* mesma cor do fundo */
+            transform: translateY(-50%);
+        }
+
+        .requirement {
+            font-size: 0.8em;
+            color: #F5F5F5;
+            background-color: #5C697A;
+            border-radius: 4px;
+            padding: 0px 8px;
+            font-weight: 550;
+        }
+    </style>
+
+
+    <!-- Scripts -->
+    <script>
+
+
+
+    </script>
+
+
+    <!-- Page Header Content -->
+    <div>
+
+
+
+    </div>
+</head>
+<body>
+    <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
+        <div class="absolute bottom-0 left-0" style="top: 5rem; right: 50%"></div>
+    
+        <header id="retype-header" class="sticky top-0 z-30 flex w-full h-16 bg-header-bg border-b border-header-border md:h-20">
+            <div class="container relative flex items-center justify-between pr-6 grow md:justify-start">
+                <!-- Mobile menu button skeleton -->
+                <button v-cloak class="skeleton retype-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+                <div v-cloak id="retype-sidebar-left-toggle-button"></div>
+        
+                <!-- Logo -->
+                <div class="flex items-center justify-between h-full py-2 md:w-75">
+                    <div class="flex items-center px-2 md:px-6">
+                        <a id="retype-branding-logo" href="../../" class="flex items-center leading-snug text-2xl">
+                            <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
+                                <img class="max-h-10 dark:hidden md:inline-block" src="../../static/img/logo.svg">
+                                <img class="max-h-10 hidden dark:inline-block" src="../../static/img/logo.svg">
+                            </span>
+                            <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">Apotheosis</span>
+                        </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">book</span>
+                    </div>
+        
+                    <span class="hidden h-8 border-r md:inline-block border-base-border"></span>
+                </div>
+        
+                <div class="flex justify-between md:grow">
+                    <!-- Top Nav -->
+                    <nav id="retype-header-nav" class="hidden md:flex">
+                        <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="../../">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M11.03 2.59a1.501 1.501 0 0 1 1.94 0l7.5 6.363a1.5 1.5 0 0 1 .53 1.144V19.5a1.5 1.5 0 0 1-1.5 1.5h-5.75a.75.75 0 0 1-.75-.75V14h-2v6.25a.75.75 0 0 1-.75.75H4.5A1.5 1.5 0 0 1 3 19.5v-9.403c0-.44.194-.859.53-1.144ZM12 3.734l-7.5 6.363V19.5h5v-6.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v6.25h5v-9.403Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Home</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="../../keywords/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M8.75 5.5h11.5a.75.75 0 0 1 0 1.5H8.75a.75.75 0 0 1 0-1.5Zm0 6h11.5a.75.75 0 0 1 0 1.5H8.75a.75.75 0 0 1 0-1.5Zm0 6h11.5a.75.75 0 0 1 0 1.5H8.75a.75.75 0 0 1 0-1.5ZM5 12a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM4 7a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm0 12a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Palavras-Chave</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="../../chart/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M5.962 2.513a.75.75 0 0 1-.475.949l-.816.272a.25.25 0 0 0-.171.237V21.25c0 .138.112.25.25.25h14.5a.25.25 0 0 0 .25-.25V3.97a.25.25 0 0 0-.17-.236l-.817-.272a.75.75 0 0 1 .474-1.424l.816.273A1.751 1.751 0 0 1 21 3.97v17.28A1.75 1.75 0 0 1 19.25 23H4.75A1.75 1.75 0 0 1 3 21.25V3.97a1.75 1.75 0 0 1 1.197-1.66l.816-.272a.75.75 0 0 1 .949.475Z"/><path d="M7 1.75C7 .784 7.784 0 8.75 0h6.5C16.216 0 17 .784 17 1.75v1.5A1.75 1.75 0 0 1 15.25 5h-6.5A1.75 1.75 0 0 1 7 3.25Zm1.75-.25a.25.25 0 0 0-.25.25v1.5c0 .138.112.25.25.25h6.5a.25.25 0 0 0 .25-.25v-1.5a.25.25 0 0 0-.25-.25Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Cartilha</span>
+                                </a>
+                            </li>
+        
+                        </ul>
+                    </nav>
+        
+                    <!-- Header Right Skeleton -->
+                    <div v-cloak class="flex justify-end grow skeleton">
+        
+                        <!-- Search input mock -->
+                        <div class="relative hidden w-40 lg:block lg:max-w-sm lg:ml-auto">
+                            <div class="absolute flex items-center justify-center h-full pl-3 dark:text-dark-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-base" width="16" height="16" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 1px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                            </div>
+                            <input class="w-full h-10 placeholder-search-placeholder transition-colors duration-200 ease-in bg-search-bg border border-transparent rounded md:text-sm hover:border-search-border-hover focus:outline-none focus:border-search-border-focus" style="padding: 0.625rem 0.75rem 0.625rem 2rem" type="text" placeholder="Search">
+                        </div>
+        
+                        <!-- Mobile search button -->
+                        <div class="flex items-center justify-center w-10 h-10 lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="20" height="20" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                        </div>
+        
+                        <!-- Dark mode switch placeholder -->
+                        <div class="w-10 h-10 lg:ml-2"></div>
+        
+                        <!-- History button -->
+                        <div class="flex items-center justify-center w-10 h-10" style="margin-right: -0.625rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="22" height="22" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><g ><path d="M12.01 6.01c-.55 0-1 .45-1 1V12a1 1 0 00.4.8l3 2.22a.985.985 0 001.39-.2.996.996 0 00-.21-1.4l-2.6-1.92V7.01c.02-.55-.43-1-.98-1z"></path><path d="M12.01 1.91c-5.33 0-9.69 4.16-10.05 9.4l-.29-.26a.997.997 0 10-1.34 1.48l1.97 1.79c.19.17.43.26.67.26s.48-.09.67-.26l1.97-1.79a.997.997 0 10-1.34-1.48l-.31.28c.34-4.14 3.82-7.41 8.05-7.41 4.46 0 8.08 3.63 8.08 8.09s-3.63 8.08-8.08 8.08c-2.18 0-4.22-.85-5.75-2.4a.996.996 0 10-1.42 1.4 10.02 10.02 0 007.17 2.99c5.56 0 10.08-4.52 10.08-10.08.01-5.56-4.52-10.09-10.08-10.09z"></path></g></g></svg>
+                        </div>
+                    </div>
+        
+                    <div v-cloak class="flex justify-end grow">
+                        <div id="retype-mobile-search-button"></div>
+                        <doc-search-desktop></doc-search-desktop>
+        
+                        <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                        <doc-history></doc-history>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+    
+        <div id="retype-container" class="container relative flex bg-white">
+            <!-- Sidebar Skeleton -->
+            <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-sidebar-left-bg border-sidebar-left-border sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton">
+            
+                <div class="flex items-center h-16 px-6">
+                    <input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear bg-filter-bg border border-filter-border rounded shadow-none text-sm focus:outline-none focus:border-filter-border-focus" type="text" placeholder="Filter">
+                </div>
+            
+                <div class="pl-6 mt-1 mb-4">
+                    <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                </div>
+            
+            </div>
+            
+            <!-- Sidebar component -->
+            <doc-sidebar v-cloak>
+                <template #sidebar-footer>
+                    <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-base-border">
+            
+                        <div class="py-3 px-6 md:hidden border-b dark:border-base-border">
+                            <nav>
+                                <ul class="flex flex-wrap justify-center items-center">
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="../../">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M11.03 2.59a1.501 1.501 0 0 1 1.94 0l7.5 6.363a1.5 1.5 0 0 1 .53 1.144V19.5a1.5 1.5 0 0 1-1.5 1.5h-5.75a.75.75 0 0 1-.75-.75V14h-2v6.25a.75.75 0 0 1-.75.75H4.5A1.5 1.5 0 0 1 3 19.5v-9.403c0-.44.194-.859.53-1.144ZM12 3.734l-7.5 6.363V19.5h5v-6.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v6.25h5v-9.403Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Home</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="../../keywords/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M8.75 5.5h11.5a.75.75 0 0 1 0 1.5H8.75a.75.75 0 0 1 0-1.5Zm0 6h11.5a.75.75 0 0 1 0 1.5H8.75a.75.75 0 0 1 0-1.5Zm0 6h11.5a.75.75 0 0 1 0 1.5H8.75a.75.75 0 0 1 0-1.5ZM5 12a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM4 7a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm0 12a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Palavras-Chave</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="../../chart/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M5.962 2.513a.75.75 0 0 1-.475.949l-.816.272a.25.25 0 0 0-.171.237V21.25c0 .138.112.25.25.25h14.5a.25.25 0 0 0 .25-.25V3.97a.25.25 0 0 0-.17-.236l-.817-.272a.75.75 0 0 1 .474-1.424l.816.273A1.751 1.751 0 0 1 21 3.97v17.28A1.75 1.75 0 0 1 19.25 23H4.75A1.75 1.75 0 0 1 3 21.25V3.97a1.75 1.75 0 0 1 1.197-1.66l.816-.272a.75.75 0 0 1 .949.475Z"/><path d="M7 1.75C7 .784 7.784 0 8.75 0h6.5C16.216 0 17 .784 17 1.75v1.5A1.75 1.75 0 0 1 15.25 5h-6.5A1.75 1.75 0 0 1 7 3.25Zm1.75-.25a.25.25 0 0 0-.25.25v1.5c0 .138.112.25.25.25h6.5a.25.25 0 0 0 .25-.25v-1.5a.25.25 0 0 0-.25-.25Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Cartilha</span>
+                                        </a>
+                                    </li>
+            
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </template>
+            </doc-sidebar>
+    
+            <div class="grow min-w-0 bg-body-bg">
+                <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+                <div class="flex">
+                    <div id="retype-main" class="min-w-0 p-4 grow md:px-16">
+                        <main class="relative pb-12 lg:pt-2">
+                            <div class="retype-markdown" id="retype-content">
+                                <!-- Rendered if sidebar right is enabled -->
+                                <div id="retype-sidebar-right-toggle"></div>
+                                <nav id="retype-breadcrumb" class="breadcrumb" aria-label="Breadcrumb">
+                                    <ol role="list">
+                                        <li class="pr-4">
+                                            <a href="../../" class="pr-4">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                                                    <path d="M11.03 2.59a1.501 1.501 0 0 1 1.94 0l7.5 6.363a1.5 1.5 0 0 1 .53 1.144V19.5a1.5 1.5 0 0 1-1.5 1.5h-5.75a.75.75 0 0 1-.75-.75V14h-2v6.25a.75.75 0 0 1-.75.75H4.5A1.5 1.5 0 0 1 3 19.5v-9.403c0-.44.194-.859.53-1.144ZM12 3.734l-7.5 6.363V19.5h5v-6.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v6.25h5v-9.403Z"/>
+                                                </svg>
+                                            </a>
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                                                <path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"/>
+                                            </svg>
+                                        </li>
+                                        <li class="pr-4">
+                                            <a href="../../world/" class="pr-4">
+                                                Mundo
+                                            </a>
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                                                <path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"/>
+                                            </svg>
+                                        </li>
+                                        <li class="pr-4">
+                                            <a href="../../world/ether/" class="pr-4">
+                                                Éter
+                                            </a>
+                                        </li>
+                                    </ol>
+                                </nav>
+                
+                                <!-- Page content  -->
+<!-- Insert this at the top of each markdown page -->
+<!-- Global Functions -->
+<doc-anchor-target id="éter" class="break-words">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#éter">#</doc-anchor-trigger>
+        <span>Éter</span>
+    </h1>
+</doc-anchor-target>
+<p>(TODO)</p>
+<hr>
+<doc-anchor-target id="etereologia">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#etereologia">#</doc-anchor-trigger>
+        <span>Etereologia</span>
+    </h2>
+</doc-anchor-target>
+<blockquote>
+<p><strong>Aethereology</strong> – do inglês (<em>&quot;aether&quot; éter</em> + <em>&quot;sufixo -ology&quot;, estudo</em>) → Estudo do éter</p>
+</blockquote>
+<p>(TODO)</p>
+<p>Aitereologia é a ciência que estuda o éter e suas propriedades, e como manipulá-lo para diversos fins.</p>
+<p>O estudo do éter é uma ciência complexa, que envolve conhecimentos de física, química, biologia e magia. Aitereólogos são, muitas vezes, vistos como excêntricos e loucos, mas também como sábios e poderosos.</p>
+<p>O éter pode ser primariamente manipulando quando antes é convertido em uma de duas formas de energia da vida: a energia física chamada de <em>estamina</em> e a energia espiritual chamada de <em>mana</em>.</p>
+<hr>
+<doc-anchor-target id="eterligador">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#eterligador">#</doc-anchor-trigger>
+        <span>Eterligador</span>
+    </h2>
+</doc-anchor-target>
+<blockquote>
+<p><strong>Aetherbinder</strong> – do inglês (<em>&quot;aether&quot; éter</em> + <em>&quot;binder&quot; ligador</em>) → Aquele que controla o éter</p>
+</blockquote>
+<p>(TODO)</p>
+<p>Aetherbinder, ou mais coloquialmente apenas <em>&quot;binder&quot;</em>, não é necessariamente um mago, mas alguém que tem a capacidade de manipular o éter, a energia que permeia o mundo, e que é a base de toda a magia. Mesmo um guerreiro tradicional, de armadura, espada e escudo, pode ser um aetherbinder, se ele tiver a capacidade de manipular o éter.</p>
+<p>Também são chamados de Aetherbinder aqueles que estudam o éter e suas propriedades, e que buscam entender como ele pode ser manipulado para diversos fins.</p>
+<p>Note que um pequeno use de <a href="../../hero/#estamina"><span class="skill"><b>ESTAMINA</b></span></a> e/ou <a href="../../hero/#mana"><span class="skill"><b>MANA</b></span></a> não faz de alguém um aetherbinder, já que é esperado de todos os seres vivos que eles utilizem estas duas energias de alguma forma para viverem e seguirem seu dia a dia. Aetherbinders são aqueles que têm a capacidade de manipular o éter de forma significativa, executando feitos que vão além do que é esperado, manobras e feitiços que desafiam a lógica e a razão e movem os limites do que se espera ser a capacidade do corpo humano e da realidade em que vivem.</p>
+<p>Existe também uma característica importante para ser um aetherbinder: É preciso ter uma conexão com o éter, uma afinidade com ele, em outras palavras, a alma deste personagem precisa ter um certo nível de evolução e poder, fazendo com que aquele indivíduo não seja mais apenas um ser vivo existindo para comer beber e procriar, mas está neste mundo com uma missão. Esta é uma característica que se nasce com, um Herói não se torna um companheiro e um companheiro não se torna Herói durante o seu período de vida, esta evolução e regresso acontece no plano astral, entre uma encarnação e outra.</p>
+<blockquote>
+<p>No jogo isso é expresso pelo que chamamos de Heroí, ou seja, um personagem que possui <a href="../../hero/table/"><span class="main"><b>MESA</b></span></a> e <a href="../../hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a>, diferente dos demais personagens, que são definidos pela sua carta de <a href="../../cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a> e anexos.</p>
+</blockquote>
+<blockquote>
+<p>Considera-se que Heróis por volta do nível 2 ou 3 podem começar a ser considerarado um aetherbinder, pois ele já tem cartas de <a href="../../cards/skill/"><span class="skill"><b>HABILIDADE</b></span></a> em seu memento com <a href="../../hero/#estamina"><span class="skill"><b>ESTAMINA</b></span></a> e/ou <a href="../../hero/#mana"><span class="skill"><b>MANA</b></span></a> em uma quantidade significativa. Além de dominar certos <a href="../../hero/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a>.</p>
+</blockquote>
+<p>Note que, narrativamente, a maioria dos habitantes do mundo do jogo não são personagens Heroís, mas sim personagens Companheiros, <u>e sabem pouco ou nada sobre o éter</u>, ou sobre aetherbinders. E mesmos os heróis em sua grande maioria estão entre os níveis 1 e 5, não sendo necessariamente aetherbinders em todos os casos.</p>
+<p>Aqueles que sabem o que é um aetherbinder, e o que ele é capaz de fazer, muitas vezes o temem ou o respeitam. Aetherbinders são vistos como seres fantasticos e perigosos, sendo admirados ou temidos, as vezes são tratados como heróis e maravilhas e as vezes como monstros, heresias ou aberrações.</p>
+<doc-anchor-target id="iniciado">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#iniciado">#</doc-anchor-trigger>
+        <span>Iniciado</span>
+    </h3>
+</doc-anchor-target>
+<p>Em alguns contextos, aetherbinders são chamados de <em>iniciados</em>, no contexto de terem sido introduzidos e apresentados aos segredos e mistérios do éter, geralmente relacionado a um conhecimento mágico de um grupo específico. Este termo é mais comum em contextos religiosos e místicos.</p>
+<doc-anchor-target id="companheiros-aetherbinders">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#companheiros-aetherbinders">#</doc-anchor-trigger>
+        <span>Companheiros Aetherbinders</span>
+    </h3>
+</doc-anchor-target>
+<p>Em alguns casos, um companheiro pode ser um aetherbinder, mas isso é raro. Alguns companheiros conseguem atingir esta capacidade por estarem em um nível de evolução da alma proxímo a de um Herói. Um companheiro aetherbinder nunca conseguira atingir os limites que um Herói aetherbinder pode atingir, mas ainda assim, ele pode ser bastante poderoso.</p>
+<p>E em casos ainda mais raros, um companheiro aetherbinder pode ter um <a href="../../cards/entity/"><span class="entity"><b>ENTE</b></span></a>, estes são chamados de <strong>receptáculos</strong>. Demonstrando uma evolução da alma próxima a de um Herói.</p>
+<hr>
+<doc-anchor-target id="anétero">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#anétero">#</doc-anchor-trigger>
+        <span>Anétero</span>
+    </h2>
+</doc-anchor-target>
+<blockquote>
+<p><strong>Aetherless</strong> – do inglês (<em>&quot;aether&quot; éter</em> + <em>&quot;less&quot; sem</em>) → Aquele que é sem éter</p>
+</blockquote>
+<p>Termo usado para se referir a um ser que não possui a capacidade de manipular o éter, ou seja, que não é um aetherbinder. A maioria dos seres vivos no mundo do jogo são aetherless, e este é um termo coloquial utilizado na literatura e academia.</p>
+<doc-anchor-target id="lodocéfalo">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#lodocéfalo">#</doc-anchor-trigger>
+        <span>Lodocéfalo</span>
+    </h3>
+</doc-anchor-target>
+<blockquote>
+<p><strong>Mudsense</strong> – do inglês (<em>&quot;mud&quot; lama</em> + <em>&quot;sense&quot; sentido</em>) → Aquele que não percebe o éter</p>
+</blockquote>
+<p>O mesmo que <em>anétero</em>, porém, este é um termo derrogatório e de conotação pejorativo usado para se referir a um ser que não percebe o éter. É geralmente utilizado por atherebinders elitistas com a intenção de segregar, ofender ou reduzir aqueles que não possuem a capacidade de manipular o éter.</p>
+<p>O uso da palavra <em>lama</em> neste contexto, refere-se ao prendimento do indivíduo ao mundo material, no caso, se limitar ao corpo físico e não perceber o corpo espiritual, já que em várias mitologias o corpo físico é feito da lama.</p>
+<hr>
+<doc-anchor-target id="nascimento-de-um-aetherbinder">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#nascimento-de-um-aetherbinder">#</doc-anchor-trigger>
+        <span>Nascimento de um Aetherbinder</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="éteronato">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#éteronato">#</doc-anchor-trigger>
+        <span>Éteronato</span>
+    </h3>
+</doc-anchor-target>
+<blockquote>
+<p><strong>Aetherborn</strong> – do inglês (<em>&quot;aether&quot; éter</em> + <em>&quot;born&quot; nascer</em>) → Aquele que nasceu no éter</p>
+</blockquote>
+<p>Termo utilizado para ser referir a uma pessoa que nasceu em um ambiente onde o conhecimento do éter é comum, geralmente filho de pais aetherbinders ou de uma comunidade que tem conhecimento do éter. O que permitiu que ele tivesse uma educação e treinamento adequado para se tornar um aetherbinder desde a infância.</p>
+<doc-anchor-target id="velonato">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#velonato">#</doc-anchor-trigger>
+        <span>Velonato</span>
+    </h3>
+</doc-anchor-target>
+<blockquote>
+<p><strong>Veilborn</strong> – do inglês (<em>&quot;veil&quot; véu</em> + <em>&quot;born&quot; nascer</em>) → Aquele que nasceu no véu</p>
+</blockquote>
+<p>Termo utilizado para se referir a uma pessoa que nasceu em um ambiente onde o conhecimento do éter é raro ou inexistente, geralmente filho de pais anéteros ou de uma comunidade que não tem conhecimento do éter. O que fez com que ele não soubesse sobre o éter ou tivesse que descobrir o éter por conta própria, ou por acaso, e teve que aprender a manipulá-lo sem a ajuda de um treinamento adequado.</p>
+<hr>
+<doc-anchor-target id="linhas-ley">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#linhas-ley">#</doc-anchor-trigger>
+        <span>Linhas Ley</span>
+    </h2>
+</doc-anchor-target>
+<p>As linhas lay são chamadas de veias da terra por alguns estudiosos em APOTEOSE, o que faz com que os mesmos chamem o éter de sangue divino ou sangue da terra.</p>
+<hr>
+<doc-anchor-target id="rede-do-éter">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#rede-do-éter">#</doc-anchor-trigger>
+        <span>Rede do Éter</span>
+    </h2>
+</doc-anchor-target>
+<p>É a rede de mentes, ideias, e pensamentos, multiconectados através do éter que permeia o mundo físico. Toda mente faz parte desta rede. É por estarem todos ligados nela que existe o o inconsciênte coletivo, passado para as pessoas equanto sonham.</p>
+<hr>
+<doc-anchor-target id="teografia">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#teografia">#</doc-anchor-trigger>
+        <span>Teografia</span>
+    </h2>
+</doc-anchor-target>
+<p>(TODO) não apenas como pinturas corporais, mas também como circuitos, geomancia, etc.</p>
+<hr>
+<doc-anchor-target id="encruzilhadas">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#encruzilhadas">#</doc-anchor-trigger>
+        <span>Encruzilhadas</span>
+    </h2>
+</doc-anchor-target>
+<p>Por serem locais com grande fluxo de pessoas, lê-se almas, existe muita energia passando por ali, isso torna o lugar carregado de éter assim com ouma ferida da terra. Locais como estes são ótimos para invocar DJINNs.</p>
+<hr>
+<doc-anchor-target id="materiais">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#materiais">#</doc-anchor-trigger>
+        <span>Materiais</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="condutores-de-éter">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#condutores-de-éter">#</doc-anchor-trigger>
+        <span>Condutores de Éter</span>
+    </h3>
+</doc-anchor-target>
+<p>Materiais com capacidade de conduzir e fluir éter por sua matéria.<br />
+Listados do mais condutivo para o menos condutivo</p>
+<ol>
+<li>Ouro, Ouro Branco</li>
+<li>Irídio</li>
+<li>Oricalco (Liga de aço platinado forjado utilizando fogo dourado)</li>
+<li>Cobre, Bronze</li>
+<li>Quartzo</li>
+<li>Ferro, Aço</li>
+<li>Sangue, Tinta Teográfica (Feita com sangue)</li>
+<li>(Demais metais e minerais estão tecnicamente empatados)</li>
+</ol>
+<doc-anchor-target id="isolantes-de-éter">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#isolantes-de-éter">#</doc-anchor-trigger>
+        <span>Isolantes de Éter</span>
+    </h3>
+</doc-anchor-target>
+<p>Materiais com capacidade de bloquear e parar éter em sua matéria.<br />
+Listados do mais isolante para o menos isolante</p>
+<ol>
+<li>Sangue do Dragão (Substância rosácea viscosa artificial feita através de processos de transformação alquímicos avançados utilizando como ingredientes principais mercúrio e sangue vermelho. Também tem propriedades conservantes de matéria orgânica).</li>
+<li>Chumbo</li>
+<li>Mercúrio (Quando estacionário)</li>
+<li>Madeira, Osso</li>
+</ol>
+<doc-anchor-target id="armazenadores-de-éter">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#armazenadores-de-éter">#</doc-anchor-trigger>
+        <span>Armazenadores de Éter</span>
+    </h3>
+</doc-anchor-target>
+<p>Materiais com capacidade de armazenar e reter éter em sua matéria.<br />
+Listados do maior para o menor potencial.</p>
+<ol>
+<li>Âmbar (Cristal translúcido alaranjado quebradiço artificial feito através de processos de transformação alquímicos avançados utilizando como ingredientes principais ouro e urina. Também tem propriedades explosivas (liberação de energia etérea armazenada)).</li>
+<li>Cristal</li>
+<li>Vidro</li>
+</ol>
+<doc-anchor-target id="manipuladores-de-éter">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#manipuladores-de-éter">#</doc-anchor-trigger>
+        <span>Manipuladores de Éter</span>
+    </h3>
+</doc-anchor-target>
+<p>Materiais capazes de facilitar ou auxiliar significativamente na manipulação do éter e na conversão e utilização de <a href="../../hero/#mana"><span class="skill"><b>MANA</b></span></a> (Éter em sua forma utilizada como catalizador ou alimentador de magia (alterar a realidade))</p>
+<ol>
+<li>Mercúrio (Quando em vórtice)</li>
+<li>Diamante</li>
+<li>Ruby / Safira / Esmeralda / Jade</li>
+<li>(Outras gemas preciosas)</li>
+</ol>
+<hr>
+<doc-anchor-target id="o-vazio">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#o-vazio">#</doc-anchor-trigger>
+        <span>O Vazio</span>
+    </h2>
+</doc-anchor-target>
+<p>Quando existe apenas éter e mais nada. Não há forma, nem estrutura, nem matéria, nem energia. O vazio é o estado primordial do éter, e é de onde tudo se origina. É o estado de pura potencialidade, onde todas as possibilidades existem simultaneamente.</p>
+<p>(É possível levar uma mente para o vazio)</p>
+<doc-anchor-target id="arcofluxo">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#arcofluxo">#</doc-anchor-trigger>
+        <span>Arcofluxo</span>
+    </h3>
+</doc-anchor-target>
+<hr>
+<doc-anchor-target id="contornando-defesas-etéreas">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#contornando-defesas-etéreas">#</doc-anchor-trigger>
+        <span>Contornando Defesas Etéreas</span>
+    </h2>
+</doc-anchor-target>
+<p>Como a Alma está selada ao corpo, por um selamento simples, são necessários utilizar as mesmas técnicas de violação de selo, com suas devidas adaptações os métodos utilizados para desencarnar, utilizados pelo conhecimento Alma e os métodos para invasão de mentes, utilizados pelo conhecimento Mental, já que a mente é a parcela senciente da alma.</p>
+<doc-anchor-target id="força-bruta">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#força-bruta">#</doc-anchor-trigger>
+        <span>Força Bruta</span>
+    </h3>
+</doc-anchor-target>
+<p>Seria testar todas as combinações possíveis de desenhos e metais para descobrir o contrasselo, por razões evidentes este método é impraticável na maioria das vezes.</p>
+<doc-anchor-target id="injeção">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#injeção">#</doc-anchor-trigger>
+        <span>Injeção</span>
+    </h3>
+</doc-anchor-target>
+<p>É o ato de enviar energias para um alvo e esperar que elas desequilibrem o funcionamento interno do seu fluxo de éter, alterando assim as suas medidas de segurança.</p>
+<doc-anchor-target id="mago-no-meio">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#mago-no-meio">#</doc-anchor-trigger>
+        <span>Mago-no-Meio</span>
+    </h3>
+</doc-anchor-target>
+<p>Semelhante à Farejar, mas neste caso o usuário se coloca no meio de uma comunicação entre duas mentes e intercepta as mensagens viajando de um lado para outro e as altera conforme sua vontade.</p>
+<doc-anchor-target id="farejar">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#farejar">#</doc-anchor-trigger>
+        <span>Farejar</span>
+    </h3>
+</doc-anchor-target>
+<p>É a prática de “ouvir” a rede do éter. O usuário sintoniza sua mente com uma linha etérea próxima, e fica monitorando as energias passando por ali. Esse é considerado um exercício simples.</p>
+<doc-anchor-target id="selo">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#selo">#</doc-anchor-trigger>
+        <span>Selo</span>
+    </h3>
+</doc-anchor-target>
+<p>São utilizadas para aprisionar Éter em objetos materiais, incluindo seres vivos. Em teoria a alma nada mais é que um conjunto identidade de éter selado ao corpo e o selo se quebra na hora da morte.</p>
+<p>Selamento é considerado a mais complexa e respeitada área da Aitereologia, seus membros acabaram formando uma casta segregacionista no meio acadêmico.</p>
+<p>Metaforicamente falando, um selo etéreo é como uma tranca, que pode ou não ter uma chave, chamada de contrasselo. Ao ser arquitetado, um selo é pensado para ser o mais difícil possível de ser arrombado. Assim como na engenharia de fechaduras, os selamentos possuem técnicas padronizadas de construção, assim como técnicas conhecidas de violação. Essas técnicas de violação também fazem parte do Conhecimento Selamento, ou seja, os melhores quebradores de selos são também criadores de selos.</p>
+<p>Esse conhecimento é muito importante, pois como o Éter pode atravessar o espaço-tempo pelo seu próprio plano, esta é a única forma conhecida de impedir que matéria física seja influenciada por energias etéreas.</p>
+<p>Selamentos não costumam precisar de mais que 1 ou 2 PM para serem ativados (Esse PM pago para ativar é chamado de Gatilho), o éter é obtido e manipulado pelo ritual em si, ou seja, a arquitetura e os materiais utilizados em cada ritual, por este motive a geometria e conhecimento das propriedades mágicas das diferentes matérias é importante para se desenvolver selamentos.</p>
+<p>Mecânica</p>
+<p>Suas habilidades são em maioria dos tipos Ritual, geralmente são sistemas de proteção contra ameaças etéreas, ou formas de capturar éter.</p>
+<doc-anchor-target id="realizando-um-selamento">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#realizando-um-selamento">#</doc-anchor-trigger>
+        <span>Realizando um Selamento</span>
+    </h4>
+</doc-anchor-target>
+<p>Um selamento é composto por dois elementos, uma geometria e um metal alquímico, específico para cada situação e definido pela Habilidade. O selamento é iniciado por uma Ignição.</p>
+<p>Como todo ritual, requer alguns turnos de preparação para poder ser executado, onde o usuário irá construir a parte física do selamento.</p>
+<p>O metal, deve ser colocado ao centro, e a forma geométrica deve ser desenhada ao redor. A forma ou modelagem do metal em si não é importante, desde que ele seja relativamente puro ou reminado e maior que um limão.</p>
+<p>É nas linhas do desenho que o éter irá correr e agir com o metal para realizar a função especificada, por este motivo, estas linhas devem ser feitas utilizando um material condutor, tinta teográfica e sangue são comumente utilizados, mas, qualquer outro condutor, e combinações de condutores, também podem ser usadas, porém isso costuma afetar a eficiência.</p>
+<p>O tamanho do desenho costuma ser definido pela Habilidade, quando isto não acontece, significa que um desenho de aproximadamente 20cm de diâmetro é o suficiente, e qualquer aumento nisso não tem alteração de resultado.</p>
+<doc-anchor-target id="quebrando-um-selamento">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#quebrando-um-selamento">#</doc-anchor-trigger>
+        <span>Quebrando um Selamento</span>
+    </h3>
+</doc-anchor-target>
+<p>Para quebrar um selamento, é necessário primeiro descobrir seu metal e sua geometria, então basta realizar o mesmo ritual, relativamente no mesmo local, invertendo o metal que aponta para ele conforme o diagrama.</p>
+<p>Cada metal tem uma função específica nesta área.</p>
+<p>Se não for possível descobrir como o selamento foi executado, ainda existem maneira de contornar esse problema e quebrar o selamento, e é aqui que as coisas ficam complicadas, veja o final deste capítulo para saber mais.</p>
+<hr>
+<!-- Insert this at the bottom of each markdown page -->
+<!-- Tooltips -->
+<!-- *[AWS]: Amazon Web Services -->
+
+                                
+                                <!-- Required only on API pages -->
+                                <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
+                            </div>
+                            <footer id="retype-content-footer" class="clear-both">
+                            
+                                <nav id="retype-nextprev" class="print:hidden flex mt-14">
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../world/lore/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                            <span>
+                                                <span class="block text-xs font-normal text-base-text-muted">Previous</span>
+                                                <span class="block mt-1">História e Mitologia</span>
+                                            </span>
+                                        </a>
+                                    </div>
+                            
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../world/campaigns/">
+                                            <span>
+                                                <span class="block text-xs font-normal text-right text-base-text-muted">Next</span>
+                                                <span class="block mt-1">Campanhas</span>
+                                            </span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                        </a>
+                                    </div>
+                                </nav>
+                            </footer>
+                        </main>
+                
+                        <div id="retype-page-footer" class="print:border-none border-t border-base-border pt-6 mb-8">
+                            <footer class="flex flex-wrap items-center justify-between print:justify-center">
+                                <div id="retype-footer-links" class="print:hidden">
+                                    <ul class="flex flex-wrap items-center text-sm">
+                                    </ul>
+                                </div>
+                                <div id="retype-copyright" class="print:justify-center py-2 text-footer-text font-footer-link-weight text-sm leading-relaxed"><p>© Copyright Bruno Caxito, 2025. All rights reserved.</p></div>
+                            </footer>
+                        </div>
+                    </div>
+                
+                    <!-- Rendered if sidebar right is enabled -->
+                    <!-- Sidebar right skeleton-->
+                    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-sidebar-right-bg border-sidebar-right-border lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:transform-none sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton">
+                        <div class="pl-5">
+                            <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                            <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                            <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                        </div>
+                    </div>
+                
+                    <!-- User should be able to hide sidebar right -->
+                    <doc-sidebar-right v-cloak></doc-sidebar-right>
+                </div>
+
+            </div>
+        </div>
+    
+        <doc-search-mobile></doc-search-mobile>
+        <doc-back-to-top></doc-back-to-top>
+    </div>
+
+
+    <div id="retype-overlay-target"></div>
+
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Éter", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+
+    <!-- Footer -->
+    <footer>
+
+
+
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+
+
+
+    </script>
+
+    <!-- End Content -->
+    <div>
+
+
+
+    </div>
+</body>
+</html>

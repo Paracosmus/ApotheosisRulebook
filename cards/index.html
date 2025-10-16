@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6DMTE08V5G"></script>
+    <script data-cfasync="false">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-6DMTE08V5G');</script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.813942015979">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 3.11.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Cartas</title>
+    <meta name="title" content="Cartas">
+    <meta name="description" content="Assim como está no nome, as cartas são a base do jogo de APOTHEOSIS, personages e eventos são construídos a partir delas.">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://apotheosiscardgame.com/cards/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://apotheosiscardgame.com/cards/">
+    <meta property="og:title" content="Cartas">
+    <meta property="og:description" content="Assim como está no nome, as cartas são a base do jogo de APOTHEOSIS, personages e eventos são construídos a partir delas.">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://apotheosiscardgame.com/cards/">
+    <meta property="twitter:title" content="Cartas">
+    <meta property="twitter:description" content="Assim como está no nome, as cartas são a base do jogo de APOTHEOSIS, personages e eventos são construídos a partir delas.">
+
+    <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
+
+    <link href="../static/img/favicon.ico" rel="icon">
+    <link href="../resources/css/retype.css?v=3.11.0.813942015979" rel="stylesheet">
+
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.11.0.813942015979" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.11.0.813942015979" data-turbo-eval="false" defer></script>
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <style>
+
+        /* Fallback Apotheosis Icons font */
+        @font-face {
+            font-family: 'Apotheosis';
+            src: url('/static/fonts/apotheosis.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            font-display: block;
+        }
+
+        div.container {
+            font-family: 'Open Sans', Apotheosis;
+            max-width: 1440px;
+        }
+
+        h1, h2 {
+            text-transform: uppercase;
+        }
+
+        b {
+            font-weight: 650;
+            letter-spacing: 0.2px;
+        }
+
+        .icon {
+            font-weight: normal;
+        }
+
+        /* Bonus */
+        .positive {
+            font-weight: bold;
+            color: green;
+        }
+
+        .negative {
+            font-weight: bold;
+            color: red;
+        }
+
+        /* Colors */
+        .main      { color: #212121; } .dark .main { color: #DADADA; }
+
+        .house     { color: #673AB7; }
+        .class     { color: #F44336; }
+        .entity    { color: #3F51B5; }
+        .item      { color: #FFC107; }
+        .skill     { color: #2196F3; }
+        .companion { color: #FF7043; }
+        .event     { color: #4CAF50; }
+
+        .summus    { color: #FF22B2; }
+        .knowledge { color: #995D52; }
+
+        .common    { color: #9E9E9E; }
+    	.uncommon  { color: #8BC34A; }
+    	.rare      { color: #01579B; }
+    	.epic      { color: #673AB7; }
+    	.legendary { color: #FFC400; }
+
+        .yellow    { color: #FFEB3B; }
+    	.red       { color: #B71C1C; }
+    	.blue      { color: #0D47A1; }
+    	.white     { color: #BDBDBD; }
+    	.black     { color: #424242; } .dark .black { color: #454545; }
+
+        .hidden    { color: RED; } .dark .hidden { color: #424242; }
+
+        .keyword-activation {
+            font-size: 0.8em;
+            text-transform: uppercase;
+            color: #F5F5F5;
+            background-color: #3676BC;
+            border-radius: 4px;
+            padding: 0px 5px;
+            font-weight: 600;
+        }
+
+        .keyword-timing {
+            font-size: 0.8em;
+            text-transform: uppercase;
+            color: #F5F5F5;
+            background-color: #F78A1F;
+            border-radius: 4px;
+            padding: 0px 5px;
+            font-weight: 600;
+        }
+
+        .keyword-limit {
+            font-size: 0.8em;
+            text-transform: uppercase;
+            color: #F5F5F5;
+            background-color: #EF4056;
+            border-radius: 20px;
+            padding: 0px 8px;
+            font-weight: 600;
+        }
+
+        .keyword-scope {
+            font-size: 0.8em;
+            text-transform: uppercase;
+            color: #F5F5F5;
+            background-color: #932969;
+            border-radius: 20px;
+            padding: 0px 8px;
+            font-weight: 600;
+        }
+
+        .keyword-task {
+            position: relative;
+            text-transform: uppercase;
+            display: inline-block;
+            font-size: 0.8em;
+            color: #F5F5F5;
+            background-color: #212121;
+            margin: 0px 8px;
+            padding: 0px 5px; /* espaço para as pontas */
+            font-weight: 600;
+            border-radius: 8px;
+        } .keyword-task::before, .keyword-task::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            width: 0;
+            height: 0;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+        } .keyword-task::before {
+            left: -6px;
+            border-right: 10px solid #212121; /* mesma cor do fundo */
+            transform: translateY(-50%);
+        } .keyword-task::after {
+            right: -6px;
+            border-left: 10px solid #212121; /* mesma cor do fundo */
+            transform: translateY(-50%);
+        }
+
+        .requirement {
+            font-size: 0.8em;
+            color: #F5F5F5;
+            background-color: #5C697A;
+            border-radius: 4px;
+            padding: 0px 8px;
+            font-weight: 550;
+        }
+    </style>
+
+
+    <!-- Scripts -->
+    <script>
+
+
+
+    </script>
+
+
+    <!-- Page Header Content -->
+    <div>
+
+
+
+    </div>
+</head>
+<body>
+    <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
+        <div class="absolute bottom-0 left-0" style="top: 5rem; right: 50%"></div>
+    
+        <header id="retype-header" class="sticky top-0 z-30 flex w-full h-16 bg-header-bg border-b border-header-border md:h-20">
+            <div class="container relative flex items-center justify-between pr-6 grow md:justify-start">
+                <!-- Mobile menu button skeleton -->
+                <button v-cloak class="skeleton retype-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+                <div v-cloak id="retype-sidebar-left-toggle-button"></div>
+        
+                <!-- Logo -->
+                <div class="flex items-center justify-between h-full py-2 md:w-75">
+                    <div class="flex items-center px-2 md:px-6">
+                        <a id="retype-branding-logo" href="../" class="flex items-center leading-snug text-2xl">
+                            <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
+                                <img class="max-h-10 dark:hidden md:inline-block" src="../static/img/logo.svg">
+                                <img class="max-h-10 hidden dark:inline-block" src="../static/img/logo.svg">
+                            </span>
+                            <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">Apotheosis</span>
+                        </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">book</span>
+                    </div>
+        
+                    <span class="hidden h-8 border-r md:inline-block border-base-border"></span>
+                </div>
+        
+                <div class="flex justify-between md:grow">
+                    <!-- Top Nav -->
+                    <nav id="retype-header-nav" class="hidden md:flex">
+                        <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="../">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M11.03 2.59a1.501 1.501 0 0 1 1.94 0l7.5 6.363a1.5 1.5 0 0 1 .53 1.144V19.5a1.5 1.5 0 0 1-1.5 1.5h-5.75a.75.75 0 0 1-.75-.75V14h-2v6.25a.75.75 0 0 1-.75.75H4.5A1.5 1.5 0 0 1 3 19.5v-9.403c0-.44.194-.859.53-1.144ZM12 3.734l-7.5 6.363V19.5h5v-6.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v6.25h5v-9.403Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Home</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="../keywords/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M8.75 5.5h11.5a.75.75 0 0 1 0 1.5H8.75a.75.75 0 0 1 0-1.5Zm0 6h11.5a.75.75 0 0 1 0 1.5H8.75a.75.75 0 0 1 0-1.5Zm0 6h11.5a.75.75 0 0 1 0 1.5H8.75a.75.75 0 0 1 0-1.5ZM5 12a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM4 7a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm0 12a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Palavras-Chave</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="../chart/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M5.962 2.513a.75.75 0 0 1-.475.949l-.816.272a.25.25 0 0 0-.171.237V21.25c0 .138.112.25.25.25h14.5a.25.25 0 0 0 .25-.25V3.97a.25.25 0 0 0-.17-.236l-.817-.272a.75.75 0 0 1 .474-1.424l.816.273A1.751 1.751 0 0 1 21 3.97v17.28A1.75 1.75 0 0 1 19.25 23H4.75A1.75 1.75 0 0 1 3 21.25V3.97a1.75 1.75 0 0 1 1.197-1.66l.816-.272a.75.75 0 0 1 .949.475Z"/><path d="M7 1.75C7 .784 7.784 0 8.75 0h6.5C16.216 0 17 .784 17 1.75v1.5A1.75 1.75 0 0 1 15.25 5h-6.5A1.75 1.75 0 0 1 7 3.25Zm1.75-.25a.25.25 0 0 0-.25.25v1.5c0 .138.112.25.25.25h6.5a.25.25 0 0 0 .25-.25v-1.5a.25.25 0 0 0-.25-.25Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Cartilha</span>
+                                </a>
+                            </li>
+        
+                        </ul>
+                    </nav>
+        
+                    <!-- Header Right Skeleton -->
+                    <div v-cloak class="flex justify-end grow skeleton">
+        
+                        <!-- Search input mock -->
+                        <div class="relative hidden w-40 lg:block lg:max-w-sm lg:ml-auto">
+                            <div class="absolute flex items-center justify-center h-full pl-3 dark:text-dark-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-base" width="16" height="16" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 1px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                            </div>
+                            <input class="w-full h-10 placeholder-search-placeholder transition-colors duration-200 ease-in bg-search-bg border border-transparent rounded md:text-sm hover:border-search-border-hover focus:outline-none focus:border-search-border-focus" style="padding: 0.625rem 0.75rem 0.625rem 2rem" type="text" placeholder="Search">
+                        </div>
+        
+                        <!-- Mobile search button -->
+                        <div class="flex items-center justify-center w-10 h-10 lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="20" height="20" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                        </div>
+        
+                        <!-- Dark mode switch placeholder -->
+                        <div class="w-10 h-10 lg:ml-2"></div>
+        
+                        <!-- History button -->
+                        <div class="flex items-center justify-center w-10 h-10" style="margin-right: -0.625rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="22" height="22" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><g ><path d="M12.01 6.01c-.55 0-1 .45-1 1V12a1 1 0 00.4.8l3 2.22a.985.985 0 001.39-.2.996.996 0 00-.21-1.4l-2.6-1.92V7.01c.02-.55-.43-1-.98-1z"></path><path d="M12.01 1.91c-5.33 0-9.69 4.16-10.05 9.4l-.29-.26a.997.997 0 10-1.34 1.48l1.97 1.79c.19.17.43.26.67.26s.48-.09.67-.26l1.97-1.79a.997.997 0 10-1.34-1.48l-.31.28c.34-4.14 3.82-7.41 8.05-7.41 4.46 0 8.08 3.63 8.08 8.09s-3.63 8.08-8.08 8.08c-2.18 0-4.22-.85-5.75-2.4a.996.996 0 10-1.42 1.4 10.02 10.02 0 007.17 2.99c5.56 0 10.08-4.52 10.08-10.08.01-5.56-4.52-10.09-10.08-10.09z"></path></g></g></svg>
+                        </div>
+                    </div>
+        
+                    <div v-cloak class="flex justify-end grow">
+                        <div id="retype-mobile-search-button"></div>
+                        <doc-search-desktop></doc-search-desktop>
+        
+                        <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                        <doc-history></doc-history>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+    
+        <div id="retype-container" class="container relative flex bg-white">
+            <!-- Sidebar Skeleton -->
+            <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-sidebar-left-bg border-sidebar-left-border sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton">
+            
+                <div class="flex items-center h-16 px-6">
+                    <input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear bg-filter-bg border border-filter-border rounded shadow-none text-sm focus:outline-none focus:border-filter-border-focus" type="text" placeholder="Filter">
+                </div>
+            
+                <div class="pl-6 mt-1 mb-4">
+                    <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                </div>
+            
+            </div>
+            
+            <!-- Sidebar component -->
+            <doc-sidebar v-cloak>
+                <template #sidebar-footer>
+                    <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-base-border">
+            
+                        <div class="py-3 px-6 md:hidden border-b dark:border-base-border">
+                            <nav>
+                                <ul class="flex flex-wrap justify-center items-center">
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="../">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M11.03 2.59a1.501 1.501 0 0 1 1.94 0l7.5 6.363a1.5 1.5 0 0 1 .53 1.144V19.5a1.5 1.5 0 0 1-1.5 1.5h-5.75a.75.75 0 0 1-.75-.75V14h-2v6.25a.75.75 0 0 1-.75.75H4.5A1.5 1.5 0 0 1 3 19.5v-9.403c0-.44.194-.859.53-1.144ZM12 3.734l-7.5 6.363V19.5h5v-6.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v6.25h5v-9.403Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Home</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="../keywords/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M8.75 5.5h11.5a.75.75 0 0 1 0 1.5H8.75a.75.75 0 0 1 0-1.5Zm0 6h11.5a.75.75 0 0 1 0 1.5H8.75a.75.75 0 0 1 0-1.5Zm0 6h11.5a.75.75 0 0 1 0 1.5H8.75a.75.75 0 0 1 0-1.5ZM5 12a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM4 7a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm0 12a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Palavras-Chave</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="../chart/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M5.962 2.513a.75.75 0 0 1-.475.949l-.816.272a.25.25 0 0 0-.171.237V21.25c0 .138.112.25.25.25h14.5a.25.25 0 0 0 .25-.25V3.97a.25.25 0 0 0-.17-.236l-.817-.272a.75.75 0 0 1 .474-1.424l.816.273A1.751 1.751 0 0 1 21 3.97v17.28A1.75 1.75 0 0 1 19.25 23H4.75A1.75 1.75 0 0 1 3 21.25V3.97a1.75 1.75 0 0 1 1.197-1.66l.816-.272a.75.75 0 0 1 .949.475Z"/><path d="M7 1.75C7 .784 7.784 0 8.75 0h6.5C16.216 0 17 .784 17 1.75v1.5A1.75 1.75 0 0 1 15.25 5h-6.5A1.75 1.75 0 0 1 7 3.25Zm1.75-.25a.25.25 0 0 0-.25.25v1.5c0 .138.112.25.25.25h6.5a.25.25 0 0 0 .25-.25v-1.5a.25.25 0 0 0-.25-.25Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Cartilha</span>
+                                        </a>
+                                    </li>
+            
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </template>
+            </doc-sidebar>
+    
+            <div class="grow min-w-0 bg-body-bg">
+                <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+                <div class="flex">
+                    <div id="retype-main" class="min-w-0 p-4 grow md:px-16">
+                        <main class="relative pb-12 lg:pt-2">
+                            <div class="retype-markdown" id="retype-content">
+                                <!-- Rendered if sidebar right is enabled -->
+                                <div id="retype-sidebar-right-toggle"></div>
+                                <nav id="retype-breadcrumb" class="breadcrumb" aria-label="Breadcrumb">
+                                    <ol role="list">
+                                        <li class="pr-4">
+                                            <a href="../" class="pr-4">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                                                    <path d="M11.03 2.59a1.501 1.501 0 0 1 1.94 0l7.5 6.363a1.5 1.5 0 0 1 .53 1.144V19.5a1.5 1.5 0 0 1-1.5 1.5h-5.75a.75.75 0 0 1-.75-.75V14h-2v6.25a.75.75 0 0 1-.75.75H4.5A1.5 1.5 0 0 1 3 19.5v-9.403c0-.44.194-.859.53-1.144ZM12 3.734l-7.5 6.363V19.5h5v-6.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v6.25h5v-9.403Z"/>
+                                                </svg>
+                                            </a>
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                                                <path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"/>
+                                            </svg>
+                                        </li>
+                                        <li class="pr-4">
+                                            <a href="../cards/" class="pr-4">
+                                                Cartas
+                                            </a>
+                                        </li>
+                                    </ol>
+                                </nav>
+                
+                                <!-- Page content  -->
+<!-- Insert this at the top of each markdown page -->
+<!-- Global Functions -->
+<doc-anchor-target id="cartas" class="break-words">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#cartas">#</doc-anchor-trigger>
+        <span>Cartas</span>
+    </h1>
+</doc-anchor-target>
+<p>Assim como está no nome, as cartas são a base do jogo de APOTHEOSIS, personages e eventos são construídos a partir delas. Cada carta possui um conjunto de informações que são utilizadas para dar função e significado ao jogo.</p>
+<p>No decorrer da partida, os jogadores coletam cartas para construir seus personagens e progredir no objetivo.</p>
+<p>São utilizados sete naipes de cartas com funções e mecânicas próprias, divididos em dois grupos, que também podem ser identificados pelo layout em que estão dispostos as informações na carta.</p>
+<dl>
+<dt><strong>Cartas de Ficha</strong></dt>
+<dd>
+<p><a href="house/"><span class="house"><b>CASA</b></span></a> | <a href="class/"><span class="class"><b>CLASSE</b></span></a> | <a href="entity/"><span class="entity"><b>ENTE</b></span></a></p>
+<blockquote>
+<p>São utilizadas para representar características intrínsecas do personagem, como sua origem e ocupação.</p>
+</blockquote>
+<p><strong>Uso</strong>: Estas cartas podem estar apenas eu seus respectivos baralhos, pilhas de descarte, anexadas, <doc-anchor-trigger to="#palavras-chave-de-efeito-keyword"><span class="keyword-scope">Mão</span></doc-anchor-trigger>, ou no espaço apropriado designado da <a href="../hero/table/"><span class="main"><b>MESA</b></span></a> de um Herói. Se uma situação de jogo resultar nesta carta estar ou ser envida para outro local que não estes, ela deve ser enviada para a pilha de descarte.</p>
+</dd>
+<dt><strong>Cartas de Recurso</strong></dt>
+<dd>
+<p><a href="item/"><span class="item"><b>ITEM</b></span></a> | <a href="skill/"><span class="skill"><b>HABILIDADE</b></span></a> | <a href="companion/"><span class="companion"><b>COMPANHEIRO</b></span></a> | <a href="event/"><span class="event"><b>EVENTO</b></span></a></p>
+<blockquote>
+<p>São utilizadas para representar elementos que auxiliam o personagem em sua jornada, como objetos e capacidades.</p>
+</blockquote>
+<p><strong>Uso</strong>: Estas cartas possuem um requerimento de nível mínimo de <a href="../hero/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a>, que um Herói precisa ter para ter esta carta em sua <a href="../hero/table/"><span class="main"><b>MESA</b></span></a>, exceto quando anexadas a uma outra carta. Se uma situação de jogo resultar nesta carta estar ou ser envida para <a href="../hero/table/"><span class="main"><b>MESA</b></span></a> de um Herói que não atenda a este requerimento, ela deve ser enviada para o <a href="../hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a> do mesmo.</p>
+</dd>
+</dl>
+<hr>
+<doc-anchor-target id="efeito">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#efeito">#</doc-anchor-trigger>
+        <span>Efeito</span>
+    </h2>
+</doc-anchor-target>
+<p>O efeito de uma carta é um texto que descreve sua função e mecânica, explicando como jogá-la e aplicá-la durante a partida. A função do efeito é conferir habilidades adicionais à carta, comumente extrapolando as regras do jogo e permitindo interações mais complexas em busca de uma vantagem estratégica.</p>
+<p>Cada personagem pode utilizar e ativar apenas suas próprias cartas, e apenas durante o seu próprio turno. Certas cartas, porém, especificam que podem ou devem ser ativadas como resposta à uma jogada ou situação de jogo, e neste caso, elas são ativadas durante o turno de outros personagem também.</p>
+<p>O efeito de cada carta está disponível para o jogador de duas formas.</p>
+<doc-anchor-target id="passivo">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#passivo">#</doc-anchor-trigger>
+        <span>Passivo</span>
+    </h3>
+</doc-anchor-target>
+<p>São efeitos aplicados automaticamente de forma permanente, isso significa que este efeito dura enquanto esta carta estiver em jogo, logo, esta carta não é ativada, seu efeito é aplicado instantaneamente a partir do momento em que esta carta é colocada na <a href="../hero/table/"><span class="main"><b>MESA</b></span></a>.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-secondary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-secondary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+<p>Ex.: Efeitos ao estilo <em>&quot;<span class="positive">+2</span> de <b>DANO</b>&quot;</em>, <em>&quot;<span class="positive">+1</span> de <a href="../hero/attributes/"><span class="house"><b>PER</b></span></a>, se sua <a href="../hero/attributes/"><span class="house"><b>PER</b></span></a> for menor que 8&quot;</em> e <em>&quot;Este personagem não pode ser alvo de...&quot;</em>, são todos efeitos passivos.</p>
+        </div>
+    </div>
+</div>
+<doc-anchor-target id="ativo">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ativo">#</doc-anchor-trigger>
+        <span>Ativo</span>
+    </h3>
+</doc-anchor-target>
+<p>Efeitos que precisam ser ativados manualmente pelo jogador ou por uma condição automática, geralmente com um custo associado.</p>
+<p>Para identificar uma carta que pode ser ativada, ela precisa possuir uma das seguintes características:</p>
+<ul class="list-icon">
+<li><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M17.28 9.28a.75.75 0 0 0-1.06-1.06l-5.97 5.97-2.47-2.47a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l6.5-6.5Z"/><path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Z"/></g></g></svg> Ter uma <em>Barra de Ativação</em> (presente em algumas cartas de <a href="item/"><span class="item"><b>ITEM</b></span></a> e <a href="skill/"><span class="skill"><b>HABILIDADE</b></span></a>)</li>
+<li><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M17.28 9.28a.75.75 0 0 0-1.06-1.06l-5.97 5.97-2.47-2.47a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l6.5-6.5Z"/><path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Z"/></g></g></svg> Ser uma carta de <a href="event/"><span class="event"><b>EVENTO</b></span></a></li>
+<li><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M17.28 9.28a.75.75 0 0 0-1.06-1.06l-5.97 5.97-2.47-2.47a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l6.5-6.5Z"/><path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Z"/></g></g></svg> Seu texto deve especificar se ela pode ou deve ser ativada, acompanhado de custos e condições, se houverem</li>
+</ul>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-secondary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-secondary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+<p>Ex.: Se um efeito diz algo como <em>&quot;você pode descarte esta carta para...&quot;</em>, <em>&quot;Se sua <a href="../hero/#vida"><span class="main"><b>VIDA</b></span></a> estiver abaixo de 5, você pode...&quot;</em>, <em>&quot;No início do seu turno você pode...&quot;</em> e <em>&quot;Durante o turno de qualquer personagem, você pode...&quot;</em>, são efeitos ativados manualmente pelo jogador, verificando ou não uma condição limitadora.</p>
+        </div>
+    </div>
+</div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-secondary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-secondary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+<p>Ex.: Efeitos na forma <em>&quot;quando um personagem for atacado você deve...&quot;</em>, <em>&quot;Se você sofrer <b>DANO</b> descarte uma carta.&quot;</em> e <em>&quot;No início do seu turno perca 1 de <a href="../hero/#vida"><span class="main"><b>VIDA</b></span></a>.&quot;</em>, são exemplos de efeitos ativados em resposta a uma situação que foi atendida.</p>
+        </div>
+    </div>
+</div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-secondary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-secondary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+<p>Ex.: Se um efeito especifica uma ação que não pode ser realizada, aquela carta não pode ser ativada. Observe que é imperativo que o efeito de uma carta possa ser executado em sua completude. Por exemplo, se uma carta diz algo como <em>&quot;depois de resolver este efeito, descarte uma carta do seu <a href="../hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a></em>&quot;, e aquele personagem não tem nenhuma carta no <a href="../hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a> então este efeito não pode nem mesmo ser iniciado.</p>
+<p>Extraordinariamente, se o efeito era possível no momento da ativação da carta, mas as condições mudaram durante a resolução do efeito, o efeito ainda é considerado válido e deve ser resolvido, sendo ignorando a partir da parte que não podem mais ser aplicadas. Por exemplo, se o efeito diz algo como <em>&quot;depois de resolver este efeito, se você não tiver cartas no <a href="../hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a>, descarte uma carta do seu <a href="../hero/table/"><span class="main"><b>MESA</b></span></a>&quot;</em> e o jogador não tinha cartas no <a href="../hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a> quando ativou a carta, mas durante a resolução do efeito algo adicionou uma carta ao seu <a href="../hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a>, ele não precisa mais descartar uma carta da <a href="../hero/table/"><span class="main"><b>MESA</b></span></a>.</p>
+<p>Em outro exemplo, se o efeito diz algo como <em>&quot;depois de resolver este efeito, se você não tiver cartas no <a href="../hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a>, descarte uma carta do seu <a href="../hero/table/"><span class="main"><b>MESA</b></span></a>&quot;</em> e o jogador não tinha cartas no <a href="../hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a> quando ativou a carta, mas durante a resolução do efeito ficou também sem cartas na sua <a href="../hero/table/"><span class="main"><b>MESA</b></span></a>, ele não pode mais cumprir todas as condições de efeito, o que já foi feito é mantido, mas a restante do efeito não é ignorado.</p>
+        </div>
+    </div>
+</div>
+<p>Quando você ativar uma carta durante o turno de outro personagem, e esta carta possuir um custo em <a href="../hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a>, você deve pagar este custo com os pontos que receberia no seu próximo turno, começando o turno com aquela quantidade a menos de <a href="../hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a>. Se você não tiver <a href="../hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a> suficientes para pagar o custo, continue &quot;emprestando&quot; pontos de turnos futuros até que a carta esteja paga. Se você já tiver gastado todos os pontos do seu próximo turno, você não pode ativar aquela carta.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+<p>Observe que, todo efeito ativado manualmente ou quando o jogador pode decidir se irá ativar, é um efeito ativo, mesmo que exista uma condição para ativação ou que a ativação seja permitida apenas como resposta a uma situação de jogo.</p>
+        </div>
+    </div>
+</div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+<p>O que difere um efeito passivos de um ativo automático é que o efeito passivo é aplicado instantaneamente ao ser colocado em jogo e permanece afetando-o durante todo o tempo em que esta carta estiver em jogo, enquanto o efeito ativo automático é ativado em resposta a uma situação específica.</p>
+        </div>
+    </div>
+</div>
+<doc-anchor-target id="palavras-chave-de-efeito-keyword">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#palavras-chave-de-efeito-keyword">#</doc-anchor-trigger>
+        <span>Palavras-Chave de Efeito <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-primary-text bg-badge-primary border border-badge-primary-border h-6 px-2 text-xs rounded-md">
+            <span>keyword</span>
+        </span></span>
+    </h3>
+</doc-anchor-target>
+<p>Alguns efeitos são descritos utilizando palavras-chave, que são abreviações de ações ou condições comuns, e são utilizadas para simplificar o texto do efeito. As palavras-chave de efeito são identificadas pela caixa de texto colorida ao redor da palavra.</p>
+<doc-anchor-target id="tipo-de-ativação-activation">
+    <h5>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#tipo-de-ativação-activation">#</doc-anchor-trigger>
+        <span>Tipo de ativação <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-primary-text bg-badge-primary border border-badge-primary-border h-6 px-2 text-xs rounded-md">
+            <span>activation</span>
+        </span></span>
+    </h5>
+</doc-anchor-target>
+<dl>
+<dt><doc-anchor-trigger to="#palavras-chave-de-efeito-keyword"><span class="keyword-activation">Auto</span></doc-anchor-trigger></dt>
+<dd>Efeito ativado automaticamente, sem necessidade de ação do jogador</dd>
+<dt><doc-anchor-trigger to="#palavras-chave-de-efeito-keyword"><span class="keyword-activation">Permanente</span></doc-anchor-trigger></dt>
+<dd>Efeito passivo, aplicado instantaneamente e permanente enquanto esta carta estiver em jogo</dd>
+<dt><doc-anchor-trigger to="#palavras-chave-de-efeito-keyword"><span class="keyword-activation">Temp</span></doc-anchor-trigger></dt>
+<dd>Efeito passivo, aplicado instantaneamente e temporário, tendo sua duração definida no texto do efeito</dd>
+</dl>
+<doc-anchor-target id="momento-que-o-efeito-pode-ser-ativado-timing">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#momento-que-o-efeito-pode-ser-ativado-timing">#</doc-anchor-trigger>
+        <span>Momento que o efeito pode ser ativado <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-primary-text bg-badge-primary border border-badge-primary-border h-6 px-2 text-xs rounded-md">
+            <span>timing</span>
+        </span></span>
+    </h4>
+</doc-anchor-target>
+<dl>
+<dt><doc-anchor-trigger to="#palavras-chave-de-efeito-keyword"><span class="keyword-timing">Ao Entrar</span></doc-anchor-trigger></dt>
+<dd>Quando esta carta é coloca em jogo, ou seja, quando vai para a <a href="../hero/table/"><span class="main"><b>MESA</b></span></a> de um Herói</dd>
+<dt><doc-anchor-trigger to="#palavras-chave-de-efeito-keyword"><span class="keyword-timing">Ao Sair</span></doc-anchor-trigger></dt>
+<dd>Quando esta carta é removida da <a href="../hero/table/"><span class="main"><b>MESA</b></span></a> de um Herói, ou seja, quando é descartada, enterrada, banida ou enviada para o <a href="../hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a></dd>
+<dt><doc-anchor-trigger to="#palavras-chave-de-efeito-keyword"><span class="keyword-timing">Ao Obter</span></doc-anchor-trigger></dt>
+<dd>Quando esta carta é adquirida por um Herói, ou seja, quando é comprada ou recebida de outra forma</dd>
+<dt><doc-anchor-trigger to="#palavras-chave-de-efeito-keyword"><span class="keyword-timing">Ao Revelar</span></doc-anchor-trigger></dt>
+<dd>Quando esta carta é revelada</dd>
+<dt><doc-anchor-trigger to="#palavras-chave-de-efeito-keyword"><span class="keyword-timing">Ao Ocultar</span></doc-anchor-trigger></dt>
+<dd>Quando esta carta é ocultada</dd>
+<dt><doc-anchor-trigger to="#palavras-chave-de-efeito-keyword"><span class="keyword-timing">Ao Exaurir</span></doc-anchor-trigger></dt>
+<dd>Quando esta carta é exaurida, ou seja, quando é rotacionada para o lado</dd>
+<dt><doc-anchor-trigger to="#palavras-chave-de-efeito-keyword"><span class="keyword-timing">Ao Recuperar</span></doc-anchor-trigger></dt>
+<dd>Quando esta carta é recuperada, ou seja, quando é rotacionada de volta para a posição normal</dd>
+<dt><doc-anchor-trigger to="#palavras-chave-de-efeito-keyword"><span class="keyword-timing">Ao Descartar</span></doc-anchor-trigger></dt>
+<dd>Quando esta carta é descartada</dd>
+<dt><doc-anchor-trigger to="#palavras-chave-de-efeito-keyword"><span class="keyword-timing">Ao Enterrar</span></doc-anchor-trigger></dt>
+<dd>Quando esta carta é enterrada</dd>
+<dt><doc-anchor-trigger to="#palavras-chave-de-efeito-keyword"><span class="keyword-timing">Ao Banir</span></doc-anchor-trigger></dt>
+<dd>Quando esta carta é banida</dd>
+<dt><doc-anchor-trigger to="#palavras-chave-de-efeito-keyword"><span class="keyword-timing">No Início do seu Turno</span></doc-anchor-trigger></dt>
+<dd>No início do seu turno</dd>
+<dt><doc-anchor-trigger to="#palavras-chave-de-efeito-keyword"><span class="keyword-timing">No Final do seu Turno</span></doc-anchor-trigger></dt>
+<dd>No final do seu turno</dd>
+<dt><doc-anchor-trigger to="#palavras-chave-de-efeito-keyword"><span class="keyword-timing">No Início do Turno do Time</span></doc-anchor-trigger></dt>
+<dd>No início do turno de um personagem do seu time, incluindo você</dd>
+<dt><doc-anchor-trigger to="#palavras-chave-de-efeito-keyword"><span class="keyword-timing">No Final do Turno do Time</span></doc-anchor-trigger></dt>
+<dd>No final do turno de um personagem do seu time, incluindo você</dd>
+<dt><doc-anchor-trigger to="#palavras-chave-de-efeito-keyword"><span class="keyword-timing">No Início do Turno do Parceiro</span></doc-anchor-trigger></dt>
+<dd>No início do turno de um personagem do seu time que não é você</dd>
+<dt><doc-anchor-trigger to="#palavras-chave-de-efeito-keyword"><span class="keyword-timing">No Final do Turno do Parceiro</span></doc-anchor-trigger></dt>
+<dd>No final do turno de um personagem do seu time que não é você</dd>
+<dt><doc-anchor-trigger to="#palavras-chave-de-efeito-keyword"><span class="keyword-timing">No Início do Turno Adversário</span></doc-anchor-trigger></dt>
+<dd>No início do turno de um personagem de outro time</dd>
+<dt><doc-anchor-trigger to="#palavras-chave-de-efeito-keyword"><span class="keyword-timing">No Final do Turno Adversário</span></doc-anchor-trigger></dt>
+<dd>No final do turno de um personagem de outro time</dd>
+<dt><doc-anchor-trigger to="#palavras-chave-de-efeito-keyword"><span class="keyword-timing">No Início de Todos os Turnos</span></doc-anchor-trigger></dt>
+<dd>No início de todos os turnos, ou seja, no início do turno de todo personagem</dd>
+<dt><doc-anchor-trigger to="#palavras-chave-de-efeito-keyword"><span class="keyword-timing">No Final de Todos os Turnos</span></doc-anchor-trigger></dt>
+<dd>No final de todos os turnos, ou seja, no final do turno de todo personagem</dd>
+<dt><span style="font-size: 0.8em"><doc-anchor-trigger to="#palavras-chave-de-efeito-keyword"><span class="keyword-timing">No Início do Turno deste Personagem</span></doc-anchor-trigger></span></dt>
+<dd>No início do turno do personagem representado por esta carta de <a href="companion/"><span class="companion"><b>COMPANHEIRO</b></span></a></dd>
+<dt><span style="font-size: 0.8em"><doc-anchor-trigger to="#palavras-chave-de-efeito-keyword"><span class="keyword-timing">No Final do Turno deste Personagem</span></doc-anchor-trigger></span></dt>
+<dd>No final do turno do personagem representado por esta carta de <a href="companion/"><span class="companion"><b>COMPANHEIRO</b></span></a></dd>
+<dt><doc-anchor-trigger to="#palavras-chave-de-efeito-keyword"><span class="keyword-timing">Início da Rodada</span></doc-anchor-trigger></dt>
+<dd>No início da rodada</dd>
+<dt><doc-anchor-trigger to="#palavras-chave-de-efeito-keyword"><span class="keyword-timing">Fim da Rodada</span></doc-anchor-trigger></dt>
+<dd>No final da rodada</dd>
+<dt><doc-anchor-trigger to="#palavras-chave-de-efeito-keyword"><span class="keyword-timing">Início da Batalha</span></doc-anchor-trigger></dt>
+<dd>No início da batalha</dd>
+<dt><doc-anchor-trigger to="#palavras-chave-de-efeito-keyword"><span class="keyword-timing">Fim da Batalha</span></doc-anchor-trigger></dt>
+<dd>No final da batalha</dd>
+<dt><doc-anchor-trigger to="#palavras-chave-de-efeito-keyword"><span class="keyword-timing">Realizando um Teste</span></doc-anchor-trigger></dt>
+<dd>Quando estiver realizando um teste</dd>
+<dt><doc-anchor-trigger to="#palavras-chave-de-efeito-keyword"><span class="keyword-timing">Quando Atacando</span></doc-anchor-trigger></dt>
+<dd>Quando este personagem está atacando</dd>
+<dt><doc-anchor-trigger to="#palavras-chave-de-efeito-keyword"><span class="keyword-timing">Quando Atacado</span></doc-anchor-trigger></dt>
+<dd>Quando este personagem está sendo atacado</dd>
+<dt><span style="font-size: 0.9em"><doc-anchor-trigger to="#palavras-chave-de-efeito-keyword"><span class="keyword-timing">Quando Selecionado como Alvo</span></doc-anchor-trigger></span></dt>
+<dd>Quando este personagem é selecionado como alvo de qualquer ação, incluindo ataques</dd>
+<dt><doc-anchor-trigger to="#palavras-chave-de-efeito-keyword"><span class="keyword-timing">Rolando um Dado</span></doc-anchor-trigger></dt>
+<dd>Quando estiver rolando dados.</dd>
+</dl>
+<doc-anchor-target id="limite-de-ativações-limit">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#limite-de-ativações-limit">#</doc-anchor-trigger>
+        <span>Limite de ativações <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-primary-text bg-badge-primary border border-badge-primary-border h-6 px-2 text-xs rounded-md">
+            <span>limit</span>
+        </span></span>
+    </h4>
+</doc-anchor-target>
+<dl>
+<dt><doc-anchor-trigger to="#palavras-chave-de-efeito-keyword"><span class="keyword-limit">Uma vez por Turno</span></doc-anchor-trigger></dt>
+<dd>Pode ser ativada apenas uma vez por turno</dd>
+<dt><doc-anchor-trigger to="#palavras-chave-de-efeito-keyword"><span class="keyword-limit">Uma vez por Rodada</span></doc-anchor-trigger></dt>
+<dd>Pode ser ativada apenas uma vez por rodada</dd>
+<dt><doc-anchor-trigger to="#palavras-chave-de-efeito-keyword"><span class="keyword-limit">Uma vez por Batalha</span></doc-anchor-trigger></dt>
+<dd>Pode ser ativada apenas uma vez por batalha</dd>
+<dt><doc-anchor-trigger to="#palavras-chave-de-efeito-keyword"><span class="keyword-limit">Sacrifique o seu Turno</span></doc-anchor-trigger></dt>
+<dd>Para ativar esta carta, você não pode realizar nenhuma outra ação neste turno</dd>
+<dt><doc-anchor-trigger to="#palavras-chave-de-efeito-keyword"><span class="keyword-limit">Sem Resposta</span></doc-anchor-trigger></dt>
+<dd>Nenhuma carta pode ser ativada em resposta a esta carta</dd>
+<dt><doc-anchor-trigger to="#palavras-chave-de-efeito-keyword"><span class="keyword-limit">Sem Negação</span></doc-anchor-trigger></dt>
+<dd>Esta carta não pode ser negada</dd>
+</dl>
+<doc-anchor-target id="de-onde-o-efeito-pode-ser-ativado-scope">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#de-onde-o-efeito-pode-ser-ativado-scope">#</doc-anchor-trigger>
+        <span>De onde o efeito pode ser ativado <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-primary-text bg-badge-primary border border-badge-primary-border h-6 px-2 text-xs rounded-md">
+            <span>scope</span>
+        </span></span>
+    </h4>
+</doc-anchor-target>
+<dl>
+<dt><doc-anchor-trigger to="#palavras-chave-de-efeito-keyword"><span class="keyword-scope">Mão</span></doc-anchor-trigger></dt>
+<dd>Esta carta pode ser ativada do <a href="../hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a></dd>
+<dt><doc-anchor-trigger to="#palavras-chave-de-efeito-keyword"><span class="keyword-scope">Pilha de Descarte</span></doc-anchor-trigger></dt>
+<dd>Esta carta pode ser ativada da pilha de descarte</dd>
+<dt><doc-anchor-trigger to="#palavras-chave-de-efeito-keyword"><span class="keyword-scope">Time</span></doc-anchor-trigger></dt>
+<dd>Esta carta pode ser ativada por qualquer personagem do seu time, durante o turno dele</dd>
+</dl>
+<doc-anchor-target id="ação-adicional-ao-ativar-o-efeito-task">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ação-adicional-ao-ativar-o-efeito-task">#</doc-anchor-trigger>
+        <span>Ação adicional ao ativar o efeito <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-primary-text bg-badge-primary border border-badge-primary-border h-6 px-2 text-xs rounded-md">
+            <span>task</span>
+        </span></span>
+    </h4>
+</doc-anchor-target>
+<dl>
+<dt><doc-anchor-trigger to="#palavras-chave-de-efeito-keyword"><span class="keyword-task">Descarte</span></doc-anchor-trigger></dt>
+<dd>Descarte esta carta após resolvê-la</dd>
+<dt><doc-anchor-trigger to="#palavras-chave-de-efeito-keyword"><span class="keyword-task">Enterre</span></doc-anchor-trigger></dt>
+<dd>Enterre esta carta após resolvê-la</dd>
+<dt><doc-anchor-trigger to="#palavras-chave-de-efeito-keyword"><span class="keyword-task">Bana</span></doc-anchor-trigger></dt>
+<dd>Bana esta carta após resolvê-la</dd>
+<dt><doc-anchor-trigger to="#palavras-chave-de-efeito-keyword"><span class="keyword-task">Lance</span></doc-anchor-trigger></dt>
+<dd>Envie esta carta para o <a href="../board/scenario/"><span class="event"><b>CENÁRIO</b></span></a> após resolvê-la, se ela já não estiver lá</dd>
+</dl>
+<doc-anchor-target id="requerimentos-de-ativação-requirement">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#requerimentos-de-ativação-requirement">#</doc-anchor-trigger>
+        <span>Requerimentos de ativação <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-primary-text bg-badge-primary border border-badge-primary-border h-6 px-2 text-xs rounded-md">
+            <span>requirement</span>
+        </span></span>
+    </h4>
+</doc-anchor-target>
+<p>Condições, estados, ou custos adicionais que devem ser atendidos para que o efeito possa ser ativado.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-ghost"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-ghost" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+<p>❰ <span class="requirement">✔Req.</span> Texto que define o requerimento ❱<br />
+❰ <span class="requirement">✔Req.</span> Req 1; Req 2 ❱<br />
+❰ <span class="requirement">✔Req.</span> Req 1; Req 2; Req 3; ... ❱</p>
+        </div>
+    </div>
+</div>
+<hr>
+<doc-anchor-target id="propriedades">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#propriedades">#</doc-anchor-trigger>
+        <span>Propriedades</span>
+    </h2>
+</doc-anchor-target>
+<p>São palavras-chave no canto inferior direito da carta e podem ser identificadas pelo ícone de um quadrado da mesma cor do naipe da carta .</p>
+<p>As propriedades não tem função por sí só, mas podem ser utilizadas para interações entre cartas. Sendo geralmente mencionadas no efeito uma carta que interage com outras cartas com determinada propriedade.</p>
+<hr>
+<doc-anchor-target id="raridade">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#raridade">#</doc-anchor-trigger>
+        <span>Raridade</span>
+    </h2>
+</doc-anchor-target>
+<p>A raridade de uma carta é indicada por uma barra colorida no canto inferior esquerdo. Ela influencia na qualidade da carta, geralmente com um efeito ou status melhores.</p>
+<p>Também é utilizada para determinar o tipo de <a href="entity/#ritual-de-apoteose">apoteose</a> realizado por um Herói, e em certos formatos de jogo, a raridade é utilizada para determinar a quantidade de cartas que podem ser incluídas.</p>
+<style>
+
+    .rarity-bar {
+        width: 35px;
+        height: 12px;
+        background-color: #BDBDBD;
+        display: inline-block;
+    }
+
+</style>
+<ul>
+<li><div class="rarity-bar" style="background-color: #9E9E9E"></div> <span class="common">COMUM</span>
+</li>
+<li><div class="rarity-bar" style="background-color: #8BC34A"></div> <span class="uncommon">INCOMUM</span>
+</li>
+<li><div class="rarity-bar" style="background-color: #01579B"></div> <span class="rare">RARA</span>
+</li>
+<li><div class="rarity-bar" style="background-color: #673AB7"></div> <span class="epic">ÉPICA</span>
+</li>
+<li><div class="rarity-bar" style="background-color: #FFC400"></div> <span class="legendary">LENDÁRIA</span>
+</li>
+</ul>
+<hr>
+<doc-anchor-target id="coleção">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#coleção">#</doc-anchor-trigger>
+        <span>Coleção</span>
+    </h2>
+</doc-anchor-target>
+<p>O nome da coleção é exibido no canto inferior esquerdo da carta ao lado da barra de raridade, indicando a origem e temática do conjunto de cartas ao qual ela pertence.</p>
+<p>Por padrão as coleções não influenciam diretamente nas regras do jogo, mas podem ser utilizadas para limitar o uso de cartas em formatos específicos.</p>
+<hr>
+<doc-anchor-target id="ilustração">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ilustração">#</doc-anchor-trigger>
+        <span>Ilustração</span>
+    </h2>
+</doc-anchor-target>
+<p>A ilustração da carta é o desenho que a representa, sendo a parte mais visual e estética da carta e tem como objetivo representar o tema, além de transmitir a atmosfera e a narrativa da carta.</p>
+<doc-anchor-target id="full-art">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#full-art">#</doc-anchor-trigger>
+        <span>Full Art</span>
+    </h3>
+</doc-anchor-target>
+<p>Algumas cartas possuem a arte estendida, que cobre toda a extensão da carta, sem bordas ou molduras. Este estilo de arte é utilizado para destacar a ilustração bem como apresentar um estética diferenciada além de adicionar um fator colecionável a mais.</p>
+<hr>
+<doc-anchor-target id="artista">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#artista">#</doc-anchor-trigger>
+        <span>Artista</span>
+    </h2>
+</doc-anchor-target>
+<p>Representado pelo ícone de um pincel , o artista é o responsável pela ilustração da carta. Seu nome é creditado no canto inferior.</p>
+<hr>
+<!-- Insert this at the bottom of each markdown page -->
+<!-- Tooltips -->
+<!-- *[AWS]: Amazon Web Services -->
+
+                                
+                                <!-- Required only on API pages -->
+                                <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
+                            </div>
+                            <footer id="retype-content-footer" class="clear-both">
+                            
+                                <nav id="retype-nextprev" class="print:hidden flex mt-14">
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../getting-started/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                            <span>
+                                                <span class="block text-xs font-normal text-base-text-muted">Previous</span>
+                                                <span class="block mt-1">Getting Started</span>
+                                            </span>
+                                        </a>
+                                    </div>
+                            
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../cards/house/">
+                                            <span>
+                                                <span class="block text-xs font-normal text-right text-base-text-muted">Next</span>
+                                                <span class="block mt-1">Casa</span>
+                                            </span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                        </a>
+                                    </div>
+                                </nav>
+                            </footer>
+                        </main>
+                
+                        <div id="retype-page-footer" class="print:border-none border-t border-base-border pt-6 mb-8">
+                            <footer class="flex flex-wrap items-center justify-between print:justify-center">
+                                <div id="retype-footer-links" class="print:hidden">
+                                    <ul class="flex flex-wrap items-center text-sm">
+                                    </ul>
+                                </div>
+                                <div id="retype-copyright" class="print:justify-center py-2 text-footer-text font-footer-link-weight text-sm leading-relaxed"><p>© Copyright Bruno Caxito, 2025. All rights reserved.</p></div>
+                            </footer>
+                        </div>
+                    </div>
+                
+                    <!-- Rendered if sidebar right is enabled -->
+                    <!-- Sidebar right skeleton-->
+                    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-sidebar-right-bg border-sidebar-right-border lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:transform-none sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton">
+                        <div class="pl-5">
+                            <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                            <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                            <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                        </div>
+                    </div>
+                
+                    <!-- User should be able to hide sidebar right -->
+                    <doc-sidebar-right v-cloak></doc-sidebar-right>
+                </div>
+
+            </div>
+        </div>
+    
+        <doc-search-mobile></doc-search-mobile>
+        <doc-back-to-top></doc-back-to-top>
+    </div>
+
+
+    <div id="retype-overlay-target"></div>
+
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Cartas", level: 1, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+
+    <!-- Footer -->
+    <footer>
+
+
+
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+
+
+
+    </script>
+
+    <!-- End Content -->
+    <div>
+
+
+
+    </div>
+</body>
+</html>

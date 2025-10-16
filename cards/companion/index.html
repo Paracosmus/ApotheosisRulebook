@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6DMTE08V5G"></script>
+    <script data-cfasync="false">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-6DMTE08V5G');</script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.813942015979">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 3.11.0">
+
+    <!-- Primary Meta Tags -->
+    <title>COMPANHEIRO</title>
+    <meta name="title" content="COMPANHEIRO">
+    <meta name="description" content="Representa um personagem que auxilia o herói em sua jornada.">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://apotheosiscardgame.com/cards/companion/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://apotheosiscardgame.com/cards/companion/">
+    <meta property="og:title" content="COMPANHEIRO">
+    <meta property="og:description" content="Representa um personagem que auxilia o herói em sua jornada.">
+    <meta property="og:image" content="https://apotheosiscardgame.com/static/img/cards/companion.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://apotheosiscardgame.com/cards/companion/">
+    <meta property="twitter:title" content="COMPANHEIRO">
+    <meta property="twitter:description" content="Representa um personagem que auxilia o herói em sua jornada.">
+    <meta property="twitter:image" content="https://apotheosiscardgame.com/static/img/cards/companion.png">
+
+    <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
+
+    <link href="../../static/img/favicon.ico" rel="icon">
+    <link href="../../resources/css/retype.css?v=3.11.0.813942015979" rel="stylesheet">
+
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.813942015979" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.813942015979" data-turbo-eval="false" defer></script>
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <style>
+
+        /* Fallback Apotheosis Icons font */
+        @font-face {
+            font-family: 'Apotheosis';
+            src: url('/static/fonts/apotheosis.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            font-display: block;
+        }
+
+        div.container {
+            font-family: 'Open Sans', Apotheosis;
+            max-width: 1440px;
+        }
+
+        h1, h2 {
+            text-transform: uppercase;
+        }
+
+        b {
+            font-weight: 650;
+            letter-spacing: 0.2px;
+        }
+
+        .icon {
+            font-weight: normal;
+        }
+
+        /* Bonus */
+        .positive {
+            font-weight: bold;
+            color: green;
+        }
+
+        .negative {
+            font-weight: bold;
+            color: red;
+        }
+
+        /* Colors */
+        .main      { color: #212121; } .dark .main { color: #DADADA; }
+
+        .house     { color: #673AB7; }
+        .class     { color: #F44336; }
+        .entity    { color: #3F51B5; }
+        .item      { color: #FFC107; }
+        .skill     { color: #2196F3; }
+        .companion { color: #FF7043; }
+        .event     { color: #4CAF50; }
+
+        .summus    { color: #FF22B2; }
+        .knowledge { color: #995D52; }
+
+        .common    { color: #9E9E9E; }
+    	.uncommon  { color: #8BC34A; }
+    	.rare      { color: #01579B; }
+    	.epic      { color: #673AB7; }
+    	.legendary { color: #FFC400; }
+
+        .yellow    { color: #FFEB3B; }
+    	.red       { color: #B71C1C; }
+    	.blue      { color: #0D47A1; }
+    	.white     { color: #BDBDBD; }
+    	.black     { color: #424242; } .dark .black { color: #454545; }
+
+        .hidden    { color: RED; } .dark .hidden { color: #424242; }
+
+        .keyword-activation {
+            font-size: 0.8em;
+            text-transform: uppercase;
+            color: #F5F5F5;
+            background-color: #3676BC;
+            border-radius: 4px;
+            padding: 0px 5px;
+            font-weight: 600;
+        }
+
+        .keyword-timing {
+            font-size: 0.8em;
+            text-transform: uppercase;
+            color: #F5F5F5;
+            background-color: #F78A1F;
+            border-radius: 4px;
+            padding: 0px 5px;
+            font-weight: 600;
+        }
+
+        .keyword-limit {
+            font-size: 0.8em;
+            text-transform: uppercase;
+            color: #F5F5F5;
+            background-color: #EF4056;
+            border-radius: 20px;
+            padding: 0px 8px;
+            font-weight: 600;
+        }
+
+        .keyword-scope {
+            font-size: 0.8em;
+            text-transform: uppercase;
+            color: #F5F5F5;
+            background-color: #932969;
+            border-radius: 20px;
+            padding: 0px 8px;
+            font-weight: 600;
+        }
+
+        .keyword-task {
+            position: relative;
+            text-transform: uppercase;
+            display: inline-block;
+            font-size: 0.8em;
+            color: #F5F5F5;
+            background-color: #212121;
+            margin: 0px 8px;
+            padding: 0px 5px; /* espaço para as pontas */
+            font-weight: 600;
+            border-radius: 8px;
+        } .keyword-task::before, .keyword-task::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            width: 0;
+            height: 0;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+        } .keyword-task::before {
+            left: -6px;
+            border-right: 10px solid #212121; /* mesma cor do fundo */
+            transform: translateY(-50%);
+        } .keyword-task::after {
+            right: -6px;
+            border-left: 10px solid #212121; /* mesma cor do fundo */
+            transform: translateY(-50%);
+        }
+
+        .requirement {
+            font-size: 0.8em;
+            color: #F5F5F5;
+            background-color: #5C697A;
+            border-radius: 4px;
+            padding: 0px 8px;
+            font-weight: 550;
+        }
+    </style>
+
+
+    <!-- Scripts -->
+    <script>
+
+
+
+    </script>
+
+
+    <!-- Page Header Content -->
+    <div>
+
+
+
+    </div>
+</head>
+<body>
+    <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
+        <div class="absolute bottom-0 left-0" style="top: 5rem; right: 50%"></div>
+    
+        <header id="retype-header" class="sticky top-0 z-30 flex w-full h-16 bg-header-bg border-b border-header-border md:h-20">
+            <div class="container relative flex items-center justify-between pr-6 grow md:justify-start">
+                <!-- Mobile menu button skeleton -->
+                <button v-cloak class="skeleton retype-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+                <div v-cloak id="retype-sidebar-left-toggle-button"></div>
+        
+                <!-- Logo -->
+                <div class="flex items-center justify-between h-full py-2 md:w-75">
+                    <div class="flex items-center px-2 md:px-6">
+                        <a id="retype-branding-logo" href="../../" class="flex items-center leading-snug text-2xl">
+                            <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
+                                <img class="max-h-10 dark:hidden md:inline-block" src="../../static/img/logo.svg">
+                                <img class="max-h-10 hidden dark:inline-block" src="../../static/img/logo.svg">
+                            </span>
+                            <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">Apotheosis</span>
+                        </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">book</span>
+                    </div>
+        
+                    <span class="hidden h-8 border-r md:inline-block border-base-border"></span>
+                </div>
+        
+                <div class="flex justify-between md:grow">
+                    <!-- Top Nav -->
+                    <nav id="retype-header-nav" class="hidden md:flex">
+                        <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="../../">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M11.03 2.59a1.501 1.501 0 0 1 1.94 0l7.5 6.363a1.5 1.5 0 0 1 .53 1.144V19.5a1.5 1.5 0 0 1-1.5 1.5h-5.75a.75.75 0 0 1-.75-.75V14h-2v6.25a.75.75 0 0 1-.75.75H4.5A1.5 1.5 0 0 1 3 19.5v-9.403c0-.44.194-.859.53-1.144ZM12 3.734l-7.5 6.363V19.5h5v-6.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v6.25h5v-9.403Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Home</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="../../keywords/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M8.75 5.5h11.5a.75.75 0 0 1 0 1.5H8.75a.75.75 0 0 1 0-1.5Zm0 6h11.5a.75.75 0 0 1 0 1.5H8.75a.75.75 0 0 1 0-1.5Zm0 6h11.5a.75.75 0 0 1 0 1.5H8.75a.75.75 0 0 1 0-1.5ZM5 12a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM4 7a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm0 12a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Palavras-Chave</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="../../chart/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M5.962 2.513a.75.75 0 0 1-.475.949l-.816.272a.25.25 0 0 0-.171.237V21.25c0 .138.112.25.25.25h14.5a.25.25 0 0 0 .25-.25V3.97a.25.25 0 0 0-.17-.236l-.817-.272a.75.75 0 0 1 .474-1.424l.816.273A1.751 1.751 0 0 1 21 3.97v17.28A1.75 1.75 0 0 1 19.25 23H4.75A1.75 1.75 0 0 1 3 21.25V3.97a1.75 1.75 0 0 1 1.197-1.66l.816-.272a.75.75 0 0 1 .949.475Z"/><path d="M7 1.75C7 .784 7.784 0 8.75 0h6.5C16.216 0 17 .784 17 1.75v1.5A1.75 1.75 0 0 1 15.25 5h-6.5A1.75 1.75 0 0 1 7 3.25Zm1.75-.25a.25.25 0 0 0-.25.25v1.5c0 .138.112.25.25.25h6.5a.25.25 0 0 0 .25-.25v-1.5a.25.25 0 0 0-.25-.25Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Cartilha</span>
+                                </a>
+                            </li>
+        
+                        </ul>
+                    </nav>
+        
+                    <!-- Header Right Skeleton -->
+                    <div v-cloak class="flex justify-end grow skeleton">
+        
+                        <!-- Search input mock -->
+                        <div class="relative hidden w-40 lg:block lg:max-w-sm lg:ml-auto">
+                            <div class="absolute flex items-center justify-center h-full pl-3 dark:text-dark-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-base" width="16" height="16" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 1px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                            </div>
+                            <input class="w-full h-10 placeholder-search-placeholder transition-colors duration-200 ease-in bg-search-bg border border-transparent rounded md:text-sm hover:border-search-border-hover focus:outline-none focus:border-search-border-focus" style="padding: 0.625rem 0.75rem 0.625rem 2rem" type="text" placeholder="Search">
+                        </div>
+        
+                        <!-- Mobile search button -->
+                        <div class="flex items-center justify-center w-10 h-10 lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="20" height="20" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                        </div>
+        
+                        <!-- Dark mode switch placeholder -->
+                        <div class="w-10 h-10 lg:ml-2"></div>
+        
+                        <!-- History button -->
+                        <div class="flex items-center justify-center w-10 h-10" style="margin-right: -0.625rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="22" height="22" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><g ><path d="M12.01 6.01c-.55 0-1 .45-1 1V12a1 1 0 00.4.8l3 2.22a.985.985 0 001.39-.2.996.996 0 00-.21-1.4l-2.6-1.92V7.01c.02-.55-.43-1-.98-1z"></path><path d="M12.01 1.91c-5.33 0-9.69 4.16-10.05 9.4l-.29-.26a.997.997 0 10-1.34 1.48l1.97 1.79c.19.17.43.26.67.26s.48-.09.67-.26l1.97-1.79a.997.997 0 10-1.34-1.48l-.31.28c.34-4.14 3.82-7.41 8.05-7.41 4.46 0 8.08 3.63 8.08 8.09s-3.63 8.08-8.08 8.08c-2.18 0-4.22-.85-5.75-2.4a.996.996 0 10-1.42 1.4 10.02 10.02 0 007.17 2.99c5.56 0 10.08-4.52 10.08-10.08.01-5.56-4.52-10.09-10.08-10.09z"></path></g></g></svg>
+                        </div>
+                    </div>
+        
+                    <div v-cloak class="flex justify-end grow">
+                        <div id="retype-mobile-search-button"></div>
+                        <doc-search-desktop></doc-search-desktop>
+        
+                        <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                        <doc-history></doc-history>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+    
+        <div id="retype-container" class="container relative flex bg-white">
+            <!-- Sidebar Skeleton -->
+            <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-sidebar-left-bg border-sidebar-left-border sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton">
+            
+                <div class="flex items-center h-16 px-6">
+                    <input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear bg-filter-bg border border-filter-border rounded shadow-none text-sm focus:outline-none focus:border-filter-border-focus" type="text" placeholder="Filter">
+                </div>
+            
+                <div class="pl-6 mt-1 mb-4">
+                    <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                </div>
+            
+            </div>
+            
+            <!-- Sidebar component -->
+            <doc-sidebar v-cloak>
+                <template #sidebar-footer>
+                    <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-base-border">
+            
+                        <div class="py-3 px-6 md:hidden border-b dark:border-base-border">
+                            <nav>
+                                <ul class="flex flex-wrap justify-center items-center">
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="../../">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M11.03 2.59a1.501 1.501 0 0 1 1.94 0l7.5 6.363a1.5 1.5 0 0 1 .53 1.144V19.5a1.5 1.5 0 0 1-1.5 1.5h-5.75a.75.75 0 0 1-.75-.75V14h-2v6.25a.75.75 0 0 1-.75.75H4.5A1.5 1.5 0 0 1 3 19.5v-9.403c0-.44.194-.859.53-1.144ZM12 3.734l-7.5 6.363V19.5h5v-6.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v6.25h5v-9.403Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Home</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="../../keywords/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M8.75 5.5h11.5a.75.75 0 0 1 0 1.5H8.75a.75.75 0 0 1 0-1.5Zm0 6h11.5a.75.75 0 0 1 0 1.5H8.75a.75.75 0 0 1 0-1.5Zm0 6h11.5a.75.75 0 0 1 0 1.5H8.75a.75.75 0 0 1 0-1.5ZM5 12a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM4 7a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm0 12a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Palavras-Chave</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="../../chart/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M5.962 2.513a.75.75 0 0 1-.475.949l-.816.272a.25.25 0 0 0-.171.237V21.25c0 .138.112.25.25.25h14.5a.25.25 0 0 0 .25-.25V3.97a.25.25 0 0 0-.17-.236l-.817-.272a.75.75 0 0 1 .474-1.424l.816.273A1.751 1.751 0 0 1 21 3.97v17.28A1.75 1.75 0 0 1 19.25 23H4.75A1.75 1.75 0 0 1 3 21.25V3.97a1.75 1.75 0 0 1 1.197-1.66l.816-.272a.75.75 0 0 1 .949.475Z"/><path d="M7 1.75C7 .784 7.784 0 8.75 0h6.5C16.216 0 17 .784 17 1.75v1.5A1.75 1.75 0 0 1 15.25 5h-6.5A1.75 1.75 0 0 1 7 3.25Zm1.75-.25a.25.25 0 0 0-.25.25v1.5c0 .138.112.25.25.25h6.5a.25.25 0 0 0 .25-.25v-1.5a.25.25 0 0 0-.25-.25Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Cartilha</span>
+                                        </a>
+                                    </li>
+            
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </template>
+            </doc-sidebar>
+    
+            <div class="grow min-w-0 bg-body-bg">
+                <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+                <div class="flex">
+                    <div id="retype-main" class="min-w-0 p-4 grow md:px-16">
+                        <main class="relative pb-12 lg:pt-2">
+                            <div class="retype-markdown" id="retype-content">
+                                <!-- Rendered if sidebar right is enabled -->
+                                <div id="retype-sidebar-right-toggle"></div>
+                                <nav id="retype-breadcrumb" class="breadcrumb" aria-label="Breadcrumb">
+                                    <ol role="list">
+                                        <li class="pr-4">
+                                            <a href="../../" class="pr-4">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                                                    <path d="M11.03 2.59a1.501 1.501 0 0 1 1.94 0l7.5 6.363a1.5 1.5 0 0 1 .53 1.144V19.5a1.5 1.5 0 0 1-1.5 1.5h-5.75a.75.75 0 0 1-.75-.75V14h-2v6.25a.75.75 0 0 1-.75.75H4.5A1.5 1.5 0 0 1 3 19.5v-9.403c0-.44.194-.859.53-1.144ZM12 3.734l-7.5 6.363V19.5h5v-6.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v6.25h5v-9.403Z"/>
+                                                </svg>
+                                            </a>
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                                                <path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"/>
+                                            </svg>
+                                        </li>
+                                        <li class="pr-4">
+                                            <a href="../../cards/" class="pr-4">
+                                                Cartas
+                                            </a>
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                                                <path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"/>
+                                            </svg>
+                                        </li>
+                                        <li class="pr-4">
+                                            <a href="../../cards/companion/" class="pr-4">
+                                                Companheiro
+                                            </a>
+                                        </li>
+                                    </ol>
+                                </nav>
+                
+                                <!-- Page content  -->
+<!-- Insert this at the top of each markdown page -->
+<!-- Global Functions -->
+<doc-anchor-target id="companheiro" class="break-words">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#companheiro">#</doc-anchor-trigger>
+        <span>COMPANHEIRO</span>
+    </h1>
+</doc-anchor-target>
+<blockquote>
+<p>Representa um personagem que auxilia o herói em sua jornada. Pode ser desde um companheiro de batalha, um animal de estimação, um servo, um espírito, um ser etéreo ou qualquer outro ser vivo animado que possa ajudar o herói.</p>
+</blockquote>
+<p>São personagens humanos, animais ou evocações. Diferente de um <a href="../../hero/">Herói</a>, cujas características, conhecimentos, e habilidades são uma composição de várias cartas, os <a href=""><span class="companion"><b>COMPANHEIRO</b></span></a> são personagens definidos inteiramente por uma única carta que contém todas as informações necessárias para sua utilização, não possuindo <a href="../../hero/table/"><span class="main"><b>MESA</b></span></a> e <a href="../../hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a>, mas sim, sendo um NPC controlado pelo <a href="../../gameplay/game-master/">Cartomante</a> ou parte da <a href="../../hero/table/"><span class="main"><b>MESA</b></span></a> de um <a href="../../hero/">Herói</a>.</p>
+<div class="mb-6 overflow-hidden border rounded-md docs-columns dark:border-base-border" style="grid-template-columns: repeat(2, minmax(0, 1fr));">
+    <div class="flex items-center px-5 py-3 font-medium leading-snug text-gray-900 border-b border-base-border dark:text-white border-r">
+        <span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M3 3a2 2 0 0 1 2-2h9.982a2 2 0 0 1 1.414.586l4.018 4.018A2 2 0 0 1 21 7.018V21a2 2 0 0 1-2 2H4.75a.75.75 0 0 1 0-1.5H19a.5.5 0 0 0 .5-.5V7a.5.5 0 0 0-.146-.336l-4.018-4.018A.5.5 0 0 0 15 2.5H5a.5.5 0 0 0-.5.5v6.25a.75.75 0 0 1-1.5 0V3Z"/><path d="M7.21 14.25H1.75a.75.75 0 0 0 0 1.5h5.46s-.008 2.249 0 3.256a.75.75 0 0 0 1.262.542l4.285-4a.75.75 0 0 0 0-1.096l-4.285-4A.75.75 0 0 0 7.21 11v3.249Z"/></g></g></svg></span>
+    </div>
+    <div class="flex items-center px-5 py-3 font-medium leading-snug text-gray-900 border-b border-base-border dark:text-white">
+        <span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M18.25 8.5a.75.75 0 0 1 .75.75v9a.75.75 0 0 1-.75.75h-9a.75.75 0 0 1 0-1.5h7.19L6.22 7.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L17.5 16.44V9.25a.75.75 0 0 1 .75-.75Z"/></g></g></svg></span>
+    </div>
+    <div class="px-5 py-3 docs-columns-content border-r border-base-border">
+<p><figure class="content-center">
+    <img src="../../static/img/cards/companion.png" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+    </div>
+    <div class="px-5 py-3 docs-columns-content">
+<ol>
+<li><p><strong>Tipo</strong></p>
+</li>
+<li><p><strong>Caminho</strong></p>
+</li>
+<li><p><strong>Valor em Vontade</strong></p>
+</li>
+<li><p><strong>Nível e Conhecimentos</strong></p>
+</li>
+<li><p><strong>Atributos Base</strong>: Bônus passivo imediato providos por esta carta</p>
+</li>
+<li><p><strong>Tipos de Anexos</strong>: Texto do efeito desta carta</p>
+</li>
+<li><p><strong>Técnicas</strong>: Texto do efeito deste movimento carta</p>
+</li>
+<li><p><strong>Efeito</strong>: Texto do efeito desta carta</p>
+</li>
+</ol>
+    </div>
+</div>
+<hr>
+<doc-anchor-target id="tipo">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#tipo">#</doc-anchor-trigger>
+        <span><span class="companion">Tipo</span></span>
+    </h2>
+</doc-anchor-target>
+<p>A carta de <a href=""><span class="companion"><b>COMPANHEIRO</b></span></a> pode ser de 3 tipos diferentes, que são representados por ícones. O tipo da carta é importante para determinar como ela interage com outras cartas e mecânicas do jogo.</p>
+<doc-anchor-target id="-humano">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-humano">#</doc-anchor-trigger>
+        <span><span class="icon"></span> Humano</span>
+    </h3>
+</doc-anchor-target>
+<p>TODO</p>
+<doc-anchor-target id="-criatura">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-criatura">#</doc-anchor-trigger>
+        <span><span class="icon"></span> Criatura</span>
+    </h3>
+</doc-anchor-target>
+<p>TODO</p>
+<doc-anchor-target id="-evocação">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-evocação">#</doc-anchor-trigger>
+        <span><span class="icon"></span> Evocação</span>
+    </h3>
+</doc-anchor-target>
+<blockquote>
+<p>Evocações são seres artificiais, criados a pártir da vontade de uma pessoa, combinada com uma magia específica de criação.</p>
+<p>Elas podem assumir qualquer forma, bem como possuir certas habilidades. Isso é realizado através de uma complexa e minuciosa transformação do éter em matéria viva, que é operado por um evocador, um personagem que possui o conhecimento e a habilidade necessária para criar e controlar essas criaturas. O processo de criação de uma evocação é extremamente complexo, e requer um profundo entendimento de como moldar e manipular a energia etérea para criar um corpo físico animado (criar corpo e alma).</p>
+<p>O resultado é uma energia viva que deve ser depositada em um material armazenador de éter, talhado de uma forma que se assemelhe a forma evocada da criatura, mantendo assim a energia em um formato transformável na forma final. Esse objetos são chamados de <em>totens</em> e são feitos geralmente de madeira mágica, por ser mais abundante e fácil de trabalhar, mas podendo ser feito de qualquer outro material armazenador de éter.</p>
+</blockquote>
+<blockquote>
+<p>Quando uma nova evocação é criada, sua fórmula de criação é única, e pode ser compartilhada aprendida ou recriada por outros evocadores. Ao criador, cabe a tarefa de dar um nome para está nova espécie, e tradicionalmente a terminação “ero” é utilizada (<em>Perc<strong>ero</strong>, El<strong>ero</strong>, etc..</em>). Porém é também comum, o uso de nomes de criaturas vindas da mitologia ou fantasia que se assemelhem de certa forma àquela evocação.</p>
+</blockquote>
+<blockquote>
+<p>Para alguns, criar uma ser vivo é uma blasfêmia ou corrupção da natureza, e isso deve ser deixado apenas para o <a href="../../world/lore/#o-grande-criador">Grande Criador</a>, já outros, veem isso como uma forma de se tornarem cocriadores ou apenas ter servos úteis. Apesar disso, existem diferenças claras entre uma evocação e um ser natural, evocações são albinas, com pouca ou nenhuma coloração no corpo, são incapazes de se reproduzir. Além disso, as evocação não possuem um ciclo de vida natural, seus corpos tem pouca duração e se desfazem depois de alguns minutos, precisando ser recriados pelo evocador na proxima vez que forem evocadas.</p>
+</blockquote>
+<p>TODO</p>
+<p>Personagens desse tipo são desevocados ao final do combate.</p>
+<doc-anchor-target id="evocar">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#evocar">#</doc-anchor-trigger>
+        <span>Evocar</span>
+    </h4>
+</doc-anchor-target>
+<p>A carta de evocação permanece oculta até que seja evocada e não possui peça no tabuleiro. Para ser evocada, é necessário que o evocador (Herói) selecione uma casa adjacente vazia, e pague 2 de <a href="../../hero/#mana"><span class="skill"><b>MANA</b></span></a>.</p>
+<p>Quando evocada, a carta é revelada e a peça do personagem evocação é adicionado na casa do tabuleiro selecionada.</p>
+<p>Um COMPANHEIRO evocado, é colocado no final da fila de turnos na rodada em que é evocado, na rodada seguinte ele é posicionado na fila de turnos conforme sua PER.</p>
+<doc-anchor-target id="desevocar">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#desevocar">#</doc-anchor-trigger>
+        <span>Desevocar</span>
+    </h4>
+</doc-anchor-target>
+<p>O evocador pode a qualquer momento do seu turno, desevocar sua evocação, para isto ele anuncia a ação, oculta a carta da evocação e remove a peça dela do tabuleiro.</p>
+<doc-anchor-target id="morte-da-evocação">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#morte-da-evocação">#</doc-anchor-trigger>
+        <span>Morte da Evocação</span>
+    </h4>
+</doc-anchor-target>
+<p>Diferente de outros personagens, quando uma evocação morre, ela é desevocada (sua carta é ocultada) e sua peça é removida do tabuleiro, não deixando corpo, se ela possuir cartas anexadas, elas não devem ser descartadas. Quando desevocada dessa forma, ela não pode ser evocada novamente até o final da batalha.</p>
+<hr>
+<doc-anchor-target id="caminho">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#caminho">#</doc-anchor-trigger>
+        <span><span class="companion">Caminho</span></span>
+    </h2>
+</doc-anchor-target>
+<p>Um <a href=""><span class="companion"><b>COMPANHEIRO</b></span></a> pode ou não pertencer a um caminho, que é uma linha de evolução. O caminho é representado por um ícone de uma peça de dominó, que é o mesmo para todas as cartas daquele caminho.</p>
+<p>Os 20 caminhos são:</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="compact">
+<thead>
+<tr>
+<th>Caminho</th>
+<th><doc-anchor-trigger to="#-humano"><span class="companion"><b>HUMANO</b></span></doc-anchor-trigger></th>
+<th><doc-anchor-trigger to="#-criatura"><span class="companion"><b>CRIATURA</b></span></doc-anchor-trigger> e <doc-anchor-trigger to="#-evoca%C3%A7%C3%A3o"><span class="companion"><b>EVOCAÇÃO</b></span></doc-anchor-trigger></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>Magos, feiticeiros, bruxas</td>
+<td>Fantásticos</td>
+</tr>
+<tr>
+<td></td>
+<td>Estudiosos, pesquisadores, cientistas, alquimistas</td>
+<td>Humanoides</td>
+</tr>
+<tr>
+<td></td>
+<td>Herbalistas, druidas, xamãs, curandeiros</td>
+<td>Sintéticos</td>
+</tr>
+<tr>
+<td></td>
+<td>Guerreiros, espadachins</td>
+<td>Quimeras</td>
+</tr>
+<tr>
+<td></td>
+<td>Religiosos, sacerdotes, clérigos</td>
+<td>Marinhos</td>
+</tr>
+<tr>
+<td></td>
+<td>Arqueiros, pistoleiros, atiradores</td>
+<td>Insetos</td>
+</tr>
+<tr>
+<td></td>
+<td>Militares, mercenários, policias, soldados</td>
+<td>Anfíbios</td>
+</tr>
+<tr>
+<td></td>
+<td>Bárbaros, selvagens, domadores, párias</td>
+<td>Feras</td>
+</tr>
+<tr>
+<td></td>
+<td>Eremitas, andarilhos, buscadores, filósofos</td>
+<td>Pássaros</td>
+</tr>
+<tr>
+<td></td>
+<td>Comerciantes, jogadores, trapaceiros, mercadores</td>
+<td>Mecanizados</td>
+</tr>
+<tr>
+<td></td>
+<td>Trabalhadores, profissionais, artesãos, ferreiros</td>
+<td>Primatas</td>
+</tr>
+<tr>
+<td></td>
+<td>Caçadores, armadilheiros, rastreadores, batedores</td>
+<td>Roedores</td>
+</tr>
+<tr>
+<td></td>
+<td>Ladrões, assassinos, espiões</td>
+<td>Felinos</td>
+</tr>
+<tr>
+<td></td>
+<td>Artistas, bardos, músicos, dançarinos</td>
+<td>Peixes</td>
+</tr>
+<tr>
+<td></td>
+<td>Ocultistas, cultistas, necromantes</td>
+<td>Dragões</td>
+</tr>
+<tr>
+<td></td>
+<td>Brigões, lutadores</td>
+<td>Répteis</td>
+</tr>
+<tr>
+<td></td>
+<td>Aventureiros, exploradores, caçadores de tesouros</td>
+<td>Crustáceos</td>
+</tr>
+<tr>
+<td></td>
+<td>Mentalistas, ilusionistas, hipnólogos</td>
+<td>Canídeos</td>
+</tr>
+<tr>
+<td></td>
+<td>Cavaleiros, heróis</td>
+<td>Equinos</td>
+</tr>
+<tr>
+<td></td>
+<td>Vasculhadores, sobreviventes, desajustados</td>
+<td>Lendários</td>
+</tr>
+<tr>
+<td><span style="color: #AAA"></span></td>
+<td><span style="color: #AAA"><em>Usado apenas por casos especiais, como summus.</em></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<doc-anchor-target id="recrutar">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#recrutar">#</doc-anchor-trigger>
+        <span><span class="companion">Recrutar</span></span>
+    </h2>
+</doc-anchor-target>
+<p>Ao custo de 2 de <a href="../../hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a>, esta carta pode ser enviada para um espaço disponível no <a href="../../hero/table/#-suporte"><span class="companion"><b>SUPORTE</b></span></a> do Herói.</p>
+<ul>
+<li><p>Se o personagem for <doc-anchor-trigger to="#-humano"><span class="companion"><b>HUMANO</b></span></doc-anchor-trigger> ou <doc-anchor-trigger to="#-criatura"><span class="companion"><b>CRIATURA</b></span></doc-anchor-trigger>, ele deve ser colocado em uma <a href="../../board/#casa-de-acesso">casa de acesso do tabuleiro</a>. Se não houverem casas de acesso disponíveis, o personagem não pode ser recrutado.</p>
+</li>
+<li><p>Se o personagem for uma <doc-anchor-trigger to="#-evoca%C3%A7%C3%A3o"><span class="companion"><b>EVOCAÇÃO</b></span></doc-anchor-trigger>, coloque sua peça em uma casa adjacente ao Herói. Se não houver nenhuma casa adjacente disponível, este personagem não pode ser evocado.</p>
+</li>
+</ul>
+<hr>
+<doc-anchor-target id="abandonar">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#abandonar">#</doc-anchor-trigger>
+        <span><span class="companion">Abandonar</span></span>
+    </h2>
+</doc-anchor-target>
+<p>Ao custo de 2 de <a href="../../hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a>, esta carta pode ser enviada do <a href="../../hero/table/#-suporte"><span class="companion"><b>SUPORTE</b></span></a> para o <a href="../../hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a> do Herói.</p>
+<ul>
+<li><p>Se o personagem for <doc-anchor-trigger to="#-humano"><span class="companion"><b>HUMANO</b></span></doc-anchor-trigger> ou <doc-anchor-trigger to="#-criatura"><span class="companion"><b>CRIATURA</b></span></doc-anchor-trigger>, é necessário que haja uma <a href="../../board/#casa-de-acesso">casa de cesso do tabuleiro</a> disponível para que o personagem possa ser retirado do tabuleiro. Se não houver casas de acesso disponíveis, o personagem não pode ser abandonado.</p>
+</li>
+<li><p>Se o personagem for uma <doc-anchor-trigger to="#-evoca%C3%A7%C3%A3o"><span class="companion"><b>EVOCAÇÃO</b></span></doc-anchor-trigger>, remova sua peça do tabuleiro.</p>
+</li>
+</ul>
+<hr>
+<doc-anchor-target id="evoluir">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#evoluir">#</doc-anchor-trigger>
+        <span><span class="companion">Evoluir</span></span>
+    </h2>
+</doc-anchor-target>
+<p>Este é o processo de trocar uma carta de <a href=""><span class="companion"><b>COMPANHEIRO</b></span></a> em seu <a href="../../hero/table/#-suporte"><span class="companion"><b>SUPORTE</b></span></a> por outra de nível superior e mesmo caminho.</p>
+<p>A qualquer momento do turno de um personagem <a href=""><span class="companion"><b>COMPANHEIRO</b></span></a> que esteja na <a href="../../hero/table/"><span class="main"><b>MESA</b></span></a> de um Herói, mesmo que em combate ou quando ele não tem acesso ao <span class="companion"><b>BESTIÁRIO</b></span>, ele pode sacrificar o seu turno e descartar 3 de <a href="../skill/"><span class="skill"><b>XP</b></span></a>, para selecionar uma carta de <a href=""><span class="companion"><b>COMPANHEIRO</b></span></a> do <span class="companion"><b>BESTIÁRIO</b></span> de nível imediatamente superior ao seu e de mesmo caminho, observando se o seu Herói possuí o <a href="../../hero/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a> e nível necessário para ter aquela carta em sua <a href="../../hero/table/"><span class="main"><b>MESA</b></span></a>, bem como outros requerimentos, se houverem.</p>
+<p>Enterre então a carta de <a href=""><span class="companion"><b>COMPANHEIRO</b></span></a>, substituindo-a ela pela nova carta, que herda seus anexos e contadores.</p>
+<hr>
+<doc-anchor-target id="anexos">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#anexos">#</doc-anchor-trigger>
+        <span><span class="companion">Anexos</span></span>
+    </h2>
+</doc-anchor-target>
+<p>Um <a href=""><span class="companion"><b>COMPANHEIRO</b></span></a> pode ter até 5 cartas anexadas a ele. Esse limite não pode ser excedido, nem mesmo por efeito de carta.</p>
+<p>Durante o turno do Herói, ele pode anexar e/ou desanexar cartas do seu <a href="../../hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a> a um de seus <a href=""><span class="companion"><b>COMPANHEIRO</b></span></a> em uma casa adjacente.</p>
+<doc-anchor-target id="tipos-de-anexo">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#tipos-de-anexo">#</doc-anchor-trigger>
+        <span>Tipos de Anexo</span>
+    </h3>
+</doc-anchor-target>
+<p>Os tipos de anexos marcam características desejadas de cartas anexadas àquele <a href=""><span class="companion"><b>COMPANHEIRO</b></span></a>. As cartas anexadas não precisam ter esta característica, mas se tiverem, desbloqueiam técnicas em sua carta.</p>
+<p>A característica listada abrange basicamente qualquer elemento de uma carta, como valores, propriedades, efeitos, etc..</p>
+<hr>
+<doc-anchor-target id="personagem">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#personagem">#</doc-anchor-trigger>
+        <span><span class="companion">Personagem</span></span>
+    </h2>
+</doc-anchor-target>
+<p>Cartas de <a href=""><span class="companion"><b>COMPANHEIRO</b></span></a> são tratadas como personagens, e portanto, possuem uma peça no tabuleiro, podem ser atacados, mortos, realizar testes, etc.. tal qual um Herói.</p>
+<doc-anchor-target id="pagamento-de-custos">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#pagamento-de-custos">#</doc-anchor-trigger>
+        <span><span class="companion">Pagamento de Custos</span></span>
+    </h3>
+</doc-anchor-target>
+<p>Os COMPANHEIROS podem ser requeridos a pagar certos custos pelo efeito de outras cartas ou mecânica de jogo, como descartar cartas e valores.</p>
+<p>Observando que COMPANHEIROS não possuem MESA nem <a href="../../hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a>, quando um texto especificar uma ação impossível para um COMPANHEIRO, como “descarte do seu <a href="../../hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a>” ou “deite 2 de <a href="../../hero/#mana"><span class="skill"><b>MANA</b></span></a>”, o personagem não tem como cumprir aquela exigência, logo, ela deve ser ignorada.</p>
+<p>Porém, quando o texto não apresenta uma restrição, por exemplo, “descarte uma carta” ou “descarte pontos de <a href="../event/"><span class="event"><b>DESTINO</b></span></a>”, o COMPANHEIRO pode/deve utilizar seus anexos nestes casos. Note que se o custo for obrigatório, o personagem precisa pagar, se for opcional o jogador pode optar.</p>
+<p>A mesma consideração deve ser feita quando uma carta é obtida pelo COMPANHEIRO, se o texto disser algo como “enviado para o <a href="../../hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a>”, o COMPANHEIRO não tem como realizar esta ação, mas se o texto apenas diz que a carta é “obtida”, ela pode/deve ser anexada ao companheiro, ainda respeitando o limite de anexos.</p>
+<doc-anchor-target id="vida">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#vida">#</doc-anchor-trigger>
+        <span><span class="companion">Vida</span></span>
+    </h3>
+</doc-anchor-target>
+<p>O <a href="../../hero/#vida"><span class="main"><b>VIDA</b></span></a> da peça de um companheiro no tabuleiro é determinada pelo nível da carta.</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="compact">
+<thead>
+<tr>
+<th>Nível</th>
+<th>Vida</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><span class="positive"> 5</span></td>
+</tr>
+<tr>
+<td>2</td>
+<td><span class="positive"> 10</span></td>
+</tr>
+<tr>
+<td>3</td>
+<td><span class="positive"> 15</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<doc-anchor-target id="morte">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#morte">#</doc-anchor-trigger>
+        <span><span class="companion">Morte</span></span>
+    </h3>
+</doc-anchor-target>
+<p>Quando um <a href=""><span class="companion"><b>COMPANHEIRO</b></span></a> morrer, sua carta deve ser enterrada e todas as cartas anexadas devem ser descartadas para a sua respectiva pilha de descarte, exceto <a href="../item/"><span class="item"><b>ITEM</b></span></a>, que podem ser saqueados do seu corpo.</p>
+<doc-anchor-target id="morte-do-herói">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#morte-do-herói">#</doc-anchor-trigger>
+        <span>Morte do Herói</span>
+    </h3>
+</doc-anchor-target>
+<p>Se o Herói morrer, o jogador deve continuar a batalha utilizando as peças de <a href=""><span class="companion"><b>COMPANHEIRO</b></span></a> do tipo <doc-anchor-trigger to="#-humano"><span class="companion"><b>HUMANO</b></span></doc-anchor-trigger> e/ou <doc-anchor-trigger to="#-criatura"><span class="companion"><b>CRIATURA</b></span></doc-anchor-trigger> que lhe restam no tabuleiro, ignorando quaisquer efeitos dados pelo Herói. Se o Herói possuir <a href=""><span class="companion"><b>COMPANHEIRO</b></span></a> do tipo <doc-anchor-trigger to="#-evoca%C3%A7%C3%A3o"><span class="companion"><b>EVOCAÇÃO</b></span></doc-anchor-trigger>, eles são desevocados imediatamente.</p>
+<doc-anchor-target id="técnica">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#técnica">#</doc-anchor-trigger>
+        <span><span class="companion">Técnica</span></span>
+    </h3>
+</doc-anchor-target>
+<hr>
+<!-- Insert this at the bottom of each markdown page -->
+<!-- Tooltips -->
+<!-- *[AWS]: Amazon Web Services -->
+
+                                
+                                <!-- Required only on API pages -->
+                                <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
+                            </div>
+                            <footer id="retype-content-footer" class="clear-both">
+                            
+                                <nav id="retype-nextprev" class="print:hidden flex mt-14">
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../cards/skill/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                            <span>
+                                                <span class="block text-xs font-normal text-base-text-muted">Previous</span>
+                                                <span class="block mt-1">Habilidade</span>
+                                            </span>
+                                        </a>
+                                    </div>
+                            
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../cards/event/">
+                                            <span>
+                                                <span class="block text-xs font-normal text-right text-base-text-muted">Next</span>
+                                                <span class="block mt-1">Evento</span>
+                                            </span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                        </a>
+                                    </div>
+                                </nav>
+                            </footer>
+                        </main>
+                
+                        <div id="retype-page-footer" class="print:border-none border-t border-base-border pt-6 mb-8">
+                            <footer class="flex flex-wrap items-center justify-between print:justify-center">
+                                <div id="retype-footer-links" class="print:hidden">
+                                    <ul class="flex flex-wrap items-center text-sm">
+                                    </ul>
+                                </div>
+                                <div id="retype-copyright" class="print:justify-center py-2 text-footer-text font-footer-link-weight text-sm leading-relaxed"><p>© Copyright Bruno Caxito, 2025. All rights reserved.</p></div>
+                            </footer>
+                        </div>
+                    </div>
+                
+                    <!-- Rendered if sidebar right is enabled -->
+                    <!-- Sidebar right skeleton-->
+                    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-sidebar-right-bg border-sidebar-right-border lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:transform-none sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton">
+                        <div class="pl-5">
+                            <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                            <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                            <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                        </div>
+                    </div>
+                
+                    <!-- User should be able to hide sidebar right -->
+                    <doc-sidebar-right v-cloak></doc-sidebar-right>
+                </div>
+
+            </div>
+        </div>
+    
+        <doc-search-mobile></doc-search-mobile>
+        <doc-back-to-top></doc-back-to-top>
+    </div>
+
+
+    <div id="retype-overlay-target"></div>
+
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Companheiro", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+
+    <!-- Footer -->
+    <footer>
+
+
+
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+
+
+
+    </script>
+
+    <!-- End Content -->
+    <div>
+
+
+
+    </div>
+</body>
+</html>
