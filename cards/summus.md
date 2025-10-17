@@ -11,8 +11,9 @@ Summus são as cartas que possuem os efeitos mais poderosos no jogo. De forma re
 Uma carta {{ summus }} pode ser identificada por suas 3 características distintas.
 
 * O ícone do naipe tem sua cor modificada para <span class="summus">magenta</span>.
-* Raridade {{ rare }} ou superior e _full-art_.
-* A presença de uma caixa identificadora do tipo de Summus, contendo informações adicionais.
+* Raridade {{ rare }} ou superior, e *full-art*.
+* Cartas de nível 3 (Exceto quando cartas de {{ house }})
+* A presença de uma caixa identificadora do tipo de Summus, abaixo ou acima do texto do efeito da carta, contendo informações adicionais referentes à sua mecânica extra.
 
 ---
 
@@ -28,6 +29,8 @@ Indiferente do tipo de Summus, elas compartilham as seguintes regras de jogo.
 
 **Espaço**
 :   Não ocupam um espaço na {{ table }}
+    - Quando cartas de Ficha, elas são adicionadas a *Zona Extra* da **FICHA**
+    - Quando cartas de Recurso, elas são adicionadas as suas respectivas zonas da **MESA** conforme naipe, porém não ocupam um espaço de carta naquela zona
 
 ---
 
@@ -54,7 +57,7 @@ São as Summus mais simples de serem utilizadas e ativadas, o que as torna basta
 * No início e no fim da Batalha, remova todos os {{ counter_ultimate }} desta carta.
 * No início de cada rodada de batalha, adicione um {{ counter_ultimate }} a esta carta, se ela estiver na {{ table }}.
 * Quando esta carta possuir a quantidade mínima de {{ counter_ultimate }}, você pode ativar esta carta.
-* Não possuem custo em {{ ap }}, pois para ativá-la você deve sacrificar o seu turno.
+* Não possuem custo em {{ ap }}, pois para ativá-la você deve realizar uma Ação Total.
 * Remova todos os {{ counter_ultimate }} desta carta após ativá-la.
 * Nenhuma carta pode ser ativada em resposta a esta ativação.
 * São sempre {{ oncePerBattle }}.
@@ -86,9 +89,9 @@ A ilustração da carta representa o _frater_ ou _soror_ daquela egrégora.
 
 #### Regras Especiais
 
-* Para adicionar uma carta Collegium da {{ tavern }} para um espaço extra na sua {{ sheet }}, o Herói deve **banir** uma carta com a propriedade **INICIAÇÃO**.
-* Adicione os bônus de atributos desta carta ao total do Herói. (Esta carta não concede espaços na {{ table }})
-* No início e no fim da Batalha, consuma esta carta.
+* Para adicionar uma carta Collegium da **TAVERNA** para um espaço extra na sua **FICHA**, o Herói deve **banir** uma carta com a propriedade **INICIAÇÃO**.
+* Adicione os bônus de atributos desta carta ao total do Herói, mesmo que ela esteja consumida. (Esta carta não concede espaços na **MESA**)
+* No início e no fim da Batalha, ou ao mudar o período do dia, consuma esta carta.
 * A qualquer momento do seu turno, você pode pagar os custos referidos na caixa de Mecânica para recuperar esta carta.
 * Quando consumida, esta carta não tem efeito. Quando recuperada, o efeito dessa carta deve ser considerado, estando disponível para ser utilizado.
 * Você pode descartar esta carta a qualquer momento do seu turno.
