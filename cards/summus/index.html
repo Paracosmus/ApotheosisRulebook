@@ -6,7 +6,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.813949112128">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.814038290976">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.11.0">
@@ -36,11 +36,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link href="../../static/img/favicon.ico" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.11.0.813949112128" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.11.0.814038290976" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.813949112128" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.814038290976" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.813949112128" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.814038290976" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -423,8 +423,9 @@
 <p>Uma carta <a href=""><span class="summus"><b>SUMMUS</b></span></a> pode ser identificada por suas 3 características distintas.</p>
 <ul>
 <li>O ícone do naipe tem sua cor modificada para <span class="summus">magenta</span>.</li>
-<li>Raridade <a href="../#raridade"><span class="rare">RARA</span></a> ou superior e <em>full-art</em>.</li>
-<li>A presença de uma caixa identificadora do tipo de Summus, contendo informações adicionais.</li>
+<li>Raridade <a href="../#raridade"><span class="rare">RARA</span></a> ou superior, e <em>full-art</em>.</li>
+<li>Cartas de nível 3 (Exceto quando cartas de <a href="../house/"><span class="house"><b>CASA</b></span></a>)</li>
+<li>A presença de uma caixa identificadora do tipo de Summus, abaixo ou acima do texto do efeito da carta, contendo informações adicionais referentes à sua mecânica extra.</li>
 </ul>
 <hr>
 <doc-anchor-target id="mecânica-básica">
@@ -440,7 +441,13 @@
 <dt><strong>Limite de Cartas</strong></dt>
 <dd>Cada Herói pode ter apenas uma carta de cada tipo de Summus e apenas <strong>3</strong> cartas de Summus no total (including <a href="../../hero/table/"><span class="main"><b>MESA</b></span></a>, <a href="../../hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a> e Anexos)</dd>
 <dt><strong>Espaço</strong></dt>
-<dd>Não ocupam um espaço na <a href="../../hero/table/"><span class="main"><b>MESA</b></span></a></dd>
+<dd>
+<p>Não ocupam um espaço na <a href="../../hero/table/"><span class="main"><b>MESA</b></span></a></p>
+<ul>
+<li>Quando cartas de Ficha, elas são adicionadas a <em>Zona Extra</em> da <strong>FICHA</strong></li>
+<li>Quando cartas de Recurso, elas são adicionadas as suas respectivas zonas da <strong>MESA</strong> conforme naipe, porém não ocupam um espaço de carta naquela zona</li>
+</ul>
+</dd>
 </dl>
 <hr>
 <doc-anchor-target id="mecânica-adicional">
@@ -470,7 +477,7 @@
 <li>No início e no fim da Batalha, remova todos os <a href="../../gameplay/counters/"><span class="main">❂<b>CONTADOR DE ULTIMATE</b></span></a> desta carta.</li>
 <li>No início de cada rodada de batalha, adicione um <a href="../../gameplay/counters/"><span class="main">❂<b>CONTADOR DE ULTIMATE</b></span></a> a esta carta, se ela estiver na <a href="../../hero/table/"><span class="main"><b>MESA</b></span></a>.</li>
 <li>Quando esta carta possuir a quantidade mínima de <a href="../../gameplay/counters/"><span class="main">❂<b>CONTADOR DE ULTIMATE</b></span></a>, você pode ativar esta carta.</li>
-<li>Não possuem custo em <a href="../../hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a>, pois para ativá-la você deve sacrificar o seu turno.</li>
+<li>Não possuem custo em <a href="../../hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a>, pois para ativá-la você deve realizar uma Ação Total.</li>
 <li>Remova todos os <a href="../../gameplay/counters/"><span class="main">❂<b>CONTADOR DE ULTIMATE</b></span></a> desta carta após ativá-la.</li>
 <li>Nenhuma carta pode ser ativada em resposta a esta ativação.</li>
 <li>São sempre <a href="../#palavras-chave-de-efeito-keyword"><span class="keyword-limit">Uma vez por Batalha</span></a>.</li>
@@ -510,9 +517,9 @@
     </h4>
 </doc-anchor-target>
 <ul>
-<li>Para adicionar uma carta Collegium da <span class="class"><b>TAVERNA</b></span> para um espaço extra na sua <a href="../../hero/table/#-ficha"><span class="main"><b>FICHA</b></span></a>, o Herói deve <strong>banir</strong> uma carta com a propriedade <strong>INICIAÇÃO</strong>.</li>
-<li>Adicione os bônus de atributos desta carta ao total do Herói. (Esta carta não concede espaços na <a href="../../hero/table/"><span class="main"><b>MESA</b></span></a>)</li>
-<li>No início e no fim da Batalha, consuma esta carta.</li>
+<li>Para adicionar uma carta Collegium da <strong>TAVERNA</strong> para um espaço extra na sua <strong>FICHA</strong>, o Herói deve <strong>banir</strong> uma carta com a propriedade <strong>INICIAÇÃO</strong>.</li>
+<li>Adicione os bônus de atributos desta carta ao total do Herói, mesmo que ela esteja consumida. (Esta carta não concede espaços na <strong>MESA</strong>)</li>
+<li>No início e no fim da Batalha, ou ao mudar o período do dia, consuma esta carta.</li>
 <li>A qualquer momento do seu turno, você pode pagar os custos referidos na caixa de Mecânica para recuperar esta carta.</li>
 <li>Quando consumida, esta carta não tem efeito. Quando recuperada, o efeito dessa carta deve ser considerado, estando disponível para ser utilizado.</li>
 <li>Você pode descartar esta carta a qualquer momento do seu turno.</li>
