@@ -7,10 +7,10 @@ layout: page
 
 ---
 
-### Durante seu Turno
+## Durante seu Turno
 
 Ativar Carta
-:   Custo de {{ ap }}, {{ sp }}, {{ mp }}  e/ou Essência, mais requerimentos e custos adicionais descrito na carta, se houverem
+:   Custo de {{ ap }}, Energia ({{ sp }}, {{ mp }}  e/ou Essência), mais requerimentos e custos adicionais descrito na carta, se houverem
 
 Enviar carta do {{ inv }} para a {{ table }}
 :   2 de {{ ap }}
@@ -48,7 +48,7 @@ Propor Pacto
 <br>
 <br>
 
-### Apenas Fora de Batalha
+## Apenas Fora de Batalha
 
 Adquirir {{ class }}
 :   Ação total e enterrar 5 cartas de recurso do mesmo nível da carta desejada
@@ -67,7 +67,7 @@ Fabricar {{ item }}
 
 <br>
 
-### Apenas Durante a Batalha
+## Apenas Durante a Batalha
 
 Mover (por casa do tabuleiro)
 :   1 de {{ ap }}
