@@ -6,7 +6,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.12.0.825012846945">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.12.0.825015814259">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.12.0">
@@ -34,11 +34,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../static/img/favicon.ico" />
-    <link href="../../resources/css/retype.css?v=3.12.0.825012846945" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.12.0.825015814259" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.12.0.825012846945" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.12.0.825015814259" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.12.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.12.0.825012846945" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.12.0.825015814259" data-turbo-eval="false" defer></script>
     <script id="mermaid-js" data-cfasync="false" src="../../resources/js/mermaid.js?v=3.12.0" defer></script>
 
     <!-- Font -->
@@ -651,6 +651,46 @@ O jogador pode então tomar decisões e executar as diferentes ações e cartas 
     </div>
 </div>
 <hr>
+<p>Normal VS Rush</p>
+<p>Cada rodada tem várias iterações de cada jogador, sendo que efeito de inicio e fim de turno são executadas na primeira e última iteração respectivamente</p>
+<p>O jogador pode passar e guardar para a próxima rodada</p>
+<p>Cada um faz uma ação e passa para o próximo</p>
+<ul>
+<li>Ações que não contam seriam: deslocamento; ativar o Ente;</li>
+</ul>
+<p>Os PAs resetam apenas no início de uma nova rodada</p>
+<p>A rodada so muda quando todos estão sem PAs depois de várias iterações</p>
+<p>Talvez seja melhor não existir efeito de turno, todos seriam efeitos de rodada</p>
+<p>Início da Batalha</p>
+<ul>
+<li>Reset Phase (O período entre uma reset phase e outra é chamado de sprint ())</li>
+<li><em>Começa o Round (Não é uma phase)</em>
+<ul>
+<li><em>Turno de Cada Jogador (Não é uma phase)</em>
+<ul>
+<li>Draw phase</li>
+<li>Start Phase
+<ul>
+<li>Clean-up: Faz todos os efeitos de adicionar ou remover marcadores, contadores, etc.</li>
+<li>Earnings: Recebe todos os ganhos em ap, mp, sp, ep, etc. (simultaneamente)</li>
+<li>Payment: Paga todos os custos em ap, mp, sp, ep, etc. (simultaneamente)</li>
+</ul>
+</li>
+<li>Main Phase (nenhum efeito trigga nesta fase, ele é a fase de jogo manual, e não automático, o momento onde você pode ativar cartas do tipo activate)</li>
+<li>End Phase</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><em>Termina o Round (Não é uma phase)</em></li>
+</ul>
+<p>No modo rush, o que muda é que</p>
+<ul>
+<li>A Draw phase e start phase só acontecem no seu primeiro turno desde a última reset phase</li>
+<li>A sua end phase só acontece quando você declarar, ou quando você ficar sem AP</li>
+<li>Seu turno então é composto apenas de Main phase</li>
+<li>A reset phase não acontece a cada round, mas sim apenas quando todos os personagens jogaram suas end phases</li>
+</ul>
 <div id="backlinks">
     <h2>See also</h2>
     <div class="grid gap-4 [grid-template-columns:repeat(auto-fit,minmax(300px,1fr))]">
