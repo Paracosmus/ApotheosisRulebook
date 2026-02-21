@@ -1,6 +1,6 @@
 ---
 label: Evento
-icon: "../static/img/icons/suit_event.svg"
+icon: "/static/img/icons/suit_event.svg"
 order: 1
 ---
 
@@ -11,7 +11,7 @@ order: 1
 São cartas utilizadas para criar eventos aleatórios, que podem ser aplicados ao grupo. Elas são utilizadas para criar situações inesperadas, que podem alterar o rumo da aventura ou trazer desafios adicionais.
 
 ||| :icon-file-moved:
-![](../static/img/cards/event.png)
+![](/static/img/cards/event.png)
 ||| :icon-arrow-down-right:
 1. **Valor**: Valor da carta em {{ fate }}
 

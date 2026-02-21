@@ -1,6 +1,6 @@
 ---
 label: Casa
-icon: "../static/img/icons/suit_house.svg"
+icon: "/static/img/icons/suit_house.svg"
 order: 7
 ---
 
@@ -14,7 +14,7 @@ O jogador recebe uma carta de {{ house }} com base em disponibilidade e regras d
 
 ||| :icon-file-moved:
 
-![](../static/img/cards/house.png)
+![](/static/img/cards/house.png)
 
 ||| :icon-arrow-down-right:
 1. **Atributos Base**: Valores iniciais dos [Atributos](/hero/attributes.md) do personagem.

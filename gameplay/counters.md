@@ -10,6 +10,9 @@ Um contador é uma unidade qualquer colocada sobre uma carta, como uma moeda ou 
 
 Contadores são utilizados comumente para contar unidades ou tempo, como custos ou requerimentos para ativar diversos efeitos, entre outros. Geralmente contadores são adicionados, removidos e usados por efeitos de cartas ou mecânicas de jogo.
 
+- Cartas de Ficha podem receber até 5 contadores
+- Cartas de Recurso podem receber até 25 contadores
+
 ---
 
 ## Duração

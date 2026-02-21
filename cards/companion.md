@@ -1,6 +1,6 @@
 ---
 label: Companheiro
-icon: "../static/img/icons/suit_companion.svg"
+icon: "/static/img/icons/suit_companion.svg"
 order: 2
 ---
 
@@ -11,7 +11,7 @@ order: 2
 São personagens humanos, animais ou evocações. Diferente de um [Herói](/hero/), cujas características, conhecimentos, e habilidades são uma composição de várias cartas, os {{ companion }} são personagens definidos inteiramente por uma única carta que contém todas as informações necessárias para sua utilização, não possuindo {{ table }} e {{ inv }}, mas sim, sendo um NPC controlado pelo [Cartomante](/gameplay/game-master.md) ou parte da {{ table }} de um [Herói](/hero/).
 
 ||| :icon-file-moved:
-![](../static/img/cards/companion.png)
+![](/static/img/cards/companion.png)
 ||| :icon-arrow-down-right:
 1. **Tipo**
 
@@ -134,6 +134,8 @@ Este é o processo de trocar uma carta de {{ companion }} em seu {{ support }} p
 A qualquer momento do turno de um personagem {{ companion }} que esteja na {{ table }} de um Herói, mesmo que em combate ou quando ele não tem acesso ao {{ bestiary }}, ele pode sacrificar o seu turno e descartar 3 de {{ xp }}, para selecionar uma carta de {{ companion }} do {{ bestiary }} de nível imediatamente superior ao seu e de mesmo caminho, observando se o seu Herói possuí o {{ knowledge }} e nível necessário para ter aquela carta em sua {{ table }}, bem como outros requerimentos, se houverem.
 
 Enterre então a carta de {{ companion }}, substituindo-a ela pela nova carta, que herda seus anexos e contadores.
+
+Selecionar a uma carta de COMPANHEIRO no seu INVENTÁRIO de mesmo Tipo de Companheiro, mesmo Caminho, e nível imediatamente superior. Coloque-a sobre a carta atual, de forma que não cubra as técnicas da mesma.
 
 ---
 

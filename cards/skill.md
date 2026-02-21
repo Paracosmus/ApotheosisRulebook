@@ -1,6 +1,6 @@
 ---
 label: Habilidade
-icon: "../static/img/icons/suit_skill.svg"
+icon: "/static/img/icons/suit_skill.svg"
 order: 3
 ---
 
@@ -9,7 +9,7 @@ order: 3
 Representam novas capacidades físicas, mentais e espirituais adquiridas por um personagem, conforme ganha experiência de vida, que concedem efeitos e modificadores.
 
 ||| :icon-file-moved:
-![](../static/img/cards/skill.png)
+![](/static/img/cards/skill.png)
 ||| :icon-arrow-down-right:
 1. **Valor em XP**
 
@@ -86,5 +86,7 @@ Quando você puder _“levantar troco”_, o troco deve ser da mesma cor ou leva
 * :icon-chevron-right: {{ white }} - Representa a essência de Lignums de natureza espiritual, como fé, esperança, amor, magia branca, etc.
 
 * :icon-chevron-right: {{ black }} - Representa a essência de Lignums de natureza destrutiva, como morte, dor, sofrimento, magia negra, etc.
+
+Se você pagar essência em uma ativação que seja exclusiva de estamina ou mana, você ainda pode pegar o troco do overpay. Agora se a ativação requer ambas, estamina e mana, então você não pode pegar o troco desta ativação
 
 ---

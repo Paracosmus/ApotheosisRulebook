@@ -135,3 +135,44 @@ O calendário lunar e/ou astronômico pode também ser definido, se relevante.
 !!!
 
 ---
+
+
+
+
+
+Normal VS Rush
+
+Cada rodada tem várias iterações de cada jogador, sendo que efeito de inicio e fim de turno são executadas na primeira e última iteração respectivamente
+
+O jogador pode passar e guardar para a próxima rodada
+
+Cada um faz uma ação e passa para o próximo
+
+- Ações que não contam seriam: deslocamento; ativar o Ente;
+
+Os PAs resetam apenas no início de uma nova rodada
+
+A rodada so muda quando todos estão sem PAs depois de várias iterações
+
+Talvez seja melhor não existir efeito de turno, todos seriam efeitos de rodada
+
+Início da Batalha
+
+- Reset Phase (O período entre uma reset phase e outra é chamado de sprint ())
+- *Começa o Round (Não é uma phase)*
+    - *Turno de Cada Jogador (Não é uma phase)*
+        - Draw phase
+        - Start Phase
+            - Clean-up: Faz todos os efeitos de adicionar ou remover marcadores, contadores, etc.
+            - Earnings: Recebe todos os ganhos em ap, mp, sp, ep, etc. (simultaneamente)
+            - Payment: Paga todos os custos em ap, mp, sp, ep, etc. (simultaneamente)
+        - Main Phase (nenhum efeito trigga nesta fase, ele é a fase de jogo manual, e não automático, o momento onde você pode ativar cartas do tipo activate)
+        - End Phase
+- *Termina o Round (Não é uma phase)*
+
+No modo rush, o que muda é que
+
+- A Draw phase e start phase só acontecem no seu primeiro turno desde a última reset phase
+- A sua end phase só acontece quando você declarar, ou quando você ficar sem AP
+- Seu turno então é composto apenas de Main phase
+- A reset phase não acontece a cada round, mas sim apenas quando todos os personagens jogaram suas end phases

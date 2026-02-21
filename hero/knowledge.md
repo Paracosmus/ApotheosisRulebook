@@ -15,22 +15,22 @@ Existem 14 CONHECIMENTO, divididos em dois grupos de cunho narrativo.
 ||| BAIXA ETEREOLOGIA
 
 {{ faith }}
-{{ arcane }}
 {{ cooperation }}
+{{ practice }}
 {{ defense }}
 {{ athletics }}
-{{ practice }}
-{{ art }}
 {{ instruction }}
-{{ cunning }}
+{{ arcane }}
 {{ elemental }}
+{{ cunning }}
+{{ art }}
 
 ||| ALTA ETEREOLOGIA
 
 {{ transmutation }}
+{{ dimensional }}
 {{ vital }}
 {{ mental }}
-{{ dimensional }}
 
 |||
 

@@ -1,6 +1,6 @@
 ---
 label: Item
-icon: "../static/img/icons/suit_item.svg"
+icon: "/static/img/icons/suit_item.svg"
 order: 4
 ---
 
@@ -11,7 +11,7 @@ order: 4
 São cartas que podem ser usadas para complementar um personagem, servindo como ferramentas que auxiliam em certas atividades bem como fornecem bônus. Eles complementam um personagem, na forma de armaduras, armas, consumíveis, entre outros.
 
 ||| :icon-file-moved:
-![](../static/img/cards/item.png)
+![](/static/img/cards/item.png)
 ||| :icon-arrow-down-right:
 1. **Valor em Preço**
 

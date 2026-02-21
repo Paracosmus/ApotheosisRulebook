@@ -70,7 +70,7 @@ Os 20 caminhos são:
 | {{ moon }}       | Mentalistas, ilusionistas, hipnólogos              |
 | {{ sun }}        | Cavaleiros, heróis                                 |
 | {{ judgment }}   | Vasculhadores, sobreviventes, desajustados         |
-| <span style="color: #AAA">{{ world }}</span> | <span style="color: #AAA">_Usado apenas por casos especiais, como summus._ |
+| <span style="color: #AAA">{{ world }}</span> | <span style="color: #AAA">_Classes de casos especiais, como iluminados_ |
 
 ---
 

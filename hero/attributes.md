@@ -99,7 +99,7 @@ Determina a capacidade do personagem de fazer com que outros gostem dele, seria 
 |||
 
 ||| {{ attr " ESPIRITUAL" "ESP" "magic" }}
-Está relacionado à capacidade do personagem de sentir e manipular tudo que envolve o éter e é chamado popularmente de magia.
+Está relacionado à capacidade do personagem de sentir e manipular tudo que envolve o éter e é chamado popularmente de magia. Também representa a sabedoria do personagem, no sentido de sabedoria e estado de consciência que vem do espirito. (Sua evolução espiritual)
 
 * Testes relacionados ao éter.
 * {{ dmg }} de ataques etéreos, como magias e encantamentos.

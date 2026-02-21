@@ -1,6 +1,6 @@
 ---
 label: Summus
-icon: "../static/img/icons/suit_summus.svg"
+icon: "/static/img/icons/suit_summus.svg"
 order: 0
 ---
 
@@ -41,6 +41,12 @@ A mecânica adicionada por uma carta Summus é definida pelo seu tipo, e pode se
 <br>
 
 
+
+%% ========================================================================================================= %%
+%% ========================================================================================================= %%
+
+
+
 ==- <span class="summus"> Ultimatum</span>
 > Ultimatum é o termo latino para "último", e refere-se a uma ação final ou definitiva.
 > 
@@ -71,6 +77,11 @@ São as Summus mais simples de serem utilizadas e ativadas, o que as torna basta
 - *Texto*: Instruções adicionais de uso e ativação da carta.
 |||
 ===
+
+
+
+%% ========================================================================================================= %%
+%% ========================================================================================================= %%
 
 
 
@@ -107,6 +118,11 @@ A ilustração da carta representa o *frater* ou *soror* daquela egrégora.
 
 
 
+%% ========================================================================================================= %%
+%% ========================================================================================================= %%
+
+
+
 ==- <span class="summus"> Dominium</span>
 > Dominium é o termo latino para “domínio”, no sentido de posse, território, propriedade.
 > 
@@ -138,6 +154,11 @@ Dominiums são cartas de {{ event }} que quando ativadas do {{ inv }} são envia
 - ***Texto***: Efeito que é usado ou aplicado apenas pelo ativar desta carta. São sempre **PERMANENTES**.
 |||
 ===
+
+
+
+%% ========================================================================================================= %%
+%% ========================================================================================================= %%
 
 
 
@@ -188,5 +209,12 @@ Os daemons são evocados através de um custo em *“sangue”*.
 
 |||
 ===
+
+
+
+%% ========================================================================================================= %%
+%% ========================================================================================================= %%
+
+
 
 ---

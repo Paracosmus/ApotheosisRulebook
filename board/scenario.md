@@ -38,3 +38,9 @@ Uma carta pode ser adicionada ao {{ scenario }} das seguintes formas:
 1. **Campanha**: Algumas campanhas possuem regras que especificam quais cartas devem ser removidas do {{ scenario }} e quando
 
 ---
+
+Todas as cartas do cenário são removidas ao final da batalha ou ao início de um novo dia.
+
+A campanha pode determinar que certas cartas permanecem por mais tempo.
+
+---

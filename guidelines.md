@@ -14,17 +14,17 @@ Estas regras e mecânicas são aplicáveis a todas as situações do jogo, e dev
 
 ## Siga o Texto
 
-A combinação de texto e mecânica diz tudo o que você precisa saber, não é preciso adicionar regras. Esteja atento ao texto, se ele explicita que você _“deve fazer algo”_, aquilo é obrigatório, por outro lado, se ele diz que você _“pode fazer algo”_, ele está lhe dando uma opção, e assim por diante.
+A combinação de texto e mecânica diz tudo o que você precisa saber, não é preciso adicionar regras. Esteja atento ao texto, se ele explicita que você “deve fazer algo”, aquilo é obrigatório, por outro lado, se ele diz que você “pode fazer algo”, ele está lhe dando uma opção, e assim por diante.
 
 ---
 
 ## Dados
 
-Inúmeras ações no jogo são resolvidas através da rolagem de dados, includindo testes, ataques, efeitos, entre outros.
+Inúmeras ações no jogo são resolvidas através da rolagem de dados, incluindo testes, ataques, efeitos, entre outros.
 
-Os dados utilizados são de seis faces, representados pela sigla **D6**. Em alguns casos, serão necessários dados com menos faces, então o dado de seis faces deve ser tratado da seguinte forma:
+Os dados utilizados são de seis faces, representados pela sigla **D6**. Em alguns casos, serão necessários dados com menos faces, então o dado de seis faces deve ser tratado da seguinte forma:
 
-| D6 {{ d1d6 }} | D3 {{ d1d3 }}  | D2 {{ d1d2 }}
+| {{ d1d6 }} D6 | {{ d1d3 }} D3  | {{ d1d2 }} D2
 |--- |--- |---
 | Role o dado de 6 faces e utilize o número obtido como resultado. | Considera-se o dado de 6 faces como um dado de 3 faces:<br/>• 1 e 2 = 1<br/>• 3 e 4 = 2<br/>• 5 e 6 = 3 | Considera-se o dado de 6 faces como um dado de 2 faces:<br/>• 1, 2 e 3 = 1<br/>• 4, 5 e 6 = 2
 
@@ -36,7 +36,7 @@ Múltiplos dados são referidos na forma {{ d2d6 }}(**2D6**), {{ d3d2 }}(**3D2**
 
 É quando o valor natural obtido no dado principal é 6
 
-## **Quem Rola os Dados**
+## Quem Rola os Dados
 
 Quando uma mecânica de jogo determinar a rolagem de dados, o jogador que rola os dados é sempre o jogador que desencadeou a mecânica.
 
@@ -56,7 +56,7 @@ São todos os demais dados em uma rolagem de dados que não sejam o dado princip
 
 Quando o valor obtido no dado principal for um 6 natura, o jogador deve rolar 1d3 adicional. Se o valor obtido neste 1d3 também for um 6 natura (já que são sempre utilizados dados de 6 faces) o jogador deve continuar rolando 1d3 adicional até quebrar a sequência, o adicionar ao valor obtido netes 1d3 ao total da rolagem.
 
-## **Dado Aleatório**
+## Dado Aleatório
 
 Em alguns casos pode ser solicitado a rolagem de **Dados Aleatórios**, isso significa que o jogador deve rolar os dados solicitados e ignorar quaisquer bônus e efeitos de carta que afetem a rolagem de dados e considerar apenas o valor obtido no dado.
 
@@ -96,7 +96,7 @@ Toda divisão que tiver como resultado um valor fracionado, deve ser arredondado
 
 ## Individualidade
 
-Ninguém pode jogar o turno de um jogador por ele. Cada um deve agir por conta própria, se um jogador quer a opinião de outro antes de agir, seus personagens precisam conversar e não os jogadores. Personifiquem os personagens e interpretem-os.
+Ninguém pode jogar o turno de um jogador por ele. Cada um deve agir por conta própria, se um jogador quer a opinião de outro antes de agir, seus personagens precisam conversar e não os jogadores. Personifiquem os personagens e interpretem-nos.
 
 ---
 
@@ -116,11 +116,11 @@ A não ser que seja relevante para uma determinada cena, não é necessário se 
 
 Por exemplo:
 
-* Quando o personagem está viajando, considere que ele fez paradas para descanso, alimentação, etc., ele conheceu pessoas, viu coisas, interagiu com o ambiente, etc.
-* Quando o personagem realiza um teste, considere que ele se preparou, pensou, refletiu, etc., bem como houveram outras aprendizado e ações que vão além do resultado final do teste.
-* A mudança de classe é uma abstração para representar o crescimento do personagem, considere que ele passou por inúmeras experiências que o levaram a mudar sua visão de mundo e seus objetivos gradualmente, até chegar àquele ponto.
-* Itens quebram, são reparados, recebem manutenção, etc., considere que o personagem cuidou de seus equipamentos e os manteve em boas condições.
-* Companheiros também vivem suas vidas, considere que eles tiveram suas próprias experiências e interações, que os levaram a estar onde estão e a agir como agem. Considere que o Herói alimenta e cuida de seus animais, apara o pelo, limpa, etc.
+- Quando o personagem está viajando, considere que ele fez paradas para descanso, alimentação, etc., ele conheceu pessoas, viu coisas, interagiu com o ambiente, etc.
+- Quando o personagem realiza um teste, considere que ele se preparou, pensou, refletiu, etc., bem como houveram outras aprendizado e ações que vão além do resultado final do teste.
+- A mudança de classe é uma abstração para representar o crescimento do personagem, considere que ele passou por inúmeras experiências que o levaram a mudar sua visão de mundo e seus objetivos gradualmente, até chegar àquele ponto.
+- Itens quebram, são reparados, recebem manutenção, etc., considere que o personagem cuidou de seus equipamentos e os manteve em boas condições.
+- Companheiros também vivem suas vidas, considere que eles tiveram suas próprias experiências e interações, que os levaram a estar onde estão e a agir como agem. Considere que o Herói alimenta e cuida de seus animais, apara o pelo, limpa, etc.
 
 Estas e inúmeras outras interações e eventos acontecem o tempo todo, e são delas que o personagem tira suas experiências, aprendizados e conhecimentos.
 

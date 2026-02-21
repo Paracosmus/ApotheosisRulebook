@@ -1,6 +1,6 @@
 ---
 label: Ente
-icon: "../static/img/icons/suit_entity.svg"
+icon: "/static/img/icons/suit_entity.svg"
 order: 5
 ---
 
@@ -15,7 +15,7 @@ As cartas de {{ entity }} aplicam transformações no personagem, alterando seus
 O personagem (receptáculo) pode incorporar, estas formas de energia e dominá-las. Cada corpo humano pode abrigar apenas um {{ entity }} por vez. Ele se mantém adormecido (carta oculta) e pode ser despertado (carta revelada) a qualquer momento, pelo receptáculo. Quando despertado, o corpo do receptáculo é transformado pelo {{ entity }}.
 
 ||| :icon-file-moved:
-![](../static/img/cards/entity.png)
+![](/static/img/cards/entity.png)
 ||| :icon-arrow-down-right:
 1. **Bônus de Atributo**: Valores adicionados aos [Atributos](/hero/attributes.md) do personagem quando este {{ entity }} está desperto.
 
