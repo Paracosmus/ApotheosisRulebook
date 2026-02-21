@@ -26,7 +26,9 @@ layout: page
 
 ---
 
-O **APOTHEOSIS CARD GAME** é um de role-playing game (RPG) modular que combina elementos de RPG, deck building e batalha em um tabuleiro quadriculado, em um universo, estória e narrativa únicos.
+O **APOTHEOSIS CARD GAME** é um jogo de cartas modular que combina elementos de role-playing game (RPG), deck building e batalha em um tabuleiro quadriculado, em um universo, história e narrativa únicos.
+
+Jogadores coletam cartas utilizadas para compor seu personagem, que irá enfrentar desafios propostos por uma campanha narrativa ou batalhar contra os personagens de outros jogadores pela vitória.
 
 Esta documentação detalha todas as regras, componentes e interações que compõem o jogo, servindo como referência tanto para jogadores quanto para desenvolvedores de conteúdo.
 
@@ -57,5 +59,5 @@ Este jogo é construído sobre quatro pilares principais:
 <br>
 
 !!!
-Esta documentação está em constante atualização para refletir melhorias e novos conteúdos do sistema APOTHEOSIS CARD GAME. Para contribuições ou sugestões, entre em contato com a equipe de desenvolvimento.
+Esta documentação está em constante atualização para refletir melhorias e novos conteúdos do sistema APOTHEOSIS CARD GAME. Para dúvidas, contribuições ou sugestões, entre em contato com a equipe de desenvolvimento.
 !!!

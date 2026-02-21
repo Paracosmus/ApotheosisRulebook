@@ -10,7 +10,7 @@ layout: page
 ## Durante seu Turno
 
 Ativar Carta
-:   Custo de {{ ap }}, Energia ({{ sp }}, {{ mp }}  e/ou Essência), mais requerimentos e custos adicionais descrito na carta, se houverem
+:   Custo de {{ ap }} e/ou Energia ({{ sp }}, {{ mp }}  e/ou Essência), mais requerimentos e custos adicionais descrito na carta, se houverem
 
 Enviar carta do {{ inv }} para a {{ table }}
 :   2 de {{ ap }}
@@ -31,13 +31,13 @@ Interação com Objeto ou Personagem
 
 Despertar o {{ entity }}
 :   2 de {{ sp }} e/ou {{ mp }}
-*   +2 de {{ sp }} e/ou {{ mp }} no início do turno para manter o {{ entity }} desperto
+*   {{n '+2'}} de **Energia** na sua *Fase Inicial* para manter o {{ entity }} desperto
 
 Evocar
 :   2 de {{ mp }}
 
 Descansar
-:   Ação total para curar 10 de VIDA e recuperar 2 de ESTAMINA, MANA e/ou ESSÊNCIA
+:   Ação total para curar 10 de VIDA e recuperar 2 de **Energia**
 
 Trocar cartas com uma Pilha de Descarte
 :   Ação total
@@ -51,16 +51,16 @@ Propor Pacto
 ## Apenas Fora de Batalha
 
 Adquirir {{ class }}
-:   Ação total e enterrar 5 cartas de recurso do mesmo nível da carta desejada
+:   Ação total e enterrar {{n 5}} cartas de recurso do mesmo nível da carta desejada
 
 Progredir {{ class }}
-:   Ação total e enterrar 3 cartas de recurso do mesmo nível da carta desejada
+:   Ação total e enterrar {{n 3}} cartas de recurso do mesmo nível da carta desejada
 
 Incorporar {{ entity }}
-:   Ação total e enterrar 5 cartas de recurso do mesmo nível do carta desejado
+:   Ação total e enterrar {{n 5}} cartas de recurso do mesmo nível do carta desejado
 
 Liberar {{ entity }}
-:   Ação total e enterrar o seu {{ entity }}
+:   Ação total e descartar o seu {{ entity }}
 
 Fabricar {{ item }}
 :   Ação total e enterrar cartas de {{ item }} até que a combinação dos materiais seja igual ou superior aos materiais da carta desejada
@@ -71,8 +71,8 @@ Fabricar {{ item }}
 
 Mover (por casa do tabuleiro)
 :   1 de {{ ap }}
-*  +1 de {{ ap }} para cada inimigo adjacente para desengajar
-*  +1 de {{ ap }} para cada ALTITUDE de diferença
+*  {{n '+1'}} de {{ ap }} para cada inimigo adjacente para desengajar
+*  {{n '+1'}} de {{ ap }} para cada {{ alt }} de diferença
 
 Ataque Normal
 :   3 de {{ ap }}

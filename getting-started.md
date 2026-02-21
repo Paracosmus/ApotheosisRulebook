@@ -13,7 +13,7 @@ Sendo este um jogo modular, ele pode ser jogado de diversas formas, com diferent
 Em adicional, objetivos e desafios específicos podem ser definidos para cada partida, de acordo com o formato escolhido, bem como propostos por uma campanha ou metre de jogo.
 
 !!!ghost
-Consulte a sessão de [formatos](/gameplay/formats.md) para mais detalhes sobre algumas dos formatos mais comuns de jogo.
+Consulte a sessão de [formatos](#formato) para mais detalhes sobre algumas dos formatos mais comuns de jogo.
 !!!
 
 ---
@@ -41,6 +41,14 @@ Dois ou mais jogadores ou equipes se enfrentam em um confronto tático, utilizan
 Os formatos de jogo são conjuntos personalizados de regras que adicionam ou modificam as regras padrões de jogo. São utilizados para criar diferentes formas de jogar e permitir a customização por parte dos jogadores
 
 Abaixo estão os formatos oficiais:
+
+TODO
+
+[Standard]()
+[Lagvig]()
+[Field Battle]()
+[Naval Battle]()
+[Liga Pokémon]()
 
 ---
 
