@@ -3,6 +3,7 @@ label: Testes
 icon: checkbox
 order: 4
 ---
+{{ review() }}
 
 # TESTES
 

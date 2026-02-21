@@ -3,6 +3,7 @@ label: Classe
 icon: "/static/img/icons/suit_class.svg"
 order: 6
 ---
+{{ review() }}
 
 # Classe
 

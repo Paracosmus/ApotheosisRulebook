@@ -3,6 +3,7 @@ label: Mestre de Jogo
 icon: person-add
 order: 7
 ---
+{{ review() }}
 
 # Mestre de Jogo
 

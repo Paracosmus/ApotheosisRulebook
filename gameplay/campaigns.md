@@ -3,6 +3,7 @@ label: Campanhas
 icon: checklist
 order: 88
 ---
+{{ review() }}
 
 # Campanhas
 

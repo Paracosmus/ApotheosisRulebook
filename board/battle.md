@@ -3,6 +3,7 @@ label: Batalha
 icon: flame
 order: 1
 ---
+{{ review() }}
 
 # BATALHA
 

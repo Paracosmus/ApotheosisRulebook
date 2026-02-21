@@ -2,6 +2,7 @@
 label: Cartilha
 layout: page
 ---
+{{ review() }}
 
 # Cartilha
 

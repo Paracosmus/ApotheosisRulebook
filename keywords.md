@@ -2,6 +2,7 @@
 label: Palavras-Chave
 layout: page
 ---
+{{ review() }}
 
 # Palavras-Chave
 

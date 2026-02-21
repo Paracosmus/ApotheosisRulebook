@@ -3,6 +3,7 @@ label: Companheiro
 icon: "/static/img/icons/suit_companion.svg"
 order: 2
 ---
+{{ review() }}
 
 # COMPANHEIRO
 

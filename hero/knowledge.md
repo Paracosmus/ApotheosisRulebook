@@ -3,6 +3,7 @@ label: Conhecimentos
 icon: repo
 order: 2
 ---
+{{ review() }}
 
 # Conhecimentos
 

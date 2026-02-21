@@ -3,6 +3,7 @@ label: Turnos
 icon: hourglass
 order: 6
 ---
+{{ review() }}
 
 # Rodadas e Turnos
 Este é um jogo de turnos, isso quer dizer que cada jogador realiza suas jogadas e então passa a vez para o próximo jogador.

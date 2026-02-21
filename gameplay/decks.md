@@ -3,6 +3,7 @@ label: Baralhos
 icon: stack
 order: 5
 ---
+{{ review() }}
 
 # Baralhos
 

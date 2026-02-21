@@ -4,6 +4,7 @@ icon: versions
 order: 99
 expanded: true
 ---
+{{ review() }}
 
 # Cartas
 

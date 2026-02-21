@@ -3,6 +3,7 @@ label: Formatos
 icon: project
 order: 9
 ---
+{{ review() }}
 
 # Formatos
 

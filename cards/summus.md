@@ -3,6 +3,7 @@ label: Summus
 icon: "/static/img/icons/suit_summus.svg"
 order: 0
 ---
+{{ review() }}
 
 # SUMMUS
 

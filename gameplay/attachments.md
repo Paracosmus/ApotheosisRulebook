@@ -3,6 +3,7 @@ label: Anexos
 icon: link-external
 order: 2
 ---
+{{ review() }}
 
 # ANEXOS
 

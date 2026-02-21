@@ -3,6 +3,7 @@ label: Casa
 icon: "/static/img/icons/suit_house.svg"
 order: 7
 ---
+{{ review() }}
 
 # Casa
 

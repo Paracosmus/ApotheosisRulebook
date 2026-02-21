@@ -3,6 +3,7 @@ label: Inventário
 icon: inbox
 order: 1
 ---
+{{ review() }}
 
 # Inventário
 

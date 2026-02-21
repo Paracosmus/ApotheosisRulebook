@@ -3,6 +3,7 @@ label: Peças
 icon: squirrel
 order: 3
 ---
+{{ review() }}
 
 # Peças
 

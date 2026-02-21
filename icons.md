@@ -3,6 +3,8 @@ label: Ícones
 icon: diamond
 order: 92
 ---
+{{ review() }}
+
 # Ícones
 
 | Icon | Name                | Unicode |

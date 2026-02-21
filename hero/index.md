@@ -3,6 +3,7 @@ label: Herói
 icon: accessibility
 order: 97
 ---
+{{ review() }}
 
 # Herói
 

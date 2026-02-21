@@ -3,6 +3,7 @@ label: Tabuleiro
 icon: apps
 order: 96
 ---
+{{ review() }}
 
 # TABULEIRO
 

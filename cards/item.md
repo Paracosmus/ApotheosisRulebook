@@ -3,6 +3,7 @@ label: Item
 icon: "/static/img/icons/suit_item.svg"
 order: 4
 ---
+{{ review() }}
 
 # ITEM
 

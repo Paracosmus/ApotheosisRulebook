@@ -3,6 +3,7 @@ label: Diretrizes
 icon: book
 order: 92
 ---
+{{ review() }}
 
 # Diretrizes
 

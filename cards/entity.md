@@ -3,6 +3,7 @@ label: Ente
 icon: "/static/img/icons/suit_entity.svg"
 order: 5
 ---
+{{ review() }}
 
 # Ente
 

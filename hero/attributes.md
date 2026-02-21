@@ -3,6 +3,7 @@ label: Atributos
 icon: sliders
 order: 4
 ---
+{{ review() }}
 
 <style>
 

@@ -3,6 +3,7 @@ label: Personagens
 icon: people
 order: 8
 ---
+{{ review() }}
 
 # Personagens
 

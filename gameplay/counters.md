@@ -3,6 +3,7 @@ label: Contadores
 icon: number
 order: 1
 ---
+{{ review() }}
 
 # CONTADORES
 
