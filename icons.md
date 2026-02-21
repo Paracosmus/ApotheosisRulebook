@@ -1,3 +1,10 @@
+---
+label: Ícones
+icon: diamond
+order: 92
+---
+# Ícones
+
 | Icon | Name                | Unicode |
 | ---- | ------------------- | ------- |
 |     | Suit-House          | e954    |

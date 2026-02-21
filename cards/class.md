@@ -1,6 +1,6 @@
 ---
 label: Classe
-icon: "../static/img/icons/suit_class.svg"
+icon: "/static/img/icons/suit_class.svg"
 order: 6
 ---
 
@@ -13,7 +13,7 @@ São os caminhos evolutivos escolhidos pelo personagem. Sua função é principa
 Cada personagem pode possuir até 3 cartas de {{ class }} em sua {{ sheet }}, que são adquiridas conforme as regras.
 
 ||| :icon-file-moved:
-![](../static/img/cards/class.png)
+![](/static/img/cards/class.png)
 ||| :icon-arrow-down-right:
 1. **Bônus de Atributo**: Valores adicionados aos [Atributos](/hero/attributes.md) do personagem
 
@@ -27,7 +27,7 @@ Cada personagem pode possuir até 3 cartas de {{ class }} em sua {{ sheet }}, qu
 
 1. **Nível da Carta**: de 1 a 3
 
-1.  **Bônus**: Bônus passivo imediato aplicado ao Herói
+1. **Bônus**: Bônus passivo imediato aplicado ao Herói
 
 1. **Efeito**: Texto do efeito desta carta
 |||
