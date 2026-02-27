@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.0.1.825452341050">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.0.1.825547097046">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.0.1">
@@ -31,11 +31,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../static/img/favicon.ico" />
-    <link href="../resources/css/retype.css?v=4.0.1.825452341050" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=4.0.1.825547097046" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=4.0.1.825452341050" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=4.0.1.825547097046" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=4.0.1" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.0.1.825452341050" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.0.1.825547097046" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -46,7 +46,7 @@
         /* Fallback Apotheosis Icons font */
         @font-face {
             font-family: 'Apotheosis';
-            src: url('/static/fonts/apotheosis.ttf') format('truetype');
+            src: url('/static/fonts/Apotheosis.ttf') format('truetype');
             font-weight: normal;
             font-style: normal;
             font-display: block;
@@ -763,18 +763,44 @@
     }
 
 </style>
-<ul>
-<li><div class="rarity-bar" style="background-color: #9E9E9E"></div> <span class="common">COMUM</span>
-</li>
-<li><div class="rarity-bar" style="background-color: #8BC34A"></div> <span class="uncommon">INCOMUM</span>
-</li>
-<li><div class="rarity-bar" style="background-color: #01579B"></div> <span class="rare">RARA</span>
-</li>
-<li><div class="rarity-bar" style="background-color: #673AB7"></div> <span class="epic">ÉPICA</span>
-</li>
-<li><div class="rarity-bar" style="background-color: #FFC400"></div> <span class="legendary">LENDÁRIA</span>
-</li>
-</ul>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><div class="rarity-bar" style="background-color: #9E9E9E"></div></td>
+<td><span class="common">COMUM</span></td>
+<td><code translate="no" class="whitespace-nowrap" v-pre>#9E9E9E<span class="color-preview-display ml-color-preview-margin-left border border-color-preview-border rounded-full h-color-preview-height w-color-preview-width" style="background-color:#9e9e9e;"></span></code></td>
+</tr>
+<tr>
+<td><div class="rarity-bar" style="background-color: #8BC34A"></div></td>
+<td><span class="uncommon">INCOMUM</span></td>
+<td><code translate="no" class="whitespace-nowrap" v-pre>#8BC34A<span class="color-preview-display ml-color-preview-margin-left border border-color-preview-border rounded-full h-color-preview-height w-color-preview-width" style="background-color:#8bc34a;"></span></code></td>
+</tr>
+<tr>
+<td><div class="rarity-bar" style="background-color: #01579B"></div></td>
+<td><span class="rare">RARA</span></td>
+<td><code translate="no" class="whitespace-nowrap" v-pre>#01579B<span class="color-preview-display ml-color-preview-margin-left border border-color-preview-border rounded-full h-color-preview-height w-color-preview-width" style="background-color:#01579b;"></span></code></td>
+</tr>
+<tr>
+<td><div class="rarity-bar" style="background-color: #673AB7"></div></td>
+<td><span class="epic">ÉPICA</span></td>
+<td><code translate="no" class="whitespace-nowrap" v-pre>#673AB7<span class="color-preview-display ml-color-preview-margin-left border border-color-preview-border rounded-full h-color-preview-height w-color-preview-width" style="background-color:#673ab7;"></span></code></td>
+</tr>
+<tr>
+<td><div class="rarity-bar" style="background-color: #FFC400"></div></td>
+<td><span class="legendary">LENDÁRIA</span></td>
+<td><code translate="no" class="whitespace-nowrap" v-pre>#FFC400<span class="color-preview-display ml-color-preview-margin-left border border-color-preview-border rounded-full h-color-preview-height w-color-preview-width" style="background-color:#ffc400;"></span></code></td>
+</tr>
+</tbody>
+</table>
+</div>
 <hr>
 <doc-anchor-target id="coleção">
     <h2>
