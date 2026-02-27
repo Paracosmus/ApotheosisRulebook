@@ -1,6 +1,6 @@
 ---
 label: Collegium
-icon: "/static/img/icons/suit_summus.svg"
+icon: "/static/img/icons/summus_collegium.svg"
 order: 0
 ---
 {{ review() }}

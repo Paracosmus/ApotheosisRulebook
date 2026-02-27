@@ -1,6 +1,6 @@
 ---
 label: Daemon
-icon: "/static/img/icons/suit_summus.svg"
+icon: "/static/img/icons/summus_daemon.svg"
 order: 0
 ---
 {{ review() }}

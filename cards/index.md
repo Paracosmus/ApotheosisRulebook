@@ -269,11 +269,13 @@ Também é utilizada para determinar o tipo de [apoteose](/cards/entity.md#ritua
 
 </style>
 
-* <div class="rarity-bar" style="background-color: #9E9E9E"></div> <span class="common">COMUM</span>
-* <div class="rarity-bar" style="background-color: #8BC34A"></div> <span class="uncommon">INCOMUM</span>
-* <div class="rarity-bar" style="background-color: #01579B"></div> <span class="rare">RARA</span>
-* <div class="rarity-bar" style="background-color: #673AB7"></div> <span class="epic">ÉPICA</span>
-* <div class="rarity-bar" style="background-color: #FFC400"></div> <span class="legendary">LENDÁRIA</span>
+|
+| --- | --- | --- |
+| <div class="rarity-bar" style="background-color: #9E9E9E"></div> | <span class="common">COMUM</span>       | `#9E9E9E` |
+| <div class="rarity-bar" style="background-color: #8BC34A"></div> | <span class="uncommon">INCOMUM</span>   | `#8BC34A` |
+| <div class="rarity-bar" style="background-color: #01579B"></div> | <span class="rare">RARA</span>          | `#01579B` |
+| <div class="rarity-bar" style="background-color: #673AB7"></div> | <span class="epic">ÉPICA</span>         | `#673AB7` |
+| <div class="rarity-bar" style="background-color: #FFC400"></div> | <span class="legendary">LENDÁRIA</span> | `#FFC400` |
 
 ---
 

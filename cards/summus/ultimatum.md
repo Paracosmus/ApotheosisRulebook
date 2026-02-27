@@ -1,11 +1,11 @@
 ---
 label: Ultimatum
-icon: "/static/img/icons/suit_summus.svg"
+icon: "/static/img/icons/summus_ultimatum.svg"
 order: 0
 ---
 {{ review() }}
 
-# <span class="summus"> Ultimatum</span>
+# <span class="summus"> Ultimatum</span>
 
 > Ultimatum é o termo latino para "último", e refere-se a uma ação final ou definitiva.
 > 
