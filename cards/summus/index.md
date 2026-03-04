@@ -23,10 +23,10 @@ Uma carta {{ summus }} pode ser identificada por suas 3 características distin
 Indiferente do tipo de Summus, elas compartilham as seguintes regras de jogo.
 
 **Restrição de Nível**
-:   O Herói precisa ter nível 6✚
+:   O Herói precisa ter nível **9✚**
 
 **Limite de Cartas**
-:   Cada Herói pode ter apenas uma carta de cada tipo de Summus e apenas 3 cartas de Summus no total (including MESA, INVENTÁRIO e Anexos)
+:   Cada Herói pode ter apenas uma carta de cada tipo de Summus e apenas **5** cartas de Summus no total (including MESA, INVENTÁRIO e Anexos)
 
 **Espaço**
 :   Não ocupam um espaço na **MESA**
@@ -39,12 +39,14 @@ Indiferente do tipo de Summus, elas compartilham as seguintes regras de jogo.
 
 A mecânica adicionada por uma carta Summus é definida pelo seu tipo, e pode ser encontrada na lista a seguir.
 
-[!ref icon="/static/img/icons/suit_summus.svg"](collegium.md)
+[!ref icon="/static/img/icons/summus_collegium.svg"](collegium.md)
 
-[!ref icon="/static/img/icons/suit_summus.svg"](daemon.md)
+[!ref icon="/static/img/icons/summus_daemon.svg"](daemon.md)
 
-[!ref icon="/static/img/icons/suit_summus.svg"](dominium.md)
+[!ref icon="/static/img/icons/summus_dominium.svg"](dominium.md)
 
-[!ref icon="/static/img/icons/suit_summus.svg"](ultimatum.md)
+[!ref icon="/static/img/icons/summus_magisterium.svg"](magisterium.md)
+
+[!ref icon="/static/img/icons/summus_ultimatum.svg"](ultimatum.md)
 
 ---
