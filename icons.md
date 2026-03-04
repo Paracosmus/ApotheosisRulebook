@@ -80,11 +80,12 @@ order: 92
 |     | Value-Will          | e959    | `#FF7043` |
 |     | Value-Fate          | e957    | `#4CAF50` |
 | ---- | ------------------- | ------- | --- |
-|     | Icon-HP             | e928    |  |
-|     | Icon-Action         | e924    |  |
+|     | Icon-HP             | e928    | `#2B6A2E` |
+|     | Icon-Injury         | eb3e    | `#D50000` |
+|     | Icon-Damage         | e919    | `#D50000` |
+|     | Icon-Action         | e924    | `#01C9C1` |
 |     | Icon-Stamina        | e92e    | `#2196F3` |
 |     | Icon-Mana           | e92b    | `#2196F3` |
-|     | Icon-Damage         | e919    |  |
 |     | Icon-Knowledge      | e92a    | `#995D52` |
 |     | Icon-Table          | e92f    |  |
 |     | Icon-Slot           | e92d    |  |
@@ -92,9 +93,8 @@ order: 92
 |     | Icon-Memento        | e92c    | `#2196F3` |
 |     | Icon-Support        | eb3d    | `#FF7043` |
 |     | Icon-Inventory      | e929    |  |
-|     | Icon-Injury         | eb3e    |  |
 |     | Icon-Altitude       | e925    |  |
-|     | Icon-Tile           | e930    |  |
+|     | Icon-Tile           | e930    | `#76ff03` |
 |     | Icon-Artist         | e931    |  |
 | ---- | ------------------- | ------- | --- |
 |     | Dice-d1             | e91b    |  |
@@ -106,13 +106,13 @@ order: 92
 | ---- | ------------------- | ------- | --- |
 | <span class="summus"></span>  | Ars         |  | `#FF22B2` |
 | <span class="summus"></span>  | Ascensus    |  | `#FF22B2` |
-| <span class="summus"></span> | Collegium   |  | `#FF22B2` |
-| <span class="summus"></span> | Daemon      |  | `#FF22B2` |
-| <span class="summus"></span> | Dominium    |  | `#FF22B2` |
-| <span class="summus"></span>  | Magisterium |  | `#FF22B2` |
+| <span class="summus"></span> | Collegium   | e9d6 | `#FF22B2` |
+| <span class="summus"></span> | Daemon      | e96d | `#FF22B2` |
+| <span class="summus"></span> | Dominium    | e9dc | `#FF22B2` |
+| <span class="summus"></span> | Magisterium | e95c | `#FF22B2` |
 | <span class="summus"></span>  | Pactum      |  | `#FF22B2` |
 | <span class="summus"></span>  | Res         |  | `#FF22B2` |
-| <span class="summus"></span> | Ultimatum   |  | `#FF22B2` |
+| <span class="summus"></span> | Ultimatum   | eab7 | `#FF22B2` |
 
 ---
 

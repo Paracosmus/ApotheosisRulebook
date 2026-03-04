@@ -19,10 +19,10 @@ São as Summus mais simples de serem utilizadas e ativadas, o que as torna basta
 
 #### Regras Especiais
 
+- Possuem custo fixo de {{ ap }} igual a **9**.
 - No início e no fim da Batalha, remova todos os {{ counter_ultimate }} desta carta.
 - No início de cada rodada de batalha, adicione um {{ counter_ultimate }} a esta carta.
 - Quando esta carta possuir a quantidade mínima de {{ counter_ultimate }}, você pode ativar esta carta.
-- Não possuem custo em {{ ap }}, pois para ativá-la você deve realizar uma *Ação Total*.
 - Remova todos os {{ counter_ultimate }} desta carta após ativá-la.
 - Nenhuma carta pode ser ativada em resposta a esta ativação.
 - Cada Herói pode ativar apenas um Ultimatum por batalha.
