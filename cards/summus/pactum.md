@@ -1,6 +1,6 @@
 ---
 label: Pactum
-icon: "/static/img/icons/summus_pactum.svg"
+# icon: "/static/img/icons/summus_pactum.svg"
 order: 0
 ---
 {{ review() }}

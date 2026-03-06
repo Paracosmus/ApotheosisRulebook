@@ -62,7 +62,7 @@ data:
   companion: '[<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md)'
   event:     '[<span class="event"><b>EVENTO</b></span>](/cards/event.md)'
 
-  summus: '[<span class="summus"><b>SUMMUS</b></span>](/cards/summus.md)'
+  summus:    '[<span class="summus"><b>SUMMUS</b></span>](/cards/summus/)'
 
   # Rarity
   common:    '[<span class="common">COMUM</span>](/cards/#raridade)'

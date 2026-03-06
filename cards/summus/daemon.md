@@ -8,19 +8,19 @@ order: 0
 # <span class="summus"> Daemon</span>
 
 > Daemon em latim significa “espírito”, “gênio” ou “divindade menor”. Vindo do grego clássico, daímōn.
-> 
+>
 > Daemon são seres do submundo ou do abismo, feitos de matéria escura, eles existem no mesmo espaço-tempo que nós, porém em uma dimensão “ao lado”. Portando sua matéria está aqui conosco, é possível sentir sua presença assustadora e “pesada”, mas não é possível vê-los, ouvi-los, etc. ou interagir com eles de forma padrão, sendo necessário diferentes tipos de magias para isso.
-> 
+>
 > Os Daemons por usa vez também podem sentir mas não ver ou interagir conosco, sendo para eles também necessário magias para isso.
-> 
+>
 > Daemons podem ser evocados para a nossa dimensão através de rituais e magias específicas. Porém evocar uma criatura de matéria no mundo da matéria escura é algo muito mais complexo e quase impossível.
-> 
+>
 > Eles são como os seres da nossa dimensão, tendo diferentes níveis de inteligência, corpos, personalidades, podem ser bons ou maus, ter ou não consciência, etc. Porém há uma tendência para o comportamento maléfico entre eles.
-> 
+>
 > São animados por um tipo de espírito chamado Vulto, que existe apenas no submundo.
-> 
+>
 > Não existe o conceito de espécie entre eles, sendo cada exemplar único, mas é possível agrupá-los em conjuntos com características semelhantes.
-> 
+>
 > Por este motivo, são representados por cartas de @Companion do tipo Evocação.
 
 Daemons são cartas de {{ companion }} do tipo evocação que ficam de face para baixo no Suporte, quando ativadas elas trazem criaturas de tamanhos variados que por suas dimensões ou condições extra espaciais dimensionais, não possuem uma peça no tabuleiro, mas sim uma área de presença dimensional ou física.
@@ -48,7 +48,7 @@ Os daemons são evocados através de um custo em *“sangue”*.
 <br>
 
 ||| Caixa de Mecânica
-![Exemplo](/static/img/summus/daemon.png)
+%% ![Exemplo](/static/img/summus/daemon.png) %%
 
 
 |||
