@@ -35,7 +35,7 @@ Despertar o {{ entity }}
 *   {{n '+2'}} de **Energia** na sua *Fase Inicial* para manter o {{ entity }} desperto
 
 Evocar
-:   2 de {{ mp }}
+:   2 de {{ mp }} por nível do {{ companion }} a ser evocado
 
 Descansar
 :   Ação total para curar 10 de VIDA e recuperar 2 de **Energia**
@@ -82,4 +82,3 @@ Ataque Normal
     | --- | --- |
     | {{ dmg }}    | {{ str }} + {{ d1d2 }} |
     | {{ direct }} | 1                      |
-

@@ -13,9 +13,9 @@ A ideia por trás de Summus é adicionar *gimmicks* (mecânicas) novas ao jogo, 
 
 Uma carta {{ summus }} pode ser identificada por suas 3 características distintas:
 
-- O ícone do naipe tem sua cor modificada para magenta.
+- O ícone do naipe tem sua cor modificada para <span class="summus">magenta</span>.
 - Raridade {{ rare }} ou superior, e *full-art*.
-- Cartas de nível 3 (Exceto quando cartas de {{ house }})
+- Cartas de **nível 3** (*Exceto quando cartas de {{ house }}*)
 - A presença de uma caixa identificadora do tipo de Summus, abaixo ou acima do texto do efeito da carta, contendo informações adicionais referentes à sua mecânica extra.
 
 ---
@@ -25,15 +25,15 @@ Uma carta {{ summus }} pode ser identificada por suas 3 características distin
 Indiferente do tipo de Summus, elas compartilham as seguintes regras de jogo.
 
 **Restrição de Nível**
-:   O Herói precisa ter nível **9✚**
+:   O Herói precisa ter nível **6✚**
 
 **Limite de Cartas**
-:   Cada Herói pode ter apenas uma carta de cada tipo de Summus e apenas **5** cartas de Summus no total (including MESA, INVENTÁRIO e Anexos)
+:   Cada Herói pode ter apenas uma carta de cada tipo de Summus e apenas **5** cartas de Summus no total (including {{ table }}, {{ inv }} e Anexos)
 
 **Espaço**
-:   Não ocupam um espaço na **MESA**
-    - Quando cartas de Ficha, elas são adicionadas a *Zona Extra* da **FICHA**
-    - Quando cartas de Recurso, elas são adicionadas as suas respectivas zonas da **MESA** conforme naipe, porém não ocupam um espaço de carta naquela zona
+:   Não ocupam um espaço na {{ table }}
+    - Quando cartas de Ficha, elas são adicionadas a *Zona Extra* da {{ sheet }}
+    - Quando cartas de Recurso, elas são adicionadas as suas respectivas zonas da {{ table }} conforme naipe, porém não ocupam um espaço de carta naquela zona
 
 ---
 

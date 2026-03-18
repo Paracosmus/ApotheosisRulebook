@@ -78,7 +78,8 @@ NÍVEL DA CARTA {{ free}} | NÍVEL REQUERIDO DO HERÓI
 - Armas de distância (arcos, bestas, etc.)
 - Armas de fogo
 - Rastreio, sobrevivencialismo (bushcraft), localização, analítico, etc. (Diferente de sobrevivência, pois é sobre a busca)\
-- Comércio, negociação, conversas informais
+- Comércio, negociação, compra, venda
+- Conversas informais (bate papo, conversa de bar, etc.)
 - Contabilidade, finanças, administração
 - **Áreas de Estudo**
     - Geografia, clima, relevo, vegetação, topografia
@@ -108,6 +109,7 @@ NÍVEL DA CARTA {{ free}} | NÍVEL REQUERIDO DO HERÓI
 - Acrobacia, equilíbrio, etc.
 - **Áreas de Estudo**
     - Educação Física
+- Intimidação, tortura física
 
 ---
 
@@ -118,6 +120,7 @@ NÍVEL DA CARTA {{ free}} | NÍVEL REQUERIDO DO HERÓI
 - Estudo, aprendizado, etc.
 - Livros, codex, etc.
 - Diplomacia, acordos, conversas formais
+- Interrogatório
 - **Áreas de Estudo**
     - Este conhecimento tem a característica especial única de poder fazer qualquer teste que envolva saber científico (exatas, naturais e humanas). Quando esse saber for algo já englobado por outro Conhecimento, o teste recebe um acréscimo razoável de dificuldade, porém ainda assim pode ser feito.
 
@@ -158,6 +161,7 @@ NÍVEL DA CARTA {{ free}} | NÍVEL REQUERIDO DO HERÓI
 - Conhecimento de armadilhas, enigmas, etc.
 - Malandragem, trapaça, etc.
 - Malícia, sagacidade, etc.
+- Suborno, chantagem, corrupção, etc.
 
 ---
 
@@ -214,5 +218,6 @@ NÍVEL DA CARTA {{ free}} | NÍVEL REQUERIDO DO HERÓI
 - Viagem astral
 - Psicologia, psicanálise, psiquiatria
 - Inconsciente Coletivo / Registros Akáshicos
+- Tortura psicológica, lavagem cerebral
 
 ---

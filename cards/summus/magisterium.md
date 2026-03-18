@@ -66,7 +66,7 @@ O bônus fornecido não necessariamente é uma constante, em alguns casos pode s
     - *{{ p '+1' }} de {{ dmg }} para cada carta na pilha de descarte*
     - *{{ p '+5' }} de {{ dmg }} para cada inimigo adjacente*
 - **Bônus de Dados:** É rolado um dado para determinar o bônus, e o resultado do dado é o valor do bônus.
-    - Quando mais de um caso for satisfeito, o dado do bônus é rolado apenas uma vez e aplicado para cada caso, ou seja, o bônus é o mesmo para cada caso. 
+    - Quando mais de um caso for satisfeito, o dado do bônus é rolado apenas uma vez e aplicado para cada caso, ou seja, o bônus é o mesmo para cada caso.
 
 ===
 

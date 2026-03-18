@@ -17,6 +17,14 @@ branding:
 breadcrumb:
   home: ":icon-home:"
 
+lastUpdated:
+  date:
+    enabled: true
+    source: committer
+  by:
+    enabled: true
+    source: committer
+
 links:
 - text: Home
   link: /index.md
