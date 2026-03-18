@@ -15,7 +15,9 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
 
       - uses: retypeapp/action-build@latest
         env:
@@ -25,7 +27,3 @@ jobs:
       - uses: retypeapp/action-github-pages@latest
         with:
           update-branch: true
-
-      - uses: actions/checkout@v6
-        with:
-          fetch-depth: 0
