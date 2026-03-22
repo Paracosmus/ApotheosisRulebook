@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.3.0.827113869534">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.3.0.827464627978">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.3.0">
@@ -43,17 +43,23 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="static/img/favicon.ico" />
-    <link href="resources/css/retype.css?v=4.3.0.827113869534" rel="stylesheet">
+    <link href="resources/css/retype.css?v=4.3.0.827464627978" rel="stylesheet">
 
-    <script data-cfasync="false" src="resources/js/config.js?v=4.3.0.827113869534" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="resources/js/config.js?v=4.3.0.827464627978" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="resources/js/retype.js?v=4.3.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="resources/js/lunr.js?v=4.3.0.827113869534" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="resources/js/lunr.js?v=4.3.0.827464627978" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 
     <!-- Styles -->
     <style>
+        /* Override retype style */
+        :root {
+            /* Link styles */
+            --body-link-decoration-line: none !important;
+            --body-link-decoration-thickness: 0 !important;
+        }
 
         /* Fallback Apotheosis Icons font */
         @font-face {
@@ -66,7 +72,7 @@
 
         div.container {
             font-family: 'Open Sans', Apotheosis;
-            max-width: 1440px;
+            max-width: 1530px;
         }
 
         h1, h2 {
@@ -118,8 +124,6 @@
     	.blue      { color: #0D47A1; }
     	.white     { color: #BDBDBD; }
     	.black     { color: #424242; } .dark .black { color: #454545; }
-
-        .hidden    { color: RED; } .dark .hidden { color: #424242; }
 
         .keyword-activation {
             font-size: 0.8em;
@@ -377,10 +381,9 @@
 <div class="content-center"><p><span class="docs-emoji">&#x1F7E6;</span> Bruno Caxito <span class="docs-emoji">&#x1F7E6;</span></p>
 </div>
 <hr>
-<p>O <strong>APOTHEOSIS CARD GAME</strong> é um jogo de cartas modular que combina elementos de role-playing game (RPG), deck building e batalha em um tabuleiro quadriculado, em um universo, história e narrativa únicos.</p>
-<p>Jogadores coletam cartas utilizadas para compor seu personagem, que irá enfrentar desafios propostos por uma campanha narrativa ou batalhar contra os personagens de outros jogadores pela vitória.</p>
-<p>Esta documentação detalha todas as regras, componentes e interações que compõem o jogo, servindo como referência tanto para jogadores quanto para desenvolvedores de conteúdo.</p>
-<p>O sistema foi projetado para oferecer flexibilidade em diferentes estilos de campanha, permitindo partidas que variam de combates estratégicos a narrativas profundas baseadas em interpretação de personagens.</p>
+<p>O <strong>APOTHEOSIS CARD GAME</strong> é um jogo de cartas modular que combina elementos de <em>role-playing game</em> (RPG), construção de baralho e batalha em um tabuleiro quadriculado, ambientado em um universo próprio com história e narrativa únicas.</p>
+<p>Jogadores coletam cartas para compor seu personagem, que pode enfrentar desafios propostos por uma campanha narrativa ou batalhar contra os personagens de outros jogadores pela vitória.</p>
+<p>Esta documentação detalha todas as regras, componentes e interações do jogo, servindo como referência tanto para jogadores quanto para desenvolvedores de conteúdo.</p>
 <hr>
 <h3 id="arquitetura-do-sistema">Arquitetura do Sistema</h3>
 <p>Este jogo é construído sobre quatro pilares principais:</p>
@@ -388,33 +391,15 @@
 <dt><span style="font-size: 32px;"><span class="docs-emoji">&#x1F0CF;</span></span> <strong>Cartas e Baralhos</strong></dt>
 <dd>Representam os elementos presentes no jogo, desde um objeto até uma ação ou evento. São também as &quot;partes&quot; utilizadas para construir os demais elementos do jogo.</dd>
 <dt><span style="font-size: 32px;"><span class="docs-emoji">&#x1F64B;&#x200D;&#x2642;&#xFE0F;</span></span> <strong>Heróis e Personagens</strong></dt>
-<dd>Representam os jogadores, sendo compostos por um conjunto de cartas que definem suas características e estatísticas, permitindo a progressão durante o jogo ao mudar sua composição.</dd>
+<dd>São os personagens controlados pelos jogadores, compostos por um conjunto de cartas que definem suas características e estatísticas. Sua composição evolui ao longo do jogo, refletindo o crescimento do personagem.</dd>
 <dt><span style="font-size: 32px;"><span class="docs-emoji">&#x1F3B2;</span></span> <strong>Tabuleiro, Dados e Batalhas</strong></dt>
 <dd>Define a movimentação e interações no espaço físico do jogo. É onde as batalhas são travadas, utilizando cartas e personagens para determinar o resultado de ações e embates.</dd>
 <dt><span style="font-size: 32px;"><span class="docs-emoji">&#x1F4D6;</span></span> <strong>Narrativa, Objetivos e Testes</strong></dt>
-<dd>Descreve o contexto, mundo e estória do jogo, bem como os objetivos e desafios que os jogadores devem superar para avançar. É o elemento que une os demais, fornecendo um propósito e significado para as ações dos jogadores.</dd>
+<dd>Estabelece o contexto, o mundo e a história do jogo. Define os objetivos que os jogadores devem cumprir, os desafios que enfrentarão e como o resultado de suas ações é determinado.</dd>
 </dl>
 <blockquote>
 <p>Cada um destes elementos é detalhado em seções específicas desta documentação.</p>
 </blockquote>
-<br>
-<div class="flex mb-6">
-    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
-    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
-        <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
-                <g fill="currentColor"><g>
-                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
-                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                </g></g>
-            </svg>
-        </div>
-        <div class="pr-5 ml-3 w-full">
-<p>Esta documentação está em constante atualização para refletir melhorias e novos conteúdos do sistema APOTHEOSIS CARD GAME. Para dúvidas, contribuições ou sugestões, entre em contato com a equipe de desenvolvimento.</p>
-        </div>
-    </div>
-</div>
 <!-- RETYPE_BACKLINKS_PLACEHOLDER -->
 <!-- Insert this at the bottom of each markdown page -->
 <!-- Tooltips -->
@@ -422,8 +407,8 @@
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-02-21T15:13:32" title="2026-02-21" data-absolute-label="Last updated on 2026-02-21 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-02-21 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
-                        Last updated on 2026-02-21 by Bruno Caxito
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-03-22T00:17:22" title="2026-03-22" data-absolute-label="Last updated on 2026-03-22 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-03-22 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                        Last updated on 2026-03-22 by Bruno Caxito
                     </time>
                 </div>
 
