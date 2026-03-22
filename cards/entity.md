@@ -22,12 +22,12 @@ O personagem (receptáculo) pode incorporar, estas formas de energia e dominá-l
 
 1. **Tipo**: Ícone e nome do tipo deste {{ entity }}, definido pelo nível da carta
 
-1. **Nível da Carta**: Equivalente ao seu tipo. Pode ser {{ spirit }}➜1, {{ deity }}➜2 ou {{ god }}➜3
+1. **Nível da Carta**: Equivalente ao seu tipo. Pode ser {{ sprite }}➜1, {{ deity }}➜2 ou {{ god }}➜3
 
 1. **Efeito**: Texto do efeito desta carta, disponível apenas quando o {{ entity }} está desperto
 |||
 
-| Nível                            | {{ spirit }} | {{ deity }} | {{ god }} | {.compact}
+| Nível                            | {{ sprite }} | {{ deity }} | {{ god }} | {.compact}
 | ---                              | ---          | ---         | ---       |
 | Somatório dos Bônus de Atributos | 7            | 14          | 21        |
 | Valor Máximo em um Atributo      | 4            | 8           | 12        |
@@ -43,7 +43,7 @@ Para incorporar, é necessário que o espaço de {{ entity }} na {{ sheet }} est
 
 TIPO         | NÍVEL | NÍVEL MÍNIMO REQUERIDO DO HERÓI
 ---          | ---   | ---
-{{ spirit }} | 1     | 3
+{{ sprite }} | 1     | 3
 {{ deity }}  | 2     | 6
 {{ god }}    | 3     | 9
 

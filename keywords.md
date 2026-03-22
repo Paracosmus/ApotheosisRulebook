@@ -2,18 +2,17 @@
 label: Palavras-Chave
 layout: page
 ---
-{{ review() }}
 
 # Palavras-Chave
 
-Este livro e as cartas do jogo, utilizam em seus textos, palavras que possuem significados específicos no jogo. Abaixo estão listados estes termos e seus significados.
+Este livro e as cartas do jogo utilizam em seus textos palavras que possuem significados específicos no jogo. Abaixo estão listados estes termos e seus significados.
 
 ---
 
 ## Cartas
 
-|
----   | ---
+| Termo          | Inglês        | Significado |
+| -------------- | ------------- | ----------- |
 | **Consumir**   | *Exhaust*     | Girar a carta para que ela fique na horizontal, em relação à {{ table }} do Herói |
 | **Recuperar**  | *Recover*     | Girar a carta para que ela fique na vertical, em relação à {{ table }} do Herói |
 | **Descartar**  | *Discard*     | Colocar uma carta na pilha de descarte |
@@ -28,31 +27,31 @@ Este livro e as cartas do jogo, utilizam em seus textos, palavras que possuem si
 | **Mesa**       | *Table*       | Local da área do jogo onde um Herói coloca suas cartas |
 | **Ficha**      | *Sheet*       | Zona da {{ table }} do Herói onde estão suas cartas de ficha |
 | **Zona Extra** | *Extra Slots* | Zona da {{ sheet }} do Herói onde algumas mecânicas de jogo e efeitos de cartas podem colocar cartas de ficha extras |
-| **Inventário** | *Inventory*   | O conjunto de cartas na mão do jogador |
+| **Inventário** | *Inventory*   | Zona onde o Herói armazena cartas que não estão ativas ou em uso, mas que ainda são de sua posse. Geralmente representada pelas cartas seguradas na mão |
 
 ---
 
 ## Tabuleiro
 
-|
----   | ---
+| Termo                    | Inglês          | Significado |
+| ------------------------ | --------------- | ----------- |
 | **Peça**                 | *Piece*         | Peão que representa um personagem ou objeto no tabuleiro de batalha |
 | **Mover**                | *Move*          | Colocar uma peça em uma outra casa do tabuleiro |
 | **Distância**            | *Distance*      | Alcance da ação ou movimento |
 | **Trajeto / Trajetória** | *Trajectory*    | Conjunto de casas do tabuleiro por onde passa a linha reta entre o personagem executando a ação e o alvo de ação |
 | **Direção**              | *Direction*     | Vetor de direção de uma ação que parte de uma casa do tabuleiro até outra casa. Sendo uma linha reta com comprimento infinito para ambos os lados e um sentido de direção |
-| **Adjacente**            | *Adjacent Tile* | Aquilo que está em uma casa do tabuleiro, ou é uma casa do tabuleiro, que está ao lado de outra casa do tabuleiro. Não incluindo casas diagonais |
-| **Casa Bloqueada**       | *Blocked Tile*  | Nenhuma peça pode ser colocado nesta casa do tabuleiro, trajetórias de ataques DIRETOS não podem passar por esta casa. Geralmente por já estar ocupada por uma peça |
+| **Adjacente**            | *Adjacent Tile* | Aquilo que está em uma casa do tabuleiro, ou é uma casa do tabuleiro, que está ao lado de outra casa do tabuleiro. Não inclui casas diagonais |
+| **Casa Bloqueada**       | *Blocked Tile*  | Casa que contém um obstáculo permanente, como uma parede. Nenhuma peça pode ocupá-la ou passar por ela, e trajetórias de ataques diretos não podem atravessá-la |
 | **Casa Ocupada**         | *Occupied Tile* | Existe uma peça nesta casa do tabuleiro |
 | **Casa Vazia**           | *Empty Tile*    | Qualquer casa do tabuleiro que não tenha uma peça nela |
-| **Casa Desabilitada**    | *Disabled Tile* | Nenhuma peça pode ser colocada ou passar por esta casa do tabuleiro, para todos os fins, ela não existe. Trajetórias de ataques não podem passar por elas |
+| **Casa Desabilitada**    | *Disabled Tile* | Nenhuma peça pode ser colocada ou passar por esta casa do tabuleiro, para todos os fins, ela não existe. Trajetórias de ataques não podem passar por ela |
 
 ---
 
 ## Outros
 
-|
----   | ---
+| Termo          | Inglês    | Significado |
+| -------------  | --------- | ----------- |
 | **Ação Total** | *All-in*  | O personagem não pode ter realizado nenhuma ação ou jogada não automática (passiva) neste Ciclo para realizar uma Ação Total; feito isto, ele só terá um turno no próximo *Ciclo* |
-| **Substituir** | *Replace* | Um elemento de jogo é substituído por outro determinado, herdando o estado do original<br><br>**Quando uma carta**: Ela é substituída por outra, a nova carta recebe todos os contadores e anexos da carta original, e a carta original é enviada para o mesmo local em que estava a nova carta, se possível, caso contrário, a carta original é descartada para a pilha de descarte<br><br>**Quando uma peça**: Ela é substituída por outra, a nova peça mantem a {{ hp }}, {{ ap }}, Marcados e posição no tabuleiro da peça original, a peça original é removida do jogo |
+| **Substituir** | *Replace* | Um elemento de jogo é substituído por outro determinado, herdando o estado do original<br><br>**Quando uma carta**: Ela é substituída por outra colocada no mesmo espaço, a nova carta recebe todos os contadores e anexos da carta original, e a carta original é enviada para o mesmo local em que estava a nova carta, se possível, caso contrário, a carta original é descartada para a pilha de descarte<br><br>**Quando uma peça**: Ela é substituída por outra, a nova peça mantém a {{ hp }}, {{ ap }}, Marcadores, ordem do turno e posição no tabuleiro da peça original, a peça original é removida do jogo |
 | **Ciclo**      | *Stint*   | O período entre uma Fase de Recomposição e outra |

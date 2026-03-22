@@ -3,6 +3,12 @@
 
 <!-- Styles -->
 <style>
+    /* Override retype style */
+    :root {
+        /* Link styles */
+        --body-link-decoration-line: none !important;
+        --body-link-decoration-thickness: 0 !important;
+    }
 
     /* Fallback Apotheosis Icons font */
     @font-face {
@@ -15,7 +21,7 @@
 
     div.container {
         font-family: 'Open Sans', Apotheosis;
-        max-width: 1440px;
+        max-width: 1530px;
     }
 
     h1, h2 {
@@ -67,8 +73,6 @@
 	.blue      { color: #0D47A1; }
 	.white     { color: #BDBDBD; }
 	.black     { color: #424242; } .dark .black { color: #454545; }
-
-    .hidden    { color: RED; } .dark .hidden { color: #424242; }
 
     .keyword-activation {
         font-size: 0.8em;

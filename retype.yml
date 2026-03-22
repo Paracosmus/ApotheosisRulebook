@@ -139,7 +139,7 @@ data:
   world:      
 
   # Entity Level
-  spirit: '[<span class="entity"><b>ESPÍRITO</b></span>](/cards/entity.md)'
+  sprite: '[<span class="entity"><b>ESPÍRITO</b></span>](/cards/entity.md)'
   deity:  '[<span class="entity"><b>DEIDADE</b></span>](/cards/entity.md)'
   god:    '[<span class="entity"><b>DEUS</b></span>](/cards/entity.md)'
 
@@ -162,6 +162,8 @@ data:
   human:    '[<span class="companion"><b>HUMANO</b></span>](/cards/companion.md#-humano)'
   creature: '[<span class="companion"><b>CRIATURA</b></span>](/cards/companion.md#-criatura)'
   summon:   '[<span class="companion"><b>EVOCAÇÃO</b></span>](/cards/companion.md#-evocação)'
+  watcher:  '[<span class="companion"><b>VIGILANTE</b></span>](/cards/companion.md#-vigilante)'
+  drako:    '[<span class="companion"><b>DRAKO</b></span>](/cards/companion.md#-drako)'
 
   # Value
   price: '[<span class="item"><b>PREÇO</b></span>](/cards/item.md)'
@@ -170,14 +172,14 @@ data:
   fate:  '[<span class="event"><b>DESTINO</b></span>](/cards/event.md)'
 
   # Places
-  table:    '[<span class="main"><b>MESA</b></span>](/hero/table.md)'
-  sheet:    '[<span class="main"><b>FICHA</b></span>](/hero/table.md#-ficha)'
-  equip:    '[<span class="item"><b>EQUIPAMENTO</b></span>](/hero/table.md#-equipamento)'
-  mem:      '[<span class="skill"><b>MEMENTO</b></span>](/hero/table.md#-memento)'
-  support:  '[<span class="companion"><b>SUPORTE</b></span>](/hero/table.md#-suporte)'
-  inv:      '[<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md)'
-  scenario: '[<span class="event"><b>CENÁRIO</b></span>](/board/scenario.md)'
-  hand:     '[<span class="main"><b>MÃO DO MESTRE</b></span>](/gameplay/game-master/#mão-do-mestre)'
+  table:      '[<span class="main"><b>MESA</b></span>](/hero/table.md)'
+  sheet:      '[<span class="main"><b>FICHA</b></span>](/hero/table.md#-ficha)'
+  equip:      '[<span class="item"><b>EQUIPAMENTO</b></span>](/hero/table.md#-equipamento)'
+  mem:        '[<span class="skill"><b>MEMENTO</b></span>](/hero/table.md#-memento)'
+  support:    '[<span class="companion"><b>SUPORTE</b></span>](/hero/table.md#-suporte)'
+  inv:        '[<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md)'
+  scenario:   '[<span class="event"><b>CENÁRIO</b></span>](/board/scenario.md)'
+  masterHand: '[<span class="main"><b>MÃO DO MESTRE</b></span>](/gameplay/game-master/#mão-do-mestre)'
 
   # Decks
   factors:   <span class="house"><b>FATORES</b></span>
@@ -201,6 +203,17 @@ data:
   blue:   '[<span class="skill"><span class="blue"><b>AZUL</b></span>](/cards/skill.md#essência)'
   white:  '[<span class="skill"><span class="white"><b>BRANCA</b></span>](/cards/skill.md#essência)'
   black:  '[<span class="skill"><span class="black"><b>PRETA</b></span>](/cards/skill.md#essência)'
+
+  # Summus
+  ars:         '[<span class="summus"><b>ARS</b></span>](/cards/summus/ars.md)'
+  ascensus:    '[<span class="summus"><b>ASCENSUS</b></span>](/cards/summus/ascensus.md)'
+  collegium:   '[<span class="summus"><b>COLLEGIUM</b></span>](/cards/summus/collegium.md)'
+  daemon:      '[<span class="summus"><b>DAEMON</b></span>](/cards/summus/daemon.md)'
+  dominium:    '[<span class="summus"><b>DOMINIUM</b></span>](/cards/summus/dominium.md)'
+  magisterium: '[<span class="summus"><b>MAGISTERIUM</b></span>](/cards/summus/magisterium.md)'
+  pactum:      '[<span class="summus"><b>PACTUM</b></span>](/cards/summus/pactum.md)'
+  res:         '[<span class="summus"><b>RES</b></span>](/cards/summus/res.md)'
+  ultimatum:   '[<span class="summus"><b>ULTIMATUM</b></span>](/cards/summus/ultimatum.md)'
 
   # Dice
   d1d2: 

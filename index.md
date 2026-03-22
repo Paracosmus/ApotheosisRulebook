@@ -26,13 +26,11 @@ layout: page
 
 ---
 
-O **APOTHEOSIS CARD GAME** é um jogo de cartas modular que combina elementos de role-playing game (RPG), deck building e batalha em um tabuleiro quadriculado, em um universo, história e narrativa únicos.
+O **APOTHEOSIS CARD GAME** é um jogo de cartas modular que combina elementos de _role-playing game_ (RPG), construção de baralho e batalha em um tabuleiro quadriculado, ambientado em um universo próprio com história e narrativa únicas.
 
-Jogadores coletam cartas utilizadas para compor seu personagem, que irá enfrentar desafios propostos por uma campanha narrativa ou batalhar contra os personagens de outros jogadores pela vitória.
+Jogadores coletam cartas para compor seu personagem, que pode enfrentar desafios propostos por uma campanha narrativa ou batalhar contra os personagens de outros jogadores pela vitória.
 
-Esta documentação detalha todas as regras, componentes e interações que compõem o jogo, servindo como referência tanto para jogadores quanto para desenvolvedores de conteúdo.
-
-O sistema foi projetado para oferecer flexibilidade em diferentes estilos de campanha, permitindo partidas que variam de combates estratégicos a narrativas profundas baseadas em interpretação de personagens.
+Esta documentação detalha todas as regras, componentes e interações do jogo, servindo como referência tanto para jogadores quanto para desenvolvedores de conteúdo.
 
 ---
 
@@ -46,18 +44,12 @@ Este jogo é construído sobre quatro pilares principais:
 :   Representam os elementos presentes no jogo, desde um objeto até uma ação ou evento. São também as "partes" utilizadas para construir os demais elementos do jogo.
 
 {{ arch ':man-raising-hand:' }} **Heróis e Personagens**
-:   Representam os jogadores, sendo compostos por um conjunto de cartas que definem suas características e estatísticas, permitindo a progressão durante o jogo ao mudar sua composição.
+:   São os personagens controlados pelos jogadores, compostos por um conjunto de cartas que definem suas características e estatísticas. Sua composição evolui ao longo do jogo, refletindo o crescimento do personagem.
 
 {{ arch ':game_die:' }} **Tabuleiro, Dados e Batalhas**
 :   Define a movimentação e interações no espaço físico do jogo. É onde as batalhas são travadas, utilizando cartas e personagens para determinar o resultado de ações e embates.
 
 {{ arch ':book:' }} **Narrativa, Objetivos e Testes**
-:   Descreve o contexto, mundo e estória do jogo, bem como os objetivos e desafios que os jogadores devem superar para avançar. É o elemento que une os demais, fornecendo um propósito e significado para as ações dos jogadores.
+:   Estabelece o contexto, o mundo e a história do jogo. Define os objetivos que os jogadores devem cumprir, os desafios que enfrentarão e como o resultado de suas ações é determinado.
 
 > Cada um destes elementos é detalhado em seções específicas desta documentação.
-
-<br>
-
-!!!
-Esta documentação está em constante atualização para refletir melhorias e novos conteúdos do sistema APOTHEOSIS CARD GAME. Para dúvidas, contribuições ou sugestões, entre em contato com a equipe de desenvolvimento.
-!!!

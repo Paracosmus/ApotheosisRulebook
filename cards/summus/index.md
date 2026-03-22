@@ -25,7 +25,7 @@ Uma carta {{ summus }} pode ser identificada por suas 3 características distin
 Indiferente do tipo de Summus, elas compartilham as seguintes regras de jogo.
 
 **Restrição de Nível**
-:   O Herói precisa ter nível **6✚**
+:   O Herói precisa ter nível **8✚**
 
 **Limite de Cartas**
 :   Cada Herói pode ter apenas uma carta de cada tipo de Summus e apenas **5** cartas de Summus no total (including {{ table }}, {{ inv }} e Anexos)
