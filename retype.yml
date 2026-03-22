@@ -38,6 +38,10 @@ links:
   link: /chart.md
   icon: paste
 
+- text: Ícones
+  link: /icons.md
+  icon: diamond
+
 markdown:
   lineBreaks: hard
 
@@ -162,8 +166,8 @@ data:
   human:    '[<span class="companion"><b>HUMANO</b></span>](/cards/companion.md#-humano)'
   creature: '[<span class="companion"><b>CRIATURA</b></span>](/cards/companion.md#-criatura)'
   summon:   '[<span class="companion"><b>EVOCAÇÃO</b></span>](/cards/companion.md#-evocação)'
-  watcher:  '[<span class="companion"><b>VIGILANTE</b></span>](/cards/companion.md#-vigilante)'
-  drako:    '[<span class="companion"><b>DRAKO</b></span>](/cards/companion.md#-drako)'
+  watcher:  '[<span class="companion"><b>VIGILANTE</b></span>](/cards/companion.md)'
+  drako:    '[<span class="companion"><b>DRAKO</b></span>](/cards/companion.md)'
 
   # Value
   price: '[<span class="item"><b>PREÇO</b></span>](/cards/item.md)'
@@ -225,6 +229,16 @@ data:
   d1d6: 
   d2d6: 
   d3d6: 
+
+  e1d2: 1D3
+  e2d2: 2D3
+  e3d2: 3D3
+  e1d3: 1D2
+  e2d3: 2D2
+  e3d3: 3D2
+  e1d6: 1D6
+  e2d6: 2D6
+  e3d6: 3D6
 
   # Action
   hp: '[<span class="main"><b>VIDA</b></span>](/hero/#vida)'

@@ -3,7 +3,6 @@ label: Home
 layout: page
 ---
 ![](static/img/banner.jpg)
-#
 
 ---
 

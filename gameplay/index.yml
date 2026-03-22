@@ -1,4 +1,3 @@
 label: Gameplay
-# icon: commit
-order: 98
-expanded: true
+icon: play
+order: 95

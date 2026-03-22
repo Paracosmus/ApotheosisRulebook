@@ -1,8 +1,7 @@
 ---
 label: Cartas
 icon: versions
-order: 99
-expanded: true
+order: 98
 ---
 {{ review() }}
 

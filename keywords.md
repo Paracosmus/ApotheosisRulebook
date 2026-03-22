@@ -5,7 +5,7 @@ layout: page
 
 # Palavras-Chave
 
-Este livro e as cartas do jogo utilizam em seus textos palavras que possuem significados específicos no jogo. Abaixo estão listados estes termos e seus significados.
+Este livro e as cartas do jogo utilizam termos com significados específicos. Abaixo estão listados esses termos e seus significados.
 
 ---
 
@@ -36,14 +36,14 @@ Este livro e as cartas do jogo utilizam em seus textos palavras que possuem sign
 | Termo                    | Inglês          | Significado |
 | ------------------------ | --------------- | ----------- |
 | **Peça**                 | *Piece*         | Peão que representa um personagem ou objeto no tabuleiro de batalha |
-| **Mover**                | *Move*          | Colocar uma peça em uma outra casa do tabuleiro |
+| **Mover**                | *Move*          | Colocar uma peça em outra casa do tabuleiro |
 | **Distância**            | *Distance*      | Alcance da ação ou movimento |
-| **Trajeto / Trajetória** | *Trajectory*    | Conjunto de casas do tabuleiro por onde passa a linha reta entre o personagem executando a ação e o alvo de ação |
-| **Direção**              | *Direction*     | Vetor de direção de uma ação que parte de uma casa do tabuleiro até outra casa. Sendo uma linha reta com comprimento infinito para ambos os lados e um sentido de direção |
+| **Trajeto / Trajetória** | *Trajectory*    | Conjunto de casas do tabuleiro por onde passa a linha reta entre o personagem que executa a ação e o alvo da ação |
+| **Direção**              | *Direction*     | Vetor de direção de uma ação que parte de uma casa do tabuleiro até outra casa. É uma linha reta com comprimento infinito para ambos os lados e um sentido de direção |
 | **Adjacente**            | *Adjacent Tile* | Aquilo que está em uma casa do tabuleiro, ou é uma casa do tabuleiro, que está ao lado de outra casa do tabuleiro. Não inclui casas diagonais |
 | **Casa Bloqueada**       | *Blocked Tile*  | Casa que contém um obstáculo permanente, como uma parede. Nenhuma peça pode ocupá-la ou passar por ela, e trajetórias de ataques diretos não podem atravessá-la |
 | **Casa Ocupada**         | *Occupied Tile* | Existe uma peça nesta casa do tabuleiro |
-| **Casa Vazia**           | *Empty Tile*    | Qualquer casa do tabuleiro que não tenha uma peça nela |
+| **Casa Vazia**           | *Empty Tile*    | Qualquer casa do tabuleiro que não tenha uma peça |
 | **Casa Desabilitada**    | *Disabled Tile* | Nenhuma peça pode ser colocada ou passar por esta casa do tabuleiro, para todos os fins, ela não existe. Trajetórias de ataques não podem passar por ela |
 
 ---
@@ -52,6 +52,6 @@ Este livro e as cartas do jogo utilizam em seus textos palavras que possuem sign
 
 | Termo          | Inglês    | Significado |
 | -------------  | --------- | ----------- |
-| **Ação Total** | *All-in*  | O personagem não pode ter realizado nenhuma ação ou jogada não automática (passiva) neste Ciclo para realizar uma Ação Total; feito isto, ele só terá um turno no próximo *Ciclo* |
+| **Ação Total** | *All-in*  | O personagem não pode ter realizado nenhuma ação ou jogada não automática (passiva) neste Ciclo para realizar uma Ação Total; feito isso, ele só terá um turno no próximo *Ciclo* |
 | **Substituir** | *Replace* | Um elemento de jogo é substituído por outro determinado, herdando o estado do original<br><br>**Quando uma carta**: Ela é substituída por outra colocada no mesmo espaço, a nova carta recebe todos os contadores e anexos da carta original, e a carta original é enviada para o mesmo local em que estava a nova carta, se possível, caso contrário, a carta original é descartada para a pilha de descarte<br><br>**Quando uma peça**: Ela é substituída por outra, a nova peça mantém a {{ hp }}, {{ ap }}, Marcadores, ordem do turno e posição no tabuleiro da peça original, a peça original é removida do jogo |
 | **Ciclo**      | *Stint*   | O período entre uma Fase de Recomposição e outra |

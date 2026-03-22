@@ -1,5 +1,5 @@
 ---
-label: Herói
+label: Heróis
 icon: accessibility
 order: 97
 ---

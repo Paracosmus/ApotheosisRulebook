@@ -1,7 +1,6 @@
 ---
 label: Ícones
-icon: diamond
-order: 92
+layout: page
 ---
 
 # Ícones
@@ -160,6 +159,7 @@ order: 92
 
 | Icon                          | Termo (PT) | English    | Variável     | Unicode | Color     |
 | ----------------------------- | ---------- | ---------- | ------------ | ------- | --------- |
+| -                             | Essência   | *Essence*  | -            | -       | -         |
 | <span class="black"></span>  | Preta      | *Black*    | {{ black }}  | e933    | `#212121` |
 | <span class="blue"></span>   | Azul       | *Blue*     | {{ blue }}   | e934    | `#0D47A1` |
 | <span class="yellow"></span> | Amarela    | *Yellow*   | {{ yellow }} | e935    | `#FDD835` |
@@ -215,6 +215,9 @@ order: 92
 | <span style="color: #D50000;"></span> | Lesão             | *Injury*       | {{ injury }}  | eb3e    | `#D50000` |
 | <span style="color: #D50000;"></span> | Dano              | *Damage*       | {{ dmg }}     | e919    | `#D50000` |
 | <span style="color: #01C9C1;"></span> | Ação              | *Action (AP)*  | {{ ap }}      | e924    | `#01C9C1` |
+| -                                        | Pontos            | *Points*       | -             | -       | -         |
+| -                                        | Custo             | *Cost*         | -             | -       | -         |
+| -                                        | Energia           | *Energy*       | -             | -       | -         |
 | <span class="skill"></span>             | Estamina          | *Stamina (SP)* | {{ sp }}      | e92e    | `#2196F3` |
 | <span class="skill"></span>             | Mana              | *Mana (MP)*    | {{ mp }}      | e92b    | `#2196F3` |
 |                                         | Marcador          | *Marker*       | {{ marker }}  | ea25    | -         |
@@ -232,17 +235,17 @@ order: 92
 
 ## Dados
 
-| Icon | Termo | Variável   | Unicode     | Color |
-| ---- | ----- | ---------- | ----------- | ----- |
-|     | 1D2   | {{ d1d2 }} | e91c        | -     |
-|    | 2D2   | {{ d2d2 }} | e91c **x2** | -     |
-|   | 3D2   | {{ d3d2 }} | e91c **x3** | -     |
-|     | 1D3   | {{ d1d3 }} | e91d        | -     |
-|    | 2D3   | {{ d2d3 }} | e91d **x2** | -     |
-|   | 3D3   | {{ d3d3 }} | e91d **x3** | -     |
-|     | 1D6   | {{ d1d6 }} | e920        | -     |
-|    | 2D6   | {{ d2d6 }} | e920 **x2** | -     |
-|   | 3D6   | {{ d3d6 }} | e920 **x3** | -     |
+| Icon | Termo | Variável   | Abreviação | Unicode     | Color |
+| ---- | ----- | ---------- | ---------- | ----------- | ----- |
+|     | 1D2   | {{ e1d2 }} | {{ d1d2 }} | e91c        | -     |
+|    | 2D2   | {{ e2d2 }} | {{ d2d2 }} | e91c **x2** | -     |
+|   | 3D2   | {{ e3d2 }} | {{ d3d2 }} | e91c **x3** | -     |
+|     | 1D3   | {{ e1d3 }} | {{ d1d3 }} | e91d        | -     |
+|    | 2D3   | {{ e2d3 }} | {{ d2d3 }} | e91d **x2** | -     |
+|   | 3D3   | {{ e3d3 }} | {{ d3d3 }} | e91d **x3** | -     |
+|     | 1D6   | {{ e1d6 }} | {{ d1d6 }} | e920        | -     |
+|    | 2D6   | {{ e2d6 }} | {{ d2d6 }} | e920 **x2** | -     |
+|   | 3D6   | {{ e3d6 }} | {{ d3d6 }} | e920 **x3** | -     |
 
 <br><br>
 
