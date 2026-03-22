@@ -6,15 +6,13 @@ order: 94
 
 # Diretrizes
 
-As diretrizes são regras gerais que devem ser seguidas para garantir que o jogo seja justo e divertido para todos os jogadores. Elas são a base para a resolução de conflitos e dúvidas que possam surgir durante o jogo.
-
-Estas regras e mecânicas são aplicáveis a todas as situações do jogo e devem ser seguidas sempre que possível, a não ser quando uma regra mais específica ou um efeito de carta disser o contrário.
+As diretrizes são regras gerais aplicáveis a todas as situações do jogo. Elas devem ser seguidas sempre que possível, a não ser quando uma regra mais específica ou um efeito de carta disser o contrário.
 
 ---
 
 ## Siga o Texto
 
-A combinação de texto e mecânica diz tudo o que você precisa saber; não é preciso adicionar regras. Esteja atento ao texto: se ele explicita que você “deve fazer algo”, aquilo é obrigatório. Por outro lado, se ele diz que você “pode fazer algo”, ele está lhe dando uma opção, e assim por diante.
+A combinação de texto e mecânica diz tudo o que você precisa saber; não é preciso adicionar regras. Esteja atento ao texto: se ele explicita que você _“deve fazer algo”_, aquilo é obrigatório. Por outro lado, se ele diz que você _“pode fazer algo”_, ele está lhe dando uma opção, e assim por diante.
 
 ---
 
@@ -28,39 +26,41 @@ Os dados utilizados são de seis faces, representados pela sigla **D6**. Em alg
 |--- |--- |---
 | Role o dado de 6 faces e utilize o número obtido como resultado. | Considera-se o dado de 6 faces como um dado de 3 faces:<br/>• 1 e 2 = 1<br/>• 3 e 4 = 2<br/>• 5 e 6 = 3 | Considera-se o dado de 6 faces como um dado de 2 faces:<br/>• 1, 2 e 3 = 1<br/>• 4, 5 e 6 = 2
 
+!!!light
+Múltiplos dados são referidos na forma {{ e2d6 }}, {{ e3d2 }}, etc.
 !!!
-Múltiplos dados são referidos na forma {{ d2d6 }}(**2D6**), {{ d3d2 }}(**3D2**), etc.
-!!!
 
-## Rolagem Perfeita (Perfect Roll)
+### Quem Rola os Dados
 
-É quando o valor natural obtido no dado principal é 6
+**Quando uma mecânica de jogo** determinar a rolagem de dados, o jogador que rola os dados é sempre o jogador que desencadeou a mecânica.
 
-## Quem Rola os Dados
+**Quando uma carta** determinar a rolagem de dados, o jogador que rola os dados é sempre o jogador que tem posse da carta no momento de sua ativação, ou quando a ativação for manual, o jogador que ativar a carta.
 
-Quando uma mecânica de jogo determinar a rolagem de dados, o jogador que rola os dados é sempre o jogador que desencadeou a mecânica.
+### Tipos de Dados
 
-Quando uma carta determinar a rolagem de dados, o jogador que rola os dados é sempre o jogador que tem posse da carta no momento de sua ativação.
+#### Dado Principal
 
-## Tipos de Dados
+Do conjunto de dados rolados, um deles deve ser distinto dos demais, seja por ser rolado antes de todos ou por ter uma aparência diferente. Este é o dado principal.
 
-### Dado Principal
+O dado principal determina se houve uma [Rolagem Perfeita](/guidelines.md#dados-extras-rolagem-perfeita) (valor natural 6). Como apenas ele é considerado para esse efeito, a chance de rolagem perfeita é sempre 1 em 6, independentemente do número de dados rolados.
 
-Do conjunto de dados rolados, um deles deve ser distinto dos demais, seja por ser rolado antes de todos ou por ter uma aparência que o diferencie. Este é chamado de dado principal e ele é utilizado para determinar se houve uma rolagem perfeita naquela ação (obter um 6 natural no valor do dado), garantindo assim que, independentemente do número de dados rolados, a chance de se obter uma rolagem crítica é sempre 1 em 6.
-
-### Dados Secundários
+#### Dados Secundários
 
 São todos os demais dados em uma rolagem de dados que não sejam o dado principal, nem sejam dados extras obtidos por uma rolagem crítica.
 
-### Dados Extras
+#### Dados Extras (Rolagem Perfeita)
 
-Quando o valor obtido no dado principal for um 6 natural, o jogador deve rolar 1D3 adicional. Se o resultado natural no dado de 6 faces também for 6, o jogador deve continuar rolando 1D3 adicional até quebrar a sequência e adicionar ao total da rolagem o valor obtido nesses 1D3.
+Quando o dado principal obtiver um 6 natural (rolagem perfeita), o jogador deve:
 
-## Dado Aleatório
+1. Rolar {{ e1d3 }} adicional e somar o resultado ao total da rolagem.
+2. Se o valor natural no dado de 6 faces for novamente 6 (rolagem perfeita), rolar outro {{ e1d3 }} adicional.
+3. Repetir o passo anterior até que o valor natural seja diferente de 6.
+
+### Dado Aleatório
 
 Em alguns casos, pode ser solicitada a rolagem de **Dados Aleatórios**. Isso significa que o jogador deve rolar os dados solicitados, ignorar quaisquer bônus e efeitos de carta que afetem a rolagem de dados e considerar apenas o valor obtido no dado.
 
-Estes dados também não compartilham das características da carta ou mecânica que os solicitou.
+Estes dados também não compartilham as características da carta ou mecânica que os solicitou.
 
 Rolagens aleatórias seguem a mesma estrutura de conjunto de dados, tendo um dado principal, secundários e extras.
 
@@ -68,7 +68,7 @@ Rolagens aleatórias seguem a mesma estrutura de conjunto de dados, tendo um dad
 
 ## Bônus
 
-Quando um número é apresentado na forma +X ou -X, isso indica que se trata de um bônus. Por exemplo:
+Quando um número é apresentado na forma **+X** ou **-X**, isso indica que se trata de um bônus. Por exemplo:
 
 {{ dmg }} = {{ str }} + 3 + {{ d1d6 }}
 :   {{ str }} é o valor base que recebe os bônus.
@@ -82,9 +82,9 @@ Efeito: {{ p'+2' }} em testes de {{ faith }}
 
 ## Valor Mínimo
 
-Toda operação matemática que resultar em um valor igual ou inferior a zero deve ser considerada como tendo resultado igual a 1, a não ser que exista uma regra específica que diga o contrário.
+Toda operação matemática cujo resultado final seja um valor **igual ou inferior a zero** deve ser considerada como tendo resultado igual a **1**, a não ser que exista uma regra específica que diga o contrário.
 
-Portanto, não é possível que um personagem tenha um atributo com valor zero ou negativo, por exemplo.
+Portanto, não é possível que um personagem tenha um Atributo com valor zero, ou cause {{ dmg }} negativo, por exemplo.
 
 ---
 
@@ -96,36 +96,32 @@ Toda divisão que tiver como resultado um valor fracionado deve ser arredondada 
 
 ## Individualidade
 
-Ninguém pode jogar o turno de um jogador por ele. Cada um deve agir por conta própria, se um jogador quer a opinião de outro antes de agir, seus personagens precisam conversar e não os jogadores. Personifiquem os personagens e interpretem-nos.
-
----
-
-## Regra de Ouro
-
-Os jogadores, a qualquer momento, podem se sentir livres para alterar, remover, adaptar ou adicionar qualquer regra que lhes parece conveniente ou inconveniente conforme sua vontade, desde que em comum acordo.
+Ninguém pode jogar o turno de um jogador por ele; cada um deve agir por conta própria. Se um jogador quer a opinião de outro antes de agir, seus personagens precisam conversar, e não os jogadores. Personifiquem os personagens e interpretem-nos.
 
 ---
 
 ## Abstração
 
-Algumas vezes as regras do jogo podem entrar em conflito com a forma com que os fatos deveriam acontecer. Lembre-se, isso é um jogo e não um simulador, siga as regras sempre que possível, se as regras entrarem em conflito com a lógica, é preferível seguir as regras.
+Isso é um jogo, não um simulador. Quando as regras entrarem em conflito com a lógica, é preferível seguir as regras.
 
-Observe que durante o jogo, são feitas inúmeras abstrações narrativas. O dia a dia do personagem e o que acontece entre as cenas relevantes não é jogado. Essas abstrações são necessárias para manter o jogo fluindo e interessante. Não se prenda a elas, se algo não fizer sentido, ignore e siga em frente.
+Durante o jogo, inúmeras abstrações narrativas são feitas: o dia a dia do personagem e o que acontece entre as cenas relevantes não é jogado. Situações cotidianas como refeições, descanso, manutenção de equipamentos, idas ao banheiro e cuidados com companheiros acontecem naturalmente nos bastidores.
 
-A não ser que seja relevante para uma determinada cena, não é necessário se preocupar com situações cotidianas como refeições, banho, sono, banheiro, intimidades etc.; considere que esses eventos aconteceram, assim como inúmeros outros eventos que não são jogados. O personagem está vivendo e tendo experiências extras além do que é apresentado.
+Considere que:
 
-Por exemplo:
+- Durante viagens, o personagem fez paradas, conheceu pessoas e interagiu com o ambiente.
+- Antes de um teste, o personagem se preparou, refletiu e aprendeu além do resultado final.
+- A mudança de classe representa um crescimento gradual, fruto de inúmeras experiências vividas.
+- Itens são reparados e mantidos em boas condições pelo personagem.
+- Companheiros têm suas próprias vidas, experiências e necessidades.
 
-- Quando o personagem está viajando, considere que ele fez paradas para descanso, alimentação, etc., ele conheceu pessoas, viu coisas, interagiu com o ambiente, etc.
-- Quando o personagem realiza um teste, considere que ele se preparou, pensou, refletiu, etc., bem como houve outros aprendizados e ações que vão além do resultado final do teste.
-- A mudança de classe é uma abstração para representar o crescimento do personagem, considere que ele passou por inúmeras experiências que o levaram a mudar sua visão de mundo e seus objetivos gradualmente, até chegar àquele ponto.
-- Itens quebram, são reparados, recebem manutenção, etc., considere que o personagem cuidou de seus equipamentos e os manteve em boas condições.
-- Companheiros também vivem suas vidas, considere que eles tiveram suas próprias experiências e interações, que os levaram a estar onde estão e a agir como agem. Considere que o Herói alimenta e cuida de seus animais, apara o pelo, limpa, etc.
+Efeitos de cartas ativadas podem não parecer fazer sentido do ponto de vista narrativo, mas isso não é um problema. Use a criatividade para imaginar como o efeito da carta se encaixa na narrativa, mesmo que seja algo abstrato ou requeira uma interpretação mais livre.
 
-Estas e inúmeras outras interações e eventos acontecem o tempo todo, e são delas que o personagem tira suas experiências, aprendizados e conhecimentos.
+Cada mecânica é uma representação simbólica e jogável de uma situação. Não se prenda a possíveis incoerências; o importante é que o jogo seja dinâmico e divertido.
 
-Cada mecânica é uma representação simbólica e praticável de uma situação do mundo real, mas, por questões logísticas, não são simulações perfeitas. Não se prenda às possíveis incoerências que possam surgir; o importante é que o jogo seja dinâmico, sem ações cansativas.
+---
 
-Todo jogo faz uso de abstrações e simplificações em prol da diversão, este não é diferente.
+## Regra de Ouro
+
+Os jogadores, a qualquer momento, podem alterar, remover, adaptar ou adicionar qualquer regra que lhes pareça conveniente ou inconveniente, desde que em comum acordo.
 
 ---

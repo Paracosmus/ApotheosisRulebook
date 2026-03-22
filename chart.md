@@ -5,8 +5,6 @@ layout: page
 
 # Cartilha
 
----
-
 ## Durante seu Turno
 
 Ativar Carta
@@ -36,9 +34,13 @@ Evocar uma {{ summon }}
 Descansar
 :   Ação total para curar {{p'10'}} de {{ hp }} e recuperar {{p'2'}} de **Energia**
 
-Trocar cartas com a Pilha de Descarte<br>_Comprar {{ item }}<br>Aprender {{ skill }}<br>Recrutar {{ companion }}<br>Receber {{ event }}_
+Trocar cartas com a Pilha de Descarte
+    - _Comprar {{ item }}_
+    - _Aprender {{ skill }}_
+    - _Recrutar {{ companion }}_
+    - _Colher {{ event }}_
 :   Ação total
-<br><br><br><br><br>
+<br><br><br><br><br><br>
 
 Propor/Fechar Pacto
 :   Ação total (_de todos os envolvidos_)

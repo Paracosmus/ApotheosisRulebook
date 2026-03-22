@@ -26,7 +26,7 @@ Este livro e as cartas do jogo utilizam termos com significados específicos. Ab
 | **Buscar**     | *Search*      | Escolher uma carta na pilha ou baralho especificado, geralmente com limitações, mostrá-la e adicioná-la ao {{ inv }} |
 | **Mesa**       | *Table*       | Local da área do jogo onde um Herói coloca suas cartas |
 | **Ficha**      | *Sheet*       | Zona da {{ table }} do Herói onde estão suas cartas de ficha |
-| **Zona Extra** | *Extra Slots* | Zona da {{ sheet }} do Herói onde algumas mecânicas de jogo e efeitos de cartas podem colocar cartas de ficha extras |
+| **Zona Extra** | *Extra Zone*  | Zona da {{ sheet }} do Herói onde algumas mecânicas de jogo e efeitos de cartas podem colocar cartas de ficha extras |
 | **Inventário** | *Inventory*   | Zona onde o Herói armazena cartas que não estão ativas ou em uso, mas que ainda são de sua posse. Geralmente representada pelas cartas seguradas na mão |
 
 ---
@@ -35,7 +35,7 @@ Este livro e as cartas do jogo utilizam termos com significados específicos. Ab
 
 | Termo                    | Inglês          | Significado |
 | ------------------------ | --------------- | ----------- |
-| **Peça**                 | *Piece*         | Peão que representa um personagem ou objeto no tabuleiro de batalha |
+| **Peça**                 | *Chip*          | Peão que representa um personagem ou objeto no tabuleiro de batalha |
 | **Mover**                | *Move*          | Colocar uma peça em outra casa do tabuleiro |
 | **Distância**            | *Distance*      | Alcance da ação ou movimento |
 | **Trajeto / Trajetória** | *Trajectory*    | Conjunto de casas do tabuleiro por onde passa a linha reta entre o personagem que executa a ação e o alvo da ação |

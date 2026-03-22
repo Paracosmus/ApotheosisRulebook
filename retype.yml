@@ -230,15 +230,15 @@ data:
   d2d6: 
   d3d6: 
 
-  e1d2: 1D3
-  e2d2: 2D3
-  e3d2: 3D3
-  e1d3: 1D2
-  e2d3: 2D2
-  e3d3: 3D2
-  e1d6: 1D6
-  e2d6: 2D6
-  e3d6: 3D6
+  e1d2: <b>(1D2)</b>
+  e2d2: <b>(2D2)</b>
+  e3d2: <b>(3D2)</b>
+  e1d3: <b>(1D3)</b>
+  e2d3: <b>(2D3)</b>
+  e3d3: <b>(3D3)</b>
+  e1d6: <b>(1D6)</b>
+  e2d6: <b>(2D6)</b>
+  e3d6: <b>(3D6)</b>
 
   # Action
   hp: '[<span class="main"><b>VIDA</b></span>](/hero/#vida)'

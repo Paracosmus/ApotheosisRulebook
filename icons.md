@@ -5,7 +5,7 @@ layout: page
 
 # Ícones
 
-## Naipes
+## Naipes de Cartas
 
 | Icon                             | Termo (PT)  | English      | Variável        | Unicode | Color     |
 | -------------------------------- | ----------- | ------------ | --------------- | ------- | --------- |
@@ -20,7 +20,7 @@ layout: page
 
 <br><br>
 
-## Pilhas
+## Pilhas e Baralhos de Cartas
 
 | Icon                             | Termo (PT)        | English        | Variável        | Unicode | Color     |
 | -------------------------------- | ----------------- | -------------- | --------------- | ------- | --------- |
@@ -35,7 +35,7 @@ layout: page
 
 <br><br>
 
-## Atributos
+## Atributos dos Personagens
 
 | Icon                         | Termo (PT)   | English        | Variável           | Abreviação | Unicode | Color     |
 | ---------------------------- | ------------ | -------------- | ------------------ | ---------- | ------- | --------- |
@@ -197,6 +197,7 @@ layout: page
 | -                                | Zona          | *Zone*          | -               | -       | -         |
 |                                 | Mesa          | *Table*         | {{ table }}     | e92f    | -         |
 |                                 | Ficha         | *Sheet*         | {{ sheet }}     | e99a    | -         |
+| -                                | Zona Extra    | *Extra Zone*    | -               | -       | -         |
 | <span class="item"></span>      | Equipamento   | *Equipment*     | {{ equip }}     | e926    | `#FFC107` |
 | <span class="skill"></span>     | Memento       | *Memento*       | {{ mem }}       | e92c    | `#2196F3` |
 | <span class="companion"></span> | Suporte       | *Support*       | {{ support }}   | eb3d    | `#FF7043` |
@@ -222,10 +223,19 @@ layout: page
 | <span class="skill"></span>             | Mana              | *Mana (MP)*    | {{ mp }}      | e92b    | `#2196F3` |
 |                                         | Marcador          | *Marker*       | {{ marker }}  | ea25    | -         |
 | ❂                                        | Contador          | *Counter*      | {{ counter }} | u2742   | -         |
+| -                                        | Anexo             | *Attachment*   | -             | -       | -         |
 |                                         | Propriedade       | *Tag*          | -             | e935    | -         |
 | -                                        | Tabuleiro         | *Board*        | -             | -       | -         |
 | -                                        | Casa do Tabuleiro | *Tile*         | -             | -       | -         |
 | -                                        | Peça              | *Chip*         | -             | -       | -         |
+| -                                        | Personagem        | *Character*    | -             | -       | -         |
+| -                                        | Herói             | *Hero*         | -             | -       | -         |
+| -                                        | Próprio / Si      | *Self*         | -             | -       | -         |
+| -                                        | Dono              | *Owner*        | -             | -       | -         |
+| -                                        | Membro do Time    | *Team Member*  | -             | -       | -         |
+| -                                        | Parceiro          | *Teammate*     | -             | -       | -         |
+| -                                        | Oponente          | *Opponent*     | -             | -       | -         |
+| -                                        | Outro             | *Other*        | -             | -       | -         |
 |                                         | Altitude          | *Altitude*     | {{ alt }}     | e925    | -         |
 | <span style="color: #76ff03;"></span> | Terreno           | *Terrain*      | -             | e930    | `#76ff03` |
 |                                         | Artista           | *Artist*       | -             | e931    | -         |
