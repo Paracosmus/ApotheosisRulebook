@@ -11,7 +11,12 @@ layout: page
         100% { box-shadow: 0 0 0 0 rgba(103, 58, 183, 0); }
     }
 
-    img {
+    /* Esconde o H1 automático ("Home") gerado pelo Retype nesta página */
+    h1:first-of-type {
+        display: none !important;
+    }
+
+    .logo {
         border: 3px solid rgba(0, 28, 112, 0.2);
     }
 
@@ -164,7 +169,7 @@ layout: page
     }
 </style>
 
-![](static/img/banner.jpg){.rounded-lg}
+![](static/img/banner.jpg){.rounded-lg .logo}
 
 <div class="hero-section">
     <div class="hero-title" role="heading" aria-level="1">APOTHEOSIS CARD GAME</div>
