@@ -42,6 +42,10 @@ links:
   link: /icons.md
   icon: diamond
 
+- text: Database
+  link: https://database.apotheosiscardgame.com/
+  icon: database
+
 markdown:
   lineBreaks: hard
 
