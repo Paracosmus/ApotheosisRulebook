@@ -105,9 +105,9 @@ layout: page
 
 | Icon                          | Termo (PT) | English    | Variável        | Unicode | Color     |
 | ----------------------------- | ---------- | ---------- | --------------- | ------- | --------- |
+| <span class="entity"></span> | Espírito   | *Sprite*   | {{ sprite }}    | e923    | `#3F51B5` |
 | <span class="entity"></span> | Deidade    | *Deity*    | {{ deity }}     | e921    | `#3F51B5` |
 | <span class="entity"></span> | Deus       | *God*      | {{ god }}       | e922    | `#3F51B5` |
-| <span class="entity"></span> | Espírito   | *Sprite*   | {{ sprite }}    | e923    | `#3F51B5` |
 
 <br><br>
 
