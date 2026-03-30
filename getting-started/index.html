@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.828202561611">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.828212312849">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.4.0">
@@ -43,11 +43,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../static/img/favicon.ico" />
-    <link href="../resources/css/retype.css?v=4.4.0.828202561611" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=4.4.0.828212312849" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=4.4.0.828202561611" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=4.4.0.828212312849" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=4.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.4.0.828202561611" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.4.0.828212312849" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -437,7 +437,6 @@
     <div class="relative w-full mb-6 overflow-hidden pt-9/16">
         <iframe class="w-full h-full border-0 absolute inset-0" src="https://www.youtube.com/embed/xbdaQHcJt1I" allowfullscreen></iframe>
     </div>
-    <figcaption class="caption">Vídeo de resumo rápido</figcaption>
 </figure>
 </p>
    </doc-panel>
@@ -452,20 +451,20 @@
 <h5 id="jogadores">Jogadores</h5>
 <p>A quantidade de jogadores é definida pelo modo de jogo escolhido ou pela campanha.</p>
 <ul>
-<li>De 1 a 9 jogares</li>
+<li>De <strong>1 a 11</strong> jogares</li>
 <li>Algumas campanhas podem requerer um <strong>jogador extra</strong> que será o <a href="../gameplay/game-master/">mestre de jogo</a>, responsável por narrar a história, controlar os inimigos e desafios, e arbitrar as regras</li>
 </ul>
 <h5 id="cartas">Cartas</h5>
-<p>Campanhas e modos de jogo estabelecem regras específicas sobre quais cartas são utilizadas, mas geralmente os jogadores precisam de um conjunto de cartas para jogar, que pode ser um conjunto base ou um baralho customizado, dependendo do formato escolhido.</p>
+<p>As <a href="../gameplay/setup/">Configurações de Partidas</a> estabelecem regras específicas sobre quais cartas são utilizadas, mas geralmente os jogadores precisam de um conjunto de cartas para jogar, que pode ser um conjunto base ou um baralho customizado, dependendo do formato escolhido.</p>
 <ul>
-<li>Conjuntos base são caixas contendo uma seleção específica de cartas que permite jogar a maioria dos modos de jogo</li>
+<li><em>Conjuntos base</em> são caixas contendo uma seleção específica de cartas contanto é essencial para jogar a maioria dos modos de jogo</li>
 <li>Em alguns modos cada jogador precisa trazer seu baralho de cartas customizado</li>
 </ul>
 <h5 id="tabuleiro">Tabuleiro</h5>
 <p>Um tabuleiro quadriculado onde as batalhas entre os personagens possam ocorrer.</p>
 <ul>
 <li>De 2x1 até qualquer tamanho máximo, dependendo do modo de jogo escolhido</li>
-<li>Uma forma de representar os personagens e elementos no tabuleiro (peças, pinos, peões, figuras, moedas, tokens, etc.)</li>
+<li>Uma forma de representar os personagens e elementos no tabuleiro (peças, meeples, pinos, peões, figuras, moedas, tokens, etc.)</li>
 <li>Dados de 6 lados suficientes para todos os jogadores</li>
 </ul>
 <h5 id="material-de-consulta">Material de Consulta</h5>
@@ -552,29 +551,13 @@
    <doc-panel id="condição-de-vitória" collapsed>
        <template #title>Condição de Vitória</template>
 <p>Em APOTHEOSIS CARD GAME o objetivo consiste em construir um baralho eficiente e estratégico que representa o seu personagem no universo do jogo, combinando e explorando as melhores sinergias entre cartas ao longo da partida, e utilizar este baralho em constante evolução, para cumprir objetivos, enfrentar desafios, ou derrotar outros jogadores.</p>
-<p>Sendo este um jogo modular, ele pode ser jogado de diversas formas, com diferentes propostas e mecânicas, de acordo com a preferência dos jogadores. Permitindo objetivos que podem ser cumprindo de forma cooperativa ou competitiva, bem como modos exclusivamente de batalha.</p>
-<p>Em adicional, objetivos e desafios específicos podem ser definidos para cada partida, de acordo com o formato escolhido, bem como propostos por uma <a href="../gameplay/campaigns/">campanha</a>, <doc-anchor-trigger to="#formato">formatos</doc-anchor-trigger> ou metre de jogo.</p>
-<h5 id="cooperativo">Cooperativo</h5>
-<p>Os jogadores unem forças em uma campanha épica, enfrentando desafios e inimigos controlados pelo jogo ou por um narrador. A cada sessão, adquirem novas cartas para fortalecer seus personagens, com o objetivo final de derrotar ameaças crescentes e completar a campanha com sucesso.</p>
-<h5 id="competitivo">Competitivo</h5>
-<p>Jogado da mesma forma que o modo cooperativo, porém os jogadores jogam individualmente ou divididos em dois ou mais times, competindo em uma corrida para cumprir primeiro o objetivo definido.</p>
-<h5 id="arena">Arena</h5>
-<p>Dois ou mais jogadores ou equipes se enfrentam em um confronto tático, utilizando seus baralhos personalizados desenvolvidos por cada jogador antes da partida. O objetivo é derrotar o time adversário em batalhas estratégicas no tabuleiro. A equipe que eliminar todos os oponentes ou atingir o objetivo específico da partida será a vencedora.</p>
-   </doc-panel>
-   <doc-panel id="formatos-campanhas-e-modos-de-jogo" collapsed>
-       <template #title>Formatos, Campanhas e Modos de Jogo</template>
-<h5 id="formatos">Formatos</h5>
-<p>Os formatos de jogo são conjuntos personalizados de regras que adicionam ou modificam as regras padrões de jogo. São utilizados para criar diferentes formas de jogar e permitir a customização por parte dos jogadores</p>
-<p>Consulte a seção de <a href="/gameplay/formats.md">Formatos</a> para conhecer os formatos oficiais do jogo, e sinta-se livre para criar seus próprios formatos personalizados, adaptando as regras e mecânicas do jogo para atender às suas preferências e necessidades.</p>
-<h5 id="campanhas">Campanhas</h5>
-<p>As campanhas são histórias pré-definidas que guiam os jogadores através de uma série de missões e desafios, utilizando as cartas e mecânicas do jogo para criar uma experiência narrativa imersiva.</p>
-<h5 id="modos-de-jogo">Modos de Jogo</h5>
-<p>Já os modos de jogo são variações nas regras e objetivos que permitem diferentes formas de jogar, seja cooperativamente, competitivamente ou em arena.</p>
+<p>O objetivo, portanto, depende da <a href="../gameplay/setup/">configuração da partida</a>, mas geralmente envolve cumprir missões narrativas, derrotar inimigos, ou competir e batalhar contra outros jogadores para alcançar um objetivo específico.</p>
+<p>Sendo este um jogo modular, ele pode ser jogado de diversas formas, com diferentes propostas e mecânicas, de acordo com a preferência dos jogadores. Permitindo objetivos que podem ser cumpridos de forma cooperativa ou competitiva, bem como modos exclusivamente de batalha.</p>
    </doc-panel>
    <doc-panel id="preparando-a-partida" collapsed>
        <template #title>Preparando a Partida</template>
 <h5 id="configuração-da-partida">Configuração da Partida</h5>
-<p>Uma vez escolhido o formato, campanha e/ou modo de jogo, siga as regras e passos definidos por estes para preparar a partida. Estes passos podem variar dependendo da escolha e configuração, mas geralmente incluem:</p>
+<p>Uma vez escolhido o <a href="../gameplay/setup/formats/">formato</a>, <a href="../gameplay/setup/campaigns/">campanha</a> e/ou <a href="../gameplay/setup/game-mode/">modo de jogo</a>, siga as regras e passos definidos por estes para preparar a partida. Estes passos podem variar dependendo da escolha e configuração, mas geralmente incluem:</p>
 <h5 id="cartas-1">Cartas</h5>
 <p>Separe as cartas iniciais listadas, faça 1 baralho para cada naipe e embaralhe cada um. Posicione estes baralhos na área do jogo de forma que os jogadores possam ter acesso. Reserve também uma zona para a pilha de descarte.</p>
 <div class="flex mb-6">
@@ -616,7 +599,7 @@
             </svg>
         </div>
         <div class="pr-5 ml-3 w-full">
-<p>Os jogadores podem também definir um nome, idade, sexo e aparência para seu Herói, se desejarem, sendo estas características opcionais para a maioria dos modos de jogo.e irrelevantes para as regras de jogo, sendo de caráter narrativo.</p>
+<p>Os jogadores podem também definir um nome, idade, sexo e aparência para seu Herói, se desejarem, sendo estas características opcionais para a maioria dos modos de jogo e de caráter apenas narrativo, não considerados pelas regras de jogo.</p>
         </div>
     </div>
 </div>
@@ -626,25 +609,88 @@
    <doc-step id="componentes-do-jogo" step-number="4">
       <template #title>COMPONENTES DO JOGO</template>
 <p><img src="../static/img/banners/getting-started-4.webp" alt="" class="max-w-full h-auto rounded-lg logo" /></p>
-<doc-panels>
-   <doc-panel id="as-cartas">
+<doc-panels expando>
+   <doc-panel id="as-cartas" collapsed>
        <template #title>As Cartas</template>
-<p>Divida as cartas em categorias lógicas:<br />
-Cartas Principais/Líderes: O pilar do deck ou ficha de personagem.<br />
-Cartas de Unidade/Batalha: Quem luta por você (Personagens/Monstros).<br />
-Cartas de Efeito/Magia: Eventos de uso único (Opções/Magias/Armadilhas).</p>
-<p>Leitura da Carta: Mostre onde olhar o Custo de jogo, o Poder de Ataque (ATK/DP) e os Efeitos.</p>
+<p>As cartas são a célula básica do jogo, representando personagens, itens, magias, eventos e outros elementos do universo do jogo. Elas são a principal forma de interação dos jogadores com o jogo, e possuem diferentes tipos, efeitos e características.</p>
+<p>São dois grupos de cartas, divididos em 7 naipes no total:</p>
+<ul>
+<li><strong>Cartas de Ficha</strong>
+<ul>
+<li><a href="../cards/house/"><span class="house"><b>CASA</b></span></a>: Representam os personagens dos jogadores</li>
+<li><a href="../cards/class/"><span class="class"><b>CLASSE</b></span></a>: Adicionam características ao personagem</li>
+<li><a href="../cards/entity/"><span class="entity"><b>ENTE</b></span></a>: Adicionam poderes de transformação ao personagem para conferir poderes extras</li>
+</ul>
+</li>
+<li><strong>Cartas de Recurso</strong>
+<ul>
+<li><a href="../cards/item/"><span class="item"><b>ITEM</b></span></a>: Equipamentos, armas, armaduras e outros objetos</li>
+<li><a href="../cards/skill/"><span class="skill"><b>HABILIDADE</b></span></a>: Habilidades, técnicas e manobras de combate</li>
+<li><a href="../cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a>: Personagens adicionais, aliados, animais e evocações</li>
+<li><a href="../cards/event/"><span class="event"><b>EVENTO</b></span></a>: Situações, sorte, azar, encontros, bençãos, maldições e outros eventos</li>
+</ul>
+</li>
+</ul>
    </doc-panel>
-   <doc-panel id="os-personagens">
+   <doc-panel id="os-personagens" collapsed>
        <template #title>Os Personagens</template>
+<p>
+<div class="card-container">
+    <a href="../gameplay/characters/" class="group card no-link">
+        <div class="p-card-padding">
+            <div class="text-card-kicker font-card-kicker text-card-kicker-text card-kicker-case">Gameplay</div>
+            <div class="mt-2 text-card-title font-card-title leading-card-title text-card-title-text md:text-card-title-md">Personagens</div>
+            <div class="line-clamp-5"><p class="mt-card-description-margin-top text-card-description-text">É chamado de <strong>Personagem</strong> toda representação de um indivíduo animado, ou seja, que pode se mover, agir e interagir com o ambiente do jogo, e que pode ser controlada por um jogador ou pelo mestre de jogo, e que possui características, habilidades e estatísticas específicas. Os personagens são representados por cartas, miniaturas ou tokens no tabuleiro, e são os principais agentes através dos quais os jogadores interagem com o mundo do jogo.</p></div>
+        </div>
+    </a>
+</div>
+</p>
+<p>Existem 3 tipos de personagens:</p>
+<ul>
+<li><a href="../hero/">Heróis</a>: Personagens dos jogadores.</li>
+<li><a href="../cards/companion/">Companheiros</a>
+<ul>
+<li><strong>Humanos</strong>: Aliados dos jogadores ou NPCs de campanha</li>
+<li><strong>Criaturas</strong>: Animais, bestas e monstros</li>
+<li><strong>Evocações</strong>: Seres sobrenaturais evocados por magias</li>
+</ul>
+</li>
+<li><a href="../board/dummies/">Modelo (Dummy)</a>: Personagens que fogem das regras de jogo, geralmente chefes de campanha</li>
+</ul>
    </doc-panel>
-   <doc-panel id="mesa">
-       <template #title>Mesa</template>
+   <doc-panel id="a-mesa" collapsed>
+       <template #title>A Mesa</template>
+<p>
+<div class="card-container">
+    <a href="../hero/table/" class="group card no-link">
+        <div class="p-card-padding">
+            <div class="text-card-kicker font-card-kicker text-card-kicker-text card-kicker-case">Heróis</div>
+            <div class="mt-2 text-card-title font-card-title leading-card-title text-card-title-text md:text-card-title-md">Mesa</div>
+            <div class="line-clamp-5"><p class="mt-card-description-margin-top text-card-description-text">É o conjunto de zonas e áreas onde as cartas do Herói são colocadas para tornar visíveis suas habilidades, recursos e status durante o jogo. Cada Herói tem suas próprias cartas, mesmo quando compartilham o mesmo jogador, e é a combinação dessas cartas que o define. Essas cartas são organizadas na chamada MESA.</p></div>
+        </div>
+    </a>
+</div>
+</p>
+<p>Os jogadores podem utilizar um <strong>playmat</strong> para separar suas zonas de cartas e organizá-las. Bem como para posicionar as diferentes pilhas de cartas e baralhos do jogo.</p>
    </doc-panel>
-   <doc-panel id="tabuleiro-1">
-       <template #title>Tabuleiro</template>
-<p>Peças</p>
-<p>Mostre onde as coisas ficam. Apresente a Zona do Deck, Zona de Descarte/Cemitério, Zona de Batalha/Campo, e a área de Recursos (Energia/Mana).</p>
+   <doc-panel id="o-tabuleiro" collapsed>
+       <template #title>O Tabuleiro</template>
+<p>
+<div class="card-container">
+    <a href="../board/" class="group card no-link">
+        <div class="p-card-padding">
+            <div class="mt-2 text-card-title font-card-title leading-card-title text-card-title-text md:text-card-title-md">TABULEIRO</div>
+            <div class="line-clamp-7"><p class="mt-card-description-margin-top text-card-description-text">é a área quadriculada especificamente onde as batalhas entre os personagens ocorrem.</p></div>
+        </div>
+    </a>
+</div>
+</p>
+<h5 id="narração">Narração</h5>
+<p>Dado as diferentes variantes de jogo, quando sendo jogado uma campanha narrativa de RPG, as ações dos jogadores são narradas por eles mesmos, e as ações dos NPCs e eventos que acontecem no jogo são narrados pelo mestre de jogo ou campanha.</p>
+<p>Isso significa que o jogo, o mundo e os eventos acontecem na imaginação de cada jogador. Testes, ações, narrações, e situações em geral, é uma construção coletiva da imaginação de todos os jogadores, e não algo que acontece em um mundo físico ou virtual, não sendo necessário portanto, uma área de jogo para estes eventos acontecerem.</p>
+<h5 id="batalha">Batalha</h5>
+<p>A batalha, um elemento relevante no jogo, sendo este um <a href="https://en.wikipedia.org/wiki/Tactical_role-playing_game" class="outbound" target="_blank"><span>TRPG</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> é uma exceção, pois ela acontece em um espaço físico, o tabuleiro, onde os personagens são representados por peças, e as ações de ataque, defesa e outros efeitos são resolvidos através de rolagem de dados e comparação de atributos.</p>
+<p>O tabuleiro é uma grade quadriculada que representa o campo de batalha, e é onde os personagens se movem, atacam e interagem durante a batalha.</p>
    </doc-panel>
 </doc-panels>
    </doc-step>
@@ -670,7 +716,7 @@ Fase Principal: Jogar personagens, equipar itens, usar magias.</p>
    </doc-panel>
 </doc-panels>
    </doc-step>
-   <doc-step id="batalha" step-number="6">
+   <doc-step id="batalha-1" step-number="6">
       <template #title>BATALHA</template>
 <p><img src="../static/img/banners/getting-started-6.webp" alt="" class="max-w-full h-auto rounded-lg logo" /></p>
 <doc-panel id="batalha-e-combate-simulado-mão-na-massa">
@@ -685,8 +731,22 @@ Cálculo de Dano: Compare o Poder. Se o atacante for maior ou igual, ele vence. 
    <doc-step id="o-que-vem-a-seguir" step-number="7">
       <template #title>O QUE VEM A SEGUIR</template>
 <p><img src="../static/img/banners/getting-started-7.webp" alt="" class="max-w-full h-auto rounded-lg logo" /></p>
-<p>e AGORA?</p>
-<p>Glossário, regras, avançadas, consultar tópicos, etc.</p>
+<doc-panels expando>
+   <doc-panel id="e-agora" collapsed>
+       <template #title>E Agora?</template>
+<p>Este guia foi uma introdução para começar a jogar, e não cobre todas as regras, mecânicas, cartas em detalhes. Ele é um ponto de partida para que novos jogadores possam começar a jogar o mais rápido possível, e se divertir com o jogo sem se sentirem sobrecarregados com detalhes irrelevantes para quem está começando.</p>
+<p>Para aprender mais, consulte os outros guias e seções deste manual.</p>
+<p>No menu lateral, você pode encontrar guias específicos completos em detalhes sobre cada tópico usado neste guia. Eles não precisam ser lidos em ordem, e você pode escolher o que mais lhe interessa para aprender primeiro. Sinta-se livre para explorar o manual e descobrir tudo o que APOTHEOSIS CARD GAME tem a oferecer.</p>
+<p>Na barra de navegação superior, você pode encontrar guias de referência rápida para as regras, cartas, e outros detalhes do jogo, para que você possa consultar facilmente durante as partidas.</p>
+<p>Em adicional, se tiver dúvidas sobre um tópico específico, no canto esquerdo da barra de navegação superior, você pode encontrar um campo de busca onde pode digitar para encontrar rapidamente o que está procurando.</p>
+   </doc-panel>
+   <doc-panel id="jogue" collapsed>
+       <template #title>Jogue</template>
+<p>Não há forma melhor de aprender a jogar do que jogando. Então, reúna seus amigos, escolha uma configuração de partida e comece a jogar. A experiência prática é a melhor maneira de entender as regras, mecânicas, e estratégias do jogo.</p>
+<p>Não é necessário ler ou memorizar este manual inteiro, mesmo para jogadores experientes.</p>
+<p>Ao jogar você aprende aos poucos, dúvidas e erros fazem parte do processo. Conforme você joga, você vai se familiarizando com as cartas, as mecânicas.</p>
+   </doc-panel>
+</doc-panels>
    </doc-step>
 </doc-steps>
 <hr>
@@ -711,7 +771,7 @@ Cálculo de Dano: Compare o Poder. Se o atacante for maior ou igual, ele vence. 
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-03-30T13:16:27" title="2026-03-30" data-absolute-label="Last updated on 2026-03-30 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-03-30 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-03-30T15:59:03" title="2026-03-30" data-absolute-label="Last updated on 2026-03-30 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-03-30 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
                         Last updated on 2026-03-30 by Bruno Caxito
                     </time>
                 </div>
