@@ -14,7 +14,7 @@ order: 100
 # Começando a Jogar
 
 %% ============================================================================================= %%
->>> O que é APOTHEOSIS CARD GAME
+>>> O QUE É APOTHEOSIS CARD GAME
 %% ============================================================================================= %%
 
   ![](static/img/banners/getting-started-1.webp){.rounded-lg .logo}
@@ -94,10 +94,11 @@ order: 100
 
 
 %% ============================================================================================= %%
->>> Contexto
+>>> CONTEXTO
 %% ============================================================================================= %%
 
   ![](static/img/banners/getting-started-2.webp){.rounded-lg .logo}
+
 
   %% ----------------------------------------------------------------------- %%
   ==- O Mundo do Jogo
@@ -120,7 +121,9 @@ order: 100
 
   O sistema de jogo é o conjunto de regras e mecânicas que regem como as partidas de APOTHEOSIS CARD GAME são jogadas. Ele define como os jogadores interagem com o jogo, como as ações são resolvidas, e como os objetivos são alcançados.
 
+  !!!
   Observe que, apesar do sistema vir acompanhado de um universo e narrativa específicos, ele é modular e pode ser adaptado para diferentes contextos, histórias e ambientações, de acordo com a preferência dos jogadores. Sendo possível jogar o sistema de jogo sem qualquer contexto ou narrativa, ou com um contexto e narrativa completamente diferente do universo oficial do jogo.
+  !!!
 
   ===
 
@@ -129,96 +132,85 @@ order: 100
 
 
 %% ============================================================================================= %%
->>> Objetivo
+>>> OBJETIVO DO JOGO
 %% ============================================================================================= %%
 
+  ![](static/img/banners/getting-started-3.webp){.rounded-lg .logo}
 
 
-Em APOTHEOSIS CARD GAME o objetivo consiste em construir um baralho eficiente e estratégico que representa o seu personagem no universo do jogo, combinando e explorando as melhores sinergias entre cartas ao longo da partida, e utilizar este baralho em constante evolução, para cumprir objetivos, enfrentar desafios, ou derrotar outros jogadores.
+  %% ----------------------------------------------------------------------- %%
+  ==- Condição de Vitória
+  %% ----------------------------------------------------------------------- %%
 
-Sendo este um jogo modular, ele pode ser jogado de diversas formas, com diferentes propostas e mecânicas, de acordo com a preferência dos jogadores. Permitindo objetivos que podem ser cumprindo de forma cooperativa ou competitiva, bem como modos exclusivamente de batalha.
+  Em APOTHEOSIS CARD GAME o objetivo consiste em construir um baralho eficiente e estratégico que representa o seu personagem no universo do jogo, combinando e explorando as melhores sinergias entre cartas ao longo da partida, e utilizar este baralho em constante evolução, para cumprir objetivos, enfrentar desafios, ou derrotar outros jogadores.
 
-Em adicional, objetivos e desafios específicos podem ser definidos para cada partida, de acordo com o formato escolhido, bem como propostos por uma campanha ou metre de jogo.
+  Sendo este um jogo modular, ele pode ser jogado de diversas formas, com diferentes propostas e mecânicas, de acordo com a preferência dos jogadores. Permitindo objetivos que podem ser cumprindo de forma cooperativa ou competitiva, bem como modos exclusivamente de batalha.
 
-!!!ghost
-Consulte a sessão de [formatos](#formato) para mais detalhes sobre algumas dos formatos mais comuns de jogo.
-!!!
+  Em adicional, objetivos e desafios específicos podem ser definidos para cada partida, de acordo com o formato escolhido, bem como propostos por uma [campanha](/gameplay/campaigns.md), [formatos](#formato) ou metre de jogo.
 
----
+  ##### Cooperativo
 
-## Cooperativo
+  Os jogadores unem forças em uma campanha épica, enfrentando desafios e inimigos controlados pelo jogo ou por um narrador. A cada sessão, adquirem novas cartas para fortalecer seus personagens, com o objetivo final de derrotar ameaças crescentes e completar a campanha com sucesso.
 
-Os jogadores unem forças em uma campanha épica, enfrentando desafios e inimigos controlados pelo jogo ou por um narrador. A cada sessão, adquirem novas cartas para fortalecer seus personagens, com o objetivo final de derrotar ameaças crescentes e completar a campanha com sucesso.
+  ##### Competitivo
 
----
+  Jogado da mesma forma que o modo cooperativo, porém os jogadores jogam individualmente ou divididos em dois ou mais times, competindo em uma corrida para cumprir primeiro o objetivo definido.
 
-## Competitivo
+  ##### Arena
 
-Jogado da mesma forma que o modo cooperativo, porém os jogadores jogam individualmente ou divididos em dois ou mais times, competindo em uma corrida para cumprir primeiro o objetivo definido.
-
-### Arena
-
-Dois ou mais jogadores ou equipes se enfrentam em um confronto tático, utilizando seus baralhos personalizados desenvolvidos por cada jogador antes da partida. O objetivo é derrotar o time adversário em batalhas estratégicas no tabuleiro. A equipe que eliminar todos os oponentes ou atingir o objetivo específico da partida será a vencedora.
+  Dois ou mais jogadores ou equipes se enfrentam em um confronto tático, utilizando seus baralhos personalizados desenvolvidos por cada jogador antes da partida. O objetivo é derrotar o time adversário em batalhas estratégicas no tabuleiro. A equipe que eliminar todos os oponentes ou atingir o objetivo específico da partida será a vencedora.
 
 
 
   %% ----------------------------------------------------------------------- %%
-  === Condição de Vitória
+  ==- Formatos, Campanhas e Modos de Jogo
   %% ----------------------------------------------------------------------- %%
 
-  Seja direto sobre como se ganha o jogo. Pode ser reduzindo os Pontos de Vida (Life/Security) do oponente a zero, comprando todas as cartas de prêmio, ou completando uma missão narrativa.
+  ##### Formatos
+
+  Os formatos de jogo são conjuntos personalizados de regras que adicionam ou modificam as regras padrões de jogo. São utilizados para criar diferentes formas de jogar e permitir a customização por parte dos jogadores
+
+  Consulte a seção de [Formatos](/gameplay/formats.md) para conhecer os formatos oficiais do jogo, e sinta-se livre para criar seus próprios formatos personalizados, adaptando as regras e mecânicas do jogo para atender às suas preferências e necessidades.
+
+  ##### Campanhas
+
+  As campanhas são histórias pré-definidas que guiam os jogadores através de uma série de missões e desafios, utilizando as cartas e mecânicas do jogo para criar uma experiência narrativa imersiva.
+
+  ##### Modos de Jogo
+
+  Já os modos de jogo são variações nas regras e objetivos que permitem diferentes formas de jogar, seja cooperativamente, competitivamente ou em arena.
+
+
 
   %% ----------------------------------------------------------------------- %%
-  === Formatos
+  ==- Preparando a Partida
   %% ----------------------------------------------------------------------- %%
 
-Os formatos de jogo são conjuntos personalizados de regras que adicionam ou modificam as regras padrões de jogo. São utilizados para criar diferentes formas de jogar e permitir a customização por parte dos jogadores
+  ##### Configuração da Partida
 
-Abaixo estão os formatos oficiais:
-
-TODO
-
-[Standard]()
-[Lagvig]()
-[Field Battle]()
-[Naval Battle]()
-[Liga Pokémon]()
-
-  %% ----------------------------------------------------------------------- %%
-  === Campanhas e Modos de Jogo
-  %% ----------------------------------------------------------------------- %%
+  Uma vez escolhido o formato, campanha e/ou modo de jogo, siga as regras e passos definidos por estes para preparar a partida. Estes passos podem variar dependendo da escolha e configuração, mas geralmente incluem:
 
 
-## Preparando a Partida
+  ##### Cartas
 
-### Cartas
+  Separe as cartas iniciais listadas, faça 1 baralho para cada naipe e embaralhe cada um. Posicione estes baralhos na área do jogo de forma que os jogadores possam ter acesso. Reserve também uma zona para a pilha de descarte.
 
-Separe as cartas iniciais listadas pela campanha, faça 1 baralho para cada naipe e embaralhe cada um. Posicione estes baralhos na área do jogo de forma que os jogadores possam ter acesso. Reserve também uma zona para a pilha de descarte.
+  !!!
+  Na maioria dos modos de Arena, os jogadores trazem os seus baralhos customizados prontos, e apenas embaralham suas cartas de recurso antes de começar a partida
+  !!!
 
-!!!
-Na maioria dos formatos de Arena, os jogadores trazem os seus baralhos customizados prontos, e apenas embaralham suas cartas de recurso antes de começar a partida
-!!!
+  ##### Heróis
 
-### Heróis
+  Cada jogador precisa de um Herói. A configuração da partida costuma definir regras próprias de como os Heróis devem ser criados. Algumas formas comuns são:
 
-Cada jogadores precisa de um Herói. O formato e a campanha costumam definir regras próprias de como os Heróis devem ser criados. Algumas formas comuns são:
+  - Cada jogador escolhe uma carta de {{ house }} de um conjunto predefinido
+  - Uma quantidade de cartas do conjunto total de cartas de {{ house }} é distribuído aleatoriamente para os jogadores e cada um escolhe uma carta, devolvendo as demais para o baralho
 
-- Cada jogador escolhe uma carta de CASA de um conjunto predefinido
-- Uma quantidade de cartas do conjunto total de cartas de CASA é distribuído aleatoriamente para os jogadores e cada um escolhe uma carta, devolvendo as demais para o baralho
+  > Uma carta de {{ house }} é tudo que você precisa para definir um Herói.
 
-Uma carta de CASA é tudo que você precisa para definir um Herói.
-
-!!!
-Os jogadores podem também definir um nome, idade, sexo e aparência para seu Herói, se desejarem, sendo estas características opcionais para a maioria dos formatos e irrelevantes para as regras de jogo.
-!!!
-
-### Campanha
-
-Siga os passos adicionas definidos pela campanha escolhida, que também determinarão como iniciar a partida.
-
----
-
-
+  !!!
+  Os jogadores podem também definir um nome, idade, sexo e aparência para seu Herói, se desejarem, sendo estas características opcionais para a maioria dos modos de jogo.e irrelevantes para as regras de jogo, sendo de caráter narrativo.
+  !!!
 
   ===
 
@@ -227,9 +219,10 @@ Siga os passos adicionas definidos pela campanha escolhida, que também determin
 
 
 %% ============================================================================================= %%
->>> Anatomia do Jogo (Ferramentas e Tabuleiro)
+>>> COMPONENTES DO JOGO
 %% ============================================================================================= %%
 
+  ![](static/img/banners/getting-started-4.webp){.rounded-lg .logo}
 
   %% ----------------------------------------------------------------------- %%
   === As Cartas
@@ -242,15 +235,22 @@ Siga os passos adicionas definidos pela campanha escolhida, que também determin
 
   Leitura da Carta: Mostre onde olhar o Custo de jogo, o Poder de Ataque (ATK/DP) e os Efeitos.
 
+
   %% ----------------------------------------------------------------------- %%
   === Os Personagens
   %% ----------------------------------------------------------------------- %%
 
+  %% ----------------------------------------------------------------------- %%
+  === Mesa
+  %% ----------------------------------------------------------------------- %%
+
 
 
   %% ----------------------------------------------------------------------- %%
-  === O Tabuleiro (Áreas de Jogo)
+  === Tabuleiro
   %% ----------------------------------------------------------------------- %%
+
+  Peças
 
   Mostre onde as coisas ficam. Apresente a Zona do Deck, Zona de Descarte/Cemitério, Zona de Batalha/Campo, e a área de Recursos (Energia/Mana).
 
@@ -261,13 +261,17 @@ Siga os passos adicionas definidos pela campanha escolhida, que também determin
 
 
 %% ============================================================================================= %%
->>> Game Loop
+>>> JOGANDO
 %% ============================================================================================= %%
+
+  ![](static/img/banners/getting-started-5.webp){.rounded-lg .logo}
 
 
   %% ----------------------------------------------------------------------- %%
   === O Loop Narrativo (O lado RPG)
   %% ----------------------------------------------------------------------- %%
+
+  Game Loop
 
   Explique como a interação flui: 1) O Mestre descreve o ambiente; 2) O Jogador diz o que quer fazer; 3) O Mestre narra o resultado através das cartas/dados.
 
@@ -295,8 +299,10 @@ Siga os passos adicionas definidos pela campanha escolhida, que também determin
 
 
 %% ============================================================================================= %%
->>> Batalha
+>>> BATALHA
 %% ============================================================================================= %%
+
+  ![](static/img/banners/getting-started-6.webp){.rounded-lg .logo}
 
 
   %% ----------------------------------------------------------------------- %%
@@ -316,8 +322,12 @@ Siga os passos adicionas definidos pela campanha escolhida, que também determin
 
 
 %% ============================================================================================= %%
->>> Avançado e Para onde ir a partir daqui
+>>> O QUE VEM A SEGUIR
 %% ============================================================================================= %%
+
+  ![](static/img/banners/getting-started-7.webp){.rounded-lg .logo}
+
+  e AGORA?
 
   Glossário, regras, avançadas, consultar tópicos, etc.
 
