@@ -31,7 +31,7 @@ order: 100
 
   A ambientação do jogo se passa em um universo fictício que combina elementos estéticos de ficção científica, pós-apocalíptico, horror e fantasia.
 
-  [!embed text="Vídeo de resumo rápido"](https://www.youtube.com/watch?v=xbdaQHcJt1I)
+  [!embed](https://www.youtube.com/watch?v=xbdaQHcJt1I)
 
 
 
@@ -55,14 +55,14 @@ order: 100
 
   A quantidade de jogadores é definida pelo modo de jogo escolhido ou pela campanha.
 
-  - De 1 a 9 jogares
+  - De **1 a 11** jogares
   - Algumas campanhas podem requerer um **jogador extra** que será o [mestre de jogo](/gameplay/game-master.md), responsável por narrar a história, controlar os inimigos e desafios, e arbitrar as regras
 
   ##### Cartas
 
-  Campanhas e modos de jogo estabelecem regras específicas sobre quais cartas são utilizadas, mas geralmente os jogadores precisam de um conjunto de cartas para jogar, que pode ser um conjunto base ou um baralho customizado, dependendo do formato escolhido.
+  As [Configurações de Partidas](/gameplay/setup/) estabelecem regras específicas sobre quais cartas são utilizadas, mas geralmente os jogadores precisam de um conjunto de cartas para jogar, que pode ser um conjunto base ou um baralho customizado, dependendo do formato escolhido.
 
-  - Conjuntos base são caixas contendo uma seleção específica de cartas que permite jogar a maioria dos modos de jogo
+  - _Conjuntos base_ são caixas contendo uma seleção específica de cartas contanto é essencial para jogar a maioria dos modos de jogo
   - Em alguns modos cada jogador precisa trazer seu baralho de cartas customizado
 
   ##### Tabuleiro
@@ -70,7 +70,7 @@ order: 100
   Um tabuleiro quadriculado onde as batalhas entre os personagens possam ocorrer.
 
   - De 2x1 até qualquer tamanho máximo, dependendo do modo de jogo escolhido
-  - Uma forma de representar os personagens e elementos no tabuleiro (peças, pinos, peões, figuras, moedas, tokens, etc.)
+  - Uma forma de representar os personagens e elementos no tabuleiro (peças, meeples, pinos, peões, figuras, moedas, tokens, etc.)
   - Dados de 6 lados suficientes para todos os jogadores
 
   ##### Material de Consulta
@@ -115,6 +115,7 @@ order: 100
   !!!
 
 
+
   %% ----------------------------------------------------------------------- %%
   ==- Sistema de Jogo
   %% ----------------------------------------------------------------------- %%
@@ -144,41 +145,9 @@ order: 100
 
   Em APOTHEOSIS CARD GAME o objetivo consiste em construir um baralho eficiente e estratégico que representa o seu personagem no universo do jogo, combinando e explorando as melhores sinergias entre cartas ao longo da partida, e utilizar este baralho em constante evolução, para cumprir objetivos, enfrentar desafios, ou derrotar outros jogadores.
 
-  Sendo este um jogo modular, ele pode ser jogado de diversas formas, com diferentes propostas e mecânicas, de acordo com a preferência dos jogadores. Permitindo objetivos que podem ser cumprindo de forma cooperativa ou competitiva, bem como modos exclusivamente de batalha.
+  O objetivo, portanto, depende da [configuração da partida](/gameplay/setup/), mas geralmente envolve cumprir missões narrativas, derrotar inimigos, ou competir e batalhar contra outros jogadores para alcançar um objetivo específico.
 
-  Em adicional, objetivos e desafios específicos podem ser definidos para cada partida, de acordo com o formato escolhido, bem como propostos por uma [campanha](/gameplay/campaigns.md), [formatos](#formato) ou metre de jogo.
-
-  ##### Cooperativo
-
-  Os jogadores unem forças em uma campanha épica, enfrentando desafios e inimigos controlados pelo jogo ou por um narrador. A cada sessão, adquirem novas cartas para fortalecer seus personagens, com o objetivo final de derrotar ameaças crescentes e completar a campanha com sucesso.
-
-  ##### Competitivo
-
-  Jogado da mesma forma que o modo cooperativo, porém os jogadores jogam individualmente ou divididos em dois ou mais times, competindo em uma corrida para cumprir primeiro o objetivo definido.
-
-  ##### Arena
-
-  Dois ou mais jogadores ou equipes se enfrentam em um confronto tático, utilizando seus baralhos personalizados desenvolvidos por cada jogador antes da partida. O objetivo é derrotar o time adversário em batalhas estratégicas no tabuleiro. A equipe que eliminar todos os oponentes ou atingir o objetivo específico da partida será a vencedora.
-
-
-
-  %% ----------------------------------------------------------------------- %%
-  ==- Formatos, Campanhas e Modos de Jogo
-  %% ----------------------------------------------------------------------- %%
-
-  ##### Formatos
-
-  Os formatos de jogo são conjuntos personalizados de regras que adicionam ou modificam as regras padrões de jogo. São utilizados para criar diferentes formas de jogar e permitir a customização por parte dos jogadores
-
-  Consulte a seção de [Formatos](/gameplay/formats.md) para conhecer os formatos oficiais do jogo, e sinta-se livre para criar seus próprios formatos personalizados, adaptando as regras e mecânicas do jogo para atender às suas preferências e necessidades.
-
-  ##### Campanhas
-
-  As campanhas são histórias pré-definidas que guiam os jogadores através de uma série de missões e desafios, utilizando as cartas e mecânicas do jogo para criar uma experiência narrativa imersiva.
-
-  ##### Modos de Jogo
-
-  Já os modos de jogo são variações nas regras e objetivos que permitem diferentes formas de jogar, seja cooperativamente, competitivamente ou em arena.
+  Sendo este um jogo modular, ele pode ser jogado de diversas formas, com diferentes propostas e mecânicas, de acordo com a preferência dos jogadores. Permitindo objetivos que podem ser cumpridos de forma cooperativa ou competitiva, bem como modos exclusivamente de batalha.
 
 
 
@@ -188,7 +157,7 @@ order: 100
 
   ##### Configuração da Partida
 
-  Uma vez escolhido o formato, campanha e/ou modo de jogo, siga as regras e passos definidos por estes para preparar a partida. Estes passos podem variar dependendo da escolha e configuração, mas geralmente incluem:
+  Uma vez escolhido o [formato](/gameplay/setup/formats), [campanha](/gameplay/setup/campaigns.md) e/ou [modo de jogo](/gameplay/setup/game-mode.md), siga as regras e passos definidos por estes para preparar a partida. Estes passos podem variar dependendo da escolha e configuração, mas geralmente incluem:
 
 
   ##### Cartas
@@ -209,7 +178,7 @@ order: 100
   > Uma carta de {{ house }} é tudo que você precisa para definir um Herói.
 
   !!!
-  Os jogadores podem também definir um nome, idade, sexo e aparência para seu Herói, se desejarem, sendo estas características opcionais para a maioria dos modos de jogo.e irrelevantes para as regras de jogo, sendo de caráter narrativo.
+  Os jogadores podem também definir um nome, idade, sexo e aparência para seu Herói, se desejarem, sendo estas características opcionais para a maioria dos modos de jogo e de caráter apenas narrativo, não considerados pelas regras de jogo.
   !!!
 
   ===
@@ -225,34 +194,68 @@ order: 100
   ![](static/img/banners/getting-started-4.webp){.rounded-lg .logo}
 
   %% ----------------------------------------------------------------------- %%
-  === As Cartas
+  ==- As Cartas
   %% ----------------------------------------------------------------------- %%
 
-  Divida as cartas em categorias lógicas:
-  Cartas Principais/Líderes: O pilar do deck ou ficha de personagem.
-  Cartas de Unidade/Batalha: Quem luta por você (Personagens/Monstros).
-  Cartas de Efeito/Magia: Eventos de uso único (Opções/Magias/Armadilhas).
+  As cartas são a célula básica do jogo, representando personagens, itens, magias, eventos e outros elementos do universo do jogo. Elas são a principal forma de interação dos jogadores com o jogo, e possuem diferentes tipos, efeitos e características.
 
-  Leitura da Carta: Mostre onde olhar o Custo de jogo, o Poder de Ataque (ATK/DP) e os Efeitos.
+  São dois grupos de cartas, divididos em 7 naipes no total:
 
-
-  %% ----------------------------------------------------------------------- %%
-  === Os Personagens
-  %% ----------------------------------------------------------------------- %%
-
-  %% ----------------------------------------------------------------------- %%
-  === Mesa
-  %% ----------------------------------------------------------------------- %%
+  - **Cartas de Ficha**
+    - {{ house }}: Representam os personagens dos jogadores
+    - {{ class }}: Adicionam características ao personagem
+    - {{ entity }}: Adicionam poderes de transformação ao personagem para conferir poderes extras
+  - **Cartas de Recurso**
+    - {{ item }}: Equipamentos, armas, armaduras e outros objetos
+    - {{ skill }}: Habilidades, técnicas e manobras de combate
+    - {{ companion }}: Personagens adicionais, aliados, animais e evocações
+    - {{ event }}: Situações, sorte, azar, encontros, bençãos, maldições e outros eventos
 
 
 
   %% ----------------------------------------------------------------------- %%
-  === Tabuleiro
+  ==- Os Personagens
   %% ----------------------------------------------------------------------- %%
 
-  Peças
+  [!card](/gameplay/characters.md)
 
-  Mostre onde as coisas ficam. Apresente a Zona do Deck, Zona de Descarte/Cemitério, Zona de Batalha/Campo, e a área de Recursos (Energia/Mana).
+  Existem 3 tipos de personagens:
+
+  - [Heróis](/hero/): Personagens dos jogadores.
+  - [Companheiros](/cards/companion.md)
+    - **Humanos**: Aliados dos jogadores ou NPCs de campanha
+    - **Criaturas**: Animais, bestas e monstros
+    - **Evocações**: Seres sobrenaturais evocados por magias
+  - [Modelo (Dummy)](/board/dummies.md): Personagens que fogem das regras de jogo, geralmente chefes de campanha
+
+
+
+  %% ----------------------------------------------------------------------- %%
+  ==- A Mesa
+  %% ----------------------------------------------------------------------- %%
+
+  [!card](/hero/table.md)
+
+  Os jogadores podem utilizar um **playmat** para separar suas zonas de cartas e organizá-las. Bem como para posicionar as diferentes pilhas de cartas e baralhos do jogo.
+
+
+  %% ----------------------------------------------------------------------- %%
+  ==- O Tabuleiro
+  %% ----------------------------------------------------------------------- %%
+
+  [!card](/board)
+
+  ##### Narração
+
+  Dado as diferentes variantes de jogo, quando sendo jogado uma campanha narrativa de RPG, as ações dos jogadores são narradas por eles mesmos, e as ações dos NPCs e eventos que acontecem no jogo são narrados pelo mestre de jogo ou campanha.
+
+  Isso significa que o jogo, o mundo e os eventos acontecem na imaginação de cada jogador. Testes, ações, narrações, e situações em geral, é uma construção coletiva da imaginação de todos os jogadores, e não algo que acontece em um mundo físico ou virtual, não sendo necessário portanto, uma área de jogo para estes eventos acontecerem.
+
+  ##### Batalha
+
+  A batalha, um elemento relevante no jogo, sendo este um [TRPG](https://en.wikipedia.org/wiki/Tactical_role-playing_game) é uma exceção, pois ela acontece em um espaço físico, o tabuleiro, onde os personagens são representados por peças, e as ações de ataque, defesa e outros efeitos são resolvidos através de rolagem de dados e comparação de atributos.
+
+  O tabuleiro é uma grade quadriculada que representa o campo de batalha, e é onde os personagens se movem, atacam e interagem durante a batalha.
 
   ===
 
@@ -327,9 +330,34 @@ order: 100
 
   ![](static/img/banners/getting-started-7.webp){.rounded-lg .logo}
 
-  e AGORA?
 
-  Glossário, regras, avançadas, consultar tópicos, etc.
+  %% ----------------------------------------------------------------------- %%
+  ==- E Agora?
+  %% ----------------------------------------------------------------------- %%
+
+  Este guia foi uma introdução para começar a jogar, e não cobre todas as regras, mecânicas, cartas em detalhes. Ele é um ponto de partida para que novos jogadores possam começar a jogar o mais rápido possível, e se divertir com o jogo sem se sentirem sobrecarregados com detalhes irrelevantes para quem está começando.
+
+  Para aprender mais, consulte os outros guias e seções deste manual.
+
+  No menu lateral, você pode encontrar guias específicos completos em detalhes sobre cada tópico usado neste guia. Eles não precisam ser lidos em ordem, e você pode escolher o que mais lhe interessa para aprender primeiro. Sinta-se livre para explorar o manual e descobrir tudo o que APOTHEOSIS CARD GAME tem a oferecer.
+
+  Na barra de navegação superior, você pode encontrar guias de referência rápida para as regras, cartas, e outros detalhes do jogo, para que você possa consultar facilmente durante as partidas.
+
+  Em adicional, se tiver dúvidas sobre um tópico específico, no canto esquerdo da barra de navegação superior, você pode encontrar um campo de busca onde pode digitar para encontrar rapidamente o que está procurando.
+
+
+
+  %% ----------------------------------------------------------------------- %%
+  ==- Jogue
+  %% ----------------------------------------------------------------------- %%
+
+  Não há forma melhor de aprender a jogar do que jogando. Então, reúna seus amigos, escolha uma configuração de partida e comece a jogar. A experiência prática é a melhor maneira de entender as regras, mecânicas, e estratégias do jogo.
+
+  Não é necessário ler ou memorizar este manual inteiro, mesmo para jogadores experientes.
+
+  Ao jogar você aprende aos poucos, dúvidas e erros fazem parte do processo. Conforme você joga, você vai se familiarizando com as cartas, as mecânicas.
+
+  ===
 
 >>>
 

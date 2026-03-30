@@ -7,6 +7,8 @@ order: 89
 
 # Formatos
 
+Os formatos de jogo são conjuntos personalizados de regras que adicionam ou modificam as regras padrões de jogo. São utilizados para criar diferentes formas de jogar e permitir a customização por parte dos jogadores
+
 Os formatos de jogo são regras que definem como a partida será jogada, e quais cartas podem ser utilizadas.
 
 Cada formato possui suas próprias diretrizes e restrições, e podem ser utilizados para criar partidas mais equilibradas ou desafiadoras.

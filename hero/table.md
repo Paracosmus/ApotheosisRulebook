@@ -7,6 +7,8 @@ order: 2
 
 # Mesa
 
+É o conjunto de zonas e áreas onde as cartas do Herói são colocadas para tornar visíveis suas habilidades, recursos e status durante o jogo.
+
 
 Cada Herói tem suas próprias cartas, mesmo quando compartilham o mesmo jogador, e é a combinação dessas cartas que o define. Essas cartas são organizadas na chamada {{ table }}.
 

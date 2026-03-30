@@ -7,6 +7,8 @@ order: 97
 
 # Herói
 
+São os personagens principais controlados pelos jogadores, representando suas identidades e habilidades únicas. Cada Herói tem um conjunto de cartas que representam suas habilidades, equipamentos e magias, e é o centro das estratégias dos jogadores
+
 Um Herói é todo e qualquer personagem que possua uma {{ table }} de cartas e um {{ inv }}. São os personages primários utilizados pelos jogadores para interagir com o mundo do jogo.
 
 ---

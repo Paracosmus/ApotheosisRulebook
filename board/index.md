@@ -7,6 +7,8 @@ order: 96
 
 # TABULEIRO
 
+é a área quadriculada especificamente onde as batalhas entre os personagens ocorrem.
+
 ---
 
 ## Casa Adjacente

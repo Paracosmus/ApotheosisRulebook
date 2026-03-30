@@ -7,6 +7,8 @@ order: 88
 
 # Campanhas
 
+As campanhas são histórias pré-definidas que guiam os jogadores através de uma série de missões e desafios, utilizando as cartas e mecânicas do jogo para criar uma experiência narrativa imersiva.
+
 Campanhas são modos de jogo que envolvem uma narrativa contínua, onde os jogadores participam de uma série de aventuras interconectadas. Elas podem incluir missões, eventos e desafios que se desenrolam ao longo do tempo, permitindo que os jogadores desenvolvam seus personagens e explorem o mundo de forma mais profunda.
 
 São criadas e escritas previamente, traçando objetivos, narrativas, estória, mundo, cronologia, e outros aspectos que compõem o cenário de jogo. As campanhas podem ser jogadas em sessões únicas ou em várias sessões, dependendo da complexidade e do tempo disponível.

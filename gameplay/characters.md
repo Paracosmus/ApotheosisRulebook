@@ -7,6 +7,8 @@ order: 8
 
 # Personagens
 
+É chamado de **Personagem** toda representação de um indivíduo animado, ou seja, que pode se mover, agir e interagir com o ambiente do jogo, e que pode ser controlada por um jogador ou pelo mestre de jogo, e que possui características, habilidades e estatísticas específicas. Os personagens são representados por cartas, miniaturas ou tokens no tabuleiro, e são os principais agentes através dos quais os jogadores interagem com o mundo do jogo.
+
 Personagem é a forma de se designar qualquer referência que represente um ser animado, englobando humanos, animais, evocações e quaisquer criaturas vivas, tendo elas peças no tabuleiro ou não.
 
 Geralmente, o termo se refere a [Heróis](/hero/) e {{ companion }}, mas em situações específicas de campanha, podem também se referir a outras criaturas.
@@ -87,3 +89,13 @@ Quando um personagem morrer, não é o fim definitivo, se sua peça ainda estive
 Quando um personagem morto é revivido, ele é adicionado ao final da fila de turnos, caso não tenha tido um turno nesta rodada ainda. Jogando na ordem normal, a partir da próxima rodada.
 
 ---
+
+
+
+
+
+São aliados humanos que podem ser recrutados pelos Heróis para ajudá-los em suas jornadas. Eles possuem habilidades e características específicas, e podem ser usados para complementar as estratégias dos Heróis. Mas tam'bem são muito usados pelo mestre de jogo para representar NPCs (personagens não-jogadores) que interagem com os jogadores durante a campanha, como comerciantes, informantes, ou personagens de apoio, inimigos em batalhas, etc..
+
+São os animais, bestas e monstros.
+
+São os seres sobrenaturais, entidades, espíritos, demônios, etc.. que podem ser evocados pelos Heróis para lutar ao seu lado ou realizar ações específicas.
