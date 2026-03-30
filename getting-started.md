@@ -7,7 +7,7 @@ order: 100
 <style>
     /* Esconde o H1 automático ("Home") gerado pelo Retype nesta página */
     h1:first-of-type {
-      display: none !important;
+        display: none !important;
     }
 </style>
 
@@ -17,7 +17,7 @@ order: 100
 >>> O QUE É APOTHEOSIS CARD GAME
 %% ============================================================================================= %%
 
-  ![](static/img/banners/getting-started-1.webp){.rounded-lg .logo}
+  ![](static/img/banners/getting-started-1.webp){.rounded-lg}
 
 
   %% ----------------------------------------------------------------------- %%
@@ -55,7 +55,7 @@ order: 100
 
   A quantidade de jogadores é definida pelo modo de jogo escolhido ou pela campanha.
 
-  - De **1 a 11** jogares
+  - De **1 a 11** jogadores
   - Algumas campanhas podem requerer um **jogador extra** que será o [mestre de jogo](/gameplay/game-master.md), responsável por narrar a história, controlar os inimigos e desafios, e arbitrar as regras
 
   ##### Cartas
@@ -97,7 +97,7 @@ order: 100
 >>> CONTEXTO
 %% ============================================================================================= %%
 
-  ![](static/img/banners/getting-started-2.webp){.rounded-lg .logo}
+  ![](static/img/banners/getting-started-2.webp){.rounded-lg}
 
 
   %% ----------------------------------------------------------------------- %%
@@ -108,7 +108,7 @@ order: 100
 
   Nesta linha do tempo alternativa, no início do século XXI um evento apocalíptico de proporções globais, conhecido como **O Congelamento**, causou a manifestação de fenômenos sobrenaturais que trouxeram energias etéreas a muito tempo contidas no interior do planeta de volta para a superfície em abundância, dando origem a um mundo onde a magia e as ruínas do passado coexistem, e onde humanos, criaturas fantásticas e entidades sobrenaturais lutam por poder, sobrevivência e controle.
 
-  Como jogador, você assume o papel de um Herói, um indivíduo que possui a capacidade extras tanto mentais quantos espirituais em relação aos outros habitantes do mundo. Sendo imersos em um cenário de caos e conflito, os Heróis buscam cumprir seus objetivos, sejam eles pessoais ou coletivos, enfrentando desafios, inimigos e outros Heróis em uma jornada épica de descobertas, batalhas e conquistas.
+  Como jogador, você assume o papel de um Herói, um indivíduo que possui a capacidade extras tanto mentais quanto espirituais em relação aos outros habitantes do mundo. Sendo imersos em um cenário de caos e conflito, os Heróis buscam cumprir seus objetivos, sejam eles pessoais ou coletivos, enfrentando desafios, inimigos e outros Heróis em uma jornada épica de descobertas, batalhas e conquistas.
 
   !!!
   Para saber mais sobre o universo do jogo, consulte a seção de [Mundo do Jogo](/lore).
@@ -136,14 +136,14 @@ order: 100
 >>> OBJETIVO DO JOGO
 %% ============================================================================================= %%
 
-  ![](static/img/banners/getting-started-3.webp){.rounded-lg .logo}
+  ![](static/img/banners/getting-started-3.webp){.rounded-lg}
 
 
   %% ----------------------------------------------------------------------- %%
   ==- Condição de Vitória
   %% ----------------------------------------------------------------------- %%
 
-  Em APOTHEOSIS CARD GAME o objetivo consiste em construir um baralho eficiente e estratégico que representa o seu personagem no universo do jogo, combinando e explorando as melhores sinergias entre cartas ao longo da partida, e utilizar este baralho em constante evolução, para cumprir objetivos, enfrentar desafios, ou derrotar outros jogadores.
+  Em APOTHEOSIS CARD GAME O objetivo consiste em construir um baralho eficiente e estratégico que representa o seu Herói no universo do jogo, combinando e explorando as melhores sinergias entre cartas ao longo da partida, e utilizar este baralho em constante evolução, para cumprir objetivos, enfrentar desafios, ou derrotar outros jogadores.
 
   O objetivo, portanto, depende da [configuração da partida](/gameplay/setup/), mas geralmente envolve cumprir missões narrativas, derrotar inimigos, ou competir e batalhar contra outros jogadores para alcançar um objetivo específico.
 
@@ -162,7 +162,7 @@ order: 100
 
   ##### Cartas
 
-  Separe as cartas iniciais listadas, faça 1 baralho para cada naipe e embaralhe cada um. Posicione estes baralhos na área do jogo de forma que os jogadores possam ter acesso. Reserve também uma zona para a pilha de descarte.
+  Separe as cartas iniciais listadas, faça um baralho para cada naipe e embaralhe-os separadamente. Posicione estes baralhos na área do jogo de forma que os jogadores possam ter acesso. Reserve também uma zona para a pilha de descarte.
 
   !!!
   Na maioria dos modos de Arena, os jogadores trazem os seus baralhos customizados prontos, e apenas embaralham suas cartas de recurso antes de começar a partida
@@ -191,7 +191,7 @@ order: 100
 >>> COMPONENTES DO JOGO
 %% ============================================================================================= %%
 
-  ![](static/img/banners/getting-started-4.webp){.rounded-lg .logo}
+  ![](static/img/banners/getting-started-4.webp){.rounded-lg}
 
   %% ----------------------------------------------------------------------- %%
   ==- As Cartas
@@ -249,7 +249,7 @@ order: 100
 
   Dado as diferentes variantes de jogo, quando sendo jogado uma campanha narrativa de RPG, as ações dos jogadores são narradas por eles mesmos, e as ações dos NPCs e eventos que acontecem no jogo são narrados pelo mestre de jogo ou campanha.
 
-  Isso significa que o jogo, o mundo e os eventos acontecem na imaginação de cada jogador. Testes, ações, narrações, e situações em geral, é uma construção coletiva da imaginação de todos os jogadores, e não algo que acontece em um mundo físico ou virtual, não sendo necessário portanto, uma área de jogo para estes eventos acontecerem.
+  Isso significa que o jogo, o mundo e os eventos acontecem na imaginação de cada jogador. Testes, ações, narrações, e situações em geral, é uma construção coletiva da imaginação de todos os jogadores, e não algo que acontece em um mundo físico ou virtual.
 
   ##### Batalha
 
@@ -267,56 +267,117 @@ order: 100
 >>> JOGANDO
 %% ============================================================================================= %%
 
-  ![](static/img/banners/getting-started-5.webp){.rounded-lg .logo}
+  ![](static/img/banners/getting-started-5.webp){.rounded-lg}
 
 
   %% ----------------------------------------------------------------------- %%
-  === O Loop Narrativo (O lado RPG)
+  ==- Início de uma Partida
   %% ----------------------------------------------------------------------- %%
 
-  Game Loop
+  Uma vez escolhida a configuração da partida, os jogadores, o mestre de jogo (se houver) e os Heróis estão prontos, as cartas estão embaralhadas e o tabuleiro está montado, a partida pode começar.
 
-  Explique como a interação flui: 1) O Mestre descreve o ambiente; 2) O Jogador diz o que quer fazer; 3) O Mestre narra o resultado através das cartas/dados.
+  Especificações de como a partida começa, e o que acontece no início da partida, podem variar dependendo do modo de jogo escolhido, mas geralmente envolve uma introdução narrativa, onde o mestre de jogo ou campanha apresenta o cenário, a situação inicial, os objetivos e as regras específicas para aquela partida.
 
-  Fase Inicial/Preparação: Desvirar cartas usadas (do modo "descanso/rest" para "ativo").
-  Fase de Compra: Comprar carta do deck.
-  Fase de Recursos: Ganhar ou baixar a energia/mana necessária para jogar cartas.
-  Fase Principal: Jogar personagens, equipar itens, usar magias.
+  !!!
+  Em uma campanha cooperativa, por exemplo, o mestre de jogo pode descrever a situação inicial, os desafios que os jogadores vão enfrentar, e os objetivos que eles precisam cumprir para vencer a partida. Ele também pode apresentar os NPCs, inimigos e outros elementos do cenário que os jogadores vão interagir.
+  !!!
 
-  %% ----------------------------------------------------------------------- %%
-  === Os Personagens
-  %% ----------------------------------------------------------------------- %%
-
+  Uma partida, dependendo de sua duração, pode requerer várias horas de jogo. É comum que uma mesma partida seja jogada em várias sessões, e que os jogadores se reúnam periodicamente para continuar a história, cumprir missões, ou avançar na campanha.
 
 
   %% ----------------------------------------------------------------------- %%
-  === O Tabuleiro (Áreas de Jogo)
+  ==- Sequência de Jogo (Game Loop)
   %% ----------------------------------------------------------------------- %%
 
-  Mostre onde as coisas ficam. Apresente a Zona do Deck, Zona de Descarte/Cemitério, Zona de Batalha/Campo, e a área de Recursos (Energia/Mana).
+  A partida é jogada em rodadas, onde cada jogador tem a sua vez de jogar. A sequência de jogo pode variar dependendo do modo de jogo escolhido, mas geralmente segue uma estrutura básica de fases, onde cada fase tem suas próprias regras e ações permitidas. Sendo que a rodada, se dá de formas diferentes quando estão no modo narrativo ou no modo de batalha.
 
-  ===
+  +++ Modo Narrativo
 
+  Este é o modo onde o mestre ou campanha narra a história, os eventos e as ações dos NPCs, e os jogadores narram as ações de seus Heróis. Não é necessário um espaço físico para a narração, e as ações são resolvidas através de [testes](/gameplay/check.md), [rolagem de dados](/guidelines.md#dados) e comparação de valores.
 
+  Este é o **modo livre (free roaming)**. É focado em interação e estória, e as ações dos jogadores podem ser tão criativas quanto eles desejarem, desde que estejam de acordo com as regras e a lógica do universo do jogo. O mestre de jogo tem um papel importante em arbitrar as regras, resolver situações e manter a narrativa fluindo.
 
+  ###### Ordem de Jogadores
 
+  Não há uma ordem pré-estabelecida para os jogadores no modo narrativo, e eles podem jogar em qualquer ordem, ou até mesmo simultaneamente, dependendo da situação e da preferência dos jogadores. O mestre de jogo pode sugerir uma ordem lógica, mas ela não é obrigatória.
 
-%% ============================================================================================= %%
->>> BATALHA
-%% ============================================================================================= %%
+  Em caso de conflitos ou disputas sobre a ordem de jogadores, o mestre de jogo pode resolver a situação de forma lógica, ou pela [Iniciativa](/board/initiative.md) dos personagens envolvidos.
 
-  ![](static/img/banners/getting-started-6.webp){.rounded-lg .logo}
+  !!!secondary Exemplo de Sequência de Jogo
+
+  **O mestre de jogo apresenta a situação inicial**: "Vocês estão em uma cidade devastada, cercada por ruínas e perigos. O objetivo é encontrar um artefato escondido em um prédio abandonado no centro da cidade. Para isso, vocês precisam atravessar as ruas infestadas de inimigos, encontrar pistas e resolver desafios para chegar ao prédio e recuperar o artefato."
+
+  **Pedro decide explorar um prédio próximo para encontrar suprimentos**: Ele rola um teste de Procurar( {{ perception }} ) para encontrar algo útil, e o mestre de jogo descreve o que ele encontra: "Você encontra uma caixa de suprimentos com algumas armas e itens de cura."
+
+  **Maria decide se aproximar e bisbilhotar um grupo de inimigos para tentar encontrar o caminho para o prédio**: Sua Heroína possui a {{ class }} de _Espião_, portanto o mestre concede a ela um bônus de +5 para este teste. Ela rola um teste de Furtividade( {{ cunning }} + {{ agi }} ) para se aproximar sem ser vista, e o mestre de jogo descreve a situação: "Você consegue se aproximar do grupo no bar sem levantar suspeitas, e ouve que eles estão indo para o prédio abandonado."
+
+  **João decide tentar negociar com um NPC que parece ser um líder local para obter informações sobre o prédio**: João lembra o mestre que seu Herói possui a {{ skill }} de _Empreendedor_ e o mestre concede um bônus de +1 para este teste. Ele rola um teste de Negociação( {{ practice }} + {{ charisma }} ) para tentar convencer o NPC, mas falha, e o mestre de jogo descreve a situação: "O NPC não confia em você e se recusa a falar com você. Ele te ignora e continua com suas atividades."
+
+  Maria decide tentar seguir o grupo de inimigos para chegar ao prédio, mas eles percebem que estão sendo seguidos e começam a atirar. Ela rola um teste de Esquivar( {{ agi }} ) para tentar escapar, mas falha, e o mestre de jogo descreve a situação: "Os inimigos percebem que estão sendo seguidos e começam a atirar em você. Você é atingida por um tiro e perde 20 pontos de vida."
+
+  Os inimigos continuam no encalço de Maria, correndo com dificuldade baleada, ela rola um teste de Resistência( {{ enr }} ). Seus amigos escutam os tiros e correm para verificar o que está acontecendo. Neste momentos os dois grupos estão de frente um para o outro e o mestre de jogo decide que é hora de **iniciar a batalha**."
+
+  !!!
+
+  ---
+
+  !!!
+  Para saber mais sobre testes, rolagem de dados e resolução de ações no modo narrativo, consulte as seções específicas sobre cada tópico neste manual.
+  !!!
+
+  +++ Modo de Batalha
+
+  Este modo simula um combate entre personagens. Se o modo narrativo é o modo livre, o modo de batalha é seu extremo oposto, sendo regido inteiramente pelas regras, focado em tática e estratégia.
+
+  Ele acontece em um espaço físico, o tabuleiro, onde os participantes são representados por peças, e as ações dos jogadores são resolvidas através de rolagem de dados e comparação de valores, seguindo as regras estabelecidas, não sendo mais permitida a livre interpretação e narração das ações, mas sim a aplicação estrita das regras de batalha para resolver ações e efeitos de cartas.
+
+  Quando um combate é iniciado, os jogadores posicionam seus personagens no tabuleiro conforme as regras de posicionamento ou lógica vinda da situação narrativa, e a batalha começa.
+
+  A batalha é resolvida através de uma sequência de turnos, onde cada jogador tem a oportunidade de realizar ações com seus personagens, como mover, atacar, ativar cartas, e interagir com elementos do tabuleiro, pagando custos em pontos de ação que são restaurados a cada nova rodada.
+
+  Durante a batalha os efeitos das cartas são aplicados de forma direta. No modo narrativo, um ataque, como por exemplo "Atacar com uma espada", pode ser resolvido de forma livre, onde o jogador descreve a ação e o mestre de jogo decide os efeitos e consequências. Já no modo de batalha, a mesma ação precisa seguir as regras específicas para ataques, onde o jogador precisa durante o seu turno declarar o ataque, escolher a carta que representa a espada, escolher um alvo ao alcance daquela carta, rolar os dados para determinar o {{ dmg }} do ataque, e aplicar os efeitos conforme as regras estabelecidas.
+
+  !!!secondary Exemplo de Sequência de Batalha
+
+  **Iniciativa**: A ordem dos turnos é redefinida a cada rodada pela Iniciativa dos personagens envolvidos.
+
+  **Turno de Pedro**: Ele tem um Herói com a {{ class }} de _Cavaleiro_, e decide atacar um inimigo com uma espada. Ele move sua peça no tabuleiro até ficar adjacente ao inimigo, declara o ataque, escolhe o {{ item }} _Espada_, rola os dados para determinar o {{ dmg }} do ataque conforme escrito na carta. O mestre de jogo descreve a situação: "Você ataca o inimigo com sua espada, causando 15 pontos de dano. O inimigo é atingido, mas possui o {{ item }} _Escudo_ que reduz o dano em 1 pontos, e perde 14 pontos de vida."
+
+  **Turno de Maria**: Ela tem um Herói com a {{ class }} de _Atiradora_, e decide usar uma habilidade de longo alcance para atacar um inimigo. Ela declara o ataque, escolhe a {{ skill }} _Tiro Certo_, descarta a carta de munição requerida por ela, escolhe um inimigo ao alcance, rola os dados para determinar o {{ dmg }} do ataque conforme escrito na carta e aplica os efeitos da mesma. O mestre de jogo descreve a situação: "Você atira no inimigo com sua habilidade, causando 10 pontos de dano. O inimigo vestindo apenas uma roupa velha que não oferece nenhuma proteção, sendo atingido e perde 10 pontos de vida."
+
+  !!!
+
+  ---
+
+  !!!
+  Para saber mais sobre as regras de batalha, turnos, ações, e resolução de ataques e efeitos de cartas no modo de batalha, consulte as [seções específicas](/board/battle.md) sobre cada tópico neste manual.
+  !!!
+
+  +++
+
 
 
   %% ----------------------------------------------------------------------- %%
-  === Batalha e Combate Simulado (Mão na Massa)
+  ==- Fim de uma Partida
   %% ----------------------------------------------------------------------- %%
 
-  A melhor técnica didática é distribuir "Decks Iniciais" (Starter Decks) simplificados e jogar alguns turnos abertos, guiando as decisões do novato.
-  Passo a Passo do Combate: Ao invés de ler regras, simule um ataque:
-  Declaração: Escolha o atacante (virando a carta) e o alvo.
-  Passo de Reação/Defesa: Ensine que o oponente pode responder. Mostre como usar cartas de "Contra-ataque", bloqueadores ou somar "Poder de Combo" da mão para se defender.
-  Cálculo de Dano: Compare o Poder. Se o atacante for maior ou igual, ele vence. Mostre como o dano afeta o Líder/Personagem.
+  O fim de uma partida, assim como o início, pode variar dependendo do modo de jogo escolhido, mas geralmente ocorre quando um ou mais jogadores cumprem os objetivos estabelecidos para aquela partida, ou quando um evento específico acontece, como a derrota de um chefe de campanha, ou a eliminação de todos os Heróis.
+
+  ##### Campanha Narrativa
+
+  Em uma campanha narrativa, o fim da partida pode ser determinado por um evento narrativo, como a conclusão de uma missão, a derrota de um inimigo importante, ou a resolução de um conflito. O mestre de jogo pode descrever o desfecho da história, e os jogadores podem refletir sobre suas ações e decisões durante a partida.
+
+  O destino dos Heróis após o fim da partida pode variar dependendo do desfecho da história, e das decisões dos jogadores. Eles podem continuar suas aventuras em uma nova campanha, ou podem se retirar para descansar e se preparar para futuras missões.
+
+  Outros personagens e locais podem ser afetados pelas ações dos jogadores durante a partida, e isso pode ter consequências para futuras campanhas ou partidas, dependendo da continuidade que os jogadores desejarem criar para o universo do jogo.
+
+  ###### Derrota (Party Kill)
+
+  Em uma campanha narrativa, a derrota dos Heróis pode ocorrer quando todos os Heróis são derrotados ou incapacitados, ou quando um evento específico acontece que impede os jogadores de continuar a história. O mestre de jogo pode descrever o desfecho da história, e as consequências da falha dos jogadores.
+
+  ##### Arena
+
+  Em um modo de Arena, o fim da partida geralmente ocorre quando um dos times é completamente eliminado ou quando um objetivo específico é alcançado, como capturar um ponto estratégico ou acumular uma certa quantidade de pontos de vitória.
 
   ===
 
@@ -328,7 +389,7 @@ order: 100
 >>> O QUE VEM A SEGUIR
 %% ============================================================================================= %%
 
-  ![](static/img/banners/getting-started-7.webp){.rounded-lg .logo}
+  ![](static/img/banners/getting-started-6.webp){.rounded-lg}
 
 
   %% ----------------------------------------------------------------------- %%
