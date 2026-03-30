@@ -9,10 +9,9 @@ branding:
   label: book
   logo: /static/img/logo.svg
 
-  colors:
-    label:
-      # text: "#000000"
-      # background: "#000000"
+theme:
+  base:
+    base-color: "#1976d2"
 
 breadcrumb:
   home: ":icon-home:"

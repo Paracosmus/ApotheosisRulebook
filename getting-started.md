@@ -3,9 +3,136 @@ label: Getting Started
 icon: rocket
 order: 100
 ---
-{{ review() }}
 
-# Objetivo
+<style>
+    /* Esconde o H1 automático ("Home") gerado pelo Retype nesta página */
+    h1:first-of-type {
+      display: none !important;
+    }
+</style>
+
+# Começando a Jogar
+
+%% ============================================================================================= %%
+>>> O que é APOTHEOSIS CARD GAME
+%% ============================================================================================= %%
+
+  ![](static/img/banners/getting-started-1.webp){.rounded-lg .logo}
+
+
+  %% ----------------------------------------------------------------------- %%
+  ==- Gênero e estilo
+  %% ----------------------------------------------------------------------- %%
+
+  Este é um jogo de tabuleiro e cartas híbrido que combina elementos de:
+  - [Role Playing Game (RPG)](https://en.wikipedia.org/wiki/Role-playing_game)
+  - [Construção de baralho (Deck Building)](https://en.wikipedia.org/wiki/Deck-building_game)
+  - [Batalha em tabuleiro quadriculado (TRPG)](https://en.wikipedia.org/wiki/Tactical_role-playing_game)
+
+  A ambientação do jogo se passa em um universo fictício que combina elementos estéticos de ficção científica, pós-apocalíptico, horror e fantasia.
+
+  [!embed text="Vídeo de resumo rápido"](https://www.youtube.com/watch?v=xbdaQHcJt1I)
+
+
+
+  %% ----------------------------------------------------------------------- %%
+  ==- Como é o jogo
+  %% ----------------------------------------------------------------------- %%
+
+  Os jogadores escolhem uma campanha, formato e/ou modo de jogo, e cada um constrói um conjunto de cartas que representa o seu personagem, chamado de Herói. Durante a partida, os jogadores podem adquirir novas cartas para fortalecer seus Heróis.
+
+  O objetivo é cumprir missões, enfrentar desafios, ou derrotar outros jogadores, utilizando suas cartas, conforme estabelecido pelo modo de jogo escolhido.
+
+  Quando um confronto ocorre, os jogadores utilizam um tabuleiro quadriculado para posicionar seus Heróis e outros personagens, e rolam dados para resolver ações, ataques e efeitos de cartas na intenção de derrotar seus oponentes ou cumprir os objetivos da partida.
+
+
+
+  %% ----------------------------------------------------------------------- %%
+  ==- O que você precisa para jogar
+  %% ----------------------------------------------------------------------- %%
+
+  ##### Jogadores
+
+  A quantidade de jogadores é definida pelo modo de jogo escolhido ou pela campanha.
+
+  - De 1 a 9 jogares
+  - Algumas campanhas podem requerer um **jogador extra** que será o [mestre de jogo](/gameplay/game-master.md), responsável por narrar a história, controlar os inimigos e desafios, e arbitrar as regras
+
+  ##### Cartas
+
+  Campanhas e modos de jogo estabelecem regras específicas sobre quais cartas são utilizadas, mas geralmente os jogadores precisam de um conjunto de cartas para jogar, que pode ser um conjunto base ou um baralho customizado, dependendo do formato escolhido.
+
+  - Conjuntos base são caixas contendo uma seleção específica de cartas que permite jogar a maioria dos modos de jogo
+  - Em alguns modos cada jogador precisa trazer seu baralho de cartas customizado
+
+  ##### Tabuleiro
+
+  Um tabuleiro quadriculado onde as batalhas entre os personagens possam ocorrer.
+
+  - De 2x1 até qualquer tamanho máximo, dependendo do modo de jogo escolhido
+  - Uma forma de representar os personagens e elementos no tabuleiro (peças, pinos, peões, figuras, moedas, tokens, etc.)
+  - Dados de 6 lados suficientes para todos os jogadores
+
+  ##### Material de Consulta
+
+  Alguns livros, cartilhas e textos auxiliares podem ser úteis, mas não necessariamente obrigatórios.
+
+  - Livro de regras, se necessário
+  - Livro contendo a campanha, se houver
+  - E quaisquer materiais adicionais ou auxiliares definidos pela campanha, se houverem
+
+  ---
+
+  !!!warning
+  Apesar de todas estas regras serem flexíveis à configuração desejada pelos jogadores, quando em partidas que incluem PvP (Jogadores batalhando entre si), observe que as cartas foram projetadas e balanceadas pensando em batalhas de até **3x3** Heróis em um tabuleiro de até **11x11** casas.
+  !!!
+
+  ===
+
+
+
+
+
+%% ============================================================================================= %%
+>>> Contexto
+%% ============================================================================================= %%
+
+  ![](static/img/banners/getting-started-2.webp){.rounded-lg .logo}
+
+  %% ----------------------------------------------------------------------- %%
+  ==- O Mundo do Jogo
+  %% ----------------------------------------------------------------------- %%
+
+  As partidas de APOTHEOSIS CARD GAME se passam em um universo fictício, com história, narrativa e ambientação próprias, tendo primariamente um estilo de ficção científica pós-apocalíptica combinada com elementos de fantasia, como magia, poderes especiais e criaturas fantásticas.
+
+  Nesta linha do tempo alternativa, no início do século XXI um evento apocalíptico de proporções globais, conhecido como **O Congelamento**, causou a manifestação de fenômenos sobrenaturais que trouxeram energias etéreas a muito tempo contidas no interior do planeta de volta para a superfície em abundância, dando origem a um mundo onde a magia e as ruínas do passado coexistem, e onde humanos, criaturas fantásticas e entidades sobrenaturais lutam por poder, sobrevivência e controle.
+
+  Como jogador, você assume o papel de um Herói, um indivíduo que possui a capacidade extras tanto mentais quantos espirituais em relação aos outros habitantes do mundo. Sendo imersos em um cenário de caos e conflito, os Heróis buscam cumprir seus objetivos, sejam eles pessoais ou coletivos, enfrentando desafios, inimigos e outros Heróis em uma jornada épica de descobertas, batalhas e conquistas.
+
+  !!!
+  Para saber mais sobre o universo do jogo, consulte a seção de [Mundo do Jogo](/lore).
+  !!!
+
+
+  %% ----------------------------------------------------------------------- %%
+  ==- Sistema de Jogo
+  %% ----------------------------------------------------------------------- %%
+
+  O sistema de jogo é o conjunto de regras e mecânicas que regem como as partidas de APOTHEOSIS CARD GAME são jogadas. Ele define como os jogadores interagem com o jogo, como as ações são resolvidas, e como os objetivos são alcançados.
+
+  Observe que, apesar do sistema vir acompanhado de um universo e narrativa específicos, ele é modular e pode ser adaptado para diferentes contextos, histórias e ambientações, de acordo com a preferência dos jogadores. Sendo possível jogar o sistema de jogo sem qualquer contexto ou narrativa, ou com um contexto e narrativa completamente diferente do universo oficial do jogo.
+
+  ===
+
+
+
+
+
+%% ============================================================================================= %%
+>>> Objetivo
+%% ============================================================================================= %%
+
+
 
 Em APOTHEOSIS CARD GAME o objetivo consiste em construir um baralho eficiente e estratégico que representa o seu personagem no universo do jogo, combinando e explorando as melhores sinergias entre cartas ao longo da partida, e utilizar este baralho em constante evolução, para cumprir objetivos, enfrentar desafios, ou derrotar outros jogadores.
 
@@ -33,11 +160,17 @@ Jogado da mesma forma que o modo cooperativo, porém os jogadores jogam individu
 
 Dois ou mais jogadores ou equipes se enfrentam em um confronto tático, utilizando seus baralhos personalizados desenvolvidos por cada jogador antes da partida. O objetivo é derrotar o time adversário em batalhas estratégicas no tabuleiro. A equipe que eliminar todos os oponentes ou atingir o objetivo específico da partida será a vencedora.
 
-[!embed text="Vídeo de resumo rápido"](https://www.youtube.com/watch?v=xbdaQHcJt1I)
 
----
 
-## Formato
+  %% ----------------------------------------------------------------------- %%
+  === Condição de Vitória
+  %% ----------------------------------------------------------------------- %%
+
+  Seja direto sobre como se ganha o jogo. Pode ser reduzindo os Pontos de Vida (Life/Security) do oponente a zero, comprando todas as cartas de prêmio, ou completando uma missão narrativa.
+
+  %% ----------------------------------------------------------------------- %%
+  === Formatos
+  %% ----------------------------------------------------------------------- %%
 
 Os formatos de jogo são conjuntos personalizados de regras que adicionam ou modificam as regras padrões de jogo. São utilizados para criar diferentes formas de jogar e permitir a customização por parte dos jogadores
 
@@ -51,47 +184,12 @@ TODO
 [Naval Battle]()
 [Liga Pokémon]()
 
----
+  %% ----------------------------------------------------------------------- %%
+  === Campanhas e Modos de Jogo
+  %% ----------------------------------------------------------------------- %%
 
-## Componentes
-
-### **Jogadores**
-
-A quantidade minima de jogadores definida pelo formato escolhido.
-
-- De 1 a 9 jogares
-- Algumas campanhas podem requerer um **jogador extra** que será o **mestre de jogo**
-
-### **Cartas**
-
-Um conjunto base de cartas do jogo.
-
-- Conjuntos base são caixas contendo uma seleção específica de cartas que permite jogar a maioria dos formatos
-- No modo arena, cada jogadora precisa trazer seu baralho de cartas customizado, conforme as regras do formato
-
-### Tabuleiro
-
-Um tabuleiro quadriculado onde as batalhas entre os personagens possam ocorrer.
-
-- De 2x1 até 11x11 casas no tabuleiro
-- Uma forma de representar os personagens e elementos no tabuleiro (peças, pinos, peões, figuras, moedas, tokens, etc.)
-- Dados de 6 lados suficientes para todos os jogadores
-
-### Material de Consulta
-
-Alguns livros, cartilhas e textos auxiliares podem ser úteis, mas não necessariamente obrigatórios.
-
-- Livro de regras, se necessário
-- Livro contendo a campanha, se houver
-- E quaisquer materiais adicionais ou auxiliares definidos pela campanha, se houverem
-
----
 
 ## Preparando a Partida
-
-### Tabuleiro
-
-Posicione o tabuleiro no centro a área do jogo permitindo acesso a todos os jogadores.
 
 ### Cartas
 
@@ -117,5 +215,112 @@ Os jogadores podem também definir um nome, idade, sexo e aparência para seu He
 ### Campanha
 
 Siga os passos adicionas definidos pela campanha escolhida, que também determinarão como iniciar a partida.
+
+---
+
+
+
+  ===
+
+
+
+
+
+%% ============================================================================================= %%
+>>> Anatomia do Jogo (Ferramentas e Tabuleiro)
+%% ============================================================================================= %%
+
+
+  %% ----------------------------------------------------------------------- %%
+  === As Cartas
+  %% ----------------------------------------------------------------------- %%
+
+  Divida as cartas em categorias lógicas:
+  Cartas Principais/Líderes: O pilar do deck ou ficha de personagem.
+  Cartas de Unidade/Batalha: Quem luta por você (Personagens/Monstros).
+  Cartas de Efeito/Magia: Eventos de uso único (Opções/Magias/Armadilhas).
+
+  Leitura da Carta: Mostre onde olhar o Custo de jogo, o Poder de Ataque (ATK/DP) e os Efeitos.
+
+  %% ----------------------------------------------------------------------- %%
+  === Os Personagens
+  %% ----------------------------------------------------------------------- %%
+
+
+
+  %% ----------------------------------------------------------------------- %%
+  === O Tabuleiro (Áreas de Jogo)
+  %% ----------------------------------------------------------------------- %%
+
+  Mostre onde as coisas ficam. Apresente a Zona do Deck, Zona de Descarte/Cemitério, Zona de Batalha/Campo, e a área de Recursos (Energia/Mana).
+
+  ===
+
+
+
+
+
+%% ============================================================================================= %%
+>>> Game Loop
+%% ============================================================================================= %%
+
+
+  %% ----------------------------------------------------------------------- %%
+  === O Loop Narrativo (O lado RPG)
+  %% ----------------------------------------------------------------------- %%
+
+  Explique como a interação flui: 1) O Mestre descreve o ambiente; 2) O Jogador diz o que quer fazer; 3) O Mestre narra o resultado através das cartas/dados.
+
+  Fase Inicial/Preparação: Desvirar cartas usadas (do modo "descanso/rest" para "ativo").
+  Fase de Compra: Comprar carta do deck.
+  Fase de Recursos: Ganhar ou baixar a energia/mana necessária para jogar cartas.
+  Fase Principal: Jogar personagens, equipar itens, usar magias.
+
+  %% ----------------------------------------------------------------------- %%
+  === Os Personagens
+  %% ----------------------------------------------------------------------- %%
+
+
+
+  %% ----------------------------------------------------------------------- %%
+  === O Tabuleiro (Áreas de Jogo)
+  %% ----------------------------------------------------------------------- %%
+
+  Mostre onde as coisas ficam. Apresente a Zona do Deck, Zona de Descarte/Cemitério, Zona de Batalha/Campo, e a área de Recursos (Energia/Mana).
+
+  ===
+
+
+
+
+
+%% ============================================================================================= %%
+>>> Batalha
+%% ============================================================================================= %%
+
+
+  %% ----------------------------------------------------------------------- %%
+  === Batalha e Combate Simulado (Mão na Massa)
+  %% ----------------------------------------------------------------------- %%
+
+  A melhor técnica didática é distribuir "Decks Iniciais" (Starter Decks) simplificados e jogar alguns turnos abertos, guiando as decisões do novato.
+  Passo a Passo do Combate: Ao invés de ler regras, simule um ataque:
+  Declaração: Escolha o atacante (virando a carta) e o alvo.
+  Passo de Reação/Defesa: Ensine que o oponente pode responder. Mostre como usar cartas de "Contra-ataque", bloqueadores ou somar "Poder de Combo" da mão para se defender.
+  Cálculo de Dano: Compare o Poder. Se o atacante for maior ou igual, ele vence. Mostre como o dano afeta o Líder/Personagem.
+
+  ===
+
+
+
+
+
+%% ============================================================================================= %%
+>>> Avançado e Para onde ir a partir daqui
+%% ============================================================================================= %%
+
+  Glossário, regras, avançadas, consultar tópicos, etc.
+
+>>>
 
 ---
