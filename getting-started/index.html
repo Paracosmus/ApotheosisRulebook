@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.828221502553">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.828307496975">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.4.0">
@@ -43,11 +43,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../static/img/favicon.ico" />
-    <link href="../resources/css/retype.css?v=4.4.0.828221502553" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=4.4.0.828307496975" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=4.4.0.828221502553" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=4.4.0.828307496975" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=4.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.4.0.828221502553" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.4.0.828307496975" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -124,6 +124,8 @@
     	.blue      { color: #0D47A1; }
     	.white     { color: #BDBDBD; }
     	.black     { color: #424242; } .dark .black { color: #454545; }
+
+        .format    { color: #03DAC6; }
 
         .keyword-activation {
             font-size: 0.8em;
@@ -557,7 +559,7 @@
    <doc-panel id="preparando-a-partida" collapsed>
        <template #title>Preparando a Partida</template>
 <h5 id="configuração-da-partida">Configuração da Partida</h5>
-<p>Uma vez escolhido o <a href="../gameplay/setup/formats/">formato</a>, <a href="../gameplay/setup/campaigns/">campanha</a> e/ou <a href="../gameplay/setup/game-mode/">modo de jogo</a>, siga as regras e passos definidos por estes para preparar a partida. Estes passos podem variar dependendo da escolha e configuração, mas geralmente incluem:</p>
+<p>Uma vez escolhido o <a href="../gameplay/setup/format/">formato</a>, <a href="../gameplay/setup/campaign/">campanha</a> e/ou <a href="../gameplay/setup/game-mode/">modo de jogo</a>, siga as regras e passos definidos por estes para preparar a partida. Estes passos podem variar dependendo da escolha e configuração, mas geralmente incluem:</p>
 <h5 id="cartas-1">Cartas</h5>
 <p>Separe as cartas iniciais listadas, faça um baralho para cada naipe e embaralhe-os separadamente. Posicione estes baralhos na área do jogo de forma que os jogadores possam ter acesso. Reserve também uma zona para a pilha de descarte.</p>
 <div class="flex mb-6">
@@ -655,7 +657,7 @@
 <li><strong>Evocações</strong>: Seres sobrenaturais evocados por magias</li>
 </ul>
 </li>
-<li><a href="../board/dummies/">Modelo (Dummy)</a>: Personagens que fogem das regras de jogo, geralmente chefes de campanha</li>
+<li><a href="../battle/chip/dummy/">Modelo (Dummy)</a>: Personagens que fogem das regras de jogo, geralmente chefes de campanha</li>
 </ul>
    </doc-panel>
    <doc-panel id="a-mesa" collapsed>
@@ -677,10 +679,11 @@
        <template #title>O Tabuleiro</template>
 <p>
 <div class="card-container">
-    <a href="../board/" class="group card no-link">
+    <a href="../battle/board/" class="group card no-link">
         <div class="p-card-padding">
-            <div class="mt-2 text-card-title font-card-title leading-card-title text-card-title-text md:text-card-title-md">TABULEIRO</div>
-            <div class="line-clamp-7"><p class="mt-card-description-margin-top text-card-description-text">é a área quadriculada especificamente onde as batalhas entre os personagens ocorrem.</p></div>
+            <div class="text-card-kicker font-card-kicker text-card-kicker-text card-kicker-case">Batalha</div>
+            <div class="mt-2 text-card-title font-card-title leading-card-title text-card-title-text md:text-card-title-md">Tabuleiro</div>
+            <div class="line-clamp-5"><p class="mt-card-description-margin-top text-card-description-text">é a área quadriculada especificamente onde as batalhas entre os personagens ocorrem.</p></div>
         </div>
     </a>
 </div>
@@ -727,35 +730,26 @@
 <doc-tabs>
 <doc-tab v-cloak id="modo-narrativo">
 <template #title>Modo Narrativo</template>
-<p>Este é o modo onde o mestre ou campanha narra a história, os eventos e as ações dos NPCs, e os jogadores narram as ações de seus Heróis. Não é necessário um espaço físico para a narração, e as ações são resolvidas através de <a href="../gameplay/check/">testes</a>, <a href="../guidelines/#dados">rolagem de dados</a> e comparação de valores.</p>
-<p>Este é o <strong>modo livre (free roaming)</strong>. É focado em interação e estória, e as ações dos jogadores podem ser tão criativas quanto eles desejarem, desde que estejam de acordo com as regras e a lógica do universo do jogo. O mestre de jogo tem um papel importante em arbitrar as regras, resolver situações e manter a narrativa fluindo.</p>
-<h6 id="ordem-de-jogadores">Ordem de Jogadores</h6>
-<p>Não há uma ordem pré-estabelecida para os jogadores no modo narrativo, e eles podem jogar em qualquer ordem, ou até mesmo simultaneamente, dependendo da situação e da preferência dos jogadores. O mestre de jogo pode sugerir uma ordem lógica, mas ela não é obrigatória.</p>
-<p>Em caso de conflitos ou disputas sobre a ordem de jogadores, o mestre de jogo pode resolver a situação de forma lógica, ou pela <a href="../board/initiative/">Iniciativa</a> dos personagens envolvidos.</p>
-<div class="flex mb-6">
-    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-secondary"></div>
-    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
-        <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-secondary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
-                <g fill="currentColor"><g>
-                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
-                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                </g></g>
-            </svg>
+<p>
+<div class="card-container">
+    <a href="../gameplay/story-mode/" class="group card no-link">
+        <div class="p-card-padding">
+            <div class="text-card-kicker font-card-kicker text-card-kicker-text card-kicker-case">Gameplay</div>
+            <div class="mt-2 text-card-title font-card-title leading-card-title text-card-title-text md:text-card-title-md">Modo Narrativo</div>
+            <div class="line-clamp-5"><p class="mt-card-description-margin-top text-card-description-text">Este é o modo onde o mestre ou campanha narra a história, os eventos e as ações dos NPCs, e os jogadores narram as ações de seus Heróis. Não é necessário um espaço físico para a narração, e as ações são resolvidas através de testes, rolagem de dados e comparação de valores.</p></div>
         </div>
-        <div class="pr-5 ml-3 w-full">
-            <h5>Exemplo de Sequência de Jogo</h5>
+    </a>
+</div>
+</p>
+<blockquote>
+<p><strong><em>Exemplo de Sequência de Jogo</em></strong></p>
 <p><strong>O mestre de jogo apresenta a situação inicial</strong>: &quot;Vocês estão em uma cidade devastada, cercada por ruínas e perigos. O objetivo é encontrar um artefato escondido em um prédio abandonado no centro da cidade. Para isso, vocês precisam atravessar as ruas infestadas de inimigos, encontrar pistas e resolver desafios para chegar ao prédio e recuperar o artefato.&quot;</p>
 <p><strong>Pedro decide explorar um prédio próximo para encontrar suprimentos</strong>: Ele rola um teste de Procurar( <a href="../hero/attributes/"><span class="house"><b>PERCEPÇÃO</b></a> ) para encontrar algo útil, e o mestre de jogo descreve o que ele encontra: &quot;Você encontra uma caixa de suprimentos com algumas armas e itens de cura.&quot;</p>
 <p><strong>Maria decide se aproximar e bisbilhotar um grupo de inimigos para tentar encontrar o caminho para o prédio</strong>: Sua Heroína possui a <a href="../cards/class/"><span class="class"><b>CLASSE</b></span></a> de <em>Espião</em>, portanto o mestre concede a ela um bônus de +5 para este teste. Ela rola um teste de Furtividade( <a href="../hero/knowledge/#ast%C3%BAcia"><span class="knowledge"><b>ASTÚCIA</b></span></a> + <a href="../hero/attributes/"><span class="house"><b>AGI</b></span></a> ) para se aproximar sem ser vista, e o mestre de jogo descreve a situação: &quot;Você consegue se aproximar do grupo no bar sem levantar suspeitas, e ouve que eles estão indo para o prédio abandonado.&quot;</p>
 <p><strong>João decide tentar negociar com um NPC que parece ser um líder local para obter informações sobre o prédio</strong>: João lembra o mestre que seu Herói possui a <a href="../cards/skill/"><span class="skill"><b>HABILIDADE</b></span></a> de <em>Empreendedor</em> e o mestre concede um bônus de +1 para este teste. Ele rola um teste de Negociação( <a href="../hero/knowledge/#pr%C3%A1tica"><span class="knowledge"><b>PRÁTICA</b></span></a> + <a href="../hero/attributes/"><span class="house"><b>CARISMA</b></a> ) para tentar convencer o NPC, mas falha, e o mestre de jogo descreve a situação: &quot;O NPC não confia em você e se recusa a falar com você. Ele te ignora e continua com suas atividades.&quot;</p>
 <p>Maria decide tentar seguir o grupo de inimigos para chegar ao prédio, mas eles percebem que estão sendo seguidos e começam a atirar. Ela rola um teste de Esquivar( <a href="../hero/attributes/"><span class="house"><b>AGI</b></span></a> ) para tentar escapar, mas falha, e o mestre de jogo descreve a situação: &quot;Os inimigos percebem que estão sendo seguidos e começam a atirar em você. Você é atingida por um tiro e perde 20 pontos de vida.&quot;</p>
 <p>Os inimigos continuam no encalço de Maria, correndo com dificuldade baleada, ela rola um teste de Resistência( <a href="../hero/attributes/"><span class="house"><b>CON</b></span></a> ). Seus amigos escutam os tiros e correm para verificar o que está acontecendo. Neste momentos os dois grupos estão de frente um para o outro e o mestre de jogo decide que é hora de <strong>iniciar a batalha</strong>.&quot;</p>
-        </div>
-    </div>
-</div>
-<hr>
+</blockquote>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
     <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
@@ -776,32 +770,23 @@
 </doc-tab>
 <doc-tab v-cloak id="modo-de-batalha">
 <template #title>Modo de Batalha</template>
-<p>Este modo simula um combate entre personagens. Se o modo narrativo é o modo livre, o modo de batalha é seu extremo oposto, sendo regido inteiramente pelas regras, focado em tática e estratégia.</p>
-<p>Ele acontece em um espaço físico, o tabuleiro, onde os participantes são representados por peças, e as ações dos jogadores são resolvidas através de rolagem de dados e comparação de valores, seguindo as regras estabelecidas, não sendo mais permitida a livre interpretação e narração das ações, mas sim a aplicação estrita das regras de batalha para resolver ações e efeitos de cartas.</p>
-<p>Quando um combate é iniciado, os jogadores posicionam seus personagens no tabuleiro conforme as regras de posicionamento ou lógica vinda da situação narrativa, e a batalha começa.</p>
-<p>A batalha é resolvida através de uma sequência de turnos, onde cada jogador tem a oportunidade de realizar ações com seus personagens, como mover, atacar, ativar cartas, e interagir com elementos do tabuleiro, pagando custos em pontos de ação que são restaurados a cada nova rodada.</p>
-<p>Durante a batalha os efeitos das cartas são aplicados de forma direta. No modo narrativo, um ataque, como por exemplo &quot;Atacar com uma espada&quot;, pode ser resolvido de forma livre, onde o jogador descreve a ação e o mestre de jogo decide os efeitos e consequências. Já no modo de batalha, a mesma ação precisa seguir as regras específicas para ataques, onde o jogador precisa durante o seu turno declarar o ataque, escolher a carta que representa a espada, escolher um alvo ao alcance daquela carta, rolar os dados para determinar o <b>DANO</b> do ataque, e aplicar os efeitos conforme as regras estabelecidas.</p>
-<div class="flex mb-6">
-    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-secondary"></div>
-    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
-        <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-secondary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
-                <g fill="currentColor"><g>
-                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
-                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                </g></g>
-            </svg>
+<p>
+<div class="card-container">
+    <a href="../gameplay/battle-mode/" class="group card no-link">
+        <div class="p-card-padding">
+            <div class="text-card-kicker font-card-kicker text-card-kicker-text card-kicker-case">Gameplay</div>
+            <div class="mt-2 text-card-title font-card-title leading-card-title text-card-title-text md:text-card-title-md">Modo de Batalha</div>
+            <div class="line-clamp-5"><p class="mt-card-description-margin-top text-card-description-text">Este modo simula um combate entre personagens. Se o modo narrativo é o modo livre, o modo de batalha é seu extremo oposto, sendo regido inteiramente pelas regras, focado em tática e estratégia. Ele acontece em um espaço físico, o tabuleiro, onde os participantes são representados por peças, e as ações dos jogadores são resolvidas através de rolagem de dados e comparação de valores, seguindo as regras estabelecidas, não sendo mais permitida a livre interpretação e narração das ações, mas sim a aplicação estrita das regras de batalha para resolver ações e efeitos de cartas.</p></div>
         </div>
-        <div class="pr-5 ml-3 w-full">
-            <h5>Exemplo de Sequência de Batalha</h5>
+    </a>
+</div>
+</p>
+<blockquote>
+<p><strong><em>Exemplo de Sequência de Batalha</em></strong></p>
 <p><strong>Iniciativa</strong>: A ordem dos turnos é redefinida a cada rodada pela Iniciativa dos personagens envolvidos.</p>
 <p><strong>Turno de Pedro</strong>: Ele tem um Herói com a <a href="../cards/class/"><span class="class"><b>CLASSE</b></span></a> de <em>Cavaleiro</em>, e decide atacar um inimigo com uma espada. Ele move sua peça no tabuleiro até ficar adjacente ao inimigo, declara o ataque, escolhe o <a href="../cards/item/"><span class="item"><b>ITEM</b></span></a> <em>Espada</em>, rola os dados para determinar o <b>DANO</b> do ataque conforme escrito na carta. O mestre de jogo descreve a situação: &quot;Você ataca o inimigo com sua espada, causando 15 pontos de dano. O inimigo é atingido, mas possui o <a href="../cards/item/"><span class="item"><b>ITEM</b></span></a> <em>Escudo</em> que reduz o dano em 1 pontos, e perde 14 pontos de vida.&quot;</p>
 <p><strong>Turno de Maria</strong>: Ela tem um Herói com a <a href="../cards/class/"><span class="class"><b>CLASSE</b></span></a> de <em>Atiradora</em>, e decide usar uma habilidade de longo alcance para atacar um inimigo. Ela declara o ataque, escolhe a <a href="../cards/skill/"><span class="skill"><b>HABILIDADE</b></span></a> <em>Tiro Certo</em>, descarta a carta de munição requerida por ela, escolhe um inimigo ao alcance, rola os dados para determinar o <b>DANO</b> do ataque conforme escrito na carta e aplica os efeitos da mesma. O mestre de jogo descreve a situação: &quot;Você atira no inimigo com sua habilidade, causando 10 pontos de dano. O inimigo vestindo apenas uma roupa velha que não oferece nenhuma proteção, sendo atingido e perde 10 pontos de vida.&quot;</p>
-        </div>
-    </div>
-</div>
-<hr>
+</blockquote>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
     <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
@@ -815,7 +800,7 @@
             </svg>
         </div>
         <div class="pr-5 ml-3 w-full">
-<p>Para saber mais sobre as regras de batalha, turnos, ações, e resolução de ataques e efeitos de cartas no modo de batalha, consulte as <a href="../board/battle/">seções específicas</a> sobre cada tópico neste manual.</p>
+<p>Para saber mais sobre as regras de batalha, turnos, ações, e resolução de ataques e efeitos de cartas no modo de batalha, consulte as <a href="../battle/">seções específicas</a> sobre cada tópico neste manual.</p>
         </div>
     </div>
 </div>
@@ -879,8 +864,8 @@
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-03-30T18:32:12" title="2026-03-30" data-absolute-label="Last updated on 2026-03-30 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-03-30 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
-                        Last updated on 2026-03-30 by Bruno Caxito
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-03-31T18:25:31" title="2026-03-31" data-absolute-label="Last updated on 2026-03-31 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-03-31 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                        Last updated on 2026-03-31 by Bruno Caxito
                     </time>
                 </div>
 
@@ -897,7 +882,7 @@
                         <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../lore/">
                             <span>
                                 <span class="block text-xs font-normal text-right text-base-text-muted">Next</span>
-                                <span class="block mt-1">Mundo</span>
+                                <span class="block mt-1">Mitologia</span>
                             </span>
                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                         </a>

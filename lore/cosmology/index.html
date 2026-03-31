@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6DMTE08V5G"></script>
+    <script data-cfasync="false">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-6DMTE08V5G');</script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.828307496975">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 4.4.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Cosmologia</title>
+    <meta name="title" content="Cosmologia">
+    <meta name="description" content="Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://apotheosiscardgame.com/lore/cosmology/">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://apotheosiscardgame.com/lore/cosmology/">
+    <meta property="og:title" content="Cosmologia">
+    <meta property="og:description" content="Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.">
+    <meta property="og:site_name" content="Apotheosis">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://apotheosiscardgame.com/lore/cosmology/">
+    <meta name="twitter:title" content="Cosmologia">
+    <meta name="twitter:description" content="Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.">
+
+    <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
+
+    <link id="retype-favicon" rel="icon" href="../../static/img/favicon.ico" />
+    <link href="../../resources/css/retype.css?v=4.4.0.828307496975" rel="stylesheet">
+
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.4.0.828307496975" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.4.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.4.0.828307496975" data-turbo-eval="false" defer></script>
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <style>
+        /* Override retype style */
+        :root {
+            /* Link styles */
+            --body-link-decoration-line: none !important;
+            --body-link-decoration-thickness: 0 !important;
+        }
+
+        /* Fallback Apotheosis Icons font */
+        @font-face {
+            font-family: 'Apotheosis';
+            src: url('/static/fonts/apotheosis.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            font-display: block;
+        }
+
+        div.container {
+            font-family: 'Open Sans', Apotheosis;
+            max-width: 1530px;
+        }
+
+        h1, h2 {
+            text-transform: uppercase !important;
+        }
+
+        b {
+            font-weight: 650;
+            letter-spacing: 0.2px;
+        }
+
+        .icon {
+            font-weight: normal;
+        }
+
+        /* Bonus */
+        .positive {
+            font-weight: bold;
+            color: green;
+        }
+
+        .negative {
+            font-weight: bold;
+            color: red;
+        }
+
+        /* Colors */
+        .main      { color: #212121; } .dark .main { color: #DADADA; }
+
+        .house     { color: #673AB7; }
+        .class     { color: #F44336; }
+        .entity    { color: #3F51B5; }
+        .item      { color: #FFC107; }
+        .skill     { color: #2196F3; }
+        .companion { color: #FF7043; }
+        .event     { color: #4CAF50; }
+
+        .summus    { color: #FF22B2; }
+        .knowledge { color: #995D52; }
+
+        .common    { color: #9E9E9E; }
+    	.uncommon  { color: #8BC34A; }
+    	.rare      { color: #01579B; }
+    	.epic      { color: #673AB7; }
+    	.legendary { color: #FFC400; }
+
+        .yellow    { color: #FFEB3B; }
+    	.red       { color: #B71C1C; }
+    	.blue      { color: #0D47A1; }
+    	.white     { color: #BDBDBD; }
+    	.black     { color: #424242; } .dark .black { color: #454545; }
+
+        .format    { color: #03DAC6; }
+
+        .keyword-activation {
+            font-size: 0.8em;
+            text-transform: uppercase;
+            color: #F5F5F5;
+            background-color: #3676BC;
+            border-radius: 4px;
+            padding: 0px 5px;
+            font-weight: 600;
+        }
+
+        .keyword-timing {
+            font-size: 0.8em;
+            text-transform: uppercase;
+            color: #F5F5F5;
+            background-color: #F78A1F;
+            border-radius: 4px;
+            padding: 0px 5px;
+            font-weight: 600;
+        }
+
+        .keyword-limit {
+            font-size: 0.8em;
+            text-transform: uppercase;
+            color: #F5F5F5;
+            background-color: #EF4056;
+            border-radius: 20px;
+            padding: 0px 8px;
+            font-weight: 600;
+        }
+
+        .keyword-scope {
+            font-size: 0.8em;
+            text-transform: uppercase;
+            color: #F5F5F5;
+            background-color: #932969;
+            border-radius: 20px;
+            padding: 0px 8px;
+            font-weight: 600;
+        }
+
+        .keyword-task {
+            position: relative;
+            text-transform: uppercase;
+            display: inline-block;
+            font-size: 0.8em;
+            color: #F5F5F5;
+            background-color: #212121;
+            margin: 0px 8px;
+            padding: 0px 5px; /* espaço para as pontas */
+            font-weight: 600;
+            border-radius: 8px;
+        } .keyword-task::before, .keyword-task::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            width: 0;
+            height: 0;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+        } .keyword-task::before {
+            left: -6px;
+            border-right: 10px solid #212121; /* mesma cor do fundo */
+            transform: translateY(-50%);
+        } .keyword-task::after {
+            right: -6px;
+            border-left: 10px solid #212121; /* mesma cor do fundo */
+            transform: translateY(-50%);
+        }
+
+        .requirement {
+            font-size: 0.8em;
+            color: #F5F5F5;
+            background-color: #5C697A;
+            border-radius: 4px;
+            padding: 0px 8px;
+            font-weight: 550;
+        }
+    </style>
+
+
+    <!-- Scripts -->
+    <script>
+
+
+
+    </script>
+
+
+    <!-- Page Header Content -->
+    <div>
+
+
+
+    </div>
+</head>
+<body>
+    <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
+    <div class="absolute bottom-0 left-0" style="top: 5rem; right: 50%"></div>
+
+    <header id="retype-header" class="sticky top-0 z-30 flex w-full h-16 bg-header-bg border-b border-header-border md:h-20">
+        <div class="container relative flex items-center justify-between pr-6 grow md:justify-start">
+            <!-- Mobile menu button skeleton -->
+            <button v-cloak class="skeleton retype-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-hidden rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+            <div v-cloak id="retype-sidebar-left-toggle-button"></div>
+    
+            <!-- Logo -->
+            <div class="flex items-center justify-between h-full py-2 md:w-75">
+                <div class="flex items-center px-2 md:px-6">
+                    <a id="retype-branding-logo" href="https://apotheosiscardgame.com/" class="flex items-center leading-snug text-2xl">
+                        <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
+                            <img class="max-h-10 md:inline-block" src="../../static/img/logo.svg" alt="" width="40" height="40">
+                        </span>
+                        <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">Apotheosis</span>
+                    </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">book</span>
+                </div>
+    
+                <span class="hidden h-8 border-r md:inline-block border-base-border"></span>
+            </div>
+    
+            <div class="flex justify-between md:grow">
+                <!-- Top Nav -->
+                <nav id="retype-header-nav" class="hidden md:flex">
+                    <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="../../">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M11.03 2.59a1.501 1.501 0 0 1 1.94 0l7.5 6.363a1.5 1.5 0 0 1 .53 1.144V19.5a1.5 1.5 0 0 1-1.5 1.5h-5.75a.75.75 0 0 1-.75-.75V14h-2v6.25a.75.75 0 0 1-.75.75H4.5A1.5 1.5 0 0 1 3 19.5v-9.403c0-.44.194-.859.53-1.144ZM12 3.734l-7.5 6.363V19.5h5v-6.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v6.25h5v-9.403Z"/>
+                                </svg>
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="../../keywords/">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M8.75 5.5h11.5a.75.75 0 0 1 0 1.5H8.75a.75.75 0 0 1 0-1.5Zm0 6h11.5a.75.75 0 0 1 0 1.5H8.75a.75.75 0 0 1 0-1.5Zm0 6h11.5a.75.75 0 0 1 0 1.5H8.75a.75.75 0 0 1 0-1.5ZM5 12a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM4 7a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm0 12a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"/>
+                                </svg>
+                                <span>Palavras-Chave</span>
+                            </a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="../../chart/">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M5.962 2.513a.75.75 0 0 1-.475.949l-.816.272a.25.25 0 0 0-.171.237V21.25c0 .138.112.25.25.25h14.5a.25.25 0 0 0 .25-.25V3.97a.25.25 0 0 0-.17-.236l-.817-.272a.75.75 0 0 1 .474-1.424l.816.273A1.751 1.751 0 0 1 21 3.97v17.28A1.75 1.75 0 0 1 19.25 23H4.75A1.75 1.75 0 0 1 3 21.25V3.97a1.75 1.75 0 0 1 1.197-1.66l.816-.272a.75.75 0 0 1 .949.475Z"/><path d="M7 1.75C7 .784 7.784 0 8.75 0h6.5C16.216 0 17 .784 17 1.75v1.5A1.75 1.75 0 0 1 15.25 5h-6.5A1.75 1.75 0 0 1 7 3.25Zm1.75-.25a.25.25 0 0 0-.25.25v1.5c0 .138.112.25.25.25h6.5a.25.25 0 0 0 .25-.25v-1.5a.25.25 0 0 0-.25-.25Z"/>
+                                </svg>
+                                <span>Cartilha</span>
+                            </a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="../../icons/">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M1.527 13.237a1.75 1.75 0 0 1 0-2.474l9.272-9.273a1.75 1.75 0 0 1 2.475 0l9.272 9.273a1.75 1.75 0 0 1 0 2.474l-9.272 9.272a1.75 1.75 0 0 1-2.475 0Zm1.06-1.414a.25.25 0 0 0 0 .354l9.273 9.272a.25.25 0 0 0 .353 0l9.272-9.272a.25.25 0 0 0 0-.354l-9.272-9.272a.25.25 0 0 0-.353 0Z"/>
+                                </svg>
+                                <span>Ícones</span>
+                            </a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://database.apotheosiscardgame.com/">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M12 1.25c2.487 0 4.773.402 6.466 1.079.844.337 1.577.758 2.112 1.264.536.507.922 1.151.922 1.907v12.987l-.026.013h.026c0 .756-.386 1.4-.922 1.907-.535.506-1.268.927-2.112 1.264-1.693.677-3.979 1.079-6.466 1.079s-4.774-.402-6.466-1.079c-.844-.337-1.577-.758-2.112-1.264C2.886 19.9 2.5 19.256 2.5 18.5h.026l-.026-.013V5.5c0-.756.386-1.4.922-1.907.535-.506 1.268-.927 2.112-1.264C7.226 1.652 9.513 1.25 12 1.25ZM4 14.371v4.116l-.013.013H4c0 .211.103.487.453.817.351.332.898.666 1.638.962 1.475.589 3.564.971 5.909.971 2.345 0 4.434-.381 5.909-.971.739-.296 1.288-.63 1.638-.962.349-.33.453-.607.453-.817h.013L20 18.487v-4.116a7.85 7.85 0 0 1-1.534.8c-1.693.677-3.979 1.079-6.466 1.079s-4.774-.402-6.466-1.079a7.843 7.843 0 0 1-1.534-.8ZM20 12V7.871a7.85 7.85 0 0 1-1.534.8C16.773 9.348 14.487 9.75 12 9.75s-4.774-.402-6.466-1.079A7.85 7.85 0 0 1 4 7.871V12c0 .21.104.487.453.817.35.332.899.666 1.638.961 1.475.59 3.564.972 5.909.972 2.345 0 4.434-.382 5.909-.972.74-.295 1.287-.629 1.638-.96.35-.33.453-.607.453-.818ZM4 5.5c0 .211.103.487.453.817.351.332.898.666 1.638.962 1.475.589 3.564.971 5.909.971 2.345 0 4.434-.381 5.909-.971.739-.296 1.288-.63 1.638-.962.349-.33.453-.607.453-.817 0-.211-.103-.487-.453-.817-.351-.332-.898-.666-1.638-.962-1.475-.589-3.564-.971-5.909-.971-2.345 0-4.434.381-5.909.971-.739.296-1.288.63-1.638.962C4.104 5.013 4 5.29 4 5.5Z"/>
+                                </svg>
+                                <span>Database</span>
+                            </a>
+                        </li>
+    
+                    </ul>
+                </nav>
+    
+                <div v-cloak class="flex justify-end grow">
+                    <div id="retype-mobile-search-button"></div>
+                    <doc-search-desktop></doc-search-desktop>
+    
+                    <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                    <doc-history></doc-history>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div id="retype-container" class="container relative flex bg-white">
+        <!-- Sidebar Skeleton -->
+        <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-sidebar-left-bg border-sidebar-left-border sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton">
+        
+            <div class="flex items-center h-16 px-6">
+                <input id="retype-filter-input-mock" class="w-full h-10 pl-8 px-3 py-2 transition-colors duration-200 ease-linear bg-filter-bg border border-filter-border rounded-lg shadow-none md:text-sm hover:border-filter-border-hover focus:outline-hidden focus:border-filter-border-focus placeholder-filter-placeholder" type="text">
+            </div>
+        
+            <div class="pl-6 mt-1 mb-4">
+                <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+            </div>
+        
+        </div>
+        
+        <!-- Sidebar component -->
+        <doc-sidebar v-cloak>
+            <template #sidebar-footer>
+                <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-base-border">
+        
+                    <div class="py-3 px-6 md:hidden border-b dark:border-base-border">
+                        <nav>
+                            <ul class="flex flex-wrap justify-center items-center">
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="../../">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M11.03 2.59a1.501 1.501 0 0 1 1.94 0l7.5 6.363a1.5 1.5 0 0 1 .53 1.144V19.5a1.5 1.5 0 0 1-1.5 1.5h-5.75a.75.75 0 0 1-.75-.75V14h-2v6.25a.75.75 0 0 1-.75.75H4.5A1.5 1.5 0 0 1 3 19.5v-9.403c0-.44.194-.859.53-1.144ZM12 3.734l-7.5 6.363V19.5h5v-6.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v6.25h5v-9.403Z"/>
+                                        </svg>
+                                        <span>Home</span>
+                                    </a>
+                                </li>
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="../../keywords/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M8.75 5.5h11.5a.75.75 0 0 1 0 1.5H8.75a.75.75 0 0 1 0-1.5Zm0 6h11.5a.75.75 0 0 1 0 1.5H8.75a.75.75 0 0 1 0-1.5Zm0 6h11.5a.75.75 0 0 1 0 1.5H8.75a.75.75 0 0 1 0-1.5ZM5 12a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM4 7a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm0 12a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"/>
+                                        </svg>
+                                        <span>Palavras-Chave</span>
+                                    </a>
+                                </li>
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="../../chart/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M5.962 2.513a.75.75 0 0 1-.475.949l-.816.272a.25.25 0 0 0-.171.237V21.25c0 .138.112.25.25.25h14.5a.25.25 0 0 0 .25-.25V3.97a.25.25 0 0 0-.17-.236l-.817-.272a.75.75 0 0 1 .474-1.424l.816.273A1.751 1.751 0 0 1 21 3.97v17.28A1.75 1.75 0 0 1 19.25 23H4.75A1.75 1.75 0 0 1 3 21.25V3.97a1.75 1.75 0 0 1 1.197-1.66l.816-.272a.75.75 0 0 1 .949.475Z"/><path d="M7 1.75C7 .784 7.784 0 8.75 0h6.5C16.216 0 17 .784 17 1.75v1.5A1.75 1.75 0 0 1 15.25 5h-6.5A1.75 1.75 0 0 1 7 3.25Zm1.75-.25a.25.25 0 0 0-.25.25v1.5c0 .138.112.25.25.25h6.5a.25.25 0 0 0 .25-.25v-1.5a.25.25 0 0 0-.25-.25Z"/>
+                                        </svg>
+                                        <span>Cartilha</span>
+                                    </a>
+                                </li>
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="../../icons/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M1.527 13.237a1.75 1.75 0 0 1 0-2.474l9.272-9.273a1.75 1.75 0 0 1 2.475 0l9.272 9.273a1.75 1.75 0 0 1 0 2.474l-9.272 9.272a1.75 1.75 0 0 1-2.475 0Zm1.06-1.414a.25.25 0 0 0 0 .354l9.273 9.272a.25.25 0 0 0 .353 0l9.272-9.272a.25.25 0 0 0 0-.354l-9.272-9.272a.25.25 0 0 0-.353 0Z"/>
+                                        </svg>
+                                        <span>Ícones</span>
+                                    </a>
+                                </li>
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://database.apotheosiscardgame.com/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M12 1.25c2.487 0 4.773.402 6.466 1.079.844.337 1.577.758 2.112 1.264.536.507.922 1.151.922 1.907v12.987l-.026.013h.026c0 .756-.386 1.4-.922 1.907-.535.506-1.268.927-2.112 1.264-1.693.677-3.979 1.079-6.466 1.079s-4.774-.402-6.466-1.079c-.844-.337-1.577-.758-2.112-1.264C2.886 19.9 2.5 19.256 2.5 18.5h.026l-.026-.013V5.5c0-.756.386-1.4.922-1.907.535-.506 1.268-.927 2.112-1.264C7.226 1.652 9.513 1.25 12 1.25ZM4 14.371v4.116l-.013.013H4c0 .211.103.487.453.817.351.332.898.666 1.638.962 1.475.589 3.564.971 5.909.971 2.345 0 4.434-.381 5.909-.971.739-.296 1.288-.63 1.638-.962.349-.33.453-.607.453-.817h.013L20 18.487v-4.116a7.85 7.85 0 0 1-1.534.8c-1.693.677-3.979 1.079-6.466 1.079s-4.774-.402-6.466-1.079a7.843 7.843 0 0 1-1.534-.8ZM20 12V7.871a7.85 7.85 0 0 1-1.534.8C16.773 9.348 14.487 9.75 12 9.75s-4.774-.402-6.466-1.079A7.85 7.85 0 0 1 4 7.871V12c0 .21.104.487.453.817.35.332.899.666 1.638.961 1.475.59 3.564.972 5.909.972 2.345 0 4.434-.382 5.909-.972.74-.295 1.287-.629 1.638-.96.35-.33.453-.607.453-.818ZM4 5.5c0 .211.103.487.453.817.351.332.898.666 1.638.962 1.475.589 3.564.971 5.909.971 2.345 0 4.434-.381 5.909-.971.739-.296 1.288-.63 1.638-.962.349-.33.453-.607.453-.817 0-.211-.103-.487-.453-.817-.351-.332-.898-.666-1.638-.962-1.475-.589-3.564-.971-5.909-.971-2.345 0-4.434.381-5.909.971-.739.296-1.288.63-1.638.962C4.104 5.013 4 5.29 4 5.5Z"/>
+                                        </svg>
+                                        <span>Database</span>
+                                    </a>
+                                </li>
+        
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </template>
+        </doc-sidebar>
+
+        <div class="grow min-w-0 bg-body-bg">
+            <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+<div class="flex">
+    <div id="retype-main" class="min-w-0 p-4 grow md:px-16">
+        <main class="relative pb-12 lg:pt-2">
+            <div class="retype-markdown" id="retype-content">
+                <!-- Rendered if sidebar right is enabled -->
+                <div id="retype-sidebar-right-toggle"></div>
+                <nav id="retype-breadcrumb" class="breadcrumb" aria-label="Breadcrumb">
+                    <ol role="list">
+                        <li class="pr-4">
+                            <a href="../../" class="pr-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M11.03 2.59a1.501 1.501 0 0 1 1.94 0l7.5 6.363a1.5 1.5 0 0 1 .53 1.144V19.5a1.5 1.5 0 0 1-1.5 1.5h-5.75a.75.75 0 0 1-.75-.75V14h-2v6.25a.75.75 0 0 1-.75.75H4.5A1.5 1.5 0 0 1 3 19.5v-9.403c0-.44.194-.859.53-1.144ZM12 3.734l-7.5 6.363V19.5h5v-6.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v6.25h5v-9.403Z"/>
+                                </svg>
+                            </a>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"/>
+                            </svg>
+                        </li>
+                        <li class="pr-4">
+                            <a href="../../lore/" class="pr-4">
+                                Mitologia
+                            </a>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"/>
+                            </svg>
+                        </li>
+                        <li class="pr-4">
+                            <a href="../../lore/cosmology/" class="pr-4">
+                                Cosmologia
+                            </a>
+                        </li>
+                    </ol>
+                </nav>
+
+                <!-- Page content  -->
+<!-- Insert this at the top of each markdown page -->
+<!-- Global Functions -->
+<!-- Message -->
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-danger"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-danger" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M21.71 6.15L15.85.29c-.19-.18-.44-.29-.71-.29H6.86c-.27 0-.52.11-.71.29L.29 6.15c-.18.19-.29.44-.29.71v8.28c0 .27.11.52.29.71l5.86 5.86c.19.18.44.29.71.29h8.28c.27 0 .52-.11.71-.29l5.86-5.86a.99.99 0 00.29-.71V6.86c0-.27-.11-.52-.29-.71zM20 14.73L14.73 20H7.27L2 14.73V7.27L7.27 2h7.45L20 7.27v7.46z"></path>
+                    <path d="M11 12c.55 0 1-.45 1-1V7c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .55.45 1 1 1zM11.01 14c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+<p>Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.</p>
+        </div>
+    </div>
+</div>
+<h1 id="cosmologia">Cosmologia</h1>
+<blockquote>
+<p><strong>Cosmogonia</strong><br />
+Observe que toda a verbalização, definições e eventos mencionados aqui são tentativas de explicar em termos humanos e inteligíveis para a nossa mente, o que aconteceu em níveis extradimensionais superiores incognoscíveis para nós.</p>
+<p>Aqui estão descritas a antropomorfização das ações e pensamentos de seres que existem em dimensões e realidades completamente aquém e incompatíveis com a nossa.</p>
+<p>Portando, leve tudo de forma simbólica ou metafórica, já que são a transliteração de eventos impossíveis de serem explicados de forma literal e fidedigna usando palavras e conceitos do entendimento humano.</p>
+</blockquote>
+<hr>
+<h2 id="os-primórdios">Os Primórdios</h2>
+<doc-panel id="antes-de-tudo" collapsed>
+    <template #title><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M4.75 2h14.5a.75.75 0 0 1 0 1.5h-.75v2.982a4.75 4.75 0 0 1-2.215 4.017l-2.044 1.29a.25.25 0 0 0 0 .422l2.044 1.29a4.75 4.75 0 0 1 2.215 4.017V20.5h.75a.75.75 0 0 1 0 1.5H4.75a.75.75 0 0 1 0-1.5h.75v-2.982a4.75 4.75 0 0 1 2.215-4.017l2.044-1.29a.25.25 0 0 0 0-.422l-2.044-1.29A4.75 4.75 0 0 1 5.5 6.482V3.5h-.75a.75.75 0 0 1 0-1.5ZM17 3.5H7v2.982A3.25 3.25 0 0 0 8.516 9.23l2.044 1.29a1.75 1.75 0 0 1 0 2.96l-2.044 1.29A3.25 3.25 0 0 0 7 17.518V20.5h10v-2.982a3.25 3.25 0 0 0-1.516-2.748l-2.044-1.29a1.75 1.75 0 0 1 0-2.96l2.044-1.29A3.25 3.25 0 0 0 17 6.482Z"/></g></g></svg> Antes de Tudo</template>
+<p>A linha cronológica de Apoteose começa vinda do Além, o mundo fora do jogo, de onde o jogo foi arquitetado. Não é possível falar quase nada sobre ele, pois ele é incompreensível para aqueles inseridos no universo do jogo.</p>
+<p>A única coisa que pode ser dita sobre o Além é que filosoficamente, é necessário que lá existem três conceitos:</p>
+<ul>
+<li><strong>O Arquiteto:</strong> Aquele que cria as regras da simulação.</li>
+<li><strong>O Mestre:</strong> Aquele que cria a simulação conforme as regras.</li>
+<li><strong>Simulação:</strong> O universo do jogo</li>
+</ul>
+</doc-panel>
+<doc-panel id="antes-da-criação" collapsed>
+    <template #title><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M4.75 2h14.5a.75.75 0 0 1 0 1.5h-.75v2.982a4.75 4.75 0 0 1-2.215 4.017l-2.044 1.29a.25.25 0 0 0 0 .422l2.044 1.29a4.75 4.75 0 0 1 2.215 4.017V20.5h.75a.75.75 0 0 1 0 1.5H4.75a.75.75 0 0 1 0-1.5h.75v-2.982a4.75 4.75 0 0 1 2.215-4.017l2.044-1.29a.25.25 0 0 0 0-.422l-2.044-1.29A4.75 4.75 0 0 1 5.5 6.482V3.5h-.75a.75.75 0 0 1 0-1.5ZM17 3.5H7v2.982A3.25 3.25 0 0 0 8.516 9.23l2.044 1.29a1.75 1.75 0 0 1 0 2.96l-2.044 1.29A3.25 3.25 0 0 0 7 17.518V20.5h10v-2.982a3.25 3.25 0 0 0-1.516-2.748l-2.044-1.29a1.75 1.75 0 0 1 0-2.96l2.044-1.29A3.25 3.25 0 0 0 17 6.482Z"/></g></g></svg> Antes da Criação</template>
+<ol>
+<li><strong>Caos Primordial:</strong> No início existia apenas o <strong>éter</strong> deixado pelo Arquiteto, uma matéria prima vibracional de infinitas possibilidades, que pode ser moldado em qualquer coisa que se desejar, pelo poder da vontade da mente.</li>
+<li><strong>Ordem no Caos:</strong> A mente do Mestre então põe ordem no caos deixado pelo Arquiteto. De fora desta realidade a vontade do Mestre da início a tudo, e pela sua vontade ele transforma o éter e cria o <strong>Universo</strong> em sua mente, e em sua mente o universo reside.
+<ol>
+<li><em>Universo → Mental e elétrico por estar na mente do Mestre</em></li>
+</ol>
+</li>
+<li>O Mestre começa criando a interface inicial por onde ele pode interagir com o universo, chamada de <strong>Mônada</strong>, “O Primeiro Numinoso”. Aquele de onde se emanou e originou tudo que existe. Um ser assexuado, composto apenas por espírito, de extremos poderes e sabedoria.
+<ol>
+<li><em>Numinoso → Um ser de pura emanação. Sua forma de existência e incognoscível para humanos, pois o equivalente a suas mentes são emanações conscientes de éter dotadas de sabedoria e poder, e o equivalente aos seus corpos são os mundos e planos da existência desse universo, portanto, cada camada de existência desse universo é como se fosse um corpo de um numinoso. Um numinoso é capaz de controlar tudo que se passa em seu “corpo”</em>, exceto aqueles dotados de livre arbítrio.</li>
+<li>Os Numinosos também são chamados de os <em>deuses dos deuses</em>.</li>
+</ol>
+</li>
+<li>A Mônada emana de si mesmo a dualidade, na forma dos gêmeos da <strong>Díada</strong>, Luz e Trevas, formando assim a poderosa trindade que verdadeiramente rege o mundo do jogo. Sendo eles três e um ao mesmo tempo, compartilhando e dividindo o mesmo espírito, mas diferentes corpos, sendo a Díada como gêmeos siameses.
+<ol>
+<li><em>Luz → Ação, bom, masculino, lado direito,. etc.</em></li>
+<li><em>Trevas → Restrição, mau, feminino, lado esquerdo, etc.</em></li>
+<li><em>Obs.: Note que para os numinosos certo e errado, bom e mau, não são conceitos dotados de julgamento. Isso é visto de forma mais pragmática e lógica para eles, sendo relacionado a frequências vibracionais e não a juízo de valor. Porém, a distinção é clara.</em></li>
+</ol>
+</li>
+<li>A trindade cria os primeiros <strong>Entes</strong>, chamados de <strong>Deuses,</strong> emanações vindas da trindade, tendo certas características vibracionais que os definem e as quais eles representam e emanam. Com a intensão de popular e expandir a existência, gerar, viver e experienciar tudo aquilo que há, a trindade e os deuses continuaram sua expansão e desenvolvimento.
+<ol>
+<li><em>Ente → Quando um conceito, ideia, arquétipo, etc. recebe energia suficiente, através de vibrações, pensamentos, etc., o éter se molda mentalmente neste conceito, se tornando um ente, um ser sem corpo e forma, feito puramente de éter significado, tendo uma existência semelhante a de um pensamento ou ideia arquetípica, portanto, sem corpo, mente ou espírito. Um ente representa e emana o conceito que o define, vibrando e moldando o éter a sua imagem.</em></li>
+<li><em>Deus → Uma emanação pura de um determinado conceito divino, como sabedoria, poder e vida. O primeiro deus criado foi a ideia da emanação do próprio Uno, a ideia do caos de infinitas possibilidades, criando assim o deus de mesmo nome, Uno, também chamado de Caos.</em></li>
+</ol>
+</li>
+<li>A trindade então, mais especificamente na persona das Trevas, tenta criar algo semelhante a eles, algo superior aos deuses, um novo numinoso. Tentando mimetizar aquilo que a Mônada fez, as Trevas tenta manipular o éter para dar-lhe a centelha divina da trindade, mas falha, e em suas tentativas e experimentos acaba criando um “corpo sem mente”, um mundo sem uma consciência que o controle, como uma casta vazia. Ela cria o Vazio.
+<ol>
+<li><em>Obs.: Note que os mundos e planos do universo são todos como se fossem o equivalente ao corpo de um numinoso, portanto ao criar o Vazio, um novo plano no universo, ela tentou criar um numinoso primeiro pelo seu corpo, em vez de sua essência, criando assim um corpo sem espírito, um lugar no universo que é e não é um numinoso ao mesmo tempo.</em></li>
+<li><em>Centelha Divina → O mesmo que o espírito. Espírito é um componente que faz parte da constituição da consciência e existência da trindade.</em></li>
+</ol>
+</li>
+<li>Tentando entender o que havia criado, ela percebe que o Vazio, por não ter sua própria consciência, permitia que qualquer consciência que para lá pudesse se transportar, tivesse o poder de dali criar e emanar as energias daquele plano conforme a força da sua vontade. E por ser um plano em uma frequência vibracional do éter inferior ao da Unidade, ela descobre que seus pensamentos ali podem tomar forma e consistência. Então as Trevas em seus experimentos cria algo diametralmente oposto ao divino… o <strong>material</strong>.
+<ol>
+<li><em>Matéria → Criado por acidente pelas Trevas, é o resultado de diminuir a frequência vibracional do éter a um ponto tal que ele assume forma “sólida”, criando assim a matéria física.</em></li>
+<li><em>Obs.: Os demais “personas” da trindade também estavam engajadas em seus próprios experimentos e criações, fazendo novos deuses e aprendendo e experienciando. Para a trindade os conceitos de certo e errado são diferentes dos humanos, e o que as Trevas fazia até então era nada mais que uma outra abordagem interessante para tudo que estavam fazendo.</em></li>
+</ol>
+</li>
+<li>Mas as Trevas, percebe finalmente que o que está fazendo não é uma ideia sensata, e decide parar com aquela abordagem, pois a matéria claramente se mostra não ser a abordagem para o que ela buscava. Porém já era tarde demais, em uma de suas tentativas de criar um numinoso no Vazio usando o poder da sua vontade ela fora em parte bem sucedida, e “gestara” um novo numinoso. Mas ao abortar seus experimentos no vazio ela também abortara o seu “filho” achando que ele simplesmente cessaria de existir. Mas não é o que aconteceu, ele sobreviveu e estava agora solto e sozinho no Vazio, um ser de extremo poder, ignorante das suas origens, e sem supervisão ou quem o educasse.</li>
+<li>Se viu então sozinho, e quando finalmente tomou consciência da própria existência e solidão ele disse “Não há outro além de mim”. E no vazio ele amadureceu solitário, e do tédio e solidão ele eventualmente aprendeu que sua vontade ali se tornava “realidade”. Então ele aprendeu a criar a matéria e se chamou de o Criador. No entanto, sem a responsabilidade e cautela que sua mãe tinha em seus experimentos, o Criador fez da matéria abundante, tanto que resultou em um novo Mundo ainda mais denso que o Vazio, e ao olhar para esse mundo, ele acabou se contaminando pela baixa vibração etérea da matéria e nesse mundo ele caiu e ficou preso.</li>
+</ol>
+</doc-panel>
+<hr>
+<h2 id="a-criação">A Criação</h2>
+<doc-panel id="primeira-era" collapsed>
+    <template #title><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M4.75 2h14.5a.75.75 0 0 1 0 1.5h-.75v2.982a4.75 4.75 0 0 1-2.215 4.017l-2.044 1.29a.25.25 0 0 0 0 .422l2.044 1.29a4.75 4.75 0 0 1 2.215 4.017V20.5h.75a.75.75 0 0 1 0 1.5H4.75a.75.75 0 0 1 0-1.5h.75v-2.982a4.75 4.75 0 0 1 2.215-4.017l2.044-1.29a.25.25 0 0 0 0-.422l-2.044-1.29A4.75 4.75 0 0 1 5.5 6.482V3.5h-.75a.75.75 0 0 1 0-1.5ZM17 3.5H7v2.982A3.25 3.25 0 0 0 8.516 9.23l2.044 1.29a1.75 1.75 0 0 1 0 2.96l-2.044 1.29A3.25 3.25 0 0 0 7 17.518V20.5h10v-2.982a3.25 3.25 0 0 0-1.516-2.748l-2.044-1.29a1.75 1.75 0 0 1 0-2.96l2.044-1.29A3.25 3.25 0 0 0 17 6.482Z"/></g></g></svg> Primeira Era</template>
+<blockquote>
+<p>Era da Solitude</p>
+</blockquote>
+<ol>
+<li>O Criador cria o <strong>Mundo da Criação</strong> (<em>Big Bang</em>). E como resultado inesperado cria dois numinosos
+<ol>
+<li>O Plano Físico, chamada <strong>Maedra,</strong> uma numinosa tão “imersa” na baixa vibração da matéria que sua consciência trabalha apenas para manter o Reino e seus fluxos de éter funcionando.</li>
+<li>O Submundo, chamado de <strong>Prehod</strong>, é um plano resultante da existência da matéria, que existe em uma dimensão de sombras abaixo do mundo físico por ser ainda mais denso, sendo composta de anti-matéria e principalmente de matéria escura.
+<ol>
+<li><em>Dimensão de Sombras → Significa que é invisível mas mensurável, já que o que aqui existe, não interage com a luz, mas tem massa e até forma.</em></li>
+<li><em>Esta plano também é chamado de Pilares do Mundo ou Pilares da Criação, pois é sua estrutura de matéria escura que segura a matéria comum em seu lugar.</em></li>
+</ol>
+</li>
+<li><em>Obs.: Neste momento a terra ainda está se formando, sendo basicamente estéril, mineral e quente.</em></li>
+</ol>
+</li>
+<li>As vibrações do corpo do criador diminuem ao entrar em contato com a matéria e o Mundo da Criação se torna o seu corpo. Sendo este mundo o seu corpo ele diz “Eu sou o todo poderoso e tudo a mim pertence”</li>
+<li>Ele percebe que seu corpo está colado e preso ao mundo material, o Reino, mas sua consciência ainda pode ser elevada ao Vazio.</li>
+<li>Se vendo ainda desacompanhado, já que o Reino não se comunica e Prehod é “antisocial”, do seu desejo e imenso poder naquele mundo ele começa a criar companhia. E usando a si mesmo como base ele cria outro Numinoso e desse como base ele cria outro, e assim sucessivamente sendo sete no total. E o corpo de cada numinoso é uma nova camada do mundo da criação, acima de Maedra. Mas ao fazer isso o Criador percebe que o custo é alto demais, perdendo parte de si mesmo, e decido que basta, pois com estes já tem a estrutura necessária para moldar todo o universo que neste momento visiona.
+<ol>
+<li>Os nomes dos numinosos, da camada mais “externa” até a mais “interna”, sendo a mais externa o corpo do próprio criador, que “envolve” todos os outros.
+<ol>
+<li><strong>Satheos (O Criador)</strong></li>
+<li>Jovarion</li>
+<li>Maragon</li>
+<li>Aurion</li>
+<li>Venereth</li>
+<li>Hermyron</li>
+<li>Eilunor</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Os sete, comandados por Satheos ****então começam a colocar ordem na matéria caótica, e dizem “Aqui nos reinamos”, se batizando de os <strong>Regentes</strong>. Começam então a interferir no Reino, e criar conforme suas vontades no Vazio. Porém o firmamento, uma barreira entre o plano astral onde residem, e o plano físico que querem influenciar, requer um grande esforço para ser transporta por “quem sonha”.</li>
+</ol>
+<p>Para isso eles primeiro criam uma forma por onde suas energias e vibrações atravessarem o firmamento e adentrarem o mundo físico, podendo assim, de forma mais poderosa reger e ter influência sobre toda a matéria.</p>
+<p>Eles criam corpos físicos gigantescos, dos quais as suas mentes numinosas pudessem se anexar e desses corpos terem uma ação direta, ampla, constante, interminável e mais eficiente com a matéria, sobre quaisquer condições.</p>
+<p>Chamaram esses corpos de planetas, criados sobre medida para o tipo de energia de cada Regente, e os colocaram na camada do plano físico entre o Reino e a barreira que os atrapalhava, criando assim o cosmo. Levitando magneticamente, seguindo campos magnéticos eternos, cíclicos, e cuidadosamente arquitedos, eles lá de cima Reinam sobre tudo.<br />
+6. Satheos percebendo que pode criar algo vivo ao criar os demais Regentes se envaidece e decide criar outras formas de vida mais simples para entretê-los.</p>
+<p>Ele faz inúmeras tentativas de animar a matéria e dar-lhe vida, até que finalmente ele consegue criar uma combinação bem sucedida de dois elementos, da qual ele se orgulha imensamente e que impressiona os demais Regentes.</p>
+<p>O primeiro é DNA, uma molécula orgânica autorreplicante capaz de se multiplicar infinitamente, manipulável e influenciável, pelas vibrações e vontade dos Regentes ou outras fontes de pensamento, ela pode ser guiada, modificada, e melhorar.</p>
+<p>O segundo é o Pneuma, uma transformação do éter, um sopro de vida que anima o ser criado por DNA.</p>
+<p>E da combinação desses dois elementos ele consegue criar a mente, desde as mais simples até mais elaboradas, conforma a estrutura física permitia. Assim sendo, criando a razão e a emoção.</p>
+<p>Como consequência natural, quando um corpo chega a um estado de dano ou deterioração tal que não seja mais capaz de manter a pneuma dentro, essa energia se libera e volta a ser éter.<br />
+7. Guiados pelos regentes, os seres vivos evoluem desde seres unicelulares até a criação dos reinos vegetal e animal. Permitindo mentes cada vez mais complexas, mas ainda distantes da consciência de um Regente.<br />
+8. Quando os primeiros insetos andaram pela terra, os Regentes ficaram muito satisfeitos ao ver a matéria animada colonizando todos os cantos do Reino.</p>
+<p>Vendo os insetos, suas colônias e colmeias, Satheos tem uma ideia. Ele e os regentes estavam se desgastando com a empreitada monumental que era a criação deste mundo. Uma classe operária seria a forma perfeita de ajudantes, servos leais e obedientes, sem opinião própria, com corpos físicos no mundo material, animados por uma pneuma que os ajudariam sem questionar, na ardua tarefa de de criar este mundo.</p>
+<p>Dessa observação ele cria então os primeiros <strong>Vigilantes</strong>, diferentes grupos de seres insectoids animados por uma única pneuma coletiva por grupo, programadas pelos regentes para administrarem seus assuntos no mundo físico.</p>
+<p>Esta era até então a forma mais avançada de pneuma criada, sendo capazes de se comunicar, pensar, e aprender com considerável eficiência.<br />
+9. Neste momento a trindade finalmente volta ao vazio por curiosidade e descobre tudo que está acontecendo, as visitas dos regentes e de como eles usam o vazio para criar um mundo inferior.</p>
+<p>Mas também percebem o que aconteceu com Satheos ao vislumbrar o mundo abaixo, e que se tentarem interagir com o mundo abaixo, podem também cair nele, e ficarem presos.</p>
+<p>A trindade tem por opinião que o mundo inferior não é algo que deveria existir, sendo coberto da escravidão e sofrimento de seres viventes. Os seres vivos em sua maioria vivem da morte de outros, desde as bactérias até os caçadores, tudo precisa causar sofrimento para existir. A matéria é o éter em uma vibração tão baixa que pode contaminar a vibração de um numinoso. O submundo é tão denso que pode derrubar e aprisionar um numinoso. Eles dizem, “Este mundo é corrupto e deve ser expurgado. O sofrimento deve sessar”.</p>
+<p>Porém sem como interagir com o mundo inferior, a trindade se mantem em seu mundo, e começa analisar qual será sua ação.<br />
+10. A superfície da terra então se torna infestada e tomada de enxames de Vigilantes trabalhando para os Regentes. Colônias enormes que devastam como nuvens de gafanhotos o planeta apenas para poderem se manter vivos. Isso se torna um incomodo para Maedra, que se debate para se livrar da praga, causando um terremoto de proporções globais que devasta todas as colônias, sendo muitas subterrâneas, elas se tornam a sepultura dos Vigilantes.</p>
+<blockquote>
+<p>TERMINOU EM TERREMOTO (TERRA)</p>
+</blockquote>
+</doc-panel>
+<doc-panel id="segunda-era" collapsed>
+    <template #title><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M4.75 2h14.5a.75.75 0 0 1 0 1.5h-.75v2.982a4.75 4.75 0 0 1-2.215 4.017l-2.044 1.29a.25.25 0 0 0 0 .422l2.044 1.29a4.75 4.75 0 0 1 2.215 4.017V20.5h.75a.75.75 0 0 1 0 1.5H4.75a.75.75 0 0 1 0-1.5h.75v-2.982a4.75 4.75 0 0 1 2.215-4.017l2.044-1.29a.25.25 0 0 0 0-.422l-2.044-1.29A4.75 4.75 0 0 1 5.5 6.482V3.5h-.75a.75.75 0 0 1 0-1.5ZM17 3.5H7v2.982A3.25 3.25 0 0 0 8.516 9.23l2.044 1.29a1.75 1.75 0 0 1 0 2.96l-2.044 1.29A3.25 3.25 0 0 0 7 17.518V20.5h10v-2.982a3.25 3.25 0 0 0-1.516-2.748l-2.044-1.29a1.75 1.75 0 0 1 0-2.96l2.044-1.29A3.25 3.25 0 0 0 17 6.482Z"/></g></g></svg> Segunda Era</template>
+<blockquote>
+<p>Era dos Dragões</p>
+</blockquote>
+<ol>
+<li>Os regentes percebem então que exageraram ao lotar a superfície com Vigilantes, e para que isso não aconteça novamente decidem limitar o número de Vigilantes viventes, sempre controlando sua reprodução.</li>
+</ol>
+<p>Os Vigilantes sobreviventes então são utilizados para criar novas colônias subterrâneas para suas espécies reproduzirem e ajudarem no trabalho dos regentes de moldar o mundo físico, mas dessa vez com uma quantidade inferior a um milionésimo do que eram antes.<br />
+2. A evolução guiada continua, e surgem os primeiros cordados. Os regentes veem na notocorda um novo futuro para o seu mais recente plano, a criação de vida inteligente, mas autônoma, sem a necessidade de uma colmeia que a controle como é o caso dos vigilantes.<br />
+3. Com bastante investimento, os répteis surgem, e os regentes estão convencidos que essa é a matéria animada suprema, o limite da evolução. Eles teriam então finalmente criado a estrutura biológica que poderia ser utilizada para criar um ser inteligente e autônomo.<br />
+4. Usando a estrutura reptiliana como base, eles começam a tentar criar este ser, com várias tentativas, algumas promissoras, eles conseguem criar algumas espécies reptilianas, mas todas acabam sucumbindo para a violência e ignorância, destruindo a si mesmas.<br />
+5. Tentando dar a eles a razão e emoção avançadas, os regentes tentam adicionar uma essência de si mesmos, mas sem resultados frutíferos. Porém essas tentativas de adicionar uma consciência semelhante a deles aos répteis faz eles perceberem que podem criar corpos animados físicos para eles mesmos, corpos que diferentes dos planetas, podem viver na superfície da terra e agir diretamente. São criados então os <strong>Drakos</strong>, corpos de forma draconiana, assustadora, capazes de receber parte da essência da alma de um regente.<br />
+1. Drako → Sub corpo mortal de aparência draconiana (humanoide ou não), porém duradouros, criados pelos Regentes para eles mesmos abitarem como seus avatares. Podem durar milhares de anos. O Regente pode abandonar este corpo quando quiser, e ter vários desses em lugares diferentes e trocar de um para o outro com certas magias.</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-none"><code v-pre class="language-none">  Quando habitando estes corpos, apenas uma parte do Regente é colocado, mesmo um planeta não é a materialização total de um Regente, não são suficientes. Geralmente é colocado apenas a parte do regente compatível com aquele corpo, e para o qual o corpo foi criado, como por exemplo, apenas a parte sábia e calma, ou a parte guerreira e raivosa, etc.
+
+  Cada Regente consegue ocupar apenas um drako por vez, mas quando o fazem eles continuam ocupando também o seu respectivo planeta, e é através do planeta que eles controlam o drako, através do chamado fio de prata.
+  2. Fio de Prata → Uma estrutura etérea, como um cabo de comunicação entre um ser do plano astral e um corpo material animado por uma pneuma no plano físico. Precisa porem de uma forma de passar pelo firmamento.
+      1. Para os drakos → É usado um planeta, grande, móvel e imponente, para poder passar tanto poder. Pois em ultima análise os planetas foram criados como portais interdimensionais por onde as energias de cada regente possa passar para o mundo físico sem a resistência do firmamento.
+      2. Para o espírito humano → É usado a estrela que rege sua Casa. As estrelas assim como os planetas são portais para atravessar o firmamento, dadas suas devidas proporções. Quando mais brilhante a estrela, mais energia os espíritos daquela Casa podem passar sem resistência. Facilitando a vida de todos os membros etérligadores. Lembrando que a quantidade de vibrações passada é dividida entre todos os membros, portando quanto maior a quantidade de membros da Casa, menos sobra para cada um, sendo que a divisão não é igual, quem vibra mais forte, usa mais banda.</code></pre>
+</doc-codeblock></div>
+<ol start="6">
+<li>Sem futuro para a mentalidade réptil, eles voltam a desenvolver o DNA em busca de uma forma mais adequada. Usando os répteis como base, chegam aos mamíferos e as aves.</li>
+<li>Porém com o mundo completamente tomado por répteis gigantes, os seus experimentos não conseguiam proliferar. Os regentes então decidem limpar a terra para poder dar espaço às suas novas criações. Eles então se juntam, e com o seu poder e vontade cobrem a atmosfera com fumaça preta, matando quase tudo na superfície.</li>
+</ol>
+<blockquote>
+<p>TERMINOU EM INCÊNDIO FUMAÇA (AR)</p>
+</blockquote>
+</doc-panel>
+<doc-panel id="terceira-era" collapsed>
+    <template #title><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M4.75 2h14.5a.75.75 0 0 1 0 1.5h-.75v2.982a4.75 4.75 0 0 1-2.215 4.017l-2.044 1.29a.25.25 0 0 0 0 .422l2.044 1.29a4.75 4.75 0 0 1 2.215 4.017V20.5h.75a.75.75 0 0 1 0 1.5H4.75a.75.75 0 0 1 0-1.5h.75v-2.982a4.75 4.75 0 0 1 2.215-4.017l2.044-1.29a.25.25 0 0 0 0-.422l-2.044-1.29A4.75 4.75 0 0 1 5.5 6.482V3.5h-.75a.75.75 0 0 1 0-1.5ZM17 3.5H7v2.982A3.25 3.25 0 0 0 8.516 9.23l2.044 1.29a1.75 1.75 0 0 1 0 2.96l-2.044 1.29A3.25 3.25 0 0 0 7 17.518V20.5h10v-2.982a3.25 3.25 0 0 0-1.516-2.748l-2.044-1.29a1.75 1.75 0 0 1 0-2.96l2.044-1.29A3.25 3.25 0 0 0 17 6.482Z"/></g></g></svg> Terceira Era</template>
+<blockquote>
+<p>Era da Descoberta</p>
+</blockquote>
+<ol>
+<li>Com menos concorrência, dos mamíferos, um grupo específico começa a se apresentar promissor, os primatas. E é dos primatas que os regentes finalmente conseguem um corpo capaz de receber uma mente consciente de verdade, a para sua surpresa, tão consciente quanto ou mais que os próprios vigilantes.</li>
+<li>Os hominídeos começam então a serem usados também como servos.</li>
+<li>Os regentes porem continuam sentido que falta algo. A ideia sempre foi criar um ser senciente, e isso eles conseguiram, mas ainda faltava vontade, e uma menta capaz de chegar aos níveis vibracionais dos regentes. E é aqui que a trindade percebe sua chance de agir.</li>
+<li>A trindade se revela para os regentes quando estes vão ao vazio, e de lá eles todos se conhecem. Satheos não acredita, e fica irado “Blasfêmia, Não há outro além de mim”, mas eventualmente fica tudo muito claro, não há como negar, de onde ele veio, o que eles são. Esse é um período conturbado vibracionalmente, os regentes estão eufóricos, irritados, espantados.</li>
+<li>Em um ato de boa fé, a trindade se oferece para ajudá-los na criação de um ser capaz de atingir o nível vibracional dos regentes. Os regentes, sem mais ideias, aceitam a ajuda, também em um ato de boa vontade e paz. Porém tudo isso era uma trama da trindade, para infiltrar “<em>um que era como eles</em>” no Mundo da Criação, e assim poderem destruir este mundo por dentro. Sem se arriscarem a ficarem presos.</li>
+<li>A trindade cria então o <strong>Lumis</strong>, um espírito engenhado, dotado da centelha divina, que daria ao ser que a recebesse, não só senciência, mas também uma razão e emoção equivalente aos da trindade, “criado a nossa imagem e semelhança”, além da capacidade de distinguir o certo do errado e ver o mundo material como ele realmente é, maligno e que precisava ser desfeito.</li>
+</ol>
+<p>Mas não só isso. Inspirados pelo DNA, o Lumis, seria capaz de se multiplicar infinitamente, replicando sua própria estrutura como um fractal, fazendo multiplicações de três em três. Permitindo assim que um número infinito de seres humanos fossem criados e habitados por um espírito deste fractal. Sempre que o fractal se multiplica, isso equivale a criação de uma nova Casa, com aquelas características vibracionais daquela ponta do fractal, cada ponta pode se conectar e encarnar inúmeros corpos, sendo assim o inconsciente coletivo daquela Casa.</p>
+<p>Assim como os drakos, o produto final do homem é um corpo biológico, uma pneuma para animar este corpo, e uma central de comando, no caso do drako é um regente e no caso do humano é uma espírito Lumis.</p>
+<p>Também inspirados pelo fio de prata criado pelos regentes, eles explicaram aos regentes como essa pneuma era semelhante a eles e por isso poderia vibrar nas mesmas frequências. Ficariam em uma camada vibracional equivalente no plano astral e seria ligada ao corpo também por um frio de prata.<br />
+7. A agente duplo foi então entregue aos arcontes no Vazio, que empolgados logo o adicionaram a um humano, o primeiro de todos. Mas logo que o viram, os regentes perceberam a trapaça, perceberam que aquele homem poderia ser até mesmo mais “mais” do que eles, que seu espírito era capaz de se elevar mais alto que o sétimo céu. Se enfureceram, houve declarações de guerra nos céus.<br />
+8. Os regentes correram para mitigar o problema, matar o homem era inútil, pois seus espírito é imortal e sempre dará um jeito. Exterminar sua espécie não era um opção pois os humanos eram o resultado final de todo este empreendimento.</p>
+<p>Mas eles acharam um jeito. Vibraram de forma a adormecer a mente do homem, e este ficou tal qual um animal, que vivia pelos seus instintos e suas necessidades, obediente ao Criador.<br />
+9. A trindade então percebem o erro que cometeram, um dos seus, um que também era espiritual, estava agora preso em uma prisão mental criada pelos regentes, onde ele não sabia quem era, de onde veio, nem qual sua verdadeira essência divina, sem liberdade, escravos de suas necessidade materiais.</p>
+<p>Essa crueldade os torturava de culpa, desesperados eles se voltaram para Prehod, o numinoso esquecido, aquele que não se juntara aos regentes e era tão velho quanto o mais velho deles.</p>
+<p>Tomando ciência de tudo que acontecia, Prehod então percebe o que é o espírito humano e disse “Eu ajudarei o teu, mas o espírito que o anima tem vibração que me contenta, você pode levar os teus, mas aqueles que se corromperem eu farei meus”<br />
+1. O que Prehod está falando aqui é que quando uma alma peca (se corrompe), suas vibrações espirituais diminuem, chegando à níveis tão baixos que ele pode interagir com elas finalmente, da sua dimensão de baixa vibração, e tomar elas para ele. Seu interesse no espírito se dá pelo fato de ser algo divino de um mundo sútil, ou seja uma energia que ele pode usar para seus próprio desejos e alimentação energética.<br />
+2. Neste momento Prehod cria os ceifeiros, seres de matéria escura que se agarram aos fios de prata quando estes se desprendem e levam até ele, ele então tenta se conectar ao fio de prata para drenar as energias do espírito, mas se a alma não estiver corrompida o fio se solta e sobe, como  um balão. Então quanto mais conexões com o fractal Lumis, melhor.<br />
+1. Aqui você vê a ideia do julgamento feito por um ser so submundo como a balança de Anubis por exemplo presente nas religiões do jogo. Não é um julgamento de fato, mas um condição natural mecânica.</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-none"><code v-pre class="language-none">  A Trindade e Prehod então criam juntos um túnel de mão dupla, aberto de cada lado, um no acima do Vazio e outro abaixo, uma passagem segura do espírito Lumis até Mundo da Unidade, passando pelo Vazio.
+
+  Mas este canal não é possível passar algo da natureza de um numinoso. Este canal é para enviar iluminação do mundo superior ao mundo inferior, para iluminar a mente daqueles guiados pela Lumis, e assim eles mesmos saibam sobre suas condições de prisioneiros e possam lutar pela sua libertação. E esta iluminação divina é enviada com nome e forma… um espírito heterogêneo… um deus.
+
+  *Obs.: Este canal é a teórica ferida de nível 3 (Mais sobre ela quando não for spoiler)*
+
+  Portanto, entre os muitos deuses criados até o momento, o escolhido para “despertar” a Lumis foi **O Portador da Luz** um deus jovem, que representava o conceito da revelação da verdade, a luz que vem do conhecimento divino.
+
+  Ele poderia permanecer no corpo humano por apenas um breve período de tempo, pois nenhum daqueles corpos, e muito menos suas almas (mentes) e espíritos, estavam em uma condição adequada de manter tal energia. Ficar mais que alguns minutos seria fatal.</code></pre>
+</doc-codeblock></div>
+<ol start="10">
+<li>Tem início então a operação de resgate, e o portador da luz incorpora em uma mulher, neste momento o fractal ainda não se multiplicou e encarnou em dois corpos, o do primeiro homem e de sua companheira.</li>
+</ol>
+<p>Ele mostra para a mente dela toda a verdade e como planejado, e depois ela vai até o seu companheiro para quem o portador através dela também mostra a verdade em sua mente, tendo assim despertados os dois.</p>
+<p>”<em>Recebem o conhecimento do bem e do mal”</em></p>
+<p>Mas de todos os conhecimentos o Portador passa o mais importante, sobre o processo de levar o seu corpo, mente e espírito a uma evolução e desenvolvimento tal que lhe permita receber um deus de grande poder, que seria capaz de levar seu espírito de volta pelo canal cruzando o Vazio de volta para casa, fugindo do julgo cruel e escravizador dos regentes. E a esse processo ele chama de <strong>Apoteose</strong></p>
+<p>Conforme planejado, o portador volta ao Mundo da Unidade e agora, juntos ao exército da Trindade, os deuses, eles aguardam por aqueles que possam invocá-los.<br />
+11. Os dois agora despertos mudam claramente de comportamento, e os regentes percebem. Entendendo o que aconteceu os regentes ficam ainda mais furiosos e punem os dois, sabendo que matá-los é inútil pois seus espíritos são imortais. E para mantê-los aqui para sempre vibrando, eles criam a Roda dos Tempos, um mecanismo parte físico parte astral que garante que o fractal vai ficar perpetuamente reencarnando, e a cada encarnação, esquecerá tudo de novo.<br />
+12. Os dois então são deixados para se virar no mundo dos regentes, onde eles se multiplicaram e com os outros hominídeos e criaram a raça humana. Que começa a se espalhar pela terra, conforme as interferências dos regentes, da trindade e seus respectivos aliados.<br />
+13. A guerra estava deflagrada e a trindade e os regentes estavam agora em uma batalha até o fim pelas almas humanas.<br />
+1. Os regentes querem as almas presas à matéria pois eles se viciaram nas vibrações dos seres vivos, tal qual um adicto em drogas, e o espírito gerava as vibrações mais fortes e entorpecentes, como uma iguaria.<br />
+2. A trindade quer libertar as almas através da Apoteose e levar elas para o Mundo Superior<br />
+3. Prehod, assim como os regentes, também quer as vibrações dos espíritos, mas não por vício e sim por que lhe dá poder.<br />
+14. Os regentes percebem que o número de humanos despertos está crescendo demais, e isso se torna perigoso. Por isso eles se unem e queimam toda a superfície da terra, para reduzir o número de pessoas. Os sobreviventes escolhidos por eles, eram completamente ignorantes aos fatos passados. Ou foi o que eles pensaram…</p>
+<blockquote>
+<p>TERMINOU EM INCÊNDIO (FOGO)</p>
+</blockquote>
+</doc-panel>
+<doc-panel id="quarta-era" collapsed>
+    <template #title><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M4.75 2h14.5a.75.75 0 0 1 0 1.5h-.75v2.982a4.75 4.75 0 0 1-2.215 4.017l-2.044 1.29a.25.25 0 0 0 0 .422l2.044 1.29a4.75 4.75 0 0 1 2.215 4.017V20.5h.75a.75.75 0 0 1 0 1.5H4.75a.75.75 0 0 1 0-1.5h.75v-2.982a4.75 4.75 0 0 1 2.215-4.017l2.044-1.29a.25.25 0 0 0 0-.422l-2.044-1.29A4.75 4.75 0 0 1 5.5 6.482V3.5h-.75a.75.75 0 0 1 0-1.5ZM17 3.5H7v2.982A3.25 3.25 0 0 0 8.516 9.23l2.044 1.29a1.75 1.75 0 0 1 0 2.96l-2.044 1.29A3.25 3.25 0 0 0 7 17.518V20.5h10v-2.982a3.25 3.25 0 0 0-1.516-2.748l-2.044-1.29a1.75 1.75 0 0 1 0-2.96l2.044-1.29A3.25 3.25 0 0 0 17 6.482Z"/></g></g></svg> Quarta Era</template>
+<blockquote>
+<p>Era da Magia</p>
+</blockquote>
+<p>Rebelião dos vigilantes e criação dos Caídos</p>
+<p>Os Caídos criam as civilizações mitológicas como Atlântida, Mu e Lemúria.</p>
+<p>Como fruto dessas civilizações espiritualmente avançadas, é criada a <strong>Fraternidade Branca</strong> (por isso “<em>antiga e mística</em>” no nome).</p>
+<blockquote>
+<p>TERMINOU EM DILÚVIO (ÁGUA)</p>
+</blockquote>
+</doc-panel>
+<doc-panel id="quinta-era" collapsed>
+    <template #title><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M4.75 2h14.5a.75.75 0 0 1 0 1.5h-.75v2.982a4.75 4.75 0 0 1-2.215 4.017l-2.044 1.29a.25.25 0 0 0 0 .422l2.044 1.29a4.75 4.75 0 0 1 2.215 4.017V20.5h.75a.75.75 0 0 1 0 1.5H4.75a.75.75 0 0 1 0-1.5h.75v-2.982a4.75 4.75 0 0 1 2.215-4.017l2.044-1.29a.25.25 0 0 0 0-.422l-2.044-1.29A4.75 4.75 0 0 1 5.5 6.482V3.5h-.75a.75.75 0 0 1 0-1.5ZM17 3.5H7v2.982A3.25 3.25 0 0 0 8.516 9.23l2.044 1.29a1.75 1.75 0 0 1 0 2.96l-2.044 1.29A3.25 3.25 0 0 0 7 17.518V20.5h10v-2.982a3.25 3.25 0 0 0-1.516-2.748l-2.044-1.29a1.75 1.75 0 0 1 0-2.96l2.044-1.29A3.25 3.25 0 0 0 17 6.482Z"/></g></g></svg> Quinta Era</template>
+<blockquote>
+<p>Era da Perdição</p>
+</blockquote>
+<p>A nossa era, com algumas adaptações.</p>
+<p>Acabou no ano de 2012 com a alinhamento cósmico que os regentes, com a ajuda de seus servos feiticeiros, utilizaram a anergia para realizar uma magia simultânea ao redor do mundo para causar o congelamento prateado e resetar o mundo mais uma vez.</p>
+<blockquote>
+<p>TERMINOU EM GELO PRATEADO</p>
+</blockquote>
+</doc-panel>
+<doc-panel id="sexta-era" collapsed>
+    <template #title><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M4.75 2h14.5a.75.75 0 0 1 0 1.5h-.75v2.982a4.75 4.75 0 0 1-2.215 4.017l-2.044 1.29a.25.25 0 0 0 0 .422l2.044 1.29a4.75 4.75 0 0 1 2.215 4.017V20.5h.75a.75.75 0 0 1 0 1.5H4.75a.75.75 0 0 1 0-1.5h.75v-2.982a4.75 4.75 0 0 1 2.215-4.017l2.044-1.29a.25.25 0 0 0 0-.422l-2.044-1.29A4.75 4.75 0 0 1 5.5 6.482V3.5h-.75a.75.75 0 0 1 0-1.5ZM17 3.5H7v2.982A3.25 3.25 0 0 0 8.516 9.23l2.044 1.29a1.75 1.75 0 0 1 0 2.96l-2.044 1.29A3.25 3.25 0 0 0 7 17.518V20.5h10v-2.982a3.25 3.25 0 0 0-1.516-2.748l-2.044-1.29a1.75 1.75 0 0 1 0-2.96l2.044-1.29A3.25 3.25 0 0 0 17 6.482Z"/></g></g></svg> Sexta Era</template>
+<blockquote>
+<p>Era do Gelo Prateado</p>
+</blockquote>
+<p>O mundo está quebrado em regiões separadas pelos Ermos Prateados, imensidões inconquistáveis de gelo prateado cobrindo tudo</p>
+<p>Está é a era atual onde todas as partidas de Apoteose acontecem.</p>
+<blockquote>
+<p>TERMINARÁ EM FOGO DOURADO</p>
+</blockquote>
+<blockquote>
+<p><em>(Não terá uma próxima era, esta é a última)</em></p>
+</blockquote>
+</doc-panel>
+<doc-panel id="aetherbane" collapsed>
+    <template #title><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M1 12C1 5.925 5.925 1 12 1s11 4.925 11 11-4.925 11-11 11S1 18.075 1 12Zm16.333-4.167a.825.825 0 0 0-1.166-1.166l-9.5 9.5a.825.825 0 0 0 1.166 1.166Z"/></g></g></svg> Aetherbane</template>
+<blockquote>
+<p><strong>Aether</strong>: a energia fundamental que cria, sustenta e conecta tudo no universo.</p>
+<p><strong>Bane</strong>: ruína, veneno, aquilo que destrói de forma definitiva.</p>
+<p>→ <strong>Aetherbane = “aquilo que mata o éter”</strong>, não só o fim do mundo, mas o fim do <em>princípio</em> que permite mundos existirem.</p>
+</blockquote>
+<blockquote>
+<p>Ragnarök, Kali Yuga, Apocalipse, Armagedom, Frashokereti, Fim do 13º Baktun, Fim do Quinto Sol, Ekpyrosis, Retorno ao Nun, Mappō</p>
+</blockquote>
+<p>Nesta era o homem finalmente descobre a verdade, se ilumina e consegue quebrar a <strong>Roda do Tempo</strong>, fazer a <strong>Apoteose</strong> e se libertar, se juntando à trindade no mundo superior e dá fim ao mundo prisão.</p>
+<p>No “Final dos Tempos”, chamado de <strong>Aetherbane</strong>, é travado uma guerra entre a trindade e seus Heróis iluminados, contra os Regentes e seus servos escravizados.</p>
+<p>Nesse processo o Mundo da Criação e os Regentes serão queimando com fogo dourado, que trabalha “queimando” o éter, sendo assim capaz de destruir tudo no mundo abaixo, incluindo o plano astral e as estruturas e fundamentos do Mundo da Criação.</p>
+</doc-panel>
+<hr>
+<!-- RETYPE_BACKLINKS_PLACEHOLDER -->
+<!-- Insert this at the bottom of each markdown page -->
+<!-- Tooltips -->
+<!-- *[AWS]: Amazon Web Services -->
+
+                <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
+                
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-03-31T18:25:31" title="2026-03-31" data-absolute-label="Last updated on 2026-03-31 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-03-31 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                        Last updated on 2026-03-31 by Bruno Caxito
+                    </time>
+                </div>
+
+                <!-- Required only on API pages -->
+                <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
+            </div>
+            <footer id="retype-content-footer" class="clear-both">
+            
+                <nav id="retype-nextprev" class="print:hidden flex mt-14">
+                    <div class="w-1/2">
+                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../lore/">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                            <span>
+                                <span class="block text-xs font-normal text-base-text-muted">Previous</span>
+                                <span class="block mt-1">Mitologia</span>
+                            </span>
+                        </a>
+                    </div>
+            
+                    <div class="w-1/2">
+                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../lore/cards-sets/sets/adrenochrome/">
+                            <span>
+                                <span class="block text-xs font-normal text-right text-base-text-muted">Next</span>
+                                <span class="block mt-1">Adrenocromo</span>
+                            </span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                        </a>
+                    </div>
+                </nav>
+            </footer>
+        </main>
+
+        <div id="retype-page-footer" class="print:border-none border-t border-base-border pt-6 mb-8">
+            <footer class="flex flex-wrap items-center justify-between print:justify-center">
+                <div id="retype-footer-links" class="print:hidden">
+                    <ul class="flex flex-wrap items-center text-sm">
+                    </ul>
+                </div>
+                <div id="retype-copyright" class="print:justify-center py-2 text-footer-text font-footer-link text-sm leading-relaxed"><p>© Copyright Bruno Caxito, 2026. All rights reserved.</p></div>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Rendered if sidebar right is enabled -->
+    <!-- Sidebar right skeleton-->
+    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-sidebar-right-bg border-sidebar-right-border lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:translate-x-0 sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton">
+        <div class="pl-5">
+            <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+            <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+            <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+        </div>
+    </div>
+
+    <!-- User should be able to hide sidebar right -->
+    <doc-sidebar-right v-cloak></doc-sidebar-right>
+</div>
+
+        </div>
+    </div>
+
+    <doc-search-mobile></doc-search-mobile>
+    <doc-back-to-top></doc-back-to-top>
+</div>
+
+
+    <div id="retype-overlay-target"></div>
+
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Cosmologia", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+
+    <!-- Footer -->
+    <footer>
+
+
+
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+
+
+
+    </script>
+
+    <!-- End Content -->
+    <div>
+
+
+
+    </div>
+</body>
+</html>

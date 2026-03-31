@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.828221502553">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.828307496975">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.4.0">
@@ -43,11 +43,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../../static/img/favicon.ico" />
-    <link href="../../../resources/css/retype.css?v=4.4.0.828221502553" rel="stylesheet">
+    <link href="../../../resources/css/retype.css?v=4.4.0.828307496975" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../resources/js/config.js?v=4.4.0.828221502553" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/config.js?v=4.4.0.828307496975" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../resources/js/retype.js?v=4.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=4.4.0.828221502553" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=4.4.0.828307496975" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -124,6 +124,8 @@
     	.blue      { color: #0D47A1; }
     	.white     { color: #BDBDBD; }
     	.black     { color: #424242; } .dark .black { color: #454545; }
+
+        .format    { color: #03DAC6; }
 
         .keyword-activation {
             font-size: 0.8em;
@@ -447,24 +449,24 @@
 <blockquote>
 <p>Dominium é o termo latino para “domínio”, no sentido de posse, território, propriedade.</p>
 <p>O Dominium é uma dimensão forjada pela vontade do seu criador a sua imagem e semelhança. É uma zona interdimensional que quando ativada, se entrelaça com o espaço-tempo ao redor do seu conjurador criando uma área no local, com regras e características próprias, definidas pela mente e magia do seu criador, e onde ele é deus.</p>
-<p>Por este motivo, são representados por cartas de <a href="../../event/"><span class="event"><b>EVENTO</b></span></a> no <a href="../../../board/scenario/"><span class="event"><b>CENÁRIO</b></span></a>, aplicando seus efeitos a todos.</p>
+<p>Por este motivo, são representados por cartas de <a href="../../event/"><span class="event"><b>EVENTO</b></span></a> no <a href="../../../gameplay/scenario/"><span class="event"><b>CENÁRIO</b></span></a>, aplicando seus efeitos a todos.</p>
 </blockquote>
-<p>Dominiums são cartas de <a href="../../event/"><span class="event"><b>EVENTO</b></span></a> que quando ativadas do <a href="../../../hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a> são enviadas para o <a href="../../../board/scenario/"><span class="event"><b>CENÁRIO</b></span></a> para aplicar efeitos a todos os personagens.</p>
+<p>Dominiums são cartas de <a href="../../event/"><span class="event"><b>EVENTO</b></span></a> que quando ativadas do <a href="../../../hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a> são enviadas para o <a href="../../../gameplay/scenario/"><span class="event"><b>CENÁRIO</b></span></a> para aplicar efeitos a todos os personagens.</p>
 <br>
 <h4 id="regras-especiais">Regras Especiais</h4>
 <ul>
-<li>Para ativar um Dominium do seu <a href="../../../hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a> o Herói deve consumir <strong>10</strong> de <strong>Energia</strong> e então enviar a carta para o <a href="../../../board/scenario/"><span class="event"><b>CENÁRIO</b></span></a>.
+<li>Para ativar um Dominium do seu <a href="../../../hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a> o Herói deve consumir <strong>10</strong> de <strong>Energia</strong> e então enviar a carta para o <a href="../../../gameplay/scenario/"><span class="event"><b>CENÁRIO</b></span></a>.
 <ul>
-<li>Apenas um Dominium pode estar ativo por vez, portando não é possível ativar um Dominium se já houver outro no <a href="../../../board/scenario/"><span class="event"><b>CENÁRIO</b></span></a>.</li>
+<li>Apenas um Dominium pode estar ativo por vez, portando não é possível ativar um Dominium se já houver outro no <a href="../../../gameplay/scenario/"><span class="event"><b>CENÁRIO</b></span></a>.</li>
 </ul>
 </li>
-<li>Enquanto estiver no <a href="../../../board/scenario/"><span class="event"><b>CENÁRIO</b></span></a> os bônus e efeitos da carta são aplicados a todos os personagens no tabuleiro.
+<li>Enquanto estiver no <a href="../../../gameplay/scenario/"><span class="event"><b>CENÁRIO</b></span></a> os bônus e efeitos da carta são aplicados a todos os personagens no tabuleiro.
 <ul>
 <li>Quaisquer bônus negativos proporcionados pela carta <strong>não</strong> são aplicados ao Herói que a ativou.</li>
 <li>O efeito na caixa identificadora do Summus é valido apenas para o Herói que a ativou.</li>
 </ul>
 </li>
-<li>A carta deve ser removida do <a href="../../../board/scenario/"><span class="event"><b>CENÁRIO</b></span></a> após passados a quantidade de <em>Fases de Restauração</em> definidas na carta.</li>
+<li>A carta deve ser removida do <a href="../../../gameplay/scenario/"><span class="event"><b>CENÁRIO</b></span></a> após passados a quantidade de <em>Fases de Restauração</em> definidas na carta.</li>
 <li>Pode ser ativado apenas no turno do seu dono, e o turno se encerra imediatamente após sua ativação.</li>
 </ul>
 <br>
