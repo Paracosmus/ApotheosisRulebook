@@ -18,7 +18,7 @@ order: 99
 
 ## Os Primórdios
 
-==- :icon-hourglass: Antes de Tudo
+!!-light Antes de Tudo
 
   A linha cronológica de Apoteose começa vinda do Além, o mundo fora do jogo, de onde o jogo foi arquitetado. Não é possível falar quase nada sobre ele, pois ele é incompreensível para aqueles inseridos no universo do jogo.
 
@@ -28,9 +28,9 @@ order: 99
   - **O Mestre:** Aquele que cria a simulação conforme as regras.
   - **Simulação:** O universo do jogo
 
-===
+!!!
 
-==- :icon-hourglass: Antes da Criação
+!!-light Antes da Criação
 
   1. **Caos Primordial:** No início existia apenas o **éter** deixado pelo Arquiteto, uma matéria prima vibracional de infinitas possibilidades, que pode ser moldado em qualquer coisa que se desejar, pelo poder da vontade da mente.
   2. **Ordem no Caos:** A mente do Mestre então põe ordem no caos deixado pelo Arquiteto. De fora desta realidade a vontade do Mestre da início a tudo, e pela sua vontade ele transforma o éter e cria o **Universo** em sua mente, e em sua mente o universo reside.
@@ -54,13 +54,13 @@ order: 99
   8. Mas as Trevas, percebe finalmente que o que está fazendo não é uma ideia sensata, e decide parar com aquela abordagem, pois a matéria claramente se mostra não ser a abordagem para o que ela buscava. Porém já era tarde demais, em uma de suas tentativas de criar um numinoso no Vazio usando o poder da sua vontade ela fora em parte bem sucedida, e “gestara” um novo numinoso. Mas ao abortar seus experimentos no vazio ela também abortara o seu “filho” achando que ele simplesmente cessaria de existir. Mas não é o que aconteceu, ele sobreviveu e estava agora solto e sozinho no Vazio, um ser de extremo poder, ignorante das suas origens, e sem supervisão ou quem o educasse.
   9. Se viu então sozinho, e quando finalmente tomou consciência da própria existência e solidão ele disse “Não há outro além de mim”. E no vazio ele amadureceu solitário, e do tédio e solidão ele eventualmente aprendeu que sua vontade ali se tornava “realidade”. Então ele aprendeu a criar a matéria e se chamou de o Criador. No entanto, sem a responsabilidade e cautela que sua mãe tinha em seus experimentos, o Criador fez da matéria abundante, tanto que resultou em um novo Mundo ainda mais denso que o Vazio, e ao olhar para esse mundo, ele acabou se contaminando pela baixa vibração etérea da matéria e nesse mundo ele caiu e ficou preso.
 
-===
+!!!
 
 ---
 
 ## A Criação
 
-==- :icon-hourglass: Primeira Era
+!!- Primeira Era
 
   > Era da Solitude
 
@@ -118,9 +118,9 @@ order: 99
 
 > TERMINOU EM TERREMOTO (TERRA)
 
-===
+!!!
 
-==- :icon-hourglass: Segunda Era
+!!- Segunda Era
 
   > Era dos Dragões
 
@@ -144,9 +144,9 @@ order: 99
 
   > TERMINOU EM INCÊNDIO FUMAÇA (AR)
 
-===
+!!!
 
-==- :icon-hourglass: Terceira Era
+!!- Terceira Era
 
   > Era da Descoberta
 
@@ -204,9 +204,9 @@ order: 99
 
   > TERMINOU EM INCÊNDIO (FOGO)
 
-===
+!!!
 
-==- :icon-hourglass: Quarta Era
+!!- Quarta Era
 
   > Era da Magia
 
@@ -218,9 +218,9 @@ order: 99
 
   > TERMINOU EM DILÚVIO (ÁGUA)
 
-===
+!!!
 
-==- :icon-hourglass: Quinta Era
+!!- Quinta Era
 
   > Era da Perdição
 
@@ -230,9 +230,9 @@ order: 99
 
   > TERMINOU EM GELO PRATEADO
 
-===
+!!!
 
-==- :icon-hourglass: Sexta Era
+!!- Sexta Era
 
   > Era do Gelo Prateado
 
@@ -244,9 +244,9 @@ order: 99
 
   > *(Não terá uma próxima era, esta é a última)*
 
-===
+!!!
 
-==- :icon-skip-fill: Aetherbane
+!!-danger Aetherbane
 
   > **Aether**: a energia fundamental que cria, sustenta e conecta tudo no universo.
   >
@@ -262,6 +262,6 @@ order: 99
 
   Nesse processo o Mundo da Criação e os Regentes serão queimando com fogo dourado, que trabalha “queimando” o éter, sendo assim capaz de destruir tudo no mundo abaixo, incluindo o plano astral e as estruturas e fundamentos do Mundo da Criação.
 
-===
+!!!
 
 ---
