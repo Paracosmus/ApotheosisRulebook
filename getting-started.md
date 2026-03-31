@@ -17,7 +17,7 @@ order: 100
 >>> O QUE É APOTHEOSIS CARD GAME
 %% ============================================================================================= %%
 
-  ![](static/img/banners/getting-started-1.webp){.rounded-lg}
+  ![](/static/img/banners/getting-started-1.webp){.rounded-lg}
 
 
   %% ----------------------------------------------------------------------- %%
@@ -97,7 +97,7 @@ order: 100
 >>> CONTEXTO
 %% ============================================================================================= %%
 
-  ![](static/img/banners/getting-started-2.webp){.rounded-lg}
+  ![](/static/img/banners/getting-started-2.webp){.rounded-lg}
 
 
   %% ----------------------------------------------------------------------- %%
@@ -136,7 +136,7 @@ order: 100
 >>> OBJETIVO DO JOGO
 %% ============================================================================================= %%
 
-  ![](static/img/banners/getting-started-3.webp){.rounded-lg}
+  ![](/static/img/banners/getting-started-3.webp){.rounded-lg}
 
 
   %% ----------------------------------------------------------------------- %%
@@ -157,7 +157,7 @@ order: 100
 
   ##### Configuração da Partida
 
-  Uma vez escolhido o [formato](/gameplay/setup/formats), [campanha](/gameplay/setup/campaigns.md) e/ou [modo de jogo](/gameplay/setup/game-mode.md), siga as regras e passos definidos por estes para preparar a partida. Estes passos podem variar dependendo da escolha e configuração, mas geralmente incluem:
+  Uma vez escolhido o [formato](/gameplay/setup/format), [campanha](/gameplay/setup/campaign.md) e/ou [modo de jogo](/gameplay/setup/game-mode.md), siga as regras e passos definidos por estes para preparar a partida. Estes passos podem variar dependendo da escolha e configuração, mas geralmente incluem:
 
 
   ##### Cartas
@@ -191,7 +191,7 @@ order: 100
 >>> COMPONENTES DO JOGO
 %% ============================================================================================= %%
 
-  ![](static/img/banners/getting-started-4.webp){.rounded-lg}
+  ![](/static/img/banners/getting-started-4.webp){.rounded-lg}
 
   %% ----------------------------------------------------------------------- %%
   ==- As Cartas
@@ -226,7 +226,7 @@ order: 100
     - **Humanos**: Aliados dos jogadores ou NPCs de campanha
     - **Criaturas**: Animais, bestas e monstros
     - **Evocações**: Seres sobrenaturais evocados por magias
-  - [Modelo (Dummy)](/board/dummies.md): Personagens que fogem das regras de jogo, geralmente chefes de campanha
+  - [Modelo (Dummy)](/battle/chip/dummy.md): Personagens que fogem das regras de jogo, geralmente chefes de campanha
 
 
 
@@ -243,7 +243,7 @@ order: 100
   ==- O Tabuleiro
   %% ----------------------------------------------------------------------- %%
 
-  [!card](/board)
+  [!card](/battle/board.md)
 
   ##### Narração
 
@@ -267,7 +267,7 @@ order: 100
 >>> JOGANDO
 %% ============================================================================================= %%
 
-  ![](static/img/banners/getting-started-5.webp){.rounded-lg}
+  ![](/static/img/banners/getting-started-5.webp){.rounded-lg}
 
 
   %% ----------------------------------------------------------------------- %%
@@ -293,33 +293,21 @@ order: 100
 
   +++ Modo Narrativo
 
-  Este é o modo onde o mestre ou campanha narra a história, os eventos e as ações dos NPCs, e os jogadores narram as ações de seus Heróis. Não é necessário um espaço físico para a narração, e as ações são resolvidas através de [testes](/gameplay/check.md), [rolagem de dados](/guidelines.md#dados) e comparação de valores.
+  [!card](/gameplay/story-mode.md)
 
-  Este é o **modo livre (free roaming)**. É focado em interação e estória, e as ações dos jogadores podem ser tão criativas quanto eles desejarem, desde que estejam de acordo com as regras e a lógica do universo do jogo. O mestre de jogo tem um papel importante em arbitrar as regras, resolver situações e manter a narrativa fluindo.
-
-  ###### Ordem de Jogadores
-
-  Não há uma ordem pré-estabelecida para os jogadores no modo narrativo, e eles podem jogar em qualquer ordem, ou até mesmo simultaneamente, dependendo da situação e da preferência dos jogadores. O mestre de jogo pode sugerir uma ordem lógica, mas ela não é obrigatória.
-
-  Em caso de conflitos ou disputas sobre a ordem de jogadores, o mestre de jogo pode resolver a situação de forma lógica, ou pela [Iniciativa](/board/initiative.md) dos personagens envolvidos.
-
-  !!!secondary Exemplo de Sequência de Jogo
-
-  **O mestre de jogo apresenta a situação inicial**: "Vocês estão em uma cidade devastada, cercada por ruínas e perigos. O objetivo é encontrar um artefato escondido em um prédio abandonado no centro da cidade. Para isso, vocês precisam atravessar as ruas infestadas de inimigos, encontrar pistas e resolver desafios para chegar ao prédio e recuperar o artefato."
-
-  **Pedro decide explorar um prédio próximo para encontrar suprimentos**: Ele rola um teste de Procurar( {{ perception }} ) para encontrar algo útil, e o mestre de jogo descreve o que ele encontra: "Você encontra uma caixa de suprimentos com algumas armas e itens de cura."
-
-  **Maria decide se aproximar e bisbilhotar um grupo de inimigos para tentar encontrar o caminho para o prédio**: Sua Heroína possui a {{ class }} de _Espião_, portanto o mestre concede a ela um bônus de +5 para este teste. Ela rola um teste de Furtividade( {{ cunning }} + {{ agi }} ) para se aproximar sem ser vista, e o mestre de jogo descreve a situação: "Você consegue se aproximar do grupo no bar sem levantar suspeitas, e ouve que eles estão indo para o prédio abandonado."
-
-  **João decide tentar negociar com um NPC que parece ser um líder local para obter informações sobre o prédio**: João lembra o mestre que seu Herói possui a {{ skill }} de _Empreendedor_ e o mestre concede um bônus de +1 para este teste. Ele rola um teste de Negociação( {{ practice }} + {{ charisma }} ) para tentar convencer o NPC, mas falha, e o mestre de jogo descreve a situação: "O NPC não confia em você e se recusa a falar com você. Ele te ignora e continua com suas atividades."
-
-  Maria decide tentar seguir o grupo de inimigos para chegar ao prédio, mas eles percebem que estão sendo seguidos e começam a atirar. Ela rola um teste de Esquivar( {{ agi }} ) para tentar escapar, mas falha, e o mestre de jogo descreve a situação: "Os inimigos percebem que estão sendo seguidos e começam a atirar em você. Você é atingida por um tiro e perde 20 pontos de vida."
-
-  Os inimigos continuam no encalço de Maria, correndo com dificuldade baleada, ela rola um teste de Resistência( {{ enr }} ). Seus amigos escutam os tiros e correm para verificar o que está acontecendo. Neste momentos os dois grupos estão de frente um para o outro e o mestre de jogo decide que é hora de **iniciar a batalha**."
-
-  !!!
-
-  ---
+  > **_Exemplo de Sequência de Jogo_**
+  >
+  > **O mestre de jogo apresenta a situação inicial**: "Vocês estão em uma cidade devastada, cercada por ruínas e perigos. O objetivo é encontrar um artefato escondido em um prédio abandonado no centro da cidade. Para isso, vocês precisam atravessar as ruas infestadas de inimigos, encontrar pistas e resolver desafios para chegar ao prédio e recuperar o artefato."
+  >
+  > **Pedro decide explorar um prédio próximo para encontrar suprimentos**: Ele rola um teste de Procurar( {{ perception }} ) para encontrar algo útil, e o mestre de jogo descreve o que ele encontra: "Você encontra uma caixa de suprimentos com algumas armas e itens de cura."
+  >
+  > **Maria decide se aproximar e bisbilhotar um grupo de inimigos para tentar encontrar o caminho para o prédio**: Sua Heroína possui a {{ class }} de _Espião_, portanto o mestre concede a ela um bônus de +5 para este teste. Ela rola um teste de Furtividade( {{ cunning }} + {{ agi }} ) para se aproximar sem ser vista, e o mestre de jogo descreve a situação: "Você consegue se aproximar do grupo no bar sem levantar suspeitas, e ouve que eles estão indo para o prédio abandonado."
+  >
+  > **João decide tentar negociar com um NPC que parece ser um líder local para obter informações sobre o prédio**: João lembra o mestre que seu Herói possui a {{ skill }} de _Empreendedor_ e o mestre concede um bônus de +1 para este teste. Ele rola um teste de Negociação( {{ practice }} + {{ charisma }} ) para tentar convencer o NPC, mas falha, e o mestre de jogo descreve a situação: "O NPC não confia em você e se recusa a falar com você. Ele te ignora e continua com suas atividades."
+  >
+  > Maria decide tentar seguir o grupo de inimigos para chegar ao prédio, mas eles percebem que estão sendo seguidos e começam a atirar. Ela rola um teste de Esquivar( {{ agi }} ) para tentar escapar, mas falha, e o mestre de jogo descreve a situação: "Os inimigos percebem que estão sendo seguidos e começam a atirar em você. Você é atingida por um tiro e perde 20 pontos de vida."
+  >
+  > Os inimigos continuam no encalço de Maria, correndo com dificuldade baleada, ela rola um teste de Resistência( {{ enr }} ). Seus amigos escutam os tiros e correm para verificar o que está acontecendo. Neste momentos os dois grupos estão de frente um para o outro e o mestre de jogo decide que é hora de **iniciar a batalha**."
 
   !!!
   Para saber mais sobre testes, rolagem de dados e resolução de ações no modo narrativo, consulte as seções específicas sobre cada tópico neste manual.
@@ -327,30 +315,18 @@ order: 100
 
   +++ Modo de Batalha
 
-  Este modo simula um combate entre personagens. Se o modo narrativo é o modo livre, o modo de batalha é seu extremo oposto, sendo regido inteiramente pelas regras, focado em tática e estratégia.
+  [!card](/gameplay/battle-mode.md)
 
-  Ele acontece em um espaço físico, o tabuleiro, onde os participantes são representados por peças, e as ações dos jogadores são resolvidas através de rolagem de dados e comparação de valores, seguindo as regras estabelecidas, não sendo mais permitida a livre interpretação e narração das ações, mas sim a aplicação estrita das regras de batalha para resolver ações e efeitos de cartas.
-
-  Quando um combate é iniciado, os jogadores posicionam seus personagens no tabuleiro conforme as regras de posicionamento ou lógica vinda da situação narrativa, e a batalha começa.
-
-  A batalha é resolvida através de uma sequência de turnos, onde cada jogador tem a oportunidade de realizar ações com seus personagens, como mover, atacar, ativar cartas, e interagir com elementos do tabuleiro, pagando custos em pontos de ação que são restaurados a cada nova rodada.
-
-  Durante a batalha os efeitos das cartas são aplicados de forma direta. No modo narrativo, um ataque, como por exemplo "Atacar com uma espada", pode ser resolvido de forma livre, onde o jogador descreve a ação e o mestre de jogo decide os efeitos e consequências. Já no modo de batalha, a mesma ação precisa seguir as regras específicas para ataques, onde o jogador precisa durante o seu turno declarar o ataque, escolher a carta que representa a espada, escolher um alvo ao alcance daquela carta, rolar os dados para determinar o {{ dmg }} do ataque, e aplicar os efeitos conforme as regras estabelecidas.
-
-  !!!secondary Exemplo de Sequência de Batalha
-
-  **Iniciativa**: A ordem dos turnos é redefinida a cada rodada pela Iniciativa dos personagens envolvidos.
-
-  **Turno de Pedro**: Ele tem um Herói com a {{ class }} de _Cavaleiro_, e decide atacar um inimigo com uma espada. Ele move sua peça no tabuleiro até ficar adjacente ao inimigo, declara o ataque, escolhe o {{ item }} _Espada_, rola os dados para determinar o {{ dmg }} do ataque conforme escrito na carta. O mestre de jogo descreve a situação: "Você ataca o inimigo com sua espada, causando 15 pontos de dano. O inimigo é atingido, mas possui o {{ item }} _Escudo_ que reduz o dano em 1 pontos, e perde 14 pontos de vida."
-
-  **Turno de Maria**: Ela tem um Herói com a {{ class }} de _Atiradora_, e decide usar uma habilidade de longo alcance para atacar um inimigo. Ela declara o ataque, escolhe a {{ skill }} _Tiro Certo_, descarta a carta de munição requerida por ela, escolhe um inimigo ao alcance, rola os dados para determinar o {{ dmg }} do ataque conforme escrito na carta e aplica os efeitos da mesma. O mestre de jogo descreve a situação: "Você atira no inimigo com sua habilidade, causando 10 pontos de dano. O inimigo vestindo apenas uma roupa velha que não oferece nenhuma proteção, sendo atingido e perde 10 pontos de vida."
+  > **_Exemplo de Sequência de Batalha_**
+  >
+  > **Iniciativa**: A ordem dos turnos é redefinida a cada rodada pela Iniciativa dos personagens envolvidos.
+  >
+  > **Turno de Pedro**: Ele tem um Herói com a {{ class }} de _Cavaleiro_, e decide atacar um inimigo com uma espada. Ele move sua peça no tabuleiro até ficar adjacente ao inimigo, declara o ataque, escolhe o {{ item }} _Espada_, rola os dados para determinar o {{ dmg }} do ataque conforme escrito na carta. O mestre de jogo descreve a situação: "Você ataca o inimigo com sua espada, causando 15 pontos de dano. O inimigo é atingido, mas possui o {{ item }} _Escudo_ que reduz o dano em 1 pontos, e perde 14 pontos de vida."
+  >
+  > **Turno de Maria**: Ela tem um Herói com a {{ class }} de _Atiradora_, e decide usar uma habilidade de longo alcance para atacar um inimigo. Ela declara o ataque, escolhe a {{ skill }} _Tiro Certo_, descarta a carta de munição requerida por ela, escolhe um inimigo ao alcance, rola os dados para determinar o {{ dmg }} do ataque conforme escrito na carta e aplica os efeitos da mesma. O mestre de jogo descreve a situação: "Você atira no inimigo com sua habilidade, causando 10 pontos de dano. O inimigo vestindo apenas uma roupa velha que não oferece nenhuma proteção, sendo atingido e perde 10 pontos de vida."
 
   !!!
-
-  ---
-
-  !!!
-  Para saber mais sobre as regras de batalha, turnos, ações, e resolução de ataques e efeitos de cartas no modo de batalha, consulte as [seções específicas](/board/battle.md) sobre cada tópico neste manual.
+  Para saber mais sobre as regras de batalha, turnos, ações, e resolução de ataques e efeitos de cartas no modo de batalha, consulte as [seções específicas](/battle) sobre cada tópico neste manual.
   !!!
 
   +++
@@ -389,7 +365,7 @@ order: 100
 >>> O QUE VEM A SEGUIR
 %% ============================================================================================= %%
 
-  ![](static/img/banners/getting-started-6.webp){.rounded-lg}
+  ![](/static/img/banners/getting-started-6.webp){.rounded-lg}
 
 
   %% ----------------------------------------------------------------------- %%

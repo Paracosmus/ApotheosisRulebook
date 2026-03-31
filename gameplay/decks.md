@@ -1,7 +1,7 @@
 ---
 label: Baralhos
 icon: stack
-order: 5
+order: 50
 ---
 {{ review() }}
 

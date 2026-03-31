@@ -1,7 +1,7 @@
 ---
 label: Viagem
 icon: milestone
-order: 3
+order: 0
 ---
 {{ review() }}
 
@@ -16,7 +16,7 @@ A viagem é um mode de jogo utilizado quando o grupo se desloca de um local no m
 Uma viagem começa quando o grupo anuncia que vai se deslocar para um outro local no mapa.
 
 {.list-icon}
-- 🕦 Verifique a distância em [períodos do dia](turn.md#período-do-dia) entre o local atual e o local de destino. Este será o tempo inicial necessário para a viagem, caso não haja interrupções.
+- 🕦 Verifique a distância em [períodos do dia](/gameplay/time.md#período-do-dia) entre o local atual e o local de destino. Este será o tempo inicial necessário para a viagem, caso não haja interrupções.
 
 - 👣 Aplicar quaisquer modificadores de tempo de viagem, geralmente adicionados por situação da estradas ou percurso, condições de campanha, meios de transporte, efeitos de cartas, etc., e então determinar o tempo total de viagem.
 

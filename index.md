@@ -169,7 +169,7 @@ layout: page
     }
 </style>
 
-![](static/img/banner.jpg){.rounded-lg .logo}
+![](/static/img/banner.jpg){.rounded-lg .logo}
 
 <div class="hero-section">
     <div class="hero-title" role="heading" aria-level="1">APOTHEOSIS CARD GAME</div>

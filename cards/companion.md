@@ -112,7 +112,7 @@ Os 20 caminhos são:
 
 Ao custo de 2 de {{ ap }}, esta carta pode ser enviada para um espaço disponível no {{ support }} do Herói.
 
-- Se o personagem for {{ human }} ou {{ creature }}, ele deve ser colocado em uma [casa de acesso do tabuleiro](/board/index.md#casa-de-acesso). Se não houverem casas de acesso disponíveis, o personagem não pode ser recrutado.
+- Se o personagem for {{ human }} ou {{ creature }}, ele deve ser colocado em uma [casa de acesso do tabuleiro](/battle/board.md#casa-de-acesso). Se não houverem casas de acesso disponíveis, o personagem não pode ser recrutado.
 
 - Se o personagem for uma {{ summon }}, coloque sua peça em uma casa adjacente ao Herói. Se não houver nenhuma casa adjacente disponível, este personagem não pode ser evocado.
 
@@ -122,7 +122,7 @@ Ao custo de 2 de {{ ap }}, esta carta pode ser enviada para um espaço disponív
 
 Ao custo de 2 de {{ ap }}, esta carta pode ser enviada do {{ support }} para o {{ inv }} do Herói.
 
-- Se o personagem for {{ human }} ou {{ creature }}, é necessário que haja uma [casa de cesso do tabuleiro](/board/index.md#casa-de-acesso) disponível para que o personagem possa ser retirado do tabuleiro. Se não houver casas de acesso disponíveis, o personagem não pode ser abandonado.
+- Se o personagem for {{ human }} ou {{ creature }}, é necessário que haja uma [casa de cesso do tabuleiro](/battle/board.md#casa-de-acesso) disponível para que o personagem possa ser retirado do tabuleiro. Se não houver casas de acesso disponíveis, o personagem não pode ser abandonado.
 
 - Se o personagem for uma {{ summon }}, remova sua peça do tabuleiro.
 
@@ -145,6 +145,15 @@ Selecionar a uma carta de COMPANHEIRO no seu INVENTÁRIO de mesmo Tipo de Compan
 Um {{ companion }} pode ter até 5 cartas anexadas a ele. Esse limite não pode ser excedido, nem mesmo por efeito de carta.
 
 Durante o turno do Herói, ele pode anexar e/ou desanexar cartas do seu {{ inv }} a um de seus {{ companion }} em uma casa adjacente.
+
+### [Modo Narrativo](/gameplay/story-mode.md)
+
+- O jogador pode anexar cartas de recurso livremente
+
+### [Modo de Batalha](/gameplay/battle-mode.md)
+
+- Custo de **2** de {{ ap }}
+- O personagem deve estar em uma casa adjacente ao herói no tabuleiro.
 
 ### Tipos de Anexo
 
