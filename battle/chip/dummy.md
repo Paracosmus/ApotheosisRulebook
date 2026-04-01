@@ -7,4 +7,10 @@ order: 40
 
 # Modelo
 
+{{ briefing `
+
+Test
+
+`}}
+
 ---

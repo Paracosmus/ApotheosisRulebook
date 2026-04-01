@@ -15,3 +15,15 @@ Esta seção ainda não foi completamente revisada. Algumas informações podem 
     `
 
 }}
+
+
+<!-- Briefing -->
+{{
+
+    briefing(brief) = `
+|||{.briefing} :icon-search: Resumo
+  ` + brief + `
+|||
+    `
+
+}}

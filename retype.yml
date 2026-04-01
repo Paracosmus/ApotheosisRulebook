@@ -29,9 +29,9 @@ links:
   link: /index.md
   icon: home
 
-- text: Palavras-Chave
-  link: /keywords.md
-  icon: list-unordered
+- text: Glossário
+  link: /glossary.md
+  icon: typography
 
 - text: Cartilha
   link: /chart.md

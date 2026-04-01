@@ -1,9 +1,9 @@
 ---
-label: Palavras-Chave
+label: Glossário
 layout: page
 ---
 
-# Palavras-Chave
+# Glossário
 
 Este livro e as cartas do jogo utilizam termos com significados específicos. Abaixo estão listados esses termos e seus significados.
 
@@ -33,6 +33,9 @@ Este livro e as cartas do jogo utilizam termos com significados específicos. Ab
 
 ## Tabuleiro
 
+[!card compact](battle/chip/dummy.md)
+
+
 | Termo                    | Inglês          | Significado |
 | ------------------------ | --------------- | ----------- |
 | **Peça**                 | *Chip*          | Peão que representa um personagem ou objeto no tabuleiro de batalha |
@@ -45,6 +48,7 @@ Este livro e as cartas do jogo utilizam termos com significados específicos. Ab
 | **Casa Ocupada**         | *Occupied Tile* | Existe uma peça nesta casa do tabuleiro |
 | **Casa Vazia**           | *Empty Tile*    | Qualquer casa do tabuleiro que não tenha uma peça |
 | **Casa Desabilitada**    | *Disabled Tile* | Nenhuma peça pode ser colocada ou passar por esta casa do tabuleiro, para todos os fins, ela não existe. Trajetórias de ataques não podem passar por ela |
+| **Modelo**               | *Dummy*         |  |
 
 ---
 
@@ -55,3 +59,5 @@ Este livro e as cartas do jogo utilizam termos com significados específicos. Ab
 | **Ação Total** | *All-in*  | O personagem não pode ter realizado nenhuma ação ou jogada não automática (passiva) neste Ciclo para realizar uma Ação Total; feito isso, ele só terá um turno no próximo *Ciclo* |
 | **Substituir** | *Replace* | Um elemento de jogo é substituído por outro determinado, herdando o estado do original<br><br>**Quando uma carta**: Ela é substituída por outra colocada no mesmo espaço, a nova carta recebe todos os contadores e anexos da carta original, e a carta original é enviada para o mesmo local em que estava a nova carta, se possível, caso contrário, a carta original é descartada para a pilha de descarte<br><br>**Quando uma peça**: Ela é substituída por outra, a nova peça mantém a {{ hp }}, {{ ap }}, Marcadores, ordem do turno e posição no tabuleiro da peça original, a peça original é removida do jogo |
 | **Ciclo**      | *Stint*   | O período entre uma Fase de Recomposição e outra |
+
+---
