@@ -6,11 +6,7 @@ order: 90
 
 # Variante
 
-{{ briefing `
-
-  Os modos de jogo são variações nas regras e objetivos que permitem diferentes formas de jogar, seja cooperativamente, competitivamente ou em arena, sem necessidade de alterar o formato escolhido.
-
-`}}
+{{ briefing `São variações nas regras e objetivos que permitem diferentes formas de jogar, seja cooperativamente, competitivamente ou em arena.`}}
 
 Os três modos de jogo mais comuns são: [Cooperativo](#cooperativo), [Competitivo](#competitivo) e [Arena](#arena).
 

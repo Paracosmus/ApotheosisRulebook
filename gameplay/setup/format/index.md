@@ -6,11 +6,9 @@ order: 100
 
 # Formato
 
-{{ briefing `
+{{ briefing `São conjuntos personalizados de regras que adicionam ou modificam as regras padrões de jogo, incluindo a forma de interpretar as carta.` }}
 
-  Os formatos de jogo são conjuntos personalizados de regras que adicionam ou modificam as regras padrões de jogo. São utilizados para criar diferentes formas de jogar e permitir a customização por parte dos jogadores
-
-`}}
+São utilizados para criar diferentes formas de jogar e permitir a customização por parte dos jogadores.
 
 Cada formato possui suas próprias diretrizes e restrições, e podem ser utilizados para criar sistemas de jogo diferentes do padrão, como por exemplo, um formato de batalha entre exércitos, ou um formato de [jogo de cartas colecionáveis](https://en.wikipedia.org/wiki/Collectible_card_game), onde os jogadores constroem seus próprios baralhos a partir de um conjunto de cartas disponíveis.
 

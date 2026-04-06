@@ -6,11 +6,9 @@ order: 60
 
 # Iniciativa
 
-{{ briefing `
+{{ briefing `É uma comparação feita entre os personagens para determinar a ordem de ação durante o combate, representando a rapidez com que eles podem agir.` }}
 
-  A iniciativa é uma comparação feita entre os personagens para determinar a ordem de ação durante o combate. No início de cada ciclo, os personagens são ordenados por iniciativa, do maior para o menor.
-
-`}}
+No início de cada ciclo, os personagens são ordenados por iniciativa, do maior para o menor.
 
 Para determinar as iniciativas e ordenar os personagens, compara-se o maior atributo de cada um, em caso de empate, compara-se o segundo maior atributo dos empatados, e assim por diante. Se ainda houver empate, os personagens empatados desempatam entre eles rolando {{ e1d6 }} até que não estejam mais empatados.
 

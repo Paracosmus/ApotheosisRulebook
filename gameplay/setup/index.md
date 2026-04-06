@@ -6,11 +6,7 @@ order: 100
 
 # Configuração da Partida
 
-{{ briefing `
-
-  A configuração da partida é o conjunto de regras, objetivos, e elementos que definem como a partida será jogada. Ela inclui a escolha da campanha, do variante, do formato, e outros aspectos que influenciam a experiência de jogo.
-
-`}}
+{{ briefing `É o conjunto de regras, objetivos, e elementos que definem como a partida será jogada. Ela inclui a escolha da campanha, da variante e do formato.` }}
 
 Estas escolhas são feitas antes do início da partida, e podem ser ajustadas conforme necessário para criar a experiência de jogo desejada pelos jogadores.
 

@@ -6,11 +6,9 @@ order: 80
 
 # Modo de Jogo
 
-{{ briefing `
+{{ briefing `A forma como os jogadores interagem com o sistema. Pode variar desde um modo imaginativo, até um modo apenas no tabuleiro.` }}
 
-  O modo de jogo define a forma como os jogadores interagem com o sistema, as regras e a narrativa. Ele pode variar desde um modo narrativo, onde a história é o foco principal, até um modo de batalha, onde a tática e a estratégia são mais importantes. Cada modo tem suas próprias regras e mecânicas específicas, e os jogadores podem escolher o modo que melhor se encaixa em cada momento da campanha ou sessão de jogo.
-
-`}}
+Cada modo tem suas próprias regras e mecânicas específicas, e os jogadores podem escolher o modo que melhor se encaixa em cada momento da campanha ou sessão de jogo.
 
 É esperado que o jogo alterne entre os modos de jogo durante a sessão, dependendo da situação narrativa.
 
