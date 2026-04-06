@@ -15,7 +15,7 @@ order: 99
 > Portando, leve tudo de forma simbólica ou metafórica, já que são a transliteração de eventos impossíveis de serem explicados de forma literal e fidedigna usando palavras e conceitos do entendimento humano.
 
 ---
-
+<!--
 ## Os Primórdios
 
 !!-light Antes de Tudo
@@ -55,7 +55,7 @@ order: 99
   9. Se viu então sozinho, e quando finalmente tomou consciência da própria existência e solidão ele disse “Não há outro além de mim”. E no vazio ele amadureceu solitário, e do tédio e solidão ele eventualmente aprendeu que sua vontade ali se tornava “realidade”. Então ele aprendeu a criar a matéria e se chamou de o Criador. No entanto, sem a responsabilidade e cautela que sua mãe tinha em seus experimentos, o Criador fez da matéria abundante, tanto que resultou em um novo Mundo ainda mais denso que o Vazio, e ao olhar para esse mundo, ele acabou se contaminando pela baixa vibração etérea da matéria e nesse mundo ele caiu e ficou preso.
 
 !!!
-
+-->
 ---
 
 ## A Criação

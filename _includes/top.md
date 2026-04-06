@@ -21,7 +21,7 @@ Esta seção ainda não foi completamente revisada. Algumas informações podem 
 {{
 
     briefing(brief) = `
-|||{.briefing} :icon-search: Resumo
+|||{.briefing} :icon-search:
   ` + brief + `
 |||
     `

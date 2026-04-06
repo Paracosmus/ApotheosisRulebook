@@ -1,12 +1,16 @@
 ---
-label: Contadores
+label: Contador
 icon: number
 order: 20
 ---
 
-# CONTADORES
+# Contador
 
-Um contador é uma unidade qualquer colocada sobre uma carta, como uma moeda ou ficha de Poker, com o objetivo de representar uma quantidade específica de algo.
+{{ briefing `
+
+  Um contador é uma unidade qualquer colocada sobre uma carta, como uma moeda ou ficha de Poker, com o objetivo de representar uma quantidade específica de algo.
+
+`}}
 
 Contadores são utilizados comumente para contar unidades ou tempo, como custos ou requerimentos para ativar diversos efeitos, entre outros. Eles são adicionados, removidos e usados por efeitos de cartas ou mecânicas de jogo.
 

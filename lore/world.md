@@ -3,6 +3,7 @@ label: Mundo
 icon: globe
 order: 80
 ---
+{{ review() }}
 
 # Mundo
 

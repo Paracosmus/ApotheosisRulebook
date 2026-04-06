@@ -146,11 +146,11 @@ Um {{ companion }} pode ter até 5 cartas anexadas a ele. Esse limite não pode 
 
 Durante o turno do Herói, ele pode anexar e/ou desanexar cartas do seu {{ inv }} a um de seus {{ companion }} em uma casa adjacente.
 
-### [Modo Narrativo](/gameplay/story-mode.md)
+### [Modo Narrativo](/gameplay/game-mode/story-mode.md)
 
 - O jogador pode anexar cartas de recurso livremente
 
-### [Modo de Batalha](/gameplay/battle-mode.md)
+### [Modo de Batalha](/gameplay/game-mode/battle-mode.md)
 
 - Custo de **2** de {{ ap }}
 - O personagem deve estar em uma casa adjacente ao herói no tabuleiro.

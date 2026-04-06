@@ -9,7 +9,80 @@ Este livro e as cartas do jogo utilizam termos com significados específicos. Ab
 
 ---
 
+## A
+
+[!card compact](gameplay/attachment.md)
+
+## B
+
+## C
+
+[!card compact](gameplay/setup/campaign.md) [!card compact](gameplay/setup/)
+
+[!card compact](gameplay/counter.md)
+
+## D
+
+[!card compact](gameplay/die.md)
+
+## E
+
+## F
+
+[!card compact](gameplay/setup/format/)
+
+## G
+
+## H
+
+## I
+
+[!card compact](battle/initiative.md)
+
+## J
+
+## K
+
+## L
+
+## M
+
+[!card compact](battle/chip/dummy.md) [!card compact](gameplay/game-mode/battle-mode.md)
+
+[!card compact](gameplay/game-mode/) [!card compact](gameplay/game-mode/story-mode.md)
+
+## N
+
+## O
+
+## P
+
+## Q
+
+## R
+
+## S
+
+## T
+
+## U
+
+## V
+
+[!card compact](gameplay/setup/variant.md)
+
+## W
+
+## X
+
+## Y
+
+## Z
+
+---
+
 ## Cartas
+
 
 | Termo          | Inglês        | Significado |
 | -------------- | ------------- | ----------- |
@@ -32,9 +105,6 @@ Este livro e as cartas do jogo utilizam termos com significados específicos. Ab
 ---
 
 ## Tabuleiro
-
-[!card compact](battle/chip/dummy.md)
-
 
 | Termo                    | Inglês          | Significado |
 | ------------------------ | --------------- | ----------- |

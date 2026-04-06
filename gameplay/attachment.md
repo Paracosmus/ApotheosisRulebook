@@ -1,12 +1,16 @@
 ---
-label: Anexos
+label: Anexo
 icon: link-external
 order: 10
 ---
 
-# ANEXOS
+# Anexo
 
-Um anexo, ou carta anexada, é uma carta colocada sob outra carta, representando que está ligada àquela carta. A carta a qual os anexos estão ligados é referida como carta **Hospedeira**. Os anexos são utilizados para diferentes funções, comumente relacionados a efeitos ou habilidades da carta hospedeira.
+{{ briefing `
+
+  Um anexo, ou carta anexada, é uma carta colocada sob outra carta, representando que está ligada àquela. A carta a qual os anexos estão ligados é referida como carta **Hospedeira**. Os anexos são utilizados para diferentes funções, comumente relacionados a efeitos ou habilidades da carta hospedeira.
+
+`}}
 
 Os anexos de uma carta a acompanham para onde ela for enviada, exceto quando ela é enviada para uma pilha ou baralho, neste caso os anexos são enviados para a pilha de descarte.
 

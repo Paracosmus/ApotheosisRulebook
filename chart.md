@@ -80,7 +80,6 @@ Mover (por casa do tabuleiro)
 Ataque Normal
 :   **3** de {{ ap }}
 
-    | | | {.compact}
-    | --- | --- |
-    | {{ dmg }}    | {{ str }} + {{ d1d2 }} |
+    | {{ dmg }}    | {{ str }} + {{ d1d2 }} | {.compact}
+    | ------------ | ---------------------- |
     | {{ direct }} | 1                      |

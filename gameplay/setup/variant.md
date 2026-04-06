@@ -1,17 +1,21 @@
 ---
-label: Modo de Jogo
+label: Variante
 icon: code-square
 order: 90
 ---
 
-# Modo de Jogo
+# Variante
 
-Os modos de jogo são variações nas regras e objetivos que permitem diferentes formas de jogar, seja cooperativamente, competitivamente ou em arena, sem necessidade de alterar o formato escolhido.
+{{ briefing `
+
+  Os modos de jogo são variações nas regras e objetivos que permitem diferentes formas de jogar, seja cooperativamente, competitivamente ou em arena, sem necessidade de alterar o formato escolhido.
+
+`}}
 
 Os três modos de jogo mais comuns são: [Cooperativo](#cooperativo), [Competitivo](#competitivo) e [Arena](#arena).
 
 !!!
-A diferença entre o modo de jogo e o formato de jogo é que o formato é uma estrutura mais rígida, baseado no uso de cartas formatadas, listas de restrições e regras específicas, enquanto o modo de jogo tem função estética e geralmente é apenas um acordo entre os jogadores, como por exemplo combinarem de jogar como um grupo unido, ou combinar de formar times, etc..
+A diferença entre o variante e o formato de jogo é que o formato é uma estrutura mais rígida, baseado no uso de cartas formatadas, listas de restrições e regras específicas, enquanto o variante tem função estética e geralmente é apenas um acordo entre os jogadores, como por exemplo combinarem de jogar como um grupo unido, ou combinar de formar times, etc..
 !!!
 
 ---

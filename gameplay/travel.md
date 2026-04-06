@@ -9,6 +9,10 @@ order: 0
 
 A viagem é um mode de jogo utilizado quando o grupo se desloca de um local no mapa da região, para um outro local distante, seja por meio de transporte ou a pé. Por exemplo, ir de uma cidade para a cidade vizinha, sem que seja necessário jogar todos os momento de uma longa viagem.
 
+O tempo de duração de uma viagem é medido em períodos do dia, e pode variar dependendo da distância entre os locais, condições das estradas, meios de transporte utilizados, e outros fatores. Durante a viagem, o grupo pode enfrentar eventos e desafios específicos relacionados ao deslocamento, como encontros aleatórios, condições climáticas adversas, ou efeitos de cartas que podem ser ativados durante a viagem.
+
+Cada período do dia durante uma viagem, cada personagem deve descartar uma carta de recurso (suprimento), ou sofrer um dano de 25 de {{ hp }} (+dano adicional em desertos, montanhas, gelo, etc.).
+
 ---
 
 ## Iniciando uma Viagem

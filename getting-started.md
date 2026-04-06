@@ -39,9 +39,9 @@ order: 100
   ==- Como é o jogo
   %% ----------------------------------------------------------------------- %%
 
-  Os jogadores escolhem uma campanha, formato e/ou modo de jogo, e cada um constrói um conjunto de cartas que representa o seu personagem, chamado de Herói. Durante a partida, os jogadores podem adquirir novas cartas para fortalecer seus Heróis.
+  Os jogadores escolhem uma campanha, formato e/ou variante, e cada um constrói um conjunto de cartas que representa o seu personagem, chamado de Herói. Durante a partida, os jogadores podem adquirir novas cartas para fortalecer seus Heróis.
 
-  O objetivo é cumprir missões, enfrentar desafios, ou derrotar outros jogadores, utilizando suas cartas, conforme estabelecido pelo modo de jogo escolhido.
+  O objetivo é cumprir missões, enfrentar desafios, ou derrotar outros jogadores, utilizando suas cartas, conforme estabelecido pelo variante escolhido.
 
   Quando um confronto ocorre, os jogadores utilizam um tabuleiro quadriculado para posicionar seus Heróis e outros personagens, e rolam dados para resolver ações, ataques e efeitos de cartas na intenção de derrotar seus oponentes ou cumprir os objetivos da partida.
 
@@ -53,7 +53,7 @@ order: 100
 
   ##### Jogadores
 
-  A quantidade de jogadores é definida pelo modo de jogo escolhido ou pela campanha.
+  A quantidade de jogadores é definida pelo variante escolhido ou pela campanha.
 
   - De **1 a 11** jogadores
   - Algumas campanhas podem requerer um **jogador extra** que será o [mestre de jogo](/gameplay/game-master.md), responsável por narrar a história, controlar os inimigos e desafios, e arbitrar as regras
@@ -69,7 +69,7 @@ order: 100
 
   Um tabuleiro quadriculado onde as batalhas entre os personagens possam ocorrer.
 
-  - De 2x1 até qualquer tamanho máximo, dependendo do modo de jogo escolhido
+  - De 2x1 até qualquer tamanho máximo, dependendo do variante escolhido
   - Uma forma de representar os personagens e elementos no tabuleiro (peças, meeples, pinos, peões, figuras, moedas, tokens, etc.)
   - Dados de 6 lados suficientes para todos os jogadores
 
@@ -157,7 +157,7 @@ order: 100
 
   ##### Configuração da Partida
 
-  Uma vez escolhido o [formato](/gameplay/setup/format), [campanha](/gameplay/setup/campaign.md) e/ou [modo de jogo](/gameplay/setup/game-mode.md), siga as regras e passos definidos por estes para preparar a partida. Estes passos podem variar dependendo da escolha e configuração, mas geralmente incluem:
+  Uma vez escolhido o [formato](/gameplay/setup/format), [campanha](/gameplay/setup/campaign.md) e/ou [variante](/gameplay/setup/variant.md), siga as regras e passos definidos por estes para preparar a partida. Estes passos podem variar dependendo da escolha e configuração, mas geralmente incluem:
 
 
   ##### Cartas
@@ -276,7 +276,7 @@ order: 100
 
   Uma vez escolhida a configuração da partida, os jogadores, o mestre de jogo (se houver) e os Heróis estão prontos, as cartas estão embaralhadas e o tabuleiro está montado, a partida pode começar.
 
-  Especificações de como a partida começa, e o que acontece no início da partida, podem variar dependendo do modo de jogo escolhido, mas geralmente envolve uma introdução narrativa, onde o mestre de jogo ou campanha apresenta o cenário, a situação inicial, os objetivos e as regras específicas para aquela partida.
+  Especificações de como a partida começa, e o que acontece no início da partida, podem variar dependendo do variante escolhido, mas geralmente envolve uma introdução narrativa, onde o mestre de jogo ou campanha apresenta o cenário, a situação inicial, os objetivos e as regras específicas para aquela partida.
 
   !!!
   Em uma campanha cooperativa, por exemplo, o mestre de jogo pode descrever a situação inicial, os desafios que os jogadores vão enfrentar, e os objetivos que eles precisam cumprir para vencer a partida. Ele também pode apresentar os NPCs, inimigos e outros elementos do cenário que os jogadores vão interagir.
@@ -289,11 +289,11 @@ order: 100
   ==- Sequência de Jogo (Game Loop)
   %% ----------------------------------------------------------------------- %%
 
-  A partida é jogada em rodadas, onde cada jogador tem a sua vez de jogar. A sequência de jogo pode variar dependendo do modo de jogo escolhido, mas geralmente segue uma estrutura básica de fases, onde cada fase tem suas próprias regras e ações permitidas. Sendo que a rodada, se dá de formas diferentes quando estão no modo narrativo ou no modo de batalha.
+  A partida é jogada em rodadas, onde cada jogador tem a sua vez de jogar. A sequência de jogo pode variar dependendo do variante escolhido, mas geralmente segue uma estrutura básica de fases, onde cada fase tem suas próprias regras e ações permitidas. Sendo que a rodada, se dá de formas diferentes quando estão no modo narrativo ou no modo de batalha.
 
   +++ Modo Narrativo
 
-  [!card](/gameplay/story-mode.md)
+  [!card](/gameplay/game-mode/story-mode.md)
 
   > **_Exemplo de Sequência de Jogo_**
   >
@@ -315,7 +315,7 @@ order: 100
 
   +++ Modo de Batalha
 
-  [!card](/gameplay/battle-mode.md)
+  [!card](/gameplay/game-mode/battle-mode.md)
 
   > **_Exemplo de Sequência de Batalha_**
   >
@@ -337,7 +337,7 @@ order: 100
   ==- Fim de uma Partida
   %% ----------------------------------------------------------------------- %%
 
-  O fim de uma partida, assim como o início, pode variar dependendo do modo de jogo escolhido, mas geralmente ocorre quando um ou mais jogadores cumprem os objetivos estabelecidos para aquela partida, ou quando um evento específico acontece, como a derrota de um chefe de campanha, ou a eliminação de todos os Heróis.
+  O fim de uma partida, assim como o início, pode variar dependendo do variante escolhido, mas geralmente ocorre quando um ou mais jogadores cumprem os objetivos estabelecidos para aquela partida, ou quando um evento específico acontece, como a derrota de um chefe de campanha, ou a eliminação de todos os Heróis.
 
   ##### Campanha Narrativa
 

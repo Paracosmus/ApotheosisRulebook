@@ -261,8 +261,8 @@ data:
   marker:  '[<span class="main"><b>MARCADOR</b></span>](/gameplay/characters/#marcadores)'
   alt:     <b>ALTITUDE</b>
 
-  counter:          '[<span class="main">❂<b>CONTADOR</b></span>](/gameplay/counters/)'
-  counter_ultimate: '[<span class="main">❂<b>CONTADOR DE ULTIMATE</b></span>](/gameplay/counters/)'
+  counter:          '[<span class="main">❂<b>CONTADOR</b></span>](/gameplay/counter/)'
+  counter_ultimate: '[<span class="main">❂<b>CONTADOR DE ULTIMATE</b></span>](/gameplay/counter/)'
 
   # Terrain
   aqua: <b>AQUA</b>
