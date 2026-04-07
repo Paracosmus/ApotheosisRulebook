@@ -35,4 +35,8 @@ O ato de retornar um componente do Limbo para o jogo é referido como "_resgatar
 
 Quando um componente é resgatado do Limbo, ele retorna ao jogo no mesmo estado e local que estava quando foi exilado, trazendo de volta consigo todos os demais componentes ligados e ele, a não ser que o efeito que o trouxe de volta especifique de outra forma.
 
+Se a carta resgatada do Limbo não puder retornar para a zona onde estava, ela retorna para o {{ inv }} do dono. Caso não tenha dono, ela retornar para a pilha de descarte.
+
+Se a casa do tabuleiro onde uma peça resgatada do Limbo deveria retornar estiver ocupada por outra peça, a peça resgatada retornar para uma casa adjacente vazia, escolhida pelo jogador que controla a peça resgatada, se não houverem casas adjacentes vazias, use uma casa adjacente às adjacentes, e assim por diante, até encontrar uma casa vazia. Se não houverem casas vazias, a peça resgatada e quaisquer personagens ou objetos que ela representava ficam no limbo até o final da batalha.
+
 ---
