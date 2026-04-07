@@ -18,6 +18,7 @@ Uma carta anexada é parte da carta hospedeira, e portanto não pode ser tratada
 - O anexo não pode ser alvo de ações, a não ser quando a ação especificar que seleciona um anexo como alvo.
 - O anexo não pode possuir seus próprios anexos, se isto acontecer, os anexos dele devem ser enviados para o {{ inv }} do dono se possível, ou para a pilha de descarte caso contrário.
 - O anexo não pode possuir seus próprios {{ counter }}, nesse caso os contadores são perdidos quando o anexo for anexado à outra carta.
+- O anexo deve ser sempre mantido revelado, mesmo que a carta hospedeira esteja oculta.
 - Anexos não ocupam espaço na {{ table }} do Herói, apenas a hospedeira conta.
 
 !!!

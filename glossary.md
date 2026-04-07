@@ -45,6 +45,8 @@ Este livro e as cartas do jogo utilizam termos com significados específicos. Ab
 
 ## L
 
+[!card compact](gameplay/limbo.md)
+
 ## M
 
 [!card compact](battle/chip/dummy.md) [!card compact](gameplay/game-mode/battle-mode.md)
@@ -97,6 +99,9 @@ Este livro e as cartas do jogo utilizam termos com significados específicos. Ab
 | **Revelar**    | *Reveal*      | Mostrar uma carta que está oculta, geralmente virando-a de face para cima, ou mostrando-a para todos os jogadores |
 | **Ocultar**    | *Conceal*     | Esconder uma carta que está revelada, geralmente virando-a de face para baixo |
 | **Buscar**     | *Search*      | Escolher uma carta na pilha ou baralho especificado, geralmente com limitações, mostrá-la e adicioná-la ao {{ inv }} |
+| **Exilar**     | *Exile*       | Remover uma carta do jogo temporariamente, geralmente com condições para retornar ao jogo |
+| **Resgatar**   | *Retrieve*    | Retornar uma carta do Limbo para o jogo, geralmente nas mesmas condições em que foi exilada |
+| **Banir**      | *Banish*      | Remover uma carta do jogo permanentemente |
 | **Mesa**       | *Table*       | Local da área do jogo onde um Herói coloca suas cartas |
 | **Ficha**      | *Sheet*       | Zona da {{ table }} do Herói onde estão suas cartas de ficha |
 | **Zona Extra** | *Extra Zone*  | Zona da {{ sheet }} do Herói onde algumas mecânicas de jogo e efeitos de cartas podem colocar cartas de ficha extras |
