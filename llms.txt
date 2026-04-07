@@ -1,0 +1,158 @@
+﻿# Home
+
+> Getting Started
+
+- [Home](https://apotheosiscardgame.com/index.md): Home
+- [Começando a Jogar](https://apotheosiscardgame.com/getting-started.md): Este é um jogo de tabuleiro e cartas híbrido que combina elementos de:
+- [Mitologia](https://apotheosiscardgame.com/lore/index.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Cartas](https://apotheosiscardgame.com/cards/index.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Herói](https://apotheosiscardgame.com/hero/index.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Batalha](https://apotheosiscardgame.com/battle/index.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Diretrizes](https://apotheosiscardgame.com/guidelines.md): As diretrizes são regras gerais aplicáveis a todas as situações do jogo. Elas devem ser seguidas sempre que possível, a não ser quando uma regra mais específica ou um efeito de carta disser o contrário.
+- [Cartilha](https://apotheosiscardgame.com/chart.md): Custo de AÇÃO e/ou Energia (ESTAMINA, MANA e/ou Essência), além dos requerimentos e custos adicionais descritos na carta, se houver
+- [Glossário](https://apotheosiscardgame.com/glossary.md): Este livro e as cartas do jogo utilizam termos com significados específicos. Abaixo estão listados esses termos e seus significados.
+- [Ícones](https://apotheosiscardgame.com/icons.md): Icon
+
+## Mitologia
+
+- [Cosmologia](https://apotheosiscardgame.com/lore/cosmology.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+
+### Conjuntos de Cartas
+
+#### Coleções
+
+- [Base](https://apotheosiscardgame.com/lore/cards-sets/collections/base.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+
+#### Conjuntos
+
+- [Adrenocromo](https://apotheosiscardgame.com/lore/cards-sets/sets/adrenochrome.md): Adrenocromo é um produto de oxidação da adrenalina (epinefrina).
+- [Iluminação](https://apotheosiscardgame.com/lore/cards-sets/sets/enlightenment.md): Usa-se o mapa de iluminação
+- [Protobots](https://apotheosiscardgame.com/lore/cards-sets/sets/protobots.md): Robôs, porém em vez de IA, uma pneuma humana (companion) é dada a eles
+
+#### Lignums
+
+- [Ablyss](https://apotheosiscardgame.com/lore/cards-sets/lignums/ablyss.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Anima](https://apotheosiscardgame.com/lore/cards-sets/lignums/anima.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+
+### Seres
+
+#### Criados
+
+- [Abissais](https://apotheosiscardgame.com/lore/beings/created/abyssal.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Caído](https://apotheosiscardgame.com/lore/beings/created/fallen.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Criatura](https://apotheosiscardgame.com/lore/beings/created/creature.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Dealer](https://apotheosiscardgame.com/lore/beings/created/dealer.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Drako](https://apotheosiscardgame.com/lore/beings/created/drako.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Evocação](https://apotheosiscardgame.com/lore/beings/created/summon-companion.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Humano Companheiro](https://apotheosiscardgame.com/lore/beings/created/human-companion.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Humano Herói](https://apotheosiscardgame.com/lore/beings/created/human-hero.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Vigilante](https://apotheosiscardgame.com/lore/beings/created/watcher.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+
+#### Entidades
+
+- [Deidade](https://apotheosiscardgame.com/lore/beings/entity/deity.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Deus](https://apotheosiscardgame.com/lore/beings/entity/god.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Espírito](https://apotheosiscardgame.com/lore/beings/entity/sprite.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+
+#### Numinoso
+
+- [Numinoso](https://apotheosiscardgame.com/lore/beings/numinous/index.md): No jogo, são representados pelos componentes do jogo utilizados pelo narrador para criar o universo, desde o livro de regras que ele usa, até os componentes físicos como cartas, tabuleiro, dados, etc.
+
+##### Outros
+
+- [Outros](https://apotheosiscardgame.com/lore/beings/numinous/others/index.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Maedra](https://apotheosiscardgame.com/lore/beings/numinous/others/maedra.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Prehod](https://apotheosiscardgame.com/lore/beings/numinous/others/prehod.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+
+##### Regentes
+
+- [Regentes](https://apotheosiscardgame.com/lore/beings/numinous/regent/index.md)
+- [Satheos](https://apotheosiscardgame.com/lore/beings/numinous/regent/satheos.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+
+##### Trindade
+
+- [Trindade](https://apotheosiscardgame.com/lore/beings/numinous/trinity/index.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Unidade](https://apotheosiscardgame.com/lore/beings/numinous/trinity/unity.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Luz](https://apotheosiscardgame.com/lore/beings/numinous/trinity/light.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Trevas](https://apotheosiscardgame.com/lore/beings/numinous/trinity/darkness.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+
+#### Sintético
+
+- [Sintético](https://apotheosiscardgame.com/lore/beings/synthetic/index.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Robôs](https://apotheosiscardgame.com/lore/beings/synthetic/robots.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Mundo](https://apotheosiscardgame.com/lore/world.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+
+## Cartas
+
+- [Casa](https://apotheosiscardgame.com/cards/house.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Classe](https://apotheosiscardgame.com/cards/class.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Ente](https://apotheosiscardgame.com/cards/entity.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [ITEM](https://apotheosiscardgame.com/cards/item.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [HABILIDADE](https://apotheosiscardgame.com/cards/skill.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [COMPANHEIRO](https://apotheosiscardgame.com/cards/companion.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [EVENTO](https://apotheosiscardgame.com/cards/event.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+
+### Summus
+
+- [SUMMUS](https://apotheosiscardgame.com/cards/summus/index.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [ Ars](https://apotheosiscardgame.com/cards/summus/ars.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [ Ascensus](https://apotheosiscardgame.com/cards/summus/ascensus.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [ Collegium](https://apotheosiscardgame.com/cards/summus/collegium.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [ Daemon](https://apotheosiscardgame.com/cards/summus/daemon.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [ Dominium](https://apotheosiscardgame.com/cards/summus/dominium.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [ Magisterium](https://apotheosiscardgame.com/cards/summus/magisterium.md): Magisterium é o termo latino para “magistério”, no sentido de ensino, autoridade, conhecimento.
+- [ Pactum](https://apotheosiscardgame.com/cards/summus/pactum.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [ Res](https://apotheosiscardgame.com/cards/summus/res.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [ Ultimatum](https://apotheosiscardgame.com/cards/summus/ultimatum.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+
+## Heróis
+
+- [ATRIBUTOS](https://apotheosiscardgame.com/hero/attributes.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Conhecimentos](https://apotheosiscardgame.com/hero/knowledge.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Mesa](https://apotheosiscardgame.com/hero/table.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Inventário](https://apotheosiscardgame.com/hero/inventory.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+
+## Batalha
+
+- [Tabuleiro](https://apotheosiscardgame.com/battle/board.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+
+### Peça
+
+- [Peça](https://apotheosiscardgame.com/battle/chip/index.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Modelo](https://apotheosiscardgame.com/battle/chip/dummy.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Casa do Tabuleiro](https://apotheosiscardgame.com/battle/tile.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Rodadas e Turnos](https://apotheosiscardgame.com/battle/turn.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Iniciativa](https://apotheosiscardgame.com/battle/initiative.md): É uma comparação feita entre os personagens para determinar a ordem de ação durante o combate, representando a rapidez com que eles podem agir.
+
+## Gameplay
+
+### Configuração da Partida
+
+- [Configuração da Partida](https://apotheosiscardgame.com/gameplay/setup/index.md): É o conjunto de regras, objetivos, e elementos que definem como a partida será jogada. Ela inclui a escolha da campanha, da variante e do formato.
+
+#### Formato
+
+- [Formato](https://apotheosiscardgame.com/gameplay/setup/format/index.md): São conjuntos personalizados de regras que adicionam ou modificam as regras padrões de jogo, incluindo a forma de interpretar as carta.
+- [Batalha Campal](https://apotheosiscardgame.com/gameplay/setup/format/field-battle.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Batalha Naval](https://apotheosiscardgame.com/gameplay/setup/format/naval-battle.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Companion Bowl](https://apotheosiscardgame.com/gameplay/setup/format/companion-bowl.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Lagvig](https://apotheosiscardgame.com/gameplay/setup/format/lagvig.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Variante](https://apotheosiscardgame.com/gameplay/setup/variant.md): São variações nas regras e objetivos que permitem diferentes formas de jogar, seja cooperativamente, competitivamente ou em arena.
+- [Campanha](https://apotheosiscardgame.com/gameplay/setup/campaign.md): São histórias pré-definidas que guiam os jogadores através de uma série de missões e desafios utilizando as cartas e mecânicas do jogo.
+
+### Modo de Jogo
+
+- [Modo de Jogo](https://apotheosiscardgame.com/gameplay/game-mode/index.md): A forma como os jogadores interagem com o sistema. Pode variar desde um modo imaginativo, até um modo apenas no tabuleiro.
+- [Modo de Batalha](https://apotheosiscardgame.com/gameplay/game-mode/battle-mode.md): É o modo de jogo onde os jogadores participam de combates táticos, utilizando as regras de batalha para resolver ações e efeitos de cartas.
+- [Modo Narrativo](https://apotheosiscardgame.com/gameplay/game-mode/story-mode.md): É o modo de jogo onde os jogadores participam de uma narrativa livre, focada em interpretação e estória, com resolução de ações através de testes.
+- [Personagens](https://apotheosiscardgame.com/gameplay/characters.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Mestre de Jogo](https://apotheosiscardgame.com/gameplay/game-master.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Baralhos](https://apotheosiscardgame.com/gameplay/decks.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Cenário](https://apotheosiscardgame.com/gameplay/scenario.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Limbo](https://apotheosiscardgame.com/gameplay/limbo.md): Limbo é um estado de jogo onde um componente está temporariamente fora de jogo.
+- [Dado](https://apotheosiscardgame.com/gameplay/die.md): Inúmeras ações no jogo são resolvidas através da rolagem de dados, incluindo testes, ataques, efeitos, entre outros.
+- [TESTES](https://apotheosiscardgame.com/gameplay/check.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Contador](https://apotheosiscardgame.com/gameplay/counter.md): É uma unidade qualquer colocada sobre uma carta, como uma moeda ou ficha de Poker, com o objetivo de representar uma quantidade específica de algo.
+- [Anexo](https://apotheosiscardgame.com/gameplay/attachment.md): Anexo, ou carta anexada, é uma carta colocada sob outra carta, representando que está ligada àquela.
+- [Passagem do Tempo](https://apotheosiscardgame.com/gameplay/time.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Viagem](https://apotheosiscardgame.com/gameplay/travel.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.

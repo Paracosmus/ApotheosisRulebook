@@ -7,10 +7,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.828817933169">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.2.828914352596">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.4.0">
+    <meta name="generator" content="Retype 4.5.2">
 
     <!-- Primary Meta Tags -->
     <title>Cen&#225;rio</title>
@@ -19,6 +19,7 @@
 
     <!-- Canonical -->
     <link rel="canonical" href="https://apotheosiscardgame.com/gameplay/scenario/">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="https://apotheosiscardgame.com/sitemap.xml">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
@@ -34,14 +35,17 @@
     <meta name="twitter:title" content="Cenário">
     <meta name="twitter:description" content="Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.">
 
+    <!-- Alternate Markdown -->
+    <link rel="alternate" type="text/markdown" href="https://apotheosiscardgame.com/gameplay/scenario.md">
+
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../static/img/favicon.ico" />
-    <link href="../../resources/css/retype.css?v=4.4.0.828817933169" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.5.2.828914352596" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.4.0.828817933169" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.4.0.828817933169" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.5.2.828914352596" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.5.2" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.5.2.828914352596" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -385,7 +389,7 @@
 <div class="flex">
     <div id="retype-main" class="min-w-0 p-4 grow md:px-16">
         <main class="relative pb-12 lg:pt-2">
-            <div class="retype-markdown" id="retype-content">
+            <div class="relative retype-markdown" id="retype-content">
                 <!-- Rendered if sidebar right is enabled -->
                 <div id="retype-sidebar-right-toggle"></div>
                 <nav id="retype-breadcrumb" class="breadcrumb" aria-label="Breadcrumb">
@@ -415,6 +419,8 @@
                         </li>
                     </ol>
                 </nav>
+
+                <doc-page-actions></doc-page-actions>
 
                 <!-- Page content  -->
 <!-- Insert this at the top of each markdown page -->
@@ -446,21 +452,27 @@
 <h2 id="adicionando-cartas-ao-cenário">Adicionando Cartas ao Cenário</h2>
 <p>Uma carta pode ser adicionada ao <a href=""><span class="event"><b>CENÁRIO</b></span></a> das seguintes formas:</p>
 <ol>
-<li><p><strong>Palavra-chave</strong>: Quando um efeito com a palavra-chave <a href="../../cards/#palavras-chave-de-efeito-keyword"><span class="keyword-task">Register</span></a> fora ativado.</p>
+<li>
+<p><strong>Palavra-chave</strong>: Quando um efeito com a palavra-chave <a href="../../cards/#palavras-chave-de-efeito-keyword"><span class="keyword-task">Register</span></a> fora ativado.</p>
 </li>
-<li><p><strong>Efeito de carta</strong>: Algumas cartas possuem efeitos que especificam qual, quando e como uma carta será enviada para o <a href=""><span class="event"><b>CENÁRIO</b></span></a></p>
+<li>
+<p><strong>Efeito de carta</strong>: Algumas cartas possuem efeitos que especificam qual, quando e como uma carta será enviada para o <a href=""><span class="event"><b>CENÁRIO</b></span></a></p>
 </li>
-<li><p><strong>Campanha</strong>: Algumas campanhas possuem regras que especificam quais cartas devem ser colocadas no <a href=""><span class="event"><b>CENÁRIO</b></span></a> e quando</p>
+<li>
+<p><strong>Campanha</strong>: Algumas campanhas possuem regras que especificam quais cartas devem ser colocadas no <a href=""><span class="event"><b>CENÁRIO</b></span></a> e quando</p>
 </li>
 </ol>
 <hr>
 <h2 id="removendo-cartas-do-cenário">Removendo Cartas do Cenário</h2>
 <ol>
-<li><p><strong>Final do combate</strong>: Ao final de cada combate, todas as cartas no <a href=""><span class="event"><b>CENÁRIO</b></span></a> devem ser descartadas, a menos que uma regra ou efeito especifique o contrário.</p>
+<li>
+<p><strong>Final do combate</strong>: Ao final de cada combate, todas as cartas no <a href=""><span class="event"><b>CENÁRIO</b></span></a> devem ser descartadas, a menos que uma regra ou efeito especifique o contrário.</p>
 </li>
-<li><p><strong>Efeito de carta</strong>: Algumas cartas possuem efeitos que especificam qual, quando e como uma carta será removida do <a href=""><span class="event"><b>CENÁRIO</b></span></a></p>
+<li>
+<p><strong>Efeito de carta</strong>: Algumas cartas possuem efeitos que especificam qual, quando e como uma carta será removida do <a href=""><span class="event"><b>CENÁRIO</b></span></a></p>
 </li>
-<li><p><strong>Campanha</strong>: Algumas campanhas possuem regras que especificam quais cartas devem ser removidas do <a href=""><span class="event"><b>CENÁRIO</b></span></a> e quando</p>
+<li>
+<p><strong>Campanha</strong>: Algumas campanhas possuem regras que especificam quais cartas devem ser removidas do <a href=""><span class="event"><b>CENÁRIO</b></span></a> e quando</p>
 </li>
 </ol>
 <hr>
@@ -496,7 +508,7 @@
     <a href="/cards/event/" class="group card-compact no-link">
         <div class="card-compact-body">
             <div class="card-compact-header">
-                <span class="card-compact-icon inline-flex shrink-0"><img width="20" src="../../static/img/icons/suit_event.svg"></span>
+                <span class="card-compact-icon inline-flex shrink-0"><img width="20" height="20" src="../../static/img/icons/suit_event.svg"></span>
                 <span class="card-compact-title">EVENTO</span>
             </div>
             <p class="card-compact-description">Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.</p>
@@ -517,7 +529,7 @@
     <a href="/cards/summus/dominium/" class="group card-compact no-link">
         <div class="card-compact-body">
             <div class="card-compact-header">
-                <span class="card-compact-icon inline-flex shrink-0"><img width="20" src="../../../static/img/icons/summus_dominium.svg"></span>
+                <span class="card-compact-icon inline-flex shrink-0"><img width="20" height="20" src="../../../static/img/icons/summus_dominium.svg"></span>
                 <span class="card-compact-title"> Dominium</span>
             </div>
             <p class="card-compact-description">Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.</p>
@@ -554,10 +566,10 @@
                     </div>
             
                     <div class="w-1/2">
-                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../gameplay/die/">
+                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../gameplay/limbo/">
                             <span>
                                 <span class="block text-xs font-normal text-right text-base-text-muted">Next</span>
-                                <span class="block mt-1">Dado</span>
+                                <span class="block mt-1">Limbo</span>
                             </span>
                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                         </a>
@@ -601,7 +613,7 @@
 
     <div id="retype-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Cenário", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+        <script data-cfasync="false">window.__DOCS__ = { "title": "Cenário", level: 2, icon: "file", hasPrism: false, hasInstagram: false, hasMermaid: false, hasMath: false, tocDepth: 23, "md": "/gameplay/scenario.md" }</script>
 
     <!-- Footer -->
     <footer>

@@ -7,10 +7,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.828817933169">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.2.828914352596">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.4.0">
+    <meta name="generator" content="Retype 4.5.2">
 
     <!-- Primary Meta Tags -->
     <title>Classe</title>
@@ -19,6 +19,7 @@
 
     <!-- Canonical -->
     <link rel="canonical" href="https://apotheosiscardgame.com/cards/class/">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="https://apotheosiscardgame.com/sitemap.xml">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
@@ -40,14 +41,17 @@
     <meta name="twitter:image" content="https://apotheosiscardgame.com/static/img/cards/class.png">
     <meta name="twitter:image:alt" content="Classe">
 
+    <!-- Alternate Markdown -->
+    <link rel="alternate" type="text/markdown" href="https://apotheosiscardgame.com/cards/class.md">
+
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../static/img/favicon.ico" />
-    <link href="../../resources/css/retype.css?v=4.4.0.828817933169" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.5.2.828914352596" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.4.0.828817933169" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.4.0.828817933169" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.5.2.828914352596" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.5.2" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.5.2.828914352596" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -391,7 +395,7 @@
 <div class="flex">
     <div id="retype-main" class="min-w-0 p-4 grow md:px-16">
         <main class="relative pb-12 lg:pt-2">
-            <div class="retype-markdown" id="retype-content">
+            <div class="relative retype-markdown" id="retype-content">
                 <!-- Rendered if sidebar right is enabled -->
                 <div id="retype-sidebar-right-toggle"></div>
                 <nav id="retype-breadcrumb" class="breadcrumb" aria-label="Breadcrumb">
@@ -421,6 +425,8 @@
                         </li>
                     </ol>
                 </nav>
+
+                <doc-page-actions></doc-page-actions>
 
                 <!-- Page content  -->
 <!-- Insert this at the top of each markdown page -->
@@ -464,21 +470,29 @@
     </div>
     <div class="px-5 py-3 docs-columns-content">
 <ol>
-<li><p><strong>Bônus de Atributo</strong>: Valores adicionados aos <a href="../../hero/attributes/">Atributos</a> do personagem</p>
+<li>
+<p><strong>Bônus de Atributo</strong>: Valores adicionados aos <a href="../../hero/attributes/">Atributos</a> do personagem</p>
 </li>
-<li><p><strong>Conhecimentos</strong>: Adiciona <span class="positive">+1</span> de nível em cada <a href="../../hero/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a> listado</p>
+<li>
+<p><strong>Conhecimentos</strong>: Adiciona <span class="positive">+1</span> de nível em cada <a href="../../hero/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a> listado</p>
 </li>
-<li><p><strong>Espaços de Equipamento</strong>: Bônus de espaços de <a href="../../hero/table/#-equipamento"><span class="item"><b>EQUIPAMENTO</b></span></a></p>
+<li>
+<p><strong>Espaços de Equipamento</strong>: Bônus de espaços de <a href="../../hero/table/#-equipamento"><span class="item"><b>EQUIPAMENTO</b></span></a></p>
 </li>
-<li><p><strong>Espaços de Memento</strong>: Bônus de espaços de <a href="../../hero/table/#-memento"><span class="skill"><b>MEMENTO</b></span></a>. Sendo que toda classe fornece pelo menos 1 espaço deste tipo</p>
+<li>
+<p><strong>Espaços de Memento</strong>: Bônus de espaços de <a href="../../hero/table/#-memento"><span class="skill"><b>MEMENTO</b></span></a>. Sendo que toda classe fornece pelo menos 1 espaço deste tipo</p>
 </li>
-<li><p><strong>Caminho</strong>: Ícone do caminho da classe</p>
+<li>
+<p><strong>Caminho</strong>: Ícone do caminho da classe</p>
 </li>
-<li><p><strong>Nível da Carta</strong>: de 1 a 3</p>
+<li>
+<p><strong>Nível da Carta</strong>: de 1 a 3</p>
 </li>
-<li><p><strong>Bônus</strong>: Bônus passivo imediato aplicado ao Herói</p>
+<li>
+<p><strong>Bônus</strong>: Bônus passivo imediato aplicado ao Herói</p>
 </li>
-<li><p><strong>Efeito</strong>: Texto do efeito desta carta</p>
+<li>
+<p><strong>Efeito</strong>: Texto do efeito desta carta</p>
 </li>
 </ol>
     </div>
@@ -550,7 +564,6 @@
 <hr>
 <h2 id="progredir"><span class="class">Progredir</span></h2>
 <p>Se o personagem possuir em sua <a href="../../hero/table/#-ficha"><span class="main"><b>FICHA</b></span></a>, uma <a href=""><span class="class"><b>CLASSE</b></span></a> do mesmo caminho de uma outra <a href=""><span class="class"><b>CLASSE</b></span></a> desejada e nível imediatamente inferior ou igual, para adquirir esta carta, siga as mesmas instruções em <doc-anchor-trigger to="#adquirir">Adquirir</doc-anchor-trigger>, porém no momento de enterrar as cartas de custo, ao invés, enterre sua carta de <a href=""><span class="class"><b>CLASSE</b></span></a> de mesmo caminho e 3 cartas de recurso.</p>
-<hr>
 <div id="retype-backlinks">
     <h2>See also</h2>
 <div class="card-compact-group">
@@ -633,7 +646,7 @@
     <a href="/cards/summus/magisterium/" class="group card-compact no-link">
         <div class="card-compact-body">
             <div class="card-compact-header">
-                <span class="card-compact-icon inline-flex shrink-0"><img width="20" src="../../../static/img/icons/summus_magisterium.svg"></span>
+                <span class="card-compact-icon inline-flex shrink-0"><img width="20" height="20" src="../../../static/img/icons/summus_magisterium.svg"></span>
                 <span class="card-compact-title"> Magisterium</span>
             </div>
             <p class="card-compact-description">Magisterium é o termo latino para “magistério”, no sentido de ensino, autoridade, conhecimento.</p>
@@ -642,6 +655,7 @@
 </div>
 </div>
 </div>
+<hr>
 <!-- Insert this at the bottom of each markdown page -->
 <!-- Tooltips -->
 <!-- *[AWS]: Amazon Web Services -->
@@ -717,7 +731,7 @@
 
     <div id="retype-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Classe", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+        <script data-cfasync="false">window.__DOCS__ = { "title": "Classe", level: 2, icon: "file", hasPrism: false, hasInstagram: false, hasMermaid: false, hasMath: false, tocDepth: 23, "md": "/cards/class.md" }</script>
 
     <!-- Footer -->
     <footer>

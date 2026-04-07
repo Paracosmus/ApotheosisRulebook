@@ -7,10 +7,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.828817933169">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.2.828914352596">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.4.0">
+    <meta name="generator" content="Retype 4.5.2">
 
     <!-- Primary Meta Tags -->
     <title>COMPANHEIRO</title>
@@ -19,6 +19,7 @@
 
     <!-- Canonical -->
     <link rel="canonical" href="https://apotheosiscardgame.com/cards/companion/">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="https://apotheosiscardgame.com/sitemap.xml">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
@@ -40,14 +41,17 @@
     <meta name="twitter:image" content="https://apotheosiscardgame.com/static/img/cards/companion.png">
     <meta name="twitter:image:alt" content="COMPANHEIRO">
 
+    <!-- Alternate Markdown -->
+    <link rel="alternate" type="text/markdown" href="https://apotheosiscardgame.com/cards/companion.md">
+
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../static/img/favicon.ico" />
-    <link href="../../resources/css/retype.css?v=4.4.0.828817933169" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.5.2.828914352596" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.4.0.828817933169" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.4.0.828817933169" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.5.2.828914352596" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.5.2" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.5.2.828914352596" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -391,7 +395,7 @@
 <div class="flex">
     <div id="retype-main" class="min-w-0 p-4 grow md:px-16">
         <main class="relative pb-12 lg:pt-2">
-            <div class="retype-markdown" id="retype-content">
+            <div class="relative retype-markdown" id="retype-content">
                 <!-- Rendered if sidebar right is enabled -->
                 <div id="retype-sidebar-right-toggle"></div>
                 <nav id="retype-breadcrumb" class="breadcrumb" aria-label="Breadcrumb">
@@ -421,6 +425,8 @@
                         </li>
                     </ol>
                 </nav>
+
+                <doc-page-actions></doc-page-actions>
 
                 <!-- Page content  -->
 <!-- Insert this at the top of each markdown page -->
@@ -463,21 +469,29 @@
     </div>
     <div class="px-5 py-3 docs-columns-content">
 <ol>
-<li><p><strong>Tipo</strong></p>
+<li>
+<p><strong>Tipo</strong></p>
 </li>
-<li><p><strong>Caminho</strong></p>
+<li>
+<p><strong>Caminho</strong></p>
 </li>
-<li><p><strong>Valor em Vontade</strong></p>
+<li>
+<p><strong>Valor em Vontade</strong></p>
 </li>
-<li><p><strong>Nível e Conhecimentos</strong></p>
+<li>
+<p><strong>Nível e Conhecimentos</strong></p>
 </li>
-<li><p><strong>Atributos Base</strong>: Bônus passivo imediato providos por esta carta</p>
+<li>
+<p><strong>Atributos Base</strong>: Bônus passivo imediato providos por esta carta</p>
 </li>
-<li><p><strong>Tipos de Anexos</strong>: Texto do efeito desta carta</p>
+<li>
+<p><strong>Tipos de Anexos</strong>: Texto do efeito desta carta</p>
 </li>
-<li><p><strong>Técnicas</strong>: Texto do efeito deste movimento carta</p>
+<li>
+<p><strong>Técnicas</strong>: Texto do efeito deste movimento carta</p>
 </li>
-<li><p><strong>Efeito</strong>: Texto do efeito desta carta</p>
+<li>
+<p><strong>Efeito</strong>: Texto do efeito desta carta</p>
 </li>
 </ol>
     </div>
@@ -637,18 +651,22 @@
 <h2 id="recrutar"><span class="companion">Recrutar</span></h2>
 <p>Ao custo de 2 de <a href="../../hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a>, esta carta pode ser enviada para um espaço disponível no <a href="../../hero/table/#-suporte"><span class="companion"><b>SUPORTE</b></span></a> do Herói.</p>
 <ul>
-<li><p>Se o personagem for <doc-anchor-trigger to="#-humano"><span class="companion"><b>HUMANO</b></span></doc-anchor-trigger> ou <doc-anchor-trigger to="#-criatura"><span class="companion"><b>CRIATURA</b></span></doc-anchor-trigger>, ele deve ser colocado em uma <a href="../../battle/board/#casa-de-acesso">casa de acesso do tabuleiro</a>. Se não houverem casas de acesso disponíveis, o personagem não pode ser recrutado.</p>
+<li>
+<p>Se o personagem for <doc-anchor-trigger to="#-humano"><span class="companion"><b>HUMANO</b></span></doc-anchor-trigger> ou <doc-anchor-trigger to="#-criatura"><span class="companion"><b>CRIATURA</b></span></doc-anchor-trigger>, ele deve ser colocado em uma <a href="../../battle/board/#casa-de-acesso">casa de acesso do tabuleiro</a>. Se não houverem casas de acesso disponíveis, o personagem não pode ser recrutado.</p>
 </li>
-<li><p>Se o personagem for uma <doc-anchor-trigger to="#-evoca%C3%A7%C3%A3o"><span class="companion"><b>EVOCAÇÃO</b></span></doc-anchor-trigger>, coloque sua peça em uma casa adjacente ao Herói. Se não houver nenhuma casa adjacente disponível, este personagem não pode ser evocado.</p>
+<li>
+<p>Se o personagem for uma <doc-anchor-trigger to="#-evoca%C3%A7%C3%A3o"><span class="companion"><b>EVOCAÇÃO</b></span></doc-anchor-trigger>, coloque sua peça em uma casa adjacente ao Herói. Se não houver nenhuma casa adjacente disponível, este personagem não pode ser evocado.</p>
 </li>
 </ul>
 <hr>
 <h2 id="abandonar"><span class="companion">Abandonar</span></h2>
 <p>Ao custo de 2 de <a href="../../hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a>, esta carta pode ser enviada do <a href="../../hero/table/#-suporte"><span class="companion"><b>SUPORTE</b></span></a> para o <a href="../../hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a> do Herói.</p>
 <ul>
-<li><p>Se o personagem for <doc-anchor-trigger to="#-humano"><span class="companion"><b>HUMANO</b></span></doc-anchor-trigger> ou <doc-anchor-trigger to="#-criatura"><span class="companion"><b>CRIATURA</b></span></doc-anchor-trigger>, é necessário que haja uma <a href="../../battle/board/#casa-de-acesso">casa de cesso do tabuleiro</a> disponível para que o personagem possa ser retirado do tabuleiro. Se não houver casas de acesso disponíveis, o personagem não pode ser abandonado.</p>
+<li>
+<p>Se o personagem for <doc-anchor-trigger to="#-humano"><span class="companion"><b>HUMANO</b></span></doc-anchor-trigger> ou <doc-anchor-trigger to="#-criatura"><span class="companion"><b>CRIATURA</b></span></doc-anchor-trigger>, é necessário que haja uma <a href="../../battle/board/#casa-de-acesso">casa de cesso do tabuleiro</a> disponível para que o personagem possa ser retirado do tabuleiro. Se não houver casas de acesso disponíveis, o personagem não pode ser abandonado.</p>
 </li>
-<li><p>Se o personagem for uma <doc-anchor-trigger to="#-evoca%C3%A7%C3%A3o"><span class="companion"><b>EVOCAÇÃO</b></span></doc-anchor-trigger>, remova sua peça do tabuleiro.</p>
+<li>
+<p>Se o personagem for uma <doc-anchor-trigger to="#-evoca%C3%A7%C3%A3o"><span class="companion"><b>EVOCAÇÃO</b></span></doc-anchor-trigger>, remova sua peça do tabuleiro.</p>
 </li>
 </ul>
 <hr>
@@ -711,8 +729,6 @@
 <p>Quando um <a href=""><span class="companion"><b>COMPANHEIRO</b></span></a> morrer, sua carta deve ser enterrada e todas as cartas anexadas devem ser descartadas para a sua respectiva pilha de descarte, exceto <a href="../item/"><span class="item"><b>ITEM</b></span></a>, que podem ser saqueados do seu corpo.</p>
 <h3 id="morte-do-herói">Morte do Herói</h3>
 <p>Se o Herói morrer, o jogador deve continuar a batalha utilizando as peças de <a href=""><span class="companion"><b>COMPANHEIRO</b></span></a> do tipo <doc-anchor-trigger to="#-humano"><span class="companion"><b>HUMANO</b></span></doc-anchor-trigger> e/ou <doc-anchor-trigger to="#-criatura"><span class="companion"><b>CRIATURA</b></span></doc-anchor-trigger> que lhe restam no tabuleiro, ignorando quaisquer efeitos dados pelo Herói. Se o Herói possuir <a href=""><span class="companion"><b>COMPANHEIRO</b></span></a> do tipo <doc-anchor-trigger to="#-evoca%C3%A7%C3%A3o"><span class="companion"><b>EVOCAÇÃO</b></span></doc-anchor-trigger>, eles são desevocados imediatamente.</p>
-<h3 id="técnica"><span class="companion">Técnica</span></h3>
-<hr>
 <div id="retype-backlinks">
     <h2>See also</h2>
 <div class="card-compact-group">
@@ -828,7 +844,7 @@
     <a href="/cards/summus/daemon/" class="group card-compact no-link">
         <div class="card-compact-body">
             <div class="card-compact-header">
-                <span class="card-compact-icon inline-flex shrink-0"><img width="20" src="../../../static/img/icons/summus_daemon.svg"></span>
+                <span class="card-compact-icon inline-flex shrink-0"><img width="20" height="20" src="../../../static/img/icons/summus_daemon.svg"></span>
                 <span class="card-compact-title"> Daemon</span>
             </div>
             <p class="card-compact-description">Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.</p>
@@ -837,6 +853,8 @@
 </div>
 </div>
 </div>
+<h3 id="técnica"><span class="companion">Técnica</span></h3>
+<hr>
 <!-- Insert this at the bottom of each markdown page -->
 <!-- Tooltips -->
 <!-- *[AWS]: Amazon Web Services -->
@@ -912,7 +930,7 @@
 
     <div id="retype-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Companheiro", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+        <script data-cfasync="false">window.__DOCS__ = { "title": "Companheiro", level: 2, icon: "file", hasPrism: false, hasInstagram: false, hasMermaid: false, hasMath: false, tocDepth: 23, "md": "/cards/companion.md" }</script>
 
     <!-- Footer -->
     <footer>
