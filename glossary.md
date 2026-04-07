@@ -107,6 +107,7 @@ Este livro e as cartas do jogo utilizam termos com significados específicos. Ab
 
 | Termo                    | Inglês          | Significado |
 | ------------------------ | --------------- | ----------- |
+| **Componente**           | *Component*     | Qualquer elemento físico do jogo, como cartas, peças, contadores, etc. |
 | **Peça**                 | *Chip*          | Peão que representa um personagem ou objeto no tabuleiro de batalha |
 | **Mover**                | *Move*          | Colocar uma peça em outra casa do tabuleiro |
 | **Distância**            | *Distance*      | Alcance da ação ou movimento |
