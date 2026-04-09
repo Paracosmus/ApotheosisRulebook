@@ -4,7 +4,7 @@
 
 Em jogo, o _Magisterium_ representa o estado de maestria de um Herói sobre um determinado aspecto do mundo, seja ele físico, mental ou espiritual. O Herói éterligador combina seu estudo, prática e experiência avançados naquele assunto, com o seu domínio do éter e conhecimento da verdade sobre o universo, levando sua mente a superar os limites esperados do entendimento humano, chegando ao entendimento quase divino e externo, acerca do tema.
 
-Ele é representado por uma carta de [<span class="class"><b>CLASSE</b></span>](/cards/class.md) na **Zona Extra** da [<span class="main"><b>FICHA</b></span>](/hero/table.md#-ficha), sendo assim, uma [<span class="class"><b>CLASSE</b></span>](/cards/class.md) adicional especial.
+Ele é representado por uma carta de [<span class="class"><b>CLASSE</b></span>](/cards/class.md) na **Zona Extra** da [<span class="main"><b>FICHA</b></span>](/hero/table/sheet.md), sendo assim, uma [<span class="class"><b>CLASSE</b></span>](/cards/class.md) adicional especial.
 
 Este entendimento superior é representado em jogo através de bônus. Sendo o _Magisterium_ primariamente um provedor de modificadores numérico adicional para o Herói em determinados casos relacionados à sua maestria.
 

@@ -7,10 +7,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.2.828920023904">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.829081596450">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.5.2">
+    <meta name="generator" content="Retype 4.5.3">
 
     <!-- Primary Meta Tags -->
     <title>Diretrizes</title>
@@ -41,11 +41,12 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../static/img/favicon.ico" />
-    <link href="../resources/css/retype.css?v=4.5.2.828920023904" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=4.5.3.829081596450" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=4.5.2.828920023904" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../resources/js/retype.js?v=4.5.2" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.5.2.828920023904" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=4.5.3.829081596450" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.5.3.829081596450" data-turbo-eval="false" defer></script>
+    <script id="mermaid-js" data-cfasync="false" src="../resources/js/mermaid.js?v=4.5.3" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -424,6 +425,14 @@
 <hr>
 <h2 id="siga-o-texto">Siga o Texto</h2>
 <p>A combinação de texto e mecânica diz tudo o que você precisa saber; não é preciso adicionar regras. Esteja atento ao texto: se ele explicita que você <em>“deve fazer algo”</em>, aquilo é obrigatório. Por outro lado, se ele diz que você <em>“pode fazer algo”</em>, ele está lhe dando uma opção, e assim por diante.</p>
+<h3 id="precedência-de-regras">Precedência de Regras</h3>
+<div class="overflow-hidden mb-6 py-4 dark:px-5 dark:bg-white rounded-md"><pre translate="no" class="mermaid w-full">graph LR
+    A(Campanha) --&gt; B
+    B(Texto da Carta) --&gt; C
+    C(Formato) --&gt; D
+    D(Mecânicas) --&gt; E
+    E(Regras) --&gt; F
+    F(Modo de Jogo)</pre></div>
 <hr>
 <h2 id="bônus">Bônus</h2>
 <p>Quando um número é apresentado na forma <strong>+X</strong> ou <strong>-X</strong>, isso indica que se trata de um bônus. Por exemplo:</p>
@@ -470,8 +479,8 @@
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-04-06T14:58:40" title="2026-04-06" data-absolute-label="Last updated on 2026-04-06 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-04-06 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
-                        Last updated on 2026-04-06 by Bruno Caxito
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-04-09T17:26:10" title="2026-04-09" data-absolute-label="Last updated on 2026-04-09 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-04-09 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                        Last updated on 2026-04-09 by Bruno Caxito
                     </time>
                 </div>
 
@@ -532,7 +541,7 @@
 
     <div id="retype-overlay-target"></div>
 
-        <script data-cfasync="false">window.__DOCS__ = { "title": "Diretrizes", level: 1, icon: "file", hasPrism: false, hasInstagram: false, hasMermaid: false, hasMath: false, tocDepth: 23, "md": "/guidelines.md" }</script>
+        <script data-cfasync="false">window.__DOCS__ = { "title": "Diretrizes", level: 1, icon: "file", hasPrism: false, hasInstagram: false, hasMermaid: true, hasMath: false, tocDepth: 23, "md": "/guidelines.md" }</script>
 
     <!-- Footer -->
     <footer>

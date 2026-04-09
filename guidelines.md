@@ -8,6 +8,18 @@ As diretrizes são regras gerais aplicáveis a todas as situações do jogo. Ela
 
 A combinação de texto e mecânica diz tudo o que você precisa saber; não é preciso adicionar regras. Esteja atento ao texto: se ele explicita que você _“deve fazer algo”_, aquilo é obrigatório. Por outro lado, se ele diz que você _“pode fazer algo”_, ele está lhe dando uma opção, e assim por diante.
 
+### Precedência de Regras
+
+```mermaid
+graph LR
+    A(Campanha) --> B
+    B(Texto da Carta) --> C
+    C(Formato) --> D
+    D(Mecânicas) --> E
+    E(Regras) --> F
+    F(Modo de Jogo)
+```
+
 ---
 
 ## Bônus

@@ -13,7 +13,7 @@ São cartas utilizadas para criar eventos aleatórios, que podem ser aplicados a
 ||| :icon-arrow-down-right:
 1. **Valor**: Valor da carta em [<span class="event"><b>DESTINO</b></span>](/cards/event.md)
 
-1. **Nível e Conhecimentos**: Requerimento para o Herói poder ter esta carta em a sua [<span class="main"><b>MESA</b></span>](/hero/table.md)
+1. **Nível e Conhecimentos**: Requerimento para o Herói poder ter esta carta em a sua [<span class="main"><b>MESA</b></span>](/hero/table/)
 
 1. **Descrição**: Texto narrativo ilustrativo
 

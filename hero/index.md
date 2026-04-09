@@ -6,7 +6,7 @@ Esta seção ainda não foi completamente revisada. Algumas informações podem 
 
 São os personagens principais controlados pelos jogadores, representando suas identidades e habilidades únicas. Cada Herói tem um conjunto de cartas que representam suas habilidades, equipamentos e magias, e é o centro das estratégias dos jogadores
 
-Um Herói é todo e qualquer personagem que possua uma [<span class="main"><b>MESA</b></span>](/hero/table.md) de cartas e um [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md). São os personages primários utilizados pelos jogadores para interagir com o mundo do jogo.
+Um Herói é todo e qualquer personagem que possua uma [<span class="main"><b>MESA</b></span>](/hero/table/) de cartas e um [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md). São os personages primários utilizados pelos jogadores para interagir com o mundo do jogo.
 
 ---
 
@@ -56,7 +56,7 @@ Representa a quantidade de ações que um personagem pode realizar em um turno. 
 
 ## Propriedades do Herói
 
-É o conjunto de propriedades das suas cartas de [<span class="house"><b>CASA</b></span>](/cards/house.md), [<span class="class"><b>CLASSE</b></span>](/cards/class.md), do [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) quando desperto, e dos [<span class="item"><b>ITEM</b></span>](/cards/item.md) no seu [<span class="item"><b>EQUIPAMENTO</b></span>](/hero/table.md#-equipamento), <u>que possuam especificador</u>.
+É o conjunto de propriedades das suas cartas de [<span class="house"><b>CASA</b></span>](/cards/house.md), [<span class="class"><b>CLASSE</b></span>](/cards/class.md), do [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) quando desperto, e dos [<span class="item"><b>ITEM</b></span>](/cards/item.md) no seu [<span class="item"><b>EQUIPAMENTO</b></span>](/hero/table/equipment.md), <u>que possuam especificador</u>.
 
 ---
 

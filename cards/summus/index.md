@@ -25,12 +25,12 @@ Indiferente do tipo de Summus, elas compartilham as seguintes regras de jogo.
 :   O Herói precisa ter nível **8✚**
 
 **Limite de Cartas**
-:   Cada Herói pode ter apenas uma carta de cada tipo de Summus e apenas **5** cartas de Summus no total (including [<span class="main"><b>MESA</b></span>](/hero/table.md), [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) e Anexos)
+:   Cada Herói pode ter apenas uma carta de cada tipo de Summus e apenas **5** cartas de Summus no total (including [<span class="main"><b>MESA</b></span>](/hero/table/), [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) e Anexos)
 
 **Espaço**
-:   Não ocupam um espaço na [<span class="main"><b>MESA</b></span>](/hero/table.md)
-    - Quando cartas de Ficha, elas são adicionadas a *Zona Extra* da [<span class="main"><b>FICHA</b></span>](/hero/table.md#-ficha)
-    - Quando cartas de Recurso, elas são adicionadas as suas respectivas zonas da [<span class="main"><b>MESA</b></span>](/hero/table.md) conforme naipe, porém não ocupam um espaço de carta naquela zona
+:   Não ocupam um espaço na [<span class="main"><b>MESA</b></span>](/hero/table/)
+    - Quando cartas de Ficha, elas são adicionadas a *Zona Extra* da [<span class="main"><b>FICHA</b></span>](/hero/table/sheet.md)
+    - Quando cartas de Recurso, elas são adicionadas as suas respectivas zonas da [<span class="main"><b>MESA</b></span>](/hero/table/) conforme naipe, porém não ocupam um espaço de carta naquela zona
 
 ---
 

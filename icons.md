@@ -189,12 +189,12 @@
 | Icon                             | Termo (PT)    | English         | Variável        | Unicode | Color     |
 | -------------------------------- | ------------- | --------------- | --------------- | ------- | --------- |
 | -                                | Zona          | *Zone*          | -               | -       | -         |
-|                                 | Mesa          | *Table*         | [<span class="main"><b>MESA</b></span>](/hero/table.md)     | e92f    | -         |
-|                                 | Ficha         | *Sheet*         | [<span class="main"><b>FICHA</b></span>](/hero/table.md#-ficha)     | e99a    | -         |
+|                                 | Mesa          | *Table*         | [<span class="main"><b>MESA</b></span>](/hero/table/)     | e92f    | -         |
+|                                 | Ficha         | *Sheet*         | [<span class="main"><b>FICHA</b></span>](/hero/table/sheet.md)     | e99a    | -         |
 | -                                | Zona Extra    | *Extra Zone*    | -               | -       | -         |
-| <span class="item"></span>      | Equipamento   | *Equipment*     | [<span class="item"><b>EQUIPAMENTO</b></span>](/hero/table.md#-equipamento)     | e926    | `#FFC107` |
-| <span class="skill"></span>     | Memento       | *Memento*       | [<span class="skill"><b>MEMENTO</b></span>](/hero/table.md#-memento)       | e92c    | `#2196F3` |
-| <span class="companion"></span> | Suporte       | *Support*       | [<span class="companion"><b>SUPORTE</b></span>](/hero/table.md#-suporte)   | eb3d    | `#FF7043` |
+| <span class="item"></span>      | Equipamento   | *Equipment*     | [<span class="item"><b>EQUIPAMENTO</b></span>](/hero/table/equipment.md)     | e926    | `#FFC107` |
+| <span class="skill"></span>     | Memento       | *Memento*       | [<span class="skill"><b>MEMENTO</b></span>](/hero/table/memento.md)       | e92c    | `#2196F3` |
+| <span class="companion"></span> | Suporte       | *Support*       | [<span class="companion"><b>SUPORTE</b></span>](/hero/table/support.md)   | eb3d    | `#FF7043` |
 |                                 | Inventário    | *Inventory*     | [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md)       | e929    | -         |
 |                                 | Espaço        | *Slot*          | -               | e92d    | -         |
 | <span class="event"></span>     | Cenário       | *Scenario*      | [<span class="event"><b>CENÁRIO</b></span>](/gameplay/scenario.md)  | ea1c    | `#4CAF50` |

@@ -10,7 +10,7 @@ Esta seção ainda não foi completamente revisada. Algumas informações podem 
 > 
 > Por este motivo são representados por cartas de CASA, que são o berço, herança e legado do Herói.
 
-Collegiums são cartas de [<span class="house"><b>CASA</b></span>](/cards/house.md) adicionadas na área extra da [<span class="main"><b>FICHA</b></span>](/hero/table.md#-ficha), conferindo efeitos adicionais ao Herói quando pago o *"preço"* cobrado por aquele coletivo de energias.
+Collegiums são cartas de [<span class="house"><b>CASA</b></span>](/cards/house.md) adicionadas na área extra da [<span class="main"><b>FICHA</b></span>](/hero/table/sheet.md), conferindo efeitos adicionais ao Herói quando pago o *"preço"* cobrado por aquele coletivo de energias.
 
 A ilustração da carta representa o *frater* ou *soror* daquela egrégora.
 
@@ -18,8 +18,8 @@ A ilustração da carta representa o *frater* ou *soror* daquela egrégora.
 
 #### Regras Especiais
 
-- Para adicionar uma carta Collegium da <span class="class"><b>TAVERNA</b></span> para um espaço extra na sua [<span class="main"><b>FICHA</b></span>](/hero/table.md#-ficha), o Herói deve **banir** uma carta com a propriedade ** INICIAÇÃO**.
-- Adicione os bônus de atributos desta carta ao total do Herói, mesmo que ela esteja consumida. (Esta carta não concede espaços na [<span class="main"><b>MESA</b></span>](/hero/table.md))
+- Para adicionar uma carta Collegium da <span class="class"><b>TAVERNA</b></span> para um espaço extra na sua [<span class="main"><b>FICHA</b></span>](/hero/table/sheet.md), o Herói deve **banir** uma carta com a propriedade ** INICIAÇÃO**.
+- Adicione os bônus de atributos desta carta ao total do Herói, mesmo que ela esteja consumida. (Esta carta não concede espaços na [<span class="main"><b>MESA</b></span>](/hero/table/))
 - No início e no fim da Batalha, ou ao mudar o período do dia, consuma esta carta.
 - A qualquer momento do seu turno, você pode pagar os custos referidos na caixa de Mecânica para recuperar esta carta.
 - Quando consumida, esta carta não tem efeito. Quando recuperada, o efeito dessa carta deve ser considerado, estando disponível para ser utilizado.

@@ -82,7 +82,7 @@ Este ataque não possui propriedades ou efeitos, é o mais simples e direto que 
 
 ## USAR UMA CARTA
 
-Você pode utilizar uma carta conforme as regras durante a batalha. Você pode utilizar uma HABILIDADE pagando os seus custos. Você pode utilizar uma FERRAMENTA para atacar. Você pode enviar uma carta do [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) para a [<span class="main"><b>MESA</b></span>](/hero/table.md) ou enviar uma carta da [<span class="main"><b>MESA</b></span>](/hero/table.md) para o [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md), pagando os custos de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação).
+Você pode utilizar uma carta conforme as regras durante a batalha. Você pode utilizar uma HABILIDADE pagando os seus custos. Você pode utilizar uma FERRAMENTA para atacar. Você pode enviar uma carta do [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) para a [<span class="main"><b>MESA</b></span>](/hero/table/) ou enviar uma carta da [<span class="main"><b>MESA</b></span>](/hero/table/) para o [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md), pagando os custos de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação).
 
 ---
 

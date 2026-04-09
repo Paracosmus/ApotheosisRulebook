@@ -15,7 +15,7 @@ Uma carta anexada é parte da carta hospedeira, e portanto não pode ser tratada
 - O anexo não pode possuir seus próprios anexos, se isto acontecer, os anexos dele devem ser enviados para o [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) do dono se possível, ou para a pilha de descarte caso contrário.
 - O anexo não pode possuir seus próprios [<span class="main">❂<b>CONTADOR</b></span>](/gameplay/counter/), nesse caso os contadores são perdidos quando o anexo for anexado à outra carta.
 - O anexo deve ser sempre mantido revelado, mesmo que a carta hospedeira esteja oculta.
-- Anexos não ocupam espaço na [<span class="main"><b>MESA</b></span>](/hero/table.md) do Herói, apenas a hospedeira conta.
+- Anexos não ocupam espaço na [<span class="main"><b>MESA</b></span>](/hero/table/) do Herói, apenas a hospedeira conta.
 
 !!!
 Em outras palavras, anexos devem ser ignorados por efeitos e mecânicas de jogo, a não ser quando aquele efeito ou mecânica especificar que os anexos devem ser considerados ou referenciados.

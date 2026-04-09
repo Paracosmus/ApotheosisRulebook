@@ -5,11 +5,11 @@
 Ativar Carta
 :   Custo de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação) e/ou Energia ([<span class="skill"><b>ESTAMINA</b></span>](/hero/#estamina), [<span class="skill"><b>MANA</b></span>](/hero/#mana) e/ou **Essência**), além dos requerimentos e custos adicionais descritos na carta, se houver
 
-Enviar carta do [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) para a [<span class="main"><b>MESA</b></span>](/hero/table.md)
+Enviar carta do [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) para a [<span class="main"><b>MESA</b></span>](/hero/table/)
 :   **2** de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação)
 <br>
 
-Enviar carta da [<span class="main"><b>MESA</b></span>](/hero/table.md) para o [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md)
+Enviar carta da [<span class="main"><b>MESA</b></span>](/hero/table/) para o [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md)
 :   **2** de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação)
 <br>
 

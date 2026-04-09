@@ -36,7 +36,7 @@ O personagem (receptáculo) pode incorporar, estas formas de energia e dominá-l
 
 Cada tipo de [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) possui um requerimento mínimo de nível para ser incorporado pelo personagem. Quanto mais poderoso o ente, mais preparo físico, mental e espiritual, o receptáculo precisa. Este requerimento deve sempre ser considerado, mesmo que o ente seja adicionado ao personagem por efeito de carta ou qualquer outra mecânica de jogo.
 
-Para incorporar, é necessário que o espaço de [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) na [<span class="main"><b>FICHA</b></span>](/hero/table.md#-ficha) esteja disponível e o personagem esteja em uma local de <span class="entity"><b>FERIDA</b></span> que permita o acesso a carta desejada. Você deve selecionar uma carta, sacrificar o seu turno e enterrar 5 cartas de recurso do mesmo nível que o [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) selecionado. Envie a carta, oculta, para o espaço de [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) da sua [<span class="main"><b>MESA</b></span>](/hero/table.md).
+Para incorporar, é necessário que o espaço de [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) na [<span class="main"><b>FICHA</b></span>](/hero/table/sheet.md) esteja disponível e o personagem esteja em uma local de <span class="entity"><b>FERIDA</b></span> que permita o acesso a carta desejada. Você deve selecionar uma carta, sacrificar o seu turno e enterrar 5 cartas de recurso do mesmo nível que o [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) selecionado. Envie a carta, oculta, para o espaço de [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) da sua [<span class="main"><b>MESA</b></span>](/hero/table/).
 
 TIPO         | NÍVEL | NÍVEL MÍNIMO REQUERIDO DO HERÓI
 ---          | ---   | ---
@@ -72,7 +72,7 @@ O [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) não pode ser d
 
 ## <span class="entity">Liberar</span>
 
-Para remover a carta de [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) de sua [<span class="main"><b>FICHA</b></span>](/hero/table.md#-ficha), o personagem pode sacrificar seu turno e enterrar sua carta de [<span class="entity"><b>ENTE</b></span>](/cards/entity.md).
+Para remover a carta de [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) de sua [<span class="main"><b>FICHA</b></span>](/hero/table/sheet.md), o personagem pode sacrificar seu turno e enterrar sua carta de [<span class="entity"><b>ENTE</b></span>](/cards/entity.md).
 
 ---
 

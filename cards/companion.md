@@ -6,7 +6,7 @@ Esta seção ainda não foi completamente revisada. Algumas informações podem 
 
 > Representa um personagem que auxilia o herói em sua jornada. Pode ser desde um companheiro de batalha, um animal de estimação, um servo, um espírito, um ser etéreo ou qualquer outro ser vivo animado que possa ajudar o herói.
 
-São personagens humanos, animais ou evocações. Diferente de um [Herói](/hero/), cujas características, conhecimentos, e habilidades são uma composição de várias cartas, os [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) são personagens definidos inteiramente por uma única carta que contém todas as informações necessárias para sua utilização, não possuindo [<span class="main"><b>MESA</b></span>](/hero/table.md) e [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md), mas sim, sendo um NPC controlado pelo [Cartomante](/gameplay/game-master.md) ou parte da [<span class="main"><b>MESA</b></span>](/hero/table.md) de um [Herói](/hero/).
+São personagens humanos, animais ou evocações. Diferente de um [Herói](/hero/), cujas características, conhecimentos, e habilidades são uma composição de várias cartas, os [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) são personagens definidos inteiramente por uma única carta que contém todas as informações necessárias para sua utilização, não possuindo [<span class="main"><b>MESA</b></span>](/hero/table/) e [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md), mas sim, sendo um NPC controlado pelo [Cartomante](/gameplay/game-master.md) ou parte da [<span class="main"><b>MESA</b></span>](/hero/table/) de um [Herói](/hero/).
 
 ||| :icon-file-moved:
 ![](/static/img/cards/companion.png)
@@ -107,7 +107,7 @@ Os 20 caminhos são:
 
 ## <span class="companion">Recrutar</span>
 
-Ao custo de 2 de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação), esta carta pode ser enviada para um espaço disponível no [<span class="companion"><b>SUPORTE</b></span>](/hero/table.md#-suporte) do Herói.
+Ao custo de 2 de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação), esta carta pode ser enviada para um espaço disponível no [<span class="companion"><b>SUPORTE</b></span>](/hero/table/support.md) do Herói.
 
 - Se o personagem for [<span class="companion"><b>HUMANO</b></span>](/cards/companion.md#-humano) ou [<span class="companion"><b>CRIATURA</b></span>](/cards/companion.md#-criatura), ele deve ser colocado em uma [casa de acesso do tabuleiro](/battle/board.md#casa-de-acesso). Se não houverem casas de acesso disponíveis, o personagem não pode ser recrutado.
 
@@ -117,7 +117,7 @@ Ao custo de 2 de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação), es
 
 ## <span class="companion">Abandonar</span>
 
-Ao custo de 2 de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação), esta carta pode ser enviada do [<span class="companion"><b>SUPORTE</b></span>](/hero/table.md#-suporte) para o [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) do Herói.
+Ao custo de 2 de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação), esta carta pode ser enviada do [<span class="companion"><b>SUPORTE</b></span>](/hero/table/support.md) para o [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) do Herói.
 
 - Se o personagem for [<span class="companion"><b>HUMANO</b></span>](/cards/companion.md#-humano) ou [<span class="companion"><b>CRIATURA</b></span>](/cards/companion.md#-criatura), é necessário que haja uma [casa de cesso do tabuleiro](/battle/board.md#casa-de-acesso) disponível para que o personagem possa ser retirado do tabuleiro. Se não houver casas de acesso disponíveis, o personagem não pode ser abandonado.
 
@@ -127,9 +127,9 @@ Ao custo de 2 de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação), es
 
 ## <span class="companion">Evoluir</span>
 
-Este é o processo de trocar uma carta de [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) em seu [<span class="companion"><b>SUPORTE</b></span>](/hero/table.md#-suporte) por outra de nível superior e mesmo caminho.
+Este é o processo de trocar uma carta de [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) em seu [<span class="companion"><b>SUPORTE</b></span>](/hero/table/support.md) por outra de nível superior e mesmo caminho.
 
-A qualquer momento do turno de um personagem [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) que esteja na [<span class="main"><b>MESA</b></span>](/hero/table.md) de um Herói, mesmo que em combate ou quando ele não tem acesso ao <span class="companion"><b>BESTIÁRIO</b></span>, ele pode sacrificar o seu turno e descartar 3 de [<span class="skill"><b>XP</b></span>](/cards/skill.md), para selecionar uma carta de [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) do <span class="companion"><b>BESTIÁRIO</b></span> de nível imediatamente superior ao seu e de mesmo caminho, observando se o seu Herói possuí o [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md) e nível necessário para ter aquela carta em sua [<span class="main"><b>MESA</b></span>](/hero/table.md), bem como outros requerimentos, se houverem.
+A qualquer momento do turno de um personagem [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) que esteja na [<span class="main"><b>MESA</b></span>](/hero/table/) de um Herói, mesmo que em combate ou quando ele não tem acesso ao <span class="companion"><b>BESTIÁRIO</b></span>, ele pode sacrificar o seu turno e descartar 3 de [<span class="skill"><b>XP</b></span>](/cards/skill.md), para selecionar uma carta de [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) do <span class="companion"><b>BESTIÁRIO</b></span> de nível imediatamente superior ao seu e de mesmo caminho, observando se o seu Herói possuí o [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md) e nível necessário para ter aquela carta em sua [<span class="main"><b>MESA</b></span>](/hero/table/), bem como outros requerimentos, se houverem.
 
 Enterre então a carta de [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md), substituindo-a ela pela nova carta, que herda seus anexos e contadores.
 

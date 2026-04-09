@@ -14,13 +14,13 @@ São utilizados sete naipes de cartas com funções e mecânicas próprias, divi
 :   [<span class="house"><b>CASA</b></span>](/cards/house.md) | [<span class="class"><b>CLASSE</b></span>](/cards/class.md) | [<span class="entity"><b>ENTE</b></span>](/cards/entity.md)
     > São utilizadas para representar características intrínsecas do personagem, como sua origem e ocupação.
 
-    **Uso**: Estas cartas podem estar apenas eu seus respectivos baralhos, pilhas de descarte, anexadas, [<span class="keyword-scope">Hand</span>](/cards/#palavras-chave-de-efeito-keyword), ou no espaço apropriado designado da [<span class="main"><b>MESA</b></span>](/hero/table.md) de um Herói. Se uma situação de jogo resultar nesta carta estar ou ser envida para outro local que não estes, ela deve ser enviada para a pilha de descarte.
+    **Uso**: Estas cartas podem estar apenas eu seus respectivos baralhos, pilhas de descarte, anexadas, [<span class="keyword-scope">Hand</span>](/cards/#palavras-chave-de-efeito-keyword), ou no espaço apropriado designado da [<span class="main"><b>MESA</b></span>](/hero/table/) de um Herói. Se uma situação de jogo resultar nesta carta estar ou ser envida para outro local que não estes, ela deve ser enviada para a pilha de descarte.
 
 **Cartas de Recurso**
 :   [<span class="item"><b>ITEM</b></span>](/cards/item.md) | [<span class="skill"><b>HABILIDADE</b></span>](/cards/skill.md) | [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) | [<span class="event"><b>EVENTO</b></span>](/cards/event.md)
     > São utilizadas para representar elementos que auxiliam o personagem em sua jornada, como objetos e capacidades.
 
-    **Uso**: Estas cartas possuem um requerimento de nível mínimo de [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md), que um Herói precisa ter para ter esta carta em sua [<span class="main"><b>MESA</b></span>](/hero/table.md), exceto quando anexadas a uma outra carta. Se uma situação de jogo resultar nesta carta estar ou ser envida para [<span class="main"><b>MESA</b></span>](/hero/table.md) de um Herói que não atenda a este requerimento, ela deve ser enviada para o [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) do mesmo.
+    **Uso**: Estas cartas possuem um requerimento de nível mínimo de [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md), que um Herói precisa ter para ter esta carta em sua [<span class="main"><b>MESA</b></span>](/hero/table/), exceto quando anexadas a uma outra carta. Se uma situação de jogo resultar nesta carta estar ou ser envida para [<span class="main"><b>MESA</b></span>](/hero/table/) de um Herói que não atenda a este requerimento, ela deve ser enviada para o [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) do mesmo.
 
 ---
 
@@ -34,7 +34,7 @@ O efeito de cada carta está disponível para o jogador de duas formas.
 
 ### Passivo
 
-São efeitos aplicados automaticamente de forma permanente, isso significa que este efeito dura enquanto esta carta estiver em jogo, logo, esta carta não é ativada, seu efeito é aplicado instantaneamente a partir do momento em que esta carta é colocada na [<span class="main"><b>MESA</b></span>](/hero/table.md).
+São efeitos aplicados automaticamente de forma permanente, isso significa que este efeito dura enquanto esta carta estiver em jogo, logo, esta carta não é ativada, seu efeito é aplicado instantaneamente a partir do momento em que esta carta é colocada na [<span class="main"><b>MESA</b></span>](/hero/table/).
 
 !!!secondary
 Ex.: Efeitos ao estilo _"<span class="positive">+2</span> de <b>DANO</b>"_, _"<span class="positive">+1</span> de [<span class="house"><b>PER</b></span>](/hero/attributes.md), se sua [<span class="house"><b>PER</b></span>](/hero/attributes.md) for menor que 8"_ e _"Este personagem não pode ser alvo de..."_, são todos efeitos passivos.
@@ -62,9 +62,9 @@ Ex.: Efeitos na forma _"quando um personagem for atacado você deve..."_, _"Se v
 !!!secondary
 Ex.: Se um efeito especifica uma ação que não pode ser realizada, aquela carta não pode ser ativada. Observe que é imperativo que o efeito de uma carta possa ser executado em sua completude. Por exemplo, se uma carta diz algo como _"depois de resolver este efeito, descarte uma carta do seu [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md)_", e aquele personagem não tem nenhuma carta no [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) então este efeito não pode nem mesmo ser iniciado.
 
-Extraordinariamente, se o efeito era possível no momento da ativação da carta, mas as condições mudaram durante a resolução do efeito, o efeito ainda é considerado válido e deve ser resolvido, sendo ignorando a partir da parte que não podem mais ser aplicadas. Por exemplo, se o efeito diz algo como _"depois de resolver este efeito, se você não tiver cartas no [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md), descarte uma carta do seu [<span class="main"><b>MESA</b></span>](/hero/table.md)"_ e o jogador não tinha cartas no [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) quando ativou a carta, mas durante a resolução do efeito algo adicionou uma carta ao seu [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md), ele não precisa mais descartar uma carta da [<span class="main"><b>MESA</b></span>](/hero/table.md).
+Extraordinariamente, se o efeito era possível no momento da ativação da carta, mas as condições mudaram durante a resolução do efeito, o efeito ainda é considerado válido e deve ser resolvido, sendo ignorando a partir da parte que não podem mais ser aplicadas. Por exemplo, se o efeito diz algo como _"depois de resolver este efeito, se você não tiver cartas no [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md), descarte uma carta do seu [<span class="main"><b>MESA</b></span>](/hero/table/)"_ e o jogador não tinha cartas no [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) quando ativou a carta, mas durante a resolução do efeito algo adicionou uma carta ao seu [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md), ele não precisa mais descartar uma carta da [<span class="main"><b>MESA</b></span>](/hero/table/).
 
-Em outro exemplo, se o efeito diz algo como _"depois de resolver este efeito, se você não tiver cartas no [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md), descarte uma carta do seu [<span class="main"><b>MESA</b></span>](/hero/table.md)"_ e o jogador não tinha cartas no [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) quando ativou a carta, mas durante a resolução do efeito ficou também sem cartas na sua [<span class="main"><b>MESA</b></span>](/hero/table.md), ele não pode mais cumprir todas as condições de efeito, o que já foi feito é mantido, mas a restante do efeito não é ignorado.
+Em outro exemplo, se o efeito diz algo como _"depois de resolver este efeito, se você não tiver cartas no [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md), descarte uma carta do seu [<span class="main"><b>MESA</b></span>](/hero/table/)"_ e o jogador não tinha cartas no [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) quando ativou a carta, mas durante a resolução do efeito ficou também sem cartas na sua [<span class="main"><b>MESA</b></span>](/hero/table/), ele não pode mais cumprir todas as condições de efeito, o que já foi feito é mantido, mas a restante do efeito não é ignorado.
 !!!
 
 Quando você ativar uma carta durante o turno de outro personagem, e esta carta possuir um custo em [<span class="main"><b>AÇÃO</b></span>](/hero/#ação), você deve pagar este custo com os pontos que receberia no seu próximo turno, começando o turno com aquela quantidade a menos de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação). Se você não tiver [<span class="main"><b>AÇÃO</b></span>](/hero/#ação) suficientes para pagar o custo, continue "emprestando" pontos de turnos futuros até que a carta esteja paga. Se você já tiver gastado todos os pontos do seu próximo turno, você não pode ativar aquela carta.
@@ -88,15 +88,14 @@ Alguns efeitos são descritos utilizando palavras-chave, que são abreviações 
 [<span class="keyword-activation">Permanent</span>](/cards/#palavras-chave-de-efeito-keyword)
 :   Efeito passivo, aplicado instantaneamente e permanente enquanto esta carta estiver em jogo
 
-[<span class="keyword-activation">Temp</span>](/cards/#palavras-chave-de-efeito-keyword)
 :   Efeito passivo, aplicado instantaneamente e temporário, tendo sua duração definida no texto do efeito
 
 #### Momento que o efeito pode ser ativado [!badge timing]
 [<span class="keyword-timing">On Play</span>](/cards/#palavras-chave-de-efeito-keyword)
-:   Quando esta carta é coloca em jogo, ou seja, quando vai para a [<span class="main"><b>MESA</b></span>](/hero/table.md) de um Herói
+:   Quando esta carta é coloca em jogo, ou seja, quando vai para a [<span class="main"><b>MESA</b></span>](/hero/table/) de um Herói
 
 [<span class="keyword-timing">On Exit</span>](/cards/#palavras-chave-de-efeito-keyword)
-:   Quando esta carta é removida da [<span class="main"><b>MESA</b></span>](/hero/table.md) de um Herói, ou seja, quando é descartada, enterrada, banida ou enviada para o [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md)
+:   Quando esta carta é removida da [<span class="main"><b>MESA</b></span>](/hero/table/) de um Herói, ou seja, quando é descartada, enterrada, banida ou enviada para o [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md)
 
 [<span class="keyword-timing">On Obtain</span>](/cards/#palavras-chave-de-efeito-keyword)
 :   Quando esta carta é adquirida por um Herói, ou seja, quando é comprada ou recebida de outra forma

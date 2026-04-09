@@ -82,13 +82,13 @@ Este livro e as cartas do jogo utilizam termos com significados específicos. Ab
 
 | Termo          | Inglês        | Significado |
 | -------------- | ------------- | ----------- |
-| **Consumir**   | *Exhaust*     | Girar a carta para que ela fique na horizontal, em relação à [<span class="main"><b>MESA</b></span>](/hero/table.md) do Herói |
-| **Recuperar**  | *Recover*     | Girar a carta para que ela fique na vertical, em relação à [<span class="main"><b>MESA</b></span>](/hero/table.md) do Herói |
+| **Consumir**   | *Exhaust*     | Girar a carta para que ela fique na horizontal, em relação à [<span class="main"><b>MESA</b></span>](/hero/table/) do Herói |
+| **Recuperar**  | *Recover*     | Girar a carta para que ela fique na vertical, em relação à [<span class="main"><b>MESA</b></span>](/hero/table/) do Herói |
 | **Descartar**  | *Discard*     | Colocar uma carta na pilha de descarte |
 | **Enterrar**   | *Bury*        | Colocar uma carta no fundo do baralho específico do naipe |
 | **Banir**      | *Banish*      | Remover uma carta do jogo |
 | **Obter**      | *Get*         | Adicionar uma carta da pilha de descarte ao [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) |
-| **Baixar**     | *Place*       | Adicionar uma carta à [<span class="main"><b>MESA</b></span>](/hero/table.md) |
+| **Baixar**     | *Place*       | Adicionar uma carta à [<span class="main"><b>MESA</b></span>](/hero/table/) |
 | **Puxar**      | *Draw*        | Pegar a carta do topo do baralho especificado e adicionar ao [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md), sem mostrá-la |
 | **Revelar**    | *Reveal*      | Mostrar uma carta que está oculta, geralmente virando-a de face para cima, ou mostrando-a para todos os jogadores |
 | **Ocultar**    | *Conceal*     | Esconder uma carta que está revelada, geralmente virando-a de face para baixo |
@@ -97,8 +97,8 @@ Este livro e as cartas do jogo utilizam termos com significados específicos. Ab
 | **Resgatar**   | *Retrieve*    | Retornar uma carta do Limbo para o jogo, geralmente nas mesmas condições em que foi exilada |
 | **Banir**      | *Banish*      | Remover uma carta do jogo permanentemente |
 | **Mesa**       | *Table*       | Local da área do jogo onde um Herói coloca suas cartas |
-| **Ficha**      | *Sheet*       | Zona da [<span class="main"><b>MESA</b></span>](/hero/table.md) do Herói onde estão suas cartas de ficha |
-| **Zona Extra** | *Extra Zone*  | Zona da [<span class="main"><b>FICHA</b></span>](/hero/table.md#-ficha) do Herói onde algumas mecânicas de jogo e efeitos de cartas podem colocar cartas de ficha extras |
+| **Ficha**      | *Sheet*       | Zona da [<span class="main"><b>MESA</b></span>](/hero/table/) do Herói onde estão suas cartas de ficha |
+| **Zona Extra** | *Extra Zone*  | Zona da [<span class="main"><b>FICHA</b></span>](/hero/table/sheet.md) do Herói onde algumas mecânicas de jogo e efeitos de cartas podem colocar cartas de ficha extras |
 | **Inventário** | *Inventory*   | Zona onde o Herói armazena cartas que não estão ativas ou em uso, mas que ainda são de sua posse. Geralmente representada pelas cartas seguradas na mão |
 
 ---
