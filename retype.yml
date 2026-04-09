@@ -4,6 +4,9 @@ url: apotheosiscardgame.com
 favicon: /static/img/favicon.ico
 poweredByRetype: false
 
+generator:
+  paths: root
+
 branding:
   title: Apotheosis
   label: book

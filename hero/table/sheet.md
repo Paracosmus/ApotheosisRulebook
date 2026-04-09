@@ -1,7 +1,7 @@
 ---
 label: Ficha
-icon: sliders
-order: 4
+icon: 
+order: 50
 ---
 {{ review() }}
 

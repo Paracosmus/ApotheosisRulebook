@@ -1,7 +1,7 @@
 ---
 label: Equipamento
 icon: sliders
-order: 4
+order: 40
 ---
 {{ review() }}
 

@@ -1,7 +1,7 @@
 ---
 label: Memento
 icon: sliders
-order: 4
+order: 30
 ---
 {{ review() }}
 

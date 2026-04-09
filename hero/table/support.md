@@ -1,7 +1,7 @@
 ---
 label: Suporte
 icon: sliders
-order: 4
+order: 20
 ---
 {{ review() }}
 

@@ -1,6 +1,6 @@
 ---
 label: Mesa
-icon: table
+icon: 
 order: 2
 ---
 {{ review() }}
