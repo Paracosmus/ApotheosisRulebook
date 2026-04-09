@@ -179,11 +179,11 @@ data:
   fate:  '[<span class="event"><b>DESTINO</b></span>](/cards/event.md)'
 
   # Places
-  table:      '[<span class="main"><b>MESA</b></span>](/hero/table.md)'
-  sheet:      '[<span class="main"><b>FICHA</b></span>](/hero/table.md#-ficha)'
-  equip:      '[<span class="item"><b>EQUIPAMENTO</b></span>](/hero/table.md#-equipamento)'
-  mem:        '[<span class="skill"><b>MEMENTO</b></span>](/hero/table.md#-memento)'
-  support:    '[<span class="companion"><b>SUPORTE</b></span>](/hero/table.md#-suporte)'
+  table:      '[<span class="main"><b>MESA</b></span>](/hero/table/)'
+  sheet:      '[<span class="main"><b>FICHA</b></span>](/hero/table/sheet.md)'
+  equip:      '[<span class="item"><b>EQUIPAMENTO</b></span>](/hero/table/equipment.md)'
+  mem:        '[<span class="skill"><b>MEMENTO</b></span>](/hero/table/memento.md)'
+  support:    '[<span class="companion"><b>SUPORTE</b></span>](/hero/table/support.md)'
   inv:        '[<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md)'
   scenario:   '[<span class="event"><b>CENÁRIO</b></span>](/gameplay/scenario.md)'
   masterHand: '[<span class="main"><b>MÃO DO MESTRE</b></span>](/gameplay/game-master/#mão-do-mestre)'
@@ -271,7 +271,6 @@ data:
   activate:                '[<span class="keyword-activation">Activate</span>](/cards/#palavras-chave-de-efeito-keyword)'
   auto:                    '[<span class="keyword-activation">Auto</span>](/cards/#palavras-chave-de-efeito-keyword)'
   permanent:               '[<span class="keyword-activation">Permanent</span>](/cards/#palavras-chave-de-efeito-keyword)'
-  temp:                    '[<span class="keyword-activation">Temp</span>](/cards/#palavras-chave-de-efeito-keyword)'
 
   onPlay:                  '[<span class="keyword-timing">On Play</span>](/cards/#palavras-chave-de-efeito-keyword)'
   onExit:                  '[<span class="keyword-timing">On Exit</span>](/cards/#palavras-chave-de-efeito-keyword)'
@@ -304,11 +303,13 @@ data:
   thisCharacterStartPhase: '[<span class="keyword-timing">This Character`s Start Phase</span>](/cards/#palavras-chave-de-efeito-keyword)'
   thisCharacterEndPhase:   '[<span class="keyword-timing">This Character`s End Phase</span>](/cards/#palavras-chave-de-efeito-keyword)'
 
+  anywhere:                '[<span class="keyword-limit">Anywhere</span>](/cards/#palavras-chave-de-efeito-keyword)'
   oncePerStint:            '[<span class="keyword-limit">Once per Stint</span>](/cards/#palavras-chave-de-efeito-keyword)'
   oncePerBattle:           '[<span class="keyword-limit">Once per Battle</span>](/cards/#palavras-chave-de-efeito-keyword)'
   allIn:                   '[<span class="keyword-limit">All-In</span>](/cards/#palavras-chave-de-efeito-keyword)'
   noResponse:              '[<span class="keyword-limit">No Response</span>](/cards/#palavras-chave-de-efeito-keyword)'
   noNegation:              '[<span class="keyword-limit">No Negation</span>](/cards/#palavras-chave-de-efeito-keyword)'
+  lingering:               '[<span class="keyword-limit">Lingering</span>](/cards/#palavras-chave-de-efeito-keyword)'
 
   yourTurn:                '[<span class="keyword-scope">Your Turn Only</span>](/cards/#palavras-chave-de-efeito-keyword)'
   onTable:                 '[<span class="keyword-scope">Table</span>](/cards/#palavras-chave-de-efeito-keyword)'

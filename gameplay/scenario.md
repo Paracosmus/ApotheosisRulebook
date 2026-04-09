@@ -9,9 +9,9 @@ order: 40
 
 O {{ scenario }} é uma área onde são colocadas cartas que estão em jogo e seus efeitos devem ser considerados, mas não são cartas dos jogadores e seus personagens. Elas podem ser usadas para criar desafios complementares ou para adicionar ou modificar as regras do jogo.
 
-Todas as cartas no {{ scenario }} são consideradas "em jogo" e seus bônus e efeitos {{ auto }}, {{ permanent }} e {{ temp }} devem ser aplicados a todos os personagens, assim como é feito com uma carta em suas {{ table }}.
+Todas as cartas no {{ scenario }} são consideradas "em jogo" e seus bônus e efeitos {{ auto }}, {{ permanent }} devem ser aplicados a todos os personagens, assim como é feito com uma carta em suas {{ table }}.
 
-Os efeitos ativáveis, podem ser ativados por qualquer personagem no seu turno ou quando cumprindo os requisitos de ativação. Sendo que o personagem que ativar o efeito deve pagar todos os custos associados ao efeito e cumprir os demais requerimentos, bem como ter {{ knowledge }} e nível.
+Os efeitos {{ activate }}, podem ser ativados por qualquer personagem no seu turno ou quando cumprindo os requisitos de ativação. Sendo que o personagem que ativar o efeito deve pagar todos os custos associados ao efeito e cumprir os demais requerimentos, bem como ter {{ knowledge }} e nível.
 
 Geralmente, o {{ scenario }} é preenchido por cartas de {{ event }}, mas não existe uma regra que impeça que cartas de outros tipos sejam colocadas no {{ scenario }}. Quando isso acontece, essas cartas seguem a mesma regra para cartas de {{ event }} no {{ scenario }}.
 

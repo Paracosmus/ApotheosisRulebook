@@ -234,7 +234,7 @@ order: 100
   ==- A Mesa
   %% ----------------------------------------------------------------------- %%
 
-  [!card](/hero/table.md)
+  [!card](/hero/table/)
 
   Os jogadores podem utilizar um **playmat** para separar suas zonas de cartas e organizá-las. Bem como para posicionar as diferentes pilhas de cartas e baralhos do jogo.
 
