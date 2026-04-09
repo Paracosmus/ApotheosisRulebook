@@ -112,11 +112,11 @@
 ### Mesa
 
 - [Mesa](https://apotheosiscardgame.com/hero/table/index.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
-- [Equipamento](https://apotheosiscardgame.com/hero/table/equipment.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [Ficha](https://apotheosiscardgame.com/hero/table/sheet.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Equipamento](https://apotheosiscardgame.com/hero/table/equipment.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [Memento](https://apotheosiscardgame.com/hero/table/memento.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [Suporte](https://apotheosiscardgame.com/hero/table/support.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
-- [Extra zone](https://apotheosiscardgame.com/hero/table/extra-zone.md)
+- [Zona Extra](https://apotheosiscardgame.com/hero/table/extra-zone.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [Conhecimentos](https://apotheosiscardgame.com/hero/knowledge.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [Inventário](https://apotheosiscardgame.com/hero/inventory.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 
