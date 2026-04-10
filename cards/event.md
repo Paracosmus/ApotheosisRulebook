@@ -29,7 +29,7 @@ São cartas utilizadas para criar eventos aleatórios, que podem ser aplicados a
 
 ## Ativar
 
-Um evento é geralmente ativado quando o grupo está [viajando](/gameplay/travel.md) ou diretamente do {{ inv }} pelo Herói.
+Um evento é geralmente ativado quando o grupo está [viajando](/gameplay/game-mode/travel-mode.md) ou diretamente do {{ inv }} pelo Herói.
 
 Para ser ativado pelo Herói, o evento deve estar em seu {{ inv }} e o Herói deve ter o {{ knowledge }} e nível da carta. A descrição e efeito do {{ event }} são então lidos em voz alta, que por final, é aplicado a todos os Heróis naquele momento e local.
 

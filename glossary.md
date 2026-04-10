@@ -71,7 +71,7 @@ Este livro e as cartas do jogo utilizam termos com significados específicos. Ab
 
 ## V
 
-[!card compact](gameplay/setup/variant.md)
+[!card compact](gameplay/setup/variant.md) [!card compact](gameplay/game-mode/travel-mode.md)
 
 ## W
 
