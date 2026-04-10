@@ -26,7 +26,7 @@ São cartas utilizadas para criar eventos aleatórios, que podem ser aplicados a
 
 ## Ativar
 
-Um evento é geralmente ativado quando o grupo está [viajando](/gameplay/travel.md) ou diretamente do [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) pelo Herói.
+Um evento é geralmente ativado quando o grupo está [viajando](/gameplay/game-mode/travel-mode.md) ou diretamente do [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) pelo Herói.
 
 Para ser ativado pelo Herói, o evento deve estar em seu [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) e o Herói deve ter o [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md) e nível da carta. A descrição e efeito do [<span class="event"><b>EVENTO</b></span>](/cards/event.md) são então lidos em voz alta, que por final, é aplicado a todos os Heróis naquele momento e local.
 

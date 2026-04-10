@@ -153,6 +153,7 @@
 - [Modo de Jogo](https://apotheosiscardgame.com/gameplay/game-mode/index.md): A forma como os jogadores interagem com o sistema. Pode variar desde um modo imaginativo, até um modo apenas no tabuleiro.
 - [Modo de Batalha](https://apotheosiscardgame.com/gameplay/game-mode/battle-mode.md): É o modo de jogo onde os jogadores participam de combates táticos, utilizando as regras de batalha para resolver ações e efeitos de cartas.
 - [Modo Narrativo](https://apotheosiscardgame.com/gameplay/game-mode/story-mode.md): É o modo de jogo onde os jogadores participam de uma narrativa livre, focada em interpretação e estória, com resolução de ações através de testes.
+- [Modo de Viagem](https://apotheosiscardgame.com/gameplay/game-mode/travel-mode.md): É um modo utilizado quando o grupo se desloca de um local do mapa da região para outro local distante, sem que seja necessário jogar todos os momentos de uma longa viagem.
 - [Personagens](https://apotheosiscardgame.com/gameplay/characters.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [Mestre de Jogo](https://apotheosiscardgame.com/gameplay/game-master.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [Baralhos](https://apotheosiscardgame.com/gameplay/decks.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
@@ -163,4 +164,3 @@
 - [Contador](https://apotheosiscardgame.com/gameplay/counter.md): É uma unidade qualquer colocada sobre uma carta, como uma moeda ou ficha de Poker, com o objetivo de representar uma quantidade específica de algo.
 - [Anexo](https://apotheosiscardgame.com/gameplay/attachment.md): Anexo, ou carta anexada, é uma carta colocada sob outra carta, representando que está ligada àquela.
 - [Passagem do Tempo](https://apotheosiscardgame.com/gameplay/time.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
-- [Viagem](https://apotheosiscardgame.com/gameplay/travel.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.

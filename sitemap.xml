@@ -25,12 +25,12 @@
     <lastmod>2026-03-30T15:59:03Z</lastmod>
   </url>
   <url>
-    <loc>https://apotheosiscardgame.com/hero/table/</loc>
-    <lastmod>2026-04-09T20:01:27Z</lastmod>
+    <loc>https://apotheosiscardgame.com/glossary/</loc>
+    <lastmod>2026-04-09T22:02:33Z</lastmod>
   </url>
   <url>
-    <loc>https://apotheosiscardgame.com/glossary/</loc>
-    <lastmod>2026-04-07T19:49:30Z</lastmod>
+    <loc>https://apotheosiscardgame.com/hero/table/</loc>
+    <lastmod>2026-04-09T20:01:27Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/cards/companion/</loc>
@@ -42,7 +42,7 @@
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/cards/event/</loc>
-    <lastmod>2026-02-21T16:28:37Z</lastmod>
+    <lastmod>2026-04-09T22:02:33Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/cards/summus/</loc>
@@ -165,10 +165,6 @@
     <lastmod>2026-04-06T16:12:41Z</lastmod>
   </url>
   <url>
-    <loc>https://apotheosiscardgame.com/gameplay/characters/</loc>
-    <lastmod>2026-03-31T18:25:31Z</lastmod>
-  </url>
-  <url>
     <loc>https://apotheosiscardgame.com/lore/beings/created/abyssal/</loc>
     <lastmod>2026-03-31T18:25:31Z</lastmod>
   </url>
@@ -194,6 +190,10 @@
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/battle/turn/</loc>
+    <lastmod>2026-03-31T18:25:31Z</lastmod>
+  </url>
+  <url>
+    <loc>https://apotheosiscardgame.com/gameplay/characters/</loc>
     <lastmod>2026-03-31T18:25:31Z</lastmod>
   </url>
   <url>
@@ -241,8 +241,8 @@
     <lastmod>2026-03-31T18:25:31Z</lastmod>
   </url>
   <url>
-    <loc>https://apotheosiscardgame.com/gameplay/game-master/</loc>
-    <lastmod>2026-03-31T18:25:31Z</lastmod>
+    <loc>https://apotheosiscardgame.com/gameplay/game-mode/</loc>
+    <lastmod>2026-04-09T22:02:33Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/gameplay/counter/</loc>
@@ -285,12 +285,12 @@
     <lastmod>2026-04-09T20:01:27Z</lastmod>
   </url>
   <url>
-    <loc>https://apotheosiscardgame.com/gameplay/game-mode/</loc>
+    <loc>https://apotheosiscardgame.com/gameplay/game-mode/story-mode/</loc>
     <lastmod>2026-04-06T16:12:41Z</lastmod>
   </url>
   <url>
-    <loc>https://apotheosiscardgame.com/gameplay/game-mode/story-mode/</loc>
-    <lastmod>2026-04-06T16:12:41Z</lastmod>
+    <loc>https://apotheosiscardgame.com/gameplay/game-master/</loc>
+    <lastmod>2026-03-31T18:25:31Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/gameplay/limbo/</loc>
@@ -317,10 +317,6 @@
     <lastmod>2026-03-31T18:25:31Z</lastmod>
   </url>
   <url>
-    <loc>https://apotheosiscardgame.com/gameplay/travel/</loc>
-    <lastmod>2026-04-06T14:58:40Z</lastmod>
-  </url>
-  <url>
     <loc>https://apotheosiscardgame.com/lore/beings/synthetic/robots/</loc>
     <lastmod>2026-03-31T18:25:31Z</lastmod>
   </url>
@@ -333,16 +329,20 @@
     <lastmod>2026-04-06T16:12:41Z</lastmod>
   </url>
   <url>
+    <loc>https://apotheosiscardgame.com/gameplay/game-mode/travel-mode/</loc>
+    <lastmod>2026-04-09T22:02:33Z</lastmod>
+  </url>
+  <url>
+    <loc>https://apotheosiscardgame.com/gameplay/time/</loc>
+    <lastmod>2026-03-31T18:25:31Z</lastmod>
+  </url>
+  <url>
     <loc>https://apotheosiscardgame.com/gameplay/setup/variant/</loc>
     <lastmod>2026-04-06T16:12:41Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/gameplay/game-mode/battle-mode/</loc>
     <lastmod>2026-04-06T16:12:41Z</lastmod>
-  </url>
-  <url>
-    <loc>https://apotheosiscardgame.com/gameplay/time/</loc>
-    <lastmod>2026-03-31T18:25:31Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/lore/beings/numinous/others/maedra/</loc>

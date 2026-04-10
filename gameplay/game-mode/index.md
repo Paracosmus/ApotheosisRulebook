@@ -12,4 +12,6 @@ Cada modo tem suas próprias regras e mecânicas específicas, e os jogadores po
 
 [!ref](/gameplay/game-mode/story-mode.md)
 
+[!ref](/gameplay/game-mode/travel-mode.md)
+
 ---
