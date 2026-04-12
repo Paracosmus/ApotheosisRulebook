@@ -8,7 +8,7 @@
 | <span class="class"></span>     | Classe      | *Class*      | [<span class="class"><b>CLASSE</b></span>](/cards/class.md)     | e951    | `#F44336` |
 | <span class="entity"></span>    | Ente        | *Entity*     | [<span class="entity"><b>ENTE</b></span>](/cards/entity.md)    | e952    | `#3F51B5` |
 | <span class="item"></span>      | Item        | *Item*       | [<span class="item"><b>ITEM</b></span>](/cards/item.md)      | e955    | `#FFC107` |
-| <span class="skill"></span>     | Habilidade  | *Skill*      | [<span class="skill"><b>HABILIDADE</b></span>](/cards/skill.md)     | e956    | `#2196F3` |
+| <span class="skill"></span>     | Habilidade  | *Skill*      | [<span class="skill"><b>HABILIDADE</b></span>](/cards/skills.md)     | e956    | `#2196F3` |
 | <span class="companion"></span> | Companheiro | *Companion*  | [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) | e950    | `#FF7043` |
 | <span class="event"></span>     | Evento      | *Event*      | [<span class="event"><b>EVENTO</b></span>](/cards/event.md)     | e953    | `#4CAF50` |
 | <span class="summus"></span>    | Summus      | *Summus*     | [<span class="summus"><b>SUMMUS</b></span>](/cards/summus/)    | e94b    | `#FF22B2` |
@@ -154,11 +154,11 @@
 | Icon                          | Termo (PT) | English    | Variável     | Unicode | Color     |
 | ----------------------------- | ---------- | ---------- | ------------ | ------- | --------- |
 | -                             | Essência   | *Essence*  | -            | -       | -         |
-| <span class="black"></span>  | Preta      | *Black*    | [<span class="skill"><span class="black"><b>PRETA</b></span>](/cards/skill.md#essência)  | e933    | `#212121` |
-| <span class="blue"></span>   | Azul       | *Blue*     | [<span class="skill"><span class="blue"><b>AZUL</b></span>](/cards/skill.md#essência)   | e934    | `#0D47A1` |
-| <span class="yellow"></span> | Amarela    | *Yellow*   | [<span class="skill"><span class="yellow"><b>AMARELA</b></span>](/cards/skill.md#essência) | e935    | `#FDD835` |
-| <span class="red"></span>    | Vermelha   | *Red*      | [<span class="skill"><span class="red"><b>VERMELHA</b></span>](/cards/skill.md#essência)    | e936    | `#B71C1C` |
-| <span class="white"></span>  | Branca     | *White*    | [<span class="skill"><span class="white"><b>BRANCA</b></span>](/cards/skill.md#essência)  | e937    | `#BDBDBD` |
+| <span class="black"></span>  | Preta      | *Black*    | [<span class="skill"><span class="black"><b>PRETA</b></span>](/cards/skills.md#essência)  | e933    | `#212121` |
+| <span class="blue"></span>   | Azul       | *Blue*     | [<span class="skill"><span class="blue"><b>AZUL</b></span>](/cards/skills.md#essência)   | e934    | `#0D47A1` |
+| <span class="yellow"></span> | Amarela    | *Yellow*   | [<span class="skill"><span class="yellow"><b>AMARELA</b></span>](/cards/skills.md#essência) | e935    | `#FDD835` |
+| <span class="red"></span>    | Vermelha   | *Red*      | [<span class="skill"><span class="red"><b>VERMELHA</b></span>](/cards/skills.md#essência)    | e936    | `#B71C1C` |
+| <span class="white"></span>  | Branca     | *White*    | [<span class="skill"><span class="white"><b>BRANCA</b></span>](/cards/skills.md#essência)  | e937    | `#BDBDBD` |
 
 <br><br>
 
@@ -178,7 +178,7 @@
 | Icon                             | Termo (PT) | English   | Variável    | Unicode | Color     |
 | -------------------------------- | ---------- | --------- | ----------- | ------- | --------- |
 | <span class="item"></span>      | Preço      | *Money*   | [<span class="item"><b>PREÇO</b></span>](/cards/item.md) | e958    | `#FFC107` |
-| <span class="skill"></span>     | XP         | *XP*      | [<span class="skill"><b>XP</b></span>](/cards/skill.md)    | e95a    | `#2196F3` |
+| <span class="skill"></span>     | XP         | *XP*      | [<span class="skill"><b>XP</b></span>](/cards/skills.md)    | e95a    | `#2196F3` |
 | <span class="companion"></span> | Vontade    | *Will*    | [<span class="companion"><b>VONTADE</b></span>](/cards/companion.md)  | e959    | `#FF7043` |
 | <span class="event"></span>     | Destino    | *Fate*    | [<span class="event"><b>DESTINO</b></span>](/cards/event.md)  | e957    | `#4CAF50` |
 

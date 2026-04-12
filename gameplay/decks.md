@@ -14,7 +14,7 @@ O conteúdo de um baralho é definido pela campanha ou formato de jogo, estando 
 <span class="class"><b>TAVERNA</b></span>    | Composto por cartas de [<span class="class"><b>CLASSE</b></span>](/cards/class.md)
 <span class="entity"><b>FERIDA</b></span>     | Composto por cartas de [<span class="entity"><b>ENTE</b></span>](/cards/entity.md)
 <span class="item"><b>MERCADO</b></span>    | Composto por cartas de [<span class="item"><b>ITEM</b></span>](/cards/item.md)
-<span class="skill"><b>ACADEMIA</b></span>   | Composto por cartas de [<span class="skill"><b>HABILIDADE</b></span>](/cards/skill.md)
+<span class="skill"><b>ACADEMIA</b></span>   | Composto por cartas de [<span class="skill"><b>HABILIDADE</b></span>](/cards/skills.md)
 <span class="companion"><b>BESTIÁRIO</b></span>  | Composto por cartas de [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md)
 <span class="event"><b>SANTUÁRIO</b></span> | Composto por cartas de [<span class="event"><b>EVENTO</b></span>](/cards/event.md)
 
@@ -45,7 +45,7 @@ No caso dos baralhos de [cartas de Recurso](/cards/index.md), um personagens pod
 Ele deve selecionar as cartas que deseja obter da pilha de descarte e então selecionar cartas que possui cuja soma dos valores seja igual ou superior à soma dados valores das cartas que deseja obter. As cartas trocadas são descartadas para suas respectivas pilhas de descarte, e as cartas obtidas são colocadas no [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) do personagem.
 
 !!!
-Observe que cada carta de Recurso tem um tipo de valor, e portanto não pode ser trocada por cartas de outro tipo. Por exemplo, uma carta de [<span class="item"><b>ITEM</b></span>](/cards/item.md) cujo valor é medido pelo seu [<span class="item"><b>PREÇO</b></span>](/cards/item.md), não pode ser trocada por uma carta de [<span class="skill"><b>HABILIDADE</b></span>](/cards/skill.md), cujo valor é medido em [<span class="skill"><b>XP</b></span>](/cards/skill.md).
+Observe que cada carta de Recurso tem um tipo de valor, e portanto não pode ser trocada por cartas de outro tipo. Por exemplo, uma carta de [<span class="item"><b>ITEM</b></span>](/cards/item.md) cujo valor é medido pelo seu [<span class="item"><b>PREÇO</b></span>](/cards/item.md), não pode ser trocada por uma carta de [<span class="skill"><b>HABILIDADE</b></span>](/cards/skills.md), cujo valor é medido em [<span class="skill"><b>XP</b></span>](/cards/skills.md).
 !!!
 
 ### Restrição de Local

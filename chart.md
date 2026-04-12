@@ -31,7 +31,7 @@ Descansar
 
 Trocar cartas com a Pilha de Descarte
     - _Comprar [<span class="item"><b>ITEM</b></span>](/cards/item.md)_
-    - _Aprender [<span class="skill"><b>HABILIDADE</b></span>](/cards/skill.md)_
+    - _Aprender [<span class="skill"><b>HABILIDADE</b></span>](/cards/skills.md)_
     - _Recrutar [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md)_
     - _Colher [<span class="event"><b>EVENTO</b></span>](/cards/event.md)_
 :   Ação total

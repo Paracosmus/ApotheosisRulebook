@@ -17,7 +17,7 @@ São utilizados sete naipes de cartas com funções e mecânicas próprias, divi
     **Uso**: Estas cartas podem estar apenas eu seus respectivos baralhos, pilhas de descarte, anexadas, [<span class="keyword-scope">Hand</span>](/cards/#palavras-chave-de-efeito-keyword), ou no espaço apropriado designado da [<span class="main"><b>MESA</b></span>](/hero/table/) de um Herói. Se uma situação de jogo resultar nesta carta estar ou ser envida para outro local que não estes, ela deve ser enviada para a pilha de descarte.
 
 **Cartas de Recurso**
-:   [<span class="item"><b>ITEM</b></span>](/cards/item.md) | [<span class="skill"><b>HABILIDADE</b></span>](/cards/skill.md) | [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) | [<span class="event"><b>EVENTO</b></span>](/cards/event.md)
+:   [<span class="item"><b>ITEM</b></span>](/cards/item.md) | [<span class="skill"><b>HABILIDADE</b></span>](/cards/skills.md) | [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) | [<span class="event"><b>EVENTO</b></span>](/cards/event.md)
     > São utilizadas para representar elementos que auxiliam o personagem em sua jornada, como objetos e capacidades.
 
     **Uso**: Estas cartas possuem um requerimento de nível mínimo de [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md), que um Herói precisa ter para ter esta carta em sua [<span class="main"><b>MESA</b></span>](/hero/table/), exceto quando anexadas a uma outra carta. Se uma situação de jogo resultar nesta carta estar ou ser envida para [<span class="main"><b>MESA</b></span>](/hero/table/) de um Herói que não atenda a este requerimento, ela deve ser enviada para o [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) do mesmo.
@@ -47,7 +47,7 @@ Efeitos que precisam ser ativados manualmente pelo jogador ou por uma condição
 Para identificar uma carta que pode ser ativada, ela precisa possuir uma das seguintes características:
 
 {.list-icon}
-- :icon-check-circle: Ter uma _Barra de Ativação_ (presente em algumas cartas de [<span class="item"><b>ITEM</b></span>](/cards/item.md) e [<span class="skill"><b>HABILIDADE</b></span>](/cards/skill.md))
+- :icon-check-circle: Ter uma _Barra de Ativação_ (presente em algumas cartas de [<span class="item"><b>ITEM</b></span>](/cards/item.md) e [<span class="skill"><b>HABILIDADE</b></span>](/cards/skills.md))
 - :icon-check-circle: Ser uma carta de [<span class="event"><b>EVENTO</b></span>](/cards/event.md)
 - :icon-check-circle: Seu texto deve especificar se ela pode ou deve ser ativada, acompanhado de custos e condições, se houverem
 
@@ -282,4 +282,4 @@ Representado pelo ícone de um pincel , o artista é o responsável pela ilus
 
 ---
 
-Efeitos temporários são os únicos que permanacem em funcionando mesmo depois de a carta ser removida de jogo. Note que eles terminam geralmente em valores curtos ou variáveis como, “Até o final do turno”, “até o final da batalha”, “até o início do seu próximo turno”, etc.. Durações constantes como 3 rodadas, 5 rodadas, etc. devem ser usados contadores de tempo.
+Efeitos [<span class="keyword-limit">Lingering</span>](/cards/#palavras-chave-de-efeito-keyword) são os únicos que permanacem em funcionando mesmo depois de a carta ser removida de jogo. Note que eles terminam geralmente em valores curtos ou variáveis como, “Até o final do turno”, “até o final da batalha”, “até o início do seu próximo turno”, etc.. Durações constantes como 3 rodadas, 5 rodadas, etc. devem ser usados contadores de tempo.

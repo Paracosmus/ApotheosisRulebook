@@ -26,8 +26,19 @@
 #### Conjuntos
 
 - [Adrenocromo](https://apotheosiscardgame.com/lore/cards-sets/sets/adrenochrome.md): Adrenocromo é um produto de oxidação da adrenalina (epinefrina).
+- [Aetherframe](https://apotheosiscardgame.com/lore/cards-sets/sets/aetherframe.md)
+- [Aetherscript](https://apotheosiscardgame.com/lore/cards-sets/sets/aetherscript.md)
+- [Armadura Mecânica](https://apotheosiscardgame.com/lore/cards-sets/sets/powered-suit.md): Powered Suit / Mecha
+- [Denário](https://apotheosiscardgame.com/lore/cards-sets/sets/denarius.md)
+- [Exoesqueleto](https://apotheosiscardgame.com/lore/cards-sets/sets/exosuit.md): Exosuit
+- [Fusion](https://apotheosiscardgame.com/lore/cards-sets/sets/fusion.md)
+- [Hidden Power](https://apotheosiscardgame.com/lore/cards-sets/sets/hidden-power.md)
+- [Húbris](https://apotheosiscardgame.com/lore/cards-sets/sets/hybris.md)
+- [Ichor](https://apotheosiscardgame.com/lore/cards-sets/sets/ichor.md)
 - [Iluminação](https://apotheosiscardgame.com/lore/cards-sets/sets/enlightenment.md): Usa-se o mapa de iluminação
-- [Protobots](https://apotheosiscardgame.com/lore/cards-sets/sets/protobots.md): Robôs, porém em vez de IA, uma pneuma humana (companion) é dada a eles
+- [Outras Propriedades](https://apotheosiscardgame.com/lore/cards-sets/sets/other-tags.md): Montarias
+- [Protobot](https://apotheosiscardgame.com/lore/cards-sets/sets/protobot.md): Robôs, porém em vez de IA, uma pneuma humana (companion) é dada a eles
+- [Teography](https://apotheosiscardgame.com/lore/cards-sets/sets/teography.md)
 
 #### Lignums
 
@@ -88,7 +99,7 @@
 - [Classe](https://apotheosiscardgame.com/cards/class.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [Ente](https://apotheosiscardgame.com/cards/entity.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [ITEM](https://apotheosiscardgame.com/cards/item.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
-- [HABILIDADE](https://apotheosiscardgame.com/cards/skill.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [HABILIDADE](https://apotheosiscardgame.com/cards/skills.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [COMPANHEIRO](https://apotheosiscardgame.com/cards/companion.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [EVENTO](https://apotheosiscardgame.com/cards/event.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 

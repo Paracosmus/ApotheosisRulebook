@@ -75,15 +75,15 @@ Essência é um recurso que pode também ser tratado como [<span class="skill">�
 Quando você puder _“levantar troco”_, o troco deve ser da mesma cor ou levante [<span class="skill"><b>MANA</b></span>](/hero/#mana) e/ou [<span class="skill"><b>ESTAMINA</b></span>](/hero/#estamina).
 
 {.list-icon}
-* :icon-chevron-right: [<span class="skill"><span class="yellow"><b>AMARELA</b></span>](/cards/skill.md#essência) - Representa a essência de Lignums de natureza física, como força, resistência, objetos materiais, etc.
+* :icon-chevron-right: [<span class="skill"><span class="yellow"><b>AMARELA</b></span>](/cards/skills.md#essência) - Representa a essência de Lignums de natureza física, como força, resistência, objetos materiais, etc.
 
-* :icon-chevron-right: [<span class="skill"><span class="red"><b>VERMELHA</b></span>](/cards/skill.md#essência) - Representa a essência de Lignums de natureza expansionista, como poder, controle, dominação, atitude, etc.
+* :icon-chevron-right: [<span class="skill"><span class="red"><b>VERMELHA</b></span>](/cards/skills.md#essência) - Representa a essência de Lignums de natureza expansionista, como poder, controle, dominação, atitude, etc.
 
-* :icon-chevron-right: [<span class="skill"><span class="blue"><b>AZUL</b></span>](/cards/skill.md#essência) - Representa a essência de Lignums de natureza intelectual, como conhecimento, sabedoria, estratégia, etc.
+* :icon-chevron-right: [<span class="skill"><span class="blue"><b>AZUL</b></span>](/cards/skills.md#essência) - Representa a essência de Lignums de natureza intelectual, como conhecimento, sabedoria, estratégia, etc.
 
-* :icon-chevron-right: [<span class="skill"><span class="white"><b>BRANCA</b></span>](/cards/skill.md#essência) - Representa a essência de Lignums de natureza espiritual, como fé, esperança, amor, magia branca, etc.
+* :icon-chevron-right: [<span class="skill"><span class="white"><b>BRANCA</b></span>](/cards/skills.md#essência) - Representa a essência de Lignums de natureza espiritual, como fé, esperança, amor, magia branca, etc.
 
-* :icon-chevron-right: [<span class="skill"><span class="black"><b>PRETA</b></span>](/cards/skill.md#essência) - Representa a essência de Lignums de natureza destrutiva, como morte, dor, sofrimento, magia negra, etc.
+* :icon-chevron-right: [<span class="skill"><span class="black"><b>PRETA</b></span>](/cards/skills.md#essência) - Representa a essência de Lignums de natureza destrutiva, como morte, dor, sofrimento, magia negra, etc.
 
 Se você pagar essência em uma ativação que seja exclusiva de estamina ou mana, você ainda pode pegar o troco do overpay. Agora se a ativação requer ambas, estamina e mana, então você não pode pegar o troco desta ativação
 
