@@ -76,7 +76,7 @@ data:
   class:     '[<span class="class"><b>CLASSE</b></span>](/cards/class.md)'
   entity:    '[<span class="entity"><b>ENTE</b></span>](/cards/entity.md)'
   item:      '[<span class="item"><b>ITEM</b></span>](/cards/item.md)'
-  skill:     '[<span class="skill"><b>HABILIDADE</b></span>](/cards/skill.md)'
+  skill:     '[<span class="skill"><b>HABILIDADE</b></span>](/cards/skills.md)'
   companion: '[<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md)'
   event:     '[<span class="event"><b>EVENTO</b></span>](/cards/event.md)'
 
@@ -177,7 +177,7 @@ data:
 
   # Value
   price: '[<span class="item"><b>PREÇO</b></span>](/cards/item.md)'
-  xp:    '[<span class="skill"><b>XP</b></span>](/cards/skill.md)'
+  xp:    '[<span class="skill"><b>XP</b></span>](/cards/skills.md)'
   will:  '[<span class="companion"><b>VONTADE</b></span>](/cards/companion.md)'
   fate:  '[<span class="event"><b>DESTINO</b></span>](/cards/event.md)'
 
@@ -208,11 +208,11 @@ data:
   utility:   '[<span class="item"><b>UTILITÁRIO</b>](/cards/item.md#fabricar)'
 
   # Mana Color
-  yellow: '[<span class="skill"><span class="yellow"><b>AMARELA</b></span>](/cards/skill.md#essência)'
-  red:    '[<span class="skill"><span class="red"><b>VERMELHA</b></span>](/cards/skill.md#essência)'
-  blue:   '[<span class="skill"><span class="blue"><b>AZUL</b></span>](/cards/skill.md#essência)'
-  white:  '[<span class="skill"><span class="white"><b>BRANCA</b></span>](/cards/skill.md#essência)'
-  black:  '[<span class="skill"><span class="black"><b>PRETA</b></span>](/cards/skill.md#essência)'
+  yellow: '[<span class="skill"><span class="yellow"><b>AMARELA</b></span>](/cards/skills.md#essência)'
+  red:    '[<span class="skill"><span class="red"><b>VERMELHA</b></span>](/cards/skills.md#essência)'
+  blue:   '[<span class="skill"><span class="blue"><b>AZUL</b></span>](/cards/skills.md#essência)'
+  white:  '[<span class="skill"><span class="white"><b>BRANCA</b></span>](/cards/skills.md#essência)'
+  black:  '[<span class="skill"><span class="black"><b>PRETA</b></span>](/cards/skills.md#essência)'
 
   # Summus
   ars:         '[<span class="summus"><b>ARS</b></span>](/cards/summus/ars.md)'

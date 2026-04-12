@@ -1,7 +1,6 @@
 ---
 label: Adrenocromo
 icon: square-fill
-order: 99
 ---
 
 # Adrenocromo

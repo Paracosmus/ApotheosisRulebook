@@ -1,10 +1,9 @@
 ---
-label: Protobots
+label: Protobot
 icon: square-fill
-order: 99
 ---
 
-# Protobots
+# Protobot
 
 Robôs, porém em vez de IA, uma pneuma humana (companion) é dada a eles
 

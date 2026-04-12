@@ -1,7 +1,6 @@
 ---
 label: Iluminação
 icon: square-fill
-order: 99
 ---
 
 # Iluminação
