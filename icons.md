@@ -210,8 +210,8 @@ layout: page
 
 ## Outros Ícones
 
-| Icon                                     | Termo (PT)   | English        | Variável      | Unicode | Color     |
-| ---------------------------------------- | ------------ | -------------- | ------------- | ------- | --------- |
+| Icon                                     | Termo (PT)        | English        | Variável      | Unicode | Color     |
+| ---------------------------------------- | ----------------- | -------------- | ------------- | ------- | --------- |
 | <span style="color: #2B6A2E;"></span> | Vida              | *Life (HP)*    | {{ hp }}      | e928    | `#2B6A2E` |
 | <span style="color: #D50000;"></span> | Lesão             | *Injury*       | {{ injury }}  | eb3e    | `#D50000` |
 | <span style="color: #D50000;"></span> | Dano              | *Damage*       | {{ dmg }}     | e919    | `#D50000` |
@@ -240,6 +240,18 @@ layout: page
 | <span style="color: #76ff03;"></span> | Terreno           | *Terrain*      | -             | e930    | `#76ff03` |
 |                                         | Artista           | *Artist*       | -             | e931    | -         |
 | -                                        | Formato           | *Format*       | -             | -       | `#03DAC6` |
+
+<br><br>
+
+## Raridades
+
+| Box                                                                 | Termo           | Cor       |
+| ------------------------------------------------------------------- | --------------- | --------- |
+| <div class="rarity-box" style="background-color: #9E9E9E">C</div> | {{ common }}    | `#9E9E9E` |
+| <div class="rarity-box" style="background-color: #8BC34A">U</div> | {{ uncommon }}  | `#8BC34A` |
+| <div class="rarity-box" style="background-color: #01579B">R</div> | {{ rare }}      | `#01579B` |
+| <div class="rarity-box" style="background-color: #673AB7">E</div> | {{ epic }}      | `#673AB7` |
+| <div class="rarity-box" style="background-color: #FFC400">L</div> | {{ legendary }} | `#FFC400` |
 
 <br><br>
 
