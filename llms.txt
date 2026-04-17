@@ -5,7 +5,7 @@
 - [Home](https://apotheosiscardgame.com/index.md): Home
 - [Começando a Jogar](https://apotheosiscardgame.com/getting-started.md): Este é um jogo de tabuleiro e cartas híbrido que combina elementos de:
 - [Mitologia](https://apotheosiscardgame.com/lore/index.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
-- [Cartas](https://apotheosiscardgame.com/cards/index.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Cartas](https://apotheosiscardgame.com/cards/index.md): São a base do jogo, as partículas que compõem os personagens e eventos. Cada carta possui um conjunto de informações que são utilizadas para dar função e significado.
 - [Herói](https://apotheosiscardgame.com/hero/index.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [Batalha](https://apotheosiscardgame.com/battle/index.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [Diretrizes](https://apotheosiscardgame.com/guidelines.md): As diretrizes são regras gerais aplicáveis a todas as situações do jogo. Elas devem ser seguidas sempre que possível, a não ser quando uma regra mais específica ou um efeito de carta disser o contrário.

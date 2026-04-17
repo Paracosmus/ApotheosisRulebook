@@ -204,8 +204,8 @@
 
 ## Outros Ícones
 
-| Icon                                     | Termo (PT)   | English        | Variável      | Unicode | Color     |
-| ---------------------------------------- | ------------ | -------------- | ------------- | ------- | --------- |
+| Icon                                     | Termo (PT)        | English        | Variável      | Unicode | Color     |
+| ---------------------------------------- | ----------------- | -------------- | ------------- | ------- | --------- |
 | <span style="color: #2B6A2E;"></span> | Vida              | *Life (HP)*    | [<span class="main"><b>VIDA</b></span>](/hero/#vida)      | e928    | `#2B6A2E` |
 | <span style="color: #D50000;"></span> | Lesão             | *Injury*       | <b>LESÃO</b>  | eb3e    | `#D50000` |
 | <span style="color: #D50000;"></span> | Dano              | *Damage*       | <b>DANO</b>     | e919    | `#D50000` |
@@ -234,6 +234,18 @@
 | <span style="color: #76ff03;"></span> | Terreno           | *Terrain*      | -             | e930    | `#76ff03` |
 |                                         | Artista           | *Artist*       | -             | e931    | -         |
 | -                                        | Formato           | *Format*       | -             | -       | `#03DAC6` |
+
+<br><br>
+
+## Raridades
+
+| Box                                                                 | Termo           | Cor       |
+| ------------------------------------------------------------------- | --------------- | --------- |
+| <div class="rarity-box" style="background-color: #9E9E9E">C</div> | [<span class="common">COMUM</span>](/cards/#raridade)    | `#9E9E9E` |
+| <div class="rarity-box" style="background-color: #8BC34A">U</div> | [<span class="uncommon">INCOMUM</span>](/cards/#raridade)  | `#8BC34A` |
+| <div class="rarity-box" style="background-color: #01579B">R</div> | [<span class="rare">RARA</span>](/cards/#raridade)      | `#01579B` |
+| <div class="rarity-box" style="background-color: #673AB7">E</div> | [<span class="epic">ÉPICA</span>](/cards/#raridade)      | `#673AB7` |
+| <div class="rarity-box" style="background-color: #FFC400">L</div> | [<span class="legendary">LENDÁRIA</span>](/cards/#raridade) | `#FFC400` |
 
 <br><br>
 

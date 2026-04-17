@@ -12,9 +12,9 @@ Este livro e as cartas do jogo utilizam termos com significados específicos. Ab
 
 ## C
 
-[!card compact](gameplay/setup/campaign.md) [!card compact](gameplay/setup/)
+[!card compact](gameplay/setup/campaign.md) [!card compact](/cards/)
 
-[!card compact](gameplay/counter.md)
+[!card compact](gameplay/setup/) [!card compact](gameplay/counter.md)
 
 ## D
 
