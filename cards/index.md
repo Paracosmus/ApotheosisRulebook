@@ -122,6 +122,12 @@ Por padrão as coleções não influenciam diretamente nas regras do jogo, mas p
 
 Junto ao nome da coleção está o número indicando a posição daquela carta dentro da coleção e o total de cartas da coleção. O que é utilizado para fins de organização e identificação.
 
+Cada coleção tem um código de três a quatro letras, que é utilizado para identificar a coleção de forma abreviada, e junto com o número da carta, é utilizado para identificar a carta de forma única.
+
+!!!
+Por exemplo, a carta de número 5 da coleção "_Gods & Temples_" com código "_GnT_" é identificada como "_GnT-005_".
+!!!
+
 ---
 
 ## Propriedades
@@ -270,6 +276,10 @@ Além disso, alguns conceitos relacionados teóricos inferidos no texto são imp
   Durante a ação -> em um teste, em um ataque, etc. (mais comuns em efeitos permanentes de bônus)
 
   Depois da ação -> Depois de resolver uma carta, depois de ser atacado, quando for selecionado como alvo, quando sofrer dano, etc.
+
+==- Padrões de Escrita [!badge text="Writing Patterns" variant="ghost"]
+
+
 
 ===
 
