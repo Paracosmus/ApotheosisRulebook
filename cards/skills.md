@@ -1,7 +1,7 @@
 ---
 label: Habilidade
 icon: "/static/img/icons/suit_skill.svg"
-order: 3
+order: 80
 ---
 {{ review() }}
 

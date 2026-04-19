@@ -1,7 +1,7 @@
 ---
 label: Item
 icon: "/static/img/icons/suit_item.svg"
-order: 4
+order: 85
 ---
 {{ review() }}
 
@@ -45,13 +45,13 @@ Ao custo de 2 de {{ ap }}, esta carta pode ser enviada do {{ equip }} para o {{ 
 
 ## <span class="item">Barra de Ativação</span>
 
-Quando um {{ item }} em seu {{ equip }} possuir uma barra de ativação, em adicional as regras de [ativação de carta](/cards/index.md#efeito), o Herói deve antes deve seguir os seguintes passos:
+Quando um {{ item }} em seu {{ equip }} possuir uma barra de ativação, em adicional as regras de ativação de carta, o Herói deve antes deve seguir os seguintes passos:
 
 1. Verificar se a ativação é possível, vendo se o Herói possui os requisitos de custo e condições adicionais que possam existir no texto da carta. Bem como se o texto é possível de ser aplicado naquele momento da partida.
-1. Pagar o custo de {{ ap }} descritos.
-1. Se a barra de ativação possuir um {{ range }}, selecionar um alvo válido
-1. Se a barra de ativação possuir um {{ dmg }}, aplicá-lo ao alvo selecionado
-1. Observar o efeito da carta, e aplicar o que for necessário
+2. Pagar o custo de {{ ap }} descritos.
+3. Se a barra de ativação possuir um {{ range }}, selecionar um alvo válido
+4. Se a barra de ativação possuir um {{ dmg }}, aplicá-lo ao alvo selecionado
+5. Observar o efeito da carta, e aplicar o que for necessário
 
 ---
 

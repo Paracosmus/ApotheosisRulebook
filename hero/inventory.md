@@ -33,7 +33,7 @@ Cartas ocultas no {{ inv }} não podem ser ativadas e devem ter seus efeitos e b
 
 Cartas permanecidas reveladas no {{ inv }} podem ser ativadas, e seus efeitos e bônus devem ser considerados a todo momento.
 
-Porém, {{ event }} são exceção a esta regra, podendo ser ativados normalmente, bem como ativados quando uma condição opcional for cumprida. Assim como as cartas na {{ table }}, um {{ event }} no {{ inv }} segue as mesmas [regras de ativação](/cards/#ativo) e requerem que o Herói tenha o nível de {{ knowledge }} da carta para poder ativá-la e usar seu efeito.
+Porém, {{ event }} são exceção a esta regra, podendo ser ativados normalmente, bem como ativados quando uma condição opcional for cumprida. Assim como as cartas na {{ table }}, um {{ event }} no {{ inv }} segue as mesmas regras de ativação e requerem que o Herói tenha o nível de {{ knowledge }} da carta para poder ativá-la e usar seu efeito.
 
 Se um {{ event }} for ativado do {{ inv }}, ele deve ser revelado, e se após resolver seu efeito, ele não for descartado, ele deve ser ocultado novamente.
 

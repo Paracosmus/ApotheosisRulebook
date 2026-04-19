@@ -1,7 +1,7 @@
 ---
 label: Evento
 icon: "/static/img/icons/suit_event.svg"
-order: 1
+order: 70
 ---
 {{ review() }}
 

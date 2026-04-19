@@ -5,7 +5,7 @@ order: 0
 ---
 {{ review() }}
 
-# SUMMUS
+# Summus
 
 Summus são as cartas que possuem os efeitos mais poderosos no jogo. De forma resumida, Summus é uma mecânica extra, que é adicionado a uma carta, conferindo novas capacidades e efeitos a ela, bem como adicionando regras específicas para sua utilização.
 

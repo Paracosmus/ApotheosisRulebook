@@ -1,7 +1,7 @@
 ---
 label: Ente
 icon: "/static/img/icons/suit_entity.svg"
-order: 5
+order: 90
 ---
 {{ review() }}
 
