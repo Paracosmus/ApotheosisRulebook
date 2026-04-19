@@ -1,0 +1,1303 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6DMTE08V5G"></script>
+    <script data-cfasync="false">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-6DMTE08V5G');</script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.829933593925">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 4.5.3">
+
+    <!-- Primary Meta Tags -->
+    <title>Efeito</title>
+    <meta name="title" content="Efeito">
+    <meta name="description" content="O efeito de uma carta é um texto que descreve sua função e mecânica, explicando como jogá-la e aplicá-la durante a partida. A função do efeito é conferir">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://apotheosiscardgame.com/cards/effect/">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="https://apotheosiscardgame.com/sitemap.xml">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://apotheosiscardgame.com/cards/effect/">
+    <meta property="og:title" content="Efeito">
+    <meta property="og:description" content="O efeito de uma carta é um texto que descreve sua função e mecânica, explicando como jogá-la e aplicá-la durante a partida. A função do efeito é conferir">
+    <meta property="og:site_name" content="Apotheosis">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://apotheosiscardgame.com/cards/effect/">
+    <meta name="twitter:title" content="Efeito">
+    <meta name="twitter:description" content="O efeito de uma carta é um texto que descreve sua função e mecânica, explicando como jogá-la e aplicá-la durante a partida. A função do efeito é conferir">
+
+    <!-- Alternate Markdown -->
+    <link rel="alternate" type="text/markdown" href="https://apotheosiscardgame.com/cards/effect.md">
+
+    <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
+
+    <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
+    <link href="/resources/css/retype.css?v=4.5.3.829933593925" rel="stylesheet">
+
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.5.3.829933593925" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.5.3.829933593925" data-turbo-eval="false" defer></script>
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <style>
+        /* Override retype style */
+        :root {
+            /* Link styles */
+            --body-link-decoration-line: none !important;
+            --body-link-decoration-thickness: 0 !important;
+        }
+
+        /* Fallback Apotheosis Icons font */
+        @font-face {
+            font-family: 'Apotheosis';
+            src: url('/static/fonts/apotheosis.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            font-display: block;
+        }
+
+        div.container {
+            font-family: 'Open Sans', Apotheosis;
+            max-width: 1530px;
+        }
+
+        h1, h2 {
+            text-transform: uppercase !important;
+        }
+
+        b {
+            font-weight: 650;
+            letter-spacing: 0.2px;
+        }
+
+        .icon {
+            font-weight: normal;
+        }
+
+        .briefing {
+            color: #1976d2;
+            margin: 0px !important;
+        }
+
+        .rarity-box {
+            width: 24px;
+            background-color: #BDBDBD;
+            display: inline-block;
+            border-radius: 6px 6px 0 0;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.5);
+            font-weight: bold;
+        }
+
+        /* Bonus */
+        .positive {
+            font-weight: bold;
+            color: green;
+        }
+
+        .negative {
+            font-weight: bold;
+            color: red;
+        }
+
+        /* Colors */
+        .main      { color: #212121; } .dark .main { color: #DADADA; }
+
+        .house     { color: #673AB7; }
+        .class     { color: #F44336; }
+        .entity    { color: #3F51B5; }
+        .item      { color: #FFC107; }
+        .skill     { color: #2196F3; }
+        .companion { color: #FF7043; }
+        .event     { color: #4CAF50; }
+
+        .summus    { color: #FF22B2; }
+        .knowledge { color: #995D52; }
+
+        .common    { color: #9E9E9E; }
+    	.uncommon  { color: #8BC34A; }
+    	.rare      { color: #01579B; }
+    	.epic      { color: #673AB7; }
+    	.legendary { color: #FFC400; }
+
+        .yellow    { color: #FFEB3B; }
+    	.red       { color: #B71C1C; }
+    	.blue      { color: #0D47A1; }
+    	.white     { color: #BDBDBD; }
+    	.black     { color: #424242; } .dark .black { color: #454545; }
+
+        .format    { color: #03DAC6; }
+
+        .keyword-activation {
+            font-size: 0.8em;
+            text-transform: uppercase;
+            color: #F5F5F5;
+            background-color: #3676BC;
+            border-radius: 4px;
+            padding: 0px 5px;
+            font-weight: 600;
+        }
+
+        .keyword-timing {
+            font-size: 0.8em;
+            text-transform: uppercase;
+            color: #F5F5F5;
+            background-color: #F78A1F;
+            border-radius: 4px;
+            padding: 0px 5px;
+            font-weight: 600;
+        }
+
+        .keyword-limit {
+            font-size: 0.8em;
+            text-transform: uppercase;
+            color: #F5F5F5;
+            background-color: #EF4056;
+            border-radius: 20px;
+            padding: 0px 8px;
+            font-weight: 600;
+        }
+
+        .keyword-scope {
+            font-size: 0.8em;
+            text-transform: uppercase;
+            color: #F5F5F5;
+            background-color: #932969;
+            border-radius: 20px;
+            padding: 0px 8px;
+            font-weight: 600;
+        }
+
+        .keyword-task {
+            position: relative;
+            text-transform: uppercase;
+            display: inline-block;
+            font-size: 0.8em;
+            color: #F5F5F5;
+            background-color: #212121;
+            margin: 0px 8px;
+            padding: 0px 5px; /* espaço para as pontas */
+            font-weight: 600;
+            border-radius: 8px;
+        } .keyword-task::before, .keyword-task::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            width: 0;
+            height: 0;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+        } .keyword-task::before {
+            left: -6px;
+            border-right: 10px solid #212121; /* mesma cor do fundo */
+            transform: translateY(-50%);
+        } .keyword-task::after {
+            right: -6px;
+            border-left: 10px solid #212121; /* mesma cor do fundo */
+            transform: translateY(-50%);
+        }
+
+        .requirement {
+            font-size: 0.8em;
+            color: #F5F5F5;
+            background-color: #5C697A;
+            border-radius: 4px;
+            padding: 0px 8px;
+            font-weight: 550;
+        }
+    </style>
+
+
+    <!-- Scripts -->
+    <script>
+
+
+
+    </script>
+
+
+    <!-- Page Header Content -->
+    <div>
+
+
+
+    </div>
+</head>
+<body>
+    <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
+    <div class="absolute bottom-0 left-0" style="top: 5rem; right: 50%"></div>
+
+    <header id="retype-header" class="sticky top-0 z-30 flex w-full h-16 bg-header-bg border-b border-header-border md:h-20">
+        <div class="container relative flex items-center justify-between pr-6 grow md:justify-start">
+            <!-- Mobile menu button skeleton -->
+            <button v-cloak class="skeleton retype-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-hidden rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+            <div v-cloak id="retype-sidebar-left-toggle-button"></div>
+    
+            <!-- Logo -->
+            <div class="flex items-center justify-between h-full py-2 md:w-75">
+                <div class="flex items-center px-2 md:px-6">
+                    <a id="retype-branding-logo" href="https://apotheosiscardgame.com/" class="flex items-center leading-snug text-2xl">
+                        <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
+                            <img class="max-h-10 md:inline-block" src="/static/img/logo.svg" alt="" width="40" height="40">
+                        </span>
+                        <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">Apotheosis</span>
+                    </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">book</span>
+                </div>
+    
+                <span class="hidden h-8 border-r md:inline-block border-base-border"></span>
+            </div>
+    
+            <div class="flex justify-between md:grow">
+                <!-- Top Nav -->
+                <nav id="retype-header-nav" class="hidden md:flex">
+                    <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="/">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M11.03 2.59a1.501 1.501 0 0 1 1.94 0l7.5 6.363a1.5 1.5 0 0 1 .53 1.144V19.5a1.5 1.5 0 0 1-1.5 1.5h-5.75a.75.75 0 0 1-.75-.75V14h-2v6.25a.75.75 0 0 1-.75.75H4.5A1.5 1.5 0 0 1 3 19.5v-9.403c0-.44.194-.859.53-1.144ZM12 3.734l-7.5 6.363V19.5h5v-6.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v6.25h5v-9.403Z"/>
+                                </svg>
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="/glossary/">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M10.414 15H3.586l-1.631 4.505a.75.75 0 1 1-1.41-.51l5.08-14.03a1.463 1.463 0 0 1 2.75 0l5.08 14.03a.75.75 0 1 1-1.411.51Zm4.532-5.098c.913-1.683 2.703-2.205 4.284-2.205 1.047 0 2.084.312 2.878.885.801.577 1.392 1.455 1.392 2.548v8.12a.75.75 0 0 1-1.5 0v-.06l-.044.025c-.893.52-2.096.785-3.451.785-1.051 0-2.048-.315-2.795-.948-.76-.643-1.217-1.578-1.217-2.702 0-.919.349-1.861 1.168-2.563.81-.694 2-1.087 3.569-1.087H22v-1.57c0-.503-.263-.967-.769-1.332-.513-.37-1.235-.6-2.001-.6-1.319 0-2.429.43-2.966 1.42a.75.75 0 0 1-1.318-.716ZM9.87 13.5 7 5.572 4.13 13.5Zm12.13.7h-2.77c-1.331 0-2.134.333-2.593.726a1.822 1.822 0 0 0-.644 1.424c0 .689.267 1.203.686 1.557.43.365 1.065.593 1.826.593 1.183 0 2.102-.235 2.697-.581.582-.34.798-.74.798-1.134Z"/>
+                                </svg>
+                                <span>Glossário</span>
+                            </a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="/chart/">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M5.962 2.513a.75.75 0 0 1-.475.949l-.816.272a.25.25 0 0 0-.171.237V21.25c0 .138.112.25.25.25h14.5a.25.25 0 0 0 .25-.25V3.97a.25.25 0 0 0-.17-.236l-.817-.272a.75.75 0 0 1 .474-1.424l.816.273A1.751 1.751 0 0 1 21 3.97v17.28A1.75 1.75 0 0 1 19.25 23H4.75A1.75 1.75 0 0 1 3 21.25V3.97a1.75 1.75 0 0 1 1.197-1.66l.816-.272a.75.75 0 0 1 .949.475Z"/><path d="M7 1.75C7 .784 7.784 0 8.75 0h6.5C16.216 0 17 .784 17 1.75v1.5A1.75 1.75 0 0 1 15.25 5h-6.5A1.75 1.75 0 0 1 7 3.25Zm1.75-.25a.25.25 0 0 0-.25.25v1.5c0 .138.112.25.25.25h6.5a.25.25 0 0 0 .25-.25v-1.5a.25.25 0 0 0-.25-.25Z"/>
+                                </svg>
+                                <span>Cartilha</span>
+                            </a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="/icons/">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M1.527 13.237a1.75 1.75 0 0 1 0-2.474l9.272-9.273a1.75 1.75 0 0 1 2.475 0l9.272 9.273a1.75 1.75 0 0 1 0 2.474l-9.272 9.272a1.75 1.75 0 0 1-2.475 0Zm1.06-1.414a.25.25 0 0 0 0 .354l9.273 9.272a.25.25 0 0 0 .353 0l9.272-9.272a.25.25 0 0 0 0-.354l-9.272-9.272a.25.25 0 0 0-.353 0Z"/>
+                                </svg>
+                                <span>Ícones</span>
+                            </a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://database.apotheosiscardgame.com/">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M12 1.25c2.487 0 4.773.402 6.466 1.079.844.337 1.577.758 2.112 1.264.536.507.922 1.151.922 1.907v12.987l-.026.013h.026c0 .756-.386 1.4-.922 1.907-.535.506-1.268.927-2.112 1.264-1.693.677-3.979 1.079-6.466 1.079s-4.774-.402-6.466-1.079c-.844-.337-1.577-.758-2.112-1.264C2.886 19.9 2.5 19.256 2.5 18.5h.026l-.026-.013V5.5c0-.756.386-1.4.922-1.907.535-.506 1.268-.927 2.112-1.264C7.226 1.652 9.513 1.25 12 1.25ZM4 14.371v4.116l-.013.013H4c0 .211.103.487.453.817.351.332.898.666 1.638.962 1.475.589 3.564.971 5.909.971 2.345 0 4.434-.381 5.909-.971.739-.296 1.288-.63 1.638-.962.349-.33.453-.607.453-.817h.013L20 18.487v-4.116a7.85 7.85 0 0 1-1.534.8c-1.693.677-3.979 1.079-6.466 1.079s-4.774-.402-6.466-1.079a7.843 7.843 0 0 1-1.534-.8ZM20 12V7.871a7.85 7.85 0 0 1-1.534.8C16.773 9.348 14.487 9.75 12 9.75s-4.774-.402-6.466-1.079A7.85 7.85 0 0 1 4 7.871V12c0 .21.104.487.453.817.35.332.899.666 1.638.961 1.475.59 3.564.972 5.909.972 2.345 0 4.434-.382 5.909-.972.74-.295 1.287-.629 1.638-.96.35-.33.453-.607.453-.818ZM4 5.5c0 .211.103.487.453.817.351.332.898.666 1.638.962 1.475.589 3.564.971 5.909.971 2.345 0 4.434-.381 5.909-.971.739-.296 1.288-.63 1.638-.962.349-.33.453-.607.453-.817 0-.211-.103-.487-.453-.817-.351-.332-.898-.666-1.638-.962-1.475-.589-3.564-.971-5.909-.971-2.345 0-4.434.381-5.909.971-.739.296-1.288.63-1.638.962C4.104 5.013 4 5.29 4 5.5Z"/>
+                                </svg>
+                                <span>Database</span>
+                            </a>
+                        </li>
+    
+                    </ul>
+                </nav>
+    
+                <div v-cloak class="flex justify-end grow">
+                    <div id="retype-mobile-search-button"></div>
+                    <doc-search-desktop></doc-search-desktop>
+    
+                    <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                    <doc-history></doc-history>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div id="retype-container" class="container relative flex bg-white">
+        <!-- Sidebar Skeleton -->
+        <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-sidebar-left-bg border-sidebar-left-border sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton">
+        
+            <div class="flex items-center h-16 px-6">
+                <input id="retype-filter-input-mock" class="w-full h-10 pl-8 px-3 py-2 transition-colors duration-200 ease-linear bg-filter-bg border border-filter-border rounded-lg shadow-none md:text-sm hover:border-filter-border-hover focus:outline-hidden focus:border-filter-border-focus placeholder-filter-placeholder" type="text">
+            </div>
+        
+            <div class="pl-6 mt-1 mb-4">
+                <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+            </div>
+        
+        </div>
+        
+        <!-- Sidebar component -->
+        <doc-sidebar v-cloak>
+            <template #sidebar-footer>
+                <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-base-border">
+        
+                    <div class="py-3 px-6 md:hidden border-b dark:border-base-border">
+                        <nav>
+                            <ul class="flex flex-wrap justify-center items-center">
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M11.03 2.59a1.501 1.501 0 0 1 1.94 0l7.5 6.363a1.5 1.5 0 0 1 .53 1.144V19.5a1.5 1.5 0 0 1-1.5 1.5h-5.75a.75.75 0 0 1-.75-.75V14h-2v6.25a.75.75 0 0 1-.75.75H4.5A1.5 1.5 0 0 1 3 19.5v-9.403c0-.44.194-.859.53-1.144ZM12 3.734l-7.5 6.363V19.5h5v-6.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v6.25h5v-9.403Z"/>
+                                        </svg>
+                                        <span>Home</span>
+                                    </a>
+                                </li>
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="/glossary/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M10.414 15H3.586l-1.631 4.505a.75.75 0 1 1-1.41-.51l5.08-14.03a1.463 1.463 0 0 1 2.75 0l5.08 14.03a.75.75 0 1 1-1.411.51Zm4.532-5.098c.913-1.683 2.703-2.205 4.284-2.205 1.047 0 2.084.312 2.878.885.801.577 1.392 1.455 1.392 2.548v8.12a.75.75 0 0 1-1.5 0v-.06l-.044.025c-.893.52-2.096.785-3.451.785-1.051 0-2.048-.315-2.795-.948-.76-.643-1.217-1.578-1.217-2.702 0-.919.349-1.861 1.168-2.563.81-.694 2-1.087 3.569-1.087H22v-1.57c0-.503-.263-.967-.769-1.332-.513-.37-1.235-.6-2.001-.6-1.319 0-2.429.43-2.966 1.42a.75.75 0 0 1-1.318-.716ZM9.87 13.5 7 5.572 4.13 13.5Zm12.13.7h-2.77c-1.331 0-2.134.333-2.593.726a1.822 1.822 0 0 0-.644 1.424c0 .689.267 1.203.686 1.557.43.365 1.065.593 1.826.593 1.183 0 2.102-.235 2.697-.581.582-.34.798-.74.798-1.134Z"/>
+                                        </svg>
+                                        <span>Glossário</span>
+                                    </a>
+                                </li>
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="/chart/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M5.962 2.513a.75.75 0 0 1-.475.949l-.816.272a.25.25 0 0 0-.171.237V21.25c0 .138.112.25.25.25h14.5a.25.25 0 0 0 .25-.25V3.97a.25.25 0 0 0-.17-.236l-.817-.272a.75.75 0 0 1 .474-1.424l.816.273A1.751 1.751 0 0 1 21 3.97v17.28A1.75 1.75 0 0 1 19.25 23H4.75A1.75 1.75 0 0 1 3 21.25V3.97a1.75 1.75 0 0 1 1.197-1.66l.816-.272a.75.75 0 0 1 .949.475Z"/><path d="M7 1.75C7 .784 7.784 0 8.75 0h6.5C16.216 0 17 .784 17 1.75v1.5A1.75 1.75 0 0 1 15.25 5h-6.5A1.75 1.75 0 0 1 7 3.25Zm1.75-.25a.25.25 0 0 0-.25.25v1.5c0 .138.112.25.25.25h6.5a.25.25 0 0 0 .25-.25v-1.5a.25.25 0 0 0-.25-.25Z"/>
+                                        </svg>
+                                        <span>Cartilha</span>
+                                    </a>
+                                </li>
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="/icons/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M1.527 13.237a1.75 1.75 0 0 1 0-2.474l9.272-9.273a1.75 1.75 0 0 1 2.475 0l9.272 9.273a1.75 1.75 0 0 1 0 2.474l-9.272 9.272a1.75 1.75 0 0 1-2.475 0Zm1.06-1.414a.25.25 0 0 0 0 .354l9.273 9.272a.25.25 0 0 0 .353 0l9.272-9.272a.25.25 0 0 0 0-.354l-9.272-9.272a.25.25 0 0 0-.353 0Z"/>
+                                        </svg>
+                                        <span>Ícones</span>
+                                    </a>
+                                </li>
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://database.apotheosiscardgame.com/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M12 1.25c2.487 0 4.773.402 6.466 1.079.844.337 1.577.758 2.112 1.264.536.507.922 1.151.922 1.907v12.987l-.026.013h.026c0 .756-.386 1.4-.922 1.907-.535.506-1.268.927-2.112 1.264-1.693.677-3.979 1.079-6.466 1.079s-4.774-.402-6.466-1.079c-.844-.337-1.577-.758-2.112-1.264C2.886 19.9 2.5 19.256 2.5 18.5h.026l-.026-.013V5.5c0-.756.386-1.4.922-1.907.535-.506 1.268-.927 2.112-1.264C7.226 1.652 9.513 1.25 12 1.25ZM4 14.371v4.116l-.013.013H4c0 .211.103.487.453.817.351.332.898.666 1.638.962 1.475.589 3.564.971 5.909.971 2.345 0 4.434-.381 5.909-.971.739-.296 1.288-.63 1.638-.962.349-.33.453-.607.453-.817h.013L20 18.487v-4.116a7.85 7.85 0 0 1-1.534.8c-1.693.677-3.979 1.079-6.466 1.079s-4.774-.402-6.466-1.079a7.843 7.843 0 0 1-1.534-.8ZM20 12V7.871a7.85 7.85 0 0 1-1.534.8C16.773 9.348 14.487 9.75 12 9.75s-4.774-.402-6.466-1.079A7.85 7.85 0 0 1 4 7.871V12c0 .21.104.487.453.817.35.332.899.666 1.638.961 1.475.59 3.564.972 5.909.972 2.345 0 4.434-.382 5.909-.972.74-.295 1.287-.629 1.638-.96.35-.33.453-.607.453-.818ZM4 5.5c0 .211.103.487.453.817.351.332.898.666 1.638.962 1.475.589 3.564.971 5.909.971 2.345 0 4.434-.381 5.909-.971.739-.296 1.288-.63 1.638-.962.349-.33.453-.607.453-.817 0-.211-.103-.487-.453-.817-.351-.332-.898-.666-1.638-.962-1.475-.589-3.564-.971-5.909-.971-2.345 0-4.434.381-5.909.971-.739.296-1.288.63-1.638.962C4.104 5.013 4 5.29 4 5.5Z"/>
+                                        </svg>
+                                        <span>Database</span>
+                                    </a>
+                                </li>
+        
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </template>
+        </doc-sidebar>
+
+        <div class="grow min-w-0 bg-body-bg">
+            <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+<div class="flex">
+    <div id="retype-main" class="min-w-0 p-4 grow md:px-16">
+        <main class="relative pb-12 lg:pt-2">
+            <div class="relative retype-markdown" id="retype-content">
+                <!-- Rendered if sidebar right is enabled -->
+                <div id="retype-sidebar-right-toggle"></div>
+                <nav id="retype-breadcrumb" class="breadcrumb" aria-label="Breadcrumb">
+                    <ol role="list">
+                        <li class="pr-4">
+                            <a href="/" class="pr-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M11.03 2.59a1.501 1.501 0 0 1 1.94 0l7.5 6.363a1.5 1.5 0 0 1 .53 1.144V19.5a1.5 1.5 0 0 1-1.5 1.5h-5.75a.75.75 0 0 1-.75-.75V14h-2v6.25a.75.75 0 0 1-.75.75H4.5A1.5 1.5 0 0 1 3 19.5v-9.403c0-.44.194-.859.53-1.144ZM12 3.734l-7.5 6.363V19.5h5v-6.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v6.25h5v-9.403Z"/>
+                                </svg>
+                            </a>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"/>
+                            </svg>
+                        </li>
+                        <li class="pr-4">
+                            <a href="/cards/" class="pr-4">
+                                Cartas
+                            </a>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"/>
+                            </svg>
+                        </li>
+                        <li class="pr-4">
+                            <a href="/cards/effect/" class="pr-4">
+                                Efeito
+                            </a>
+                        </li>
+                    </ol>
+                </nav>
+
+                <doc-page-actions></doc-page-actions>
+
+                <!-- Page content  -->
+<!-- Insert this at the top of each markdown page -->
+<!-- Global Functions -->
+<!-- Message -->
+<!-- Briefing -->
+<h1 id="efeito">Efeito</h1>
+<div class="mb-6 overflow-hidden border rounded-md docs-columns dark:border-base-border" style="grid-template-columns: repeat(1, minmax(0, 1fr));">
+    <div class="flex items-center px-5 py-3 font-medium leading-snug text-gray-900 border-b border-base-border dark:text-white">
+        <span><p class="briefing"> <svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M10.25 2a8.25 8.25 0 0 1 6.34 13.53l5.69 5.69a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215l-5.69-5.69A8.25 8.25 0 1 1 10.25 2ZM3.5 10.25a6.75 6.75 0 1 0 13.5 0 6.75 6.75 0 0 0-13.5 0Z"/></g></g></svg></p>
+</span>
+    </div>
+    <div class="px-5 py-3 docs-columns-content">
+<p>O efeito de uma carta é um texto que descreve sua função e mecânica, explicando como jogá-la e aplicá-la durante a partida. A função do efeito é conferir habilidades adicionais à carta, comumente extrapolando as regras do jogo e permitindo interações mais complexas em busca de uma vantagem estratégica.</p>
+    </div>
+</div>
+<p>Cada personagem pode utilizar e ativar apenas suas próprias cartas, e apenas durante o seu próprio turno. Certas cartas, porém, especificam que podem ou devem ser ativadas como resposta à uma jogada ou situação de jogo, e neste caso, elas são ativadas durante o turno de outros personagem também.</p>
+<p>O efeito é autodescritivo e deve ser interpretado e aplicado de acordo com o texto, levando em consideração as regras gerais e mecânicas do jogo. Observe que, muitas vezes, a função de um efeito é justamente <em>&quot;quebrar as regras&quot;</em>, ou seja, permitir ações ou interações que normalmente não seriam possíveis dentro das regras do jogo, e isso é parte do que torna os efeitos interessantes e estratégicos. Nestes casos, o efeito é a regra, e deve ser aplicado exatamente como descrito, mesmo que isso contradiga as regras gerais do jogo, tendo o texto da carta, precedência sobre as regras gerais.</p>
+<p>Quando um efeito contradiz as regras gerais do jogo isso é bem descrito e explicado no texto do efeito, não deixando dúvidas sobre como ele deve ser aplicado, dado que o jogador esteja familiarizado com as regras de jogo envolvidas.</p>
+<p>O efeito é composto por três partes em seu texto:</p>
+<doc-panels>
+   <doc-panel id="span-classkeyword-activationativarspancardseffectmd">
+       <template #title><a href="/cards/effect/"><span class="keyword-activation">Ativar</span></a></template>
+<p>Efeitos que precisam ser ativados manualmente pelo jogador apenas em seu próprio turno. Quando um efeito tem esta palavra-chave, este é o efeito resolvido quando o jogador declara a ativação desta carta.</p>
+<p>Se a carta possuir mais de um efeito com esta palavra-chave, o jogador deve escolher qual deles irá ativar.<br />
+<span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Activate</span>
+</span></p>
+   </doc-panel>
+   <doc-panel id="span-classkeyword-activationautospancardseffectmd">
+       <template #title><a href="/cards/effect/"><span class="keyword-activation">Auto</span></a></template>
+<p>Efeitos ativados automaticamente, sem necessidade de ação do jogador. Quando um efeito tem esta palavra-chave, ele é ativado automaticamente em resposta a uma situação específica, ou seja, quando as condições de ativação do efeito são atendidas, mesmo quando isso ocorrer no turno de um outro personagem que não seja o que controla esta carta.</p>
+<p>Se várias cartas ou efeitos forem ativados em resposta a uma mesma situação, observe  prioridade de ativação.<br />
+<span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Auto</span>
+</span></p>
+   </doc-panel>
+   <doc-panel id="span-classkeyword-activationpermanentespancardseffectmd">
+       <template #title><a href="/cards/effect/"><span class="keyword-activation">Permanente</span></a></template>
+<p>Efeitos passivos, aplicados instantaneamente e que permanecem continuamente enquanto esta carta estiver em jogo. Quando um efeito tem esta palavra-chave, ele vale a partir do momento em que esta carta é colocada em jogo, não sendo considerado que foi ativado.</p>
+<p><span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Permanent</span>
+</span></p>
+   </doc-panel>
+</doc-panels>
+<doc-panels expando>
+   <doc-panel id="palavras-chave-de-efeito-badge-textkeyword-variantghost">
+       <template #title>Palavras-chave de Efeito <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Keyword</span>
+</span></template>
+<p>São palavras ou expressões específicas no início do texto, que indicam ações, condições, ou características comuns, e são utilizadas para simplificar o texto do efeito. Elas são identificadas por uma caixa de texto colorida ao redor da palavra, e cada palavra-chave tem um significado específico.</p>
+<br>
+<h3 id="ativação">Ativação <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Activation</span>
+</span></h3>
+<p>Este conjunto de palavras-chave indica o tipo de ativação do efeito, ou seja, como ele é ativado e aplicado durante a partida. Ele é importante para determinar a natureza do efeito e como ele é ativado. Este é o único tipo de palavras-chave que é obrigatória para um efeito, ou seja, todo efeito deve possuir uma palavras-chave de ativação, e apenas uma.</p>
+<dl>
+<dt id="ativar"><a href="/cards/effect/"><span class="keyword-activation">Ativar</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Activate</span>
+</span></dt>
+<dd>
+<p>Efeitos que precisam ser ativados manualmente pelo jogador apenas em seu próprio turno. Quando um efeito tem esta palavra-chave, este é o efeito resolvido quando o jogador declara a ativação desta carta.</p>
+<p>Se a carta possuir mais de um efeito com esta palavra-chave, o jogador deve escolher qual deles irá ativar.</p>
+</dd>
+<dt id="auto"><a href="/cards/effect/"><span class="keyword-activation">Auto</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Auto</span>
+</span></dt>
+<dd>
+<p>Efeitos ativados automaticamente, sem necessidade de ação do jogador. Quando um efeito tem esta palavra-chave, ele é ativado automaticamente em resposta a uma situação específica, ou seja, quando as condições de ativação do efeito são atendidas, mesmo quando isso ocorrer no turno de um outro personagem que não seja o que controla esta carta.</p>
+<p>Se várias cartas ou efeitos forem ativados em resposta a uma mesma situação, observe  prioridade de ativação.</p>
+</dd>
+<dt id="permanente"><a href="/cards/effect/"><span class="keyword-activation">Permanente</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Permanent</span>
+</span></dt>
+<dd>Efeitos passivos, aplicados instantaneamente e que permanecem continuamente enquanto esta carta estiver em jogo. Quando um efeito tem esta palavra-chave, ele vale a partir do momento em que esta carta é colocada em jogo, não sendo considerado que foi ativado.<br />
+<br></dd>
+</dl>
+<br>
+<h3 id="temporização">Temporização <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Timing</span>
+</span></h3>
+<p>Determina o momento ou situação específica em que o efeito pode ser ativado, ou seja, quando ele entra em jogo.</p>
+<p>Quando um efeito possuir mais de um momento de ativação, ele pode/deve ser ativado em todos os momentos listados, ou seja, sempre que qualquer um dos momentos listados ocorrer, e se o efeito tiver requerimentos de ativação, eles devem ser atendidos para cada momento em que o efeito for ativado separadamente.</p>
+<dl>
+<dt id="ao-jogar"><a href="/cards/effect/"><span class="keyword-timing">Ao Jogar</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>On Play</span>
+</span></dt>
+<dd>TODO<br />
+<br></dd>
+<dt id="ao-sair"><a href="/cards/effect/"><span class="keyword-timing">Ao Sair</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>On Exit</span>
+</span></dt>
+<dd>TODO<br />
+<br></dd>
+<dt id="ao-obter"><a href="/cards/effect/"><span class="keyword-timing">Ao Obter</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>On Obtain</span>
+</span></dt>
+<dd>TODO<br />
+<br></dd>
+<dt id="ao-revelar"><a href="/cards/effect/"><span class="keyword-timing">Ao Revelar</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>On Reveal</span>
+</span></dt>
+<dd>TODO<br />
+<br></dd>
+<dt id="ao-ocultar"><a href="/cards/effect/"><span class="keyword-timing">Ao Ocultar</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>On Conceal</span>
+</span></dt>
+<dd>TODO<br />
+<br></dd>
+<dt id="ao-consumir"><a href="/cards/effect/"><span class="keyword-timing">Ao Consumir</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>On Exhaust</span>
+</span></dt>
+<dd>TODO<br />
+<br></dd>
+<dt id="ao-recuperar"><a href="/cards/effect/"><span class="keyword-timing">Ao Recuperar</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>On Recover</span>
+</span></dt>
+<dd>TODO<br />
+<br></dd>
+<dt id="ao-descartar"><a href="/cards/effect/"><span class="keyword-timing">Ao Descartar</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>On Discard</span>
+</span></dt>
+<dd>TODO<br />
+<br></dd>
+<dt id="ao-enterrar"><a href="/cards/effect/"><span class="keyword-timing">Ao Enterrar</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>On Bury</span>
+</span></dt>
+<dd>TODO<br />
+<br></dd>
+<dt id="ao-banir"><a href="/cards/effect/"><span class="keyword-timing">Ao Banir</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>On Banish</span>
+</span></dt>
+<dd>TODO<br />
+<br></dd>
+<dt id="quando-testando"><a href="/cards/effect/"><span class="keyword-timing">Quando Testando</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>When Checking</span>
+</span></dt>
+<dd>TODO<br />
+<br></dd>
+<dt id="quando-atacando"><a href="/cards/effect/"><span class="keyword-timing">Quando Atacando</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>When Attacking</span>
+</span></dt>
+<dd>TODO<br />
+<br></dd>
+<dt id="quando-atacado"><a href="/cards/effect/"><span class="keyword-timing">Quando Atacado</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>When Attacked</span>
+</span></dt>
+<dd>TODO<br />
+<br></dd>
+<dt id="quando-selecionado"><a href="/cards/effect/"><span class="keyword-timing">Quando Selecionado</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>When Selected</span>
+</span></dt>
+<dd>TODO<br />
+<br></dd>
+<dt id="quando-rolando-dados"><a href="/cards/effect/"><span class="keyword-timing">Quando Rolando Dados</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>When Rolling</span>
+</span></dt>
+<dd>TODO<br />
+<br></dd>
+<dt id="início-da-batalha"><a href="/cards/effect/"><span class="keyword-timing">Início da Batalha</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Start of Battle</span>
+</span></dt>
+<dd>TODO<br />
+<br></dd>
+<dt id="final-da-batalha"><a href="/cards/effect/"><span class="keyword-timing">Final da Batalha</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>End of Battle</span>
+</span></dt>
+<dd>TODO<br />
+<br></dd>
+<dt id="fase-de-recomposição"><a href="/cards/effect/"><span class="keyword-timing">Fase de Recomposição</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Reset Phase</span>
+</span></dt>
+<dd>TODO<br />
+<br></dd>
+<dt id="sua-fase-inicial"><a href="/cards/effect/"><span class="keyword-timing">Sua Fase Inicial</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Your Start Phase</span>
+</span></dt>
+<dd>TODO<br />
+<br></dd>
+<dt id="sua-fase-final"><a href="/cards/effect/"><span class="keyword-timing">Sua Fase Final</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Your End Phase</span>
+</span></dt>
+<dd>TODO<br />
+<br></dd>
+<dt id="fase-inicial-do-membro-do-time"><a href="/cards/effect/"><span class="keyword-timing">Fase Inicial do Membro do Time</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Team Member&#x27;s Start Phase</span>
+</span></dt>
+<dd>TODO<br />
+<br></dd>
+<dt id="fase-final-do-membro-do-time"><a href="/cards/effect/"><span class="keyword-timing">Fase Final do Membro do Time</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Team Member&#x27;s End Phase</span>
+</span></dt>
+<dd>TODO<br />
+<br></dd>
+<dt id="fase-inicial-do-parceiro"><a href="/cards/effect/"><span class="keyword-timing">Fase Inicial do Parceiro</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Teammate&#x27;s Start Phase</span>
+</span></dt>
+<dd>TODO<br />
+<br></dd>
+<dt id="fase-final-do-parceiro"><a href="/cards/effect/"><span class="keyword-timing">Fase Final do Parceiro</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Teammate&#x27;s End Phase</span>
+</span></dt>
+<dd>TODO<br />
+<br></dd>
+<dt id="fase-inicial-do-oponente"><a href="/cards/effect/"><span class="keyword-timing">Fase Inicial do Oponente</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Opponent&#x27;s Start Phase</span>
+</span></dt>
+<dd>TODO<br />
+<br></dd>
+<dt id="fase-final-do-oponente"><a href="/cards/effect/"><span class="keyword-timing">Fase Final do Oponente</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Opponent&#x27;s End Phase</span>
+</span></dt>
+<dd>TODO<br />
+<br></dd>
+<dt id="fase-inicial-de-todos"><a href="/cards/effect/"><span class="keyword-timing">Fase Inicial de Todos</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>All Start Phase</span>
+</span></dt>
+<dd>TODO<br />
+<br></dd>
+<dt id="fase-final-de-todos"><a href="/cards/effect/"><span class="keyword-timing">Fase Final de Todos</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>All End Phase</span>
+</span></dt>
+<dd>TODO<br />
+<br></dd>
+<dt id="fase-inicial-deste-personagem"><a href="/cards/effect/"><span class="keyword-timing">Fase Inicial deste Personagem</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>This Character&#x27;s Start Phase</span>
+</span></dt>
+<dd>TODO: Pera efeitos que só podem ser uados no turno do companion<br />
+<br></dd>
+<dt id="fase-final-deste-personagem"><a href="/cards/effect/"><span class="keyword-timing">Fase Final deste Personagem</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>This Character&#x27;s End Phase</span>
+</span></dt>
+<dd>TODO: Pera efeitos que só podem ser uados no turno do companion<br />
+<br></dd>
+</dl>
+<br>
+<h3 id="limite">Limite <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Limit</span>
+</span></h3>
+<p>Tem a função de limitar ou controlar a quantidade de ativações de um efeito, bem como o seu tempo de duração.</p>
+<p>Quando um efeito possuir mais de um limite, todos os limites listados devem ser seguidos para cada ativação do efeito, ou seja, o efeito só pode ser ativado se todos os limites listados puderem ser atendidos e aplicados.</p>
+<dl>
+<dt id="apenas-no-seu-turno"><a href="/cards/effect/"><span class="keyword-limit">Apenas no seu Turno</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Your Turn Only</span>
+</span></dt>
+<dd>TODO: Efeitos com tempo/condição de resposta mas que não podem ser ativados no turno de outros jogadores<br />
+<br></dd>
+<dt id="uma-vez-por-ciclo"><a href="/cards/effect/"><span class="keyword-limit">Uma vez por Ciclo</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Once per Stint</span>
+</span></dt>
+<dd>TODO<br />
+<br></dd>
+<dt id="uma-vez-por-batalha"><a href="/cards/effect/"><span class="keyword-limit">Uma vez por Batalha</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Once per Battle</span>
+</span></dt>
+<dd>TODO<br />
+<br></dd>
+<dt id="ação-total"><a href="/cards/effect/"><span class="keyword-limit">Ação Total</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>All-In</span>
+</span></dt>
+<dd>TODO<br />
+<br></dd>
+<dt id="não-respondível"><a href="/cards/effect/"><span class="keyword-limit">Não Respondível</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>No Response</span>
+</span></dt>
+<dd>TODO<br />
+<br></dd>
+<dt id="não-negável"><a href="/cards/effect/"><span class="keyword-limit">Não Negável</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>No Negation</span>
+</span></dt>
+<dd>TODO<br />
+<br></dd>
+<dt id="residual"><a href="/cards/effect/"><span class="keyword-limit">Residual</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Lingering</span>
+</span></dt>
+<dd>TODO<br />
+<br></dd>
+</dl>
+<br>
+<h3 id="escopo">Escopo <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Scope</span>
+</span></h3>
+<p>Este conjunto de palavras-chave indica de onde o efeito pode ser ativado, ou seja, o local ou situação em que ele pode ser ativado, seja para reduzir ou expandir as possibilidades de ativação do efeito</p>
+<p>Quando um efeito possuir mais de um escopo, ele pode/deve ser ativado em todos os escopos listados, ou seja, sempre que qualquer um dos escopos listados ocorrer.</p>
+<dl>
+<dt id="de-qualquer-lugar"><a href="/cards/effect/"><span class="keyword-scope">De Qualquer Lugar</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>From Anywhere</span>
+</span></dt>
+<dd>TODO: Efeitos que nunca deixam de valer, não importa onde estão. O limbo é uma exceção.<br />
+<br></dd>
+<dt id="da-mesa"><a href="/cards/effect/"><span class="keyword-scope">Da Mesa</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>From Table</span>
+</span></dt>
+<dd>TODO: Usado por eventos, itens consumíveis, e outras cartas que exigem estar na mesa e que não podem ser ativados da mão<br />
+<br></dd>
+<dt id="da-mão"><a href="/cards/effect/"><span class="keyword-scope">Da Mão</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>From Hand</span>
+</span></dt>
+<dd>TODO<br />
+<br></dd>
+<dt id="da-pilha-de-descarte"><a href="/cards/effect/"><span class="keyword-scope">Da Pilha de Descarte</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>From Discard Pile</span>
+</span></dt>
+<dd>TODO<br />
+<br></dd>
+<dt id="do-membro-do-time"><a href="/cards/effect/"><span class="keyword-scope">Do Membro do Time</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>From Team Member</span>
+</span></dt>
+<dd>TODO<br />
+<br></dd>
+<dt id="do-anexo"><a href="/cards/effect/"><span class="keyword-scope">Do Anexo</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>From Attachment</span>
+</span></dt>
+<dd>TODO<br />
+<br></dd>
+</dl>
+<br>
+<h3 id="tarefa">Tarefa <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Task</span>
+</span></h3>
+<p>Complementa a ativação do efeito, indicando uma ação adicional que deve ser realizada com esta carta ao ativar o efeito, ou seja, uma ação que deve ser realizada como parte da ativação do efeito antes da resolução do efeito. Pode incluir ações como descartar, banir, ou realizar outras ações específicas. Se a tarefa não puder ser realizada, o efeito não pode ser ativado.</p>
+<p>Um efeito nunca possui mais de uma tarefa, mas pode possuir uma tarefa e outros requerimentos de ativação, ou seja, para ativar o efeito, o jogador deve realizar a tarefa e atender os outros requerimentos de ativação listados.</p>
+<dl>
+<dt id="consuma"><a href="/cards/effect/"><span class="keyword-task">Consuma</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Exhaust</span>
+</span></dt>
+<dd>Consuma esta carta ao ativá-la.<br />
+<br></dd>
+<dt id="recupere"><a href="/cards/effect/"><span class="keyword-task">Recupere</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Recover</span>
+</span></dt>
+<dd>Recupere esta carta ao ativá-la.<br />
+<br></dd>
+<dt id="descarte"><a href="/cards/effect/"><span class="keyword-task">Descarte</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Discard</span>
+</span></dt>
+<dd>Descarte esta carta ao ativá-la.<br />
+<br></dd>
+<dt id="enterre"><a href="/cards/effect/"><span class="keyword-task">Enterre</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Bury</span>
+</span></dt>
+<dd>Enterre esta carta ao ativá-la.<br />
+<br></dd>
+<dt id="bane"><a href="/cards/effect/"><span class="keyword-task">Bane</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Banish</span>
+</span></dt>
+<dd>Bane esta carta ao ativá-la.<br />
+<br></dd>
+<dt id="registre"><a href="/cards/effect/"><span class="keyword-task">Registre</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Register</span>
+</span></dt>
+<dd>Registre esta carta ao ativá-la.<br />
+<br></dd>
+</dl>
+   </doc-panel>
+   <doc-panel id="requerimentos-de-ativação-badge-textrequirement-variantghost" collapsed>
+       <template #title>Requerimentos de Ativação <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Requirement</span>
+</span></template>
+<p>O efeito não pode ser ativado se qualquer um dos seus requerimentos de ativação não puderem ser atendidos, ou seja, se qualquer um dos requerimentos de ativação não for verdadeiro ou não puder ser cumprido, o efeito não é utilizável naquele momento. Os requerimentos de ativação são geralmente descritos no texto do efeito, e podem incluir custos, condições, estados ou outros requisitos que devem ser atendidos para que o efeito possa ser ativado.:</p>
+<ol>
+<li><strong>Custos</strong> → <code translate="no" v-pre>Descarte, Consuma, etc.</code></li>
+<li><strong>Ações</strong> → <code translate="no" v-pre>Selecione, Mova</code></li>
+<li><strong>Duração</strong> → <code translate="no" v-pre>Até, Enquanto, Durante</code></li>
+<li><strong>Condição</strong> → <code translate="no" v-pre>Quando, Se, Então</code></li>
+</ol>
+   </doc-panel>
+   <doc-panel id="descrição-do-efeito" collapsed>
+       <template #title>Descrição do Efeito</template>
+<p>Este é o texto que descreve o que o efeito faz, ou seja, a ação ou interação que ele permite ou causa. Ele é a parte mais importante do efeito, pois é onde está a função real da carta, bem como as instruções e explicações do que deve ser feito.</p>
+<p>Deve ser interpretado e aplicado de acordo com o texto, levando em consideração as regras gerais e mecânicas do jogo.</p>
+   </doc-panel>
+</doc-panels>
+<p>Além disso, alguns conceitos relacionados teóricos inferidos no texto são importantes para a compreensão e aplicação dos efeitos.</p>
+<doc-panels expando>
+   <doc-panel id="prioridade-de-ativação-badge-textpriority-variantghost" collapsed>
+       <template #title>Prioridade de Ativação <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Priority</span>
+</span></template>
+<blockquote>
+<p>&quot;<em>Cada ação pode ter apenas uma reação</em>&quot;</p>
+</blockquote>
+<p>Apenas um efeito pode ser ativado em resposta a uma mesma situação, ou seja, quando uma situação de jogo ocorre e múltiplos efeitos são ativados em resposta a ela, apenas um desses efeitos pode ser ativado, e os outros efeitos não podem ser ativados em resposta a aquela mesma situação.</p>
+<p>Note que, por ação, não se refere ao conjunto total, mas cada parte de uma ação em si.</p>
+<doc-callout id="primary" left-border-class="bg-callout-primary" callout-class="bg-callout-base-bg border-callout-base-border" collapsed>
+    <template #icon>
+        <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+            <g fill="currentColor"><g>
+                <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                <path fill="none" d="M0 0h24v24H0z"></path>
+            </g></g>
+        </svg>
+    </template>
+<p>Por exemplo, se um personagem é atacada, é feito a ação de ativar uma carta, selecionar um alvo, rolar os dados, aplicar o dano/lesão, remover a vida do alvo, etc. Cada uma dessas partes é uma ação, e cada uma delas pode ter efeitos ativados em resposta a ela, mas apenas um efeito pode ser ativado em resposta a cada parte dessa ação.</p>
+<p>Então, se um personagem é atacado e você tem uma carta para quando é atacado e outra para quando é selecionado como alvo, ambas podem ser ativadas, em seus respectivos momentos, sendo que &quot;atacado&quot; é o conjunto de ações, portanto ativa primeiro, assim que o ataque é declarado, e &quot;selecionado como alvo&quot; é uma parte daquela ação, portanto ativa depois, assim que o alvo é declarado.</p>
+</doc-callout>
+<ol>
+<li><strong>Cartas do Cenário</strong></li>
+</ol>
+<ul>
+<li>Se mais de uma carta do Cenário for ativada em resposta a mesma situação, a carta a mais tempo em jogo será ativada.</li>
+</ul>
+<ol>
+<li><strong>Cartas de Heróis Oponentes</strong></li>
+</ol>
+<ul>
+<li>Se mais de uma carta de Herói Oponente for ativada em resposta a mesma situação, a carta do Herói Oponente de maior Iniciativa neste ciclo será ativada.</li>
+</ul>
+<ol>
+<li><strong>Cartas de Heróis do Time</strong></li>
+</ol>
+<ul>
+<li>Se mais de uma carta de Herói do Time for ativada em resposta a mesma situação, a carta do Herói de maior Iniciativa neste ciclo do Time será ativada.</li>
+</ul>
+<ol>
+<li><strong>Cartas do Herói (Ou Herói do Companheiro) do Turno</strong></li>
+</ol>
+<ul>
+<li>Se mais de uma carta do Herói do Turno for ativada em resposta a mesma situação, o jogador deve escolher qual delas será ativada.</li>
+</ul>
+<ol>
+<li><strong>Cartas da Pilha de Descarte</strong></li>
+</ol>
+<ul>
+<li>Se mais de uma carta da Pilha de Descarte for ativada em resposta a mesma situação, a carta mais acima na pilha será ativada.</li>
+</ul>
+<ol>
+<li><strong>Cartas do Mestre de Jogo</strong></li>
+</ol>
+<ul>
+<li>Se mais de uma carta do Mestre de Jogo for ativada em resposta a mesma situação, cabe ao Mestre de Jogo escolher qual delas será ativada.</li>
+</ul>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+<p>Note que uma carta em uma pilha de descarta controlada por um Herói são consideradas cartas do Herói, e não cartas da pilha de descarte.</p>
+        </div>
+    </div>
+</div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+<p>Quando se tratar do efeito de uma técnica de um Dummy e não de uma carta, considere o dummy na ordem acima como se ele fosse uma carta controlada por aquele jogador. Portanto o Dummy de um jogador teria precedência sobre as cartas e Demmies do Mestre de Jogo, por exemplo.</p>
+        </div>
+    </div>
+</div>
+   </doc-panel>
+   <doc-panel id="momento-de-ativação-badge-textmomentum-variantghost" collapsed>
+       <template #title>Momento de Ativação <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Momentum</span>
+</span></template>
+<p>O momento de ativação de um efeito é o momento ou situação específica em que ele pode ser ativado, sendo este um conceito teórico que ajuda a ordenar a sequência de ativação de efeitos. Pode se confundir com o <span class="keyword-timing">timing</span>, mas são conceitos distintos.</p>
+<p>O momento se refere à quando em uma ação este efeito entra em jogo, ou seja, quando ele é aplicado depois de ativado. O texto ou requerimento da carta deve indicar claramente o momento de ativação do efeito através do uso adequado da linguagem, e ele pode ser classificado em três categorias:</p>
+<p>Antes da ação -&gt; Quando for fazer um teste, quando for atacado, quando uma carta for ser ativada, etc.</p>
+<p>Durante a ação -&gt; em um teste, em um ataque, etc. (mais comuns em efeitos permanentes de bônus)</p>
+<p>Depois da ação -&gt; Depois de resolver uma carta, depois de ser atacado, quando for selecionado como alvo, quando sofrer dano, etc.</p>
+   </doc-panel>
+   <doc-panel id="padrões-de-escrita-badge-textwriting-patterns-variantghost" collapsed>
+       <template #title>Padrões de Escrita <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Writing Patterns</span>
+</span></template>
+   </doc-panel>
+</doc-panels>
+<p>Usar uma carta<br />
+Quando uma carta é ativada, todos os efeitos do tipo activate dela devem ser aplicados, se os efeitos tiverem requerimentos, todos os que podem ser ativados devem ser ativados, se os efeitos tiverem custos, o jogador os custos de quais efeitos ele quer pagar, e portando, quais efeitos serão ativados. ???</p>
+<p>Por padrão as cartas podem ser ativadas tanto da mesa quando da mão, a diferença é que quando ativadas da mão, a carta e descartada ao ser resolvida, enquanto da mesa, ela fica onde está a não ser que tenha uma task ou algo em seu efeito que explicitamente que diga o contrário. Por isso existem as escopes From Table e From Hand, que especificam que este efeito é/pode ser ativado apenas quando a carta está no local indicado. Obs.: Não existe mecânica de jogo que en.</p>
+<p>Efeitos <a href="/cards/effect/"><span class="keyword-limit">Residual</span></a> são os únicos que permanacem em funcionando mesmo depois de a carta ser removida de jogo. Note que eles terminam geralmente em valores curtos ou variáveis como, “Até o final do turno”, “até o final da batalha”, “até o início do seu próximo turno”, etc.. Durações constantes como 3 rodadas, 5 rodadas, etc. devem ser usados contadores de tempo.</p>
+<hr>
+<h3 id="passivo">Passivo</h3>
+<p>São efeitos aplicados automaticamente de forma permanente, isso significa que este efeito dura enquanto esta carta estiver em jogo, logo, esta carta não é ativada, seu efeito é aplicado instantaneamente a partir do momento em que esta carta é colocada na <a href="/hero/table/"><span class="main"><b>MESA</b></span></a>.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-secondary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-secondary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+<p>Ex.: Efeitos ao estilo <em>&quot;<span class="positive">+2</span> de <b>DANO</b>&quot;</em>, <em>&quot;<span class="positive">+1</span> de <a href="/hero/attributes/"><span class="house"><b>PER</b></span></a>, se sua <a href="/hero/attributes/"><span class="house"><b>PER</b></span></a> for menor que 8&quot;</em> e <em>&quot;Este personagem não pode ser alvo de...&quot;</em>, são todos efeitos passivos.</p>
+        </div>
+    </div>
+</div>
+<h3 id="ativo">Ativo</h3>
+<p>Efeitos que precisam ser ativados manualmente pelo jogador ou por uma condição automática, geralmente com um custo associado.</p>
+<p>Para identificar uma carta que pode ser ativada, ela precisa possuir uma das seguintes características:</p>
+<ul class="list-icon">
+<li><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M17.28 9.28a.75.75 0 0 0-1.06-1.06l-5.97 5.97-2.47-2.47a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l6.5-6.5Z"/><path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Z"/></g></g></svg> Ter uma <em>Barra de Ativação</em> (presente em algumas cartas de <a href="/cards/item/"><span class="item"><b>ITEM</b></span></a> e <a href="/cards/skills/"><span class="skill"><b>HABILIDADE</b></span></a>)</li>
+<li><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M17.28 9.28a.75.75 0 0 0-1.06-1.06l-5.97 5.97-2.47-2.47a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l6.5-6.5Z"/><path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Z"/></g></g></svg> Ser uma carta de <a href="/cards/event/"><span class="event"><b>EVENTO</b></span></a></li>
+<li><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M17.28 9.28a.75.75 0 0 0-1.06-1.06l-5.97 5.97-2.47-2.47a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l6.5-6.5Z"/><path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Z"/></g></g></svg> Seu texto deve especificar se ela pode ou deve ser ativada, acompanhado de custos e condições, se houverem</li>
+</ul>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-secondary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-secondary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+<p>Ex.: Se um efeito diz algo como <em>&quot;você pode descarte esta carta para...&quot;</em>, <em>&quot;Se sua <a href="/hero/#vida"><span class="main"><b>VIDA</b></span></a> estiver abaixo de 5, você pode...&quot;</em>, <em>&quot;No início do seu turno você pode...&quot;</em> e <em>&quot;Durante o turno de qualquer personagem, você pode...&quot;</em>, são efeitos ativados manualmente pelo jogador, verificando ou não uma condição limitadora.</p>
+        </div>
+    </div>
+</div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-secondary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-secondary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+<p>Ex.: Efeitos na forma <em>&quot;quando um personagem for atacado você deve...&quot;</em>, <em>&quot;Se você sofrer <b>DANO</b> descarte uma carta.&quot;</em> e <em>&quot;No início do seu turno perca 1 de <a href="/hero/#vida"><span class="main"><b>VIDA</b></span></a>.&quot;</em>, são exemplos de efeitos ativados em resposta a uma situação que foi atendida.</p>
+        </div>
+    </div>
+</div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-secondary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-secondary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+<p>Ex.: Se um efeito especifica uma ação que não pode ser realizada, aquela carta não pode ser ativada. Observe que é imperativo que o efeito de uma carta possa ser executado em sua completude. Por exemplo, se uma carta diz algo como <em>&quot;depois de resolver este efeito, descarte uma carta do seu <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a></em>&quot;, e aquele personagem não tem nenhuma carta no <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a> então este efeito não pode nem mesmo ser iniciado.</p>
+<p>Extraordinariamente, se o efeito era possível no momento da ativação da carta, mas as condições mudaram durante a resolução do efeito, o efeito ainda é considerado válido e deve ser resolvido, sendo ignorando a partir da parte que não podem mais ser aplicadas. Por exemplo, se o efeito diz algo como <em>&quot;depois de resolver este efeito, se você não tiver cartas no <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a>, descarte uma carta do seu <a href="/hero/table/"><span class="main"><b>MESA</b></span></a>&quot;</em> e o jogador não tinha cartas no <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a> quando ativou a carta, mas durante a resolução do efeito algo adicionou uma carta ao seu <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a>, ele não precisa mais descartar uma carta da <a href="/hero/table/"><span class="main"><b>MESA</b></span></a>.</p>
+<p>Em outro exemplo, se o efeito diz algo como <em>&quot;depois de resolver este efeito, se você não tiver cartas no <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a>, descarte uma carta do seu <a href="/hero/table/"><span class="main"><b>MESA</b></span></a>&quot;</em> e o jogador não tinha cartas no <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a> quando ativou a carta, mas durante a resolução do efeito ficou também sem cartas na sua <a href="/hero/table/"><span class="main"><b>MESA</b></span></a>, ele não pode mais cumprir todas as condições de efeito, o que já foi feito é mantido, mas a restante do efeito não é ignorado.</p>
+        </div>
+    </div>
+</div>
+<p>Quando você ativar uma carta durante o turno de outro personagem, e esta carta possuir um custo em <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a>, você deve pagar este custo com os pontos que receberia no seu próximo turno, começando o turno com aquela quantidade a menos de <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a>. Se você não tiver <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a> suficientes para pagar o custo, continue &quot;emprestando&quot; pontos de turnos futuros até que a carta esteja paga. Se você já tiver gastado todos os pontos do seu próximo turno, você não pode ativar aquela carta.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+<p>Observe que, todo efeito ativado manualmente ou quando o jogador pode decidir se irá ativar, é um efeito ativo, mesmo que exista uma condição para ativação ou que a ativação seja permitida apenas como resposta a uma situação de jogo.</p>
+        </div>
+    </div>
+</div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+<p>O que difere um efeito passivos de um ativo automático é que o efeito passivo é aplicado instantaneamente ao ser colocado em jogo e permanece afetando-o durante todo o tempo em que esta carta estiver em jogo, enquanto o efeito ativo automático é ativado em resposta a uma situação específica.</p>
+        </div>
+    </div>
+</div>
+<h4 id="momento-que-o-efeito-pode-ser-ativado-timing">Momento que o efeito pode ser ativado <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-primary-text bg-badge-primary border border-badge-primary-border h-6 px-2 text-xs rounded-md">
+    <span>timing</span>
+</span></h4>
+<dl>
+<dt id="ao-jogar-1"><a href="/cards/effect/"><span class="keyword-timing">Ao Jogar</span></a></dt>
+<dd>Quando esta carta é coloca em jogo, ou seja, quando vai para a <a href="/hero/table/"><span class="main"><b>MESA</b></span></a> de um Herói</dd>
+<dt id="ao-sair-1"><a href="/cards/effect/"><span class="keyword-timing">Ao Sair</span></a></dt>
+<dd>Quando esta carta é removida da <a href="/hero/table/"><span class="main"><b>MESA</b></span></a> de um Herói, ou seja, quando é descartada, enterrada, banida ou enviada para o <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a></dd>
+<dt id="ao-obter-1"><a href="/cards/effect/"><span class="keyword-timing">Ao Obter</span></a></dt>
+<dd>Quando esta carta é adquirida por um Herói, ou seja, quando é comprada ou recebida de outra forma</dd>
+<dt id="ao-revelar-1"><a href="/cards/effect/"><span class="keyword-timing">Ao Revelar</span></a></dt>
+<dd>Quando esta carta é revelada</dd>
+<dt id="ao-ocultar-1"><a href="/cards/effect/"><span class="keyword-timing">Ao Ocultar</span></a></dt>
+<dd>Quando esta carta é ocultada</dd>
+<dt id="ao-consumir-1"><a href="/cards/effect/"><span class="keyword-timing">Ao Consumir</span></a></dt>
+<dd>Quando esta carta é exaurida, ou seja, quando é rotacionada para o lado</dd>
+<dt id="ao-recuperar-1"><a href="/cards/effect/"><span class="keyword-timing">Ao Recuperar</span></a></dt>
+<dd>Quando esta carta é recuperada, ou seja, quando é rotacionada de volta para a posição normal</dd>
+<dt id="ao-descartar-1"><a href="/cards/effect/"><span class="keyword-timing">Ao Descartar</span></a></dt>
+<dd>Quando esta carta é descartada</dd>
+<dt id="ao-enterrar-1"><a href="/cards/effect/"><span class="keyword-timing">Ao Enterrar</span></a></dt>
+<dd>Quando esta carta é enterrada</dd>
+<dt id="ao-banir-1"><a href="/cards/effect/"><span class="keyword-timing">Ao Banir</span></a></dt>
+<dd>
+<p>Quando esta carta é banida</p>
+</dd>
+<dd>
+<p>No início do seu turno</p>
+</dd>
+<dd>
+<p>No final do seu turno</p>
+</dd>
+<dd>
+<p>No início do turno de um personagem do seu time, incluindo você</p>
+</dd>
+<dd>
+<p>No final do turno de um personagem do seu time, incluindo você</p>
+</dd>
+<dd>
+<p>No início do turno de um personagem do seu time que não é você</p>
+</dd>
+<dd>
+<p>No final do turno de um personagem do seu time que não é você</p>
+</dd>
+<dd>
+<p>No início do turno de um personagem de outro time</p>
+</dd>
+<dd>
+<p>No final do turno de um personagem de outro time</p>
+</dd>
+<dd>
+<p>No início de todos os turnos, ou seja, no início do turno de todo personagem</p>
+</dd>
+<dd>No final de todos os turnos, ou seja, no final do turno de todo personagem</dd>
+<dt id="term"><span style="font-size: 0.8em"></span></dt>
+<dd>No início do turno do personagem representado por esta carta de <a href="/cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a></dd>
+<dt id="term-1"><span style="font-size: 0.8em"></span></dt>
+<dd>
+<p>No final do turno do personagem representado por esta carta de <a href="/cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a></p>
+</dd>
+<dd>
+<p>No início da rodada</p>
+</dd>
+<dd>No final da rodada</dd>
+<dt id="início-da-batalha-1"><a href="/cards/effect/"><span class="keyword-timing">Início da Batalha</span></a></dt>
+<dd>No início da batalha</dd>
+<dt id="final-da-batalha-1"><a href="/cards/effect/"><span class="keyword-timing">Final da Batalha</span></a></dt>
+<dd>No final da batalha</dd>
+<dt id="quando-testando-1"><a href="/cards/effect/"><span class="keyword-timing">Quando Testando</span></a></dt>
+<dd>Quando estiver realizando um teste</dd>
+<dt id="quando-atacando-1"><a href="/cards/effect/"><span class="keyword-timing">Quando Atacando</span></a></dt>
+<dd>Quando este personagem está atacando</dd>
+<dt id="quando-atacado-1"><a href="/cards/effect/"><span class="keyword-timing">Quando Atacado</span></a></dt>
+<dd>Quando este personagem está sendo atacado</dd>
+<dt id="quando-selecionado-1"><span style="font-size: 0.9em"><a href="/cards/effect/"><span class="keyword-timing">Quando Selecionado</span></a></span></dt>
+<dd>Quando este personagem é selecionado como alvo de qualquer ação, incluindo ataques</dd>
+<dt id="quando-rolando-dados-1"><a href="/cards/effect/"><span class="keyword-timing">Quando Rolando Dados</span></a></dt>
+<dd>Quando estiver rolando dados.</dd>
+</dl>
+<h4 id="limite-de-ativações-limit">Limite de ativações <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-primary-text bg-badge-primary border border-badge-primary-border h-6 px-2 text-xs rounded-md">
+    <span>limit</span>
+</span></h4>
+<dl>
+<dt id="---pode-ser-ativada-apenas-uma-vez-por-turno">:   Pode ser ativada apenas uma vez por turno</dt>
+<dd>Pode ser ativada apenas uma vez por rodada</dd>
+<dt id="uma-vez-por-batalha-1"><a href="/cards/effect/"><span class="keyword-limit">Uma vez por Batalha</span></a></dt>
+<dd>
+<p>Pode ser ativada apenas uma vez por batalha</p>
+</dd>
+<dd>Para ativar esta carta, você não pode realizar nenhuma outra ação neste turno</dd>
+<dt id="não-respondível-1"><a href="/cards/effect/"><span class="keyword-limit">Não Respondível</span></a></dt>
+<dd>Nenhuma carta pode ser ativada em resposta a esta carta</dd>
+<dt id="não-negável-1"><a href="/cards/effect/"><span class="keyword-limit">Não Negável</span></a></dt>
+<dd>Esta carta não pode ser negada</dd>
+</dl>
+<h4 id="de-onde-o-efeito-pode-ser-ativado-scope">De onde o efeito pode ser ativado <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-primary-text bg-badge-primary border border-badge-primary-border h-6 px-2 text-xs rounded-md">
+    <span>scope</span>
+</span></h4>
+<dl>
+<dt id="da-mão-1"><a href="/cards/effect/"><span class="keyword-scope">Da Mão</span></a></dt>
+<dd>Esta carta pode ser ativada do <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a></dd>
+<dt id="da-pilha-de-descarte-1"><a href="/cards/effect/"><span class="keyword-scope">Da Pilha de Descarte</span></a></dt>
+<dd>Esta carta pode ser ativada da pilha de descarte</dd>
+<dt id="do-membro-do-time-1"><a href="/cards/effect/"><span class="keyword-scope">Do Membro do Time</span></a></dt>
+<dd>Esta carta pode ser ativada por qualquer personagem do seu time, durante o turno dele</dd>
+</dl>
+<hr>
+<div id="retype-backlinks">
+    <h2>See also</h2>
+<div class="card-compact-group">
+<div class="card-compact-container">
+    <a href="/gameplay/attachment/" class="group card-compact no-link">
+        <div class="card-compact-body">
+            <div class="card-compact-header">
+                <span class="card-compact-icon inline-flex shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><!--icon--><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></svg></span>
+                <span class="card-compact-title">Anexo</span>
+            </div>
+            <p class="card-compact-description">Anexo, ou carta anexada, é uma carta colocada sob outra carta, representando que está ligada àquela.</p>
+        </div>
+    </a>
+</div>
+<div class="card-compact-container">
+    <a href="/cards/" class="group card-compact no-link">
+        <div class="card-compact-body">
+            <div class="card-compact-header">
+                <span class="card-compact-icon inline-flex shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><!--icon--><path d="M10 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2Zm-.5-2a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5V4a.5.5 0 0 0-.5-.5H10a.5.5 0 0 0-.5.5ZM6.17 4.165a.75.75 0 0 1-.335 1.006c-.228.114-.295.177-.315.201a.035.035 0 0 0-.008.016.423.423 0 0 0-.012.112v13c0 .07.008.102.012.112a.03.03 0 0 0 .008.016c.02.024.087.087.315.201a.749.749 0 1 1-.67 1.342c-.272-.136-.58-.315-.81-.598C4.1 19.259 4 18.893 4 18.5v-13c0-.393.1-.759.355-1.073.23-.283.538-.462.81-.598a.75.75 0 0 1 1.006.336ZM2.15 5.624a.75.75 0 0 1-.274 1.025c-.15.087-.257.17-.32.245C1.5 6.96 1.5 6.99 1.5 7v10c0 .01 0 .04.056.106.063.074.17.158.32.245a.75.75 0 0 1-.752 1.298C.73 18.421 0 17.907 0 17V7c0-.907.73-1.42 1.124-1.65a.75.75 0 0 1 1.025.274Z"/></svg></span>
+                <span class="card-compact-title">Cartas</span>
+            </div>
+            <p class="card-compact-description">São a base do jogo, as partículas que compõem os personagens e eventos. Cada carta possui um conjunto de informações que são utilizadas para dar função e significado.</p>
+        </div>
+    </a>
+</div>
+<div class="card-compact-container">
+    <a href="/gameplay/scenario/" class="group card-compact no-link">
+        <div class="card-compact-body">
+            <div class="card-compact-header">
+                <span class="card-compact-icon inline-flex shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><!--icon--><path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1Zm3.241 10.5v-.001c-.1-2.708-.992-4.904-1.89-6.452a13.919 13.919 0 0 0-1.304-1.88L12 3.11l-.047.059c-.354.425-.828 1.06-1.304 1.88-.898 1.547-1.79 3.743-1.89 6.451Zm-12.728 0h4.745c.1-3.037 1.1-5.49 2.093-7.204.39-.672.78-1.233 1.119-1.673C6.11 3.329 2.746 7 2.513 11.5Zm18.974 0C21.254 7 17.89 3.329 13.53 2.623c.339.44.729 1.001 1.119 1.673.993 1.714 1.993 4.167 2.093 7.204ZM8.787 13c.182 2.478 1.02 4.5 1.862 5.953.382.661.818 1.29 1.304 1.88l.047.057.047-.059c.354-.425.828-1.06 1.304-1.88.842-1.451 1.679-3.471 1.862-5.951Zm-1.504 0H2.552a9.505 9.505 0 0 0 7.918 8.377 15.773 15.773 0 0 1-1.119-1.673C8.413 18.085 7.47 15.807 7.283 13Zm9.434 0c-.186 2.807-1.13 5.085-2.068 6.704-.39.672-.78 1.233-1.118 1.673A9.506 9.506 0 0 0 21.447 13Z"/></svg></span>
+                <span class="card-compact-title">Cenário</span>
+            </div>
+            <p class="card-compact-description">Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.</p>
+        </div>
+    </a>
+</div>
+<div class="card-compact-container">
+    <a href="/gameplay/counter/" class="group card-compact no-link">
+        <div class="card-compact-body">
+            <div class="card-compact-header">
+                <span class="card-compact-icon inline-flex shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><!--icon--><path d="M13.003 7.754a.75.75 0 0 1 .75-.75h5.232a.75.75 0 0 1 .53 1.28l-2.776 2.777c.55.097 1.057.253 1.492.483.905.477 1.504 1.284 1.504 2.418 0 .966-.471 1.75-1.172 2.27-.687.511-1.587.77-2.521.77-1.367 0-2.274-.528-2.667-.756a.75.75 0 0 1 .755-1.297c.331.193.953.553 1.912.553.673 0 1.243-.188 1.627-.473.37-.275.566-.635.566-1.067 0-.5-.219-.836-.703-1.091-.538-.284-1.375-.443-2.471-.443a.75.75 0 0 1-.53-1.28l2.643-2.644h-3.421a.75.75 0 0 1-.75-.75ZM7.88 15.215a1.4 1.4 0 0 0-1.446.83.75.75 0 0 1-1.37-.61 2.899 2.899 0 0 1 2.986-1.71c.589.06 1.139.323 1.557.743.434.446.685 1.058.685 1.778 0 1.641-1.254 2.437-2.12 2.986-.538.341-1.18.694-1.495 1.273H9.75a.75.75 0 0 1 0 1.5h-4a.75.75 0 0 1-.75-.75c0-1.799 1.337-2.63 2.243-3.21 1.032-.659 1.55-1.031 1.55-1.8 0-.355-.116-.584-.26-.732a1.071 1.071 0 0 0-.652-.298Zm.234-13.121a.75.75 0 0 1 .386.656V9h1.252a.75.75 0 0 1 0 1.5H5.75a.75.75 0 0 1 0-1.5H7V4.103l-.853.533a.749.749 0 1 1-.795-1.272l2-1.25a.749.749 0 0 1 .762-.02Z"/></svg></span>
+                <span class="card-compact-title">Contador</span>
+            </div>
+            <p class="card-compact-description">É uma unidade qualquer colocada sobre uma carta, como uma moeda ou ficha de Poker, com o objetivo de representar uma quantidade específica de algo.</p>
+        </div>
+    </a>
+</div>
+<div class="card-compact-container">
+    <a href="/gameplay/limbo/" class="group card-compact no-link">
+        <div class="card-compact-body">
+            <div class="card-compact-header">
+                <span class="card-compact-icon inline-flex shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><!--icon--><path d="M17.32 3.205a.75.75 0 0 1 1.046-.177 11.056 11.056 0 0 1 2.605 2.606.75.75 0 1 1-1.222.869 9.554 9.554 0 0 0-2.252-2.252.75.75 0 0 1-.177-1.046Zm3.475 14.115a.75.75 0 0 1 .176 1.046 11.07 11.07 0 0 1-2.605 2.605.75.75 0 1 1-.869-1.222 9.554 9.554 0 0 0 2.252-2.252.75.75 0 0 1 1.046-.177ZM2.018 9.543a.75.75 0 0 1 .615.864 9.571 9.571 0 0 0 0 3.186.75.75 0 1 1-1.48.25 11.07 11.07 0 0 1 0-3.686.75.75 0 0 1 .865-.614Zm7.525 12.439a.75.75 0 0 1 .864-.615 9.571 9.571 0 0 0 3.186 0 .75.75 0 1 1 .25 1.48 11.07 11.07 0 0 1-3.686 0 .75.75 0 0 1-.614-.865ZM6.68 3.205a.75.75 0 0 1-.177 1.046A9.558 9.558 0 0 0 4.25 6.503a.75.75 0 1 1-1.223-.87 11.056 11.056 0 0 1 2.606-2.605.75.75 0 0 1 1.046.177ZM3.205 17.32a.75.75 0 0 1 1.046.177 9.554 9.554 0 0 0 2.252 2.252.75.75 0 1 1-.87 1.223 11.056 11.056 0 0 1-2.605-2.606.75.75 0 0 1 .177-1.046Zm6.952-16.166a11.07 11.07 0 0 1 3.686 0 .75.75 0 0 1-.25 1.479 9.571 9.571 0 0 0-3.186 0 .75.75 0 1 1-.25-1.48Zm11.825 8.389a.75.75 0 0 1 .864.614 11.07 11.07 0 0 1 0 3.686.75.75 0 0 1-1.479-.25 9.571 9.571 0 0 0 0-3.186.75.75 0 0 1 .615-.864Z"/></svg></span>
+                <span class="card-compact-title">Limbo</span>
+            </div>
+            <p class="card-compact-description">Limbo é um estado de jogo onde um componente está temporariamente fora de jogo.</p>
+        </div>
+    </a>
+</div>
+</div>
+</div>
+<!-- Insert this at the bottom of each markdown page -->
+<!-- Tooltips -->
+<!-- *[AWS]: Amazon Web Services -->
+
+                <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
+                
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-04-19T14:06:21" title="2026-04-19" data-absolute-label="Last updated on 2026-04-19 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-04-19 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                        Last updated on 2026-04-19 by Bruno Caxito
+                    </time>
+                </div>
+
+                <!-- Required only on API pages -->
+                <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
+            </div>
+            <footer id="retype-content-footer" class="clear-both">
+            
+                <nav id="retype-nextprev" class="print:hidden flex mt-14">
+                    <div class="w-1/2">
+                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="/cards/event/">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                            <span>
+                                <span class="block text-xs font-normal text-base-text-muted">Previous</span>
+                                <span class="block mt-1">Evento</span>
+                            </span>
+                        </a>
+                    </div>
+            
+                    <div class="w-1/2">
+                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="/cards/technique/">
+                            <span>
+                                <span class="block text-xs font-normal text-right text-base-text-muted">Next</span>
+                                <span class="block mt-1">T&#233;cnica</span>
+                            </span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                        </a>
+                    </div>
+                </nav>
+            </footer>
+        </main>
+
+        <div id="retype-page-footer" class="print:border-none border-t border-base-border pt-6 mb-8">
+            <footer class="flex flex-wrap items-center justify-between print:justify-center">
+                <div id="retype-footer-links" class="print:hidden">
+                    <ul class="flex flex-wrap items-center text-sm">
+                    </ul>
+                </div>
+                <div id="retype-copyright" class="print:justify-center py-2 text-footer-text font-footer-link text-sm leading-relaxed"><p>© Copyright Bruno Caxito, 2026. All rights reserved.</p></div>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Rendered if sidebar right is enabled -->
+    <!-- Sidebar right skeleton-->
+    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-sidebar-right-bg border-sidebar-right-border lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:translate-x-0 sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton">
+        <div class="pl-5">
+            <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+            <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+            <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+        </div>
+    </div>
+
+    <!-- User should be able to hide sidebar right -->
+    <doc-sidebar-right v-cloak></doc-sidebar-right>
+</div>
+
+        </div>
+    </div>
+
+    <doc-search-mobile></doc-search-mobile>
+    <doc-back-to-top></doc-back-to-top>
+</div>
+
+
+    <div id="retype-overlay-target"></div>
+
+        <script data-cfasync="false">window.__DOCS__ = { "title": "Efeito", level: 2, icon: "file", hasPrism: false, hasInstagram: false, hasMermaid: false, hasMath: false, tocDepth: 23, "md": "/cards/effect.md" }</script>
+
+    <!-- Footer -->
+    <footer>
+
+
+
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+
+
+
+    </script>
+
+    <!-- End Content -->
+    <div>
+
+
+
+    </div>
+</body>
+</html>

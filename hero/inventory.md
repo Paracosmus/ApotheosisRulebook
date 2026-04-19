@@ -30,7 +30,7 @@ Cartas ocultas no [<span class="main"><b>INVENTÁRIO</b></span>](/hero/invent
 
 Cartas permanecidas reveladas no [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) podem ser ativadas, e seus efeitos e bônus devem ser considerados a todo momento.
 
-Porém, [<span class="event"><b>EVENTO</b></span>](/cards/event.md) são exceção a esta regra, podendo ser ativados normalmente, bem como ativados quando uma condição opcional for cumprida. Assim como as cartas na [<span class="main"><b>MESA</b></span>](/hero/table/), um [<span class="event"><b>EVENTO</b></span>](/cards/event.md) no [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) segue as mesmas [regras de ativação](/cards/#ativo) e requerem que o Herói tenha o nível de [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md) da carta para poder ativá-la e usar seu efeito.
+Porém, [<span class="event"><b>EVENTO</b></span>](/cards/event.md) são exceção a esta regra, podendo ser ativados normalmente, bem como ativados quando uma condição opcional for cumprida. Assim como as cartas na [<span class="main"><b>MESA</b></span>](/hero/table/), um [<span class="event"><b>EVENTO</b></span>](/cards/event.md) no [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) segue as mesmas regras de ativação e requerem que o Herói tenha o nível de [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md) da carta para poder ativá-la e usar seu efeito.
 
 Se um [<span class="event"><b>EVENTO</b></span>](/cards/event.md) for ativado do [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md), ele deve ser revelado, e se após resolver seu efeito, ele não for descartado, ele deve ser ocultado novamente.
 

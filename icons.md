@@ -241,11 +241,11 @@
 
 | Box                                                                 | Termo           | Cor       |
 | ------------------------------------------------------------------- | --------------- | --------- |
-| <div class="rarity-box" style="background-color: #9E9E9E">C</div> | [<span class="common">COMUM</span>](/cards/#raridade)    | `#9E9E9E` |
-| <div class="rarity-box" style="background-color: #8BC34A">U</div> | [<span class="uncommon">INCOMUM</span>](/cards/#raridade)  | `#8BC34A` |
-| <div class="rarity-box" style="background-color: #01579B">R</div> | [<span class="rare">RARA</span>](/cards/#raridade)      | `#01579B` |
-| <div class="rarity-box" style="background-color: #673AB7">E</div> | [<span class="epic">ÉPICA</span>](/cards/#raridade)      | `#673AB7` |
-| <div class="rarity-box" style="background-color: #FFC400">L</div> | [<span class="legendary">LENDÁRIA</span>](/cards/#raridade) | `#FFC400` |
+| <div class="rarity-box" style="background-color: #9E9E9E">C</div> | [<span class="common">COMUM</span>](/cards/rarity.md)    | `#9E9E9E` |
+| <div class="rarity-box" style="background-color: #8BC34A">U</div> | [<span class="uncommon">INCOMUM</span>](/cards/rarity.md)  | `#8BC34A` |
+| <div class="rarity-box" style="background-color: #01579B">R</div> | [<span class="rare">RARA</span>](/cards/rarity.md)      | `#01579B` |
+| <div class="rarity-box" style="background-color: #673AB7">E</div> | [<span class="epic">ÉPICA</span>](/cards/rarity.md)      | `#673AB7` |
+| <div class="rarity-box" style="background-color: #FFC400">L</div> | [<span class="legendary">LENDÁRIA</span>](/cards/rarity.md) | `#FFC400` |
 
 <br><br>
 

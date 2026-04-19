@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.829794911925">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.829933593925">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.5.3">
@@ -41,11 +41,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.5.3.829794911925" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.5.3.829933593925" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.5.3.829794911925" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.5.3.829933593925" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.5.3.829794911925" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.5.3.829933593925" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -455,15 +455,15 @@
 </div>
 <h1 id="cenário">Cenário</h1>
 <p>O <a href="/gameplay/scenario/"><span class="event"><b>CENÁRIO</b></span></a> é uma área onde são colocadas cartas que estão em jogo e seus efeitos devem ser considerados, mas não são cartas dos jogadores e seus personagens. Elas podem ser usadas para criar desafios complementares ou para adicionar ou modificar as regras do jogo.</p>
-<p>Todas as cartas no <a href="/gameplay/scenario/"><span class="event"><b>CENÁRIO</b></span></a> são consideradas &quot;em jogo&quot; e seus bônus e efeitos <a href="/cards/#palavras-chave-de-efeito-keyword"><span class="keyword-activation">Auto</span></a>, <a href="/cards/#palavras-chave-de-efeito-keyword"><span class="keyword-activation">Permanent</span></a> devem ser aplicados a todos os personagens, assim como é feito com uma carta em suas <a href="/hero/table/"><span class="main"><b>MESA</b></span></a>.</p>
-<p>Os efeitos <a href="/cards/#palavras-chave-de-efeito-keyword"><span class="keyword-activation">Activate</span></a>, podem ser ativados por qualquer personagem no seu turno ou quando cumprindo os requisitos de ativação. Sendo que o personagem que ativar o efeito deve pagar todos os custos associados ao efeito e cumprir os demais requerimentos, bem como ter <a href="/hero/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a> e nível.</p>
+<p>Todas as cartas no <a href="/gameplay/scenario/"><span class="event"><b>CENÁRIO</b></span></a> são consideradas &quot;em jogo&quot; e seus bônus e efeitos <a href="/cards/effect/"><span class="keyword-activation">Auto</span></a>, <a href="/cards/effect/"><span class="keyword-activation">Permanente</span></a> devem ser aplicados a todos os personagens, assim como é feito com uma carta em suas <a href="/hero/table/"><span class="main"><b>MESA</b></span></a>.</p>
+<p>Os efeitos <a href="/cards/effect/"><span class="keyword-activation">Ativar</span></a>, podem ser ativados por qualquer personagem no seu turno ou quando cumprindo os requisitos de ativação. Sendo que o personagem que ativar o efeito deve pagar todos os custos associados ao efeito e cumprir os demais requerimentos, bem como ter <a href="/hero/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a> e nível.</p>
 <p>Geralmente, o <a href="/gameplay/scenario/"><span class="event"><b>CENÁRIO</b></span></a> é preenchido por cartas de <a href="/cards/event/"><span class="event"><b>EVENTO</b></span></a>, mas não existe uma regra que impeça que cartas de outros tipos sejam colocadas no <a href="/gameplay/scenario/"><span class="event"><b>CENÁRIO</b></span></a>. Quando isso acontece, essas cartas seguem a mesma regra para cartas de <a href="/cards/event/"><span class="event"><b>EVENTO</b></span></a> no <a href="/gameplay/scenario/"><span class="event"><b>CENÁRIO</b></span></a>.</p>
 <hr>
 <h2 id="adicionando-cartas-ao-cenário">Adicionando Cartas ao Cenário</h2>
 <p>Uma carta pode ser adicionada ao <a href="/gameplay/scenario/"><span class="event"><b>CENÁRIO</b></span></a> das seguintes formas:</p>
 <ol>
 <li>
-<p><strong>Palavra-chave</strong>: Quando um efeito com a palavra-chave <a href="/cards/#palavras-chave-de-efeito-keyword"><span class="keyword-task">Register</span></a> fora ativado.</p>
+<p><strong>Palavra-chave</strong>: Quando um efeito com a palavra-chave <a href="/cards/effect/"><span class="keyword-task">Registre</span></a> fora ativado.</p>
 </li>
 <li>
 <p><strong>Efeito de carta</strong>: Algumas cartas possuem efeitos que especificam qual, quando e como uma carta será enviada para o <a href="/gameplay/scenario/"><span class="event"><b>CENÁRIO</b></span></a></p>
@@ -500,17 +500,6 @@
                 <span class="card-compact-title">Baralhos</span>
             </div>
             <p class="card-compact-description">Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.</p>
-        </div>
-    </a>
-</div>
-<div class="card-compact-container">
-    <a href="/cards/" class="group card-compact no-link">
-        <div class="card-compact-body">
-            <div class="card-compact-header">
-                <span class="card-compact-icon inline-flex shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><!--icon--><path d="M10 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2Zm-.5-2a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5V4a.5.5 0 0 0-.5-.5H10a.5.5 0 0 0-.5.5ZM6.17 4.165a.75.75 0 0 1-.335 1.006c-.228.114-.295.177-.315.201a.035.035 0 0 0-.008.016.423.423 0 0 0-.012.112v13c0 .07.008.102.012.112a.03.03 0 0 0 .008.016c.02.024.087.087.315.201a.749.749 0 1 1-.67 1.342c-.272-.136-.58-.315-.81-.598C4.1 19.259 4 18.893 4 18.5v-13c0-.393.1-.759.355-1.073.23-.283.538-.462.81-.598a.75.75 0 0 1 1.006.336ZM2.15 5.624a.75.75 0 0 1-.274 1.025c-.15.087-.257.17-.32.245C1.5 6.96 1.5 6.99 1.5 7v10c0 .01 0 .04.056.106.063.074.17.158.32.245a.75.75 0 0 1-.752 1.298C.73 18.421 0 17.907 0 17V7c0-.907.73-1.42 1.124-1.65a.75.75 0 0 1 1.025.274Z"/></svg></span>
-                <span class="card-compact-title">Cartas</span>
-            </div>
-            <p class="card-compact-description">São a base do jogo, as partículas que compõem os personagens e eventos. Cada carta possui um conjunto de informações que são utilizadas para dar função e significado.</p>
         </div>
     </a>
 </div>

@@ -45,8 +45,8 @@ Os _Magisterium_s são divididos em dois níveis narrativos de maestria, o níve
 
 | **Nível de Maestria** | **Atributos** | **Conhecimentos** | **Slots** | **Efeito** | **Raridade**             | {.compact}
 | --------------------- | ------------- | ----------------- | --------- | ---------- | ------------------------ |
-| **Mestre**            | +2            | +1                |           | Não tem    | [<span class="rare">RARA</span>](/cards/#raridade) ou [<span class="epic">ÉPICA</span>](/cards/#raridade) |
-| **Grande Mestre**     | +4            | +2                | 1         | Pode ter   | [<span class="legendary">LENDÁRIA</span>](/cards/#raridade)          |
+| **Mestre**            | +2            | +1                |           | Não tem    | [<span class="rare">RARA</span>](/cards/rarity.md) ou [<span class="epic">ÉPICA</span>](/cards/rarity.md) |
+| **Grande Mestre**     | +4            | +2                | 1         | Pode ter   | [<span class="legendary">LENDÁRIA</span>](/cards/rarity.md)          |
 
 ==- Tipos de Bônus
 

@@ -37,6 +37,6 @@ Uma carta pode possuir até **5** anexos.
 
 ## Efeitos de Anexos
 
-Cartas anexadas têm seu efeito ignorados, e não podem ser ativadas. A não ser quando uma carta anexada possua o identificador de efeito [<span class="keyword-scope">Attached</span>](/cards/#palavras-chave-de-efeito-keyword).
+Cartas anexadas têm seu efeito ignorados, e não podem ser ativadas. A não ser quando uma carta anexada possua o identificador de efeito [<span class="keyword-scope">Do Anexo</span>](/cards/effect.md).
 
 ---

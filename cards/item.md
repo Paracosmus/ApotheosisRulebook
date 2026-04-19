@@ -42,13 +42,13 @@ Ao custo de 2 de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação), es
 
 ## <span class="item">Barra de Ativação</span>
 
-Quando um [<span class="item"><b>ITEM</b></span>](/cards/item.md) em seu [<span class="item"><b>EQUIPAMENTO</b></span>](/hero/table/equipment.md) possuir uma barra de ativação, em adicional as regras de [ativação de carta](/cards/index.md#efeito), o Herói deve antes deve seguir os seguintes passos:
+Quando um [<span class="item"><b>ITEM</b></span>](/cards/item.md) em seu [<span class="item"><b>EQUIPAMENTO</b></span>](/hero/table/equipment.md) possuir uma barra de ativação, em adicional as regras de ativação de carta, o Herói deve antes deve seguir os seguintes passos:
 
 1. Verificar se a ativação é possível, vendo se o Herói possui os requisitos de custo e condições adicionais que possam existir no texto da carta. Bem como se o texto é possível de ser aplicado naquele momento da partida.
-1. Pagar o custo de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação) descritos.
-1. Se a barra de ativação possuir um <b>ALCANCE</b>, selecionar um alvo válido
-1. Se a barra de ativação possuir um <b>DANO</b>, aplicá-lo ao alvo selecionado
-1. Observar o efeito da carta, e aplicar o que for necessário
+2. Pagar o custo de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação) descritos.
+3. Se a barra de ativação possuir um <b>ALCANCE</b>, selecionar um alvo válido
+4. Se a barra de ativação possuir um <b>DANO</b>, aplicá-lo ao alvo selecionado
+5. Observar o efeito da carta, e aplicar o que for necessário
 
 ---
 

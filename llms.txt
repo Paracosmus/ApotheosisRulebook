@@ -102,10 +102,15 @@
 - [HABILIDADE](https://apotheosiscardgame.com/cards/skills.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [COMPANHEIRO](https://apotheosiscardgame.com/cards/companion.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [EVENTO](https://apotheosiscardgame.com/cards/event.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Efeito](https://apotheosiscardgame.com/cards/effect.md): O efeito de uma carta é um texto que descreve sua função e mecânica, explicando como jogá-la e aplicá-la durante a partida. A função do efeito é conferir
+- [Técnica](https://apotheosiscardgame.com/cards/technique.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Propriedade](https://apotheosiscardgame.com/cards/tag.md): São palavras-chave no canto inferior direito da carta e podem ser identificadas pelo ícone de um quadrado da mesma cor do naipe da carta .
+- [Coleção](https://apotheosiscardgame.com/cards/collection.md): Elemento importante na organização e identificação das cartas em um jogo de cartas colecionáveis, ela representa o conjunto de cartas que foram lançadas juntas, geralmente com uma temática ou história em comum.
+- [Raridade](https://apotheosiscardgame.com/cards/rarity.md): A raridade de uma carta é indicada por uma caixinha colorida com uma letra capitalizada, no canto inferior direito. Ela influencia na qualidade da carta, geralmente com um efeito ou status melhores.
 
 ### Summus
 
-- [SUMMUS](https://apotheosiscardgame.com/cards/summus/index.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Summus](https://apotheosiscardgame.com/cards/summus/index.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [ Ars](https://apotheosiscardgame.com/cards/summus/ars.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [ Ascensus](https://apotheosiscardgame.com/cards/summus/ascensus.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [ Collegium](https://apotheosiscardgame.com/cards/summus/collegium.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.

@@ -10,7 +10,7 @@ Enquanto estiver no Limbo, o componente não pode ser alcançado por ações, ne
 
 Em outras palavras, quando um componente está no Limbo, a existência dele é suspensa, permanecendo lá até que uma condição específica seja atendida para retornar ao jogo.
 
-Efeitos de cartas que enviam componentes para o Limbo geralmente especificam as condições para retornar ao jogo, como o término de um turno, a resolução de um evento específico, ou a ativação de uma habilidade. Esses efeitos costumam ser [<span class="keyword-limit">Lingering</span>](/cards/#palavras-chave-de-efeito-keyword), para garantir que continuarão válidos, mesmo que a carta que os causou seja removida do jogo.
+Efeitos de cartas que enviam componentes para o Limbo geralmente especificam as condições para retornar ao jogo, como o término de um turno, a resolução de um evento específico, ou a ativação de uma habilidade. Esses efeitos costumam ser [<span class="keyword-limit">Residual</span>](/cards/effect.md), para garantir que continuarão válidos, mesmo que a carta que os causou seja removida do jogo.
 
 - **Carta**: Quando uma carta é enviada para o Limbo, ela é colocada na zona separada (Limbo).
 - **Peça**: Quando uma peça é enviada para o Limbo, ela é colocada ao lado do tabuleiro.
@@ -39,6 +39,6 @@ Se a casa do tabuleiro onde uma peça resgatada do Limbo deveria retornar estive
 
 ### Escape
 
-No [<span class="keyword-timing">End of the Battle</span>](/cards/#palavras-chave-de-efeito-keyword), todos os componentes que estão no Limbo são resgatados de volta para o jogo.
+No [<span class="keyword-timing">Final da Batalha</span>](/cards/effect.md), todos os componentes que estão no Limbo são resgatados de volta para o jogo.
 
 ---

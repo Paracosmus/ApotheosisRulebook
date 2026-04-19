@@ -131,3 +131,8 @@ Este livro e as cartas do jogo utilizam termos com significados específicos. Ab
 | **Ciclo**      | *Stint*   | O período entre uma Fase de Recomposição e outra |
 
 ---
+
+Teammate vs Team Member (Parceiro vs Membro do Time)
+Teammate se refere aos demais membros do seu time que não são você, enquanto Team Member se refere a qualquer membro do time, incluindo você mesmo.
+
+---

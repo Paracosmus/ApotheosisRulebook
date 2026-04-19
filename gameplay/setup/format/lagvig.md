@@ -9,13 +9,13 @@ Esta seção ainda não foi completamente revisada. Algumas informações podem 
 É um grupo de formatos de batalha comum em batalhas competitivas, com regras específicas geralmente definidos por uma carta chamada _Arcofluxo_, onde cada jogador possui um baralho composto por cartas de recurso.
 
 #### Limite de 3 cópias por Herói
-* Cartas de raridade [<span class="common">COMUM</span>](/cards/#raridade)
-    * Cartas de raridade [<span class="uncommon">INCOMUM</span>](/cards/#raridade)
-    * Cartas de raridade [<span class="rare">RARA</span>](/cards/#raridade)
+* Cartas de raridade [<span class="common">COMUM</span>](/cards/rarity.md)
+    * Cartas de raridade [<span class="uncommon">INCOMUM</span>](/cards/rarity.md)
+    * Cartas de raridade [<span class="rare">RARA</span>](/cards/rarity.md)
 
 #### Limite de 1 cópia por Herói
-* Cartas de raridade [<span class="epic">ÉPICA</span>](/cards/#raridade)
-    * Cartas de raridade [<span class="legendary">LENDÁRIA</span>](/cards/#raridade)
+* Cartas de raridade [<span class="epic">ÉPICA</span>](/cards/rarity.md)
+    * Cartas de raridade [<span class="legendary">LENDÁRIA</span>](/cards/rarity.md)
 
 #### Proibido o uso
 * Cartas da coleção ‘_Proibida_’
