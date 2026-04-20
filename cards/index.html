@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.829933593925">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.829968143154">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.5.3">
@@ -41,11 +41,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.5.3.829933593925" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.5.3.829968143154" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.5.3.829933593925" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.5.3.829968143154" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.5.3.829933593925" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.5.3.829968143154" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -671,6 +671,90 @@
 </div>
 </p>
 <hr>
+<h2 id="ativar">Ativar</h2>
+<p>Para usar uma carta você deve ativá-la, o que é feito ao pagar seu custo e cumprir seus requisitos, se houverem. O processo de ativação é o mesmo para todas as cartas, independentemente do naipe.</p>
+<p>Por padrão cada Herói pode ativar apenas as cartas que ele controla, ou seja, as cartas que estão em seu <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a>, <a href="/hero/table/"><span class="main"><b>MESA</b></span></a> ou anexadas a outras cartas que ele controla. No entanto, algumas cartas podem permitir ou exigir que o jogador ative cartas que ele não controla, como as cartas de outros jogadores ou cartas em zonas específicas como às do <a href="/gameplay/scenario/"><span class="event"><b>CENÁRIO</b></span></a>.</p>
+<div class="mb-6 overflow-hidden border rounded-md docs-columns dark:border-base-border" style="grid-template-columns: repeat(2, minmax(0, 1fr));">
+    <div class="flex items-center px-5 py-3 font-medium leading-snug text-gray-900 border-b border-base-border dark:text-white border-r">
+        <span>Cartas em Jogo</span>
+    </div>
+    <div class="flex items-center px-5 py-3 font-medium leading-snug text-gray-900 border-b border-base-border dark:text-white">
+        <span>Cartas na Mão</span>
+    </div>
+    <div class="px-5 py-3 docs-columns-content border-r border-base-border">
+<p>Quando uma carta é ativada da <a href="/hero/table/"><span class="main"><b>MESA</b></span></a>, anexo ou alguma zona de jogo, ela permanece onde está e como está, a menos que uma carta ou regra do jogo diga o contrário.</p>
+    </div>
+    <div class="px-5 py-3 docs-columns-content">
+<p>Quando uma carta é ativada do <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a>, a carta deve ser descartada, a menos que uma carta ou regra do jogo diga o contrário.</p>
+<p>Se a carta possuir uma palavra-chave de tarefa, como <a href="/cards/effect/"><span class="keyword-task">Descarte</span></a> ou <a href="/cards/effect/"><span class="keyword-task">Enterre</span></a>, a tarefa tem precedência, e a carta deve ser enviada para onde a tarefa designar, ao invés de ser descartada.</p>
+<p>Observe que apenas efeitos do tipo <a href="/cards/effect/"><span class="keyword-activation">Ativar</span></a> podem ser ativados do <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a>.</p>
+    </div>
+</div>
+<p>Ao declarar a ativação de uma carta, o jogador deve seguir os seguintes passos:</p>
+<doc-panels expando>
+   <doc-panel id="manualmente-span-classkeyword-activationativarspancardseffectmd" collapsed>
+       <template #title>Manualmente <a href="/cards/effect/"><span class="keyword-activation">Ativar</span></a></template>
+<ol>
+<li>A carta deve possuir um ou mais efeitos com a palavra-chave <a href="/cards/effect/"><span class="keyword-activation">Ativar</span></a> ou ter uma barra indicando o <b>DANO</b> e/ou <b>ALCANCE</b>. Se a carta não possuir nenhuma destas características, ela não pode ser ativada manualmente.
+<ol type="a" start="1">
+<li>Se a carta possuir mais de um efeito com a palavra-chave <a href="/cards/effect/"><span class="keyword-activation">Ativar</span></a>, o jogador deve escolher qual efeito ele deseja ativar.</li>
+</ol>
+</li>
+<li>Verificar se ele cumpre os requisitos para ativar a carta.
+<ol type="a" start="1">
+<li>Nível de <a href="/hero/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a> necessário</li>
+<li>Pontos <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a> necessários</li>
+<li>Custos adicionais do naipe, como energias</li>
+<li>Verificar se atende aos requisitos determinados por palavras-chave de temporização, tarefas, etc.</li>
+<li>outras condições adicionais descritas nos requerimentos do efeito.</li>
+</ol>
+</li>
+</ol>
+<p>Estando todas as condições atendidas, o jogador pode declarar a ativação da carta.</p>
+<ol>
+<li>O Herói deve pagar o custo da carta, se houver, e cumprir os requisitos necessários para ativar a carta.</li>
+<li>Se a carta possuir um <b>ALCANCE</b> do tipo <b>DIRETO</b> ou <b>ARQUEADO</b>, o jogador deve selecionar como o alvo da carta uma peça, ou uma casa vazia do tabuleiro, dentro do alcance.</li>
+<li>Aplicar o efeito da carta, seguindo a ordem de resolução dos efeitos conforme descrito no texto da carta e as regras do jogo.</li>
+<li>Aplicar o dano da carta, se houver, ao alvo selecionado.
+<ol>
+<li>Se a carta possuir um <b>ALCANCE</b> do tipo <b>AREA</b>, o dano é aplicado a todas as peças e casas dentro da área de efeito, sem a necessidade de selecionar um alvo específico.</li>
+<li>Observe que alguns efeitos de carta podem especificar que são aplicados após o dano, ao invés de antes, como seria o padrão.</li>
+</ol>
+</li>
+</ol>
+   </doc-panel>
+   <doc-panel id="automaticamente-span-classkeyword-activationautospancardseffectmd" collapsed>
+       <template #title>Automaticamente <a href="/cards/effect/"><span class="keyword-activation">Auto</span></a></template>
+<ol>
+<li>A carta deve possuir um ou mais efeitos com a palavra-chave <a href="/cards/effect/"><span class="keyword-activation">Auto</span></a>.
+<ol>
+<li>Efeitos com a palavra-chave <a href="/cards/effect/"><span class="keyword-activation">Auto</span></a> são ativados automaticamente de forma obrigatória quando suas condições de ativação são atendidas.</li>
+<li>Se a carta possuir mais de um efeito com a palavra-chave <a href="/cards/effect/"><span class="keyword-activation">Auto</span></a>, todos os efeitos que puderem ser ativados, serão ativados automaticamente.</li>
+</ol>
+</li>
+<li>Verificar se ele cumpre os requisitos para ativar a carta.
+<ol>
+<li>Nível de <a href="/hero/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a> necessário</li>
+<li>Verificar se atende aos requisitos determinados por palavras-chave de temporização, tarefas, etc.</li>
+<li>outras condições adicionais descritas nos requerimentos do efeito.</li>
+<li>Ativações automáticas não possuem custos de ativação em <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a> e/ou Energias, se a carta possuir esses custos, eles devem ser considerados para outros efeitos <a href="/cards/effect/"><span class="keyword-activation">Ativar</span></a> daquela carta, e ignorados para os efeitos <a href="/cards/effect/"><span class="keyword-activation">Auto</span></a>.</li>
+</ol>
+</li>
+</ol>
+<p>Estando todas as condições atendidas, o jogador deve informar a ativação da carta.</p>
+<ol>
+<li>Se a carta possuir um <b>ALCANCE</b> do tipo <b>DIRETO</b> ou <b>ARQUEADO</b>, o jogador deve selecionar como o alvo da carta uma peça, ou uma casa vazia do tabuleiro, dentro do alcance.</li>
+<li>Aplicar o efeito da carta, seguindo a ordem de resolução dos efeitos conforme descrito no texto da carta e as regras do jogo.</li>
+<li>Aplicar o dano da carta, se houver, ao alvo selecionado.
+<ol>
+<li>Se a carta possuir um <b>ALCANCE</b> do tipo <b>AREA</b>, o dano é aplicado a todas as peças e casas dentro da área de efeito, sem a necessidade de selecionar um alvo específico.</li>
+<li>Observe que alguns efeitos de carta podem especificar que são aplicados após o dano, ao invés de antes, como seria o padrão.</li>
+</ol>
+</li>
+</ol>
+   </doc-panel>
+</doc-panels>
+<hr>
 <div id="retype-backlinks">
     <h2>See also</h2>
 <div class="card-compact-group">
@@ -703,7 +787,7 @@
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-04-19T14:06:21" title="2026-04-19" data-absolute-label="Last updated on 2026-04-19 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-04-19 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-04-19T23:42:15" title="2026-04-19" data-absolute-label="Last updated on 2026-04-19 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-04-19 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
                         Last updated on 2026-04-19 by Bruno Caxito
                     </time>
                 </div>

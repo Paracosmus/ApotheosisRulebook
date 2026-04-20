@@ -218,7 +218,7 @@ Quando um efeito possuir mais de um limite, todos os limites listados devem ser 
     <br>
 
 [<span class="keyword-limit">Residual</span>](/cards/effect.md) <br> [!badge text="Lingering" variant="ghost"]
-:   TODO
+:   TODO: Efeitos [<span class="keyword-limit">Residual</span>](/cards/effect.md) são os únicos que permanacem em funcionando mesmo depois de a carta ser removida de jogo. Note que eles terminam geralmente em valores curtos ou variáveis como, “Até o final do turno”, “até o final da batalha”, “até o início do seu próximo turno”, etc.. Durações constantes como 3 rodadas, 5 rodadas, etc. devem ser usados contadores de tempo.
     <br>
 
 <br>
@@ -354,13 +354,6 @@ Além disso, alguns conceitos relacionados teóricos inferidos no texto são imp
 ==- Padrões de Escrita [!badge text="Writing Patterns" variant="ghost"]
 
 ===
-
-Usar uma carta
-Quando uma carta é ativada, todos os efeitos do tipo activate dela devem ser aplicados, se os efeitos tiverem requerimentos, todos os que podem ser ativados devem ser ativados, se os efeitos tiverem custos, o jogador os custos de quais efeitos ele quer pagar, e portando, quais efeitos serão ativados. ???
-
-Por padrão as cartas podem ser ativadas tanto da mesa quando da mão, a diferença é que quando ativadas da mão, a carta e descartada ao ser resolvida, enquanto da mesa, ela fica onde está a não ser que tenha uma task ou algo em seu efeito que explicitamente que diga o contrário. Por isso existem as escopes From Table e From Hand, que especificam que este efeito é/pode ser ativado apenas quando a carta está no local indicado. Obs.: Não existe mecânica de jogo que en.
-
-Efeitos [<span class="keyword-limit">Residual</span>](/cards/effect.md) são os únicos que permanacem em funcionando mesmo depois de a carta ser removida de jogo. Note que eles terminam geralmente em valores curtos ou variáveis como, “Até o final do turno”, “até o final da batalha”, “até o início do seu próximo turno”, etc.. Durações constantes como 3 rodadas, 5 rodadas, etc. devem ser usados contadores de tempo.
 
 ---
 

@@ -102,3 +102,68 @@ Uma carta também pode conter outros elementos, sejam eles comuns a todas as car
 [!card layout="signal"](/cards/rarity.md)  [!card layout="signal"](/cards/summus/)
 
 ---
+
+## Ativar
+
+Para usar uma carta você deve ativá-la, o que é feito ao pagar seu custo e cumprir seus requisitos, se houverem. O processo de ativação é o mesmo para todas as cartas, independentemente do naipe.
+
+Por padrão cada Herói pode ativar apenas as cartas que ele controla, ou seja, as cartas que estão em seu [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md), [<span class="main"><b>MESA</b></span>](/hero/table/) ou anexadas a outras cartas que ele controla. No entanto, algumas cartas podem permitir ou exigir que o jogador ative cartas que ele não controla, como as cartas de outros jogadores ou cartas em zonas específicas como às do [<span class="event"><b>CENÁRIO</b></span>](/gameplay/scenario.md).
+
+||| Cartas em Jogo
+
+  Quando uma carta é ativada da [<span class="main"><b>MESA</b></span>](/hero/table/), anexo ou alguma zona de jogo, ela permanece onde está e como está, a menos que uma carta ou regra do jogo diga o contrário.
+
+||| Cartas na Mão
+
+  Quando uma carta é ativada do [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md), a carta deve ser descartada, a menos que uma carta ou regra do jogo diga o contrário.
+
+  Se a carta possuir uma palavra-chave de tarefa, como [<span class="keyword-task">Descarte</span>](/cards/effect.md) ou [<span class="keyword-task">Enterre</span>](/cards/effect.md), a tarefa tem precedência, e a carta deve ser enviada para onde a tarefa designar, ao invés de ser descartada.
+
+  Observe que apenas efeitos do tipo [<span class="keyword-activation">Ativar</span>](/cards/effect.md) podem ser ativados do [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md).
+
+|||
+
+Ao declarar a ativação de uma carta, o jogador deve seguir os seguintes passos:
+
+==- Manualmente [<span class="keyword-activation">Ativar</span>](/cards/effect.md)
+
+  1. A carta deve possuir um ou mais efeitos com a palavra-chave [<span class="keyword-activation">Ativar</span>](/cards/effect.md) ou ter uma barra indicando o <b>DANO</b> e/ou <b>ALCANCE</b>. Se a carta não possuir nenhuma destas características, ela não pode ser ativada manualmente.
+     a. Se a carta possuir mais de um efeito com a palavra-chave [<span class="keyword-activation">Ativar</span>](/cards/effect.md), o jogador deve escolher qual efeito ele deseja ativar.
+  2. Verificar se ele cumpre os requisitos para ativar a carta.
+     a. Nível de [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md) necessário
+     a. Pontos [<span class="main"><b>AÇÃO</b></span>](/hero/#ação) necessários
+     a. Custos adicionais do naipe, como energias
+     a. Verificar se atende aos requisitos determinados por palavras-chave de temporização, tarefas, etc.
+     a. outras condições adicionais descritas nos requerimentos do efeito.
+
+  Estando todas as condições atendidas, o jogador pode declarar a ativação da carta.
+
+  1. O Herói deve pagar o custo da carta, se houver, e cumprir os requisitos necessários para ativar a carta.
+  2. Se a carta possuir um <b>ALCANCE</b> do tipo <b>DIRETO</b> ou <b>ARQUEADO</b>, o jogador deve selecionar como o alvo da carta uma peça, ou uma casa vazia do tabuleiro, dentro do alcance.
+  3. Aplicar o efeito da carta, seguindo a ordem de resolução dos efeitos conforme descrito no texto da carta e as regras do jogo.
+  4. Aplicar o dano da carta, se houver, ao alvo selecionado.
+     1. Se a carta possuir um <b>ALCANCE</b> do tipo <b>AREA</b>, o dano é aplicado a todas as peças e casas dentro da área de efeito, sem a necessidade de selecionar um alvo específico.
+     2. Observe que alguns efeitos de carta podem especificar que são aplicados após o dano, ao invés de antes, como seria o padrão.
+
+  ==- Automaticamente [<span class="keyword-activation">Auto</span>](/cards/effect.md)
+
+  1. A carta deve possuir um ou mais efeitos com a palavra-chave [<span class="keyword-activation">Auto</span>](/cards/effect.md).
+     1. Efeitos com a palavra-chave [<span class="keyword-activation">Auto</span>](/cards/effect.md) são ativados automaticamente de forma obrigatória quando suas condições de ativação são atendidas.
+     2. Se a carta possuir mais de um efeito com a palavra-chave [<span class="keyword-activation">Auto</span>](/cards/effect.md), todos os efeitos que puderem ser ativados, serão ativados automaticamente.
+  2. Verificar se ele cumpre os requisitos para ativar a carta.
+     1. Nível de [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md) necessário
+     2. Verificar se atende aos requisitos determinados por palavras-chave de temporização, tarefas, etc.
+     3. outras condições adicionais descritas nos requerimentos do efeito.
+     4. Ativações automáticas não possuem custos de ativação em [<span class="main"><b>AÇÃO</b></span>](/hero/#ação) e/ou Energias, se a carta possuir esses custos, eles devem ser considerados para outros efeitos [<span class="keyword-activation">Ativar</span>](/cards/effect.md) daquela carta, e ignorados para os efeitos [<span class="keyword-activation">Auto</span>](/cards/effect.md).
+
+  Estando todas as condições atendidas, o jogador deve informar a ativação da carta.
+
+  1. Se a carta possuir um <b>ALCANCE</b> do tipo <b>DIRETO</b> ou <b>ARQUEADO</b>, o jogador deve selecionar como o alvo da carta uma peça, ou uma casa vazia do tabuleiro, dentro do alcance.
+  2. Aplicar o efeito da carta, seguindo a ordem de resolução dos efeitos conforme descrito no texto da carta e as regras do jogo.
+  3. Aplicar o dano da carta, se houver, ao alvo selecionado.
+     1. Se a carta possuir um <b>ALCANCE</b> do tipo <b>AREA</b>, o dano é aplicado a todas as peças e casas dentro da área de efeito, sem a necessidade de selecionar um alvo específico.
+     2. Observe que alguns efeitos de carta podem especificar que são aplicados após o dano, ao invés de antes, como seria o padrão.
+
+===
+
+---
