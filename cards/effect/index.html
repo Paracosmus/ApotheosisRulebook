@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.829968143154">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.830128871009">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.5.3">
@@ -41,11 +41,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.5.3.829968143154" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.5.3.830128871009" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.5.3.829968143154" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.5.3.830128871009" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.5.3.829968143154" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.5.3.830128871009" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -99,6 +99,15 @@
             text-align: center;
             color: rgba(255, 255, 255, 0.5);
             font-weight: bold;
+        }
+
+        /* This element fills the line */
+        div:has(> .fill) {
+            display: flex;
+            align-items: center;
+            gap: 0.5em;
+        } .fill {
+            flex: 1;
         }
 
         /* Bonus */
@@ -451,359 +460,374 @@
 <p>O efeito é autodescritivo e deve ser interpretado e aplicado de acordo com o texto, levando em consideração as regras gerais e mecânicas do jogo. Observe que, muitas vezes, a função de um efeito é justamente <em>&quot;quebrar as regras&quot;</em>, ou seja, permitir ações ou interações que normalmente não seriam possíveis dentro das regras do jogo, e isso é parte do que torna os efeitos interessantes e estratégicos. Nestes casos, o efeito é a regra, e deve ser aplicado exatamente como descrito, mesmo que isso contradiga as regras gerais do jogo, tendo o texto da carta, precedência sobre as regras gerais.</p>
 <p>Quando um efeito contradiz as regras gerais do jogo isso é bem descrito e explicado no texto do efeito, não deixando dúvidas sobre como ele deve ser aplicado, dado que o jogador esteja familiarizado com as regras de jogo envolvidas.</p>
 <p>O efeito é composto por três partes em seu texto:</p>
-<doc-panels>
-   <doc-panel id="span-classkeyword-activationativarspancardseffectmd">
-       <template #title><a href="/cards/effect/"><span class="keyword-activation">Ativar</span></a></template>
-<p>Efeitos que precisam ser ativados manualmente pelo jogador apenas em seu próprio turno. Quando um efeito tem esta palavra-chave, este é o efeito resolvido quando o jogador declara a ativação desta carta.</p>
-<p>Se a carta possuir mais de um efeito com esta palavra-chave, o jogador deve escolher qual deles irá ativar.<br />
-<span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
-    <span>Activate</span>
-</span></p>
-   </doc-panel>
-   <doc-panel id="span-classkeyword-activationautospancardseffectmd">
-       <template #title><a href="/cards/effect/"><span class="keyword-activation">Auto</span></a></template>
-<p>Efeitos ativados automaticamente, sem necessidade de ação do jogador. Quando um efeito tem esta palavra-chave, ele é ativado automaticamente em resposta a uma situação específica, ou seja, quando as condições de ativação do efeito são atendidas, mesmo quando isso ocorrer no turno de um outro personagem que não seja o que controla esta carta.</p>
-<p>Se várias cartas ou efeitos forem ativados em resposta a uma mesma situação, observe  prioridade de ativação.<br />
-<span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
-    <span>Auto</span>
-</span></p>
-   </doc-panel>
-   <doc-panel id="span-classkeyword-activationpermanentespancardseffectmd">
-       <template #title><a href="/cards/effect/"><span class="keyword-activation">Permanente</span></a></template>
-<p>Efeitos passivos, aplicados instantaneamente e que permanecem continuamente enquanto esta carta estiver em jogo. Quando um efeito tem esta palavra-chave, ele vale a partir do momento em que esta carta é colocada em jogo, não sendo considerado que foi ativado.</p>
-<p><span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
-    <span>Permanent</span>
-</span></p>
-   </doc-panel>
-</doc-panels>
-<doc-panels expando>
-   <doc-panel id="palavras-chave-de-efeito-badge-textkeyword-variantghost">
-       <template #title>Palavras-chave de Efeito <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+<hr>
+<h2 id="palavras-chave-de-efeito">Palavras-chave de Efeito <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>Keyword</span>
-</span></template>
+</span></h2>
 <p>São palavras ou expressões específicas no início do texto, que indicam ações, condições, ou características comuns, e são utilizadas para simplificar o texto do efeito. Elas são identificadas por uma caixa de texto colorida ao redor da palavra, e cada palavra-chave tem um significado específico.</p>
-<br>
 <h3 id="ativação">Ativação <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>Activation</span>
 </span></h3>
 <p>Este conjunto de palavras-chave indica o tipo de ativação do efeito, ou seja, como ele é ativado e aplicado durante a partida. Ele é importante para determinar a natureza do efeito e como ele é ativado. Este é o único tipo de palavras-chave que é obrigatória para um efeito, ou seja, todo efeito deve possuir uma palavras-chave de ativação, e apenas uma.</p>
-<dl>
-<dt id="ativar"><a href="/cards/effect/"><span class="keyword-activation">Ativar</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+<doc-panels expando>
+   <doc-panel id="span-classfillspan-classkeyword-activationativarspancardseffectmdspan-badge-textactivate-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-activation">Ativar</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>Activate</span>
-</span></dt>
-<dd>
+</span></template>
 <p>Efeitos que precisam ser ativados manualmente pelo jogador apenas em seu próprio turno. Quando um efeito tem esta palavra-chave, este é o efeito resolvido quando o jogador declara a ativação desta carta.</p>
 <p>Se a carta possuir mais de um efeito com esta palavra-chave, o jogador deve escolher qual deles irá ativar.</p>
-</dd>
-<dt id="auto"><a href="/cards/effect/"><span class="keyword-activation">Auto</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+   </doc-panel>
+   <doc-panel id="span-classfillspan-classkeyword-activationautospancardseffectmdspan-badge-textauto-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-activation">Auto</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>Auto</span>
-</span></dt>
-<dd>
+</span></template>
 <p>Efeitos ativados automaticamente, sem necessidade de ação do jogador. Quando um efeito tem esta palavra-chave, ele é ativado automaticamente em resposta a uma situação específica, ou seja, quando as condições de ativação do efeito são atendidas, mesmo quando isso ocorrer no turno de um outro personagem que não seja o que controla esta carta.</p>
 <p>Se várias cartas ou efeitos forem ativados em resposta a uma mesma situação, observe  prioridade de ativação.</p>
-</dd>
-<dt id="permanente"><a href="/cards/effect/"><span class="keyword-activation">Permanente</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+   </doc-panel>
+   <doc-panel id="span-classfillspan-classkeyword-activationpermanentespancardseffectmdspan-badge-textpermanent-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-activation">Permanente</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>Permanent</span>
-</span></dt>
-<dd>Efeitos passivos, aplicados instantaneamente e que permanecem continuamente enquanto esta carta estiver em jogo. Quando um efeito tem esta palavra-chave, ele vale a partir do momento em que esta carta é colocada em jogo, não sendo considerado que foi ativado.<br />
-<br></dd>
-</dl>
-<br>
+</span></template>
+<p>Efeitos passivos, aplicados instantaneamente e que permanecem continuamente enquanto esta carta estiver em jogo. Quando um efeito tem esta palavra-chave, ele vale a partir do momento em que esta carta é colocada em jogo, não sendo considerado que foi ativado.</p>
+   </doc-panel>
+</doc-panels>
 <h3 id="temporização">Temporização <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>Timing</span>
 </span></h3>
 <p>Determina o momento ou situação específica em que o efeito pode ser ativado, ou seja, quando ele entra em jogo.</p>
 <p>Quando um efeito possuir mais de um momento de ativação, ele pode/deve ser ativado em todos os momentos listados, ou seja, sempre que qualquer um dos momentos listados ocorrer, e se o efeito tiver requerimentos de ativação, eles devem ser atendidos para cada momento em que o efeito for ativado separadamente.</p>
-<dl>
-<dt id="ao-jogar"><a href="/cards/effect/"><span class="keyword-timing">Ao Jogar</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+<doc-panels expando>
+   <doc-panel id="span-classfillspan-classkeyword-timingao-jogarspancardseffectmdspan-badge-texton-play-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-timing">Ao Jogar</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>On Play</span>
-</span></dt>
-<dd>TODO<br />
-<br></dd>
-<dt id="ao-sair"><a href="/cards/effect/"><span class="keyword-timing">Ao Sair</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+</span></template>
+<p>TODO</p>
+   </doc-panel>
+   <doc-panel id="span-classfillspan-classkeyword-timingao-sairspancardseffectmdspan-badge-texton-exit-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-timing">Ao Sair</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>On Exit</span>
-</span></dt>
-<dd>TODO<br />
-<br></dd>
-<dt id="ao-obter"><a href="/cards/effect/"><span class="keyword-timing">Ao Obter</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+</span></template>
+<p>TODO</p>
+   </doc-panel>
+   <doc-panel id="span-classfillspan-classkeyword-timingao-obterspancardseffectmdspan-badge-texton-obtain-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-timing">Ao Obter</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>On Obtain</span>
-</span></dt>
-<dd>TODO<br />
-<br></dd>
-<dt id="ao-revelar"><a href="/cards/effect/"><span class="keyword-timing">Ao Revelar</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+</span></template>
+<p>TODO</p>
+   </doc-panel>
+   <doc-panel id="span-classfillspan-classkeyword-timingao-revelarspancardseffectmdspan-badge-texton-reveal-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-timing">Ao Revelar</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>On Reveal</span>
-</span></dt>
-<dd>TODO<br />
-<br></dd>
-<dt id="ao-ocultar"><a href="/cards/effect/"><span class="keyword-timing">Ao Ocultar</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+</span></template>
+<p>TODO</p>
+   </doc-panel>
+   <doc-panel id="span-classfillspan-classkeyword-timingao-ocultarspancardseffectmdspan-badge-texton-conceal-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-timing">Ao Ocultar</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>On Conceal</span>
-</span></dt>
-<dd>TODO<br />
-<br></dd>
-<dt id="ao-consumir"><a href="/cards/effect/"><span class="keyword-timing">Ao Consumir</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+</span></template>
+<p>TODO</p>
+   </doc-panel>
+   <doc-panel id="span-classfillspan-classkeyword-timingao-consumirspancardseffectmdspan-badge-texton-exhaust-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-timing">Ao Consumir</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>On Exhaust</span>
-</span></dt>
-<dd>TODO<br />
-<br></dd>
-<dt id="ao-recuperar"><a href="/cards/effect/"><span class="keyword-timing">Ao Recuperar</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+</span></template>
+<p>TODO</p>
+   </doc-panel>
+   <doc-panel id="span-classfillspan-classkeyword-timingao-recuperarspancardseffectmdspan-badge-texton-recover-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-timing">Ao Recuperar</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>On Recover</span>
-</span></dt>
-<dd>TODO<br />
-<br></dd>
-<dt id="ao-descartar"><a href="/cards/effect/"><span class="keyword-timing">Ao Descartar</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+</span></template>
+<p>TODO</p>
+   </doc-panel>
+   <doc-panel id="span-classfillspan-classkeyword-timingao-descartarspancardseffectmdspan-badge-texton-discard-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-timing">Ao Descartar</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>On Discard</span>
-</span></dt>
-<dd>TODO<br />
-<br></dd>
-<dt id="ao-enterrar"><a href="/cards/effect/"><span class="keyword-timing">Ao Enterrar</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+</span></template>
+<p>TODO</p>
+   </doc-panel>
+   <doc-panel id="span-classfillspan-classkeyword-timingao-enterrarspancardseffectmdspan-badge-texton-bury-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-timing">Ao Enterrar</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>On Bury</span>
-</span></dt>
-<dd>TODO<br />
-<br></dd>
-<dt id="ao-banir"><a href="/cards/effect/"><span class="keyword-timing">Ao Banir</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+</span></template>
+<p>TODO</p>
+   </doc-panel>
+   <doc-panel id="span-classfillspan-classkeyword-timingao-banirspancardseffectmdspan-badge-texton-banish-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-timing">Ao Banir</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>On Banish</span>
-</span></dt>
-<dd>TODO<br />
-<br></dd>
-<dt id="quando-testando"><a href="/cards/effect/"><span class="keyword-timing">Quando Testando</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+</span></template>
+<p>TODO</p>
+   </doc-panel>
+   <doc-panel id="span-classfillspan-classkeyword-timingquando-testandospancardseffectmdspan-badge-textwhen-checking-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-timing">Quando Testando</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>When Checking</span>
-</span></dt>
-<dd>TODO<br />
-<br></dd>
-<dt id="quando-atacando"><a href="/cards/effect/"><span class="keyword-timing">Quando Atacando</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+</span></template>
+<p>TODO</p>
+   </doc-panel>
+   <doc-panel id="span-classfillspan-classkeyword-timingquando-atacandospancardseffectmdspan-badge-textwhen-attacking-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-timing">Quando Atacando</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>When Attacking</span>
-</span></dt>
-<dd>TODO<br />
-<br></dd>
-<dt id="quando-atacado"><a href="/cards/effect/"><span class="keyword-timing">Quando Atacado</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+</span></template>
+<p>TODO</p>
+   </doc-panel>
+   <doc-panel id="span-classfillspan-classkeyword-timingquando-atacadospancardseffectmdspan-badge-textwhen-attacked-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-timing">Quando Atacado</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>When Attacked</span>
-</span></dt>
-<dd>TODO<br />
-<br></dd>
-<dt id="quando-selecionado"><a href="/cards/effect/"><span class="keyword-timing">Quando Selecionado</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+</span></template>
+<p>TODO</p>
+   </doc-panel>
+   <doc-panel id="span-classfillspan-classkeyword-timingquando-selecionadospancardseffectmdspan-badge-textwhen-selected-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-timing">Quando Selecionado</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>When Selected</span>
-</span></dt>
-<dd>TODO<br />
-<br></dd>
-<dt id="quando-rolando-dados"><a href="/cards/effect/"><span class="keyword-timing">Quando Rolando Dados</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+</span></template>
+<p>TODO</p>
+   </doc-panel>
+   <doc-panel id="span-classfillspan-classkeyword-timingquando-rolando-dadosspancardseffectmdspan-badge-textwhen-rolling-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-timing">Quando Rolando Dados</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>When Rolling</span>
-</span></dt>
-<dd>TODO<br />
-<br></dd>
-<dt id="início-da-batalha"><a href="/cards/effect/"><span class="keyword-timing">Início da Batalha</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+</span></template>
+<p>TODO</p>
+   </doc-panel>
+   <doc-panel id="span-classfillspan-classkeyword-timinginício-da-batalhaspancardseffectmdspan-badge-textstart-of-battle-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-timing">Início da Batalha</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>Start of Battle</span>
-</span></dt>
-<dd>TODO<br />
-<br></dd>
-<dt id="final-da-batalha"><a href="/cards/effect/"><span class="keyword-timing">Final da Batalha</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+</span></template>
+<p>TODO</p>
+   </doc-panel>
+   <doc-panel id="span-classfillspan-classkeyword-timingfinal-da-batalhaspancardseffectmdspan-badge-textend-of-battle-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-timing">Final da Batalha</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>End of Battle</span>
-</span></dt>
-<dd>TODO<br />
-<br></dd>
-<dt id="fase-de-recomposição"><a href="/cards/effect/"><span class="keyword-timing">Fase de Recomposição</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+</span></template>
+<p>TODO</p>
+   </doc-panel>
+   <doc-panel id="span-classfillspan-classkeyword-timingfase-de-recomposiçãospancardseffectmdspan-badge-textreset-phase-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-timing">Fase de Recomposição</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>Reset Phase</span>
-</span></dt>
-<dd>TODO<br />
-<br></dd>
-<dt id="sua-fase-inicial"><a href="/cards/effect/"><span class="keyword-timing">Sua Fase Inicial</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+</span></template>
+<p>TODO</p>
+   </doc-panel>
+   <doc-panel id="span-classfillspan-classkeyword-timingsua-fase-inicialspancardseffectmdspan-badge-textyour-start-phase-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-timing">Sua Fase Inicial</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>Your Start Phase</span>
-</span></dt>
-<dd>TODO<br />
-<br></dd>
-<dt id="sua-fase-final"><a href="/cards/effect/"><span class="keyword-timing">Sua Fase Final</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+</span></template>
+<p>TODO</p>
+   </doc-panel>
+   <doc-panel id="span-classfillspan-classkeyword-timingsua-fase-finalspancardseffectmdspan-badge-textyour-end-phase-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-timing">Sua Fase Final</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>Your End Phase</span>
-</span></dt>
-<dd>TODO<br />
-<br></dd>
-<dt id="fase-inicial-do-membro-do-time"><a href="/cards/effect/"><span class="keyword-timing">Fase Inicial do Membro do Time</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+</span></template>
+<p>TODO</p>
+   </doc-panel>
+   <doc-panel id="span-classfillspan-classkeyword-timingfase-inicial-do-membro-do-timespancardseffectmdspan-badge-textteam-members-start-phase-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-timing">Fase Inicial do Membro do Time</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>Team Member&#x27;s Start Phase</span>
-</span></dt>
-<dd>TODO<br />
-<br></dd>
-<dt id="fase-final-do-membro-do-time"><a href="/cards/effect/"><span class="keyword-timing">Fase Final do Membro do Time</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+</span></template>
+<p>TODO</p>
+   </doc-panel>
+   <doc-panel id="span-classfillspan-classkeyword-timingfase-final-do-membro-do-timespancardseffectmdspan-badge-textteam-members-end-phase-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-timing">Fase Final do Membro do Time</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>Team Member&#x27;s End Phase</span>
-</span></dt>
-<dd>TODO<br />
-<br></dd>
-<dt id="fase-inicial-do-parceiro"><a href="/cards/effect/"><span class="keyword-timing">Fase Inicial do Parceiro</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+</span></template>
+<p>TODO</p>
+   </doc-panel>
+   <doc-panel id="span-classfillspan-classkeyword-timingfase-inicial-do-parceirospancardseffectmdspan-badge-textteammates-start-phase-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-timing">Fase Inicial do Parceiro</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>Teammate&#x27;s Start Phase</span>
-</span></dt>
-<dd>TODO<br />
-<br></dd>
-<dt id="fase-final-do-parceiro"><a href="/cards/effect/"><span class="keyword-timing">Fase Final do Parceiro</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+</span></template>
+<p>TODO</p>
+   </doc-panel>
+   <doc-panel id="span-classfillspan-classkeyword-timingfase-final-do-parceirospancardseffectmdspan-badge-textteammates-end-phase-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-timing">Fase Final do Parceiro</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>Teammate&#x27;s End Phase</span>
-</span></dt>
-<dd>TODO<br />
-<br></dd>
-<dt id="fase-inicial-do-oponente"><a href="/cards/effect/"><span class="keyword-timing">Fase Inicial do Oponente</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+</span></template>
+<p>TODO</p>
+   </doc-panel>
+   <doc-panel id="span-classfillspan-classkeyword-timingfase-inicial-do-oponentespancardseffectmdspan-badge-textopponents-start-phase-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-timing">Fase Inicial do Oponente</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>Opponent&#x27;s Start Phase</span>
-</span></dt>
-<dd>TODO<br />
-<br></dd>
-<dt id="fase-final-do-oponente"><a href="/cards/effect/"><span class="keyword-timing">Fase Final do Oponente</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+</span></template>
+<p>TODO</p>
+   </doc-panel>
+   <doc-panel id="span-classfillspan-classkeyword-timingfase-final-do-oponentespancardseffectmdspan-badge-textopponents-end-phase-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-timing">Fase Final do Oponente</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>Opponent&#x27;s End Phase</span>
-</span></dt>
-<dd>TODO<br />
-<br></dd>
-<dt id="fase-inicial-de-todos"><a href="/cards/effect/"><span class="keyword-timing">Fase Inicial de Todos</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+</span></template>
+<p>TODO</p>
+   </doc-panel>
+   <doc-panel id="span-classfillspan-classkeyword-timingfase-inicial-de-todosspancardseffectmdspan-badge-textall-start-phase-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-timing">Fase Inicial de Todos</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>All Start Phase</span>
-</span></dt>
-<dd>TODO<br />
-<br></dd>
-<dt id="fase-final-de-todos"><a href="/cards/effect/"><span class="keyword-timing">Fase Final de Todos</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+</span></template>
+<p>TODO</p>
+   </doc-panel>
+   <doc-panel id="span-classfillspan-classkeyword-timingfase-final-de-todosspancardseffectmdspan-badge-textall-end-phase-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-timing">Fase Final de Todos</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>All End Phase</span>
-</span></dt>
-<dd>TODO<br />
-<br></dd>
-<dt id="fase-inicial-deste-personagem"><a href="/cards/effect/"><span class="keyword-timing">Fase Inicial deste Personagem</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+</span></template>
+<p>TODO</p>
+   </doc-panel>
+   <doc-panel id="span-classfillspan-classkeyword-timingfase-inicial-deste-personagemspancardseffectmdspan-badge-textthis-characters-start-phase-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-timing">Fase Inicial deste Personagem</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>This Character&#x27;s Start Phase</span>
-</span></dt>
-<dd>TODO: Pera efeitos que só podem ser uados no turno do companion<br />
-<br></dd>
-<dt id="fase-final-deste-personagem"><a href="/cards/effect/"><span class="keyword-timing">Fase Final deste Personagem</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+</span></template>
+<p>TODO: Pera efeitos que só podem ser uados no turno do companion</p>
+   </doc-panel>
+   <doc-panel id="span-classfillspan-classkeyword-timingfase-final-deste-personagemspancardseffectmdspan-badge-textthis-characters-end-phase-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-timing">Fase Final deste Personagem</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>This Character&#x27;s End Phase</span>
-</span></dt>
-<dd>TODO: Pera efeitos que só podem ser uados no turno do companion<br />
-<br></dd>
-</dl>
-<br>
+</span></template>
+<p>TODO: Pera efeitos que só podem ser uados no turno do companion</p>
+   </doc-panel>
+</doc-panels>
 <h3 id="limite">Limite <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>Limit</span>
 </span></h3>
 <p>Tem a função de limitar ou controlar a quantidade de ativações de um efeito, bem como o seu tempo de duração.</p>
 <p>Quando um efeito possuir mais de um limite, todos os limites listados devem ser seguidos para cada ativação do efeito, ou seja, o efeito só pode ser ativado se todos os limites listados puderem ser atendidos e aplicados.</p>
-<dl>
-<dt id="apenas-no-seu-turno"><a href="/cards/effect/"><span class="keyword-limit">Apenas no seu Turno</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+<doc-panels expando>
+   <doc-panel id="span-classfillspan-classkeyword-limitapenas-no-seu-turnospancardseffectmdspan-badge-textyour-turn-only-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-limit">Apenas no seu Turno</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>Your Turn Only</span>
-</span></dt>
-<dd>TODO: Efeitos com tempo/condição de resposta mas que não podem ser ativados no turno de outros jogadores<br />
-<br></dd>
-<dt id="uma-vez-por-ciclo"><a href="/cards/effect/"><span class="keyword-limit">Uma vez por Ciclo</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+</span></template>
+<p>TODO: Efeitos com tempo/condição de resposta mas que não podem ser ativados no turno de outros jogadores</p>
+   </doc-panel>
+   <doc-panel id="span-classfillspan-classkeyword-limituma-vez-por-ciclospancardseffectmdspan-badge-textonce-per-stint-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-limit">Uma vez por Ciclo</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>Once per Stint</span>
-</span></dt>
-<dd>TODO<br />
-<br></dd>
-<dt id="uma-vez-por-batalha"><a href="/cards/effect/"><span class="keyword-limit">Uma vez por Batalha</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+</span></template>
+<p>TODO</p>
+   </doc-panel>
+   <doc-panel id="span-classfillspan-classkeyword-limituma-vez-por-batalhaspancardseffectmdspan-badge-textonce-per-battle-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-limit">Uma vez por Batalha</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>Once per Battle</span>
-</span></dt>
-<dd>TODO<br />
-<br></dd>
-<dt id="ação-total"><a href="/cards/effect/"><span class="keyword-limit">Ação Total</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+</span></template>
+<p>TODO</p>
+   </doc-panel>
+   <doc-panel id="span-classfillspan-classkeyword-limitação-totalspancardseffectmdspan-badge-textall-in-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-limit">Ação Total</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>All-In</span>
-</span></dt>
-<dd>TODO<br />
-<br></dd>
-<dt id="não-respondível"><a href="/cards/effect/"><span class="keyword-limit">Não Respondível</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+</span></template>
+<p>TODO</p>
+   </doc-panel>
+   <doc-panel id="span-classfillspan-classkeyword-limitnão-respondívelspancardseffectmdspan-badge-textno-response-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-limit">Não Respondível</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>No Response</span>
-</span></dt>
-<dd>TODO<br />
-<br></dd>
-<dt id="não-negável"><a href="/cards/effect/"><span class="keyword-limit">Não Negável</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+</span></template>
+<p>TODO</p>
+   </doc-panel>
+   <doc-panel id="span-classfillspan-classkeyword-limitnão-negávelspancardseffectmdspan-badge-textno-negation-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-limit">Não Negável</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>No Negation</span>
-</span></dt>
-<dd>TODO<br />
-<br></dd>
-<dt id="residual"><a href="/cards/effect/"><span class="keyword-limit">Residual</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+</span></template>
+<p>TODO</p>
+   </doc-panel>
+   <doc-panel id="span-classfillspan-classkeyword-limitresidualspancardseffectmdspan-badge-textlingering-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-limit">Residual</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>Lingering</span>
-</span></dt>
-<dd>TODO: Efeitos <a href="/cards/effect/"><span class="keyword-limit">Residual</span></a> são os únicos que permanacem em funcionando mesmo depois de a carta ser removida de jogo. Note que eles terminam geralmente em valores curtos ou variáveis como, “Até o final do turno”, “até o final da batalha”, “até o início do seu próximo turno”, etc.. Durações constantes como 3 rodadas, 5 rodadas, etc. devem ser usados contadores de tempo.<br />
-<br></dd>
-</dl>
-<br>
+</span></template>
+<p>TODO: Efeitos <a href="/cards/effect/"><span class="keyword-limit">Residual</span></a> são os únicos que permanacem em funcionando mesmo depois de a carta ser removida de jogo. Note que eles terminam geralmente em valores curtos ou variáveis como, “Até o final do turno”, “até o final da batalha”,  o início do seu próximo turno”, etc.. Durações constantes como 3 rodadas, 5 rodadas, etc. devem ser usados contadores de tempo.</p>
+   </doc-panel>
+</doc-panels>
 <h3 id="escopo">Escopo <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>Scope</span>
 </span></h3>
 <p>Este conjunto de palavras-chave indica de onde o efeito pode ser ativado, ou seja, o local ou situação em que ele pode ser ativado, seja para reduzir ou expandir as possibilidades de ativação do efeito</p>
 <p>Quando um efeito possuir mais de um escopo, ele pode/deve ser ativado em todos os escopos listados, ou seja, sempre que qualquer um dos escopos listados ocorrer.</p>
-<dl>
-<dt id="de-qualquer-lugar"><a href="/cards/effect/"><span class="keyword-scope">De Qualquer Lugar</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+<doc-panels expando>
+   <doc-panel id="span-classfillspan-classkeyword-scopede-qualquer-lugarspancardseffectmdspan-badge-textfrom-anywhere-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-scope">De Qualquer Lugar</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>From Anywhere</span>
-</span></dt>
-<dd>TODO: Efeitos que nunca deixam de valer, não importa onde estão. O limbo é uma exceção.<br />
-<br></dd>
-<dt id="da-mesa"><a href="/cards/effect/"><span class="keyword-scope">Da Mesa</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+</span></template>
+<p>TODO: Efeitos que nunca deixam de valer, não importa onde estão. O limbo é uma exceção.</p>
+   </doc-panel>
+   <doc-panel id="span-classfillspan-classkeyword-scopeda-mesaspancardseffectmdspan-badge-textfrom-table-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-scope">Da Mesa</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>From Table</span>
-</span></dt>
-<dd>TODO: Usado por eventos, itens consumíveis, e outras cartas que exigem estar na mesa e que não podem ser ativados da mão<br />
-<br></dd>
-<dt id="da-mão"><a href="/cards/effect/"><span class="keyword-scope">Da Mão</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+</span></template>
+<p>TODO: Usado por eventos, itens consumíveis, e outras cartas que exigem estar na mesa e que não podem ser ativados da mão</p>
+   </doc-panel>
+   <doc-panel id="span-classfillspan-classkeyword-scopeda-mãospancardseffectmdspan-badge-textfrom-hand-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-scope">Da Mão</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>From Hand</span>
-</span></dt>
-<dd>TODO<br />
-<br></dd>
-<dt id="da-pilha-de-descarte"><a href="/cards/effect/"><span class="keyword-scope">Da Pilha de Descarte</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+</span></template>
+<p>TODO</p>
+   </doc-panel>
+   <doc-panel id="span-classfillspan-classkeyword-scopeda-pilha-de-descartespancardseffectmdspan-badge-textfrom-discard-pile-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-scope">Da Pilha de Descarte</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>From Discard Pile</span>
-</span></dt>
-<dd>TODO<br />
-<br></dd>
-<dt id="do-membro-do-time"><a href="/cards/effect/"><span class="keyword-scope">Do Membro do Time</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+</span></template>
+<p>TODO</p>
+   </doc-panel>
+   <doc-panel id="span-classfillspan-classkeyword-scopedo-membro-do-timespancardseffectmdspan-badge-textfrom-team-member-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-scope">Do Membro do Time</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>From Team Member</span>
-</span></dt>
-<dd>TODO<br />
-<br></dd>
-<dt id="do-anexo"><a href="/cards/effect/"><span class="keyword-scope">Do Anexo</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+</span></template>
+<p>TODO</p>
+   </doc-panel>
+   <doc-panel id="span-classfillspan-classkeyword-scopedo-anexospancardseffectmdspan-badge-textfrom-attachment-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-scope">Do Anexo</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>From Attachment</span>
-</span></dt>
-<dd>TODO<br />
-<br></dd>
-</dl>
-<br>
+</span></template>
+<p>TODO</p>
+   </doc-panel>
+</doc-panels>
 <h3 id="tarefa">Tarefa <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>Task</span>
 </span></h3>
 <p>Complementa a ativação do efeito, indicando uma ação adicional que deve ser realizada com esta carta ao ativar o efeito, ou seja, uma ação que deve ser realizada como parte da ativação do efeito antes da resolução do efeito. Pode incluir ações como descartar, banir, ou realizar outras ações específicas. Se a tarefa não puder ser realizada, o efeito não pode ser ativado.</p>
 <p>Um efeito nunca possui mais de uma tarefa, mas pode possuir uma tarefa e outros requerimentos de ativação, ou seja, para ativar o efeito, o jogador deve realizar a tarefa e atender os outros requerimentos de ativação listados.</p>
-<dl>
-<dt id="consuma"><a href="/cards/effect/"><span class="keyword-task">Consuma</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+<doc-panels expando>
+   <doc-panel id="span-classfillspan-classkeyword-taskconsumaspancardseffectmdspan-badge-textexhaust-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-task">Consuma</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>Exhaust</span>
-</span></dt>
-<dd>Consuma esta carta ao ativá-la.<br />
-<br></dd>
-<dt id="recupere"><a href="/cards/effect/"><span class="keyword-task">Recupere</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
-    <span>Recover</span>
-</span></dt>
-<dd>Recupere esta carta ao ativá-la.<br />
-<br></dd>
-<dt id="descarte"><a href="/cards/effect/"><span class="keyword-task">Descarte</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
-    <span>Discard</span>
-</span></dt>
-<dd>Descarte esta carta ao ativá-la.<br />
-<br></dd>
-<dt id="enterre"><a href="/cards/effect/"><span class="keyword-task">Enterre</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
-    <span>Bury</span>
-</span></dt>
-<dd>Enterre esta carta ao ativá-la.<br />
-<br></dd>
-<dt id="bane"><a href="/cards/effect/"><span class="keyword-task">Bane</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
-    <span>Banish</span>
-</span></dt>
-<dd>Bane esta carta ao ativá-la.<br />
-<br></dd>
-<dt id="registre"><a href="/cards/effect/"><span class="keyword-task">Registre</span></a> <br> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
-    <span>Register</span>
-</span></dt>
-<dd>Registre esta carta ao ativá-la.<br />
-<br></dd>
-</dl>
-   </doc-panel>
-   <doc-panel id="requerimentos-de-ativação-badge-textrequirement-variantghost" collapsed>
-       <template #title>Requerimentos de Ativação <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
-    <span>Requirement</span>
 </span></template>
+<p>Consuma esta carta ao ativá-la.</p>
+   </doc-panel>
+   <doc-panel id="span-classfillspan-classkeyword-taskrecuperespancardseffectmdspan-badge-textrecover-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-task">Recupere</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Recover</span>
+</span></template>
+<p>Recupere esta carta ao ativá-la.</p>
+   </doc-panel>
+   <doc-panel id="span-classfillspan-classkeyword-taskdescartespancardseffectmdspan-badge-textdiscard-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-task">Descarte</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Discard</span>
+</span></template>
+<p>Descarte esta carta ao ativá-la.</p>
+   </doc-panel>
+   <doc-panel id="span-classfillspan-classkeyword-taskenterrespancardseffectmdspan-badge-textbury-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-task">Enterre</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Bury</span>
+</span></template>
+<p>Enterre esta carta ao ativá-la.</p>
+   </doc-panel>
+   <doc-panel id="span-classfillspan-classkeyword-taskbanespancardseffectmdspan-badge-textbanish-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-task">Bane</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Banish</span>
+</span></template>
+<p>Bane esta carta ao ativá-la.</p>
+   </doc-panel>
+   <doc-panel id="span-classfillspan-classkeyword-taskregistrespancardseffectmdspan-badge-textregister-variantghost" collapsed>
+       <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-task">Registre</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Register</span>
+</span></template>
+<p>Registre esta carta ao ativá-la.</p>
+   </doc-panel>
+</doc-panels>
+<hr>
+<h2 id="requerimentos-de-ativação">Requerimentos de Ativação <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Requirement</span>
+</span></h2>
 <p>O efeito não pode ser ativado se qualquer um dos seus requerimentos de ativação não puderem ser atendidos, ou seja, se qualquer um dos requerimentos de ativação não for verdadeiro ou não puder ser cumprido, o efeito não é utilizável naquele momento. Os requerimentos de ativação são geralmente descritos no texto do efeito, e podem incluir custos, condições, estados ou outros requisitos que devem ser atendidos para que o efeito possa ser ativado.:</p>
 <ol>
 <li><strong>Custos</strong> → <code translate="no" v-pre>Descarte, Consuma, etc.</code></li>
-<li><strong>Ações</strong> → <code translate="no" v-pre>Selecione, Mova</code></li>
+<li><strong>Ações</strong> → <code translate="no" v-pre>Selecione, Mova, etc.</code></li>
 <li><strong>Duração</strong> → <code translate="no" v-pre>Até, Enquanto, Durante</code></li>
-<li><strong>Condição</strong> → <code translate="no" v-pre>Quando, Se, Então</code></li>
+<li><strong>Condição</strong> → <code translate="no" v-pre>Quando, Se</code></li>
 </ol>
-   </doc-panel>
-   <doc-panel id="descrição-do-efeito" collapsed>
-       <template #title>Descrição do Efeito</template>
+<hr>
+<h2 id="descrição-do-efeito">Descrição do Efeito</h2>
 <p>Este é o texto que descreve o que o efeito faz, ou seja, a ação ou interação que ele permite ou causa. Ele é a parte mais importante do efeito, pois é onde está a função real da carta, bem como as instruções e explicações do que deve ser feito.</p>
 <p>Deve ser interpretado e aplicado de acordo com o texto, levando em consideração as regras gerais e mecânicas do jogo.</p>
-   </doc-panel>
-</doc-panels>
 <p>Além disso, alguns conceitos relacionados teóricos inferidos no texto são importantes para a compreensão e aplicação dos efeitos.</p>
 <doc-panels expando>
    <doc-panel id="prioridade-de-ativação-badge-textpriority-variantghost" collapsed>
@@ -834,31 +858,31 @@
 <ul>
 <li>Se mais de uma carta do Cenário for ativada em resposta a mesma situação, a carta a mais tempo em jogo será ativada.</li>
 </ul>
-<ol>
+<ol start="2">
 <li><strong>Cartas de Heróis Oponentes</strong></li>
 </ol>
 <ul>
 <li>Se mais de uma carta de Herói Oponente for ativada em resposta a mesma situação, a carta do Herói Oponente de maior Iniciativa neste ciclo será ativada.</li>
 </ul>
-<ol>
+<ol start="3">
 <li><strong>Cartas de Heróis do Time</strong></li>
 </ol>
 <ul>
 <li>Se mais de uma carta de Herói do Time for ativada em resposta a mesma situação, a carta do Herói de maior Iniciativa neste ciclo do Time será ativada.</li>
 </ul>
-<ol>
+<ol start="4">
 <li><strong>Cartas do Herói (Ou Herói do Companheiro) do Turno</strong></li>
 </ol>
 <ul>
 <li>Se mais de uma carta do Herói do Turno for ativada em resposta a mesma situação, o jogador deve escolher qual delas será ativada.</li>
 </ul>
-<ol>
+<ol start="5">
 <li><strong>Cartas da Pilha de Descarte</strong></li>
 </ol>
 <ul>
 <li>Se mais de uma carta da Pilha de Descarte for ativada em resposta a mesma situação, a carta mais acima na pilha será ativada.</li>
 </ul>
-<ol>
+<ol start="6">
 <li><strong>Cartas do Mestre de Jogo</strong></li>
 </ol>
 <ul>
@@ -1031,112 +1055,6 @@
         </div>
     </div>
 </div>
-<h4 id="momento-que-o-efeito-pode-ser-ativado-timing">Momento que o efeito pode ser ativado <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-primary-text bg-badge-primary border border-badge-primary-border h-6 px-2 text-xs rounded-md">
-    <span>timing</span>
-</span></h4>
-<dl>
-<dt id="ao-jogar-1"><a href="/cards/effect/"><span class="keyword-timing">Ao Jogar</span></a></dt>
-<dd>Quando esta carta é coloca em jogo, ou seja, quando vai para a <a href="/hero/table/"><span class="main"><b>MESA</b></span></a> de um Herói</dd>
-<dt id="ao-sair-1"><a href="/cards/effect/"><span class="keyword-timing">Ao Sair</span></a></dt>
-<dd>Quando esta carta é removida da <a href="/hero/table/"><span class="main"><b>MESA</b></span></a> de um Herói, ou seja, quando é descartada, enterrada, banida ou enviada para o <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a></dd>
-<dt id="ao-obter-1"><a href="/cards/effect/"><span class="keyword-timing">Ao Obter</span></a></dt>
-<dd>Quando esta carta é adquirida por um Herói, ou seja, quando é comprada ou recebida de outra forma</dd>
-<dt id="ao-revelar-1"><a href="/cards/effect/"><span class="keyword-timing">Ao Revelar</span></a></dt>
-<dd>Quando esta carta é revelada</dd>
-<dt id="ao-ocultar-1"><a href="/cards/effect/"><span class="keyword-timing">Ao Ocultar</span></a></dt>
-<dd>Quando esta carta é ocultada</dd>
-<dt id="ao-consumir-1"><a href="/cards/effect/"><span class="keyword-timing">Ao Consumir</span></a></dt>
-<dd>Quando esta carta é exaurida, ou seja, quando é rotacionada para o lado</dd>
-<dt id="ao-recuperar-1"><a href="/cards/effect/"><span class="keyword-timing">Ao Recuperar</span></a></dt>
-<dd>Quando esta carta é recuperada, ou seja, quando é rotacionada de volta para a posição normal</dd>
-<dt id="ao-descartar-1"><a href="/cards/effect/"><span class="keyword-timing">Ao Descartar</span></a></dt>
-<dd>Quando esta carta é descartada</dd>
-<dt id="ao-enterrar-1"><a href="/cards/effect/"><span class="keyword-timing">Ao Enterrar</span></a></dt>
-<dd>Quando esta carta é enterrada</dd>
-<dt id="ao-banir-1"><a href="/cards/effect/"><span class="keyword-timing">Ao Banir</span></a></dt>
-<dd>
-<p>Quando esta carta é banida</p>
-</dd>
-<dd>
-<p>No início do seu turno</p>
-</dd>
-<dd>
-<p>No final do seu turno</p>
-</dd>
-<dd>
-<p>No início do turno de um personagem do seu time, incluindo você</p>
-</dd>
-<dd>
-<p>No final do turno de um personagem do seu time, incluindo você</p>
-</dd>
-<dd>
-<p>No início do turno de um personagem do seu time que não é você</p>
-</dd>
-<dd>
-<p>No final do turno de um personagem do seu time que não é você</p>
-</dd>
-<dd>
-<p>No início do turno de um personagem de outro time</p>
-</dd>
-<dd>
-<p>No final do turno de um personagem de outro time</p>
-</dd>
-<dd>
-<p>No início de todos os turnos, ou seja, no início do turno de todo personagem</p>
-</dd>
-<dd>No final de todos os turnos, ou seja, no final do turno de todo personagem</dd>
-<dt id="term"><span style="font-size: 0.8em"></span></dt>
-<dd>No início do turno do personagem representado por esta carta de <a href="/cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a></dd>
-<dt id="term-1"><span style="font-size: 0.8em"></span></dt>
-<dd>
-<p>No final do turno do personagem representado por esta carta de <a href="/cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a></p>
-</dd>
-<dd>
-<p>No início da rodada</p>
-</dd>
-<dd>No final da rodada</dd>
-<dt id="início-da-batalha-1"><a href="/cards/effect/"><span class="keyword-timing">Início da Batalha</span></a></dt>
-<dd>No início da batalha</dd>
-<dt id="final-da-batalha-1"><a href="/cards/effect/"><span class="keyword-timing">Final da Batalha</span></a></dt>
-<dd>No final da batalha</dd>
-<dt id="quando-testando-1"><a href="/cards/effect/"><span class="keyword-timing">Quando Testando</span></a></dt>
-<dd>Quando estiver realizando um teste</dd>
-<dt id="quando-atacando-1"><a href="/cards/effect/"><span class="keyword-timing">Quando Atacando</span></a></dt>
-<dd>Quando este personagem está atacando</dd>
-<dt id="quando-atacado-1"><a href="/cards/effect/"><span class="keyword-timing">Quando Atacado</span></a></dt>
-<dd>Quando este personagem está sendo atacado</dd>
-<dt id="quando-selecionado-1"><span style="font-size: 0.9em"><a href="/cards/effect/"><span class="keyword-timing">Quando Selecionado</span></a></span></dt>
-<dd>Quando este personagem é selecionado como alvo de qualquer ação, incluindo ataques</dd>
-<dt id="quando-rolando-dados-1"><a href="/cards/effect/"><span class="keyword-timing">Quando Rolando Dados</span></a></dt>
-<dd>Quando estiver rolando dados.</dd>
-</dl>
-<h4 id="limite-de-ativações-limit">Limite de ativações <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-primary-text bg-badge-primary border border-badge-primary-border h-6 px-2 text-xs rounded-md">
-    <span>limit</span>
-</span></h4>
-<dl>
-<dt id="---pode-ser-ativada-apenas-uma-vez-por-turno">:   Pode ser ativada apenas uma vez por turno</dt>
-<dd>Pode ser ativada apenas uma vez por rodada</dd>
-<dt id="uma-vez-por-batalha-1"><a href="/cards/effect/"><span class="keyword-limit">Uma vez por Batalha</span></a></dt>
-<dd>
-<p>Pode ser ativada apenas uma vez por batalha</p>
-</dd>
-<dd>Para ativar esta carta, você não pode realizar nenhuma outra ação neste turno</dd>
-<dt id="não-respondível-1"><a href="/cards/effect/"><span class="keyword-limit">Não Respondível</span></a></dt>
-<dd>Nenhuma carta pode ser ativada em resposta a esta carta</dd>
-<dt id="não-negável-1"><a href="/cards/effect/"><span class="keyword-limit">Não Negável</span></a></dt>
-<dd>Esta carta não pode ser negada</dd>
-</dl>
-<h4 id="de-onde-o-efeito-pode-ser-ativado-scope">De onde o efeito pode ser ativado <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-primary-text bg-badge-primary border border-badge-primary-border h-6 px-2 text-xs rounded-md">
-    <span>scope</span>
-</span></h4>
-<dl>
-<dt id="da-mão-1"><a href="/cards/effect/"><span class="keyword-scope">Da Mão</span></a></dt>
-<dd>Esta carta pode ser ativada do <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a></dd>
-<dt id="da-pilha-de-descarte-1"><a href="/cards/effect/"><span class="keyword-scope">Da Pilha de Descarte</span></a></dt>
-<dd>Esta carta pode ser ativada da pilha de descarte</dd>
-<dt id="do-membro-do-time-1"><a href="/cards/effect/"><span class="keyword-scope">Do Membro do Time</span></a></dt>
-<dd>Esta carta pode ser ativada por qualquer personagem do seu time, durante o turno dele</dd>
-</dl>
 <hr>
 <div id="retype-backlinks">
     <h2>See also</h2>
@@ -1204,8 +1122,8 @@
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-04-19T23:42:15" title="2026-04-19" data-absolute-label="Last updated on 2026-04-19 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-04-19 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
-                        Last updated on 2026-04-19 by Bruno Caxito
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-04-21T20:21:02" title="2026-04-21" data-absolute-label="Last updated on 2026-04-21 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-04-21 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                        Last updated on 2026-04-21 by Bruno Caxito
                     </time>
                 </div>
 
