@@ -16,54 +16,34 @@ Quando um efeito contradiz as regras gerais do jogo isso é bem descrito e expli
 
 O efeito é composto por três partes em seu texto:
 
+---
 
-=== {{ activate }}
-
-  Efeitos que precisam ser ativados manualmente pelo jogador apenas em seu próprio turno. Quando um efeito tem esta palavra-chave, este é o efeito resolvido quando o jogador declara a ativação desta carta.
-
-  Se a carta possuir mais de um efeito com esta palavra-chave, o jogador deve escolher qual deles irá ativar.
-  [!badge text="Activate" variant="ghost"]
-
-=== {{ auto }}
-
-  Efeitos ativados automaticamente, sem necessidade de ação do jogador. Quando um efeito tem esta palavra-chave, ele é ativado automaticamente em resposta a uma situação específica, ou seja, quando as condições de ativação do efeito são atendidas, mesmo quando isso ocorrer no turno de um outro personagem que não seja o que controla esta carta.
-
-  Se várias cartas ou efeitos forem ativados em resposta a uma mesma situação, observe  prioridade de ativação.
-  [!badge text="Auto" variant="ghost"]
-
-=== {{ permanent }}
-
-  Efeitos passivos, aplicados instantaneamente e que permanecem continuamente enquanto esta carta estiver em jogo. Quando um efeito tem esta palavra-chave, ele vale a partir do momento em que esta carta é colocada em jogo, não sendo considerado que foi ativado.
-
-  [!badge text="Permanent" variant="ghost"]
-===
-
-
-=== Palavras-chave de Efeito [!badge text="Keyword" variant="ghost"]
+## Palavras-chave de Efeito [!badge text="Keyword" variant="ghost"]
 
   São palavras ou expressões específicas no início do texto, que indicam ações, condições, ou características comuns, e são utilizadas para simplificar o texto do efeito. Elas são identificadas por uma caixa de texto colorida ao redor da palavra, e cada palavra-chave tem um significado específico.
-
-<br>
 
 ### Ativação [!badge text="Activation" variant="ghost"]
 
 Este conjunto de palavras-chave indica o tipo de ativação do efeito, ou seja, como ele é ativado e aplicado durante a partida. Ele é importante para determinar a natureza do efeito e como ele é ativado. Este é o único tipo de palavras-chave que é obrigatória para um efeito, ou seja, todo efeito deve possuir uma palavras-chave de ativação, e apenas uma.
 
-{{ activate }} <br> [!badge text="Activate" variant="ghost"]
-:   Efeitos que precisam ser ativados manualmente pelo jogador apenas em seu próprio turno. Quando um efeito tem esta palavra-chave, este é o efeito resolvido quando o jogador declara a ativação desta carta.
+==- <span class="fill">{{ activate }}</span> [!badge text="Activate" variant="ghost"]
 
-    Se a carta possuir mais de um efeito com esta palavra-chave, o jogador deve escolher qual deles irá ativar.
+  Efeitos que precisam ser ativados manualmente pelo jogador apenas em seu próprio turno. Quando um efeito tem esta palavra-chave, este é o efeito resolvido quando o jogador declara a ativação desta carta.
 
-{{ auto }} <br> [!badge text="Auto" variant="ghost"]
-:   Efeitos ativados automaticamente, sem necessidade de ação do jogador. Quando um efeito tem esta palavra-chave, ele é ativado automaticamente em resposta a uma situação específica, ou seja, quando as condições de ativação do efeito são atendidas, mesmo quando isso ocorrer no turno de um outro personagem que não seja o que controla esta carta.
+  Se a carta possuir mais de um efeito com esta palavra-chave, o jogador deve escolher qual deles irá ativar.
 
-    Se várias cartas ou efeitos forem ativados em resposta a uma mesma situação, observe  prioridade de ativação.
+==- <span class="fill">{{ auto }}</span> [!badge text="Auto" variant="ghost"]
 
-{{ permanent }} <br> [!badge text="Permanent" variant="ghost"]
-:   Efeitos passivos, aplicados instantaneamente e que permanecem continuamente enquanto esta carta estiver em jogo. Quando um efeito tem esta palavra-chave, ele vale a partir do momento em que esta carta é colocada em jogo, não sendo considerado que foi ativado.
-    <br>
+  Efeitos ativados automaticamente, sem necessidade de ação do jogador. Quando um efeito tem esta palavra-chave, ele é ativado automaticamente em resposta a uma situação específica, ou seja, quando as condições de ativação do efeito são atendidas, mesmo quando isso ocorrer no turno de um outro personagem que não seja o que controla esta carta.
 
-<br>
+  Se várias cartas ou efeitos forem ativados em resposta a uma mesma situação, observe  prioridade de ativação.
+
+==- <span class="fill">{{ permanent }}</span> [!badge text="Permanent" variant="ghost"]
+
+  Efeitos passivos, aplicados instantaneamente e que permanecem continuamente enquanto esta carta estiver em jogo. Quando um efeito tem esta palavra-chave, ele vale a partir do momento em que esta carta é colocada em jogo, não sendo considerado que foi ativado.
+
+
+===
 
 ### Temporização [!badge text="Timing" variant="ghost"]
 
@@ -71,127 +51,127 @@ Determina o momento ou situação específica em que o efeito pode ser ativado, 
 
 Quando um efeito possuir mais de um momento de ativação, ele pode/deve ser ativado em todos os momentos listados, ou seja, sempre que qualquer um dos momentos listados ocorrer, e se o efeito tiver requerimentos de ativação, eles devem ser atendidos para cada momento em que o efeito for ativado separadamente.
 
-{{ onPlay }} <br> [!badge text="On Play" variant="ghost"]
-:   TODO
-    <br>
+==- <span class="fill">{{ onPlay }}</span> [!badge text="On Play" variant="ghost"]
 
-{{ onExit }} <br> [!badge text="On Exit" variant="ghost"]
-:   TODO
-    <br>
+  TODO
 
-{{ onObtain }} <br> [!badge text="On Obtain" variant="ghost"]
-:   TODO
-    <br>
+==- <span class="fill">{{ onExit }}</span> [!badge text="On Exit" variant="ghost"]
 
-{{ onReveal }} <br> [!badge text="On Reveal" variant="ghost"]
-:   TODO
-    <br>
+  TODO
 
-{{ onConceal }} <br> [!badge text="On Conceal" variant="ghost"]
-:   TODO
-    <br>
+==- <span class="fill">{{ onObtain }}</span> [!badge text="On Obtain" variant="ghost"]
 
-{{ onExhaust }} <br> [!badge text="On Exhaust" variant="ghost"]
-:   TODO
-    <br>
+  TODO
 
-{{ onRecover }} <br> [!badge text="On Recover" variant="ghost"]
-:   TODO
-    <br>
+==- <span class="fill">{{ onReveal }}</span> [!badge text="On Reveal" variant="ghost"]
 
-{{ onDiscard }} <br> [!badge text="On Discard" variant="ghost"]
-:   TODO
-    <br>
+  TODO
 
-{{ onBury }} <br> [!badge text="On Bury" variant="ghost"]
-:   TODO
-    <br>
+==- <span class="fill">{{ onConceal }}</span> [!badge text="On Conceal" variant="ghost"]
 
-{{ onBanish }} <br> [!badge text="On Banish" variant="ghost"]
-:   TODO
-    <br>
+  TODO
 
-{{ checking }} <br> [!badge text="When Checking" variant="ghost"]
-:   TODO
-    <br>
+==- <span class="fill">{{ onExhaust }}</span> [!badge text="On Exhaust" variant="ghost"]
 
-{{ attacking }} <br> [!badge text="When Attacking" variant="ghost"]
-:   TODO
-    <br>
+  TODO
 
-{{ attacked }} <br> [!badge text="When Attacked" variant="ghost"]
-:   TODO
-    <br>
+==- <span class="fill">{{ onRecover }}</span> [!badge text="On Recover" variant="ghost"]
 
-{{ selected }} <br> [!badge text="When Selected" variant="ghost"]
-:   TODO
-    <br>
+  TODO
 
-{{ rolling }} <br> [!badge text="When Rolling" variant="ghost"]
-:   TODO
-    <br>
+==- <span class="fill">{{ onDiscard }}</span> [!badge text="On Discard" variant="ghost"]
 
-{{ startOfBattle }} <br> [!badge text="Start of Battle" variant="ghost"]
-:   TODO
-    <br>
+  TODO
 
-{{ endOfBattle }} <br> [!badge text="End of Battle" variant="ghost"]
-:   TODO
-    <br>
+==- <span class="fill">{{ onBury }}</span> [!badge text="On Bury" variant="ghost"]
 
-{{ resetPhase }} <br> [!badge text="Reset Phase" variant="ghost"]
-:   TODO
-    <br>
+  TODO
 
-{{ yourStartPhase }} <br> [!badge text="Your Start Phase" variant="ghost"]
-:   TODO
-    <br>
+==- <span class="fill">{{ onBanish }}</span> [!badge text="On Banish" variant="ghost"]
 
-{{ yourEndPhase }} <br> [!badge text="Your End Phase" variant="ghost"]
-:   TODO
-    <br>
+  TODO
 
-{{ teamMemberStartPhase }} <br> [!badge text="Team Member's Start Phase" variant="ghost"]
-:   TODO
-    <br>
+==- <span class="fill">{{ checking }}</span> [!badge text="When Checking" variant="ghost"]
 
-{{ teamMemberEndPhase }} <br> [!badge text="Team Member's End Phase" variant="ghost"]
-:   TODO
-    <br>
+  TODO
 
-{{ teammateStartPhase }} <br> [!badge text="Teammate's Start Phase" variant="ghost"]
-:   TODO
-    <br>
+==- <span class="fill">{{ attacking }}</span> [!badge text="When Attacking" variant="ghost"]
 
-{{ teammateEndPhase }} <br> [!badge text="Teammate's End Phase" variant="ghost"]
-:   TODO
-    <br>
+  TODO
 
-{{ opponentStartPhase }} <br> [!badge text="Opponent's Start Phase" variant="ghost"]
-:   TODO
-    <br>
+==- <span class="fill">{{ attacked }}</span> [!badge text="When Attacked" variant="ghost"]
 
-{{ opponentEndPhase }} <br> [!badge text="Opponent's End Phase" variant="ghost"]
-:   TODO
-    <br>
+  TODO
 
-{{ allStartPhase }} <br> [!badge text="All Start Phase" variant="ghost"]
-:   TODO
-    <br>
+==- <span class="fill">{{ selected }}</span> [!badge text="When Selected" variant="ghost"]
 
-{{ allEndPhase }} <br> [!badge text="All End Phase" variant="ghost"]
-:   TODO
-    <br>
+  TODO
 
-{{ thisCharacterStartPhase }} <br> [!badge text="This Character's Start Phase" variant="ghost"]
-:   TODO: Pera efeitos que só podem ser uados no turno do companion
-    <br>
+==- <span class="fill">{{ rolling }}</span> [!badge text="When Rolling" variant="ghost"]
 
-{{ thisCharacterEndPhase }} <br> [!badge text="This Character's End Phase" variant="ghost"]
-:   TODO: Pera efeitos que só podem ser uados no turno do companion
-    <br>
+  TODO
 
-<br>
+==- <span class="fill">{{ startOfBattle }}</span> [!badge text="Start of Battle" variant="ghost"]
+
+  TODO
+
+==- <span class="fill">{{ endOfBattle }}</span> [!badge text="End of Battle" variant="ghost"]
+
+  TODO
+
+==- <span class="fill">{{ resetPhase }}</span> [!badge text="Reset Phase" variant="ghost"]
+
+  TODO
+
+==- <span class="fill">{{ yourStartPhase }}</span> [!badge text="Your Start Phase" variant="ghost"]
+
+  TODO
+
+==- <span class="fill">{{ yourEndPhase }}</span> [!badge text="Your End Phase" variant="ghost"]
+
+  TODO
+
+==- <span class="fill">{{ teamMemberStartPhase }}</span> [!badge text="Team Member's Start Phase" variant="ghost"]
+
+  TODO
+
+==- <span class="fill">{{ teamMemberEndPhase }}</span> [!badge text="Team Member's End Phase" variant="ghost"]
+
+  TODO
+
+==- <span class="fill">{{ teammateStartPhase }}</span> [!badge text="Teammate's Start Phase" variant="ghost"]
+
+  TODO
+
+==- <span class="fill">{{ teammateEndPhase }}</span> [!badge text="Teammate's End Phase" variant="ghost"]
+
+  TODO
+
+==- <span class="fill">{{ opponentStartPhase }}</span> [!badge text="Opponent's Start Phase" variant="ghost"]
+
+  TODO
+
+==- <span class="fill">{{ opponentEndPhase }}</span> [!badge text="Opponent's End Phase" variant="ghost"]
+
+  TODO
+
+==- <span class="fill">{{ allStartPhase }}</span> [!badge text="All Start Phase" variant="ghost"]
+
+  TODO
+
+==- <span class="fill">{{ allEndPhase }}</span> [!badge text="All End Phase" variant="ghost"]
+
+  TODO
+
+==- <span class="fill">{{ thisCharacterStartPhase }}</span> [!badge text="This Character's Start Phase" variant="ghost"]
+
+  TODO: Pera efeitos que só podem ser uados no turno do companion
+
+==- <span class="fill">{{ thisCharacterEndPhase }}</span> [!badge text="This Character's End Phase" variant="ghost"]
+
+  TODO: Pera efeitos que só podem ser uados no turno do companion
+
+===
 
 ### Limite [!badge text="Limit" variant="ghost"]
 
@@ -199,35 +179,35 @@ Tem a função de limitar ou controlar a quantidade de ativações de um efeito,
 
 Quando um efeito possuir mais de um limite, todos os limites listados devem ser seguidos para cada ativação do efeito, ou seja, o efeito só pode ser ativado se todos os limites listados puderem ser atendidos e aplicados.
 
-{{ yourTurn }} <br> [!badge text="Your Turn Only" variant="ghost"]
-:   TODO: Efeitos com tempo/condição de resposta mas que não podem ser ativados no turno de outros jogadores
-    <br>
+==- <span class="fill">{{ yourTurn }}</span> [!badge text="Your Turn Only" variant="ghost"]
 
-{{ oncePerStint }} <br> [!badge text="Once per Stint" variant="ghost"]
-:   TODO
-    <br>
+  TODO: Efeitos com tempo/condição de resposta mas que não podem ser ativados no turno de outros jogadores
 
-{{ oncePerBattle }} <br> [!badge text="Once per Battle" variant="ghost"]
-:   TODO
-    <br>
+==- <span class="fill">{{ oncePerStint }}</span> [!badge text="Once per Stint" variant="ghost"]
 
-{{ allIn }} <br> [!badge text="All-In" variant="ghost"]
-:   TODO
-    <br>
+  TODO
 
-{{ noResponse }} <br> [!badge text="No Response" variant="ghost"]
-:   TODO
-    <br>
+==- <span class="fill">{{ oncePerBattle }}</span> [!badge text="Once per Battle" variant="ghost"]
 
-{{ noNegation }} <br> [!badge text="No Negation" variant="ghost"]
-:   TODO
-    <br>
+  TODO
 
-{{ lingering }} <br> [!badge text="Lingering" variant="ghost"]
-:   TODO: Efeitos {{ lingering }} são os únicos que permanacem em funcionando mesmo depois de a carta ser removida de jogo. Note que eles terminam geralmente em valores curtos ou variáveis como, “Até o final do turno”, “até o final da batalha”, “até o início do seu próximo turno”, etc.. Durações constantes como 3 rodadas, 5 rodadas, etc. devem ser usados contadores de tempo.
-    <br>
+==- <span class="fill">{{ allIn }}</span> [!badge text="All-In" variant="ghost"]
 
-<br>
+  TODO
+
+==- <span class="fill">{{ noResponse }}</span> [!badge text="No Response" variant="ghost"]
+
+  TODO
+
+==- <span class="fill">{{ noNegation }}</span> [!badge text="No Negation" variant="ghost"]
+
+  TODO
+
+==- <span class="fill">{{ lingering }}</span> [!badge text="Lingering" variant="ghost"]
+
+  TODO: Efeitos {{ lingering }} são os únicos que permanacem em funcionando mesmo depois de a carta ser removida de jogo. Note que eles terminam geralmente em valores curtos ou variáveis como, “Até o final do turno”, “até o final da batalha”,  o início do seu próximo turno”, etc.. Durações constantes como 3 rodadas, 5 rodadas, etc. devem ser usados contadores de tempo.
+
+===
 
 ### Escopo [!badge text="Scope" variant="ghost"]
 
@@ -235,31 +215,31 @@ Este conjunto de palavras-chave indica de onde o efeito pode ser ativado, ou sej
 
 Quando um efeito possuir mais de um escopo, ele pode/deve ser ativado em todos os escopos listados, ou seja, sempre que qualquer um dos escopos listados ocorrer.
 
-{{ anywhere }} <br> [!badge text="From Anywhere" variant="ghost"]
-:   TODO: Efeitos que nunca deixam de valer, não importa onde estão. O limbo é uma exceção.
-    <br>
+==- <span class="fill">{{ anywhere }}</span> [!badge text="From Anywhere" variant="ghost"]
 
-{{ onTable }} <br> [!badge text="From Table" variant="ghost"]
-:   TODO: Usado por eventos, itens consumíveis, e outras cartas que exigem estar na mesa e que não podem ser ativados da mão
-    <br>
+  TODO: Efeitos que nunca deixam de valer, não importa onde estão. O limbo é uma exceção.
 
-{{ hand }} <br> [!badge text="From Hand" variant="ghost"]
-:   TODO
-    <br>
+==- <span class="fill">{{ onTable }}</span> [!badge text="From Table" variant="ghost"]
 
-{{ discardPile }} <br> [!badge text="From Discard Pile" variant="ghost"]
-:   TODO
-    <br>
+  TODO: Usado por eventos, itens consumíveis, e outras cartas que exigem estar na mesa e que não podem ser ativados da mão
 
-{{ team }} <br> [!badge text="From Team Member" variant="ghost"]
-:   TODO
-    <br>
+==- <span class="fill">{{ hand }}</span> [!badge text="From Hand" variant="ghost"]
 
-{{ attached }} <br> [!badge text="From Attachment" variant="ghost"]
-:   TODO
-    <br>
+  TODO
 
-<br>
+==- <span class="fill">{{ discardPile }}</span> [!badge text="From Discard Pile" variant="ghost"]
+
+  TODO
+
+==- <span class="fill">{{ team }}</span> [!badge text="From Team Member" variant="ghost"]
+
+  TODO
+
+==- <span class="fill">{{ attached }}</span> [!badge text="From Attachment" variant="ghost"]
+
+  TODO
+
+===
 
 ### Tarefa [!badge text="Task" variant="ghost"]
 
@@ -267,46 +247,50 @@ Complementa a ativação do efeito, indicando uma ação adicional que deve ser 
 
 Um efeito nunca possui mais de uma tarefa, mas pode possuir uma tarefa e outros requerimentos de ativação, ou seja, para ativar o efeito, o jogador deve realizar a tarefa e atender os outros requerimentos de ativação listados.
 
-{{ exhaust }} <br> [!badge text="Exhaust" variant="ghost"]
-:   Consuma esta carta ao ativá-la.
-    <br>
+==- <span class="fill">{{ exhaust }}</span> [!badge text="Exhaust" variant="ghost"]
 
-{{ recover }} <br> [!badge text="Recover" variant="ghost"]
-:   Recupere esta carta ao ativá-la.
-    <br>
+  Consuma esta carta ao ativá-la.
 
-{{ discard }} <br> [!badge text="Discard" variant="ghost"]
-:   Descarte esta carta ao ativá-la.
-    <br>
+==- <span class="fill">{{ recover }}</span> [!badge text="Recover" variant="ghost"]
 
-{{ bury }} <br> [!badge text="Bury" variant="ghost"]
-:   Enterre esta carta ao ativá-la.
-    <br>
+  Recupere esta carta ao ativá-la.
 
-{{ banish }} <br> [!badge text="Banish" variant="ghost"]
-:   Bane esta carta ao ativá-la.
-    <br>
+==- <span class="fill">{{ discard }}</span> [!badge text="Discard" variant="ghost"]
 
-{{ register }} <br> [!badge text="Register" variant="ghost"]
-:   Registre esta carta ao ativá-la.
-    <br>
+  Descarte esta carta ao ativá-la.
 
-==- Requerimentos de Ativação [!badge text="Requirement" variant="ghost"]
+==- <span class="fill">{{ bury }}</span> [!badge text="Bury" variant="ghost"]
 
-  O efeito não pode ser ativado se qualquer um dos seus requerimentos de ativação não puderem ser atendidos, ou seja, se qualquer um dos requerimentos de ativação não for verdadeiro ou não puder ser cumprido, o efeito não é utilizável naquele momento. Os requerimentos de ativação são geralmente descritos no texto do efeito, e podem incluir custos, condições, estados ou outros requisitos que devem ser atendidos para que o efeito possa ser ativado.:
+  Enterre esta carta ao ativá-la.
 
-  1. **Custos** → `Descarte, Consuma, etc.`
-  2. **Ações** → `Selecione, Mova`
-  3. **Duração** → `Até, Enquanto, Durante`
-  4. **Condição** → `Quando, Se, Então`
+==- <span class="fill">{{ banish }}</span> [!badge text="Banish" variant="ghost"]
 
-==- Descrição do Efeito
+  Bane esta carta ao ativá-la.
 
-  Este é o texto que descreve o que o efeito faz, ou seja, a ação ou interação que ele permite ou causa. Ele é a parte mais importante do efeito, pois é onde está a função real da carta, bem como as instruções e explicações do que deve ser feito.
+==- <span class="fill">{{ register }}</span> [!badge text="Register" variant="ghost"]
 
-  Deve ser interpretado e aplicado de acordo com o texto, levando em consideração as regras gerais e mecânicas do jogo.
+  Registre esta carta ao ativá-la.
 
 ===
+
+---
+
+## Requerimentos de Ativação [!badge text="Requirement" variant="ghost"]
+
+O efeito não pode ser ativado se qualquer um dos seus requerimentos de ativação não puderem ser atendidos, ou seja, se qualquer um dos requerimentos de ativação não for verdadeiro ou não puder ser cumprido, o efeito não é utilizável naquele momento. Os requerimentos de ativação são geralmente descritos no texto do efeito, e podem incluir custos, condições, estados ou outros requisitos que devem ser atendidos para que o efeito possa ser ativado.:
+
+1. **Custos** → `Descarte, Consuma, etc.`
+2. **Ações** → `Selecione, Mova, etc.`
+3. **Duração** → `Até, Enquanto, Durante`
+4. **Condição** → `Quando, Se`
+
+---
+
+## Descrição do Efeito
+
+Este é o texto que descreve o que o efeito faz, ou seja, a ação ou interação que ele permite ou causa. Ele é a parte mais importante do efeito, pois é onde está a função real da carta, bem como as instruções e explicações do que deve ser feito.
+
+Deve ser interpretado e aplicado de acordo com o texto, levando em consideração as regras gerais e mecânicas do jogo.
 
 Além disso, alguns conceitos relacionados teóricos inferidos no texto são importantes para a compreensão e aplicação dos efeitos.
 
@@ -326,15 +310,15 @@ Além disso, alguns conceitos relacionados teóricos inferidos no texto são imp
 
   1. **Cartas do Cenário**
     * Se mais de uma carta do Cenário for ativada em resposta a mesma situação, a carta a mais tempo em jogo será ativada.
-  1. **Cartas de Heróis Oponentes**
+  2. **Cartas de Heróis Oponentes**
     * Se mais de uma carta de Herói Oponente for ativada em resposta a mesma situação, a carta do Herói Oponente de maior Iniciativa neste ciclo será ativada.
-  1. **Cartas de Heróis do Time**
+  3. **Cartas de Heróis do Time**
     * Se mais de uma carta de Herói do Time for ativada em resposta a mesma situação, a carta do Herói de maior Iniciativa neste ciclo do Time será ativada.
-  1. **Cartas do Herói (Ou Herói do Companheiro) do Turno**
+  4. **Cartas do Herói (Ou Herói do Companheiro) do Turno**
     * Se mais de uma carta do Herói do Turno for ativada em resposta a mesma situação, o jogador deve escolher qual delas será ativada.
-  1. **Cartas da Pilha de Descarte**
+  5. **Cartas da Pilha de Descarte**
     * Se mais de uma carta da Pilha de Descarte for ativada em resposta a mesma situação, a carta mais acima na pilha será ativada.
-  1. **Cartas do Mestre de Jogo**
+  6. **Cartas do Mestre de Jogo**
     * Se mais de uma carta do Mestre de Jogo for ativada em resposta a mesma situação, cabe ao Mestre de Jogo escolher qual delas será ativada.
 
   !!!
@@ -409,128 +393,5 @@ Observe que, todo efeito ativado manualmente ou quando o jogador pode decidir se
 !!!
 O que difere um efeito passivos de um ativo automático é que o efeito passivo é aplicado instantaneamente ao ser colocado em jogo e permanece afetando-o durante todo o tempo em que esta carta estiver em jogo, enquanto o efeito ativo automático é ativado em resposta a uma situação específica.
 !!!
-
-#### Momento que o efeito pode ser ativado [!badge timing]
-{{ onPlay }}
-:   Quando esta carta é coloca em jogo, ou seja, quando vai para a {{ table }} de um Herói
-
-{{ onExit }}
-:   Quando esta carta é removida da {{ table }} de um Herói, ou seja, quando é descartada, enterrada, banida ou enviada para o {{ inv }}
-
-{{ onObtain }}
-:   Quando esta carta é adquirida por um Herói, ou seja, quando é comprada ou recebida de outra forma
-
-{{ onReveal }}
-:   Quando esta carta é revelada
-
-{{ onConceal }}
-:   Quando esta carta é ocultada
-
-{{ onExhaust }}
-:   Quando esta carta é exaurida, ou seja, quando é rotacionada para o lado
-
-{{ onRecover }}
-:   Quando esta carta é recuperada, ou seja, quando é rotacionada de volta para a posição normal
-
-{{ onDiscard }}
-:   Quando esta carta é descartada
-
-{{ onBury }}
-:   Quando esta carta é enterrada
-
-{{ onBanish }}
-:   Quando esta carta é banida
-
-{{ startOfYourTurn }}
-:   No início do seu turno
-
-{{ endOfYourTurn }}
-:   No final do seu turno
-
-{{ startOfTeamTurn }}
-:   No início do turno de um personagem do seu time, incluindo você
-
-{{ endOfTeamTurn }}
-:   No final do turno de um personagem do seu time, incluindo você
-
-{{ startOfPartnersTurn }}
-:   No início do turno de um personagem do seu time que não é você
-
-{{ endOfPartnersTurn }}
-:   No final do turno de um personagem do seu time que não é você
-
-{{ startOfOpponentsTurn }}
-:   No início do turno de um personagem de outro time
-
-{{ endOfOpponentsTurn }}
-:   No final do turno de um personagem de outro time
-
-{{ startOfAllTurns }}
-:   No início de todos os turnos, ou seja, no início do turno de todo personagem
-
-{{ endOfAllTurns }}
-:   No final de todos os turnos, ou seja, no final do turno de todo personagem
-
-<span style="font-size: 0.8em">{{ startOfThisCharacterTurn }}</span>
-:   No início do turno do personagem representado por esta carta de {{ companion }}
-
-<span style="font-size: 0.8em">{{ endOfThisCharacterTurn }}</span>
-:   No final do turno do personagem representado por esta carta de {{ companion }}
-
-{{ startOfRound }}
-:   No início da rodada
-
-{{ endOfRound }}
-:   No final da rodada
-
-{{ startOfBattle }}
-:   No início da batalha
-
-{{ endOfBattle }}
-:   No final da batalha
-
-{{ checking }}
-:   Quando estiver realizando um teste
-
-{{ attacking }}
-:   Quando este personagem está atacando
-
-{{ attacked }}
-:   Quando este personagem está sendo atacado
-
-<span style="font-size: 0.9em">{{ selected }}</span>
-:   Quando este personagem é selecionado como alvo de qualquer ação, incluindo ataques
-
-{{ rolling }}
-:  Quando estiver rolando dados.
-
-#### Limite de ativações [!badge limit]
-{{ oncePerTurn }}
-:   Pode ser ativada apenas uma vez por turno
-
-{{ oncePerRound }}
-:   Pode ser ativada apenas uma vez por rodada
-
-{{ oncePerBattle }}
-:   Pode ser ativada apenas uma vez por batalha
-
-{{ turnSacrifice }}
-:   Para ativar esta carta, você não pode realizar nenhuma outra ação neste turno
-
-{{ noResponse }}
-:   Nenhuma carta pode ser ativada em resposta a esta carta
-
-{{ noNegation }}
-:   Esta carta não pode ser negada
-
-#### De onde o efeito pode ser ativado [!badge scope]
-{{ hand }}
-:   Esta carta pode ser ativada do {{ inv }}
-
-{{ discardPile }}
-:   Esta carta pode ser ativada da pilha de descarte
-
-{{ team }}
-:   Esta carta pode ser ativada por qualquer personagem do seu time, durante o turno dele
 
 ---

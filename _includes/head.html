@@ -52,6 +52,15 @@
         font-weight: bold;
     }
 
+    /* This element fills the line */
+    div:has(> .fill) {
+        display: flex;
+        align-items: center;
+        gap: 0.5em;
+    } .fill {
+        flex: 1;
+    }
+
     /* Bonus */
     .positive {
         font-weight: bold;
