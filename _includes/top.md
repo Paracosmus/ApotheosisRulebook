@@ -3,6 +3,7 @@
 <!-- Global Functions -->
 {{ p(value) = '<span class="positive">' + value + '</span>' }}
 {{ n(value) = '<span class="negative">' + value + '</span>' }}
+{{ req(condition) = '<span class="req">【</span> ' + condition + ' <span class="req">】</span>' }}
 
 
 <!-- Message -->
