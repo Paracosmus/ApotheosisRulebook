@@ -69,15 +69,15 @@
     <lastmod>2026-04-19T14:06:21Z</lastmod>
   </url>
   <url>
-    <loc>https://apotheosiscardgame.com/cards/effect/</loc>
-    <lastmod>2026-04-21T20:21:02Z</lastmod>
-  </url>
-  <url>
-    <loc>https://apotheosiscardgame.com/hero/inventory/</loc>
+    <loc>https://apotheosiscardgame.com/cards/skills/</loc>
     <lastmod>2026-04-19T14:06:21Z</lastmod>
   </url>
   <url>
-    <loc>https://apotheosiscardgame.com/cards/skills/</loc>
+    <loc>https://apotheosiscardgame.com/cards/effect/</loc>
+    <lastmod>2026-04-23T16:28:30Z</lastmod>
+  </url>
+  <url>
+    <loc>https://apotheosiscardgame.com/hero/inventory/</loc>
     <lastmod>2026-04-19T14:06:21Z</lastmod>
   </url>
   <url>
@@ -317,6 +317,10 @@
     <lastmod>2026-03-03T23:51:37Z</lastmod>
   </url>
   <url>
+    <loc>https://apotheosiscardgame.com/hero/table/support/</loc>
+    <lastmod>2026-04-09T20:01:27Z</lastmod>
+  </url>
+  <url>
     <loc>https://apotheosiscardgame.com/gameplay/game-master/</loc>
     <lastmod>2026-03-31T18:25:31Z</lastmod>
   </url>
@@ -347,10 +351,6 @@
   <url>
     <loc>https://apotheosiscardgame.com/cards/summus/res/</loc>
     <lastmod>2026-03-06T13:57:20Z</lastmod>
-  </url>
-  <url>
-    <loc>https://apotheosiscardgame.com/hero/table/support/</loc>
-    <lastmod>2026-04-09T20:01:27Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/gameplay/limbo/</loc>
