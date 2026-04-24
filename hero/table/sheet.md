@@ -13,3 +13,5 @@ Todo Herói, desde sua criação, tem os seguintes espaços em sua [<span class=
 * **1** espaço de [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) (_requer nível 3 para ser usado de forma padrão_)
 
 ---
+
+Cartas na [<span class="main"><b>FICHA</b></span>](/hero/table/sheet.md) não podem ser obtidas, descartadas, enterradas, enviadas de volta para o [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) e/ou adicionadas ou removidas da mesa por qualquer método que não os definidos explicitamente para sua obtenção e remoção na mecânica estabelecida para cada naipe, ou por um efeito de carta que explicitamente especifique essa ação.
