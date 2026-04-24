@@ -52,7 +52,7 @@ Quando um efeito possuir mais de um momento de ativação, ele pode/deve ser ati
 
 ==- <span class="fill">[<span class="keyword-timing">Ao Jogar</span>](/cards/effect.md)</span> [!badge text="On Play" variant="ghost"]
 
-  Este efeito pode/deve ser ativado quando esta carta for colocada em jogo, ou seja, quando esta carta for para a [<span class="main"><b>MESA</b></span>](/hero/table/), [<span class="event"><b>CENÁRIO</b></span>](/gameplay/scenario.md) ou anexada a outra carta.
+  Este efeito pode/deve ser ativado quando esta carta for colocada em jogo, ou seja, quando esta carta for para a [<span class="main"><b>MESA</b></span>](/hero/table/) ou [<span class="event"><b>CENÁRIO</b></span>](/gameplay/scenario.md), ou anexada a outra carta se possuir a palavra-chave [<span class="keyword-scope">Do Anexo</span>](/cards/effect.md).
 
 ==- <span class="fill">[<span class="keyword-timing">Ao Sair</span>](/cards/effect.md)</span> [!badge text="On Exit" variant="ghost"]
 
@@ -284,25 +284,17 @@ Um efeito nunca possui mais de uma tarefa, mas pode possuir uma tarefa e outros 
 
 ---
 
-<style>
-
-  .req {
-    color: #F78A1F;
-  }
-
-</style>
-
 ## Requerimentos de Ativação [!badge text="Requirement" variant="ghost"]
 
 Os requerimentos são entre outros, condições, estados ou custos que devem ser atendidos para que um efeito possa ser ativado. São sempre atendidos, pagos e realizados antes do efeito ser aplicado e podem ser respondidos como qualquer outra ação.
 
-Eles são descritos em texto entre os marcadores visuais <span class="req">【</span> <span class="req">】</span> antes do corpo principal do texto do efeito.
+Eles são descritos em texto entre os marcadores visuais <span class="req">【</span>  <span class="req">】</span> antes do corpo principal do texto do efeito.
 
 > <span class="req">【</span> Requerimento <span class="req">】</span>
 
 Múltiplos requerimentos são separados por ponto e vírgula.
 
-> <span class="req">【</span> Requerimento 1; Requerimento 2; ... <span class="req"> 】</span>
+> <span class="req">【</span> Requerimento 1; Requerimento 2; ... <span class="req">】</span>
 
 Os requerimentos vêm na seguinte ordem, porém isso não determina hierarquia entre eles, sendo que todos devem ser igualmente atendidos:
 
@@ -310,33 +302,33 @@ Os requerimentos vêm na seguinte ordem, porém isso não determina hierarquia e
 
   São custos extras que devem ser pagos para ativar este efeito.
 
-  > <span class="req">【</span> Custo 1; Custo 2; ... <span class="req"> 】</span>
+  > <span class="req">【</span> Custo 1; Custo 2; ... <span class="req">】</span>
 
-  > <span class="req">【</span> **Descarte** um [<span class="item"><b>ITEM</b></span>](/cards/item.md); **Consuma** <span class="negative">2</span> de [<span class="skill"><span class="red"><b>VERMELHA</b></span>](/cards/skills.md#essência)<span class="req"> 】</span>
+  > <span class="req">【</span> **Descarte** um [<span class="item"><b>ITEM</b></span>](/cards/item.md); **Consuma** <span class="negative">2</span> de [<span class="skill"><span class="red"><b>VERMELHA</b></span>](/cards/skills.md#essência) <span class="req">】</span>
 
 >>> **Ações** → `Selecione`, `Mova`, `Role dados`, etc.
 
   São ações adicionais que devem ser realizadas como parte da ativação deste efeito.
 
-  > <span class="req">【</span> Ação 1; Ação 2; ... <span class="req"> 】</span>
+  > <span class="req">【</span> Ação 1; Ação 2; ... <span class="req">】</span>
 
-  > <span class="req">【</span> Selecione 2 [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) no tabuleiro; Mova-se para uma casa adjacente; Role  <span class="req"> 】</span>
+  > <span class="req">【</span> Selecione 2 [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) no tabuleiro; Mova-se para uma casa adjacente; Role  <span class="req">】</span>
 
 >>> **Duração** → `Até`, `Enquanto`, `Durante`
 
-  Indica um estado ou situação que precisa ser mantida.
+  Indica um estado ou situação que precisa existir ou ser mantida.
 
-  > <span class="req">【</span> Até <condição>; Enquanto <condição>; Durante <condição>; ... <span class="req"> 】</span>
+  > <span class="req">【</span> Até <condição>; Enquanto <condição>; Durante <condição>; ... <span class="req">】</span>
 
-  > <span class="req">【</span> Até que esta carta seja descartada; Enquanto houverem [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) no tabuleiro; Durante o turno dos oponentes <span class="req"> 】</span>
+  > <span class="req">【</span> Até que esta carta seja descartada; Enquanto houverem [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) no tabuleiro; Durante o turno dos oponentes <span class="req">】</span>
 
 >>> **Condição** → `Quando`, `Se`
 
   Indica um estado ou situação que precisa existir.
 
-  > <span class="req">【</span> Quando <condição>; Se <condição>; ... <span class="req"> 】</span>
+  > <span class="req">【</span> Quando <condição>; Se <condição>; ... <span class="req">】</span>
 
-  > <span class="req">【</span> Quando uma [<span class="skill"><b>HABILIDADE</b></span>](/cards/skills.md) for ativada; Se você tiver uma [<span class="companion"><b>EVOCAÇÃO</b></span>](/cards/companion.md#-evocação) no [<span class="companion"><b>SUPORTE</b></span>](/hero/table/support.md) <span class="req"> 】</span>
+  > <span class="req">【</span> Quando uma [<span class="skill"><b>HABILIDADE</b></span>](/cards/skills.md) for ativada; Se você tiver uma [<span class="companion"><b>EVOCAÇÃO</b></span>](/cards/companion.md#-evocação) no [<span class="companion"><b>SUPORTE</b></span>](/hero/table/support.md) <span class="req">】</span>
 
 >>>
 
@@ -355,13 +347,13 @@ Desambiguação.
 
 !!!
 
-### Lookahead
+### Previsão [!badge text="Lookahead" variant="ghost"]
 
 O jogador deve verificar se os requerimentos de um efeito podem ser atendidos inteiramente e simultaneamente, fazendo a previsão de que, ao atender um requerimento, isso não impedirá o atendimento dos demais requerimentos.
 
 Por exemplo: <span class="req">【</span> **Descarte** uma carta; Se você tiver uma [<span class="companion"><b>EVOCAÇÃO</b></span>](/cards/companion.md#-evocação) no [<span class="companion"><b>SUPORTE</b></span>](/hero/table/support.md) <span class="req">】</span>
 
-Se o Herói tiver apenas um [<span class="companion"><b>EVOCAÇÃO</b></span>](/cards/companion.md#-evocação) no [<span class="companion"><b>SUPORTE</b></span>](/hero/table/support.md), para ativar este efeito, ele não pode descartar a própria [<span class="companion"><b>EVOCAÇÃO</b></span>](/cards/companion.md#-evocação) para atender o primeiro requerimento, pois isso quebraria o segundo requerimento, e o efeito não poderia ser ativado.
+Se o Herói tiver **apenas uma** [<span class="companion"><b>EVOCAÇÃO</b></span>](/cards/companion.md#-evocação) no [<span class="companion"><b>SUPORTE</b></span>](/hero/table/support.md), para ativar este efeito, ele **não** pode descartar a própria [<span class="companion"><b>EVOCAÇÃO</b></span>](/cards/companion.md#-evocação) para atender o primeiro requerimento, pois isso quebraria o segundo requerimento, e o efeito não poderia ser ativado.
 
 ---
 
@@ -373,7 +365,117 @@ Deve ser interpretado e aplicado de acordo com o texto, levando em consideraçã
 
 Além disso, alguns conceitos relacionados teóricos inferidos no texto são importantes para a compreensão e aplicação dos efeitos.
 
-==- Prioridade de Ativação [!badge text="Priority" variant="ghost"]
+==- Momento de Ativação [!badge text="Momentum" variant="ghost"]
+
+  O momento de ativação de um efeito é o momento ou situação específica em que ele pode ser ativado, sendo este um conceito teórico que ajuda a ordenar a sequência de ativação de efeitos. Pode se confundir com o <span class="keyword-timing">timing</span>, mas são conceitos distintos.
+
+  O momento se refere à quando em uma ação este efeito entra em jogo, ou seja, quando ele é aplicado depois de ativado. O texto ou requerimento da carta deve indicar claramente o momento de ativação do efeito através do uso adequado da linguagem, e ele pode ser classificado em três categorias:
+
+  ||| **Antes da ação**
+
+  Este efeito precede a ação que ele encadeou, sendo aplicado antes dela, podendo modificar ou influenciar a ação que ele encadeou.
+
+  - Ex.: `Quando for fazer um teste`, `Quando for ser atacado`, `Quando uma carta for ser ativada`, etc.
+
+  |||
+
+  ||| **Durante a ação**
+
+  É aplicado junto ao desenvolvimento da ação que ele encadeou.
+
+  - `Em um teste você recebe...`, `Durante o seu turno você pode...`, `+1 de AGI`, etc.
+
+  |||
+
+  ||| **Depois da ação**
+
+  É aplicado depois do desenvolvimento da ação que ele encadeou, não tendo como modificar ou influenciar a ação que ele encadeou, mas podendo interagir com o resultado dela.
+
+  - Ex.: `Depois de resolver uma carta`, `Depois de ser atacado`, `Quando for selecionado como alvo`, `Quando sofrer dano`, etc.
+
+  |||
+
+==- Padrões de Escrita [!badge text="Writing Patterns" variant="ghost"]
+
+  ||| **<span class="red">( )</span> Expressões**
+
+  Operações são sempre descritos dentro de parênteses, e os valores envolvidos são descritos usando os ícones e símbolos específicos para cada tipo de valor, como por exemplo:
+  (  [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md) + [<span class="house"><b>INT</b></span>](/hero/attributes.md) + **5** )
+
+  |||
+
+  ||| **<span class="red">➜</span> Atribuição**
+
+  Atribuições são descritas usando a seta, indicando o valor que deve ser atribuído a uma variável ou estado, como por exemplo:
+  - Você precisa de [<span class="house"><b>FOR</b></span>](/hero/attributes.md) ➜ **10** (Significa que o valor de [<span class="house"><b>FOR</b></span>](/hero/attributes.md) precisa ser exatamente igual a 10)
+  - Teste de _Procurar_( [<span class="house"><b>PER</b></span>](/hero/attributes.md) ➜ **6** ) (Significa que o valor mínimo neste teste é 6)
+
+  |||
+
+  ||| **<span class="red">✚</span> Maior ou igual**
+
+  [<span class="house"><b>CAR</b></span>](/hero/attributes.md) **10✚** (Significa que o valor de [<span class="house"><b>CAR</b></span>](/hero/attributes.md) é 10 ou mais)
+
+  |||
+
+  ||| **<span class="red">–</span> Menor ou igual**
+
+  [<span class="house"><b>INT</b></span>](/hero/attributes.md) **10–** (Significa que o valor de [<span class="house"><b>INT</b></span>](/hero/attributes.md) é 10 ou menos)
+
+  |||
+
+  ||| **<span class="red">✱</span> Multiplicação**
+
+  [<span class="house"><b>FOR</b></span>](/hero/attributes.md) **✱2** (Significa que o valor de [<span class="house"><b>FOR</b></span>](/hero/attributes.md) é multiplicado por 2)
+
+  |||
+
+  ||| **<span class="red">➥</span> Spawn**
+
+  ➥ [<span class="companion"><b>HUMANO</b></span>](/cards/companion.md#-humano) ➜ **2** (Adicione um [<span class="companion"><b>HUMANO</b></span>](/cards/companion.md#-humano) de nível 2 ao tabuleiro)
+
+  |||
+
+  ||| **<span class="red">●</span> Lista**
+
+  Faz uma lista de informações ou textos, seja para escolha, seja para descrever uma sequência de ações, ou qualquer outra função que se encaixe melhor em formato de lista do que em formato de parágrafo.:
+  ● Elemento 1
+  ● Elemento 2
+
+  |||
+
+  ||| **<span class="red">❙</span> Separador**
+
+  É utilizado uma barra vertical para separar informações de forma semelhante a uma tabela, tendo função apenas organizacional.
+  - [<span class="knowledge"><b>ASTÚCIA</b></span>](/hero/knowledge.md#astúcia) 2 ❙ [<span class="knowledge"><b>INSTRUÇÃO</b></span>](/hero/knowledge.md#instrução) 2
+
+  |||
+
+===
+
+---
+
+## Resolução do Efeito
+
+É chamado de resolver o efeito o ato de aplicar o efeito depois de ativado, ou seja, realizar as ações e interações descritas no texto do efeito, seguindo as regras gerais do jogo e as instruções específicas do texto do efeito.
+
+O efeito deve ser resolvido exatamente como descrito no texto, seguindo a ordem das ações e interações conforme elas aparecem no texto, e levando em consideração as regras gerais do jogo.
+
+Durante cada passo da resolução do efeito, os jogadores podem ativar outros efeitos em [resposta](#responder-a-um-efeito), bem como efeitos [<span class="keyword-activation">Auto</span>](/cards/effect.md).
+
+---
+
+## Responder a um Efeito
+
+O ato de encadear um outro efeito em resposta a um efeito ativado é chamado de responder a um efeito, ou simplesmente, resposta.
+
+- Apenas um efeito do tipo pode ser ativado em resposta a um efeito, seguindo a , e os efeitos [<span class="keyword-activation">Auto</span>](/cards/effect.md) podem ser ativados normalmente em resposta a um efeito, seguindo a **Prioridade de Resposta**.
+
+TODO: Dá para liberar geral, em vez de apenas um? Os autos são todos, então seria uma regra unificada?
+
+Quando um efeito entra em reposta a outro efeito, é iniciado uma cadeia de respostas, e outros efeitos podem ser adicionados a essa cadeia.
+
+==- Prioridade de Resposta [!badge text="Priority" variant="ghost"]
 
   > "_Cada ação pode ter apenas uma reação_"
 
@@ -408,43 +510,7 @@ Além disso, alguns conceitos relacionados teóricos inferidos no texto são imp
   Quando se tratar do efeito de uma técnica de um Dummy e não de uma carta, considere o dummy na ordem acima como se ele fosse uma carta controlada por aquele jogador. Portanto o Dummy de um jogador teria precedência sobre as cartas e Demmies do Mestre de Jogo, por exemplo.
   !!!
 
-==- Momento de Ativação [!badge text="Momentum" variant="ghost"]
-
-  O momento de ativação de um efeito é o momento ou situação específica em que ele pode ser ativado, sendo este um conceito teórico que ajuda a ordenar a sequência de ativação de efeitos. Pode se confundir com o <span class="keyword-timing">timing</span>, mas são conceitos distintos.
-
-  O momento se refere à quando em uma ação este efeito entra em jogo, ou seja, quando ele é aplicado depois de ativado. O texto ou requerimento da carta deve indicar claramente o momento de ativação do efeito através do uso adequado da linguagem, e ele pode ser classificado em três categorias:
-
-  Antes da ação -> Quando for fazer um teste, quando for atacado, quando uma carta for ser ativada, etc.
-
-  Durante a ação -> em um teste, em um ataque, etc. (mais comuns em efeitos permanentes de bônus)
-
-  Depois da ação -> Depois de resolver uma carta, depois de ser atacado, quando for selecionado como alvo, quando sofrer dano, etc.
-
-==- Padrões de Escrita [!badge text="Writing Patterns" variant="ghost"]
-
 ===
-
----
-
-## Resolução do Efeito
-
-É chamado de resolver o efeito o ato de aplicar o efeito depois de ativado, ou seja, realizar as ações e interações descritas no texto do efeito, seguindo as regras gerais do jogo e as instruções específicas do texto do efeito.
-
-O efeito deve ser resolvido exatamente como descrito no texto, seguindo a ordem das ações e interações conforme elas são mencionadas no texto, e levando em consideração as regras gerais do jogo.
-
-Durante cada passo da resolução do efeito, os jogadores podem ativar outros efeitos em [resposta](#responder-a-um-efeito), bem como efeitos [<span class="keyword-activation">Auto</span>](/cards/effect.md).
-
----
-
-## Responder a um Efeito
-
-O ato de encadear um outro efeito em resposta a um efeito ativado é chamado de responder a um efeito, ou simplesmente, resposta.
-
-- Apenas um efeito do tipo pode ser ativado em resposta a um efeito, seguindo a , e os efeitos [<span class="keyword-activation">Auto</span>](/cards/effect.md) podem ser ativados normalmente em resposta a um efeito, seguindo a [Prioridade de Resposta](#prioridade-de-resposta).
-
-TODO: Dá para liberar geral, em vez de apenas um? Os autos são todos, então seria uma regra unificada?
-
-Quando um efeito entra em reposta a outro efeito, é iniciado uma cadeia de respostas, e outros efeitos podem ser adicionados a essa cadeia.
 
 ### Encadeamento de Resposta
 

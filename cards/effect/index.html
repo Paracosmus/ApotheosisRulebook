@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.830287714861">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.830307094901">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.5.3">
@@ -41,11 +41,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.5.3.830287714861" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.5.3.830307094901" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.5.3.830287714861" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.5.3.830307094901" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.5.3.830287714861" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.5.3.830307094901" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -99,6 +99,10 @@
             text-align: center;
             color: rgba(255, 255, 255, 0.5);
             font-weight: bold;
+        }
+
+        .req {
+            color: #F78A1F;
         }
 
         /* This element fills the line */
@@ -504,7 +508,7 @@
        <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-timing">Ao Jogar</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>On Play</span>
 </span></template>
-<p>Este efeito pode/deve ser ativado quando esta carta for colocada em jogo, ou seja, quando esta carta for para a <a href="/hero/table/"><span class="main"><b>MESA</b></span></a>, <a href="/gameplay/scenario/"><span class="event"><b>CENÁRIO</b></span></a> ou anexada a outra carta.</p>
+<p>Este efeito pode/deve ser ativado quando esta carta for colocada em jogo, ou seja, quando esta carta for para a <a href="/hero/table/"><span class="main"><b>MESA</b></span></a> ou <a href="/gameplay/scenario/"><span class="event"><b>CENÁRIO</b></span></a>, ou anexada a outra carta se possuir a palavra-chave <a href="/cards/effect/"><span class="keyword-scope">Do Anexo</span></a>.</p>
    </doc-panel>
    <doc-panel id="span-classfillspan-classkeyword-timingao-sairspancardseffectmdspan-badge-texton-exit-variantghost" collapsed>
        <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-timing">Ao Sair</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
@@ -822,24 +826,17 @@
    </doc-panel>
 </doc-panels>
 <hr>
-<style>
-
-  .req {
-    color: #F78A1F;
-  }
-
-</style>
 <h2 id="requerimentos-de-ativação">Requerimentos de Ativação <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>Requirement</span>
 </span></h2>
 <p>Os requerimentos são entre outros, condições, estados ou custos que devem ser atendidos para que um efeito possa ser ativado. São sempre atendidos, pagos e realizados antes do efeito ser aplicado e podem ser respondidos como qualquer outra ação.</p>
-<p>Eles são descritos em texto entre os marcadores visuais <span class="req">【</span> <span class="req">】</span> antes do corpo principal do texto do efeito.</p>
+<p>Eles são descritos em texto entre os marcadores visuais <span class="req">【</span>  <span class="req">】</span> antes do corpo principal do texto do efeito.</p>
 <blockquote>
 <p><span class="req">【</span> Requerimento <span class="req">】</span></p>
 </blockquote>
 <p>Múltiplos requerimentos são separados por ponto e vírgula.</p>
 <blockquote>
-<p><span class="req">【</span> Requerimento 1; Requerimento 2; ... <span class="req"> 】</span></p>
+<p><span class="req">【</span> Requerimento 1; Requerimento 2; ... <span class="req">】</span></p>
 </blockquote>
 <p>Os requerimentos vêm na seguinte ordem, porém isso não determina hierarquia entre eles, sendo que todos devem ser igualmente atendidos:</p>
 <doc-steps>
@@ -847,40 +844,40 @@
       <template #title><strong>Custos</strong> → <code translate="no" v-pre>Descarte</code>, <code translate="no" v-pre>consuma</code>, <code translate="no" v-pre>enterre</code>, etc.</template>
 <p>São custos extras que devem ser pagos para ativar este efeito.</p>
 <blockquote>
-<p><span class="req">【</span> Custo 1; Custo 2; ... <span class="req"> 】</span></p>
+<p><span class="req">【</span> Custo 1; Custo 2; ... <span class="req">】</span></p>
 </blockquote>
 <blockquote>
-<p><span class="req">【</span> <strong>Descarte</strong> um <a href="/cards/item/"><span class="item"><b>ITEM</b></span></a>; <strong>Consuma</strong> <span class="negative">2</span> de <a href="/cards/skills/#ess%C3%AAncia"><span class="skill"><span class="red"><b>VERMELHA</b></span></a><span class="req"> 】</span></p>
+<p><span class="req">【</span> <strong>Descarte</strong> um <a href="/cards/item/"><span class="item"><b>ITEM</b></span></a>; <strong>Consuma</strong> <span class="negative">2</span> de <a href="/cards/skills/#ess%C3%AAncia"><span class="skill"><span class="red"><b>VERMELHA</b></span></a> <span class="req">】</span></p>
 </blockquote>
    </doc-step>
    <doc-step id="ações--selecione-mova-role-dados-etc" step-number="2">
       <template #title><strong>Ações</strong> → <code translate="no" v-pre>Selecione</code>, <code translate="no" v-pre>Mova</code>, <code translate="no" v-pre>Role dados</code>, etc.</template>
 <p>São ações adicionais que devem ser realizadas como parte da ativação deste efeito.</p>
 <blockquote>
-<p><span class="req">【</span> Ação 1; Ação 2; ... <span class="req"> 】</span></p>
+<p><span class="req">【</span> Ação 1; Ação 2; ... <span class="req">】</span></p>
 </blockquote>
 <blockquote>
-<p><span class="req">【</span> Selecione 2 <a href="/cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a> no tabuleiro; Mova-se para uma casa adjacente; Role  <span class="req"> 】</span></p>
+<p><span class="req">【</span> Selecione 2 <a href="/cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a> no tabuleiro; Mova-se para uma casa adjacente; Role  <span class="req">】</span></p>
 </blockquote>
    </doc-step>
    <doc-step id="duração--até-enquanto-durante" step-number="3">
       <template #title><strong>Duração</strong> → <code translate="no" v-pre>Até</code>, <code translate="no" v-pre>Enquanto</code>, <code translate="no" v-pre>Durante</code></template>
-<p>Indica um estado ou situação que precisa ser mantida.</p>
+<p>Indica um estado ou situação que precisa existir ou ser mantida.</p>
 <blockquote>
-<p><span class="req">【</span> Até &lt;condição&gt;; Enquanto &lt;condição&gt;; Durante &lt;condição&gt;; ... <span class="req"> 】</span></p>
+<p><span class="req">【</span> Até &lt;condição&gt;; Enquanto &lt;condição&gt;; Durante &lt;condição&gt;; ... <span class="req">】</span></p>
 </blockquote>
 <blockquote>
-<p><span class="req">【</span> Até que esta carta seja descartada; Enquanto houverem <a href="/cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a> no tabuleiro; Durante o turno dos oponentes <span class="req"> 】</span></p>
+<p><span class="req">【</span> Até que esta carta seja descartada; Enquanto houverem <a href="/cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a> no tabuleiro; Durante o turno dos oponentes <span class="req">】</span></p>
 </blockquote>
    </doc-step>
    <doc-step id="condição--quando-se" step-number="4">
       <template #title><strong>Condição</strong> → <code translate="no" v-pre>Quando</code>, <code translate="no" v-pre>Se</code></template>
 <p>Indica um estado ou situação que precisa existir.</p>
 <blockquote>
-<p><span class="req">【</span> Quando &lt;condição&gt;; Se &lt;condição&gt;; ... <span class="req"> 】</span></p>
+<p><span class="req">【</span> Quando &lt;condição&gt;; Se &lt;condição&gt;; ... <span class="req">】</span></p>
 </blockquote>
 <blockquote>
-<p><span class="req">【</span> Quando uma <a href="/cards/skills/"><span class="skill"><b>HABILIDADE</b></span></a> for ativada; Se você tiver uma <a href="/cards/companion/#-evoca%C3%A7%C3%A3o"><span class="companion"><b>EVOCAÇÃO</b></span></a> no <a href="/hero/table/support/"><span class="companion"><b>SUPORTE</b></span></a> <span class="req"> 】</span></p>
+<p><span class="req">【</span> Quando uma <a href="/cards/skills/"><span class="skill"><b>HABILIDADE</b></span></a> for ativada; Se você tiver uma <a href="/cards/companion/#-evoca%C3%A7%C3%A3o"><span class="companion"><b>EVOCAÇÃO</b></span></a> no <a href="/hero/table/support/"><span class="companion"><b>SUPORTE</b></span></a> <span class="req">】</span></p>
 </blockquote>
    </doc-step>
 </doc-steps>
@@ -909,18 +906,153 @@
 <li>Ex.: <span class="req">【</span> Enquanto houverem <a href="/cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a> no tabuleiro <span class="req">】</span></li>
 </ul>
 </doc-callout>
-<h3 id="lookahead">Lookahead</h3>
+<h3 id="previsão">Previsão <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Lookahead</span>
+</span></h3>
 <p>O jogador deve verificar se os requerimentos de um efeito podem ser atendidos inteiramente e simultaneamente, fazendo a previsão de que, ao atender um requerimento, isso não impedirá o atendimento dos demais requerimentos.</p>
 <p>Por exemplo: <span class="req">【</span> <strong>Descarte</strong> uma carta; Se você tiver uma <a href="/cards/companion/#-evoca%C3%A7%C3%A3o"><span class="companion"><b>EVOCAÇÃO</b></span></a> no <a href="/hero/table/support/"><span class="companion"><b>SUPORTE</b></span></a> <span class="req">】</span></p>
-<p>Se o Herói tiver apenas um <a href="/cards/companion/#-evoca%C3%A7%C3%A3o"><span class="companion"><b>EVOCAÇÃO</b></span></a> no <a href="/hero/table/support/"><span class="companion"><b>SUPORTE</b></span></a>, para ativar este efeito, ele não pode descartar a própria <a href="/cards/companion/#-evoca%C3%A7%C3%A3o"><span class="companion"><b>EVOCAÇÃO</b></span></a> para atender o primeiro requerimento, pois isso quebraria o segundo requerimento, e o efeito não poderia ser ativado.</p>
+<p>Se o Herói tiver <strong>apenas uma</strong> <a href="/cards/companion/#-evoca%C3%A7%C3%A3o"><span class="companion"><b>EVOCAÇÃO</b></span></a> no <a href="/hero/table/support/"><span class="companion"><b>SUPORTE</b></span></a>, para ativar este efeito, ele <strong>não</strong> pode descartar a própria <a href="/cards/companion/#-evoca%C3%A7%C3%A3o"><span class="companion"><b>EVOCAÇÃO</b></span></a> para atender o primeiro requerimento, pois isso quebraria o segundo requerimento, e o efeito não poderia ser ativado.</p>
 <hr>
 <h2 id="descrição-do-efeito">Descrição do Efeito</h2>
 <p>Este é o texto que descreve o que o efeito faz, ou seja, a ação ou interação que ele permite ou causa. Ele é a parte mais importante do efeito, pois é onde está a função real da carta, bem como as instruções e explicações do que deve ser feito.</p>
 <p>Deve ser interpretado e aplicado de acordo com o texto, levando em consideração as regras gerais e mecânicas do jogo.</p>
 <p>Além disso, alguns conceitos relacionados teóricos inferidos no texto são importantes para a compreensão e aplicação dos efeitos.</p>
 <doc-panels expando>
-   <doc-panel id="prioridade-de-ativação-badge-textpriority-variantghost" collapsed>
-       <template #title>Prioridade de Ativação <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+   <doc-panel id="momento-de-ativação-badge-textmomentum-variantghost" collapsed>
+       <template #title>Momento de Ativação <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Momentum</span>
+</span></template>
+<p>O momento de ativação de um efeito é o momento ou situação específica em que ele pode ser ativado, sendo este um conceito teórico que ajuda a ordenar a sequência de ativação de efeitos. Pode se confundir com o <span class="keyword-timing">timing</span>, mas são conceitos distintos.</p>
+<p>O momento se refere à quando em uma ação este efeito entra em jogo, ou seja, quando ele é aplicado depois de ativado. O texto ou requerimento da carta deve indicar claramente o momento de ativação do efeito através do uso adequado da linguagem, e ele pode ser classificado em três categorias:</p>
+<div class="mb-6 overflow-hidden border rounded-md docs-columns dark:border-base-border" style="grid-template-columns: repeat(1, minmax(0, 1fr));">
+    <div class="flex items-center px-5 py-3 font-medium leading-snug text-gray-900 border-b border-base-border dark:text-white">
+        <span><strong>Antes da ação</strong></span>
+    </div>
+    <div class="px-5 py-3 docs-columns-content">
+<p>Este efeito precede a ação que ele encadeou, sendo aplicado antes dela, podendo modificar ou influenciar a ação que ele encadeou.</p>
+<ul>
+<li>Ex.: <code translate="no" v-pre>Quando for fazer um teste</code>, <code translate="no" v-pre>Quando for ser atacado</code>, <code translate="no" v-pre>Quando uma carta for ser ativada</code>, etc.</li>
+</ul>
+    </div>
+</div>
+<div class="mb-6 overflow-hidden border rounded-md docs-columns dark:border-base-border" style="grid-template-columns: repeat(1, minmax(0, 1fr));">
+    <div class="flex items-center px-5 py-3 font-medium leading-snug text-gray-900 border-b border-base-border dark:text-white">
+        <span><strong>Durante a ação</strong></span>
+    </div>
+    <div class="px-5 py-3 docs-columns-content">
+<p>É aplicado junto ao desenvolvimento da ação que ele encadeou.</p>
+<ul>
+<li><code translate="no" v-pre>Em um teste você recebe...</code>, <code translate="no" v-pre>Durante o seu turno você pode...</code>, <code translate="no" v-pre>+1 de AGI</code>, etc.</li>
+</ul>
+    </div>
+</div>
+<div class="mb-6 overflow-hidden border rounded-md docs-columns dark:border-base-border" style="grid-template-columns: repeat(1, minmax(0, 1fr));">
+    <div class="flex items-center px-5 py-3 font-medium leading-snug text-gray-900 border-b border-base-border dark:text-white">
+        <span><strong>Depois da ação</strong></span>
+    </div>
+    <div class="px-5 py-3 docs-columns-content">
+<p>É aplicado depois do desenvolvimento da ação que ele encadeou, não tendo como modificar ou influenciar a ação que ele encadeou, mas podendo interagir com o resultado dela.</p>
+<ul>
+<li>Ex.: <code translate="no" v-pre>Depois de resolver uma carta</code>, <code translate="no" v-pre>Depois de ser atacado</code>, <code translate="no" v-pre>Quando for selecionado como alvo</code>, <code translate="no" v-pre>Quando sofrer dano</code>, etc.</li>
+</ul>
+    </div>
+</div>
+   </doc-panel>
+   <doc-panel id="padrões-de-escrita-badge-textwriting-patterns-variantghost" collapsed>
+       <template #title>Padrões de Escrita <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Writing Patterns</span>
+</span></template>
+<div class="mb-6 overflow-hidden border rounded-md docs-columns dark:border-base-border" style="grid-template-columns: repeat(1, minmax(0, 1fr));">
+    <div class="flex items-center px-5 py-3 font-medium leading-snug text-gray-900 border-b border-base-border dark:text-white">
+        <span><strong><span class="red">( )</span> Expressões</strong></span>
+    </div>
+    <div class="px-5 py-3 docs-columns-content">
+<p>Operações são sempre descritos dentro de parênteses, e os valores envolvidos são descritos usando os ícones e símbolos específicos para cada tipo de valor, como por exemplo:<br />
+(  <a href="/hero/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a> + <a href="/hero/attributes/"><span class="house"><b>INT</b></span></a> + <strong>5</strong> )</p>
+    </div>
+</div>
+<div class="mb-6 overflow-hidden border rounded-md docs-columns dark:border-base-border" style="grid-template-columns: repeat(1, minmax(0, 1fr));">
+    <div class="flex items-center px-5 py-3 font-medium leading-snug text-gray-900 border-b border-base-border dark:text-white">
+        <span><strong><span class="red">➜</span> Atribuição</strong></span>
+    </div>
+    <div class="px-5 py-3 docs-columns-content">
+<p>Atribuições são descritas usando a seta, indicando o valor que deve ser atribuído a uma variável ou estado, como por exemplo:</p>
+<ul>
+<li>Você precisa de <a href="/hero/attributes/"><span class="house"><b>FOR</b></span></a> ➜ <strong>10</strong> (Significa que o valor de <a href="/hero/attributes/"><span class="house"><b>FOR</b></span></a> precisa ser exatamente igual a 10)</li>
+<li>Teste de <em>Procurar</em>( <a href="/hero/attributes/"><span class="house"><b>PER</b></span></a> ➜ <strong>6</strong> ) (Significa que o valor mínimo neste teste é 6)</li>
+</ul>
+    </div>
+</div>
+<div class="mb-6 overflow-hidden border rounded-md docs-columns dark:border-base-border" style="grid-template-columns: repeat(1, minmax(0, 1fr));">
+    <div class="flex items-center px-5 py-3 font-medium leading-snug text-gray-900 border-b border-base-border dark:text-white">
+        <span><strong><span class="red">✚</span> Maior ou igual</strong></span>
+    </div>
+    <div class="px-5 py-3 docs-columns-content">
+<p><a href="/hero/attributes/"><span class="house"><b>CAR</b></span></a> <strong>10✚</strong> (Significa que o valor de <a href="/hero/attributes/"><span class="house"><b>CAR</b></span></a> é 10 ou mais)</p>
+    </div>
+</div>
+<div class="mb-6 overflow-hidden border rounded-md docs-columns dark:border-base-border" style="grid-template-columns: repeat(1, minmax(0, 1fr));">
+    <div class="flex items-center px-5 py-3 font-medium leading-snug text-gray-900 border-b border-base-border dark:text-white">
+        <span><strong><span class="red">–</span> Menor ou igual</strong></span>
+    </div>
+    <div class="px-5 py-3 docs-columns-content">
+<p><a href="/hero/attributes/"><span class="house"><b>INT</b></span></a> <strong>10–</strong> (Significa que o valor de <a href="/hero/attributes/"><span class="house"><b>INT</b></span></a> é 10 ou menos)</p>
+    </div>
+</div>
+<div class="mb-6 overflow-hidden border rounded-md docs-columns dark:border-base-border" style="grid-template-columns: repeat(1, minmax(0, 1fr));">
+    <div class="flex items-center px-5 py-3 font-medium leading-snug text-gray-900 border-b border-base-border dark:text-white">
+        <span><strong><span class="red">✱</span> Multiplicação</strong></span>
+    </div>
+    <div class="px-5 py-3 docs-columns-content">
+<p><a href="/hero/attributes/"><span class="house"><b>FOR</b></span></a> <strong>✱2</strong> (Significa que o valor de <a href="/hero/attributes/"><span class="house"><b>FOR</b></span></a> é multiplicado por 2)</p>
+    </div>
+</div>
+<div class="mb-6 overflow-hidden border rounded-md docs-columns dark:border-base-border" style="grid-template-columns: repeat(1, minmax(0, 1fr));">
+    <div class="flex items-center px-5 py-3 font-medium leading-snug text-gray-900 border-b border-base-border dark:text-white">
+        <span><strong><span class="red">➥</span> Spawn</strong></span>
+    </div>
+    <div class="px-5 py-3 docs-columns-content">
+<p>➥ <a href="/cards/companion/#-humano"><span class="companion"><b>HUMANO</b></span></a> ➜ <strong>2</strong> (Adicione um <a href="/cards/companion/#-humano"><span class="companion"><b>HUMANO</b></span></a> de nível 2 ao tabuleiro)</p>
+    </div>
+</div>
+<div class="mb-6 overflow-hidden border rounded-md docs-columns dark:border-base-border" style="grid-template-columns: repeat(1, minmax(0, 1fr));">
+    <div class="flex items-center px-5 py-3 font-medium leading-snug text-gray-900 border-b border-base-border dark:text-white">
+        <span><strong><span class="red">●</span> Lista</strong></span>
+    </div>
+    <div class="px-5 py-3 docs-columns-content">
+<p>Faz uma lista de informações ou textos, seja para escolha, seja para descrever uma sequência de ações, ou qualquer outra função que se encaixe melhor em formato de lista do que em formato de parágrafo.:<br />
+● Elemento 1<br />
+● Elemento 2</p>
+    </div>
+</div>
+<div class="mb-6 overflow-hidden border rounded-md docs-columns dark:border-base-border" style="grid-template-columns: repeat(1, minmax(0, 1fr));">
+    <div class="flex items-center px-5 py-3 font-medium leading-snug text-gray-900 border-b border-base-border dark:text-white">
+        <span><strong><span class="red">❙</span> Separador</strong></span>
+    </div>
+    <div class="px-5 py-3 docs-columns-content">
+<p>É utilizado uma barra vertical para separar informações de forma semelhante a uma tabela, tendo função apenas organizacional.</p>
+<ul>
+<li><a href="/hero/knowledge/#ast%C3%BAcia"><span class="knowledge"><b>ASTÚCIA</b></span></a> 2 ❙ <a href="/hero/knowledge/#instru%C3%A7%C3%A3o"><span class="knowledge"><b>INSTRUÇÃO</b></span></a> 2</li>
+</ul>
+    </div>
+</div>
+   </doc-panel>
+</doc-panels>
+<hr>
+<h2 id="resolução-do-efeito">Resolução do Efeito</h2>
+<p>É chamado de resolver o efeito o ato de aplicar o efeito depois de ativado, ou seja, realizar as ações e interações descritas no texto do efeito, seguindo as regras gerais do jogo e as instruções específicas do texto do efeito.</p>
+<p>O efeito deve ser resolvido exatamente como descrito no texto, seguindo a ordem das ações e interações conforme elas aparecem no texto, e levando em consideração as regras gerais do jogo.</p>
+<p>Durante cada passo da resolução do efeito, os jogadores podem ativar outros efeitos em <doc-anchor-trigger to="#responder-a-um-efeito">resposta</doc-anchor-trigger>, bem como efeitos <a href="/cards/effect/"><span class="keyword-activation">Auto</span></a>.</p>
+<hr>
+<h2 id="responder-a-um-efeito">Responder a um Efeito</h2>
+<p>O ato de encadear um outro efeito em resposta a um efeito ativado é chamado de responder a um efeito, ou simplesmente, resposta.</p>
+<ul>
+<li>Apenas um efeito do tipo pode ser ativado em resposta a um efeito, seguindo a , e os efeitos <a href="/cards/effect/"><span class="keyword-activation">Auto</span></a> podem ser ativados normalmente em resposta a um efeito, seguindo a <strong>Prioridade de Resposta</strong>.</li>
+</ul>
+<p>TODO: Dá para liberar geral, em vez de apenas um? Os autos são todos, então seria uma regra unificada?</p>
+<p>Quando um efeito entra em reposta a outro efeito, é iniciado uma cadeia de respostas, e outros efeitos podem ser adicionados a essa cadeia.</p>
+<doc-panel id="prioridade-de-resposta-badge-textpriority-variantghost" collapsed>
+    <template #title>Prioridade de Resposta <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>Priority</span>
 </span></template>
 <blockquote>
@@ -1011,36 +1143,7 @@
         </div>
     </div>
 </div>
-   </doc-panel>
-   <doc-panel id="momento-de-ativação-badge-textmomentum-variantghost" collapsed>
-       <template #title>Momento de Ativação <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
-    <span>Momentum</span>
-</span></template>
-<p>O momento de ativação de um efeito é o momento ou situação específica em que ele pode ser ativado, sendo este um conceito teórico que ajuda a ordenar a sequência de ativação de efeitos. Pode se confundir com o <span class="keyword-timing">timing</span>, mas são conceitos distintos.</p>
-<p>O momento se refere à quando em uma ação este efeito entra em jogo, ou seja, quando ele é aplicado depois de ativado. O texto ou requerimento da carta deve indicar claramente o momento de ativação do efeito através do uso adequado da linguagem, e ele pode ser classificado em três categorias:</p>
-<p>Antes da ação -&gt; Quando for fazer um teste, quando for atacado, quando uma carta for ser ativada, etc.</p>
-<p>Durante a ação -&gt; em um teste, em um ataque, etc. (mais comuns em efeitos permanentes de bônus)</p>
-<p>Depois da ação -&gt; Depois de resolver uma carta, depois de ser atacado, quando for selecionado como alvo, quando sofrer dano, etc.</p>
-   </doc-panel>
-   <doc-panel id="padrões-de-escrita-badge-textwriting-patterns-variantghost" collapsed>
-       <template #title>Padrões de Escrita <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
-    <span>Writing Patterns</span>
-</span></template>
-   </doc-panel>
-</doc-panels>
-<hr>
-<h2 id="resolução-do-efeito">Resolução do Efeito</h2>
-<p>É chamado de resolver o efeito o ato de aplicar o efeito depois de ativado, ou seja, realizar as ações e interações descritas no texto do efeito, seguindo as regras gerais do jogo e as instruções específicas do texto do efeito.</p>
-<p>O efeito deve ser resolvido exatamente como descrito no texto, seguindo a ordem das ações e interações conforme elas são mencionadas no texto, e levando em consideração as regras gerais do jogo.</p>
-<p>Durante cada passo da resolução do efeito, os jogadores podem ativar outros efeitos em <doc-anchor-trigger to="#responder-a-um-efeito">resposta</doc-anchor-trigger>, bem como efeitos <a href="/cards/effect/"><span class="keyword-activation">Auto</span></a>.</p>
-<hr>
-<h2 id="responder-a-um-efeito">Responder a um Efeito</h2>
-<p>O ato de encadear um outro efeito em resposta a um efeito ativado é chamado de responder a um efeito, ou simplesmente, resposta.</p>
-<ul>
-<li>Apenas um efeito do tipo pode ser ativado em resposta a um efeito, seguindo a , e os efeitos <a href="/cards/effect/"><span class="keyword-activation">Auto</span></a> podem ser ativados normalmente em resposta a um efeito, seguindo a <doc-anchor-trigger to="#prioridade-de-resposta">Prioridade de Resposta</doc-anchor-trigger>.</li>
-</ul>
-<p>TODO: Dá para liberar geral, em vez de apenas um? Os autos são todos, então seria uma regra unificada?</p>
-<p>Quando um efeito entra em reposta a outro efeito, é iniciado uma cadeia de respostas, e outros efeitos podem ser adicionados a essa cadeia.</p>
+</doc-panel>
 <h3 id="encadeamento-de-resposta">Encadeamento de Resposta</h3>
 <p>Quando vários efeitos estão encadeados, eles são resolvidos na ordem inversa à qual foram ativados, ou seja, o último efeito a ser ativado é o primeiro a ser resolvido, e o primeiro efeito a ser ativado é o último a ser resolvido. Sempre levando em consideração as mudanças de estado que podem ocorrer durante a resolução de cada efeito, e como isso pode afetar os demais efeitos na cadeia.</p>
 <p>Quando múltiplos efeitos são ativados em resposta a uma mesma ação, eles entram na cadeia de respostas na seguinte ordem.</p>
@@ -1125,7 +1228,7 @@
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-04-23T16:28:30" title="2026-04-23" data-absolute-label="Last updated on 2026-04-23 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-04-23 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-04-23T21:51:31" title="2026-04-23" data-absolute-label="Last updated on 2026-04-23 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-04-23 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
                         Last updated on 2026-04-23 by Bruno Caxito
                     </time>
                 </div>
