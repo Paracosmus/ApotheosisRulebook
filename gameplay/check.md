@@ -11,6 +11,13 @@ Quando um personagem sucede em um teste, é considerado um *Sucesso de nível 0*
 
 Quando um personagem falha em um teste, é considerado uma *Falha de nível 0*.
 
+**Teste** -> Testes são descritos com um nome descritivo, de função apenas narrativa portanto em itálico, seguido por uma expressão entre parênteses que define os valores usados para realizar o teste, geralmente uma combinação de {{ knowledge }}, Atributos e constantes de bônus. Um a seta é utilizada para indicar o valor mínimo necessário para ser bem sucedido no teste.
+
+  - `Faça um teste de _Corrida_( {{ athletics }} + {{ str }} ➜ 10 )`,
+  - `Seja bem sucedido em um teste de _Memória_( {{ int }} ➜ 16 )`,
+
+- Versus ✖
+
 ---
 
 ## Crítico
