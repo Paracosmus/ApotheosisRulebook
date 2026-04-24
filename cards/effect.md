@@ -46,7 +46,6 @@ Este conjunto de palavras-chave indica o tipo de ativação do efeito, ou seja, 
 
   Efeitos passivos, aplicados instantaneamente e que permanecem continuamente enquanto esta carta estiver em jogo. Quando um efeito tem esta palavra-chave, ele vale a partir do momento em que esta carta é colocada em jogo, não sendo considerado que foi ativado.
 
-
 ===
 
 ### Temporização [!badge text="Timing" variant="ghost"]
@@ -474,71 +473,101 @@ Durante cada passo da resolução do efeito, os jogadores podem ativar outros ef
 
 O ato de encadear um outro efeito em resposta a um efeito ativado é chamado de responder a um efeito, ou simplesmente, resposta.
 
-- Apenas um efeito do tipo pode ser ativado em resposta a um efeito, seguindo a , e os efeitos {{ auto }} podem ser ativados normalmente em resposta a um efeito, seguindo a **Prioridade de Resposta**.
-
-TODO: Dá para liberar geral, em vez de apenas um? Os autos são todos, então seria uma regra unificada?
-
-Quando um efeito entra em reposta a outro efeito, é iniciado uma cadeia de respostas, e outros efeitos podem ser adicionados a essa cadeia.
-
-==- Prioridade de Resposta [!badge text="Priority" variant="ghost"]
-
-  > "_Cada ação pode ter apenas uma reação_"
-
-  Apenas um efeito pode ser ativado em resposta a uma mesma situação, ou seja, quando uma situação de jogo ocorre e múltiplos efeitos são ativados em resposta a ela, apenas um desses efeitos pode ser ativado, e os outros efeitos não podem ser ativados em resposta a aquela mesma situação.
-
-  Note que, por ação, não se refere ao conjunto total, mas cada parte de uma ação em si.
-
-  !!-
-  Por exemplo, se um personagem é atacada, é feito a ação de ativar uma carta, selecionar um alvo, rolar os dados, aplicar o dano/lesão, remover a vida do alvo, etc. Cada uma dessas partes é uma ação, e cada uma delas pode ter efeitos ativados em resposta a ela, mas apenas um efeito pode ser ativado em resposta a cada parte dessa ação.
-
-  Então, se um personagem é atacado e você tem uma carta para quando é atacado e outra para quando é selecionado como alvo, ambas podem ser ativadas, em seus respectivos momentos, sendo que "atacado" é o conjunto de ações, portanto ativa primeiro, assim que o ataque é declarado, e "selecionado como alvo" é uma parte daquela ação, portanto ativa depois, assim que o alvo é declarado.
-  !!!
-
-  1. **Cartas do Cenário**
-    * Se mais de uma carta do Cenário for ativada em resposta a mesma situação, a carta a mais tempo em jogo será ativada.
-  2. **Cartas de Heróis Oponentes**
-    * Se mais de uma carta de Herói Oponente for ativada em resposta a mesma situação, a carta do Herói Oponente de maior Iniciativa neste ciclo será ativada.
-  3. **Cartas de Heróis do Time**
-    * Se mais de uma carta de Herói do Time for ativada em resposta a mesma situação, a carta do Herói de maior Iniciativa neste ciclo do Time será ativada.
-  4. **Cartas do Herói (Ou Herói do Companheiro) do Turno**
-    * Se mais de uma carta do Herói do Turno for ativada em resposta a mesma situação, o jogador deve escolher qual delas será ativada.
-  5. **Cartas da Pilha de Descarte**
-    * Se mais de uma carta da Pilha de Descarte for ativada em resposta a mesma situação, a carta mais acima na pilha será ativada.
-  6. **Cartas do Mestre de Jogo**
-    * Se mais de uma carta do Mestre de Jogo for ativada em resposta a mesma situação, cabe ao Mestre de Jogo escolher qual delas será ativada.
-
-  !!!
-  Note que uma carta em uma pilha de descarta controlada por um Herói são consideradas cartas do Herói, e não cartas da pilha de descarte.
-  !!!
-
-  !!!
-  Quando se tratar do efeito de uma técnica de um Dummy e não de uma carta, considere o dummy na ordem acima como se ele fosse uma carta controlada por aquele jogador. Portanto o Dummy de um jogador teria precedência sobre as cartas e Demmies do Mestre de Jogo, por exemplo.
-  !!!
-
-===
+O sistema de resolução de efeitos no Apoteose funciona através de uma Pilha Dinâmica baseada em recursividade e momentos distintos de ativação (Requerimento vs. Execução).
 
 ### Encadeamento de Resposta
 
-Quando vários efeitos estão encadeados, eles são resolvidos na ordem inversa à qual foram ativados, ou seja, o último efeito a ser ativado é o primeiro a ser resolvido, e o primeiro efeito a ser ativado é o último a ser resolvido. Sempre levando em consideração as mudanças de estado que podem ocorrer durante a resolução de cada efeito, e como isso pode afetar os demais efeitos na cadeia.
+>>> Carta Ativada
 
-Quando múltiplos efeitos são ativados em resposta a uma mesma ação, eles entram na cadeia de respostas na seguinte ordem.
+  Quando um efeito é ativado ele é colocado na base de uma pilha de efeitos encadeados.
+
+  - Índice 0 (Base): A ativação inicial.
+  - Considere que há um holofote na carta ativada, indicando que este é o efeito atualmente em resolução.
+
+  > Ex.: Considere que uma carta qualquer com o seguinte texto de efeito foi ativada:
+  > ---
+  > {{ activate }}{{ req '**Descarte** uma carta; **Consuma** ' + ( n 2 ) + ' de ' + sp }}
+  > **Cure** {{ p '25' }} de {{ hp }} e **Recupere** {{ p '2' }} de {{ mp }}.
+
+>>> Atender os Requerimentos
+
+  Se o efeito ativado possuir requerimentos, eles são atendidos neste momento da ativação.
+
+  Durante o momento em que o jogador está atendendo os requerimentos de um efeito, nenhuma resposta pode ser dada.
+
+  Se o efeito não possuir requerimentos, esta etapa é pulada.
+
+  > Ex.: O jogador descarta uma carta e consome 2 de {{ sp }} para validar o efeito, enquanto ele faz isso, os demais jogadores devem esperar.
+
+>>> Efeito em Espera [!badge text="Halt" variant="ghost"]
+
+  Com todos os requerimentos atendidos, o efeito entra em estado de espera (halt).
+
+  Neste momento, os jogadores podem ativar outros efeitos em resposta à quaisquer uma das ações feitas para validar o efeito base seguindo a regra de **Prioridade de Resposta**.
+
+  Se nenhum outro efeito for ativado em resposta, esta etapa é pulada.
+
+  Se uma resposta for ativada, ela é considerada uma nova ativação de carta e colocada da pilha de encadeamento no índice N+1.
+  - Considere que o holofote se move para a nova carta ativada, indicando que esta é a nova carta atualmente em resolução.
+  - Recursivamente, tudo que foi feito para a carta base, é feito para a carta N+1, seguindo os mesmos passos, e permitindo respostas em resposta a ela (N+2, N+3, etc).
+  - Quando a carta N+1 for resolvida, o holofote volta para a carta base, e o índice N+1 é removido da pilha.
+  - Os jogadores podem novamente ativar outros efeitos em resposta à quaisquer uma das ações feitas para validar o efeito base ainda seguindo a regra de **Prioridade de Resposta**.
+  - Apenas quanto todos os jogadores passarem a prioridade, ou seja, não ativarem mais nenhum efeito em resposta, é que o efeito base começa a ser resolvido.
+
+  > Ex.: O jogador ativou uma carta, descartou uma carta e consumiu 2 de {{ sp }} para validar o efeito, e agora o efeito está em espera, e os demais jogadores podem ativar outros efeitos em resposta a qualquer um desses passos, seja em resposta à ativação da carta, seja em resposta ao descarte, seja em resposta ao consumo de {{ sp }}.
+
+>>> Resolução
+
+  O efeito deixa o estado de espera e é resolvido seguindo o texto do efeito.
+
+  Os jogadores não podem ativar outros efeitos em resposta a este efeito durante a resolução, a resolução de um efeito deve ser cumprida integralmente primeiro.
+
+  Se a carta ativada não possuir efeito, sendo apenas usada a barra de ativação, o ataque ou ação determinado pela barra é executado.
+
+  > Ex.: O jogador ativou uma carta, descartou uma carta e consumiu 2 de {{ sp }} para validar o efeito, e agora o efeito está sendo resolvido, e os demais jogadores devem esperar tanto pela cura dos 25 de {{ hp }} quanto pela recuperação dos 2 de {{ mp }}.
+
+>>> Responder o Corpo do Efeito
+
+  Este Passo é exatamente igual ao passo de "Efeito em Espera", mas ocorre após a resolução do efeito, que não se encontra mais em espera e sim resolvido, ou seja, os jogadores podem ativar outros efeitos em resposta a quaisquer uma das ações feitas durante a resolução do efeito base seguindo a regra de **Prioridade de Resposta**, permitindo inclusive a entrada de novos índices na pilha de encadeamento.
+
+  Uma vez que nenhum jogador ative mais nenhum efeito em resposta, o processo de resolução do efeito é considerado completo, e o jogo segue normalmente. A pilha de encadeamento é esvaziada, e o holofote volta para o jogo normal, indicando que não há mais nenhum efeito em resolução. O próximo passo do jogo é determinado pelo fluxo normal do jogo.
+
+>>>
+
+### Prioridade de Resposta
+
+Quando um efeito entra na pilha de encadeamento é possível que várias cartas ou jogadores queiram responder a ele. Neste caso deve ser seguida a regra de prioridade de resposta para determinar qual efeito será ativado primeiro, ou seja, qual efeito entrará primeiro na pilha de encadeamento sera resolvido e então liberada para a ativação da próxima resposta.
+
+Observe que a prioridade define apenas quem vai ativar primeiro, mas não impede que os demais jogadores possam ativar seus efeitos em resposta, ou seja, mesmo que um jogador tenha a prioridade para ativar um efeito em resposta, os demais jogadores ainda podem ativar seus efeitos em resposta a este efeito depois da reposta do primeiro ser resolvida.
+
+Todos os efeitos do tipo {{ auto }} que são ativados em resposta a um efeito devem ser todos ativados antes de que os jogadores possam responder manualmente. Eles são ativados seguindo também a ordem de prioridade abaixo.
+
+Uma vez que todos os efeitos {{ auto }} tenham sido ativados, resolvidos e removidos da pilha de encadeamento, os jogadores podem então responder manualmente com os efeitos {{ activate }}, também seguindo a ordem de prioridade abaixo.
 
 1. **Cartas do Cenário**
 2. **Cartas de Heróis Oponentes**
 3. **Cartas de Heróis do Time**
-3. **Cartas do Herói (Ou Herói do Companheiro) do Turno**
-4. **Cartas da Pilha de Descarte**
-5. **Cartas do Mestre de Jogo**
+4. **Cartas do Herói (Ou Herói do Companheiro) do Turno**
+5. **Cartas da Pilha de Descarte**
+6. **Cartas do Mestre de Jogo**
 
-Sendo que efeitos {{ auto }} entram depois de efeitos {{ activate }} e antes de efeitos {{ permanent }}, seguindo a mesma ordem acima.
+!!!
+Note que uma carta em uma pilha de descarte ou baralho controlados por um Herói são consideradas cartas do Herói, e não cartas da pilha de descarte.
+!!!
 
-### Mudança de Estado Durante a Resolução do Efeito
+!!!
+Quando se tratar do efeito de uma técnica de um Dummy e não de uma carta, considere o dummy na ordem acima como se ele fosse uma carta controlada por aquele jogador. Portanto o Dummy de um jogador teria precedência sobre as cartas e Dummies do Mestre de Jogo, por exemplo.
+!!!
 
-#### Nos Requerimentos
+---
+
+## Mudança de Estado Durante a Resolução do Efeito
+
+### Nos Requerimentos
 
 Extraordinariamente, se um efeito era possível no momento da ativação da carta, mas um Encadeamento de Respostas ou outra situação de jogo fez com que os demais requerimentos de ativação do efeito fossem quebradas, a ativação do efeito é então parada, não sendo considerado que o efeito foi negado nem ativado, apenas que não é mais possível dar prosseguimento à jogada, quaisquer custos já pagos não são devolvidos.
 
-#### Na Descrição
+### Na Descrição
 
 Extraordinariamente, se os requerimentos de um efeito já foram cumpridos e o efeito já está sendo resolvido, mas um Encadeamento de Respostas ou outra situação de jogo fez com que as condições descritas no texto do efeito fossem quebradas, o que já foi feito é mantido, mas a restante do efeito é ignorado. É considerado que o efeito foi ativado, e não negado, mas que não é mais possível dar prosseguimento à resolução do efeito.
 
