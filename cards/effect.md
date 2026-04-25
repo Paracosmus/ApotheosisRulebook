@@ -112,7 +112,10 @@ Quando um efeito possuir mais de um momento de ativação, ele pode/deve ser ati
 
 ==- <span class="fill">{{ rolling }}</span> [!badge text="When Rolling" variant="ghost"]
 
-  Este efeito pode/deve ser ativado quando um personagem estiver rolando dados, seja para um teste, ataque, ou outra situação que envolva rolar dados, não incluindo dados aleatórios. O efeito deixara claro o momento exato do rolamento em que ele pode ser ativado, como por exemplo, "antes de rolar os dados", "depois de rolar os dados", etc.
+  Este efeito pode/deve ser ativado quando um personagem estiver rolando dados, seja para um teste, ataque, ou outra situação que envolva rolar dados. O efeito deixara claro o momento exato do rolamento em que ele pode ser ativado, como por exemplo, "Quando for rolar os dados", "adicione ao valor obtidos nos dados", etc.
+
+  - Não incluindo dados aleatórios
+  - Não incluindo dados extras em caso de crítico
 
 ==- <span class="fill">{{ startOfBattle }}</span> [!badge text="Start of Battle" variant="ghost"]
 
@@ -512,9 +515,13 @@ O sistema de resolução de efeitos no Apoteose funciona através de uma Pilha D
   - Recursivamente, tudo que foi feito para a carta base, é feito para a carta N+1, seguindo os mesmos passos, e permitindo respostas em resposta a ela (N+2, N+3, etc).
   - Quando a carta N+1 for resolvida, o holofote volta para a carta base, e o índice N+1 é removido da pilha.
   - Os jogadores podem novamente ativar outros efeitos em resposta à quaisquer uma das ações feitas para validar o efeito base ainda seguindo a regra de **Prioridade de Resposta**.
+  - Este também é o momento de ativar efeitos que são aplicados antes da ação que será resolvida no corpo do efeito. Por exemplo, se o efeito base for "Cure 25 de HP", este é o momento de ativar efeitos que são aplicados antes da cura.
+    - Se o corpo do efeito apresentar uma lista de opções, como não é possível determinar qual ação será escolhida, os efeitos que podem ser aplicados antes de qualquer uma das opções não podem ser ativados.
   - Apenas quanto todos os jogadores passarem a prioridade, ou seja, não ativarem mais nenhum efeito em resposta, é que o efeito base começa a ser resolvido.
 
   > Ex.: O jogador ativou uma carta, descartou uma carta e consumiu 2 de {{ sp }} para validar o efeito, e agora o efeito está em espera, e os demais jogadores podem ativar outros efeitos em resposta a qualquer um desses passos, seja em resposta à ativação da carta, seja em resposta ao descarte, seja em resposta ao consumo de {{ sp }}.
+  >
+  > Para o caso de respostas ao corpo do efeito, do tipo de deve ser executado antes da ação que ele responde. Por exemplo, como aqueles em resposta a "quando {{ hp }} for ser curado" ou "quando {{ mp }} for ser recuperado", também devem ser ativados durante esta etapa, e não depois, pois eles são aplicados antes da ação de cura ou recuperação. Quando o corpo do efeito começar a ser resolvido, o momento de ativação desses efeitos já terá passado.
 
 >>> Resolução
 

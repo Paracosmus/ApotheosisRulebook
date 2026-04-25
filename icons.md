@@ -212,7 +212,7 @@ layout: page
 
 | Icon                                     | Termo (PT)        | English        | Variável      | Unicode | Color     |
 | ---------------------------------------- | ----------------- | -------------- | ------------- | ------- | --------- |
-| <span style="color: #2B6A2E;"></span> | Vida              | *Life (HP)*    | {{ hp }}      | e928    | `#2B6A2E` |
+| <span class="hp"></span>                | Vida              | *Life (HP)*    | {{ hp }}      | e928    | `#2B6A2E` |
 | <span style="color: #D50000;"></span> | Lesão             | *Injury*       | {{ injury }}  | eb3e    | `#D50000` |
 | <span style="color: #D50000;"></span> | Dano              | *Damage*       | {{ dmg }}     | e919    | `#D50000` |
 | <span style="color: #01C9C1;"></span> | Ação              | *Action (AP)*  | {{ ap }}      | e924    | `#01C9C1` |

@@ -247,7 +247,7 @@ data:
   e3d6: <b>(3D6)</b>
 
   # Action
-  hp: '[<span class="main"><b>VIDA</b></span>](/hero/#vida)'
+  hp: '[<span class="hp"><b>VIDA</b></span>](/hero/#vida)'
   ap: '[<span class="main"><b>AÇÃO</b></span>](/hero/#ação)'
   sp: '[<span class="skill"><b>ESTAMINA</b></span>](/hero/#estamina)'
   mp: '[<span class="skill"><b>MANA</b></span>](/hero/#mana)'
