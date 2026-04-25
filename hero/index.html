@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.830387180425">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.830459191881">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.5.3">
@@ -41,11 +41,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.5.3.830387180425" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.5.3.830459191881" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.5.3.830387180425" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.5.3.830459191881" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.5.3.830387180425" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.5.3.830459191881" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -151,6 +151,7 @@
     	.white     { color: #BDBDBD; }
     	.black     { color: #424242; } .dark .black { color: #454545; }
 
+        .hp        { color: #2B6A2E; }
         .format    { color: #03DAC6; }
 
         .keyword-activation {
@@ -487,7 +488,7 @@
 <p>É determinado pela soma dos níveis de todas as suas cartas de CLASSE, somado mais 1 (Carta de CASA).</p>
 <hr>
 <h2 id="vida">Vida</h2>
-<p><a href="/hero/#vida"><span class="main"><b>VIDA</b></span></a> = 4 + Nível do Herói</p>
+<p><a href="/hero/#vida"><span class="hp"><b>VIDA</b></span></a> = 4 + Nível do Herói</p>
 <hr>
 <h2 id="ação">Ação</h2>
 <blockquote>
@@ -511,7 +512,7 @@
 <h2 id="score">Score</h2>
 <hr>
 <h2 id="morte">Morte</h2>
-<p>O personagem morre quando a sua <a href="/hero/#vida"><span class="main"><b>VIDA</b></span></a> é reduzida a 0 ou menos. Caso o personagem morra, encerra-se a história para ele. Se todos os personagens de um jogador morrerem, é o fim do jogo para o jogador e, caso o jogador queira continuar jogando, ele deve criar outro personagem.</p>
+<p>O personagem morre quando a sua <a href="/hero/#vida"><span class="hp"><b>VIDA</b></span></a> é reduzida a 0 ou menos. Caso o personagem morra, encerra-se a história para ele. Se todos os personagens de um jogador morrerem, é o fim do jogo para o jogador e, caso o jogador queira continuar jogando, ele deve criar outro personagem.</p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
     <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
@@ -525,7 +526,7 @@
             </svg>
         </div>
         <div class="pr-5 ml-3 w-full">
-<p>Os critérios para morte podem ser modificados de acordo com a campanha. Por exemplo, uma determinada missão pode especificar que um personagem deve ser nocauteado e capturado vivo, e que naquela missão específica, aquele personagem é considerado nocauteado quando sua <a href="/hero/#vida"><span class="main"><b>VIDA</b></span></a> for 0 ou menos.</p>
+<p>Os critérios para morte podem ser modificados de acordo com a campanha. Por exemplo, uma determinada missão pode especificar que um personagem deve ser nocauteado e capturado vivo, e que naquela missão específica, aquele personagem é considerado nocauteado quando sua <a href="/hero/#vida"><span class="hp"><b>VIDA</b></span></a> for 0 ou menos.</p>
         </div>
     </div>
 </div>
@@ -539,8 +540,8 @@
 <blockquote>
 <p>É uma ajuda do destino que salva o personagem da morte, onde por sorte, destino ou acaso, o personagem consegue de alguma forma escapar de uma fatalidade e sobreviver a uma tragédia.</p>
 </blockquote>
-<p>Uma vez por batalha, quando uma ação resultar em sua <a href="/hero/#vida"><span class="main"><b>VIDA</b></span></a> ficar menor ou igual a 0, antes de determinar que este personagem está morto, ele ainda pode obter uma <em>Salvação Divina</em>.</p>
-<p>O jogador deve observar quantos pontos <a href="/hero/#vida"><span class="main"><b>VIDA</b></span></a> negativa o personagem ficou, o personagem deve então descartar 3 de <a href="/cards/event/"><span class="event"><b>DESTINO</b></span></a>, e mais 2 de <a href="/cards/event/"><span class="event"><b>DESTINO</b></span></a> para cada ponto de <a href="/hero/#vida"><span class="main"><b>VIDA</b></span></a> negativo que tiver. Qualquer excesso descartado é perdido. O personagem então não morre, mas fica com 1 de <a href="/hero/#vida"><span class="main"><b>VIDA</b></span></a>.</p>
+<p>Uma vez por batalha, quando uma ação resultar em sua <a href="/hero/#vida"><span class="hp"><b>VIDA</b></span></a> ficar menor ou igual a 0, antes de determinar que este personagem está morto, ele ainda pode obter uma <em>Salvação Divina</em>.</p>
+<p>O jogador deve observar quantos pontos <a href="/hero/#vida"><span class="hp"><b>VIDA</b></span></a> negativa o personagem ficou, o personagem deve então descartar 3 de <a href="/cards/event/"><span class="event"><b>DESTINO</b></span></a>, e mais 2 de <a href="/cards/event/"><span class="event"><b>DESTINO</b></span></a> para cada ponto de <a href="/hero/#vida"><span class="hp"><b>VIDA</b></span></a> negativo que tiver. Qualquer excesso descartado é perdido. O personagem então não morre, mas fica com 1 de <a href="/hero/#vida"><span class="hp"><b>VIDA</b></span></a>.</p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
     <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
@@ -555,7 +556,7 @@
         </div>
         <div class="pr-5 ml-3 w-full">
 <p>Em uma <em>Salvação Divina</em>, não se considera que o personagem tenha morrido, nem que tenha sido curado ou revivido, portanto, não se deve aplicar as mecânicas e efeitos relacionados a estes casos e o personagem pode continuar jogando normalmente.</p>
-<p>Efeitos que consideram o <b>DANO</b> e <b>LESÃO</b> sofrido pelo personagem, devem ser aplicados normalmente e considerando o valor real que resultou em <a href="/hero/#vida"><span class="main"><b>VIDA</b></span></a> zerada ou negativa.</p>
+<p>Efeitos que consideram o <b>DANO</b> e <b>LESÃO</b> sofrido pelo personagem, devem ser aplicados normalmente e considerando o valor real que resultou em <a href="/hero/#vida"><span class="hp"><b>VIDA</b></span></a> zerada ou negativa.</p>
         </div>
     </div>
 </div>
@@ -593,16 +594,6 @@
                 <span class="card-compact-title">Cartas</span>
             </div>
             <p class="card-compact-description">São a base do jogo, as partículas que compõem os personagens e eventos. Cada carta possui um conjunto de informações que são utilizadas para dar função e significado.</p>
-        </div>
-    </a>
-</div>
-<div class="card-compact-container">
-    <a href="/chart/" class="group card-compact no-link">
-        <div class="card-compact-body">
-            <div class="card-compact-header">
-                <span class="card-compact-title">Cartilha</span>
-            </div>
-            <p class="card-compact-description">Custo de AÇÃO e/ou Energia (ESTAMINA, MANA e/ou Essência), além dos requerimentos e custos adicionais descritos na carta, se houver</p>
         </div>
     </a>
 </div>
@@ -669,6 +660,17 @@
                 <span class="card-compact-title">ITEM</span>
             </div>
             <p class="card-compact-description">Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.</p>
+        </div>
+    </a>
+</div>
+<div class="card-compact-container">
+    <a href="/battle/chip/dummy/" class="group card-compact no-link">
+        <div class="card-compact-body">
+            <div class="card-compact-header">
+                <span class="card-compact-icon inline-flex shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><!--icon--><path d="M4 9.5a5 5 0 1 1 7.916 4.062 7.973 7.973 0 0 1 5.018 7.166.75.75 0 1 1-1.499.044 6.469 6.469 0 0 0-12.932 0 .75.75 0 0 1-1.499-.044 7.972 7.972 0 0 1 5.059-7.181A4.994 4.994 0 0 1 4 9.5ZM9 6a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Zm10.25-5a.75.75 0 0 1 .75.75V4h2.25a.75.75 0 0 1 0 1.5H20v2.25a.75.75 0 0 1-1.5 0V5.5h-2.25a.75.75 0 0 1 0-1.5h2.25V1.75a.75.75 0 0 1 .75-.75Z"/></svg></span>
+                <span class="card-compact-title">Modelo</span>
+            </div>
+            <p class="card-compact-description">Se trata de uma peça no tabuleiro que não representa um personagem Herói, com MESA, e nem um personagem COMPANHEIRO, com uma carta que o define</p>
         </div>
     </a>
 </div>

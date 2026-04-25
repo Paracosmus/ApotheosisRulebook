@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.830387180425">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.830459191881">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.5.3">
@@ -41,11 +41,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.5.3.830387180425" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.5.3.830459191881" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.5.3.830387180425" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.5.3.830459191881" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.5.3.830387180425" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.5.3.830459191881" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -151,6 +151,7 @@
     	.white     { color: #BDBDBD; }
     	.black     { color: #424242; } .dark .black { color: #454545; }
 
+        .hp        { color: #2B6A2E; }
         .format    { color: #03DAC6; }
 
         .keyword-activation {
@@ -548,7 +549,7 @@
 <ul>
 <li>Utilizam-se peças de tabuleiro para representar os navios e as unidades navais em combate.</li>
 <li>É criada uma peça para cada navio, com base em uma carta de navio com a propriedade <strong>Navio</strong>.</li>
-<li>Regras de <a href="/hero/#vida"><span class="main"><b>VIDA</b></span></a>, <b>DANO</b>, <b>LESÃO</b> e efeitos de companheiros são aplicados a cada peça, como se fossem peças de cartas de <a href="/cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a>.</li>
+<li>Regras de <a href="/hero/#vida"><span class="hp"><b>VIDA</b></span></a>, <b>DANO</b>, <b>LESÃO</b> e efeitos de companheiros são aplicados a cada peça, como se fossem peças de cartas de <a href="/cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a>.</li>
 </ul>
 <hr>
 <h4 id="vento">Vento</h4>
@@ -584,14 +585,14 @@
 <li>O navio pode atacar apenas uma vez por turno, sem custos em <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a>, e seu turno encerra após o ataque.
 <ul>
 <li><strong>Round Shot</strong>: Canhões + </li>
-<li><strong>Grape Shot</strong>: Canhões + ; Além da <a href="/hero/#vida"><span class="main"><b>VIDA</b></span></a>, o alvo perde tripulação igual à <b>LESÃO</b>; Este ataque nunca deixa um navio com menos de 1 de tripulação</li>
+<li><strong>Grape Shot</strong>: Canhões + ; Além da <a href="/hero/#vida"><span class="hp"><b>VIDA</b></span></a>, o alvo perde tripulação igual à <b>LESÃO</b>; Este ataque nunca deixa um navio com menos de 1 de tripulação</li>
 <li><strong>Chain Shot</strong>: O alvo perde <span class="negative">1</span> <em>Contador de Velocidade</em>; Este ataque não causa <b>DANO</b></li>
 <li><strong>Abalroar</strong>: Se ao se mover, a seu navio terminar em uma casa do tabuleiro cuja à sua frente esteja outro navio, se o valor de <strong>Carga</strong> do seu navio for maior que a do outro, você pode colidir com ele e causar <span class="negative">2</span> de <b>LESÃO</b></li>
 <li><strong>Abordar</strong>: Ambos os navios rolam uma competição de ( <em>Contadores de Tripulação</em> +  ), quem perder, perde <span class="negative">2</span> de <strong>Tripulação</strong>; Em caso de empate, os dois perdem <span class="negative">1</span> de Tripulação; Se um navio ficar com 0 de tripulação durante uma abordagem, ele passa para o controle do outro time.</li>
 </ul>
 </li>
 <li>Ataques pelas costas causam <span class="negative">+3</span> de <b>DANO</b></li>
-<li>Se a <a href="/hero/#vida"><span class="main"><b>VIDA</b></span></a> de um navio chegar a 0 ou menos, ele é considerado afundado e retirado do campo de batalha; Ao final da batalha, o time vencedor pode coletar metade da carga dos navios afundados</li>
+<li>Se a <a href="/hero/#vida"><span class="hp"><b>VIDA</b></span></a> de um navio chegar a 0 ou menos, ele é considerado afundado e retirado do campo de batalha; Ao final da batalha, o time vencedor pode coletar metade da carga dos navios afundados</li>
 </ul>
 <hr>
 <h4 id="reparar">Reparar</h4>

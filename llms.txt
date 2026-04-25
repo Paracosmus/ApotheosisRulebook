@@ -143,7 +143,7 @@
 ### Peça
 
 - [Peça](https://apotheosiscardgame.com/battle/chip/index.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
-- [Modelo](https://apotheosiscardgame.com/battle/chip/dummy.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Modelo](https://apotheosiscardgame.com/battle/chip/dummy.md): Se trata de uma peça no tabuleiro que não representa um personagem Herói, com MESA, e nem um personagem COMPANHEIRO, com uma carta que o define
 - [Casa do Tabuleiro](https://apotheosiscardgame.com/battle/tile.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [Rodadas e Turnos](https://apotheosiscardgame.com/battle/turn.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [Iniciativa](https://apotheosiscardgame.com/battle/initiative.md): É uma comparação feita entre os personagens para determinar a ordem de ação durante o combate, representando a rapidez com que eles podem agir.

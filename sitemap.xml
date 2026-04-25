@@ -18,7 +18,7 @@
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/icons/</loc>
-    <lastmod>2026-04-17T20:33:55Z</lastmod>
+    <lastmod>2026-04-25T16:06:30Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/hero/</loc>
@@ -57,16 +57,16 @@
     <lastmod>2026-04-19T14:06:21Z</lastmod>
   </url>
   <url>
+    <loc>https://apotheosiscardgame.com/hero/inventory/</loc>
+    <lastmod>2026-04-19T14:06:21Z</lastmod>
+  </url>
+  <url>
     <loc>https://apotheosiscardgame.com/lore/cosmology/</loc>
     <lastmod>2026-04-06T14:58:40Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/cards/house/</loc>
     <lastmod>2026-03-22T16:09:03Z</lastmod>
-  </url>
-  <url>
-    <loc>https://apotheosiscardgame.com/hero/inventory/</loc>
-    <lastmod>2026-04-19T14:06:21Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/cards/entity/</loc>
@@ -78,11 +78,15 @@
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/cards/effect/</loc>
-    <lastmod>2026-04-24T20:06:15Z</lastmod>
+    <lastmod>2026-04-25T16:06:30Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/battle/</loc>
     <lastmod>2026-03-31T18:25:31Z</lastmod>
+  </url>
+  <url>
+    <loc>https://apotheosiscardgame.com/hero/attributes/</loc>
+    <lastmod>2026-02-21T16:28:37Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/hero/knowledge/</loc>
@@ -91,10 +95,6 @@
   <url>
     <loc>https://apotheosiscardgame.com/lore/beings/numinous/</loc>
     <lastmod>2026-03-31T18:25:31Z</lastmod>
-  </url>
-  <url>
-    <loc>https://apotheosiscardgame.com/hero/attributes/</loc>
-    <lastmod>2026-02-21T16:28:37Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/lore/world/</loc>
@@ -106,7 +106,7 @@
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/cards/technique/</loc>
-    <lastmod>2026-04-19T14:06:21Z</lastmod>
+    <lastmod>2026-04-25T16:06:30Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/cards/tag/</loc>
@@ -273,6 +273,10 @@
     <lastmod>2026-03-31T18:25:31Z</lastmod>
   </url>
   <url>
+    <loc>https://apotheosiscardgame.com/battle/chip/dummy/</loc>
+    <lastmod>2026-04-25T16:06:30Z</lastmod>
+  </url>
+  <url>
     <loc>https://apotheosiscardgame.com/battle/tile/</loc>
     <lastmod>2026-03-31T18:25:31Z</lastmod>
   </url>
@@ -383,10 +387,6 @@
   <url>
     <loc>https://apotheosiscardgame.com/lore/beings/synthetic/robots/</loc>
     <lastmod>2026-03-31T18:25:31Z</lastmod>
-  </url>
-  <url>
-    <loc>https://apotheosiscardgame.com/battle/chip/dummy/</loc>
-    <lastmod>2026-04-01T13:05:15Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/gameplay/time/</loc>

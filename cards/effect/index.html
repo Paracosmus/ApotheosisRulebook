@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.830387180425">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.830459191881">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.5.3">
@@ -41,11 +41,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.5.3.830387180425" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.5.3.830459191881" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.5.3.830387180425" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.5.3.830459191881" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.5.3.830387180425" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.5.3.830459191881" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -151,6 +151,7 @@
     	.white     { color: #BDBDBD; }
     	.black     { color: #424242; } .dark .black { color: #454545; }
 
+        .hp        { color: #2B6A2E; }
         .format    { color: #03DAC6; }
 
         .keyword-activation {
@@ -592,7 +593,11 @@
        <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-timing">Quando Rolando Dados</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>When Rolling</span>
 </span></template>
-<p>Este efeito pode/deve ser ativado quando um personagem estiver rolando dados, seja para um teste, ataque, ou outra situação que envolva rolar dados, não incluindo dados aleatórios. O efeito deixara claro o momento exato do rolamento em que ele pode ser ativado, como por exemplo, &quot;antes de rolar os dados&quot;, &quot;depois de rolar os dados&quot;, etc.</p>
+<p>Este efeito pode/deve ser ativado quando um personagem estiver rolando dados, seja para um teste, ataque, ou outra situação que envolva rolar dados. O efeito deixara claro o momento exato do rolamento em que ele pode ser ativado, como por exemplo, &quot;Quando for rolar os dados&quot;, &quot;adicione ao valor obtidos nos dados&quot;, etc.</p>
+<ul>
+<li>Não incluindo dados aleatórios</li>
+<li>Não incluindo dados extras em caso de crítico</li>
+</ul>
    </doc-panel>
    <doc-panel id="span-classfillspan-classkeyword-timinginício-da-batalhaspancardseffectmdspan-badge-textstart-of-battle-variantghost" collapsed>
        <template #title><span class="fill"><a href="/cards/effect/"><span class="keyword-timing">Início da Batalha</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
@@ -1060,7 +1065,7 @@
 <p>Ex.: Considere que uma carta qualquer com o seguinte texto de efeito foi ativada:</p>
 <hr>
 <p><a href="/cards/effect/"><span class="keyword-activation">Ativar</span></a><span class="req">【</span> <strong>Descarte</strong> uma carta; <strong>Consuma</strong> <span class="negative">2</span> de <a href="/hero/#estamina"><span class="skill"><b>ESTAMINA</b></span></a> <span class="req">】</span><br />
-<strong>Cure</strong> <span class="positive">25</span> de <a href="/hero/#vida"><span class="main"><b>VIDA</b></span></a> e <strong>Recupere</strong> <span class="positive">2</span> de <a href="/hero/#mana"><span class="skill"><b>MANA</b></span></a>.</p>
+<strong>Cure</strong> <span class="positive">25</span> de <a href="/hero/#vida"><span class="hp"><b>VIDA</b></span></a> e <strong>Recupere</strong> <span class="positive">2</span> de <a href="/hero/#mana"><span class="skill"><b>MANA</b></span></a>.</p>
 </blockquote>
    </doc-step>
    <doc-step id="atender-os-requerimentos" step-number="2">
@@ -1085,10 +1090,16 @@
 <li>Recursivamente, tudo que foi feito para a carta base, é feito para a carta N+1, seguindo os mesmos passos, e permitindo respostas em resposta a ela (N+2, N+3, etc).</li>
 <li>Quando a carta N+1 for resolvida, o holofote volta para a carta base, e o índice N+1 é removido da pilha.</li>
 <li>Os jogadores podem novamente ativar outros efeitos em resposta à quaisquer uma das ações feitas para validar o efeito base ainda seguindo a regra de <strong>Prioridade de Resposta</strong>.</li>
+<li>Este também é o momento de ativar efeitos que são aplicados antes da ação que será resolvida no corpo do efeito. Por exemplo, se o efeito base for &quot;Cure 25 de HP&quot;, este é o momento de ativar efeitos que são aplicados antes da cura.
+<ul>
+<li>Se o corpo do efeito apresentar uma lista de opções, como não é possível determinar qual ação será escolhida, os efeitos que podem ser aplicados antes de qualquer uma das opções não podem ser ativados.</li>
+</ul>
+</li>
 <li>Apenas quanto todos os jogadores passarem a prioridade, ou seja, não ativarem mais nenhum efeito em resposta, é que o efeito base começa a ser resolvido.</li>
 </ul>
 <blockquote>
 <p>Ex.: O jogador ativou uma carta, descartou uma carta e consumiu 2 de <a href="/hero/#estamina"><span class="skill"><b>ESTAMINA</b></span></a> para validar o efeito, e agora o efeito está em espera, e os demais jogadores podem ativar outros efeitos em resposta a qualquer um desses passos, seja em resposta à ativação da carta, seja em resposta ao descarte, seja em resposta ao consumo de <a href="/hero/#estamina"><span class="skill"><b>ESTAMINA</b></span></a>.</p>
+<p>Para o caso de respostas ao corpo do efeito, do tipo de deve ser executado antes da ação que ele responde. Por exemplo, como aqueles em resposta a &quot;quando <a href="/hero/#vida"><span class="hp"><b>VIDA</b></span></a> for ser curado&quot; ou &quot;quando <a href="/hero/#mana"><span class="skill"><b>MANA</b></span></a> for ser recuperado&quot;, também devem ser ativados durante esta etapa, e não depois, pois eles são aplicados antes da ação de cura ou recuperação. Quando o corpo do efeito começar a ser resolvido, o momento de ativação desses efeitos já terá passado.</p>
 </blockquote>
    </doc-step>
    <doc-step id="resolução" step-number="4">
@@ -1097,7 +1108,7 @@
 <p>Os jogadores não podem ativar outros efeitos em resposta a este efeito durante a resolução, a resolução de um efeito deve ser cumprida integralmente primeiro.</p>
 <p>Se a carta ativada não possuir efeito, sendo apenas usada a barra de ativação, o ataque ou ação determinado pela barra é executado.</p>
 <blockquote>
-<p>Ex.: O jogador ativou uma carta, descartou uma carta e consumiu 2 de <a href="/hero/#estamina"><span class="skill"><b>ESTAMINA</b></span></a> para validar o efeito, e agora o efeito está sendo resolvido, e os demais jogadores devem esperar tanto pela cura dos 25 de <a href="/hero/#vida"><span class="main"><b>VIDA</b></span></a> quanto pela recuperação dos 2 de <a href="/hero/#mana"><span class="skill"><b>MANA</b></span></a>.</p>
+<p>Ex.: O jogador ativou uma carta, descartou uma carta e consumiu 2 de <a href="/hero/#estamina"><span class="skill"><b>ESTAMINA</b></span></a> para validar o efeito, e agora o efeito está sendo resolvido, e os demais jogadores devem esperar tanto pela cura dos 25 de <a href="/hero/#vida"><span class="hp"><b>VIDA</b></span></a> quanto pela recuperação dos 2 de <a href="/hero/#mana"><span class="skill"><b>MANA</b></span></a>.</p>
 </blockquote>
    </doc-step>
    <doc-step id="responder-o-corpo-do-efeito" step-number="5">
@@ -1226,8 +1237,8 @@
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-04-24T20:06:15" title="2026-04-24" data-absolute-label="Last updated on 2026-04-24 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-04-24 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
-                        Last updated on 2026-04-24 by Bruno Caxito
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-04-25T16:06:30" title="2026-04-25" data-absolute-label="Last updated on 2026-04-25 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-04-25 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                        Last updated on 2026-04-25 by Bruno Caxito
                     </time>
                 </div>
 

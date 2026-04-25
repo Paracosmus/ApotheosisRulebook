@@ -206,7 +206,7 @@
 
 | Icon                                     | Termo (PT)        | English        | Variável      | Unicode | Color     |
 | ---------------------------------------- | ----------------- | -------------- | ------------- | ------- | --------- |
-| <span style="color: #2B6A2E;"></span> | Vida              | *Life (HP)*    | [<span class="main"><b>VIDA</b></span>](/hero/#vida)      | e928    | `#2B6A2E` |
+| <span class="hp"></span>                | Vida              | *Life (HP)*    | [<span class="hp"><b>VIDA</b></span>](/hero/#vida)      | e928    | `#2B6A2E` |
 | <span style="color: #D50000;"></span> | Lesão             | *Injury*       | <b>LESÃO</b>  | eb3e    | `#D50000` |
 | <span style="color: #D50000;"></span> | Dano              | *Damage*       | <b>DANO</b>     | e919    | `#D50000` |
 | <span style="color: #01C9C1;"></span> | Ação              | *Action (AP)*  | [<span class="main"><b>AÇÃO</b></span>](/hero/#ação)      | e924    | `#01C9C1` |

@@ -58,28 +58,28 @@ Diferente dos marcados, estes não são permanentes, eles se dissipam automatica
 Quando um personagem morrer, não é o fim definitivo, se sua peça ainda estiver no tabuleiro ele pode ser revivido por alguns efeitos de cartas, ou por ações de outros personagens. Porém, se não for revivido, o personagem está permanentemente morto.
 
 💀 Morto
-:   É o estado de um personagem quando sua [<span class="main"><b>VIDA</b></span>](/hero/#vida) é menor ou igual a 0. Neste estado, o personagem não pode agir, e todos os efeitos e cartas que o personagem possui são ignoradas.
+:   É o estado de um personagem quando sua [<span class="hp"><b>VIDA</b></span>](/hero/#vida) é menor ou igual a 0. Neste estado, o personagem não pode agir, e todos os efeitos e cartas que o personagem possui são ignoradas.
 
     O personagem também é removido da fila de turnos, não tendo mais forma de jogar.
 
 🤕 Nocauteado [!badge K.O.]
-:   É o estado de um personagem quando sua [<span class="main"><b>VIDA</b></span>](/hero/#vida) é exatamente 0. Neste estado, para todos os efeitos, o personagem é tratado como morto. Se o personagem não for revivido, ele revive ao final da batalha em 1 de [<span class="main"><b>VIDA</b></span>](/hero/#vida).
+:   É o estado de um personagem quando sua [<span class="hp"><b>VIDA</b></span>](/hero/#vida) é exatamente 0. Neste estado, para todos os efeitos, o personagem é tratado como morto. Se o personagem não for revivido, ele revive ao final da batalha em 1 de [<span class="hp"><b>VIDA</b></span>](/hero/#vida).
 
     !!!
-    Alguns efeitos de cartas e regras de campanha podem especificar que um personagem morto deve ser tratado como nocauteado, nestes casos, se a [<span class="main"><b>VIDA</b></span>](/hero/#vida) do personagem for menor que 0, o personagem fica com 0 de [<span class="main"><b>VIDA</b></span>](/hero/#vida).
+    Alguns efeitos de cartas e regras de campanha podem especificar que um personagem morto deve ser tratado como nocauteado, nestes casos, se a [<span class="hp"><b>VIDA</b></span>](/hero/#vida) do personagem for menor que 0, o personagem fica com 0 de [<span class="hp"><b>VIDA</b></span>](/hero/#vida).
     !!!
 
 💣 Perda Total [!badge overkill]
-:   É o estado de um personagem quando o valor absoluto (módulo) da sua [<span class="main"><b>VIDA</b></span>](/hero/#vida) negativa é maior ou igual à sua [<span class="main"><b>VIDA</b></span>](/hero/#vida) máxima positiva.
+:   É o estado de um personagem quando o valor absoluto (módulo) da sua [<span class="hp"><b>VIDA</b></span>](/hero/#vida) negativa é maior ou igual à sua [<span class="hp"><b>VIDA</b></span>](/hero/#vida) máxima positiva.
 
     Ele é considerado em um estado perda total, e não pode ser revivido, já que os danos ao seu corpo estão de tal forma que não há mais como reverter, e o personagem é considerado morto permanentemente.
 
     !!!
-    Alguns efeitos de cartas e situações de campanha podem especificar que um personagem morto deve ser tratado como perda total, nestes casos, altere a [<span class="main"><b>VIDA</b></span>](/hero/#vida) negativa do personagem para que seja igual ao valor necessário para estar neste estado, se o valor atual já não for o suficiente.
+    Alguns efeitos de cartas e situações de campanha podem especificar que um personagem morto deve ser tratado como perda total, nestes casos, altere a [<span class="hp"><b>VIDA</b></span>](/hero/#vida) negativa do personagem para que seja igual ao valor necessário para estar neste estado, se o valor atual já não for o suficiente.
     !!!
 
     !!!
-    Em adicional, se o valor absoluto (módulo) da sua [<span class="main"><b>VIDA</b></span>](/hero/#vida) negativa for maior ou igual à **duas vezes** sua [<span class="main"><b>VIDA</b></span>](/hero/#vida) máxima positiva, a peça deste personagem foi destruída, e portanto deve ser removida do tabuleiro.
+    Em adicional, se o valor absoluto (módulo) da sua [<span class="hp"><b>VIDA</b></span>](/hero/#vida) negativa for maior ou igual à **duas vezes** sua [<span class="hp"><b>VIDA</b></span>](/hero/#vida) máxima positiva, a peça deste personagem foi destruída, e portanto deve ser removida do tabuleiro.
     !!!
 
 Quando um personagem morto é revivido, ele é adicionado ao final da fila de turnos, caso não tenha tido um turno nesta rodada ainda. Jogando na ordem normal, a partir da próxima rodada.

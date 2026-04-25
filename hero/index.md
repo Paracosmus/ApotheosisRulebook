@@ -30,7 +30,7 @@ Como pode notar, o cabeçalho é um espaço para descrever informações narrati
 
 ## Vida
 
-[<span class="main"><b>VIDA</b></span>](/hero/#vida) = 4 + Nível do Herói
+[<span class="hp"><b>VIDA</b></span>](/hero/#vida) = 4 + Nível do Herói
 
 ---
 
@@ -66,10 +66,10 @@ Representa a quantidade de ações que um personagem pode realizar em um turno. 
 
 ## Morte
 
-O personagem morre quando a sua [<span class="main"><b>VIDA</b></span>](/hero/#vida) é reduzida a 0 ou menos. Caso o personagem morra, encerra-se a história para ele. Se todos os personagens de um jogador morrerem, é o fim do jogo para o jogador e, caso o jogador queira continuar jogando, ele deve criar outro personagem.
+O personagem morre quando a sua [<span class="hp"><b>VIDA</b></span>](/hero/#vida) é reduzida a 0 ou menos. Caso o personagem morra, encerra-se a história para ele. Se todos os personagens de um jogador morrerem, é o fim do jogo para o jogador e, caso o jogador queira continuar jogando, ele deve criar outro personagem.
 
 !!!
-Os critérios para morte podem ser modificados de acordo com a campanha. Por exemplo, uma determinada missão pode especificar que um personagem deve ser nocauteado e capturado vivo, e que naquela missão específica, aquele personagem é considerado nocauteado quando sua [<span class="main"><b>VIDA</b></span>](/hero/#vida) for 0 ou menos.
+Os critérios para morte podem ser modificados de acordo com a campanha. Por exemplo, uma determinada missão pode especificar que um personagem deve ser nocauteado e capturado vivo, e que naquela missão específica, aquele personagem é considerado nocauteado quando sua [<span class="hp"><b>VIDA</b></span>](/hero/#vida) for 0 ou menos.
 !!!
 
 Ao final da batalha, o personagem pode ser revivido por alguns efeitos de cartas, se isto não for feito, o personagem está então permanentemente morto.
@@ -82,14 +82,14 @@ Ao final da batalha, o personagem pode ser revivido por alguns efeitos de cartas
 
 > É uma ajuda do destino que salva o personagem da morte, onde por sorte, destino ou acaso, o personagem consegue de alguma forma escapar de uma fatalidade e sobreviver a uma tragédia.
 
-Uma vez por batalha, quando uma ação resultar em sua [<span class="main"><b>VIDA</b></span>](/hero/#vida) ficar menor ou igual a 0, antes de determinar que este personagem está morto, ele ainda pode obter uma _Salvação Divina_.
+Uma vez por batalha, quando uma ação resultar em sua [<span class="hp"><b>VIDA</b></span>](/hero/#vida) ficar menor ou igual a 0, antes de determinar que este personagem está morto, ele ainda pode obter uma _Salvação Divina_.
 
-O jogador deve observar quantos pontos [<span class="main"><b>VIDA</b></span>](/hero/#vida) negativa o personagem ficou, o personagem deve então descartar 3 de [<span class="event"><b>DESTINO</b></span>](/cards/event.md), e mais 2 de [<span class="event"><b>DESTINO</b></span>](/cards/event.md) para cada ponto de [<span class="main"><b>VIDA</b></span>](/hero/#vida) negativo que tiver. Qualquer excesso descartado é perdido. O personagem então não morre, mas fica com 1 de [<span class="main"><b>VIDA</b></span>](/hero/#vida).
+O jogador deve observar quantos pontos [<span class="hp"><b>VIDA</b></span>](/hero/#vida) negativa o personagem ficou, o personagem deve então descartar 3 de [<span class="event"><b>DESTINO</b></span>](/cards/event.md), e mais 2 de [<span class="event"><b>DESTINO</b></span>](/cards/event.md) para cada ponto de [<span class="hp"><b>VIDA</b></span>](/hero/#vida) negativo que tiver. Qualquer excesso descartado é perdido. O personagem então não morre, mas fica com 1 de [<span class="hp"><b>VIDA</b></span>](/hero/#vida).
 
 !!!
 Em uma _Salvação Divina_, não se considera que o personagem tenha morrido, nem que tenha sido curado ou revivido, portanto, não se deve aplicar as mecânicas e efeitos relacionados a estes casos e o personagem pode continuar jogando normalmente.
 
-Efeitos que consideram o <b>DANO</b> e <b>LESÃO</b> sofrido pelo personagem, devem ser aplicados normalmente e considerando o valor real que resultou em [<span class="main"><b>VIDA</b></span>](/hero/#vida) zerada ou negativa.
+Efeitos que consideram o <b>DANO</b> e <b>LESÃO</b> sofrido pelo personagem, devem ser aplicados normalmente e considerando o valor real que resultou em [<span class="hp"><b>VIDA</b></span>](/hero/#vida) zerada ou negativa.
 !!!
 
 ---

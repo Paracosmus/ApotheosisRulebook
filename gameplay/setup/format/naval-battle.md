@@ -36,7 +36,7 @@ Os 7 atributos de um [<span class="companion"><b>COMPANHEIRO</b></span>](/car
 #### Peças
 * Utilizam-se peças de tabuleiro para representar os navios e as unidades navais em combate.
 * É criada uma peça para cada navio, com base em uma carta de navio com a propriedade **Navio**.
-* Regras de [<span class="main"><b>VIDA</b></span>](/hero/#vida), <b>DANO</b>, <b>LESÃO</b> e efeitos de companheiros são aplicados a cada peça, como se fossem peças de cartas de [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md).
+* Regras de [<span class="hp"><b>VIDA</b></span>](/hero/#vida), <b>DANO</b>, <b>LESÃO</b> e efeitos de companheiros são aplicados a cada peça, como se fossem peças de cartas de [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md).
 
 ---
 
@@ -65,12 +65,12 @@ Os 7 atributos de um [<span class="companion"><b>COMPANHEIRO</b></span>](/car
 * O <b>ALCANCE</b> do ataque é do tipo <b>DIRETO</b> e se utiliza as regras padrões de cálculo de distância.
 * O navio pode atacar apenas uma vez por turno, sem custos em [<span class="main"><b>AÇÃO</b></span>](/hero/#ação), e seu turno encerra após o ataque.
     * **Round Shot**: Canhões + 
-    * **Grape Shot**: Canhões + ; Além da [<span class="main"><b>VIDA</b></span>](/hero/#vida), o alvo perde tripulação igual à <b>LESÃO</b>; Este ataque nunca deixa um navio com menos de 1 de tripulação
+    * **Grape Shot**: Canhões + ; Além da [<span class="hp"><b>VIDA</b></span>](/hero/#vida), o alvo perde tripulação igual à <b>LESÃO</b>; Este ataque nunca deixa um navio com menos de 1 de tripulação
     * **Chain Shot**: O alvo perde <span class="negative">1</span> _Contador de Velocidade_; Este ataque não causa <b>DANO</b>
     * **Abalroar**: Se ao se mover, a seu navio terminar em uma casa do tabuleiro cuja à sua frente esteja outro navio, se o valor de **Carga** do seu navio for maior que a do outro, você pode colidir com ele e causar <span class="negative">2</span> de <b>LESÃO</b>
     * **Abordar**: Ambos os navios rolam uma competição de ( _Contadores de Tripulação_ +  ), quem perder, perde <span class="negative">2</span> de **Tripulação**; Em caso de empate, os dois perdem <span class="negative">1</span> de Tripulação; Se um navio ficar com 0 de tripulação durante uma abordagem, ele passa para o controle do outro time.
 * Ataques pelas costas causam <span class="negative">+3</span> de <b>DANO</b>
-* Se a [<span class="main"><b>VIDA</b></span>](/hero/#vida) de um navio chegar a 0 ou menos, ele é considerado afundado e retirado do campo de batalha; Ao final da batalha, o time vencedor pode coletar metade da carga dos navios afundados
+* Se a [<span class="hp"><b>VIDA</b></span>](/hero/#vida) de um navio chegar a 0 ou menos, ele é considerado afundado e retirado do campo de batalha; Ao final da batalha, o time vencedor pode coletar metade da carga dos navios afundados
 
 ---
 

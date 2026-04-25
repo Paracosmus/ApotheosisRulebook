@@ -176,7 +176,7 @@ A mesma consideração deve ser feita quando uma carta é obtida pelo COMPANHEIR
 
 ### <span class="companion">Vida</span>
 
-O [<span class="main"><b>VIDA</b></span>](/hero/#vida) da peça de um companheiro no tabuleiro é determinada pelo nível da carta.
+O [<span class="hp"><b>VIDA</b></span>](/hero/#vida) da peça de um companheiro no tabuleiro é determinada pelo nível da carta.
 
 | Nível  | Vida           | {.compact}
 | ---    | ---            |

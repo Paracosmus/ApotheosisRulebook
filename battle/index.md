@@ -42,7 +42,7 @@ A área de domínio aumenta em 1 de [<span class="main"><b>AÇÃO</b></span>]
 ## DESCANSAR
 O personagem pode sacrificar o seu turno para recuperar:
 
-* 1 de [<span class="main"><b>VIDA</b></span>](/hero/#vida).
+* 1 de [<span class="hp"><b>VIDA</b></span>](/hero/#vida).
 ou
 * 2 de [<span class="skill"><b>ESTAMINA</b></span>](/hero/#estamina) e/ou [<span class="skill"><b>MANA</b></span>](/hero/#mana).
 
@@ -88,7 +88,7 @@ Você pode utilizar uma carta conforme as regras durante a batalha. Você pode u
 
 ## Dano
 
-Todo ataque causa uma quantidade de <b>DANO</b>. O personagem que recebeu o ataque perde uma quantidade de [<span class="main"><b>VIDA</b></span>](/hero/#vida) equivalente ao <b>DANO</b> sofrido. A quantidade de [<span class="main"><b>VIDA</b></span>](/hero/#vida) perdida é chamada de <b>LESÃO</b> e calculada observando os seguintes passos.
+Todo ataque causa uma quantidade de <b>DANO</b>. O personagem que recebeu o ataque perde uma quantidade de [<span class="hp"><b>VIDA</b></span>](/hero/#vida) equivalente ao <b>DANO</b> sofrido. A quantidade de [<span class="hp"><b>VIDA</b></span>](/hero/#vida) perdida é chamada de <b>LESÃO</b> e calculada observando os seguintes passos.
 
 * +1 de <b>LESÃO</b> se o <b>DANO</b> for maior ou igual à metade da [<span class="house"><b>CON</b></span>](/hero/attributes.md) do alvo
 * +1 de <b>LESÃO</b> se o <b>DANO</b> for maior ou igual à [<span class="house"><b>CON</b></span>](/hero/attributes.md) do alvo

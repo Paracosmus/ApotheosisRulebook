@@ -27,7 +27,7 @@ Evocar uma [<span class="companion"><b>EVOCAÇÃO</b></span>](/cards/companio
 :   **2** de [<span class="skill"><b>MANA</b></span>](/hero/#mana) por nível do [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) a ser evocado
 
 Descansar
-:   Ação total para curar <span class="positive">10</span> de [<span class="main"><b>VIDA</b></span>](/hero/#vida) e recuperar <span class="positive">2</span> de **Energia**
+:   Ação total para curar <span class="positive">10</span> de [<span class="hp"><b>VIDA</b></span>](/hero/#vida) e recuperar <span class="positive">2</span> de **Energia**
 
 Trocar cartas com a Pilha de Descarte
     - _Comprar [<span class="item"><b>ITEM</b></span>](/cards/item.md)_
