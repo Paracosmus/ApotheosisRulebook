@@ -7,6 +7,6 @@ order: 50
 
 # Técnica
 
-Quando a técnica de uma carta de {{ companion }} é ativada, a carta de {{ companion }} correspondente também é considerada ativada, permitindo respostas e interações conforme as regras de ativação de cartas.
+Quando a técnica de uma carta de {{ companion }} é ativada, a carta de {{ companion }} correspondente está sendo ativada, porém, ao invés do seu efeito padrão, uma técnica é que será aplicada, permitindo respostas e interações conforme as regras de ativação de cartas.
 
 ---

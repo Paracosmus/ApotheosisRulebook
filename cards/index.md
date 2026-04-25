@@ -24,6 +24,8 @@ Existem sete naipes de cartas, cada um com suas próprias características e mec
 
   > Representam características intrínsecas do personagem, como sua origem e ocupação.
 
+  São identificadas pelo fundo branco.
+
   [!card layout="snap" title="House" icon="/static/img/icons/suit_house.svg"](/cards/house.md) [!card layout="snap" title="Class" icon="/static/img/icons/suit_class.svg"](/cards/class.md)
   [!card layout="snap" title="Entity" icon="/static/img/icons/suit_entity.svg"](/cards/entity.md)
 
@@ -42,6 +44,8 @@ Existem sete naipes de cartas, cada um com suas próprias características e mec
 ==- Carta de Recurso [!badge text="Asset Card" variant="ghost"]
 
   > Representam elementos que auxiliam o personagem em sua jornada, como objetos e capacidades.
+
+  São identificadas por um fundo preto.
 
   [!card layout="snap" title="Item" icon="/static/img/icons/suit_item.svg"](/cards/item.md) [!card layout="snap" title="Skill" icon="/static/img/icons/suit_skill.svg"](/cards/skills.md)
 
