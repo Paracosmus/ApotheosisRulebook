@@ -458,6 +458,14 @@ Além disso, alguns conceitos relacionados teóricos inferidos no texto são imp
 
   |||
 
+  ||| **(mín) (máx)**
+
+  É utilizado para indicar valores mínimos e máximos que uma variável, operação ou teste pode ter, tendo função limitadora.
+  - **Ex.:** Você causa {{ p '+1' }} de {{ dmg }} para cada carta no seu {{ inv }} (máx 5)
+    - Significa que o valor de {{ dmg }} causado por esta carta é igual a 1 vezes a quantidade de cartas na sua mão, porém o valor máximo de {{ dmg }} extra provido por esta carta é 5, mesmo que haja mais de 5 cartas na sua mão.
+
+  |||
+
 ===
 
 ---
