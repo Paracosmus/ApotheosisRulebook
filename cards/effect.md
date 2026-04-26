@@ -454,6 +454,14 @@ Além disso, alguns conceitos relacionados teóricos inferidos no texto são imp
 
   |||
 
+  ||| **(mín) (máx)**
+
+  É utilizado para indicar valores mínimos e máximos que uma variável, operação ou teste pode ter, tendo função limitadora.
+  - **Ex.:** Você causa <span class="positive">+1</span> de <b>DANO</b> para cada carta no seu [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) (máx 5)
+    - Significa que o valor de <b>DANO</b> causado por esta carta é igual a 1 vezes a quantidade de cartas na sua mão, porém o valor máximo de <b>DANO</b> extra provido por esta carta é 5, mesmo que haja mais de 5 cartas na sua mão.
+
+  |||
+
 ===
 
 ---
