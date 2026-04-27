@@ -96,3 +96,17 @@ Em mecânicas de jogo, é quando o {{ entity }} é de **nível 3** ({{ god }}), 
 Em mecânicas de jogo, é quando o {{ entity }} é de **nível 3** ({{ god }}), e a raridade de sua carta é {{ legendary }}.
 
 ---
+
+## Curiosidades
+
+### Nomes
+
+Os {{ sprite }} são inspirados em seres espirituais e espíritos da natureza, como fadas, duendes, elementais, etc. Eles são os entes mais comuns e fáceis de encontrar, mas também os menos poderosos.
+
+As {{ deity }} são inspirados em divindades menores, como deuses locais, deuses da natureza, deuses olímpicos, etc. Eles são mais raros e poderosos que os {{ sprite }}, mas também mais difíceis de encontrar. Os deuses dos diferentes panteões mitológicos, como grego, romano, nórdico, egípcio, etc., são exemplos de {{ deity }}.
+
+Os {{ god }} são inspirados nos Aeons do gnosticismo, que são seres divinos e eternos, que emanam a luz e a sabedoria do Deus supremo. Eles são os entes mais raros e poderosos, mas também os mais difíceis de encontrar. Eles são divididos narrativamente em dois grupos, os deuses primordiais, que são os primeiros seres criados, praticamente tão antigos quando o próprio conceito de existência, ligados à criação do universo e à origem da vida. E os deuses sucessores que são os deuses que surgiram depois, ligados a eventos específicos ou ações. Os deuses primordiais são exemplos de {{ god }} de grande apoteose, enquanto os deuses sucessores são exemplos de {{ god }} de pequena apoteose.
+
+Os deuses são nomeados conforme o conceito que representam, como por exemplo, deus da vida, deus da morte, deus da sabedoria, etc. Em alguns casos o nome da entidade da qual foram inspirados é mantido, para preservar a sua identidade e referência. Quando for este o caso, uma tradução ou explicação será adicionado após um hífen ao nome do deus como "Sophia - A Sabedoria Divina", "Abaddon - A Perdição", etc..
+
+---
