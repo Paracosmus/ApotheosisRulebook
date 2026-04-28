@@ -33,3 +33,40 @@ Consulte a seção [Região](/lore/world.md#região).
 É recomendado que toda campanha tenha um objetivo final claro, que pode ser alcançado através de uma série de missões ou etapas. Cada missão deve ter seus próprios objetivos, desafios e recompensas, contribuindo para o progresso da história e o desenvolvimento dos personagens.
 
 ---
+
+## Efeitos de Campanha
+
+Campanhas podem incluir efeitos especiais, como bônus ou penalidades para os personagens, mudanças no ambiente de jogo, ou outras mecânicas que afetam a jogabilidade. Esses efeitos podem ser temporários ou permanentes, e devem ser claramente definidos e comunicados aos jogadores quando foram ativados ou inativados, sendo que, não é necessário revelá-los antes do momento em que eles são ativados.
+
+Os efeitos de campanha funcionam exatamente como qualquer outro efeito, seguindo as mesmas regras e mecânicas estabelecidas no jogo. Porém, eles não estão ligados a uma carta específica, e sim à campanha como um todo.
+
+Durante a campanha, será determinado quando um efeito está ativo ou inativo. Quando ativos, eles são tratados de forma semelhante às cartas no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/scenario.md), porém sem uma carta associada, e assim como no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/scenario.md), os efeitos de campanha estão disponíveis e são aplicados à todos os personagens.
+
+- Efeitos [<span class="keyword-activation">Ativar</span>](/cards/effect.md) podem ser ativados por qualquer personagem no seu turno ou quando as condições para sua ativação forem atendidas.
+- Efeitos [<span class="keyword-activation">Auto</span>](/cards/effect.md) são ativados automaticamente quando as condições para sua ativação forem atendidas.
+
+!!!secondary Exemplo 1
+Em uma campanha, pode haver um efeito de campanha que concede um bônus de +1 para todas as jogadas de ataque durante a missão "Invasão do Castelo". Esse efeito estaria ativo durante toda a missão, e todos os personagens se beneficiariam dele enquanto estiver ativo.
+!!!
+
+!!!secondary Exemplo 2
+Em uma campanha onde durante a noite uma maldição afeta todos os animais e eles ficam loucos e agressivos.
+
+> [<span class="keyword-activation">Permanente</span>](/cards/effect.md) <span class="req">【</span> Quando Noite, Meia Noite, ou Madrugada <span class="req">】</span> [<span class="companion"><b>CRIATURA</b></span>](/cards/companion.md#-criatura) causam <span class="positive">+10</span> de <b>DANO</b>.
+!!!
+
+!!!secondary Exemplo 3
+Em uma campanha onde existem mecânicas de fome, sede, e sono.
+
+> [<span class="keyword-activation">Auto</span>](/cards/effect.md) [<span class="keyword-timing">Fase de Recomposição</span>](/cards/effect.md) Adicione <span class="negative">1</span> **❂CONTADOR DE FOME**, <span class="negative">1</span> **❂CONTADOR DE SEDE** e <span class="negative">1</span> **❂CONTADOR DE SONO**, a sua [<span class="house"><b>CASA</b></span>](/cards/house.md).
+
+> [<span class="keyword-activation">Permanente</span>](/cards/effect.md) Você recebe bônus de <span class="negative">-1</span> em **Testes** e <b>DANO</b> para cada **❂CONTADOR DE FOME**, **❂CONTADOR DE SEDE** e **❂CONTADOR DE SONO** na sua [<span class="house"><b>CASA</b></span>](/cards/house.md).
+
+> [<span class="keyword-activation">Ativar</span>](/cards/effect.md) <span class="req">【</span> Descarte um **CONSUMÍVEL** <span class="req">】</span> Remova um **❂CONTADOR DE FOME** da sua [<span class="house"><b>CASA</b></span>](/cards/house.md).
+
+> [<span class="keyword-activation">Ativar</span>](/cards/effect.md) <span class="req">【</span> Descarte uma **ÁGUA** <span class="req">】</span> Remova um **❂CONTADOR DE SEDE** da sua [<span class="house"><b>CASA</b></span>](/cards/house.md).
+
+> [<span class="keyword-activation">Ativar</span>](/cards/effect.md) <span class="req">【</span> Quando _Descansar_ <span class="req">】</span> Remova **3** **❂CONTADOR DE SONO** da sua [<span class="house"><b>CASA</b></span>](/cards/house.md).
+!!!
+
+---

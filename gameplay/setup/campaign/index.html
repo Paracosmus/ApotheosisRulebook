@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.830565286050">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.830731786717">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.5.3">
@@ -41,11 +41,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.5.3.830565286050" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.5.3.830731786717" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.5.3.830565286050" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.5.3.830731786717" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.5.3.830565286050" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.5.3.830731786717" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -499,6 +499,87 @@
 <h2 id="missões">Missões</h2>
 <p>É recomendado que toda campanha tenha um objetivo final claro, que pode ser alcançado através de uma série de missões ou etapas. Cada missão deve ter seus próprios objetivos, desafios e recompensas, contribuindo para o progresso da história e o desenvolvimento dos personagens.</p>
 <hr>
+<h2 id="efeitos-de-campanha">Efeitos de Campanha</h2>
+<p>Campanhas podem incluir efeitos especiais, como bônus ou penalidades para os personagens, mudanças no ambiente de jogo, ou outras mecânicas que afetam a jogabilidade. Esses efeitos podem ser temporários ou permanentes, e devem ser claramente definidos e comunicados aos jogadores quando foram ativados ou inativados, sendo que, não é necessário revelá-los antes do momento em que eles são ativados.</p>
+<p>Os efeitos de campanha funcionam exatamente como qualquer outro efeito, seguindo as mesmas regras e mecânicas estabelecidas no jogo. Porém, eles não estão ligados a uma carta específica, e sim à campanha como um todo.</p>
+<p>Durante a campanha, será determinado quando um efeito está ativo ou inativo. Quando ativos, eles são tratados de forma semelhante às cartas no <a href="/gameplay/scenario/"><span class="event"><b>CENÁRIO</b></span></a>, porém sem uma carta associada, e assim como no <a href="/gameplay/scenario/"><span class="event"><b>CENÁRIO</b></span></a>, os efeitos de campanha estão disponíveis e são aplicados à todos os personagens.</p>
+<ul>
+<li>Efeitos <a href="/cards/effect/"><span class="keyword-activation">Ativar</span></a> podem ser ativados por qualquer personagem no seu turno ou quando as condições para sua ativação forem atendidas.</li>
+<li>Efeitos <a href="/cards/effect/"><span class="keyword-activation">Auto</span></a> são ativados automaticamente quando as condições para sua ativação forem atendidas.</li>
+</ul>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-secondary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-secondary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Exemplo 1</h5>
+<p>Em uma campanha, pode haver um efeito de campanha que concede um bônus de +1 para todas as jogadas de ataque durante a missão &quot;Invasão do Castelo&quot;. Esse efeito estaria ativo durante toda a missão, e todos os personagens se beneficiariam dele enquanto estiver ativo.</p>
+        </div>
+    </div>
+</div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-secondary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-secondary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Exemplo 2</h5>
+<p>Em uma campanha onde durante a noite uma maldição afeta todos os animais e eles ficam loucos e agressivos.</p>
+<blockquote>
+<p><a href="/cards/effect/"><span class="keyword-activation">Permanente</span></a> <span class="req">【</span> Quando Noite, Meia Noite, ou Madrugada <span class="req">】</span> <a href="/cards/companion/#-criatura"><span class="companion"><b>CRIATURA</b></span></a> causam <span class="positive">+10</span> de <b>DANO</b>.</p>
+</blockquote>
+        </div>
+    </div>
+</div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-secondary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-secondary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Exemplo 3</h5>
+<p>Em uma campanha onde existem mecânicas de fome, sede, e sono.</p>
+<blockquote>
+<p><a href="/cards/effect/"><span class="keyword-activation">Auto</span></a> <a href="/cards/effect/"><span class="keyword-timing">Fase de Recomposição</span></a> Adicione <span class="negative">1</span> <strong>❂CONTADOR DE FOME</strong>, <span class="negative">1</span> <strong>❂CONTADOR DE SEDE</strong> e <span class="negative">1</span> <strong>❂CONTADOR DE SONO</strong>, a sua <a href="/cards/house/"><span class="house"><b>CASA</b></span></a>.</p>
+</blockquote>
+<blockquote>
+<p><a href="/cards/effect/"><span class="keyword-activation">Permanente</span></a> Você recebe bônus de <span class="negative">-1</span> em <strong>Testes</strong> e <b>DANO</b> para cada <strong>❂CONTADOR DE FOME</strong>, <strong>❂CONTADOR DE SEDE</strong> e <strong>❂CONTADOR DE SONO</strong> na sua <a href="/cards/house/"><span class="house"><b>CASA</b></span></a>.</p>
+</blockquote>
+<blockquote>
+<p><a href="/cards/effect/"><span class="keyword-activation">Ativar</span></a> <span class="req">【</span> Descarte um <strong>CONSUMÍVEL</strong> <span class="req">】</span> Remova um <strong>❂CONTADOR DE FOME</strong> da sua <a href="/cards/house/"><span class="house"><b>CASA</b></span></a>.</p>
+</blockquote>
+<blockquote>
+<p><a href="/cards/effect/"><span class="keyword-activation">Ativar</span></a> <span class="req">【</span> Descarte uma <strong>ÁGUA</strong> <span class="req">】</span> Remova um <strong>❂CONTADOR DE SEDE</strong> da sua <a href="/cards/house/"><span class="house"><b>CASA</b></span></a>.</p>
+</blockquote>
+<blockquote>
+<p><a href="/cards/effect/"><span class="keyword-activation">Ativar</span></a> <span class="req">【</span> Quando <em>Descansar</em> <span class="req">】</span> Remova <strong>3</strong> <strong>❂CONTADOR DE SONO</strong> da sua <a href="/cards/house/"><span class="house"><b>CASA</b></span></a>.</p>
+</blockquote>
+        </div>
+    </div>
+</div>
+<hr>
 <div id="retype-backlinks">
     <h2>See also</h2>
 <div class="card-compact-group">
@@ -531,8 +612,8 @@
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-04-06T16:12:41" title="2026-04-06" data-absolute-label="Last updated on 2026-04-06 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-04-06 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
-                        Last updated on 2026-04-06 by Bruno Caxito
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-04-28T19:49:47" title="2026-04-28" data-absolute-label="Last updated on 2026-04-28 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-04-28 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                        Last updated on 2026-04-28 by Bruno Caxito
                     </time>
                 </div>
 
