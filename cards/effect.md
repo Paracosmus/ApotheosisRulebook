@@ -559,12 +559,15 @@ Todos os efeitos do tipo {{ auto }} que são ativados em resposta a um efeito de
 
 Uma vez que todos os efeitos {{ auto }} tenham sido ativados, resolvidos e removidos da pilha de encadeamento, os jogadores podem então responder manualmente com os efeitos {{ activate }}, também seguindo a ordem de prioridade abaixo.
 
-1. **Cartas do Cenário**
-2. **Cartas de Heróis Oponentes**
-3. **Cartas de Heróis do Time**
-4. **Cartas do Herói (Ou Herói do Companheiro) do Turno**
-5. **Cartas da Pilha de Descarte**
-6. **Cartas do Mestre de Jogo**
+1. **Efeitos de Campanha**
+2. **Efeitos do Cenário**
+3. **Efeitos de Heróis Oponentes**
+4. **Efeitos de Heróis do Time**
+5. **Efeitos do Herói (Ou Herói do Companheiro) do Turno**
+6. **Efeitos da Pilha de Descarte**
+7. **Efeitos do Mestre de Jogo**
+
+A prioridade é dada ao efeito e nao à carta em sí, observe que isso significa que mesmo um efeito que não esteja ligado a uma carta, como um Efeito de Campanha ou Efeito de Modelo, por exemplo, entram na pilha de encadeamento.
 
 !!!
 Note que uma carta em uma pilha de descarte ou baralho controlados por um Herói são consideradas cartas do Herói, e não cartas da pilha de descarte.
