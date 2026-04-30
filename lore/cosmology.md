@@ -13,6 +13,46 @@ Esta seção ainda não foi completamente revisada. Algumas informações podem 
 
 ---
 
+## Os Primórdios
+
+!!-light Antes de Tudo
+
+  A linha cronológica de Apoteose começa vinda do Além, o mundo fora do jogo, de onde o jogo foi arquitetado. Não é possível falar quase nada sobre ele, pois ele é incompreensível para aqueles inseridos no universo do jogo.
+
+  A única coisa que pode ser dita sobre o Além é que filosoficamente, é necessário que lá existem três conceitos:
+
+  - **O Arquiteto:** Aquele que cria as regras da simulação.
+  - **O Mestre:** Aquele que cria a simulação conforme as regras.
+  - **Simulação:** O universo do jogo
+
+!!!
+
+!!-light Antes da Criação
+
+  1. **Caos Primordial:** No início existia apenas o **éter** deixado pelo Arquiteto, uma matéria prima vibracional de infinitas possibilidades, que pode ser moldado em qualquer coisa que se desejar, pelo poder da vontade da mente.
+  2. **Ordem no Caos:** A mente do Mestre então põe ordem no caos deixado pelo Arquiteto. De fora desta realidade a vontade do Mestre da início a tudo, e pela sua vontade ele transforma o éter e cria o **Universo** em sua mente, e em sua mente o universo reside.
+      1. *Universo → Mental e elétrico por estar na mente do Mestre*
+  3. O Mestre começa criando a interface inicial por onde ele pode interagir com o universo, chamada de **Mônada**, “O Primeiro Numinoso”. Aquele de onde se emanou e originou tudo que existe. Um ser assexuado, composto apenas por espírito, de extremos poderes e sabedoria.
+      1. *Numinoso → Um ser de pura emanação. Sua forma de existência e incognoscível para humanos, pois o equivalente a suas mentes são emanações conscientes de éter dotadas de sabedoria e poder, e o equivalente aos seus corpos são os mundos e planos da existência desse universo, portanto, cada camada de existência desse universo é como se fosse um corpo de um numinoso. Um numinoso é capaz de controlar tudo que se passa em seu “corpo”*, exceto aqueles dotados de livre arbítrio.
+      2. Os Numinosos também são chamados de os *deuses dos deuses*.
+  4. A Mônada emana de si mesmo a dualidade, na forma dos gêmeos da **Díada**, Luz e Trevas, formando assim a poderosa trindade que verdadeiramente rege o mundo do jogo. Sendo eles três e um ao mesmo tempo, compartilhando e dividindo o mesmo espírito, mas diferentes corpos, sendo a Díada como gêmeos siameses.
+      1. *Luz → Ação, bom, masculino, lado direito,. etc.*
+      2. *Trevas → Restrição, mau, feminino, lado esquerdo, etc.*
+      3. *Obs.: Note que para os numinosos certo e errado, bom e mau, não são conceitos dotados de julgamento. Isso é visto de forma mais pragmática e lógica para eles, sendo relacionado a frequências vibracionais e não a juízo de valor. Porém, a distinção é clara.*
+  5. A trindade cria os primeiros **Entes**, chamados de **Deuses,** emanações vindas da trindade, tendo certas características vibracionais que os definem e as quais eles representam e emanam. Com a intensão de popular e expandir a existência, gerar, viver e experienciar tudo aquilo que há, a trindade e os deuses continuaram sua expansão e desenvolvimento.
+      1. *Ente → Quando um conceito, ideia, arquétipo, etc. recebe energia suficiente, através de vibrações, pensamentos, etc., o éter se molda mentalmente neste conceito, se tornando um ente, um ser sem corpo e forma, feito puramente de éter significado, tendo uma existência semelhante a de um pensamento ou ideia arquetípica, portanto, sem corpo, mente ou espírito. Um ente representa e emana o conceito que o define, vibrando e moldando o éter a sua imagem.*
+      2. *Deus → Uma emanação pura de um determinado conceito divino, como sabedoria, poder e vida. O primeiro deus criado foi a ideia da emanação do próprio Uno, a ideia do caos de infinitas possibilidades, criando assim o deus de mesmo nome, Uno, também chamado de Caos.*
+  6. A trindade então, mais especificamente na persona das Trevas, tenta criar algo semelhante a eles, algo superior aos deuses, um novo numinoso. Tentando mimetizar aquilo que a Mônada fez, as Trevas tenta manipular o éter para dar-lhe a centelha divina da trindade, mas falha, e em suas tentativas e experimentos acaba criando um “corpo sem mente”, um mundo sem uma consciência que o controle, como uma casta vazia. Ela cria o Vazio.
+      1. *Obs.: Note que os mundos e planos do universo são todos como se fossem o equivalente ao corpo de um numinoso, portanto ao criar o Vazio, um novo plano no universo, ela tentou criar um numinoso primeiro pelo seu corpo, em vez de sua essência, criando assim um corpo sem espírito, um lugar no universo que é e não é um numinoso ao mesmo tempo.*
+      2. *Centelha Divina → O mesmo que o espírito. Espírito é um componente que faz parte da constituição da consciência e existência da trindade.*
+  7. Tentando entender o que havia criado, ela percebe que o Vazio, por não ter sua própria consciência, permitia que qualquer consciência que para lá pudesse se transportar, tivesse o poder de dali criar e emanar as energias daquele plano conforme a força da sua vontade. E por ser um plano em uma frequência vibracional do éter inferior ao da Unidade, ela descobre que seus pensamentos ali podem tomar forma e consistência. Então as Trevas em seus experimentos cria algo diametralmente oposto ao divino… o **material**.
+      1. *Matéria → Criado por acidente pelas Trevas, é o resultado de diminuir a frequência vibracional do éter a um ponto tal que ele assume forma “sólida”, criando assim a matéria física.*
+      2. *Obs.: Os demais “personas” da trindade também estavam engajadas em seus próprios experimentos e criações, fazendo novos deuses e aprendendo e experienciando. Para a trindade os conceitos de certo e errado são diferentes dos humanos, e o que as Trevas fazia até então era nada mais que uma outra abordagem interessante para tudo que estavam fazendo.*
+  8. Mas as Trevas, percebe finalmente que o que está fazendo não é uma ideia sensata, e decide parar com aquela abordagem, pois a matéria claramente se mostra não ser a abordagem para o que ela buscava. Porém já era tarde demais, em uma de suas tentativas de criar um numinoso no Vazio usando o poder da sua vontade ela fora em parte bem sucedida, e “gestara” um novo numinoso. Mas ao abortar seus experimentos no vazio ela também abortara o seu “filho” achando que ele simplesmente cessaria de existir. Mas não é o que aconteceu, ele sobreviveu e estava agora solto e sozinho no Vazio, um ser de extremo poder, ignorante das suas origens, e sem supervisão ou quem o educasse.
+  9. Se viu então sozinho, e quando finalmente tomou consciência da própria existência e solidão ele disse “Não há outro além de mim”. E no vazio ele amadureceu solitário, e do tédio e solidão ele eventualmente aprendeu que sua vontade ali se tornava “realidade”. Então ele aprendeu a criar a matéria e se chamou de o Criador. No entanto, sem a responsabilidade e cautela que sua mãe tinha em seus experimentos, o Criador fez da matéria abundante, tanto que resultou em um novo Mundo ainda mais denso que o Vazio, e ao olhar para esse mundo, ele acabou se contaminando pela baixa vibração etérea da matéria e nesse mundo ele caiu e ficou preso.
+
+!!!
+
 ---
 
 ## A Criação

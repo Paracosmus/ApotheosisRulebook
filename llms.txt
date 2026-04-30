@@ -107,6 +107,7 @@
 - [Propriedade](https://apotheosiscardgame.com/cards/tag.md): São palavras-chave no canto inferior direito da carta e podem ser identificadas pelo ícone de um quadrado da mesma cor do naipe da carta .
 - [Coleção](https://apotheosiscardgame.com/cards/collection.md): Elemento importante na organização e identificação das cartas em um jogo de cartas colecionáveis, ela representa o conjunto de cartas que foram lançadas juntas, geralmente com uma temática ou história em comum.
 - [Raridade](https://apotheosiscardgame.com/cards/rarity.md): A raridade de uma carta é indicada por uma caixinha colorida com uma letra capitalizada, no canto inferior direito. Ela influencia na qualidade da carta, geralmente com um efeito ou status melhores.
+- [Lignum](https://apotheosiscardgame.com/cards/lignum.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 
 ### Summus
 
@@ -168,9 +169,9 @@
 
 - [Modo de Jogo](https://apotheosiscardgame.com/gameplay/game-mode/index.md): A forma como os jogadores interagem com o sistema. Pode variar desde um modo imaginativo, até um modo apenas no tabuleiro.
 - [Modo de Batalha](https://apotheosiscardgame.com/gameplay/game-mode/battle-mode.md): É o modo de jogo onde os jogadores participam de combates táticos, utilizando as regras de batalha para resolver ações e efeitos de cartas.
-- [Modo de Vasculhador](https://apotheosiscardgame.com/gameplay/game-mode/scavenger-mode.md): É o modo de jogo onde os Heróis exploram os ermos prateados em busca de resgatar tesouros e segredos antigos.
 - [Modo Narrativo](https://apotheosiscardgame.com/gameplay/game-mode/story-mode.md): É o modo de jogo onde os jogadores participam de uma narrativa livre, focada em interpretação e estória, com resolução de ações através de testes.
 - [Modo de Viagem](https://apotheosiscardgame.com/gameplay/game-mode/travel-mode.md): É um modo utilizado quando o grupo se desloca de um local do mapa da região para outro local distante, sem que seja necessário jogar todos os momentos de uma longa viagem.
+- [Modo de Vasculhador](https://apotheosiscardgame.com/gameplay/game-mode/scavenger-mode.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [Personagens](https://apotheosiscardgame.com/gameplay/characters.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [Mestre de Jogo](https://apotheosiscardgame.com/gameplay/game-master.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [Baralhos](https://apotheosiscardgame.com/gameplay/decks.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.

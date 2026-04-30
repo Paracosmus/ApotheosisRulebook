@@ -66,11 +66,11 @@
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/lore/cosmology/</loc>
-    <lastmod>2026-04-06T14:58:40Z</lastmod>
+    <lastmod>2026-04-29T22:01:36Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/cards/effect/</loc>
-    <lastmod>2026-04-28T19:49:47Z</lastmod>
+    <lastmod>2026-04-29T22:01:36Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/cards/entity/</loc>
@@ -78,7 +78,7 @@
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/cards/skills/</loc>
-    <lastmod>2026-04-19T14:06:21Z</lastmod>
+    <lastmod>2026-04-29T22:01:36Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/battle/</loc>
@@ -107,6 +107,10 @@
   <url>
     <loc>https://apotheosiscardgame.com/cards/technique/</loc>
     <lastmod>2026-04-25T19:20:57Z</lastmod>
+  </url>
+  <url>
+    <loc>https://apotheosiscardgame.com/cards/lignum/</loc>
+    <lastmod>2026-04-29T22:01:36Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/cards/tag/</loc>
@@ -185,6 +189,10 @@
     <lastmod>2026-04-12T20:18:38Z</lastmod>
   </url>
   <url>
+    <loc>https://apotheosiscardgame.com/lore/beings/synthetic/</loc>
+    <lastmod>2026-03-31T18:25:31Z</lastmod>
+  </url>
+  <url>
     <loc>https://apotheosiscardgame.com/cards/summus/collegium/</loc>
     <lastmod>2026-02-27T19:37:56Z</lastmod>
   </url>
@@ -195,10 +203,6 @@
   <url>
     <loc>https://apotheosiscardgame.com/battle/board/</loc>
     <lastmod>2026-03-31T18:25:31Z</lastmod>
-  </url>
-  <url>
-    <loc>https://apotheosiscardgame.com/battle/initiative/</loc>
-    <lastmod>2026-04-06T16:12:41Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/lore/cards-sets/sets/protobot/</loc>
@@ -217,10 +221,6 @@
     <lastmod>2026-03-31T20:52:03Z</lastmod>
   </url>
   <url>
-    <loc>https://apotheosiscardgame.com/lore/beings/synthetic/</loc>
-    <lastmod>2026-03-31T18:25:31Z</lastmod>
-  </url>
-  <url>
     <loc>https://apotheosiscardgame.com/cards/summus/dominium/</loc>
     <lastmod>2026-02-27T19:37:56Z</lastmod>
   </url>
@@ -229,12 +229,16 @@
     <lastmod>2026-04-09T20:01:27Z</lastmod>
   </url>
   <url>
+    <loc>https://apotheosiscardgame.com/battle/initiative/</loc>
+    <lastmod>2026-04-06T16:12:41Z</lastmod>
+  </url>
+  <url>
     <loc>https://apotheosiscardgame.com/gameplay/game-mode/</loc>
     <lastmod>2026-04-09T22:02:33Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/guidelines/</loc>
-    <lastmod>2026-04-09T17:26:10Z</lastmod>
+    <lastmod>2026-04-29T22:01:36Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/lore/beings/created/abyssal/</loc>
@@ -313,6 +317,10 @@
     <lastmod>2026-03-31T18:25:31Z</lastmod>
   </url>
   <url>
+    <loc>https://apotheosiscardgame.com/lore/beings/numinous/trinity/</loc>
+    <lastmod>2026-03-31T18:25:31Z</lastmod>
+  </url>
+  <url>
     <loc>https://apotheosiscardgame.com/cards/summus/ars/</loc>
     <lastmod>2026-03-06T13:57:20Z</lastmod>
   </url>
@@ -342,10 +350,6 @@
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/lore/beings/entity/sprite/</loc>
-    <lastmod>2026-03-31T18:25:31Z</lastmod>
-  </url>
-  <url>
-    <loc>https://apotheosiscardgame.com/lore/beings/numinous/trinity/</loc>
     <lastmod>2026-03-31T18:25:31Z</lastmod>
   </url>
   <url>
@@ -406,7 +410,7 @@
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/gameplay/game-mode/travel-mode/</loc>
-    <lastmod>2026-04-09T22:02:33Z</lastmod>
+    <lastmod>2026-04-29T22:01:36Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/lore/beings/numinous/others/maedra/</loc>
@@ -415,10 +419,6 @@
   <url>
     <loc>https://apotheosiscardgame.com/lore/beings/numinous/others/prehod/</loc>
     <lastmod>2026-03-31T18:25:31Z</lastmod>
-  </url>
-  <url>
-    <loc>https://apotheosiscardgame.com/gameplay/game-mode/scavenger-mode/</loc>
-    <lastmod>2026-04-24T20:06:15Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/lore/beings/numinous/regent/satheos/</loc>
@@ -441,15 +441,19 @@
     <lastmod>2026-03-31T18:25:31Z</lastmod>
   </url>
   <url>
+    <loc>https://apotheosiscardgame.com/gameplay/game-mode/scavenger-mode/</loc>
+    <lastmod>2026-04-29T22:01:36Z</lastmod>
+  </url>
+  <url>
     <loc>https://apotheosiscardgame.com/gameplay/setup/format/field-battle/</loc>
     <lastmod>2026-03-31T18:25:31Z</lastmod>
   </url>
   <url>
-    <loc>https://apotheosiscardgame.com/gameplay/setup/format/companion-bowl/</loc>
+    <loc>https://apotheosiscardgame.com/gameplay/setup/format/lagvig/</loc>
     <lastmod>2026-03-31T18:25:31Z</lastmod>
   </url>
   <url>
-    <loc>https://apotheosiscardgame.com/gameplay/setup/format/lagvig/</loc>
+    <loc>https://apotheosiscardgame.com/gameplay/setup/format/companion-bowl/</loc>
     <lastmod>2026-03-31T18:25:31Z</lastmod>
   </url>
 </urlset>

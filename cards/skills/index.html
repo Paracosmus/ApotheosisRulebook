@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.830746252736">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.830826095409">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.5.3">
@@ -47,11 +47,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.5.3.830746252736" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.5.3.830826095409" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.5.3.830746252736" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.5.3.830826095409" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.5.3.830746252736" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.5.3.830826095409" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -550,49 +550,6 @@
 </div>
 <p>Ao executar uma HABILIDADE, o jogador deve verificar se o efeito deve ser usado neste momento e se a HABILIDADE possui um ALCANCE. O que significa que ele deve selecionar um alvo no tabuleiro, que esteja dentro desse limite. Se a HABILIDADE também possuir um <b>DANO</b>, o alvo recebe este <b>DANO</b>.</p>
 <hr>
-<h2 id="lignum"><span class="skill">LIGNUM</span></h2>
-<p>É um conjunto de cartas de HABILIDADE interligadas. Você pode identificá-las pela presença do nome do LIGNUM antes do nome da carta, separados por um | (Barra Vertical).</p>
-<p>Um espaço do <a href="/hero/table/memento/"><span class="skill"><b>MEMENTO</b></span></a> pode conter até 3 cartas de um mesmo LIGNUM. É possível ter cartas de LIGNUM diferentes no <a href="/hero/table/memento/"><span class="skill"><b>MEMENTO</b></span></a>, ocupando espaços diferentes, porém a soma de suas cartas de LIGNUM não pode ser superior a 9.</p>
-<div class="flex mb-6">
-    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
-    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
-        <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
-                <g fill="currentColor"><g>
-                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
-                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                </g></g>
-            </svg>
-        </div>
-        <div class="pr-5 ml-3 w-full">
-<p>É possível aprender mais de 3 cartas de um LIGNUM no <a href="/hero/table/memento/"><span class="skill"><b>MEMENTO</b></span></a>, ocupando mais de um espaço. Por exemplo, para ter 5 cartas de um LIGNUM no <a href="/hero/table/memento/"><span class="skill"><b>MEMENTO</b></span></a>, pode-se colocar 3 cartas no primeiro espaço e 2 cartas no segundo espaço.</p>
-        </div>
-    </div>
-</div>
-<h3 id="essência">Essência</h3>
-<p>(TODO) Cada carta de LIGNUM possui uma essência, que é representada por uma cor. A essência de uma carta de LIGNUM é a mesma para todas as cartas do mesmo LIGNUM.</p>
-<p>Essência é um recurso que pode também ser tratado como <a href="/hero/#estamina"><span class="skill"><b>ESTAMINA</b></span></a> e/ou <a href="/hero/#mana"><span class="skill"><b>MANA</b></span></a>.</p>
-<p>Quando você puder <em>“levantar troco”</em>, o troco deve ser da mesma cor ou levante <a href="/hero/#mana"><span class="skill"><b>MANA</b></span></a> e/ou <a href="/hero/#estamina"><span class="skill"><b>ESTAMINA</b></span></a>.</p>
-<ul class="list-icon">
-<li>
-<p><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"/></g></g></svg> <a href="/cards/skills/#ess%C3%AAncia"><span class="skill"><span class="yellow"><b>AMARELA</b></span></a> - Representa a essência de Lignums de natureza física, como força, resistência, objetos materiais, etc.</p>
-</li>
-<li>
-<p><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"/></g></g></svg> <a href="/cards/skills/#ess%C3%AAncia"><span class="skill"><span class="red"><b>VERMELHA</b></span></a> - Representa a essência de Lignums de natureza expansionista, como poder, controle, dominação, atitude, etc.</p>
-</li>
-<li>
-<p><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"/></g></g></svg> <a href="/cards/skills/#ess%C3%AAncia"><span class="skill"><span class="blue"><b>AZUL</b></span></a> - Representa a essência de Lignums de natureza intelectual, como conhecimento, sabedoria, estratégia, etc.</p>
-</li>
-<li>
-<p><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"/></g></g></svg> <a href="/cards/skills/#ess%C3%AAncia"><span class="skill"><span class="white"><b>BRANCA</b></span></a> - Representa a essência de Lignums de natureza espiritual, como fé, esperança, amor, magia branca, etc.</p>
-</li>
-<li>
-<p><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"/></g></g></svg> <a href="/cards/skills/#ess%C3%AAncia"><span class="skill"><span class="black"><b>PRETA</b></span></a> - Representa a essência de Lignums de natureza destrutiva, como morte, dor, sofrimento, magia negra, etc.</p>
-</li>
-</ul>
-<p>Se você pagar essência em uma ativação que seja exclusiva de estamina ou mana, você ainda pode pegar o troco do overpay. Agora se a ativação requer ambas, estamina e mana, então você não pode pegar o troco desta ativação</p>
-<hr>
 <div id="retype-backlinks">
     <h2>See also</h2>
 <div class="card-compact-group">
@@ -660,6 +617,17 @@
         </div>
     </a>
 </div>
+<div class="card-compact-container">
+    <a href="/cards/lignum/" class="group card-compact no-link">
+        <div class="card-compact-body">
+            <div class="card-compact-header">
+                <span class="card-compact-icon inline-flex shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><!--icon--><path d="M2.5 19.25a3.248 3.248 0 0 1 2.505-3.164A.81.81 0 0 1 5 16V8c0-.029.002-.057.005-.086a3.247 3.247 0 0 1-2.486-3.539 3.25 3.25 0 1 1 3.976 3.539A.827.827 0 0 1 6.5 8v3.51A3.247 3.247 0 0 1 8.25 11h7a2.25 2.25 0 0 0 2.25-2.25v-.837a3.25 3.25 0 1 1 1.5 0v.837a3.752 3.752 0 0 1-3.75 3.75h-7a1.75 1.75 0 0 0-1.75 1.75V16a.81.81 0 0 1-.005.086A3.25 3.25 0 1 1 2.5 19.25ZM5.75 6.5c.464 0 .909-.184 1.237-.513a1.746 1.746 0 0 0 0-2.474 1.746 1.746 0 0 0-2.474 0A1.74 1.74 0 0 0 4 4.75a1.752 1.752 0 0 0 1.08 1.617c.213.088.44.133.67.133Zm0 14.5c.464 0 .909-.184 1.237-.513a1.746 1.746 0 0 0 0-2.474 1.746 1.746 0 0 0-2.474 0 1.746 1.746 0 0 0 0 2.474c.328.329.773.513 1.237.513ZM16.5 4.75a1.752 1.752 0 0 0 1.08 1.617A1.752 1.752 0 0 0 20 4.75c0-.464-.184-.909-.513-1.237a1.746 1.746 0 0 0-2.474 0A1.746 1.746 0 0 0 16.5 4.75Zm4.22 10.47a.749.749 0 1 1 1.06 1.06l-5.323 5.324a1.01 1.01 0 0 1-.707.292.991.991 0 0 1-.707-.292L12.72 19.28a.749.749 0 1 1 1.06-1.06l1.97 1.969 4.97-4.969Z"/></svg></span>
+                <span class="card-compact-title">Lignum</span>
+            </div>
+            <p class="card-compact-description">Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.</p>
+        </div>
+    </a>
+</div>
 </div>
 </div>
 <!-- Insert this at the bottom of each markdown page -->
@@ -668,8 +636,8 @@
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-04-19T14:06:21" title="2026-04-19" data-absolute-label="Last updated on 2026-04-19 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-04-19 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
-                        Last updated on 2026-04-19 by Bruno Caxito
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-04-29T22:01:36" title="2026-04-29" data-absolute-label="Last updated on 2026-04-29 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-04-29 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                        Last updated on 2026-04-29 by Bruno Caxito
                     </time>
                 </div>
 
