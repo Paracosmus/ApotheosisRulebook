@@ -567,14 +567,14 @@ Uma vez que todos os efeitos {{ auto }} tenham sido ativados, resolvidos e remov
 6. **Efeitos da Pilha de Descarte**
 7. **Efeitos do Mestre de Jogo**
 
-A prioridade é dada ao efeito e nao à carta em sí, observe que isso significa que mesmo um efeito que não esteja ligado a uma carta, como um Efeito de Campanha ou Efeito de Modelo, por exemplo, entram na pilha de encadeamento.
+A prioridade é dada ao efeito e não à carta em si, observe que isso significa que mesmo um efeito que não esteja ligado a uma carta, como um Efeito de Campanha ou Efeito de Modelo, por exemplo, entram na pilha de encadeamento.
+
+- Quando dois jogadores do mesmo time possuem efeitos {{ auto }} com a mesma prioridade, o jogador com mais Iniciativa tem prioridade.
+  - Observe que para efeitos {{ activate }} os jogadores, sendo do mesmo time, podem simplesmente entrar em acordo sobre quem ativa primeiro, e isso não é considerado quebra da regra de prioridade, pois a ativação não é obrigatória, assim sendo quando o novo índice de encadeamento for resolvido e a holofote voltar para essa carta, o jogador que decidiu não concorrer na ativação antes pode ativar agora.
+- Quando duas cartas {{ auto }} do mesmo jogador possuem a mesma prioridade, o jogador escolhe qual delas ativar primeiro.
 
 !!!
 Note que uma carta em uma pilha de descarte ou baralho controlados por um Herói são consideradas cartas do Herói, e não cartas da pilha de descarte.
-!!!
-
-!!!
-Quando se tratar do efeito de uma técnica de um Dummy e não de uma carta, considere o dummy na ordem acima como se ele fosse uma carta controlada por aquele jogador. Portanto o Dummy de um jogador teria precedência sobre as cartas e Dummies do Mestre de Jogo, por exemplo.
 !!!
 
 ---

@@ -21,9 +21,8 @@ graph LR
     A(Campanha) --> B
     B(Texto da Carta) --> C
     C(Formato) --> D
-    D(Mecânicas) --> E
-    E(Regras) --> F
-    F(Modo de Jogo)
+    D(Regras) --> E
+    E(Modo de Jogo)
 ```
 
 ---

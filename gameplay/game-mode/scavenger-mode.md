@@ -1,8 +1,9 @@
 ---
 label: Modo de Vasculhador
 icon: git-compare
-order: 100
+order: 0
 ---
+{{ review() }}
 
 # Modo de Vasculhador
 

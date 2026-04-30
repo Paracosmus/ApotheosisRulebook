@@ -1,7 +1,7 @@
 ---
 label: Modo de Viagem
 icon: milestone
-order: 0
+order: 30
 ---
 
 # Modo de Viagem
