@@ -17,11 +17,13 @@ Um espaço do [<span class="skill"><b>MEMENTO</b></span>](/hero/table/memento
 
 ## Limite de Cartas
 
-Cartas de Lignum de recurso não ocupam espaços na suas respectivas zonas na [<span class="main"><b>MESA</b></span>](/hero/table/).
+Cartas de Lignum de recurso não ocupam espaços na suas respectivas zonas na [<span class="main"><b>MESA</b></span>](/hero/table/), mas são limitadas pelo nível do Herói. Cada Herói pode ter um número de cartas de Lignum de recurso igual ao seu nível.
 
-Cada Herói pode ter um número de cartas de Lignum de recurso igual ao seu nível. Por exemplo, um Herói de nível 3 pode ter até 3 cartas de Lignum de recurso no [<span class="skill"><b>MEMENTO</b></span>](/hero/table/memento.md). Se um Herói subir para o nível 4, ele pode adicionar mais uma carta de Lignum de recurso ao seu [<span class="skill"><b>MEMENTO</b></span>](/hero/table/memento.md), totalizando 4 cartas de Lignum de recurso.
+!!!secondary Exemplo
+Um Herói de nível **3** pode ter até **3** cartas de Lignum de recurso.
 
-Se todos os espaços disponíveis para cartas de Lignum estiverem ocupados, cartas de Lignum em excesso ocupam espaços em suas respectivas zonas na [<span class="main"><b>MESA</b></span>](/hero/table/), como qualquer outra carta de seu naipe.
+Se este Herói subir para o nível **4**, ele pode adicionar mais uma carta de Lignum de recurso, totalizando **4** cartas de Lignum de recurso.
+!!!
 
 ---
 
