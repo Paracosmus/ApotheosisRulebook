@@ -154,11 +154,11 @@
 | Icon                          | Termo (PT) | English    | Variável     | Unicode | Color     |
 | ----------------------------- | ---------- | ---------- | ------------ | ------- | --------- |
 | -                             | Essência   | *Essence*  | -            | -       | -         |
-| <span class="black"></span>  | Preta      | *Black*    | [<span class="skill"><span class="black"><b>PRETA</b></span>](/cards/skills.md#essência)  | e933    | `#212121` |
-| <span class="blue"></span>   | Azul       | *Blue*     | [<span class="skill"><span class="blue"><b>AZUL</b></span>](/cards/skills.md#essência)   | e934    | `#0D47A1` |
-| <span class="yellow"></span> | Amarela    | *Yellow*   | [<span class="skill"><span class="yellow"><b>AMARELA</b></span>](/cards/skills.md#essência) | e935    | `#FDD835` |
-| <span class="red"></span>    | Vermelha   | *Red*      | [<span class="skill"><span class="red"><b>VERMELHA</b></span>](/cards/skills.md#essência)    | e936    | `#B71C1C` |
-| <span class="white"></span>  | Branca     | *White*    | [<span class="skill"><span class="white"><b>BRANCA</b></span>](/cards/skills.md#essência)  | e937    | `#BDBDBD` |
+| <span class="black"></span>  | Preta      | *Black*    | [<span class="skill"><span class="black"><b>PRETA</b></span>](/cards/lignum.md#essência)  | e933    | `#212121` |
+| <span class="blue"></span>   | Azul       | *Blue*     | [<span class="skill"><span class="blue"><b>AZUL</b></span>](/cards/lignum.md#essência)   | e934    | `#0D47A1` |
+| <span class="yellow"></span> | Amarela    | *Yellow*   | [<span class="skill"><span class="yellow"><b>AMARELA</b></span>](/cards/lignum.md#essência) | e935    | `#FDD835` |
+| <span class="red"></span>    | Vermelha   | *Red*      | [<span class="skill"><span class="red"><b>VERMELHA</b></span>](/cards/lignum.md#essência)    | e936    | `#B71C1C` |
+| <span class="white"></span>  | Branca     | *White*    | [<span class="skill"><span class="white"><b>BRANCA</b></span>](/cards/lignum.md#essência)  | e937    | `#BDBDBD` |
 
 <br><br>
 

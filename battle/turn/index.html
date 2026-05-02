@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.830826095409">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.831063493182">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.5.3">
@@ -41,11 +41,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.5.3.830826095409" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.5.3.831063493182" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.5.3.830826095409" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.5.3.831063493182" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.5.3.830826095409" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.5.3.831063493182" data-turbo-eval="false" defer></script>
     <script id="mermaid-js" data-cfasync="false" src="/resources/js/mermaid.js?v=4.5.3" defer></script>
 
     <!-- Font -->
@@ -486,28 +486,23 @@ A ordem em que cada personagem joga é definida pela PER de cada um de forma dec
 } } }%%
 
 timeline
-    title Anatomia de uma Rodada
+    title Anatomia de um Ciclo de Batalha
 
-    section Início da Rodada
-        Efeitos
-            : Executam-se todos os efeitos que mencionam o início da rodada
+    section Fase de Restauração
         Iniciativas
-            : Calcula-se a ordem dos turnos dos personagens com base na PER
+            : Calcula-se a ordem dos turnos dos personagens com base na Iniciativa
+        Pontos de Ação
+            : Todos os personagens recebem pontos de ação iguais a sua AGI
+        Efeitos
+            : Executam-se todos os efeitos e mecânicas que mencionam a Fase de Restauração
 
     section Turno de cada Personagem
-        Pontos de Ação
-            : O personagem recebe pontos de ação iguais a sua AGI
-            : Executa-se também efeitos que modificam a quantidade de pontos de ação
-        Início do Turno
-            : Executam-se todos os efeitos que mencionam o início do turno
+        Fase Inicial
+            : Executam-se todos os efeitos e mecânicas que mencionam a Fase Inicial
         Turno
             : O jogador toma decisões e executa ações
-        Fim do Turno
-            : Executam-se todos os efeitos que mencionam o fim do turno
-
-    section Fim da Rodada
-        Efeitos
-            : Executam-se todos os efeitos que mencionam o fim da rodada</pre></div>
+        Fase Final
+            : Executam-se todos os efeitos e mecânicas que mencionam a Fase Final</pre></div>
 <hr>
 <h2 id="turno">Turno</h2>
 <p>O turno de um personagem é composto por 3 fases em sequência.</p>
@@ -587,8 +582,8 @@ O jogador pode então tomar decisões e executar as diferentes ações e cartas 
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-03-31T18:25:31" title="2026-03-31" data-absolute-label="Last updated on 2026-03-31 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-03-31 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
-                        Last updated on 2026-03-31 by Bruno Caxito
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-05-02T15:58:26" title="2026-05-02" data-absolute-label="Last updated on 2026-05-02 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-05-02 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                        Last updated on 2026-05-02 by Bruno Caxito
                     </time>
                 </div>
 

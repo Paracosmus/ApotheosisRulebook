@@ -307,7 +307,7 @@ Os requerimentos vêm na seguinte ordem, porém isso não determina hierarquia e
 
   > <span class="req">【</span> Custo 1; Custo 2; ... <span class="req">】</span>
 
-  > <span class="req">【</span> **Descarte** um [<span class="item"><b>ITEM</b></span>](/cards/item.md); **Consuma** <span class="negative">2</span> de [<span class="skill"><span class="red"><b>VERMELHA</b></span>](/cards/skills.md#essência) <span class="req">】</span>
+  > <span class="req">【</span> **Descarte** um [<span class="item"><b>ITEM</b></span>](/cards/item.md); **Consuma** <span class="negative">2</span> de [<span class="skill"><span class="red"><b>VERMELHA</b></span>](/cards/lignum.md#essência) <span class="req">】</span>
 
 >>> **Ações** → `Selecione`, `Mova`, `Role dados`, etc.
 
