@@ -31,28 +31,23 @@ Esta fase acontece quando o último personagem na ordem de turnos encerrar seu t
 } } }%%
 
 timeline
-    title Anatomia de uma Rodada
+    title Anatomia de um Ciclo de Batalha
 
-    section Início da Rodada
-        Efeitos
-            : Executam-se todos os efeitos que mencionam o início da rodada
+    section Fase de Restauração
         Iniciativas
-            : Calcula-se a ordem dos turnos dos personagens com base na PER
+            : Calcula-se a ordem dos turnos dos personagens com base na Iniciativa
+        Pontos de Ação
+            : Todos os personagens recebem pontos de ação iguais a sua AGI
+        Efeitos
+            : Executam-se todos os efeitos e mecânicas que mencionam a Fase de Restauração
 
     section Turno de cada Personagem
-        Pontos de Ação
-            : O personagem recebe pontos de ação iguais a sua AGI
-            : Executa-se também efeitos que modificam a quantidade de pontos de ação
-        Início do Turno
-            : Executam-se todos os efeitos que mencionam o início do turno
+        Fase Inicial
+            : Executam-se todos os efeitos e mecânicas que mencionam a Fase Inicial
         Turno
             : O jogador toma decisões e executa ações
-        Fim do Turno
-            : Executam-se todos os efeitos que mencionam o fim do turno
-
-    section Fim da Rodada
-        Efeitos
-            : Executam-se todos os efeitos que mencionam o fim da rodada
+        Fase Final
+            : Executam-se todos os efeitos e mecânicas que mencionam a Fase Final
 ```
 
 ---
