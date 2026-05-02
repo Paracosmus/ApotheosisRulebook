@@ -20,11 +20,13 @@ Um espaço do {{ mem }} pode conter até 3 cartas de um mesmo LIGNUM. É possív
 
 ## Limite de Cartas
 
-Cartas de Lignum de recurso não ocupam espaços na suas respectivas zonas na {{ table }}.
+Cartas de Lignum de recurso não ocupam espaços na suas respectivas zonas na {{ table }}, mas são limitadas pelo nível do Herói. Cada Herói pode ter um número de cartas de Lignum de recurso igual ao seu nível.
 
-Cada Herói pode ter um número de cartas de Lignum de recurso igual ao seu nível. Por exemplo, um Herói de nível 3 pode ter até 3 cartas de Lignum de recurso no {{ mem }}. Se um Herói subir para o nível 4, ele pode adicionar mais uma carta de Lignum de recurso ao seu {{ mem }}, totalizando 4 cartas de Lignum de recurso.
+!!!secondary Exemplo
+Um Herói de nível **3** pode ter até **3** cartas de Lignum de recurso.
 
-Se todos os espaços disponíveis para cartas de Lignum estiverem ocupados, cartas de Lignum em excesso ocupam espaços em suas respectivas zonas na {{ table }}, como qualquer outra carta de seu naipe.
+Se este Herói subir para o nível **4**, ele pode adicionar mais uma carta de Lignum de recurso, totalizando **4** cartas de Lignum de recurso.
+!!!
 
 ---
 
