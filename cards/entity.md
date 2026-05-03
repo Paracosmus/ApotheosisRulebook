@@ -50,9 +50,9 @@ TIPO         | NÍVEL | NÍVEL MÍNIMO REQUERIDO DO HERÓI
 
 ## <span class="entity">Despertar</span>
 
-Para despertar seu [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) (levantar usa carta), o personagem deve pagar 2 de [<span class="skill"><b>ESTAMINA</b></span>](/hero/#estamina) e/ou [<span class="skill"><b>MANA</b></span>](/hero/#mana).
+Para despertar seu [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) (revelar esta carta), o Herói deve consumir Energia igual ao nível do [<span class="entity"><b>ENTE</b></span>](/cards/entity.md).
 
-Quando o ente estiver desperto, no início de cada um de seus turnos, o personagem pode pagar 2 de [<span class="skill"><b>ESTAMINA</b></span>](/hero/#estamina) e/ou [<span class="skill"><b>MANA</b></span>](/hero/#mana), caso contrário, o ente adormece.
+Quando o ente estiver desperto, no início de cada um de seus turnos, o personagem pode consumir Energia igual ao nível do [<span class="entity"><b>ENTE</b></span>](/cards/entity.md), caso contrário, o ente adormece.
 
 Quando o [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) está desperto, sua carta deve ser revelada e o personagem recebe o bônus de atributo indicado na carta, bem como o seu efeito passa a ser considerado.
 

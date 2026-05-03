@@ -8,23 +8,28 @@ Esta seção ainda não foi completamente revisada. Algumas informações podem 
 
 Um espaço do [<span class="skill"><b>MEMENTO</b></span>](/hero/table/memento.md) pode conter até 3 cartas de um mesmo LIGNUM. É possível ter cartas de LIGNUM diferentes no [<span class="skill"><b>MEMENTO</b></span>](/hero/table/memento.md), ocupando espaços diferentes, porém a soma de suas cartas de LIGNUM não pode ser superior a 9.
 
-- **Cartas de Ficha**: São as cartas centrais do Lignum e representam a raiz de base do conjunto.
-- [<span class="item"><b>ITEM</b></span>](/cards/item.md): Representam o tronco do Lignum a parte robusta que dá sustentação ao conjunto.
-- [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md): Representam os galhos do Lignum, as ramificações que dão versatilidade ao conjunto e seguram as folhas.
-- [<span class="skill"><b>HABILIDADE</b></span>](/cards/skills.md): Representam as folhas do Lignum, as partes mais externas e flexíveis do conjunto, que capturam a luz que alimenta todo o conjunto.
+- [<span class="house"><b>CASA</b></span>](/cards/house.md): Sempre adicionam e/ou trabalham com o conhecimento do Lignum.
+- [<span class="class"><b>CLASSE</b></span>](/cards/class.md): Fornecem espaços adicionais para cartas do Lignum igual ao nível da [<span class="class"><b>CLASSE</b></span>](/cards/class.md).
+- [<span class="entity"><b>ENTE</b></span>](/cards/entity.md): Ao invés de serem mantidos consumindo Energia igual ao nível da carta na sua , são mantidos consumindo 1 de Essência da cor do Lignum.
+- [<span class="item"><b>ITEM</b></span>](/cards/item.md): São consumidos depois de usados e não podem mais ser ativados quando consumidos. Possuem um efeito de [<span class="keyword-timing">Fase de Recomposição</span>](/cards/effect.md) para serem restaurados
+- [<span class="skill"><b>HABILIDADE</b></span>](/cards/skills.md): São o banco de energia do Lignum, estas são as cartas que possuem a Essência, a energia especial colorida do Lignum, usada por todas as cartas para ativar os efeitos.
+- [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md): Para que as técnicas sejam usadas, os anexos precisam ser do mesmo nível e Lignum desta carta.
+- [<span class="event"><b>EVENTO</b></span>](/cards/event.md): Uma vez por ciclo, quando estas cartas são descartadas, seja por qualquer mecânica ou efeito, você recupera uma quantidade de Essência da cor deste Lignum igual ao nível desta carta.
+
+Todas estas situações são explicadas nos efeitos das cartas, não necessitando de memorização, mas é importante entender que cada tipo de naipe possui um tem uma função diferente dentro do Lignum, e que a interação entre elas é o que torna o Lignum um conjunto de cartas tão poderoso e versátil.
 
 ---
 
 ## Limite de Cartas
 
-Cartas de Lignum de recurso não ocupam espaços na suas respectivas zonas na [<span class="main"><b>MESA</b></span>](/hero/table/), mas são limitadas pelo nível do Herói. Cada Herói pode ter um número de cartas de Lignum de recurso igual ao seu nível.
+Cartas de Lignum não ocupam espaços na suas respectivas zonas na [<span class="main"><b>MESA</b></span>](/hero/table/), mas são limitadas pelo nível do Herói. Cada Herói pode ter um número de cartas de Lignum igual ao seu nível.
 
 Cada Herói pode ter apenas uma cópia de cada carta de um Lignum simultaneamente na sua [<span class="main"><b>MESA</b></span>](/hero/table/).
 
 !!!secondary Exemplo
-Um Herói de nível **3** pode ter até **3** cartas de Lignum de recurso.
+Um Herói de nível **3** pode ter até **3** cartas de Lignum.
 
-Se este Herói subir para o nível **4**, ele pode adicionar mais uma carta de Lignum de recurso, totalizando **4** cartas de Lignum de recurso.
+Se este Herói subir para o nível **4**, ele pode adicionar mais uma carta de Lignum, totalizando **4** cartas de Lignum.
 !!!
 
 ---

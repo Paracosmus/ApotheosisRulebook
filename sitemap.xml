@@ -14,7 +14,7 @@
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/cards/</loc>
-    <lastmod>2026-05-02T22:24:26Z</lastmod>
+    <lastmod>2026-05-02T23:54:50Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/icons/</loc>
@@ -34,27 +34,27 @@
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/hero/table/</loc>
-    <lastmod>2026-05-02T22:24:26Z</lastmod>
-  </url>
-  <url>
-    <loc>https://apotheosiscardgame.com/cards/item/</loc>
-    <lastmod>2026-04-19T14:06:21Z</lastmod>
-  </url>
-  <url>
-    <loc>https://apotheosiscardgame.com/chart/</loc>
-    <lastmod>2026-04-06T14:58:40Z</lastmod>
-  </url>
-  <url>
-    <loc>https://apotheosiscardgame.com/cards/house/</loc>
-    <lastmod>2026-03-22T16:09:03Z</lastmod>
+    <lastmod>2026-05-02T23:54:50Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/cards/class/</loc>
     <lastmod>2026-04-19T14:06:21Z</lastmod>
   </url>
   <url>
+    <loc>https://apotheosiscardgame.com/cards/item/</loc>
+    <lastmod>2026-04-19T14:06:21Z</lastmod>
+  </url>
+  <url>
     <loc>https://apotheosiscardgame.com/cards/event/</loc>
     <lastmod>2026-04-19T14:06:21Z</lastmod>
+  </url>
+  <url>
+    <loc>https://apotheosiscardgame.com/chart/</loc>
+    <lastmod>2026-05-02T23:54:50Z</lastmod>
+  </url>
+  <url>
+    <loc>https://apotheosiscardgame.com/cards/house/</loc>
+    <lastmod>2026-03-22T16:09:03Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/cards/effect/</loc>
@@ -74,7 +74,11 @@
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/cards/entity/</loc>
-    <lastmod>2026-04-26T21:34:44Z</lastmod>
+    <lastmod>2026-05-02T23:54:50Z</lastmod>
+  </url>
+  <url>
+    <loc>https://apotheosiscardgame.com/cards/lignum/</loc>
+    <lastmod>2026-05-02T23:54:50Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/cards/skills/</loc>
@@ -83,10 +87,6 @@
   <url>
     <loc>https://apotheosiscardgame.com/battle/</loc>
     <lastmod>2026-03-31T18:25:31Z</lastmod>
-  </url>
-  <url>
-    <loc>https://apotheosiscardgame.com/cards/lignum/</loc>
-    <lastmod>2026-05-02T22:24:26Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/hero/attributes/</loc>

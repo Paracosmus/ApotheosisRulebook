@@ -20,8 +20,8 @@ Interagir com Objeto ou Personagem
 *   Obter um [<span class="item"><b>ITEM</b></span>](/cards/item.md) de uma peça do tipo Container
 
 Despertar o [<span class="entity"><b>ENTE</b></span>](/cards/entity.md)
-:   **2** de [<span class="skill"><b>ESTAMINA</b></span>](/hero/#estamina) e/ou [<span class="skill"><b>MANA</b></span>](/hero/#mana)
-*   <span class="negative">+2</span> de **Energia** na sua *Fase Inicial* para manter o [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) desperto
+:   **Consumir** Energia igual ao nível do [<span class="entity"><b>ENTE</b></span>](/cards/entity.md)
+*   <span class="negative">+</span> **Consumir** Energia igual ao nível do [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) para mantê-lo desperto
 
 Evocar uma [<span class="companion"><b>EVOCAÇÃO</b></span>](/cards/companion.md#-evocação)
 :   **2** de [<span class="skill"><b>MANA</b></span>](/hero/#mana) por nível do [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) a ser evocado

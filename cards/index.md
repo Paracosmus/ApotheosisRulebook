@@ -176,15 +176,9 @@ Ao declarar a ativação de uma carta, o jogador deve seguir os seguintes passos
 
 O estado de uma carta é a condição ou situação em que ela se encontra durante o jogo, podendo influenciar suas interações, mecânicas e sinergias com outros componentes do jogo.
 
-==- <span class="fill">Em Jogo</span> [!badge text="Active" variant="ghost"]
-
-  São todas as cartas reveladas na [<span class="main"><b>MESA</b></span>](/hero/table/) dos Heróis, no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/scenario.md), anexos, ou em pilhas de cartas. Indiferente de estarem ativas ou inativas, dos efeitos que possuem, ou mesmo se possuem efeitos.
-
-  Representa todas as cartas que publicamente afetam o jogo neste momento.
-
 ==- <span class="fill">Ativa</span> [!badge text="Active" variant="ghost"]
 
-  São as cartas cujo efeito está ativo ou pode ser ativado.
+  Também chamadas de "_cartas em jogo_", são as cartas cujo efeito está ativo ou pode ser ativado.
 
   * Cartas reveladas na [<span class="main"><b>MESA</b></span>](/hero/table/) dos Heróis.
   * Cartas reveladas no [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) dos Heróis.

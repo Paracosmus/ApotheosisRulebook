@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.831086652262">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.831092082938">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.5.3">
@@ -41,11 +41,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.5.3.831086652262" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.5.3.831092082938" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.5.3.831086652262" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.5.3.831092082938" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.5.3.831086652262" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.5.3.831092082938" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -471,14 +471,18 @@
 <p>É um conjunto de cartas de HABILIDADE interligadas. Você pode identificá-las pela presença do nome do LIGNUM antes do nome da carta, separados por um | (Barra Vertical).</p>
 <p>Um espaço do <a href="/hero/table/memento/"><span class="skill"><b>MEMENTO</b></span></a> pode conter até 3 cartas de um mesmo LIGNUM. É possível ter cartas de LIGNUM diferentes no <a href="/hero/table/memento/"><span class="skill"><b>MEMENTO</b></span></a>, ocupando espaços diferentes, porém a soma de suas cartas de LIGNUM não pode ser superior a 9.</p>
 <ul>
-<li><strong>Cartas de Ficha</strong>: São as cartas centrais do Lignum e representam a raiz de base do conjunto.</li>
-<li><a href="/cards/item/"><span class="item"><b>ITEM</b></span></a>: Representam o tronco do Lignum a parte robusta que dá sustentação ao conjunto.</li>
-<li><a href="/cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a>: Representam os galhos do Lignum, as ramificações que dão versatilidade ao conjunto e seguram as folhas.</li>
-<li><a href="/cards/skills/"><span class="skill"><b>HABILIDADE</b></span></a>: Representam as folhas do Lignum, as partes mais externas e flexíveis do conjunto, que capturam a luz que alimenta todo o conjunto.</li>
+<li><a href="/cards/house/"><span class="house"><b>CASA</b></span></a>: Sempre adicionam e/ou trabalham com o conhecimento do Lignum.</li>
+<li><a href="/cards/class/"><span class="class"><b>CLASSE</b></span></a>: Fornecem espaços adicionais para cartas do Lignum igual ao nível da <a href="/cards/class/"><span class="class"><b>CLASSE</b></span></a>.</li>
+<li><a href="/cards/entity/"><span class="entity"><b>ENTE</b></span></a>: Ao invés de serem mantidos consumindo Energia igual ao nível da carta na sua , são mantidos consumindo 1 de Essência da cor do Lignum.</li>
+<li><a href="/cards/item/"><span class="item"><b>ITEM</b></span></a>: São consumidos depois de usados e não podem mais ser ativados quando consumidos. Possuem um efeito de <a href="/cards/effect/"><span class="keyword-timing">Fase de Recomposição</span></a> para serem restaurados</li>
+<li><a href="/cards/skills/"><span class="skill"><b>HABILIDADE</b></span></a>: São o banco de energia do Lignum, estas são as cartas que possuem a Essência, a energia especial colorida do Lignum, usada por todas as cartas para ativar os efeitos.</li>
+<li><a href="/cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a>: Para que as técnicas sejam usadas, os anexos precisam ser do mesmo nível e Lignum desta carta.</li>
+<li><a href="/cards/event/"><span class="event"><b>EVENTO</b></span></a>: Uma vez por ciclo, quando estas cartas são descartadas, seja por qualquer mecânica ou efeito, você recupera uma quantidade de Essência da cor deste Lignum igual ao nível desta carta.</li>
 </ul>
+<p>Todas estas situações são explicadas nos efeitos das cartas, não necessitando de memorização, mas é importante entender que cada tipo de naipe possui um tem uma função diferente dentro do Lignum, e que a interação entre elas é o que torna o Lignum um conjunto de cartas tão poderoso e versátil.</p>
 <hr>
 <h2 id="limite-de-cartas">Limite de Cartas</h2>
-<p>Cartas de Lignum de recurso não ocupam espaços na suas respectivas zonas na <a href="/hero/table/"><span class="main"><b>MESA</b></span></a>, mas são limitadas pelo nível do Herói. Cada Herói pode ter um número de cartas de Lignum de recurso igual ao seu nível.</p>
+<p>Cartas de Lignum não ocupam espaços na suas respectivas zonas na <a href="/hero/table/"><span class="main"><b>MESA</b></span></a>, mas são limitadas pelo nível do Herói. Cada Herói pode ter um número de cartas de Lignum igual ao seu nível.</p>
 <p>Cada Herói pode ter apenas uma cópia de cada carta de um Lignum simultaneamente na sua <a href="/hero/table/"><span class="main"><b>MESA</b></span></a>.</p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-secondary"></div>
@@ -494,8 +498,8 @@
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Exemplo</h5>
-<p>Um Herói de nível <strong>3</strong> pode ter até <strong>3</strong> cartas de Lignum de recurso.</p>
-<p>Se este Herói subir para o nível <strong>4</strong>, ele pode adicionar mais uma carta de Lignum de recurso, totalizando <strong>4</strong> cartas de Lignum de recurso.</p>
+<p>Um Herói de nível <strong>3</strong> pode ter até <strong>3</strong> cartas de Lignum.</p>
+<p>Se este Herói subir para o nível <strong>4</strong>, ele pode adicionar mais uma carta de Lignum, totalizando <strong>4</strong> cartas de Lignum.</p>
         </div>
     </div>
 </div>
@@ -553,7 +557,7 @@
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-05-02T22:24:26" title="2026-05-02" data-absolute-label="Last updated on 2026-05-02 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-05-02 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-05-02T23:54:50" title="2026-05-02" data-absolute-label="Last updated on 2026-05-02 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-05-02 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
                         Last updated on 2026-05-02 by Bruno Caxito
                     </time>
                 </div>

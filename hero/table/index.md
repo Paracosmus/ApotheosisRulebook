@@ -31,7 +31,7 @@ A [<span class="main"><b>MESA</b></span>](/hero/table/) é dividida em quatro
 
 Cada área tem sua própria função e regras específicas, que são descritas abaixo, e são compostas por um certo número de "espaços de cartas".
 
-Cartas anexadas não são consideradas "na [<span class="main"><b>MESA</b></span>](/hero/table/)".
+Cartas anexadas não são consideradas como "na [<span class="main"><b>MESA</b></span>](/hero/table/)".
 
 ---
 
