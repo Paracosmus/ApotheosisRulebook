@@ -44,7 +44,7 @@ timeline
     section Turno de cada Personagem
         Fase Inicial
             : Executam-se todos os efeitos e mecânicas que mencionam a Fase Inicial
-        Turno
+        Fase de Ação
             : O jogador toma decisões e executa ações
         Fase Final
             : Executam-se todos os efeitos e mecânicas que mencionam a Fase Final

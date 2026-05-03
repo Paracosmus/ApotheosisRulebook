@@ -60,7 +60,7 @@ Quando um efeito possuir mais de um momento de ativação, ele pode/deve ser ati
 
 ==- <span class="fill">{{ onExit }}</span> [!badge text="On Exit" variant="ghost"]
 
-  Este efeito pode/deve ser ativado quando esta carta deixar de estar em jogo, ou seja, quando esta carta sair da {{ table }}.
+  Este efeito pode/deve ser ativado quando esta carta deixar de estar em jogo, ou seja, quando esta carta for ser retirada da {{ table }} ou {{ scenario }}, ou desanexada de outra carta se possuir a palavra-chave {{ attached }}.
 
 ==- <span class="fill">{{ onObtain }}</span> [!badge text="On Obtain" variant="ghost"]
 

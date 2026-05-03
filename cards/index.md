@@ -154,7 +154,7 @@ Ao declarar a ativação de uma carta, o jogador deve seguir os seguintes passos
      1. Se a carta possuir um {{ range }} do tipo {{ area }}, o dano é aplicado a todas as peças e casas dentro da área de efeito, sem a necessidade de selecionar um alvo específico.
      2. Observe que alguns efeitos de carta podem especificar que são aplicados após o dano, ao invés de antes, como seria o padrão.
 
-  ==- Automaticamente {{ auto }}
+==- Automaticamente {{ auto }}
 
   1. A carta deve possuir um ou mais efeitos com a palavra-chave {{ auto }}.
      1. Efeitos com a palavra-chave {{ auto }} são ativados automaticamente de forma obrigatória quando suas condições de ativação são atendidas.
@@ -172,6 +172,81 @@ Ao declarar a ativação de uma carta, o jogador deve seguir os seguintes passos
   3. Aplicar o dano da carta, se houver, ao alvo selecionado.
      1. Se a carta possuir um {{ range }} do tipo {{ area }}, o dano é aplicado a todas as peças e casas dentro da área de efeito, sem a necessidade de selecionar um alvo específico.
      2. Observe que alguns efeitos de carta podem especificar que são aplicados após o dano, ao invés de antes, como seria o padrão.
+
+===
+
+---
+
+## Estado da Carta
+
+O estado de uma carta é a condição ou situação em que ela se encontra durante o jogo, podendo influenciar suas interações, mecânicas e sinergias com outros componentes do jogo.
+
+==- <span class="fill">Ativa</span> [!badge text="Active" variant="ghost"]
+
+  Também chamadas de "_cartas em jogo_", são as cartas cujo efeito está ativo ou pode ser ativado.
+
+  * Cartas reveladas na {{ table }} dos Heróis.
+  * Cartas reveladas no {{ inv }} dos Heróis.
+  * Cartas que possuem efeitos {{ attached }} anexadas a cartas reveladas.
+    * Apesar de serem consideradas ativas, apenas os efeitos {{ attached }} podem/devem ser usados.
+  * Cartas reveladas no {{ scenario }}.
+  * Cartas reveladas em pilhas de cartas, que possuem efeitos de pilha
+    * {{ anywhere }}, {{ discardPile }}.
+    * Apesar de serem consideradas ativas, apenas os efeitos de pilha podem/devem ser usados.
+  * Casos Especiais
+    * Alguns {{ summus }} estabelecem condições específicas para estarem ativas, como estar em uma zona específica ou possuir um estado específico.
+
+==- <span class="fill">Inativa</span> [!badge text="Inactive" variant="ghost"]
+
+  São as cartas cujo o efeito não está disponível ou não é de conhecimento público.
+
+  * Cartas ocultas na {{ table }} dos Heróis.
+  * Cartas ocultas no {{ inv }} dos Heróis.
+  * Cartas ocultas no {{ scenario }}.
+  * Cartas anexadas:
+    * Quando estão anexadas a cartas ocultas.
+    * Quando não possuem efeitos {{ attached }}.
+  * Cartas ocultas em baralhos.
+  * Casos Especiais
+    * Alguns {{ summus }} estabelecem condições específicas para estarem inativas, como estar em uma zona específica ou possuir um estado específico.
+
+  !!!
+  Cartas no Limbo são desconsideradas, portando não são consideradas ativas ou inativas.
+  !!!
+
+==- <span class="fill">Revelada</span> [!badge text="Revealed" variant="ghost"]
+
+  Toda carta de face para cima é considerada revelada, sendo de conhecimento público de todos os jogadores.
+
+  _Anexos são desconsiderados._
+
+==- <span class="fill">Oculta</span> [!badge text="Hidden" variant="ghost"]
+
+  Toda carta de face para baixo ou não revelada no {{ inv }} é considerada oculta, sendo de conhecimento privado do jogador que a controla.
+
+  Os demais jogadores devem ter conhecimento da existência de cartas ocultas, mas não de suas informações, como nome, arte, efeitos, etc.. Portando eles podem ver que elas estão na {{ table }}, ou mesmo contar quantas cartas outro jogador tem no {{ inv }}.
+
+  _Anexos são desconsiderados._
+
+==- <span class="fill">Restaurada</span> [!badge text="Restored" variant="ghost"]
+
+  Toda carta na posição vertical é considerada restaurada, estando em seu estado natural.
+
+  _Anexos são desconsiderados._
+
+==- <span class="fill">Consumida</span> [!badge text="Exhausted" variant="ghost"]
+
+  Toda carta na posição horizontal é considerada consumida, estando em um estado alterado.
+
+  _Anexos são desconsiderados._
+
+==- <span class="fill">Anexada</span> [!badge text="Attached" variant="ghost"]
+
+  Toda carta que esteja anexada a outra carta.
+
+==- <span class="fill">Exilada</span> [!badge text="Exiled" variant="ghost"]
+
+  Toda carta no Limbo.
 
 ===
 

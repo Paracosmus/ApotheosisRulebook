@@ -80,7 +80,14 @@ data:
   companion: '[<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md)'
   event:     '[<span class="event"><b>EVENTO</b></span>](/cards/event.md)'
 
-  summus:    '[<span class="summus"><b>SUMMUS</b></span>](/cards/summus/)'
+  summus:      '[<span class="summus"><b>SUMMUS</b></span>](/cards/summus/)'
+  collegium:   '[<span class="summus"><b>COLLEGIUM</b></span>](/cards/summus/collegium.md)'
+  daemon:      '[<span class="summus"><b>DAEMON</b></span>](/cards/summus/daemon.md)'
+  dominium:    '[<span class="summus"><b>DOMINIUM</b></span>](/cards/summus/dominium.md)'
+  magisterium: '[<span class="summus"><b>MAGISTERIUM</b></span>](/cards/summus/magisterium.md)'
+  pactum:      '[<span class="summus"><b>PACTUM</b></span>](/cards/summus/pactum.md)'
+  res:         '[<span class="summus"><b>RES</b></span>](/cards/summus/res.md)'
+  ultimatum:   '[<span class="summus"><b>ULTIMATUM</b></span>](/cards/summus/ultimatum.md)'
 
   # Rarity
   common:    '[<span class="common">COMUM</span>](/cards/rarity.md)'
