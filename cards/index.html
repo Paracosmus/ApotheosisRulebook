@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.831065282151">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.831084639154">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.5.3">
@@ -41,11 +41,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.5.3.831065282151" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.5.3.831084639154" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.5.3.831065282151" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.5.3.831084639154" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.5.3.831065282151" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.5.3.831084639154" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -771,9 +771,133 @@
    </doc-panel>
 </doc-panels>
 <hr>
+<h2 id="estado-da-carta">Estado da Carta</h2>
+<p>O estado de uma carta é a condição ou situação em que ela se encontra durante o jogo, podendo influenciar suas interações, mecânicas e sinergias com outros componentes do jogo.</p>
+<doc-panels expando>
+   <doc-panel id="span-classfillativaspan-badge-textactive-variantghost" collapsed>
+       <template #title><span class="fill">Ativa</span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Active</span>
+</span></template>
+<p>Também chamadas de &quot;<em>cartas em jogo</em>&quot;, são as cartas cujo efeito está ativo ou pode ser ativado.</p>
+<ul>
+<li>Cartas reveladas na <a href="/hero/table/"><span class="main"><b>MESA</b></span></a> dos Heróis.</li>
+<li>Cartas reveladas no <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a> dos Heróis.</li>
+<li>Cartas que possuem efeitos <a href="/cards/effect/"><span class="keyword-scope">Do Anexo</span></a> anexadas a cartas reveladas.
+<ul>
+<li>Apesar de serem consideradas ativas, apenas os efeitos <a href="/cards/effect/"><span class="keyword-scope">Do Anexo</span></a> podem/devem ser usados.</li>
+</ul>
+</li>
+<li>Cartas reveladas no <a href="/gameplay/scenario/"><span class="event"><b>CENÁRIO</b></span></a>.</li>
+<li>Cartas reveladas em pilhas de cartas, que possuem efeitos de pilha
+<ul>
+<li><a href="/cards/effect/"><span class="keyword-scope">De Qualquer Lugar</span></a>, <a href="/cards/effect/"><span class="keyword-scope">Da Pilha de Descarte</span></a>.</li>
+<li>Apesar de serem consideradas ativas, apenas os efeitos de pilha podem/devem ser usados.</li>
+</ul>
+</li>
+<li>Casos Especiais
+<ul>
+<li>Alguns <a href="/cards/summus/"><span class="summus"><b>SUMMUS</b></span></a> estabelecem condições específicas para estarem ativas, como estar em uma zona específica ou possuir um estado específico.</li>
+</ul>
+</li>
+</ul>
+   </doc-panel>
+   <doc-panel id="span-classfillinativaspan-badge-textinactive-variantghost" collapsed>
+       <template #title><span class="fill">Inativa</span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Inactive</span>
+</span></template>
+<p>São as cartas cujo o efeito não está disponível ou não é de conhecimento público.</p>
+<ul>
+<li>Cartas ocultas na <a href="/hero/table/"><span class="main"><b>MESA</b></span></a> dos Heróis.</li>
+<li>Cartas ocultas no <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a> dos Heróis.</li>
+<li>Cartas ocultas no <a href="/gameplay/scenario/"><span class="event"><b>CENÁRIO</b></span></a>.</li>
+<li>Cartas anexadas:
+<ul>
+<li>Quando estão anexadas a cartas ocultas.</li>
+<li>Quando não possuem efeitos <a href="/cards/effect/"><span class="keyword-scope">Do Anexo</span></a>.</li>
+</ul>
+</li>
+<li>Cartas ocultas em baralhos.</li>
+<li>Casos Especiais
+<ul>
+<li>Alguns <a href="/cards/summus/"><span class="summus"><b>SUMMUS</b></span></a> estabelecem condições específicas para estarem inativas, como estar em uma zona específica ou possuir um estado específico.</li>
+</ul>
+</li>
+</ul>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+<p>Cartas no Limbo são desconsideradas, portando não são consideradas ativas ou inativas.</p>
+        </div>
+    </div>
+</div>
+   </doc-panel>
+   <doc-panel id="span-classfillreveladaspan-badge-textrevealed-variantghost" collapsed>
+       <template #title><span class="fill">Revelada</span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Revealed</span>
+</span></template>
+<p>Toda carta de face para cima é considerada revelada, sendo de conhecimento público de todos os jogadores.</p>
+<p><em>Anexos são desconsiderados.</em></p>
+   </doc-panel>
+   <doc-panel id="span-classfillocultaspan-badge-texthidden-variantghost" collapsed>
+       <template #title><span class="fill">Oculta</span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Hidden</span>
+</span></template>
+<p>Toda carta de face para baixo ou não revelada no <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a> é considerada oculta, sendo de conhecimento privado do jogador que a controla.</p>
+<p>Os demais jogadores devem ter conhecimento da existência de cartas ocultas, mas não de suas informações, como nome, arte, efeitos, etc.. Portando eles podem ver que elas estão na <a href="/hero/table/"><span class="main"><b>MESA</b></span></a>, ou mesmo contar quantas cartas outro jogador tem no <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a>.</p>
+<p><em>Anexos são desconsiderados.</em></p>
+   </doc-panel>
+   <doc-panel id="span-classfillrestauradaspan-badge-textrestored-variantghost" collapsed>
+       <template #title><span class="fill">Restaurada</span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Restored</span>
+</span></template>
+<p>Toda carta na posição vertical é considerada restaurada, estando em seu estado natural.</p>
+<p><em>Anexos são desconsiderados.</em></p>
+   </doc-panel>
+   <doc-panel id="span-classfillconsumidaspan-badge-textexhausted-variantghost" collapsed>
+       <template #title><span class="fill">Consumida</span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Exhausted</span>
+</span></template>
+<p>Toda carta na posição horizontal é considerada consumida, estando em um estado alterado.</p>
+<p><em>Anexos são desconsiderados.</em></p>
+   </doc-panel>
+   <doc-panel id="span-classfillanexadaspan-badge-textattached-variantghost" collapsed>
+       <template #title><span class="fill">Anexada</span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Attached</span>
+</span></template>
+<p>Toda carta que esteja anexada a outra carta.</p>
+   </doc-panel>
+   <doc-panel id="span-classfillexiladaspan-badge-textexiled-variantghost" collapsed>
+       <template #title><span class="fill">Exilada</span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Exiled</span>
+</span></template>
+<p>Toda carta no Limbo.</p>
+   </doc-panel>
+</doc-panels>
+<hr>
 <div id="retype-backlinks">
     <h2>See also</h2>
 <div class="card-compact-group">
+<div class="card-compact-container">
+    <a href="/gameplay/attachment/" class="group card-compact no-link">
+        <div class="card-compact-body">
+            <div class="card-compact-header">
+                <span class="card-compact-icon inline-flex shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><!--icon--><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></svg></span>
+                <span class="card-compact-title">Anexo</span>
+            </div>
+            <p class="card-compact-description">Anexo, ou carta anexada, é uma carta colocada sob outra carta, representando que está ligada àquela.</p>
+        </div>
+    </a>
+</div>
 <div class="card-compact-container">
     <a href="/gameplay/decks/" class="group card-compact no-link">
         <div class="card-compact-body">
@@ -803,8 +927,8 @@
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-04-25T19:20:57" title="2026-04-25" data-absolute-label="Last updated on 2026-04-25 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-04-25 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
-                        Last updated on 2026-04-25 by Bruno Caxito
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-05-02T21:50:54" title="2026-05-02" data-absolute-label="Last updated on 2026-05-02 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-05-02 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                        Last updated on 2026-05-02 by Bruno Caxito
                     </time>
                 </div>
 

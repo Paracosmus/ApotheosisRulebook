@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.831065282151">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.831084639154">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.5.3">
@@ -41,11 +41,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.5.3.831065282151" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.5.3.831084639154" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.5.3.831065282151" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.5.3.831084639154" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.5.3.831065282151" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.5.3.831084639154" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -469,7 +469,7 @@
 <li>O anexo não pode ser alvo de ações, a não ser quando a ação especificar que seleciona um anexo como alvo.</li>
 <li>O anexo não pode possuir seus próprios anexos, se isto acontecer, os anexos dele devem ser enviados para o <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a> do dono se possível, ou para a pilha de descarte caso contrário.</li>
 <li>O anexo não pode possuir seus próprios <a href="/gameplay/counter/"><span class="main">❂<b>CONTADOR</b></span></a>, nesse caso os contadores são perdidos quando o anexo for anexado à outra carta.</li>
-<li>O anexo deve ser sempre mantido revelado, mesmo que a carta hospedeira esteja oculta.</li>
+<li>O anexo deve ser sempre mantido revelado, mesmo que a carta hospedeira esteja oculta. Quando isso ocorrer, lembre-se que os anexos se tornam <a href="/cards/#estado-da-carta">inativos</a>, portanto, mesmo efeitos <a href="/cards/effect/"><span class="keyword-scope">Do Anexo</span></a> não podem ser usados.</li>
 <li>Anexos não ocupam espaço na <a href="/hero/table/"><span class="main"><b>MESA</b></span></a> do Herói, apenas a hospedeira conta.</li>
 </ul>
 <div class="flex mb-6">
@@ -491,7 +491,7 @@
 </div>
 <hr>
 <h2 id="anexar-e-desanexar">Anexar e Desanexar</h2>
-<p>Cartas são anexadas ou desanexadas da hospedeira por efeitos de cartas, com exceção de cartas de <a href="/cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a>, cujos anexos são gerenciados por sua <a href="/cards/companion/#anexos">regra específica</a>.</p>
+<p>Cartas são anexadas ou desanexadas da hospedeira por efeitos de cartas, com exceção de cartas de <a href="/cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a>, cujos anexos podem também ser gerenciados por sua <a href="/cards/companion/#anexos">regra específica</a>.</p>
 <hr>
 <h2 id="limite">Limite</h2>
 <p>Uma carta pode possuir até <strong>5</strong> anexos.</p>
@@ -520,8 +520,8 @@
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-04-07T18:59:52" title="2026-04-07" data-absolute-label="Last updated on 2026-04-07 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-04-07 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
-                        Last updated on 2026-04-07 by Bruno Caxito
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-05-02T21:50:54" title="2026-05-02" data-absolute-label="Last updated on 2026-05-02 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-05-02 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                        Last updated on 2026-05-02 by Bruno Caxito
                     </time>
                 </div>
 
