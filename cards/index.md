@@ -181,9 +181,15 @@ Ao declarar a ativação de uma carta, o jogador deve seguir os seguintes passos
 
 O estado de uma carta é a condição ou situação em que ela se encontra durante o jogo, podendo influenciar suas interações, mecânicas e sinergias com outros componentes do jogo.
 
+==- <span class="fill">Em Jogo</span> [!badge text="Active" variant="ghost"]
+
+  São todas as cartas reveladas na {{ table }} dos Heróis, no {{ scenario }}, anexos, ou em pilhas de cartas. Indiferente de estarem ativas ou inativas, dos efeitos que possuem, ou mesmo se possuem efeitos.
+
+  Representa todas as cartas que publicamente afetam o jogo neste momento.
+
 ==- <span class="fill">Ativa</span> [!badge text="Active" variant="ghost"]
 
-  Também chamadas de "_cartas em jogo_", são as cartas cujo efeito está ativo ou pode ser ativado.
+  São as cartas cujo efeito está ativo ou pode ser ativado.
 
   * Cartas reveladas na {{ table }} dos Heróis.
   * Cartas reveladas no {{ inv }} dos Heróis.
@@ -200,6 +206,8 @@ O estado de uma carta é a condição ou situação em que ela se encontra duran
 
   São as cartas cujo o efeito não está disponível ou não é de conhecimento público.
 
+  A carta estar inativa significa apenas que seu efeito não está disponível, os demais aspectos da carta, como energias, valor, peça no tabuleiro, etc., devem ser tratados normalmente.
+
   * Cartas ocultas na {{ table }} dos Heróis.
   * Cartas ocultas no {{ inv }} dos Heróis.
   * Cartas ocultas no {{ scenario }}.
@@ -208,10 +216,13 @@ O estado de uma carta é a condição ou situação em que ela se encontra duran
     * Quando não possuem efeitos {{ attached }}.
   * Cartas ocultas em baralhos.
   * Casos Especiais
+    * Alguns efeitos de carta podem inativar outras cartas, seja permanentemente ou temporariamente.
     * Alguns {{ summus }} estabelecem condições específicas para estarem inativas, como estar em uma zona específica ou possuir um estado específico.
 
+  Em alguns casos, cartas inativas reveladas podem ser colocadas de cabeça para baixo para indicar seu estado.
+
   !!!
-  Cartas no Limbo são desconsideradas, portando não são consideradas ativas ou inativas.
+  Cartas no Limbo são desconsideradas, portanto não são consideradas ativas ou inativas.
   !!!
 
 ==- <span class="fill">Revelada</span> [!badge text="Revealed" variant="ghost"]
@@ -224,7 +235,7 @@ O estado de uma carta é a condição ou situação em que ela se encontra duran
 
   Toda carta de face para baixo ou não revelada no {{ inv }} é considerada oculta, sendo de conhecimento privado do jogador que a controla.
 
-  Os demais jogadores devem ter conhecimento da existência de cartas ocultas, mas não de suas informações, como nome, arte, efeitos, etc.. Portando eles podem ver que elas estão na {{ table }}, ou mesmo contar quantas cartas outro jogador tem no {{ inv }}.
+  Os demais jogadores devem ter conhecimento da existência de cartas ocultas, mas não de suas informações, como nome, arte, efeitos, etc.. Portanto, eles podem ver que elas estão na {{ table }}, ou mesmo contar quantas cartas outro jogador tem no {{ inv }}.
 
   _Anexos são desconsiderados._
 
