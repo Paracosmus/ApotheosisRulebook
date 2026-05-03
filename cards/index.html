@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.831084639154">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.831086652262">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.5.3">
@@ -41,11 +41,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.5.3.831084639154" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.5.3.831086652262" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.5.3.831084639154" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.5.3.831086652262" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.5.3.831084639154" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.5.3.831086652262" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -774,11 +774,18 @@
 <h2 id="estado-da-carta">Estado da Carta</h2>
 <p>O estado de uma carta é a condição ou situação em que ela se encontra durante o jogo, podendo influenciar suas interações, mecânicas e sinergias com outros componentes do jogo.</p>
 <doc-panels expando>
+   <doc-panel id="span-classfillem-jogospan-badge-textactive-variantghost" collapsed>
+       <template #title><span class="fill">Em Jogo</span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Active</span>
+</span></template>
+<p>São todas as cartas reveladas na <a href="/hero/table/"><span class="main"><b>MESA</b></span></a> dos Heróis, no <a href="/gameplay/scenario/"><span class="event"><b>CENÁRIO</b></span></a>, anexos, ou em pilhas de cartas. Indiferente de estarem ativas ou inativas, dos efeitos que possuem, ou mesmo se possuem efeitos.</p>
+<p>Representa todas as cartas que publicamente afetam o jogo neste momento.</p>
+   </doc-panel>
    <doc-panel id="span-classfillativaspan-badge-textactive-variantghost" collapsed>
        <template #title><span class="fill">Ativa</span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>Active</span>
 </span></template>
-<p>Também chamadas de &quot;<em>cartas em jogo</em>&quot;, são as cartas cujo efeito está ativo ou pode ser ativado.</p>
+<p>São as cartas cujo efeito está ativo ou pode ser ativado.</p>
 <ul>
 <li>Cartas reveladas na <a href="/hero/table/"><span class="main"><b>MESA</b></span></a> dos Heróis.</li>
 <li>Cartas reveladas no <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a> dos Heróis.</li>
@@ -806,6 +813,7 @@
     <span>Inactive</span>
 </span></template>
 <p>São as cartas cujo o efeito não está disponível ou não é de conhecimento público.</p>
+<p>A carta estar inativa significa apenas que seu efeito não está disponível, os demais aspectos da carta, como energias, valor, peça no tabuleiro, etc., devem ser tratados normalmente.</p>
 <ul>
 <li>Cartas ocultas na <a href="/hero/table/"><span class="main"><b>MESA</b></span></a> dos Heróis.</li>
 <li>Cartas ocultas no <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a> dos Heróis.</li>
@@ -819,10 +827,12 @@
 <li>Cartas ocultas em baralhos.</li>
 <li>Casos Especiais
 <ul>
+<li>Alguns efeitos de carta podem inativar outras cartas, seja permanentemente ou temporariamente.</li>
 <li>Alguns <a href="/cards/summus/"><span class="summus"><b>SUMMUS</b></span></a> estabelecem condições específicas para estarem inativas, como estar em uma zona específica ou possuir um estado específico.</li>
 </ul>
 </li>
 </ul>
+<p>Em alguns casos, cartas inativas reveladas podem ser colocadas de cabeça para baixo para indicar seu estado.</p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
     <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
@@ -836,7 +846,7 @@
             </svg>
         </div>
         <div class="pr-5 ml-3 w-full">
-<p>Cartas no Limbo são desconsideradas, portando não são consideradas ativas ou inativas.</p>
+<p>Cartas no Limbo são desconsideradas, portanto não são consideradas ativas ou inativas.</p>
         </div>
     </div>
 </div>
@@ -853,7 +863,7 @@
     <span>Hidden</span>
 </span></template>
 <p>Toda carta de face para baixo ou não revelada no <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a> é considerada oculta, sendo de conhecimento privado do jogador que a controla.</p>
-<p>Os demais jogadores devem ter conhecimento da existência de cartas ocultas, mas não de suas informações, como nome, arte, efeitos, etc.. Portando eles podem ver que elas estão na <a href="/hero/table/"><span class="main"><b>MESA</b></span></a>, ou mesmo contar quantas cartas outro jogador tem no <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a>.</p>
+<p>Os demais jogadores devem ter conhecimento da existência de cartas ocultas, mas não de suas informações, como nome, arte, efeitos, etc.. Portanto, eles podem ver que elas estão na <a href="/hero/table/"><span class="main"><b>MESA</b></span></a>, ou mesmo contar quantas cartas outro jogador tem no <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a>.</p>
 <p><em>Anexos são desconsiderados.</em></p>
    </doc-panel>
    <doc-panel id="span-classfillrestauradaspan-badge-textrestored-variantghost" collapsed>
@@ -927,7 +937,7 @@
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-05-02T21:50:54" title="2026-05-02" data-absolute-label="Last updated on 2026-05-02 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-05-02 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-05-02T22:24:26" title="2026-05-02" data-absolute-label="Last updated on 2026-05-02 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-05-02 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
                         Last updated on 2026-05-02 by Bruno Caxito
                     </time>
                 </div>
