@@ -35,7 +35,7 @@ A {{ table }} é dividida em quatro áreas principais:
 
 Cada área tem sua própria função e regras específicas, que são descritas abaixo, e são compostas por um certo número de "espaços de cartas".
 
-Cartas anexadas não são consideradas "na {{ table }}".
+Cartas anexadas não são consideradas como "na {{ table }}".
 
 ---
 

@@ -11,23 +11,28 @@ order: 10
 
 Um espaço do {{ mem }} pode conter até 3 cartas de um mesmo LIGNUM. É possível ter cartas de LIGNUM diferentes no {{ mem }}, ocupando espaços diferentes, porém a soma de suas cartas de LIGNUM não pode ser superior a 9.
 
-- **Cartas de Ficha**: São as cartas centrais do Lignum e representam a raiz de base do conjunto.
-- {{ item }}: Representam o tronco do Lignum a parte robusta que dá sustentação ao conjunto.
-- {{ companion }}: Representam os galhos do Lignum, as ramificações que dão versatilidade ao conjunto e seguram as folhas.
-- {{ skill }}: Representam as folhas do Lignum, as partes mais externas e flexíveis do conjunto, que capturam a luz que alimenta todo o conjunto.
+- {{ house }}: Sempre adicionam e/ou trabalham com o conhecimento do Lignum.
+- {{ class }}: Fornecem espaços adicionais para cartas do Lignum igual ao nível da {{ class }}.
+- {{ entity }}: Ao invés de serem mantidos consumindo Energia igual ao nível da carta na sua {{ startPhase }}, são mantidos consumindo 1 de Essência da cor do Lignum.
+- {{ item }}: São consumidos depois de usados e não podem mais ser ativados quando consumidos. Possuem um efeito de {{ resetPhase }} para serem restaurados
+- {{ skill }}: São o banco de energia do Lignum, estas são as cartas que possuem a Essência, a energia especial colorida do Lignum, usada por todas as cartas para ativar os efeitos.
+- {{ companion }}: Para que as técnicas sejam usadas, os anexos precisam ser do mesmo nível e Lignum desta carta.
+- {{ event }}: Uma vez por ciclo, quando estas cartas são descartadas, seja por qualquer mecânica ou efeito, você recupera uma quantidade de Essência da cor deste Lignum igual ao nível desta carta.
+
+Todas estas situações são explicadas nos efeitos das cartas, não necessitando de memorização, mas é importante entender que cada tipo de naipe possui um tem uma função diferente dentro do Lignum, e que a interação entre elas é o que torna o Lignum um conjunto de cartas tão poderoso e versátil.
 
 ---
 
 ## Limite de Cartas
 
-Cartas de Lignum de recurso não ocupam espaços na suas respectivas zonas na {{ table }}, mas são limitadas pelo nível do Herói. Cada Herói pode ter um número de cartas de Lignum de recurso igual ao seu nível.
+Cartas de Lignum não ocupam espaços na suas respectivas zonas na {{ table }}, mas são limitadas pelo nível do Herói. Cada Herói pode ter um número de cartas de Lignum igual ao seu nível.
 
 Cada Herói pode ter apenas uma cópia de cada carta de um Lignum simultaneamente na sua {{ table }}.
 
 !!!secondary Exemplo
-Um Herói de nível **3** pode ter até **3** cartas de Lignum de recurso.
+Um Herói de nível **3** pode ter até **3** cartas de Lignum.
 
-Se este Herói subir para o nível **4**, ele pode adicionar mais uma carta de Lignum de recurso, totalizando **4** cartas de Lignum de recurso.
+Se este Herói subir para o nível **4**, ele pode adicionar mais uma carta de Lignum, totalizando **4** cartas de Lignum.
 !!!
 
 ---

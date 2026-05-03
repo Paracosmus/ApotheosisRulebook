@@ -53,9 +53,9 @@ TIPO         | NÍVEL | NÍVEL MÍNIMO REQUERIDO DO HERÓI
 
 ## <span class="entity">Despertar</span>
 
-Para despertar seu {{ entity }} (levantar usa carta), o personagem deve pagar 2 de {{ sp }} e/ou {{ mp }}.
+Para despertar seu {{ entity }} (revelar esta carta), o Herói deve consumir Energia igual ao nível do {{ entity }}.
 
-Quando o ente estiver desperto, no início de cada um de seus turnos, o personagem pode pagar 2 de {{ sp }} e/ou {{ mp }}, caso contrário, o ente adormece.
+Quando o ente estiver desperto, no início de cada um de seus turnos, o personagem pode consumir Energia igual ao nível do {{ entity }}, caso contrário, o ente adormece.
 
 Quando o {{ entity }} está desperto, sua carta deve ser revelada e o personagem recebe o bônus de atributo indicado na carta, bem como o seu efeito passa a ser considerado.
 

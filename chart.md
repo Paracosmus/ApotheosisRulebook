@@ -25,8 +25,8 @@ Interagir com Objeto ou Personagem
 *   Obter um {{ item }} de uma peça do tipo Container
 
 Despertar o {{ entity }}
-:   **2** de {{ sp }} e/ou {{ mp }}
-*   {{n '+2'}} de **Energia** na sua *Fase Inicial* para manter o {{ entity }} desperto
+:   **Consumir** Energia igual ao nível do {{ entity }}
+*   {{ n '+' }} **Consumir** Energia igual ao nível do {{ entity }} para mantê-lo desperto
 
 Evocar uma {{ summon }}
 :   **2** de {{ mp }} por nível do {{ companion }} a ser evocado
