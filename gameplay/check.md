@@ -39,7 +39,7 @@ Porém, o jogador pode contra-argumentar que nesta situação ele está tentando
 
 O Mestre então, julga a dificuldade do teste com base na forma. Ele pode decidir que para persuadir o alvo por mentiras e manipulações, o teste de _Persuasão_ tradicional é mais difícil, mas para persuadir o alvo por meio de argumentos lógicos sobre um tema que o NPC ama, o teste de _Persuasão_ alternativo é mais fácil, ou vice-versa, dependendo do contexto da situação.
 
-Assim, um jogador experiente ou criativo consegue adaptar a forma de realizar uma ação para as capacidades de seu personagem, e um teste que tradicionalmente seria realizado com um conhecimento específico que talvez o seu personagem nem possua, pode ser realizado com outro conhecimento que ele domina, desde que o jogador consiga justificar sua escolha de forma convincente.
+Assim, um jogador experiente ou criativo consegue adaptar a forma de realizar uma ação para as capacidades de seu personagem, e um teste que tradicionalmente seria realizado com um conhecimento específico que talvez o seu personagem nem possua, pode ser realizado com outro conhecimento que ele domina, desde que o jogador consiga justificar sua escolha de forma coerente.
 !!!
 
 !!!
@@ -49,12 +49,12 @@ Assim, um jogador experiente ou criativo consegue adaptar a forma de realizar um
 O teste é composto de **7** elementos, descritos na seguinte notação:
 
 > _Nome_( [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md) + **Atributo** + **Modificadores** + **Bônus** ➜ **Dificuldade** )
-> ---
-> * Ex. 1: _Escalar_( [<span class="knowledge"><b>ATLETISMO</b></span>](/hero/knowledge.md#atletismo) + [<span class="house"><b>FOR</b></span>](/hero/attributes.md) + ➜ **12** )
-> * Ex. 2: _Caçar_( [<span class="knowledge"><b>PRÁTICA</b></span>](/hero/knowledge.md#prática) + [<span class="house"><b>PER</b></span>](/hero/attributes.md) - <span class="negative">3</span> + ➜ **16** )
-> * Ex. 3: _Memória_( [<span class="house"><b>INT</b></span>](/hero/attributes.md) + <span class="positive">10</span> + ➜ **20** )
 >
 > O sétimo elemento é o dado rolado, mas ele não é expresso na notação do teste.
+> ---
+> * Ex. 1: _Escalar_( [<span class="knowledge"><b>ATLETISMO</b></span>](/hero/knowledge.md#atletismo) + [<span class="house"><b>FOR</b></span>](/hero/attributes.md) ➜ **12** )
+> * Ex. 2: _Caçar_( [<span class="knowledge"><b>PRÁTICA</b></span>](/hero/knowledge.md#prática) + [<span class="house"><b>PER</b></span>](/hero/attributes.md) - <span class="negative">3</span> ➜ **16** )
+> * Ex. 3: _Memória_( [<span class="house"><b>INT</b></span>](/hero/attributes.md) + <span class="positive">10</span> ➜ **20** )
 
 ==- Nome
 
@@ -74,7 +74,7 @@ O teste é composto de **7** elementos, descritos na seguinte notação:
 
   Como já explicado, não existe um [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md) certo ou predeterminado para cada teste que possa surgir durante o jogo, mas existem alguns conhecimentos que são mais comumente associados a certos tipos de testes. Cabe ao jogador que controla o personagem dizer quando, como e de que forma ele irá realizar aquele teste, e isso inclui a escolha do conhecimento que ele acredita ser mais relevante para aquela situação, sendo que o Mestre tem a palavra final sobre a escolha.
 
-  Se o personagem tem um [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md) determinado para o teste conforme descrito, ele recebe um bônus no teste relacionado ao seu nível de [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md).
+  Se o personagem tem o [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md) determinado para o teste, ele recebe um bônus no teste relacionado ao seu nível de [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md).
 
   {.striped}
   | Nível do [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md) | Bônus |
@@ -87,7 +87,7 @@ O teste é composto de **7** elementos, descritos na seguinte notação:
   > Para o nível **4** em diante, o bônus é de <span class="positive">+10</span> para cada nível adicional, ou seja, nível 4 = 20, nível 5 = 30, etc..
 
   !!!
-  Em testes que envolvem o uso de cartas, como uma espada, ou uma magia, por padrão deve-se usar o conhecimento da carta (Livre, se não tiver), e o <b>DANO</b>, se tiver. Porém, assim como em qualquer outro teste, o jogador pode advogar por uma forma diferente.
+  Em testes que envolvem o uso de cartas, como uma espada, ou uma magia, por padrão deve-se usar o conhecimento da carta (Livre, se não tiver). Porém, assim como em qualquer outro teste, o jogador pode advogar por uma forma diferente.
   !!!
 
   ##### Teste Sem Conhecimento
@@ -134,7 +134,7 @@ O teste é composto de **7** elementos, descritos na seguinte notação:
 
 ==- Dado
 
-  O teste é resolvido por meio de uma rolagem de dados, onde o jogador rola um dado de 6 faces (<b>(1D3)</b>) e soma o resultado ao total do [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md), Atributo, Modificadores e Bônus para obter o resultado final do teste.
+  O teste é resolvido por meio de uma rolagem de dados, onde o jogador rola um dado de 6 faces (<b>(1D6)</b>) e soma o resultado ao total do [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md), Atributo, Modificadores e Bônus para obter o resultado final do teste.
 
   Se o teste for de um [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md) que o personagem não possui, ele deve rolar .
 
@@ -170,7 +170,7 @@ Por outro lado, um teste é considerado uma falha quando o resultado final do te
 
 ### Nível de Sucesso
 
-Também conhecido como *"acerto crítico"*, um sucesso crítico é um quando o resultado de um teste é tão alto que o personagem tem um sucesso extraordinário, superando as expectativas normais. Isso pode resultar em efeitos adicionais ou benefícios além do sucesso padrão.
+Também conhecido como *"acerto crítico"*, um sucesso crítico é quando o resultado de um teste é tão alto que o personagem tem um sucesso extraordinário, superando as expectativas normais. Isso pode resultar em efeitos adicionais ou benefícios além do sucesso padrão.
 
 Quando um personagem sucede em um teste, é considerado um *Sucesso de nível 0*. O que geralmente significa que o personagem conseguiu alcançar o objetivo ou superar o desafio, sem efeitos adicionais além do sucesso em si.
 
@@ -181,6 +181,8 @@ Se a dificuldade de um teste for **10**, um resultado de **10** ou mais seria co
 !!!
 
 Para cada nível adicional de sucesso, o personagem pode receber um benefício adicional, como um bônus em um teste subsequente ou uma vantagem narrativa. Cabe ao Mestre determinar quais benefícios adicionais são apropriados para cada nível de sucesso, com base na situação e na narrativa do jogo.
+
+Excepcionalmente, testes muito fáceis (dificuldade 10 ou menos) não permitem níveis adicionais de sucesso, por serem considerados tarefas triviais, onde o sucesso é esperado e não há espaço para um sucesso extraordinário.
 
 ### Nível de Falha
 
@@ -194,13 +196,33 @@ Se o personagem obtiver um resultado inferior ou igual à metade da dificuldade,
 Se a dificuldade de um teste for **24**, um resultado de **23** ou menos seria considerado uma <u>falha de nível 0</u>. Se o resultado for **12** ou menos, seria uma <u>falha de nível 1</u>. Se o resultado for **7** ou menos, seria uma <u>falha de nível 2</u>, e assim por diante.
 !!!
 
+### Repetição de Teste
+
+Algumas situações podem levar o jogador a crer que ele tem a oportunidade de tentar realizar um teste mais de uma vez, seja para tentar melhorar o resultado, ou para tentar alcançar o sucesso após uma falha. **Isto é terminantemente proibido**, a menos que o Mestre explicitamente justifique o porquê da repetição ser permitida ou necessária naquele caso.
+
+#### Repetição de Sucesso
+
+Quando um personagem sucede em um teste, ele não precisa mais realizar aquele teste caso ele volte a acontecer. Por exemplo, se ele já foi bem sucedido em destrancar a porta de uma casa, ele não precisa mais realizar um teste para destrancar aquela mesma porta, se ele já foi bem sucedido escalando uma muralha, ele não precisa mais realizar um teste para escalar aquela mesma muralha.
+
+Considera-se que o personagem já tem o conhecimento, experiência, confiança e habilidade para realizar aquela ação, e portanto não há necessidade de realizar o teste novamente.
+
+#### Repetição de Falha
+
+Quando um personagem falhar em um teste, aquele teste está bloqueado para ele. Falhar em um teste, significa que o personagem já tentou tudo que estava ao seu alcance para realizar aquela ação, não há mais nada que possa ser feito, e o próprio personagem está convencido disto, pois na primeira tentativa ele deu o seu melhor e percebeu que não sabe ou não consegue realizar a ação.
+
+Se o personagem não conseguiu destrancar a porta de uma casa, ele não pode mais tentar destrancar aquela mesma porta, se ele falhou em tentar escalar uma muralha, ele não pode mais tentar escalar aquela mesma muralha.
+
+#### Reteste
+
+Sendo este um jogo de progressão de personagem, dado uma passagem de tempo de <u>pelo menos 1 dia</u>, combinado com uma <u>mudança na construção do personagem</u>, como mudança de [<span class="class"><b>CLASSE</b></span>](/cards/class.md), uma carta que possa ser advogada como bônus significativo, ou a aquisição de [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md), isso deve ser interpretado como uma mudança expressiva no personagem, permitindo uma nova tentativa.
+
 ---
 
-## Sequência de Testes
+## Testes em Série
 
 Em algumas situações, a ação descrita pelo jogador pode envolver a realização de uma série de testes relacionados, onde o resultado de um teste pode influenciar ou determinar o próximo teste a ser realizado.
 
-Nestes casos, o Mestre pode estabelecer uma sequência de testes, onde cada teste subsequente é condicionado ao resultado do teste anterior. O resultado de cada teste na sequência pode afetar a dificuldade, os modificadores, ou mesmo a forma do próximo teste. Falhar em um teste na sequência resulta em uma falha da ação inteira.
+Nestes casos, o Mestre pode estabelecer uma série de testes, onde cada teste subsequente é condicionado ao resultado do teste anterior. O resultado de cada teste na sequência pode afetar a dificuldade, os modificadores, ou mesmo a forma do próximo teste. Falhar em um teste na sequência resulta em uma falha da ação inteira.
 
 !!!secondary Exemplo 1
 _O personagem quer extrair uma informação do taverneiro, porém o taverneiro desconfiado, não engaja na conversa com o personagem._
@@ -212,7 +234,7 @@ Neste caso, se falhar no primeiro teste, o personagem não consegue iniciar a co
 Porém, se obtiver um sucesso de nível 2 por exemplo, o taverneiro poderia ficar muito engajado e interessado na conversa, abaixando sua guarda com o personagem. Fornecendo assim um bônus para o personagem no próximo teste.
 !!!
 
-!!!secondary Exemplo 1
+!!!secondary Exemplo 2
 _O personagem quer escalar um muro e depois saltar do muro para o telhado de uma construção._
 > _Escalar Muro_( [<span class="knowledge"><b>ATLETISMO</b></span>](/hero/knowledge.md#atletismo) + [<span class="house"><b>FOR</b></span>](/hero/attributes.md) ➜ **14** )
 > _Saltar para o Telhado_( [<span class="house"><b>AGI</b></span>](/hero/attributes.md) ➜ **10** )
@@ -250,7 +272,7 @@ Neste caso, a velocidade de travessia é determinado pela composição do equil�
 
 ## Teste em Conjunto
 
-Um teste em que múltiplos personagens estão envolvidos, seja competindo entre si ou colaborando para alcançar um objetivo comum.
+Um teste em que múltiplos personagens estão envolvidos, colaborando para alcançar um objetivo comum.
 
 O resultado de um teste em conjunto é determinado por meio da comparação dos resultados individuais dos personagens envolvidos, ou pela soma dos resultados individuais, dependendo do contexto e da natureza do teste.
 
@@ -274,7 +296,7 @@ Em um teste de maior resultado, o resultado final do teste é determinado pelo m
 
 ### Teste em Conjunto de Menor Resultado
 
-Em um teste do menor resultado, o resultado final do teste é determinado pelo menor resultado individual entre os personagens envolvidos. Este tipo de teste é comum em situações onde a ação ou objetivo depende do desempenho de todos os envolvidos, masde forma que o sucesso do teste depende do desempenho do membro mais fraco do grupo.
+Em um teste do menor resultado, o resultado final do teste é determinado pelo menor resultado individual entre os personagens envolvidos. Este tipo de teste é comum em situações onde a ação ou objetivo depende do desempenho de todos os envolvidos, de forma que o sucesso do teste depende do desempenho do membro mais fraco do grupo.
 
 !!!secondary Exemplo 1
 _Velocidade de Viagem_: vários personagens estão viajando juntos tentando chegar a um destino o mais rápido possível. O personagem mais lento do grupo é quem dita o ritmo da viagem, já que o grupo não pode deixar ninguém para trás.
@@ -310,6 +332,8 @@ _Duelo_: dois personagens estão competindo em um duelo de saque de arma e tiro 
 !!!
 
 !!!secondary Exemplo 3 - Teste em Conjunto
+_Cabo de Guerra_: dois grupos de personagens estão participando de um cabo de guerra, o resultado do Teste em Conjunto de Valor Combinado de cada grupo é comparada para decidir qual grupo venceu a competição.
+
 _Corrida de Revesamento_: vários grupos de personagens estão participando de uma corrida de revezamento, o resultado do Teste em Conjunto de Valor Combinado de cada grupo é comparada para decidir qual grupo venceu a corrida.
 !!!
 
@@ -327,14 +351,119 @@ Em um _Luta de Box_ pode significar que ninguém conseguiu acertar um golpe sign
 
 ---
 
+## Recursos em Testes
+
+Personagens podem adicionar cartas de recurso em testes, para melhorar as condições do teste, para receber bônus adicionais, para tentar garantir o sucesso do teste, ou para evitar a falha do teste.
+
+Para isso, o jogador deve descartar uma quantidade de cartas de recurso do [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) do Herói, ou do anexo do [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md), podendo combinar diferentes recursos para um mesmo teste, sendo que cada tipo de recurso tem uma função diferente, e deve ser usado em um momento específico do teste, como descrito a seguir.
+
+Se o recurso descartado for do mesmo [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md) do teste (incluindo Livre), ele adiciona o dobro do se valor. Um recurso de ( [<span class="knowledge"><b>ARCANO</b></span>](/hero/knowledge.md#arcano) ➜ **2** ) de valor igual a **5**, para um teste de [<span class="knowledge"><b>ARCANO</b></span>](/hero/knowledge.md#arcano), contaria como **10**.
+
+Acompanhe o seguinte exemplo:
+
+> _O personagem está tentando destrancar a porta de uma loja._
+> _Destrancar_( [<span class="knowledge"><b>ASTÚCIA</b></span>](/hero/knowledge.md#astúcia) + [<span class="house"><b>AGI</b></span>](/hero/attributes.md) ➜ **14** )
+
+==- <span class="fill">[<span class="skill"><b>XP</b></span>](/cards/skills.md)</span> [!badge Antes de realizar o teste]
+
+  > O personagem vai usar as experiências vividas para superar o desafio do teste. Garantindo que, pelo conhecimento adquirido, ele sabe exatamente o que fazer para superar o desafio.
+
+  Descarte um a quantidade de [<span class="skill"><b>XP</b></span>](/cards/skills.md) maior ou igual a dificuldade do teste para garantir o sucesso do teste, não sendo mais necessário realizar a rolagem.
+
+  !!!secondary Exemplo
+  Se a dificuldade do teste for **14**, e o jogador descartar uma [<span class="skill"><b>HABILIDADE</b></span>](/cards/skills.md) de nível 2 e outra de nível 3, totalizando **15** de [<span class="skill"><b>XP</b></span>](/cards/skills.md), o teste é automaticamente bem sucedido, sem necessidade de rolar os dados.
+
+  _O personagem já viu aquele modelo de fechadura antes, e sabe exatamente os macetes de como destrancá-la._
+  !!!
+
+==- <span class="fill">[<span class="event"><b>DESTINO</b></span>](/cards/event.md)</span> [!badge Antes de rolar os dados]
+
+  > O personagem vai usar o destino, a sorte, o acaso ou a benção dos deuses para facilitar o teste.
+
+  Descarte uma quantidade de [<span class="event"><b>DESTINO</b></span>](/cards/event.md) para diminuir a dificuldade do teste naquela quantidade.
+
+  !!!secondary Exemplo
+  Se a dificuldade do teste for **14**, e o jogador descartar [<span class="event"><b>DESTINO</b></span>](/cards/event.md) de valor **5**, a dificuldade do teste passa a ser **9**.
+
+  _O personagem tem uma sorte incrível, ou os deuses estão do seu lado, logo que começa a testar as combinações ele percebe que uma falha na fabricação da fechadura vai facilitar o seu trabalho._
+  !!!
+
+==- <span class="fill">[<span class="companion"><b>VONTADE</b></span>](/cards/companion.md)</span> [!badge Depois de rolar os dados]
+
+  > O personagem vai usar sua força de vontade, determinação, coragem ou fanatismo para superar o desafio do teste.
+
+  Descarte uma quantidade de [<span class="companion"><b>VONTADE</b></span>](/cards/companion.md) para somar ao valor obtido na rolagem do teste naquela quantidade.
+
+  !!!secondary Exemplo
+  Se o resultado do teste for **12**, e o jogador descartar 3 cartas de [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) de nível 1, totalizando **3** de [<span class="companion"><b>VONTADE</b></span>](/cards/companion.md), o resultado final do teste passa a ser **15**.
+
+  _O personagem emprega uma vontade enorme, muito esforço e determinação, motivado por um ideal, uma causa, um objetivo ou um medo, para abrir essa tranca._
+  !!!
+
+==- <span class="fill">[<span class="item"><b>PREÇO</b></span>](/cards/item.md)</span> [!badge For falhar no teste]
+
+  > Também chamado de _"comprar o teste"_, esta é uma última medida caso o personagem esteja prestes a falhar no teste, logo após rolar os dados e obter o resultado final, ele então, usando a filosofia de que "_dinheiro não resolve apenas se for pouco_", vai usar seus recursos financeiros para tentar comprar o sucesso do teste.
+
+  Descarte uma quantidade de [<span class="item"><b>PREÇO</b></span>](/cards/item.md) igual à dificuldade do teste ✱ 10.
+
+  Esta é a única forma de uso de recurso em teste que <u>nem sempre está disponível</u>, já que depende do contexto da situação e da narrativa do jogo, e o Mestre tem a palavra final sobre quando esta opção está disponível ou não, valendo ao jogador advogar uma forma de _"comprar o teste"_.
+
+  !!!secondary Exemplo 1 - Fechadura
+  _Destrancar_: _o personagem não consegue destrancar a porta da loja, decidido, ele atravessa a rua e contrata um competente e discreto chaveiro que aceita o trabalho._
+  !!!
+
+  !!!secondary Exemplo 2
+  _Obter Informação_: um personagem está tentando obter uma informação de um informante, mas o teste de persuasão falhou, e o informante se recusa a fornecer a informação. O personagem então suborna o informante, fazendo uma proposta financeira tão alta que é irrecusável.
+  !!!
+
+  !!!secondary Exemplo 3
+  _Transportar Peso_: um personagem está tentando transportar um objeto pesado, mas o teste de força falhou, e ele não consegue levantar o objeto. O personagem então contrata um transeunte, pagando uma quantia exorbitante que faz aquele personagem parar tudo que está fazendo para ganhar aquele dinheiro.
+  !!!
+
+  !!!secondary Exemplo 4
+  _Queda Livre_: um personagem está caindo de uma altura significativa. Ele tenta um teste de _Acrobacia_ para agarrar em um galho de árvore, mas falha, e ele não consegue se segurar. Os jogadores chegam a conclusão que não tem como pagar este teste, a lógica da situação não permite, e o personagem acaba caindo.
+  !!!
+
+  !!!
+  Note que ao usar [<span class="item"><b>PREÇO</b></span>](/cards/item.md) o teste não se torna um teste de _Negociação_, _Suborno_, _Corrupção_ ou semelhantes. Estes são testes tradicionais realizados da forma padrão para fazer acordos.
+
+  Esta é uma mecânica de jogo que representa uma oferta final desesperada, onde o personagem está disposto a pagar um preço exorbitante para garantir o sucesso do teste, e não uma negociação normal onde o personagem tenta obter um preço justo.
+  !!!
+
+===
+
+Uma vez usado um ou mais recursos em um teste, o narrador ou o jogador deve explicar de qual forma aquela utilização de recurso se encaixa na narrativa da ação, e como o personagem está usando aquele recurso para tentar superar o desafio do teste. O uso de recursos deve ser integrado à narrativa e não apenas uma mecânica de jogo, para que faça sentido dentro do contexto da situação.
+
+---
+
 ## Advogar
 
 O jogador pode advogar por um teste, o que significa que ele pode argumentar que um teste específico deve ser realizado para resolver uma situação, mesmo que as regras não especifiquem isso diretamente. O mestre tem a autoridade final para decidir se o teste é apropriado e como ele deve ser conduzido.
 
-Advogar não só é permitido, como é encorajado, pois promove a criatividade e a narrativa colaborativa entre os jogadores e o mestre. É claro que os jogadores devem entender a diferença entre advogar e discutir. O momento de advogar não é um momento para "fazer valer" a sua ideia de como as coisas deveriam ser, mas sim um momento para tentar convencer o mestre ao seu favor ou contra o oponente.
+Advogar não só é permitido como é encorajado, pois promove a criatividade e a narrativa colaborativa entre os jogadores e o mestre. É claro que os jogadores devem entender a diferença entre advogar e discutir. O momento de advogar não é um momento para "fazer valer" a sua ideia de como as coisas deveriam ser, mas sim um momento para tentar convencer o mestre ao seu favor ou contra o oponente.
 
-Isso inclui também, argumentar a favor de bônus positivos ou negativos em um teste, com base na narrativa ou nas circunstâncias do jogo, bem como com base nas cartas na sua mesa, como classes, itens, habilidades, etc. que poderiam influenciar na capacidade ou desempenho do personagem.
+Isso inclui também, argumentar a favor de bônus positivos ou negativos em um teste, com base na narrativa ou nas circunstâncias do jogo, bem como com base nas cartas na sua mesa que poderiam influenciar na capacidade ou desempenho do personagem.
 
 Uma vez que o argumento tenha sido apresentado, o mestre aceita ou rejeita a proposta no ato, determinando o bônus recebido, se houver, e a dificuldade do teste, se necessário, sendo esta a palavra final e não podendo ser contestada.
+
+!!!secondary Exemplo 1 - [<span class="class"><b>CLASSE</b></span>](/cards/class.md)
+_O personagem está fazendo um teste para encontrar onde um livro está na biblioteca._
+
+Ele advoga que ele tem a classe de _Bibliotecário_, e portanto tem um conhecimento especializado em encontrar livros, o que lhe dá um bônus no teste, e o mestre aceita o argumento, concedendo o bônus relacionado ao nível da classe.
+!!!
+
+!!!secondary Exemplo 2 - [<span class="item"><b>ITEM</b></span>](/cards/item.md)
+_O personagem está fazendo um teste para escalar um paredão de pedras._
+
+Ele advoga que ele tem a carta _Corda_, e portanto tem um item que pode ajudá-lo a escalar o paredão, o que lhe dá um bônus no teste, e o mestre aceita o argumento, concedendo um bônus específico para aquele item.
+!!!
+
+!!!secondary Exemplo 3 - [<span class="skill"><b>HABILIDADE</b></span>](/cards/skills.md)
+_O personagem está tentando acender uma fogueira._
+
+Ele advoga que ele tem a carta _Bola de Fogo_, e portanto o teste que seria de ( [<span class="knowledge"><b>PRÁTICA</b></span>](/hero/knowledge.md#prática) + [<span class="house"><b>FOR</b></span>](/hero/attributes.md) ) para acender a fogueira, pode ser realizado com ( [<span class="knowledge"><b>ARCANO</b></span>](/hero/knowledge.md#arcano) + [<span class="house"><b>ESP</b></span>](/hero/attributes.md) ) para usar a magia de fogo para acender a fogueira, e o mestre aceita o argumento, permitindo que o teste seja realizado com [<span class="knowledge"><b>ARCANO</b></span>](/hero/knowledge.md#arcano) ao invés de [<span class="knowledge"><b>PRÁTICA</b></span>](/hero/knowledge.md#prática), porém o jogador deve adicionalmente pagar custo de [<span class="skill"><b>MANA</b></span>](/hero/#mana) relacionados à carta.
+!!!
+
+Qualquer carta na mesa de um personagem pode ser usada como argumento para obter bônus em um teste, cabe ao Mestre e jogadores estarem atentos a tais cartas.
 
 ---
