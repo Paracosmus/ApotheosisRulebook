@@ -175,7 +175,7 @@
 - [Personagens](https://apotheosiscardgame.com/gameplay/characters.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [Mestre de Jogo](https://apotheosiscardgame.com/gameplay/game-master.md): É uma pessoa ou uma forma de “inteligência artificial” que supervisiona, narra e administra a partida. Seu objetivo é controlar elementos que não pertençam aos jogadores, tais como objetivos e outros personagens.
 - [Baralhos](https://apotheosiscardgame.com/gameplay/decks.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
-- [Cenário](https://apotheosiscardgame.com/gameplay/scenario.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Cenário](https://apotheosiscardgame.com/gameplay/scenario.md): É uma área onde são colocadas cartas que estão em jogo e seus efeitos devem ser considerados, mas não são cartas dos jogadores e seus personagens.
 - [Limbo](https://apotheosiscardgame.com/gameplay/limbo.md): Limbo é um estado de jogo onde um componente está temporariamente fora de jogo.
 - [Dado](https://apotheosiscardgame.com/gameplay/die.md): Inúmeras ações no jogo são resolvidas através da rolagem de dados, incluindo testes, ataques, efeitos, entre outros.
 - [Teste](https://apotheosiscardgame.com/gameplay/check.md): Um teste é uma ação realizada por um personagem para determinar se ele consegue ou não alcançar um determinado objetivo ou superar um desafio.
