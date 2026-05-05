@@ -3,33 +3,39 @@ label: Passagem do Tempo
 icon: clock
 order: 5
 ---
-{{ review() }}
 
 # Passagem do Tempo
 
-A passagem do tempo é uma mecânica que pode ser relevante para a estória e para a jogabilidade, e é dividida em duas partes: Período do Dia e Calendário.
+{{ briefing `Método utilizado para controlar a passagem das horas e a data em jogo.` }}
 
-### Período do Dia
+A passagem de tempo e calendário no universo do jogo é medida de forma simbólica, e pode ser adaptada conforme necessário para a campanha. Não sendo uma medida precisa e nem simulada de como é feito a passagem do tempo no mundo real, mas sim uma forma de controlar a narrativa e a jogabilidade de forma fluida e coerente.
+
+O tempo passa mais rápido no jogo, tendo dias mais curtos e meses de apenas uma semana. Isso permite que os jogadores possam experimentar uma variedade de eventos e situações em um período de tempo mais curto, sem se preocupar com a necessidade de esperar por longos períodos de tempo para que as coisas aconteçam.
+
+Observe que apesar de não ser  uma medida idêntica à medida real, a passagem do tempo no jogo segue uma lógica interna consistente equivalente, e deve os demais elementos como idade e prazo, devem ser vistos como seriam no mundo real, ou seja, uma pessoa de 20 anos no jogo, tem a mesma idade que uma pessoa de 20 anos no mundo real, e um prazo de 3 meses no jogo, tem a mesma sensação para os personagens de 3 meses no mundo real.
+
+---
+
+## Período do Dia
 
 Quando não estiverem em batalha a passagem do tempo é contada em períodos do dia. Cada períodos do dia representa 4 horas, e o dia é dividido em 6 períodos, sendo:
 
 * Dia _(Claro)_
-    * [!badge variant="warning"   text="04:00 às 08:00"] Amanhecer
-    * [!badge variant="primary"   text="08:00 às 12:00"] Manhã
-    * [!badge variant="primary"   text="12:00 às 16:00"] Tarde
+    * [!badge variant="warning"   text="06:00 às 10:00"] Manhã [!badge text="Morning" variant="ghost"]
+    * [!badge variant="primary"   text="10:00 às 14:00"] Meio-dia [!badge text="Noon" variant="ghost"]
+    * [!badge variant="primary"   text="14:00 às 18:00"] Tarde [!badge text="Afternoon" variant="ghost"]
 * Noite _(Escuro)_
-    * [!badge variant="secondary" text="16:00 às 20:00"] Anoitecer
-    * [!badge variant="dark"      text="20:00 às 00:00"] Noite
-    * [!badge variant="dark"      text="00:00 às 04:00"] Madrugada
+    * [!badge variant="secondary" text="18:00 às 22:00"] Noite [!badge text="Evening" variant="ghost"]
+    * [!badge variant="dark"      text="22:00 às 02:00"] Meia-noite [!badge text="Midnight" variant="ghost"]
+    * [!badge variant="dark"      text="02:00 às 06:00"] Madrugada [!badge text="Night" variant="ghost"]
 
-Quando não estiverem em batalha, o período do dia avança a cada 4 rodada, e o dia avança a cada 6 períodos do dia.
+Quando o período do dia atingir Meia-Noite, a data avança e o dia seguinte começa.
 
-Quando em batalha, o período do dia não avança, e o dia permanece o mesmo durante toda a batalha.
+Quando em batalha, o período do dia não avança, a batalha acontece inteiramente no mesmo período. Se um personagem iniciar uma batalha, outro personagens que não estiverem em batalha, devem esperar que esta batalha acabe para poderem jogar seus turnos, sendo permitido que eles façam jogadas rápidas condizentes na fase de restauração da batalha, inclusive jogadas que os levem a entrar na batalha em andamento.
 
-Note que, se um personagem iniciar uma batalha, outro personagens que não estiverem em batalha, devem esperar que esta batalha acabe para poderem jogar seus turnos.
+---
 
-
-### Calendário
+## Calendário
 
 O ano no jogo é simbolicamente composto por 12 semanas que são tratadas como meses, e sendo cada semana composta por 7 dias, o ano tem 84 dias.
 
@@ -37,20 +43,23 @@ Algumas campanhas podem se referir a dias da semana ou datas específicas, e a p
 
 A seguir está um calendário padrão que pode ser utilizado como referência para a passagem do tempo, e que pode ser adaptado conforme necessário para a campanha.
 
-#### Datas
+### Datas
 
-| {.compact}
---- | --- | --- | ---
-:icon-triangle-right: <u>**1 de janeiro**</u> | Dia 1  | ❄️ Solstício de Inverno   | _Noite mais longa do ano_
-                      6 de fevereiro          | Dia 17 | 🎭 Carnaval               |
-:icon-triangle-right: <u>**1 de abril**</u>   | Dia 21 | 🌱 Equinócio de Primavera | _Dia e noite iguais_
-:icon-triangle-right: <u>**1 de julho**</u>   | Dia 42 | ☀️ Solstício de Verão     | _Dia mais longo do ano_
-                      2 de agosto             | Dia 44 | 🌾 Festival das Colheitas | _Tipo um Dia de Ação de Graças_
-:icon-triangle-right: <u>**1 de outubro**</u> | Dia 63 | 🍂 Equinócio de Outono    | _Dia e noite iguais_
-                      7 de outubro            | Dia 70 | 🎃 Halloween              | _O dia em que o véu está mais fino_
-                      4 de dezembro           | Dia 78 | 🎄 Natal                  |
-                      7 de dezembro           | Dia 84 | 🎆 Véspera do Ano-Novo    |
+{.striped .compact}
+| Data             | Dia        | Evento                        | Observações
+| ---------------- | ---------- | ----------------------------- | ---
+| **1 de janeiro** | **Dia 1**  | ❄️ **Solstício de Inverno**   | _Noite mais longa do ano_
+| 6 de fevereiro   | Dia 17     | 🎭 Carnaval                   |
+| **1 de abril**   | **Dia 21** | 🌱 **Equinócio de Primavera** | _Dia e noite iguais_
+| **1 de julho**   | **Dia 42** | ☀️ **Solstício de Verão**     | _Dia mais longo do ano_
+| 2 de agosto      | Dia 44     | 🌾 Festival das Colheitas     | _Equivalente ao um Dia de Ação de Graças_
+| **1 de outubro** | **Dia 63** | 🍂 **Equinócio de Outono**    | _Dia e noite iguais_
+| 7 de outubro     | Dia 70     | 🎃 Halloween                  | _O dia em que o Firmamento está mais fino_
+| 4 de dezembro    | Dia 78     | 🎄 Natal                      |
+| 7 de dezembro    | Dia 84     | 🎆 Véspera do Ano-Novo        |
 
 !!!
-O calendário lunar e/ou astronômico pode também ser definido, se relevante.
+O calendário lunar e/ou astronômico pode também ser definido, se relevante para a sua campanha.
 !!!
+
+---
