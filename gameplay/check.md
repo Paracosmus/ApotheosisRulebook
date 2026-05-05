@@ -282,7 +282,7 @@ O resultado de um teste em conjunto é determinado por meio da comparação dos 
 
 Cada jogador descreve e realiza o teste para seu personagem, individualmente, sendo que se possível dado a situação, cada envolvido pode fazer o teste da sua própria forma.
 
-### Teste em Conjunto de Valor Combinado
+### Teste em Conjunto de Resultado Combinado
 
 Em um teste combinado, os resultados individuais dos personagens envolvidos são somados para determinar o resultado final do teste. Este tipo de teste é comum em situações onde os personagens estão colaborando para alcançar um objetivo comum, como levantar um objeto pesado ou defender uma posição contra um ataque, de forma que a soma das ações conjuntas dos envolvidos adicionam integralmente para o objetivo final.
 
