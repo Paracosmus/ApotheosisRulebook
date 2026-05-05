@@ -181,4 +181,4 @@
 - [Teste](https://apotheosiscardgame.com/gameplay/check.md): Um teste é uma ação realizada por um personagem para determinar se ele consegue ou não alcançar um determinado objetivo ou superar um desafio.
 - [Contador](https://apotheosiscardgame.com/gameplay/counter.md): É uma unidade qualquer colocada sobre uma carta, como uma moeda ou ficha de Poker, com o objetivo de representar uma quantidade específica de algo.
 - [Anexo](https://apotheosiscardgame.com/gameplay/attachment.md): Anexo, ou carta anexada, é uma carta colocada sob outra carta, representando que está ligada àquela.
-- [Passagem do Tempo](https://apotheosiscardgame.com/gameplay/time.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Passagem do Tempo](https://apotheosiscardgame.com/gameplay/time.md): Método utilizado para controlar a passagem das horas e a data em jogo.
