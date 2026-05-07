@@ -21,13 +21,13 @@ Observe que apesar de não ser  uma medida idêntica à medida real, a passagem 
 Quando não estiverem em batalha a passagem do tempo é contada em períodos do dia. Cada períodos do dia representa 4 horas, e o dia é dividido em 6 períodos, sendo:
 
 * Dia _(Claro)_
-    * [!badge variant="warning"   text="06:00 às 10:00"] Manhã [!badge text="Morning" variant="ghost"]
-    * [!badge variant="primary"   text="10:00 às 14:00"] Meio-dia [!badge text="Noon" variant="ghost"]
-    * [!badge variant="primary"   text="14:00 às 18:00"] Tarde [!badge text="Afternoon" variant="ghost"]
+    * [!badge variant="warning"   text="06h00 às 10h00"] Manhã [!badge text="Morning" variant="ghost"]
+    * [!badge variant="primary"   text="10h00 às 14h00"] Meio-dia [!badge text="Noon" variant="ghost"]
+    * [!badge variant="primary"   text="14h00 às 18h00"] Tarde [!badge text="Afternoon" variant="ghost"]
 * Noite _(Escuro)_
-    * [!badge variant="secondary" text="18:00 às 22:00"] Noite [!badge text="Evening" variant="ghost"]
-    * [!badge variant="dark"      text="22:00 às 02:00"] Meia-noite [!badge text="Midnight" variant="ghost"]
-    * [!badge variant="dark"      text="02:00 às 06:00"] Madrugada [!badge text="Night" variant="ghost"]
+    * [!badge variant="secondary" text="18h00 às 22h00"] Noite [!badge text="Evening" variant="ghost"]
+    * [!badge variant="dark"      text="22h00 às 02h00"] Meia-noite [!badge text="Midnight" variant="ghost"]
+    * [!badge variant="dark"      text="02h00 às 06h00"] Madrugada [!badge text="Night" variant="ghost"]
 
 Quando o período do dia atingir Meia-Noite, a data avança e o dia seguinte começa.
 
