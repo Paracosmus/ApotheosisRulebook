@@ -150,6 +150,14 @@ O teste é composto de **7** elementos, descritos na seguinte notação:
 
   A dificuldade é um elemento fundamental para determinar o nível de desafio de um teste, e deve ser escolhida de forma a refletir a dificuldade real da ação ou situação que está sendo testada. Dificuldades mais baixas indicam tarefas mais fáceis, enquanto dificuldades mais altas indicam tarefas mais difíceis.
 
+  ##### Teste Oculto
+
+  Em alguns casos, o Mestre pode optar por manter a dificuldade e/ou o nome de um teste ocultos dos jogadores, revelando-os apenas após a rolagem do teste, ou mesmo nunca revelando-os.
+
+  Isso pode ser usado para criar suspense, surpresa ou incerteza em situações onde os jogadores não têm informações suficientes para avaliar a dificuldade da tarefa ou sequer se ela é possível, bem como quando o teste envolve um elemento secretos da narrativa ou descobertas.
+
+  Uma verificação se algum personagem percebeu um objeto relevante, se lembrou ou notou algo, etc.. Também é útil quando não é possível para os personagens saberem se o teste escolhido realmente funcionaria, por exemplo, quando tentando tirar uma informação de um NPC e o Mestre não pode revelar se ele realmente sabe tem aquela informação, pois isso entregaria partes da narrativa.
+
   ##### Teste de Qualidade
 
   Em alguns casos, não faz sentido ou não é necessário estabelecer uma dificuldade para um teste, e portanto o teste é considerado como uma medida de competência. Nesses casos o valor obtido no teste é tratado como a **qualidade** da ação.
