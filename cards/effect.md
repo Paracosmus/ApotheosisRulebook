@@ -1,6 +1,6 @@
 # Efeito
 
-|||{.briefing} :icon-search:
+|||{.briefing} [!badge text="Effect" variant="ghost"]
   O efeito de uma carta é um texto que descreve sua função e mecânica, explicando como jogá-la e aplicá-la durante a partida. A função do efeito é conferir habilidades adicionais à carta, comumente extrapolando as regras do jogo e permitindo interações mais complexas em busca de uma vantagem estratégica.
 |||
     

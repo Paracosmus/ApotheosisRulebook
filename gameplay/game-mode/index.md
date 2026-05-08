@@ -1,6 +1,6 @@
 # Modo de Jogo
 
-|||{.briefing} :icon-search:
+|||{.briefing} [!badge text="Game Mode" variant="ghost"]
   A forma como os jogadores interagem com o sistema. Pode variar desde um modo imaginativo, até um modo apenas no tabuleiro.
 |||
     

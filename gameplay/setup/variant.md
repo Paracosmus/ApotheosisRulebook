@@ -1,6 +1,6 @@
 # Variante
 
-|||{.briefing} :icon-search:
+|||{.briefing} [!badge text="Variant" variant="ghost"]
   São variações nas regras e objetivos que permitem diferentes formas de jogar, seja cooperativamente, competitivamente ou em arena.
 |||
     

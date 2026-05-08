@@ -1,6 +1,6 @@
 # Cartas
 
-|||{.briefing} :icon-search:
+|||{.briefing} [!badge text="Card" variant="ghost"]
   São a base do jogo, as partículas que compõem os personagens e eventos. Cada carta possui um conjunto de informações que são utilizadas para dar função e significado.
 |||
     

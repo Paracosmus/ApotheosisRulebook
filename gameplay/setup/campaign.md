@@ -1,6 +1,6 @@
 # Campanha
 
-|||{.briefing} :icon-search:
+|||{.briefing} [!badge text="Campaign" variant="ghost"]
   São histórias pré-definidas que guiam os jogadores através de uma série de missões e desafios utilizando as cartas e mecânicas do jogo.
 |||
     

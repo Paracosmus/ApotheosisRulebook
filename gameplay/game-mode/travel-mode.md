@@ -1,6 +1,6 @@
 # Modo de Viagem
 
-|||{.briefing} :icon-search:
+|||{.briefing} [!badge text="Travel Mode" variant="ghost"]
   É um modo utilizado quando o grupo se desloca de um local do mapa da região para outro local distante, sem que seja necessário jogar todos os momentos de uma longa viagem.
 |||
     

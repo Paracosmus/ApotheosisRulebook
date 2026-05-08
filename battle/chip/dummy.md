@@ -1,6 +1,6 @@
 # Modelo
 
-|||{.briefing} :icon-search:
+|||{.briefing} [!badge text="Dummy" variant="ghost"]
   Se trata de uma peça no tabuleiro que não representa um personagem Herói, com [<span class="main"><b>MESA</b></span>](/hero/table/), e nem um personagem [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md), com uma carta que o define
 |||
     

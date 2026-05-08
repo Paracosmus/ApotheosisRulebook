@@ -174,7 +174,7 @@
 - [Modo de Vasculhador](https://apotheosiscardgame.com/gameplay/game-mode/scavenger-mode.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [Personagens](https://apotheosiscardgame.com/gameplay/characters.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [Mestre de Jogo](https://apotheosiscardgame.com/gameplay/game-master.md): É uma pessoa ou uma forma de “inteligência artificial” que supervisiona, narra e administra a partida. Seu objetivo é controlar elementos que não pertençam aos jogadores, tais como objetivos e outros personagens.
-- [Baralhos](https://apotheosiscardgame.com/gameplay/decks.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Pilhas de Cartas](https://apotheosiscardgame.com/gameplay/stacks.md): Pilhas de cartas é o nome dado a qualquer monte de cartas utilizado no jogo.
 - [Cenário](https://apotheosiscardgame.com/gameplay/scenario.md): É uma área onde são colocadas cartas que estão em jogo e seus efeitos devem ser considerados, mas não são cartas dos jogadores e seus personagens.
 - [Limbo](https://apotheosiscardgame.com/gameplay/limbo.md): Limbo é um estado de jogo onde um componente está temporariamente fora de jogo.
 - [Dado](https://apotheosiscardgame.com/gameplay/die.md): Inúmeras ações no jogo são resolvidas através da rolagem de dados, incluindo testes, ataques, efeitos, entre outros.

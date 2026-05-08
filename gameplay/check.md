@@ -1,6 +1,6 @@
 # Teste
 
-|||{.briefing} :icon-search:
+|||{.briefing} [!badge text="Check" variant="ghost"]
   Um teste é uma ação realizada por um personagem para determinar se ele consegue ou não alcançar um determinado objetivo ou superar um desafio.
 |||
     

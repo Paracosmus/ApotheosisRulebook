@@ -1,6 +1,6 @@
 # Formato
 
-|||{.briefing} :icon-search:
+|||{.briefing} [!badge text="Format" variant="ghost"]
   São conjuntos personalizados de regras que adicionam ou modificam as regras padrões de jogo, incluindo a forma de interpretar as carta.
 |||
     

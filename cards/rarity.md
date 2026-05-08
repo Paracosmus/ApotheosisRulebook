@@ -1,6 +1,6 @@
 # Raridade
 
-|||{.briefing} :icon-search:
+|||{.briefing} [!badge text="Rarity" variant="ghost"]
   A raridade de uma carta é indicada por uma caixinha colorida com uma letra capitalizada, no canto inferior direito. Ela influencia na qualidade da carta, geralmente com um efeito ou status melhores.
 |||
     

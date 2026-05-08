@@ -1,6 +1,6 @@
 # Configuração da Partida
 
-|||{.briefing} :icon-search:
+|||{.briefing} [!badge text="Game Setup" variant="ghost"]
   É o conjunto de regras, objetivos, e elementos que definem como a partida será jogada. Ela inclui a escolha da campanha, da variante e do formato.
 |||
     

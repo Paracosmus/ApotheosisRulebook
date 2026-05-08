@@ -1,6 +1,6 @@
 # Limbo
 
-|||{.briefing} :icon-search:
+|||{.briefing} [!badge text="Limbo" variant="ghost"]
   Limbo é um estado de jogo onde um componente está temporariamente fora de jogo.
 |||
     

@@ -1,6 +1,6 @@
 # Mestre de Jogo
 
-|||{.briefing} :icon-search:
+|||{.briefing} [!badge text="Game Master" variant="ghost"]
   É uma pessoa ou uma forma de “_inteligência artificial_” que supervisiona, narra e administra a partida. Seu objetivo é controlar elementos que não pertençam aos jogadores, tais como objetivos e outros personagens.
 |||
     

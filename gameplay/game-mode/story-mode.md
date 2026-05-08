@@ -1,6 +1,6 @@
 # Modo Narrativo
 
-|||{.briefing} :icon-search:
+|||{.briefing} [!badge text="Story Mode" variant="ghost"]
   É o modo de jogo onde os jogadores participam de uma narrativa livre, focada em interpretação e estória, com resolução de ações através de testes.
 |||
     

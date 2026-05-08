@@ -1,6 +1,6 @@
 # Passagem do Tempo
 
-|||{.briefing} :icon-search:
+|||{.briefing} [!badge text="Time Management" variant="ghost"]
   Método utilizado para controlar a passagem das horas e a data em jogo.
 |||
     

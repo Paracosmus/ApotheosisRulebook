@@ -1,6 +1,6 @@
 # Coleção
 
-|||{.briefing} :icon-search:
+|||{.briefing} [!badge text="Collection" variant="ghost"]
   Elemento importante na organização e identificação das cartas em um jogo de cartas colecionáveis, ela representa o conjunto de cartas que foram lançadas juntas, geralmente com uma temática ou história em comum.
 |||
     

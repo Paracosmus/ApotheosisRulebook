@@ -4,7 +4,7 @@ Esta seção ainda não foi completamente revisada. Algumas informações podem 
     
 # Modo de Vasculhador
 
-|||{.briefing} :icon-search:
+|||{.briefing} [!badge text="Scavenger Mode" variant="ghost"]
   É o modo de jogo onde os Heróis exploram os ermos prateados em busca de resgatar tesouros e segredos antigos.
 |||
     

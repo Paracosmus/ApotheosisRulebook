@@ -1,6 +1,6 @@
 # Cenário
 
-|||{.briefing} :icon-search:
+|||{.briefing} [!badge text="Scenario" variant="ghost"]
   É uma área onde são colocadas cartas que estão em jogo e seus efeitos devem ser considerados, mas não são cartas dos jogadores e seus personagens.
 |||
     

@@ -1,6 +1,6 @@
 # Modo de Batalha
 
-|||{.briefing} :icon-search:
+|||{.briefing} [!badge text="Battle Mode" variant="ghost"]
   É o modo de jogo onde os jogadores participam de combates táticos, utilizando as regras de batalha para resolver ações e efeitos de cartas.
 |||
     

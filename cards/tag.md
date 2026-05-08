@@ -1,6 +1,6 @@
 # Propriedade
 
-|||{.briefing} :icon-search:
+|||{.briefing} [!badge text="Tag" variant="ghost"]
   São palavras-chave no canto inferior direito da carta e podem ser identificadas pelo ícone de um quadrado da mesma cor do naipe da carta .
 |||
     

@@ -1,6 +1,6 @@
 # Anexo
 
-|||{.briefing} :icon-search:
+|||{.briefing} [!badge text="Attachment" variant="ghost"]
   Anexo, ou carta anexada, é uma carta colocada sob outra carta, representando que está ligada àquela.
 |||
     

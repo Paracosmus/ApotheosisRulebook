@@ -1,6 +1,6 @@
 # Iniciativa
 
-|||{.briefing} :icon-search:
+|||{.briefing} [!badge text="Initiative" variant="ghost"]
   É uma comparação feita entre os personagens para determinar a ordem de ação durante o combate, representando a rapidez com que eles podem agir.
 |||
     

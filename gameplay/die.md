@@ -1,6 +1,6 @@
 # Dado
 
-|||{.briefing} :icon-search:
+|||{.briefing} [!badge text="Die" variant="ghost"]
   Inúmeras ações no jogo são resolvidas através da rolagem de dados, incluindo testes, ataques, efeitos, entre outros.
 |||
     

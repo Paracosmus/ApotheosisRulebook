@@ -1,6 +1,6 @@
 # Contador
 
-|||{.briefing} :icon-search:
+|||{.briefing} [!badge text="Counter" variant="ghost"]
   É uma unidade qualquer colocada sobre uma carta, como uma moeda ou ficha de Poker, com o objetivo de representar uma quantidade específica de algo.
 |||
     
