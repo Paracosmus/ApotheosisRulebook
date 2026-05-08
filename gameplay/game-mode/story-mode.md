@@ -6,7 +6,7 @@ order: 80
 
 # Modo Narrativo
 
-{{ briefing `É o modo de jogo onde os jogadores participam de uma narrativa livre, focada em interpretação e estória, com resolução de ações através de testes.` }}
+{{ briefing `Story Mode` `É o modo de jogo onde os jogadores participam de uma narrativa livre, focada em interpretação e estória, com resolução de ações através de testes.` }}
 
 O modo narrativo é onde o mestre ou campanha narra a história, os eventos e as ações dos NPCs, e os jogadores narram as ações de seus Heróis. Não é necessário um espaço físico para a narração, e as ações são resolvidas através de [testes](/gameplay/check.md), [rolagem de dados](/gameplay/die.md) e comparação de valores.
 

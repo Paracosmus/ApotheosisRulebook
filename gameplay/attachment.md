@@ -6,7 +6,7 @@ order: 10
 
 # Anexo
 
-{{ briefing `Anexo, ou carta anexada, é uma carta colocada sob outra carta, representando que está ligada àquela.` }}
+{{ briefing `Attachment` `Anexo, ou carta anexada, é uma carta colocada sob outra carta, representando que está ligada àquela.` }}
 
 A carta a qual os anexos estão ligados é referida como carta **Hospedeira**. Os anexos são utilizados para diferentes funções, comumente relacionados a efeitos ou habilidades da carta hospedeira.
 

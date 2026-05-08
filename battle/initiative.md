@@ -6,7 +6,7 @@ order: 60
 
 # Iniciativa
 
-{{ briefing `É uma comparação feita entre os personagens para determinar a ordem de ação durante o combate, representando a rapidez com que eles podem agir.` }}
+{{ briefing `Initiative` `É uma comparação feita entre os personagens para determinar a ordem de ação durante o combate, representando a rapidez com que eles podem agir.` }}
 
 No início de cada ciclo, os personagens são ordenados por iniciativa, do maior para o menor.
 

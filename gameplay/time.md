@@ -6,7 +6,7 @@ order: 5
 
 # Passagem do Tempo
 
-{{ briefing `Método utilizado para controlar a passagem das horas e a data em jogo.` }}
+{{ briefing `Time Management` `Método utilizado para controlar a passagem das horas e a data em jogo.` }}
 
 A passagem de tempo e calendário no universo do jogo é medida de forma simbólica, e pode ser adaptada conforme necessário para a campanha. Não sendo uma medida precisa e nem simulada de como é feito a passagem do tempo no mundo real, mas sim uma forma de controlar a narrativa e a jogabilidade de forma fluida e coerente.
 

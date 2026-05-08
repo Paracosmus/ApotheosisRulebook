@@ -6,7 +6,7 @@ order: 30
 
 # Coleção
 
-{{ briefing `Elemento importante na organização e identificação das cartas em um jogo de cartas colecionáveis, ela representa o conjunto de cartas que foram lançadas juntas, geralmente com uma temática ou história em comum.` }}
+{{ briefing `Collection` `Elemento importante na organização e identificação das cartas em um jogo de cartas colecionáveis, ela representa o conjunto de cartas que foram lançadas juntas, geralmente com uma temática ou história em comum.` }}
 
 Por padrão as coleções não influenciam diretamente nas regras do jogo, mas podem ser utilizadas para limitar o uso de cartas em formatos específicos.
 

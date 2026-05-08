@@ -6,7 +6,7 @@ order: 100
 
 # Configuração da Partida
 
-{{ briefing `É o conjunto de regras, objetivos, e elementos que definem como a partida será jogada. Ela inclui a escolha da campanha, da variante e do formato.` }}
+{{ briefing `Game Setup` `É o conjunto de regras, objetivos, e elementos que definem como a partida será jogada. Ela inclui a escolha da campanha, da variante e do formato.` }}
 
 Estas escolhas são feitas antes do início da partida, e podem ser ajustadas conforme necessário para criar a experiência de jogo desejada pelos jogadores.
 

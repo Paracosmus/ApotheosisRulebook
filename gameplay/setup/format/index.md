@@ -6,7 +6,7 @@ order: 100
 
 # Formato
 
-{{ briefing `São conjuntos personalizados de regras que adicionam ou modificam as regras padrões de jogo, incluindo a forma de interpretar as carta.` }}
+{{ briefing `Format` `São conjuntos personalizados de regras que adicionam ou modificam as regras padrões de jogo, incluindo a forma de interpretar as carta.` }}
 
 São utilizados para criar diferentes formas de jogar e permitir a customização por parte dos jogadores.
 

@@ -7,6 +7,6 @@ order: 0
 
 # Modo de Vasculhador
 
-{{ briefing `É o modo de jogo onde os Heróis exploram os ermos prateados em busca de resgatar tesouros e segredos antigos.` }}
+{{ briefing `Scavenger Mode` `É o modo de jogo onde os Heróis exploram os ermos prateados em busca de resgatar tesouros e segredos antigos.` }}
 
 ---

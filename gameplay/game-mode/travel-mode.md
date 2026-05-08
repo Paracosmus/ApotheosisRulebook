@@ -6,7 +6,7 @@ order: 30
 
 # Modo de Viagem
 
-{{ briefing `É um modo utilizado quando o grupo se desloca de um local do mapa da região para outro local distante, sem que seja necessário jogar todos os momentos de uma longa viagem.` }}
+{{ briefing `Travel Mode` `É um modo utilizado quando o grupo se desloca de um local do mapa da região para outro local distante, sem que seja necessário jogar todos os momentos de uma longa viagem.` }}
 
 Geralmente, esse método é utilizado para deslocamentos de grandes distâncias, como ir de uma cidade para a cidade vizinha, viajar pelos mares entre portos ou atravessar uma cadeia de montanhas, entre outros.
 

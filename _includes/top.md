@@ -21,8 +21,8 @@ Esta seção ainda não foi completamente revisada. Algumas informações podem 
 <!-- Briefing -->
 {{
 
-    briefing(brief) = `
-|||{.briefing} :icon-search:
+    briefing(loc, brief) = `
+|||{.briefing} [!badge text="` + loc + `" variant="ghost"]
   ` + brief + `
 |||
     `

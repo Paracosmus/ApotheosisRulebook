@@ -6,7 +6,7 @@ order: 40
 
 # Modelo
 
-{{ briefing `Se trata de uma peça no tabuleiro que não representa um personagem Herói, com ` + table + `, e nem um personagem ` + companion + `, com uma carta que o define` }}
+{{ briefing `Dummy` `Se trata de uma peça no tabuleiro que não representa um personagem Herói, com ` + table + `, e nem um personagem ` + companion + `, com uma carta que o define` }}
 
 São usado primariamente para representar personagens avulsos, sejam gerados por efeitos de carta ou pela campanha.
 

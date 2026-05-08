@@ -6,7 +6,7 @@ order: 80
 
 # Modo de Jogo
 
-{{ briefing `A forma como os jogadores interagem com o sistema. Pode variar desde um modo imaginativo, até um modo apenas no tabuleiro.` }}
+{{ briefing `Game Mode` `A forma como os jogadores interagem com o sistema. Pode variar desde um modo imaginativo, até um modo apenas no tabuleiro.` }}
 
 Cada modo tem suas próprias regras e mecânicas específicas, e os jogadores podem escolher o modo que melhor se encaixa em cada momento da campanha ou sessão de jogo.
 

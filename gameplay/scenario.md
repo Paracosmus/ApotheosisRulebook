@@ -6,7 +6,7 @@ order: 40
 
 # Cenário
 
-{{ briefing `É uma área onde são colocadas cartas que estão em jogo e seus efeitos devem ser considerados, mas não são cartas dos jogadores e seus personagens.` }}
+{{ briefing `Scenario` `É uma área onde são colocadas cartas que estão em jogo e seus efeitos devem ser considerados, mas não são cartas dos jogadores e seus personagens.` }}
 
 O cenário é usadas para adicionar cartas de efeito e uso global, que afetam o jogo ou o tabuleiro universalmente, tais como cartas de clima, condições, terrenos e eventos especiais.
 

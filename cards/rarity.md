@@ -6,7 +6,7 @@ order: 20
 
 # Raridade
 
-{{ briefing `A raridade de uma carta é indicada por uma caixinha colorida com uma letra capitalizada, no canto inferior direito. Ela influencia na qualidade da carta, geralmente com um efeito ou status melhores.` }}
+{{ briefing `Rarity` `A raridade de uma carta é indicada por uma caixinha colorida com uma letra capitalizada, no canto inferior direito. Ela influencia na qualidade da carta, geralmente com um efeito ou status melhores.` }}
 
 Em certos formatos de jogo, a raridade é utilizada para determinar a quantidade de cartas que podem ser incluídas.
 

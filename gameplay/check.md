@@ -6,7 +6,7 @@ order: 30
 
 # Teste
 
-{{ briefing `Um teste é uma ação realizada por um personagem para determinar se ele consegue ou não alcançar um determinado objetivo ou superar um desafio.` }}
+{{ briefing `Check` `Um teste é uma ação realizada por um personagem para determinar se ele consegue ou não alcançar um determinado objetivo ou superar um desafio.` }}
 
 Este é um dos elementos fundamentais deste sistema de RPG. Em termos de jogo, um teste é uma mecânica que envolve a rolagem de dados ou a comparação de valores para determinar o sucesso ou falha de uma ação específica. Os testes são usados para resolver situações em que o resultado não é garantido, como tentar abrir uma porta trancada, persuadir um NPC, ou resistir a um ataque.
 

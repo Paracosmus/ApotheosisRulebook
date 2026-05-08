@@ -6,7 +6,7 @@ order: 38
 
 # Limbo
 
-{{ briefing `Limbo é um estado de jogo onde um componente está temporariamente fora de jogo.` }}
+{{ briefing `Limbo` `Limbo é um estado de jogo onde um componente está temporariamente fora de jogo.` }}
 
 > Um componente pode estar no Limbo por estar incapacitado, exilado, escondido, em uma dimensão paralela, etc..
 

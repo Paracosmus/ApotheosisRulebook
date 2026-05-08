@@ -6,7 +6,7 @@ order: 35
 
 # Dado
 
-{{ briefing `Inúmeras ações no jogo são resolvidas através da rolagem de dados, incluindo testes, ataques, efeitos, entre outros.` }}
+{{ briefing `Die` `Inúmeras ações no jogo são resolvidas através da rolagem de dados, incluindo testes, ataques, efeitos, entre outros.` }}
 
 Os dados utilizados são de seis faces, representados pela sigla **D6**. Em alguns casos, serão necessários dados com menos faces, então o dado de seis faces deve ser tratado da seguinte forma:
 
