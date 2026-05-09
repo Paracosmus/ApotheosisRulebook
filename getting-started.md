@@ -159,7 +159,7 @@
 
   ==- Os Personagens
 
-  [!card](/gameplay/characters.md)
+  [!card](/gameplay/character.md)
 
   Existem 3 tipos de personagens:
 

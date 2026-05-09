@@ -1,4 +1,4 @@
-# Modificadores
+# Modificador
 
 |||{.briefing} [!badge text="Modifier" variant="ghost"]
   São valores providos por um efeito que são aplicados à um cálculo e podem ser positivos ou negativos
@@ -28,6 +28,12 @@ Também conhecidos como Vantagem (_Buff_) e Penalidade (_Debuff_).
 
 São modificadores não permanentes, que um personagem pode receber. Por serem temporários, eles tem um "prazo de validade" e se dissipam automaticamente após um determinado evento ou condição, explicitado pelo efeito que os concedeu.
 
-São de curta duração, geralmente duram até o início do próximo turno de quem os aplicou, até o final da batalha ou até que a carta ativada fique sem contadores de tempo.
+Todo efeito de modificador temporário utilizam a mecânica de [<span class="keyword-limit">Residual</span>](/cards/effect.md) e portanto, explicitam sua duração no corpo do efeito.
+
+!!!secondary Exemplo
+  > _Estimulante_: [<span class="keyword-activation">Ativar</span>](/cards/effect.md) [<span class="keyword-limit">Residual</span>](/cards/effect.md) <span class="positive">+1</span> de [<span class="house"><b>AGI</b></span>](/hero/attributes.md) até o [<span class="keyword-timing">Final da Batalha</span>](/cards/effect.md).
+
+  Sendo do tipo [<span class="keyword-limit">Residual</span>](/cards/effect.md), o modificador é aplicado imediatamente e mesmo que a carta seja removida de jogo, ele se mantém ativo até o [<span class="keyword-timing">Final da Batalha</span>](/cards/effect.md), quando se dissipa automaticamente.
+!!!
 
 ---

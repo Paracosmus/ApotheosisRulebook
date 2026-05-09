@@ -215,7 +215,7 @@
 | -                                        | Energia           | *Energy*       | -             | -       | -         |
 | <span class="skill"></span>             | Estamina          | *Stamina (SP)* | [<span class="skill"><b>ESTAMINA</b></span>](/hero/#estamina)      | e92e    | `#2196F3` |
 | <span class="skill"></span>             | Mana              | *Mana (MP)*    | [<span class="skill"><b>MANA</b></span>](/hero/#mana)      | e92b    | `#2196F3` |
-|                                         | Marcador          | *Marker*       | [<span class="main"><b>MARCADOR</b></span>](/gameplay/characters/#marcadores)  | ea25    | -         |
+|                                         | Marcador          | *Marker*       | [<span class="main"><b>MARCADOR</b></span>](/gameplay/marker.md)  | ea25    | -         |
 | ❂                                        | Contador          | *Counter*      | [<span class="main">❂<b>CONTADOR</b></span>](/gameplay/counter/) | u2742   | -         |
 | -                                        | Anexo             | *Attachment*   | -             | -       | -         |
 |                                         | Propriedade       | *Tag*          | -             | e935    | -         |

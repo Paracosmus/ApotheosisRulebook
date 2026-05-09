@@ -99,7 +99,7 @@ Cada tipo de carga tem um valor de carga específico, que pode ser utilizado par
 ---
 
 #### Melhorias
-Melhorias no navio podem ser adicionados na forma de [<span class="main"><b>MARCADOR</b></span>](/gameplay/characters/#marcadores).
+Melhorias no navio podem ser adicionados na forma de [<span class="main"><b>MARCADOR</b></span>](/gameplay/marker.md).
 
 Cada navio pode ter até 3 melhorias. Sendo que uma vez adicionada a melhoria, ela não pode ser removida.
 

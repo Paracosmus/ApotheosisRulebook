@@ -106,7 +106,7 @@ O teste é composto de **7** elementos, descritos na seguinte notação:
 
 ==- Modificadores
 
-  São todos os [benefícios e penalidades](/gameplay/modifiers.md) provenientes de cartas afetando o teste.
+  São todos os [benefícios e penalidades](/gameplay/modifier.md) provenientes de cartas afetando o teste.
 
   É comum que personagens tenham cartas e efeitos que forneçam bônus para certos tipos de testes, como bônus para testes de [<span class="knowledge"><b>ARCANO</b></span>](/hero/knowledge.md#arcano), ou bônus para testes de [<span class="house"><b>PER</b></span>](/hero/attributes.md), etc., e esses bônus são modificadores para o teste.
 

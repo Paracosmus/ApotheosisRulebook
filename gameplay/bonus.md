@@ -29,7 +29,7 @@ Os adicionais de Atributos (quando +X, -X) e os espaços extras dados por cartas
 Isto porque o bônus é uma consequência de uma regra, e não algo que pode ser gerado pelos jogadores ativando cartas. Assim sendo, um bônus não pode ser impedido, negado ou modificado por efeitos de cartas a não ser que o efeito em sí explicitamente especifique esta capacidade.
 
 !!!
-Quando um efeito de carta age sobre um valor isto é chamado de [Modificador](/gameplay/modifiers.md).
+Quando um efeito de carta age sobre um valor isto é chamado de [Modificador](/gameplay/modifier.md).
 !!!
 
 ---

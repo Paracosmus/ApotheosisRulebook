@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.831606728661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.831669971290">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.5.3">
@@ -41,11 +41,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.5.3.831606728661" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.5.3.831669971290" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.5.3.831606728661" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.5.3.831669971290" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.5.3.831606728661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.5.3.831669971290" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -479,10 +479,10 @@
 <p>Uma viagem começa quando o grupo anuncia que irá se deslocar para outro local no mapa.</p>
 <ul class="list-icon">
 <li>
-<p><span class="docs-emoji">&#x1F566;</span> Verifique a distância em <a href="/gameplay/time/#per%C3%ADodo-do-dia">períodos do dia</a> entre o local atual e o local de destino. Este será o tempo inicial necessário para a viagem, caso não haja interrupções. O mapa da região, geralmente fornecido pela campanha, contém esses valores.</p>
+<p><span class="docs-emoji">&#x1F566;</span> Verifique a distância em <a href="/gameplay/time/#per%C3%ADodo-do-dia">períodos do dia</a> entre o local atual e o local de destino. Este será o tempo inicial necessário para a viagem, caso não haja interrupções. O mapa da região, geralmente fornecido pela campanha, contém esses valores ou permite calcular a distância com base em outros critérios.</p>
 </li>
 <li>
-<p><span class="docs-emoji">&#x1F463;</span> Aplique quaisquer modificadores de tempo de viagem, geralmente causados pela situação das estradas ou do percurso, por condições de campanha, meios de transporte, efeitos de cartas etc., e então determine o tempo total de viagem.</p>
+<p><span class="docs-emoji">&#x1F463;</span> Aplique quaisquer modificadores de tempo de viagem, geralmente causados pela situação das estradas ou do percurso, por condições de campanha, meios de transporte, efeitos de cartas etc., e então determine o tempo total de viagem. Serão então utilizados <a href="/gameplay/counter/"><span class="main">❂<b>CONTADOR DE VIAGEM</b></span></a> para medir o tempo de viagem, a viagem começa com zero contadores e a cada avanço é adicionado um contador.</p>
 </li>
 <li>
 <p><span class="docs-emoji">&#x1F5FA;&#xFE0F;</span> O grupo então entra no <em>&quot;modo de viagem&quot;</em>, e suas regras específicas de jogo são aplicadas.</p>
@@ -497,13 +497,13 @@
 <ul>
 <li>Avance para o próximo período do dia.</li>
 <li>Revele a carta do topo do <span class="event"><b>SANTUÁRIO</b></span>. A carta é ativada, se possível. O efeito da carta é aplicado a todos os personagens do grupo e deve ser resolvido. Se, pelo efeito da carta, ela for enviada para um personagem em vez de ser descartada, apenas um personagem é escolhido para recebê-la.</li>
-<li>O contador de tempo de viagem é <strong>reduzido</strong> em <span class="positive">1</span>. Se o contador de tempo de viagem chegar a 0, a viagem é considerada concluída e o grupo chega ao destino.</li>
+<li>O <a href="/gameplay/counter/"><span class="main">❂<b>CONTADOR DE VIAGEM</b></span></a> é <strong>incrementado</strong> em <strong>1</strong>. Se o <a href="/gameplay/counter/"><span class="main">❂<b>CONTADOR DE VIAGEM</b></span></a> chegar ao valor total da viagem, a viagem é considerada concluída e o grupo chega ao destino.</li>
 </ul>
 </dd>
 <dt id="pausar-o-grupo-interrompe-a-viagem-para-descansar-explorar-ou-realizar-outras-atividades"><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M4.5 12.75a.75.75 0 0 1 .75-.75h13.5a.75.75 0 0 1 0 1.5H5.25a.75.75 0 0 1-.75-.75Z"/></g></g></svg> <strong>Pausar</strong>: O grupo interrompe a viagem para descansar, explorar ou realizar outras atividades.</dt>
 <dd>
 <ul>
-<li>Nesse caso, o contador de tempo de viagem é mantido, e o grupo pode jogar seus respectivos turnos normalmente, seguindo as regras do <a href="/gameplay/game-mode/story-mode/">Modo Narrativo</a> e considerando o local do caminho em que se encontram.</li>
+<li>Nesse caso, o <a href="/gameplay/counter/"><span class="main">❂<b>CONTADOR DE VIAGEM</b></span></a> é mantido, e o grupo pode jogar seus respectivos turnos normalmente, seguindo as regras do <a href="/gameplay/game-mode/story-mode/">Modo Narrativo</a> e considerando o local do caminho em que se encontram.</li>
 <li>Para cada 4 rodadas pausadas, deve-se avançar o período do dia uma vez, mesmo quando essas rodadas acontecerem em pontos diferentes desta viagem.</li>
 </ul>
 </dd>
@@ -512,7 +512,7 @@
 <ul>
 <li>Avance para o próximo período do dia.</li>
 <li>Revele a carta do topo do <span class="event"><b>SANTUÁRIO</b></span>. A carta é ativada, se possível. O efeito da carta é aplicado a todos os personagens do grupo e deve ser resolvido. Se, pelo efeito da carta, ela for enviada para um personagem em vez de ser descartada, apenas um personagem é escolhido para recebê-la.</li>
-<li>O contador de tempo de viagem é <strong>incrementado</strong> em <span class="negative">1</span>. Se o contador de tempo de viagem chegar ao valor inicial, a viagem é considerada concluída e o grupo retorna ao local de origem.</li>
+<li>O <a href="/gameplay/counter/"><span class="main">❂<b>CONTADOR DE VIAGEM</b></span></a> é <strong>deduzido</strong> em <strong>1</strong>. Se o <a href="/gameplay/counter/"><span class="main">❂<b>CONTADOR DE VIAGEM</b></span></a> chegar a zero, a viagem é considerada concluída e o grupo retorna ao local de origem.</li>
 </ul>
 </dd>
 </dl>
@@ -610,8 +610,8 @@
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-05-08T16:07:58" title="2026-05-08" data-absolute-label="Last updated on 2026-05-08 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-05-08 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
-                        Last updated on 2026-05-08 by Bruno Caxito
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-05-09T16:26:33" title="2026-05-09" data-absolute-label="Last updated on 2026-05-09 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-05-09 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                        Last updated on 2026-05-09 by Bruno Caxito
                     </time>
                 </div>
 

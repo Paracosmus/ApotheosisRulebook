@@ -2,7 +2,7 @@
 Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 !!!
     
-# Personagens
+# Personagem
 
 |||{.briefing} [!badge text="Character" variant="ghost"]
   É toda representação de um indivíduo animado, ou seja, que pode se mover, agir e interagir com o ambiente do jogo, e que pode ser controlada por um jogador ou pelo mestre de jogo, e que possui características, habilidades e estatísticas específicas.
