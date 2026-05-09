@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.831582459096">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.831606728661">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.5.3">
@@ -41,11 +41,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.5.3.831582459096" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.5.3.831606728661" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.5.3.831582459096" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.5.3.831606728661" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.5.3.831582459096" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.5.3.831606728661" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -647,12 +647,12 @@
    </doc-panel>
    <doc-panel id="modificadores" collapsed>
        <template #title>Modificadores</template>
-<p>São todos os bônus ou penalidades provenientes de cartas afetando o teste.</p>
+<p>São todos os <a href="/gameplay/modifiers/">benefícios e penalidades</a> provenientes de cartas afetando o teste.</p>
 <p>É comum que personagens tenham cartas e efeitos que forneçam bônus para certos tipos de testes, como bônus para testes de <a href="/hero/knowledge/#arcano"><span class="knowledge"><b>ARCANO</b></span></a>, ou bônus para testes de <a href="/hero/attributes/"><span class="house"><b>PER</b></span></a>, etc., e esses bônus são modificadores para o teste.</p>
    </doc-panel>
    <doc-panel id="bônus" collapsed>
        <template #title>Bônus</template>
-<p>São todos os bônus ou penalidades provenientes de fatores externos, como o ambiente, a situação, as condições do personagem, etc.</p>
+<p>São todos os <a href="/gameplay/bonus/">bônus</a> ou penalidades provenientes regras e de fatores externos, como o ambiente, a situação, as condições do personagem, etc.</p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-secondary"></div>
     <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
@@ -697,7 +697,7 @@
    </doc-panel>
    <doc-panel id="dado" collapsed>
        <template #title>Dado</template>
-<p>O teste é resolvido por meio de uma rolagem de dados, onde o jogador rola um dado de 6 faces (<b>(1D6)</b>) e soma o resultado ao total do <a href="/hero/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a>, Atributo, Modificadores e Bônus para obter o resultado final do teste.</p>
+<p>O teste é resolvido por meio de uma rolagem de <a href="/gameplay/die/">dados</a>, onde o jogador rola um dado de 6 faces (<b>(1D6)</b>) e soma o resultado ao total do <a href="/hero/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a>, Atributo, Modificadores e Bônus para obter o resultado final do teste.</p>
 <p>Se o teste for de um <a href="/hero/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a> que o personagem não possui, ele deve rolar .</p>
 <p>Na rolagem do dado do teste, leva-se em conta a regra de <a href="/gameplay/die/#dados-extras-rolagem-perfeita">rolagem perfeita</a>.</p>
 <div class="flex mb-6">
@@ -1296,6 +1296,7 @@
    </doc-panel>
 </doc-panels>
 <p>Uma vez usado um ou mais recursos em um teste, o narrador ou o jogador deve explicar de qual forma aquela utilização de recurso se encaixa na narrativa da ação, e como o personagem está usando aquele recurso para tentar superar o desafio do teste. O uso de recursos deve ser integrado à narrativa e não apenas uma mecânica de jogo, para que faça sentido dentro do contexto da situação.</p>
+<p>Apenas o personagem que está realizando o teste pode usar recursos para aquele teste, isso inclui <a href="/cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a>, que <u>devem usar seus próprios anexos</u>.</p>
 <hr>
 <h2 id="advogar">Advogar</h2>
 <p>O jogador pode advogar por um teste, o que significa que ele pode argumentar que um teste específico deve ser realizado para resolver uma situação, mesmo que as regras não especifiquem isso diretamente. O mestre tem a autoridade final para decidir se o teste é apropriado e como ele deve ser conduzido.</p>
@@ -1383,7 +1384,7 @@
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-05-08T16:07:58" title="2026-05-08" data-absolute-label="Last updated on 2026-05-08 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-05-08 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-05-08T22:52:23" title="2026-05-08" data-absolute-label="Last updated on 2026-05-08 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-05-08 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
                         Last updated on 2026-05-08 by Bruno Caxito
                     </time>
                 </div>
@@ -1405,10 +1406,10 @@
                     </div>
             
                     <div class="w-1/2">
-                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="/gameplay/counter/">
+                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="/gameplay/stacks/">
                             <span>
                                 <span class="block text-xs font-normal text-right text-base-text-muted">Next</span>
-                                <span class="block mt-1">Contador</span>
+                                <span class="block mt-1">Pilhas de Cartas</span>
                             </span>
                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                         </a>

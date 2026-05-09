@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.831582459096">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.831606728661">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.5.3">
@@ -41,11 +41,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.5.3.831582459096" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.5.3.831606728661" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.5.3.831582459096" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.5.3.831606728661" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.5.3.831582459096" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.5.3.831606728661" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -468,30 +468,22 @@
     </div>
 </div>
 <h1 id="personagens">Personagens</h1>
-<p>É chamado de <strong>Personagem</strong> toda representação de um indivíduo animado, ou seja, que pode se mover, agir e interagir com o ambiente do jogo, e que pode ser controlada por um jogador ou pelo mestre de jogo, e que possui características, habilidades e estatísticas específicas. Os personagens são representados por cartas, miniaturas ou tokens no tabuleiro, e são os principais agentes através dos quais os jogadores interagem com o mundo do jogo.</p>
+<div class="mb-6 overflow-hidden border rounded-md docs-columns dark:border-base-border" style="grid-template-columns: repeat(1, minmax(0, 1fr));">
+    <div class="flex items-center px-5 py-3 font-medium leading-snug text-gray-900 border-b border-base-border dark:text-white">
+        <span><p class="briefing"> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Character</span>
+</span></p>
+</span>
+    </div>
+    <div class="px-5 py-3 docs-columns-content">
+<p>É toda representação de um indivíduo animado, ou seja, que pode se mover, agir e interagir com o ambiente do jogo, e que pode ser controlada por um jogador ou pelo mestre de jogo, e que possui características, habilidades e estatísticas específicas.</p>
+    </div>
+</div>
+<p>Os personagens são representados por cartas, miniaturas ou meeples no tabuleiro, e são os principais agentes através dos quais os jogadores interagem com o mundo do jogo.</p>
 <p>Personagem é a forma de se designar qualquer referência que represente um ser animado, englobando humanos, animais, evocações e quaisquer criaturas vivas, tendo elas peças no tabuleiro ou não.</p>
-<p>Geralmente, o termo se refere a <a href="/hero/">Heróis</a> e <a href="/cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a>, mas em situações específicas de campanha, podem também se referir a outras criaturas.</p>
-<p>Companheiros só podem utilizar o próprio destino em testes, salvação divina, etc.</p>
+<p>Geralmente, o termo se refere a <a href="/hero/">Heróis</a>, <a href="/cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a> e <a href="/battle/chip/dummy/">Modelos</a>, mas em situações específicas de campanha, podem também se referir a outras criaturas.</p>
 <hr>
-<h2 id="time">Time</h2>
-<p>Um time é composto por um grupo de Heróis trabalhando em conjunto, geralmente representando o coletivo de Heróis dos jogadores, mas também se referindo a qualquer outro grupo de Heróis.</p>
-<p>Alguns efeitos de cartas são aplicados apenas a membros de um mesmo time ou de outro time, portanto, é necessário que Heróis unidos estejam bem definidos como um time.</p>
-<hr>
-<h2 id="nível-do-time">Nível do Time</h2>
-<p>O nível de um time é medido pela soma dos níveis dos Heróis que o compõem.</p>
-<hr>
-<h2 id="marcadores">Marcadores</h2>
-<p>Um marcador representa um estado do personagem ao qual foi adicionado. Eles podem simbolizar desde estados físicos e mentais, quanto bençãos e maldições, entre outros.</p>
-<p>Marcadores possuem nomes do tipo: FERIDO, AMALDIÇOADO, FURTIVO, ENCANTADO, FELIZ, ENVENENADO, DOENTE, etc.</p>
-<p>Um marcador não faz nada por si só, eles são adicionados ao personagem, utilizados e removidos pelo efeito de cartas.</p>
-<p>Cada personagem pode ter infinitos marcadores, mas apenas um marcador de cada nome. Se um efeito resultar no personagem possuir marcadores duplicados, ignore a adição do marcador em excesso.</p>
-<hr>
-<h2 id="modificadores-temporários">Modificadores Temporários</h2>
-<p>Também conhecidos como Vantagem (Buff) e Penalidade (Debuff).</p>
-<p>São modificadores não permanentes, que um personagem pode receber. Eles causam aumento ou redução de valores como Atributos e bônus.</p>
-<p>São concedidos por efeitos de cartas e são de curta duração, geralmente duram até o início do próximo turno de quem os aplicou ou até que a carta ativada fique sem contadores de tempo.</p>
-<p>Algumas cartas podem aplicar Modificadores Temporários durante uma determinada condição, como por exemplo até o final de uma batalha ou enquanto uma carta estiver no Ambiente.</p>
-<p>Diferente dos marcados, estes não são permanentes, eles se dissipam automaticamente conforme descrito em suas cartas. Modificadores Temporários também não possuem nomes ou limites, um Herói pode recebê-los indefinidamente.</p>
+<h2 id="estatísticas">Estatísticas</h2>
 <hr>
 <h2 id="reviver">Reviver</h2>
 <blockquote>
@@ -617,8 +609,8 @@
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-03-31T18:25:31" title="2026-03-31" data-absolute-label="Last updated on 2026-03-31 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-03-31 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
-                        Last updated on 2026-03-31 by Bruno Caxito
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-05-08T22:52:23" title="2026-05-08" data-absolute-label="Last updated on 2026-05-08 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-05-08 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                        Last updated on 2026-05-08 by Bruno Caxito
                     </time>
                 </div>
 
@@ -629,20 +621,20 @@
             
                 <nav id="retype-nextprev" class="print:hidden flex mt-14">
                     <div class="w-1/2">
-                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="/gameplay/game-mode/scavenger-mode/">
+                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="/gameplay/team/">
                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                             <span>
                                 <span class="block text-xs font-normal text-base-text-muted">Previous</span>
-                                <span class="block mt-1">Modo de Vasculhador</span>
+                                <span class="block mt-1">Time</span>
                             </span>
                         </a>
                     </div>
             
                     <div class="w-1/2">
-                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="/gameplay/game-master/">
+                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="/gameplay/marker/">
                             <span>
                                 <span class="block text-xs font-normal text-right text-base-text-muted">Next</span>
-                                <span class="block mt-1">Mestre de Jogo</span>
+                                <span class="block mt-1">Marcadores</span>
                             </span>
                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                         </a>

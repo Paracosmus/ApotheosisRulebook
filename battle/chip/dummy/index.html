@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.831582459096">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.831606728661">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.5.3">
@@ -41,11 +41,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.5.3.831582459096" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.5.3.831606728661" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.5.3.831582459096" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.5.3.831606728661" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.5.3.831582459096" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.5.3.831606728661" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -475,13 +475,9 @@
 <p>É comum que chefes de campanha (boss), sejam representados por Modelos que possam funcionar em suas próprias regras, permitindo ao chefe realizar ações e possuir habilidades sem a necessidade da construção de um personagem completo e complexo, dado que chefes são comumente extremamente poderosos e com suas próprias mecânicas únicas.</p>
 <p>Outra forma comum, é para gerar personagens temporários ou voláteis gerados por efeitos de cartas, como por exemplo, o efeito de uma carta que gera um personagem aliado temporário, ou um personagem inimigo temporário.</p>
 <hr>
-<h2 id="estatísticas">Estatísticas</h2>
-<p>Um modelo possuí as seguintes estatísticas, definidas por sua carta, campanha ou método de geração, que por padrão funcionam da mesma forma que as estatísticas de outros personagens, mas podem ser modificadas por mecânicas próprias do Modelo:</p>
+<h2 id="estatísticas-adicionais">Estatísticas Adicionais</h2>
+<p>Um modelo possuí as seguintes estatísticas, em adicional às estatísticas presentes em todas as peças. Estes valores são definidos por sua carta, campanha ou método de geração, que por padrão funcionam da mesma forma que as estatísticas de outros personagens, mas podem ser modificadas por mecânicas próprias do Modelo:</p>
 <ul>
-<li><a href="/hero/#vida"><span class="hp"><b>VIDA</b></span></a></li>
-<li><a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a></li>
-<li><a href="/hero/attributes/">Atributos</a></li>
-<li><a href="/cards/tag/">Propriedades</a></li>
 <li><a href="/cards/technique/">Técnicas</a></li>
 <li><doc-anchor-trigger to="#mec%C3%A2nicas-de-modelo">Mecânicas próprias</doc-anchor-trigger></li>
 </ul>
@@ -512,6 +508,67 @@
 <h2 id="mecânicas-de-modelo">Mecânicas de Modelo</h2>
 <p>Modelos podem possuir mecânicas próprias, que podem adicionar novas estatísticas ou modificar as já existentes, como por exemplo, uma mecânica onde o chefe possuí múltiplos turnos em uma rodada, ou uma mecânica onde seus pontos de <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a> não são definidos por sua <a href="/hero/attributes/"><span class="house"><b>AGI</b></span></a>, etc..</p>
 <hr>
+<h2 id="cartas-associadas">Cartas Associadas</h2>
+<p>Um modelo não pode possuir cartas, pois ele não possui <a href="/hero/table/"><span class="main"><b>MESA</b></span></a>. No entanto, um modelo pode empregar efeitos iguais ou inspirados em cartas existentes.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-secondary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-secondary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Exemplo 1</h5>
+<p>Um modelo que é um cavaleiro pode possuir um efeito parecido com o efeito da carta de <a href="/cards/class/"><span class="class"><b>CLASSE</b></span></a> &quot;<em>Cavaleiro</em>&quot;.</p>
+        </div>
+    </div>
+</div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-secondary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-secondary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Exemplo 2</h5>
+<p>Um modelo que possui <a href="/cards/skills/"><span class="skill"><b>HABILIDADE</b></span></a> e <a href="/cards/item/"><span class="item"><b>ITEM</b></span></a> que existem cartas definidas para eles, pode possuir os mesmos efeitos dessas cartas.</p>
+        </div>
+    </div>
+</div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-secondary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-secondary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Exemplo 3</h5>
+<p>Um modelo de chefe de campanha que é um receptáculo de um <a href="/cards/entity/"><span class="entity"><b>ENTE</b></span></a> pode possuir o mesmo efeito daquela carta de <a href="/cards/entity/"><span class="entity"><b>ENTE</b></span></a>.</p>
+<blockquote>
+<p>Quando um modelo for associado a um <a href="/cards/entity/"><span class="entity"><b>ENTE</b></span></a>, é também esperado que ele possua a propriedade <strong>RECEPTÁCULO</strong> por coerência. Essa propriedade é comum em <a href="/cards/companion/#-humano"><span class="companion"><b>HUMANO</b></span></a> cuja a temática seja um personagem com um <a href="/cards/entity/"><span class="entity"><b>ENTE</b></span></a> incorporado.</p>
+</blockquote>
+        </div>
+    </div>
+</div>
+<p>Quando um modelo é derrotado, mesmo não possuindo as cartas, o mestre pode descartar da sua mão ou de um baralho as cartas associadas àquele modelo e tornar os <a href="/cards/item/"><span class="item"><b>ITEM</b></span></a> associados disponíveis para outros jogadores saquearem.</p>
+<hr>
 <div id="retype-backlinks">
     <h2>See also</h2>
 <div class="card-compact-group">
@@ -536,6 +593,17 @@
         </div>
     </a>
 </div>
+<div class="card-compact-container">
+    <a href="/gameplay/characters/" class="group card-compact no-link">
+        <div class="card-compact-body">
+            <div class="card-compact-header">
+                <span class="card-compact-icon inline-flex shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><!--icon--><path d="M3.5 8a5.5 5.5 0 1 1 8.596 4.547 9.005 9.005 0 0 1 5.9 8.18.751.751 0 0 1-1.5.045 7.5 7.5 0 0 0-14.993 0 .75.75 0 0 1-1.499-.044 9.005 9.005 0 0 1 5.9-8.181A5.496 5.496 0 0 1 3.5 8ZM9 4a4 4 0 1 0 0 8 4 4 0 0 0 0-8Zm8.29 4c-.148 0-.292.01-.434.03a.75.75 0 1 1-.212-1.484 4.53 4.53 0 0 1 3.38 8.097 6.69 6.69 0 0 1 3.956 6.107.75.75 0 0 1-1.5 0 5.193 5.193 0 0 0-3.696-4.972l-.534-.16v-1.676l.41-.209A3.03 3.03 0 0 0 17.29 8Z"/></svg></span>
+                <span class="card-compact-title">Personagens</span>
+            </div>
+            <p class="card-compact-description">Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.</p>
+        </div>
+    </a>
+</div>
 </div>
 </div>
 <!-- Insert this at the bottom of each markdown page -->
@@ -544,7 +612,7 @@
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-05-08T16:07:58" title="2026-05-08" data-absolute-label="Last updated on 2026-05-08 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-05-08 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-05-08T22:52:23" title="2026-05-08" data-absolute-label="Last updated on 2026-05-08 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-05-08 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
                         Last updated on 2026-05-08 by Bruno Caxito
                     </time>
                 </div>

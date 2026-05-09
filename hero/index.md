@@ -92,4 +92,8 @@ Em uma _Salvação Divina_, não se considera que o personagem tenha morrido, ne
 Efeitos que consideram o <b>DANO</b> e <b>LESÃO</b> sofrido pelo personagem, devem ser aplicados normalmente e considerando o valor real que resultou em [<span class="hp"><b>VIDA</b></span>](/hero/#vida) zerada ou negativa.
 !!!
 
+!!!
+Apenas Heróis podem obter uma _Salvação Divina_, portanto, se um [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md), Modelo ou outro personagem que não seja um Herói tiver sua [<span class="hp"><b>VIDA</b></span>](/hero/#vida) reduzida a 0 ou menos, ele morre sem a possibilidade de obter uma _Salvação Divina_.
+!!!
+
 ---

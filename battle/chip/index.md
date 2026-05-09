@@ -6,6 +6,13 @@ Esta seção ainda não foi completamente revisada. Algumas informações podem 
 
 A batalha acontece em um tabuleiro quadriculado de 11x11 casas. No tabuleiro, podem conter casas bloqueadas ou com diferentes níveis de altura. Cada casa possui um tipo de terreno (grama, terra, água, lama, areia etc.).
 
+- [<span class="hp"><b>VIDA</b></span>](/hero/#vida)
+- [<span class="main"><b>AÇÃO</b></span>](/hero/#ação)
+- [Atributos](/hero/attributes.md)
+- [Propriedades](/cards/tag.md)
+- [Técnicas](/cards/technique.md)
+- [Mecânicas próprias](#mecânicas-de-modelo)
+
 ---
 
 # **Tipos**

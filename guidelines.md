@@ -21,20 +21,6 @@ graph LR
 
 ---
 
-## Bônus
-
-Quando um número é apresentado na forma **+X** ou **-X**, isso indica que se trata de um bônus. Por exemplo:
-
-<b>DANO</b> = [<span class="house"><b>FOR</b></span>](/hero/attributes.md) + 3 + 
-:   [<span class="house"><b>FOR</b></span>](/hero/attributes.md) é o valor base que recebe os bônus.
-
-    Tanto o valor 3 quanto o valor (1D6) são bônus adicionados a este <b>DANO</b>.
-
-Efeito: <span class="positive">+2</span> em testes de [<span class="knowledge"><b>FÉ</b></span>](/hero/knowledge.md#fé)
-:   O valor <span class="positive">+2</span> é um bônus adicionado ao valor que obtiver em um teste cujo conhecimento seja [<span class="knowledge"><b>FÉ</b></span>](/hero/knowledge.md#fé).
-
----
-
 ## Valor Mínimo
 
 Toda operação matemática cujo resultado final seja um valor **igual ou inferior a zero** deve ser considerada como tendo resultado igual a **1**.

@@ -106,13 +106,13 @@ O teste é composto de **7** elementos, descritos na seguinte notação:
 
 ==- Modificadores
 
-  São todos os bônus ou penalidades provenientes de cartas afetando o teste.
+  São todos os [benefícios e penalidades](/gameplay/modifiers.md) provenientes de cartas afetando o teste.
 
   É comum que personagens tenham cartas e efeitos que forneçam bônus para certos tipos de testes, como bônus para testes de [<span class="knowledge"><b>ARCANO</b></span>](/hero/knowledge.md#arcano), ou bônus para testes de [<span class="house"><b>PER</b></span>](/hero/attributes.md), etc., e esses bônus são modificadores para o teste.
 
 ==- Bônus
 
-  São todos os bônus ou penalidades provenientes de fatores externos, como o ambiente, a situação, as condições do personagem, etc.
+  São todos os [bônus](/gameplay/bonus.md) ou penalidades provenientes regras e de fatores externos, como o ambiente, a situação, as condições do personagem, etc.
 
   !!!secondary Exemplo
   Um personagem que cresceu em um ambiente montanhoso pode receber um bônus em um teste de "_encontrar uma caverna nas montanhas_".
@@ -134,7 +134,7 @@ O teste é composto de **7** elementos, descritos na seguinte notação:
 
 ==- Dado
 
-  O teste é resolvido por meio de uma rolagem de dados, onde o jogador rola um dado de 6 faces (<b>(1D6)</b>) e soma o resultado ao total do [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md), Atributo, Modificadores e Bônus para obter o resultado final do teste.
+  O teste é resolvido por meio de uma rolagem de [dados](/gameplay/die.md), onde o jogador rola um dado de 6 faces (<b>(1D6)</b>) e soma o resultado ao total do [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md), Atributo, Modificadores e Bônus para obter o resultado final do teste.
 
   Se o teste for de um [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md) que o personagem não possui, ele deve rolar .
 
@@ -441,6 +441,8 @@ Acompanhe o seguinte exemplo:
 ===
 
 Uma vez usado um ou mais recursos em um teste, o narrador ou o jogador deve explicar de qual forma aquela utilização de recurso se encaixa na narrativa da ação, e como o personagem está usando aquele recurso para tentar superar o desafio do teste. O uso de recursos deve ser integrado à narrativa e não apenas uma mecânica de jogo, para que faça sentido dentro do contexto da situação.
+
+Apenas o personagem que está realizando o teste pode usar recursos para aquele teste, isso inclui [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md), que <u>devem usar seus próprios anexos</u>.
 
 ---
 
