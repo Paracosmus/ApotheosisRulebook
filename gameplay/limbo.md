@@ -1,7 +1,7 @@
 ---
 label: Limbo
 icon: issue-draft
-order: 38
+order: 20
 ---
 
 # Limbo

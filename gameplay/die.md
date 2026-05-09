@@ -1,7 +1,7 @@
 ---
 label: Dado
 icon: dice
-order: 35
+order: 40
 ---
 
 # Dado

@@ -1,7 +1,7 @@
 ---
 label: Cenário
 icon: globe
-order: 40
+order: 25
 ---
 
 # Cenário

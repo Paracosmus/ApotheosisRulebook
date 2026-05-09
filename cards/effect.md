@@ -295,7 +295,7 @@ Um efeito nunca possui mais de uma tarefa, mas pode possuir uma tarefa e outros 
 
 Os requerimentos são entre outros, condições, estados ou custos que devem ser atendidos para que um efeito possa ser ativado. São sempre atendidos, pagos e realizados antes do efeito ser aplicado e podem ser respondidos como qualquer outra ação.
 
-Eles são descritos em texto entre os marcadores visuais {{ req '' }} antes do corpo principal do texto do efeito.
+Eles são descritos em texto entre os limitadores visuais {{ req '' }} antes do corpo principal do texto do efeito.
 
 > {{ req 'Requerimento' }}
 

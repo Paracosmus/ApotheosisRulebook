@@ -27,20 +27,6 @@ graph LR
 
 ---
 
-## Bônus
-
-Quando um número é apresentado na forma **+X** ou **-X**, isso indica que se trata de um bônus. Por exemplo:
-
-{{ dmg }} = {{ str }} + 3 + {{ d1d6 }}
-:   {{ str }} é o valor base que recebe os bônus.
-
-    Tanto o valor 3 quanto o valor {{ d1d6 }}(1D6) são bônus adicionados a este {{ dmg }}.
-
-Efeito: {{ p'+2' }} em testes de {{ faith }}
-:   O valor {{ p'+2' }} é um bônus adicionado ao valor que obtiver em um teste cujo conhecimento seja {{ faith }}.
-
----
-
 ## Valor Mínimo
 
 Toda operação matemática cujo resultado final seja um valor **igual ou inferior a zero** deve ser considerada como tendo resultado igual a **1**.

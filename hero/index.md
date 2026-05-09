@@ -95,4 +95,8 @@ Em uma _Salvação Divina_, não se considera que o personagem tenha morrido, ne
 Efeitos que consideram o {{ dmg }} e {{ injury }} sofrido pelo personagem, devem ser aplicados normalmente e considerando o valor real que resultou em {{ hp }} zerada ou negativa.
 !!!
 
+!!!
+Apenas Heróis podem obter uma _Salvação Divina_, portanto, se um {{ companion }}, Modelo ou outro personagem que não seja um Herói tiver sua {{ hp }} reduzida a 0 ou menos, ele morre sem a possibilidade de obter uma _Salvação Divina_.
+!!!
+
 ---

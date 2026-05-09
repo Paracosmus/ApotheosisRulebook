@@ -1,12 +1,12 @@
 ---
 label: Pilhas de Cartas
 icon: stack
-order: 50
+order: 30
 ---
 
 # Pilhas de Cartas
 
-{{ briefing `Card Stacks` `Pilhas de cartas é o nome dado a qualquer monte de cartas utilizado no jogo.` }}
+{{ briefing `Card Stacks` `Pilha de cartas é o nome dado a qualquer monte de cartas utilizado no jogo.` }}
 
 Durante uma partida, principalmente no formato padrão de campanhas, existem diversas pilhas de cartas utilizadas para alimentar a partida com novas cartas e para armazenar cartas descartadas e utilizadas. Cada uma dessas pilhas de cartas tem um nome e função específicos.
 
@@ -41,7 +41,7 @@ Baralho         | Naipe
 {{ bestiary }}  | Para cartas de {{ companion }}
 {{ sanctuary }} | Para cartas de {{ event }}
 
-#### Fim do Baralho
+#### Baralho Vazio
 
 Quando um baralho ficar sem cartas e por algum meio for necessário comprar ou descartar uma carta deste baralho, ele deve ser reabastecido a partir de sua pilha de descarte
 
@@ -88,5 +88,15 @@ O nível de casso do local não limita o acesso pelo efeito de cartas. Os efeito
 Indiferente do nível de acesso do local em que a batalha estiver acontecendo, o nível de acesso de todas as pilhas de descarte durante uma batalha é sempre 0, impossibilitando a troca de cartas.
 
 Alguns efeitos de cartas, como cartas de {{ event }} no {{ scenario }}, entre outras, podem modificar o nível de acesso de um local, isso inclui durante uma batalha, permitindo dessa forma a troca de cartas em batalha.
+
+---
+
+## Buscar Cartas
+
+Alguns efeitos de cartas e mecânicas de jogo permitem que os jogadores busquem cartas em um pilhas de cartas, e as obtenham, descartem ou realizem outras tarefas.
+
+Este processo de ver uma pilha a procura de uma carta, ou filtrando cartas por critérios específicos, é conhecido como "busca".
+
+Quando uma busca é realizada em um baralho com cartas ocultas, o jogador precisa olhar as cartas do baralho para encontrar a carta que deseja obter. Após localizar e/ou selecionar a carta desejada, ele deve embaralhar o baralho novamente para ocultar as cartas de forma que ele não tenha mais conhecimento sobre a posição das cartas.
 
 ---

@@ -16,14 +16,10 @@ Outra forma comum, é para gerar personagens temporários ou voláteis gerados p
 
 ---
 
-## Estatísticas
+## Estatísticas Adicionais
 
-Um modelo possuí as seguintes estatísticas, definidas por sua carta, campanha ou método de geração, que por padrão funcionam da mesma forma que as estatísticas de outros personagens, mas podem ser modificadas por mecânicas próprias do Modelo:
+Um modelo possuí as seguintes estatísticas, em adicional às estatísticas presentes em todas as peças. Estes valores são definidos por sua carta, campanha ou método de geração, que por padrão funcionam da mesma forma que as estatísticas de outros personagens, mas podem ser modificadas por mecânicas próprias do Modelo:
 
-- {{ hp }}
-- {{ ap }}
-- [Atributos](/hero/attributes.md)
-- [Propriedades](/cards/tag.md)
 - [Técnicas](/cards/technique.md)
 - [Mecânicas próprias](#mecânicas-de-modelo)
 
@@ -48,5 +44,27 @@ Extraordinariamente, quando um chefe de campanha é representado por um Modelo, 
 ## Mecânicas de Modelo
 
 Modelos podem possuir mecânicas próprias, que podem adicionar novas estatísticas ou modificar as já existentes, como por exemplo, uma mecânica onde o chefe possuí múltiplos turnos em uma rodada, ou uma mecânica onde seus pontos de {{ ap }} não são definidos por sua {{ agi }}, etc..
+
+---
+
+## Cartas Associadas
+
+Um modelo não pode possuir cartas, pois ele não possui {{ table }}. No entanto, um modelo pode empregar efeitos iguais ou inspirados em cartas existentes.
+
+!!!secondary Exemplo 1
+  Um modelo que é um cavaleiro pode possuir um efeito parecido com o efeito da carta de {{ class }} "_Cavaleiro_".
+!!!
+
+!!!secondary Exemplo 2
+  Um modelo que possui {{ skill }} e {{ item }} que existem cartas definidas para eles, pode possuir os mesmos efeitos dessas cartas.
+!!!
+
+!!!secondary Exemplo 3
+  Um modelo de chefe de campanha que é um receptáculo de um {{ entity }} pode possuir o mesmo efeito daquela carta de {{ entity }}.
+
+  > Quando um modelo for associado a um {{ entity }}, é também esperado que ele possua a propriedade **RECEPTÁCULO** por coerência. Essa propriedade é comum em {{ human }} cuja a temática seja um personagem com um {{ entity }} incorporado.
+!!!
+
+Quando um modelo é derrotado, mesmo não possuindo as cartas, o mestre pode descartar da sua mão ou de um baralho as cartas associadas àquele modelo e tornar os {{ item }} associados disponíveis para outros jogadores saquearem.
 
 ---
