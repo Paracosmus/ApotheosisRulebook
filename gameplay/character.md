@@ -1,11 +1,11 @@
 ---
-label: Personagens
-icon: people
+label: Personagem
+icon: person
 order: 70
 ---
 {{ review() }}
 
-# Personagens
+# Personagem
 
 {{ briefing `Character` `É toda representação de um indivíduo animado, ou seja, que pode se mover, agir e interagir com o ambiente do jogo, e que pode ser controlada por um jogador ou pelo mestre de jogo, e que possui características, habilidades e estatísticas específicas.` }}
 

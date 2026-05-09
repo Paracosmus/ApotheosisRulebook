@@ -1,10 +1,10 @@
 ---
-label: Modificadores
+label: Modificador
 icon: boolean-on
 order: 50
 ---
 
-# Modificadores
+# Modificador
 
 {{ briefing `Modifier` `São valores providos por um efeito que são aplicados à um cálculo e podem ser positivos ou negativos` }}
 
@@ -32,6 +32,12 @@ Também conhecidos como Vantagem (_Buff_) e Penalidade (_Debuff_).
 
 São modificadores não permanentes, que um personagem pode receber. Por serem temporários, eles tem um "prazo de validade" e se dissipam automaticamente após um determinado evento ou condição, explicitado pelo efeito que os concedeu.
 
-São de curta duração, geralmente duram até o início do próximo turno de quem os aplicou, até o final da batalha ou até que a carta ativada fique sem contadores de tempo.
+Todo efeito de modificador temporário utilizam a mecânica de {{ lingering }} e portanto, explicitam sua duração no corpo do efeito.
+
+!!!secondary Exemplo
+  > _Estimulante_: {{ activate }} {{ lingering }} {{ p'+1' }} de {{ agi }} até o {{ endOfBattle }}.
+
+  Sendo do tipo {{ lingering }}, o modificador é aplicado imediatamente e mesmo que a carta seja removida de jogo, ele se mantém ativo até o {{ endOfBattle }}, quando se dissipa automaticamente.
+!!!
 
 ---

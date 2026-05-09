@@ -21,9 +21,9 @@ Durante a viagem, o grupo pode enfrentar eventos e desafios específicos relacio
 Uma viagem começa quando o grupo anuncia que irá se deslocar para outro local no mapa.
 
 {.list-icon}
-- 🕦 Verifique a distância em [períodos do dia](/gameplay/time.md#período-do-dia) entre o local atual e o local de destino. Este será o tempo inicial necessário para a viagem, caso não haja interrupções. O mapa da região, geralmente fornecido pela campanha, contém esses valores.
+- 🕦 Verifique a distância em [períodos do dia](/gameplay/time.md#período-do-dia) entre o local atual e o local de destino. Este será o tempo inicial necessário para a viagem, caso não haja interrupções. O mapa da região, geralmente fornecido pela campanha, contém esses valores ou permite calcular a distância com base em outros critérios.
 
-- 👣 Aplique quaisquer modificadores de tempo de viagem, geralmente causados pela situação das estradas ou do percurso, por condições de campanha, meios de transporte, efeitos de cartas etc., e então determine o tempo total de viagem.
+- 👣 Aplique quaisquer modificadores de tempo de viagem, geralmente causados pela situação das estradas ou do percurso, por condições de campanha, meios de transporte, efeitos de cartas etc., e então determine o tempo total de viagem. Serão então utilizados {{ counterTravel }} para medir o tempo de viagem, a viagem começa com zero contadores e a cada avanço é adicionado um contador.
 
 - 🗺️ O grupo então entra no _"modo de viagem"_, e suas regras específicas de jogo são aplicadas.
 
@@ -36,16 +36,16 @@ O grupo pode realizar apenas ações coletivas no modo de viagem, ou seja, as a�
 \:icon-move-to-end: **Continuar**: O grupo dá continuidade à viagem, seguindo o percurso determinado.
 :   - Avance para o próximo período do dia.
     - Revele a carta do topo do {{ sanctuary }}. A carta é ativada, se possível. O efeito da carta é aplicado a todos os personagens do grupo e deve ser resolvido. Se, pelo efeito da carta, ela for enviada para um personagem em vez de ser descartada, apenas um personagem é escolhido para recebê-la.
-    - O contador de tempo de viagem é **reduzido** em {{ p 1 }}. Se o contador de tempo de viagem chegar a 0, a viagem é considerada concluída e o grupo chega ao destino.
+    - O {{ counterTravel }} é **incrementado** em **1**. Se o {{ counterTravel }} chegar ao valor total da viagem, a viagem é considerada concluída e o grupo chega ao destino.
 
 \:icon-dash: **Pausar**: O grupo interrompe a viagem para descansar, explorar ou realizar outras atividades.
-:   - Nesse caso, o contador de tempo de viagem é mantido, e o grupo pode jogar seus respectivos turnos normalmente, seguindo as regras do [[story-mode|Modo Narrativo]] e considerando o local do caminho em que se encontram.
+:   - Nesse caso, o {{ counterTravel }} é mantido, e o grupo pode jogar seus respectivos turnos normalmente, seguindo as regras do [[story-mode|Modo Narrativo]] e considerando o local do caminho em que se encontram.
     - Para cada 4 rodadas pausadas, deve-se avançar o período do dia uma vez, mesmo quando essas rodadas acontecerem em pontos diferentes desta viagem.
 
 \:icon-move-to-start: **Retornar**: O grupo decide voltar pelo percurso percorrido.
 :   - Avance para o próximo período do dia.
     - Revele a carta do topo do {{ sanctuary }}. A carta é ativada, se possível. O efeito da carta é aplicado a todos os personagens do grupo e deve ser resolvido. Se, pelo efeito da carta, ela for enviada para um personagem em vez de ser descartada, apenas um personagem é escolhido para recebê-la.
-    - O contador de tempo de viagem é **incrementado** em {{ n 1 }}. Se o contador de tempo de viagem chegar ao valor inicial, a viagem é considerada concluída e o grupo retorna ao local de origem.
+    - O {{ counterTravel }} é **deduzido** em **1**. Se o {{ counterTravel }} chegar a zero, a viagem é considerada concluída e o grupo retorna ao local de origem.
 
 !!!
 Algumas campanhas e objetivos podem modificar as ações disponíveis durante o modo de viagem, como permitir que o grupo encontre recursos, mude de rota ou destino, enfrente desafios ou eventos específicos.

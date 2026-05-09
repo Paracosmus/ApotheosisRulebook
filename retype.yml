@@ -261,10 +261,11 @@ data:
   area:   <b>AREA</b>
 
   # Others
-  marker:  '[<span class="main"><b>MARCADOR</b></span>](/gameplay/characters/#marcadores)'
+  marker:  '[<span class="main"><b>MARCADOR</b></span>](/gameplay/marker.md)'
   alt:     <b>ALTITUDE</b>
 
   counter:          '[<span class="main">❂<b>CONTADOR</b></span>](/gameplay/counter/)'
+  counterTravel:    '[<span class="main">❂<b>CONTADOR DE VIAGEM</b></span>](/gameplay/counter/)'
   counter_ultimate: '[<span class="main">❂<b>CONTADOR DE ULTIMATE</b></span>](/gameplay/counter/)'
 
   # Terrain
