@@ -456,7 +456,7 @@ O jogador pode advogar por um teste, o que significa que ele pode argumentar que
 
 Advogar não só é permitido como é encorajado, pois promove a criatividade e a narrativa colaborativa entre os jogadores e o mestre. É claro que os jogadores devem entender a diferença entre advogar e discutir. O momento de advogar não é um momento para "fazer valer" a sua ideia de como as coisas deveriam ser, mas sim um momento para tentar convencer o mestre ao seu favor ou contra o oponente.
 
-Isso inclui também, argumentar a favor de bônus positivos ou negativos em um teste, com base na narrativa ou nas circunstâncias do jogo, bem como com base nas cartas na sua mesa que poderiam influenciar na capacidade ou desempenho do personagem.
+Isso inclui também, argumentar a favor de bônus positivos ou negativos em um teste, com base na narrativa ou nas circunstâncias do jogo, bem como com base nas cartas na sua mesa, ou anexados quando for um {{ companion }}, que poderiam influenciar na capacidade ou desempenho do personagem.
 
 Uma vez que o argumento tenha sido apresentado, o mestre aceita ou rejeita a proposta no ato, determinando o bônus recebido, se houver, e a dificuldade do teste, se necessário, sendo esta a palavra final e não podendo ser contestada.
 
