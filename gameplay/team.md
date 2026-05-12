@@ -15,3 +15,9 @@ Alguns efeitos de cartas são aplicados apenas a membros de um mesmo time ou de 
 O nível de um time é medido pela soma dos níveis dos Heróis que o compõem.
 
 ---
+
+## Time VS Grupo
+
+Neste guia, bem como em outros textos relacionados, para fazer distinção entre o grupo de personagens inseridos na narrativa, e o grupo de jogadores jogando o jogo, o termo "grupo" é usado para se referir ao grupo de jogadores, e "time" para se referir ao grupo de personagens.
+
+---
