@@ -1,7 +1,7 @@
 ---
 label: Modo de Vasculhador
 icon: git-compare
-order: 0
+order: 10
 ---
 
 # Modo de Vasculhador
