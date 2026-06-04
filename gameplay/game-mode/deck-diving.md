@@ -14,9 +14,25 @@ Este modo de jogo requer um narrador humano para criar e conduzir a exploração
 
 Neste modo, o narrador cria um conjunto de baralhos temáticos, cada um representando um ambiente, desafio ou tema específico. Cada Herói escolhe um baralho para explorar e, a cada turno, revela uma carta do topo do baralho. As cartas podem conter inimigos, armadilhas, tesouros, eventos ou segredos que os Heróis devem enfrentar ou aproveitar.
 
+Cada objetivo tem um nível de dificuldade, que é usado para calcular os testes necessários para superar os desafios apresentados pelas cartas sem contexto, aquelas cartas que não disparam nenhuma parte narrativa.
+
 Quando a carta do topo do baralho é revelada, o narrador descreve a cena e os desafios associados à carta usando o contexto que aquele baralho representa. Os Heróis então decidem como reagir à situação, utilizando suas habilidades, equipamentos e estratégias para superar os obstáculos apresentados pela carta.
 
+| Naipe           | Narrativa | {.striped .compact}
+| --------------- | --------- |
+| {{ house }}     | Uma missão ou objetivo extra pode ser encontrado ou cumprido neste local. |
+| {{ class }}     | O time tem que enfrentar um time de Heróis e/ou Dummies que representam a ideia daquela classe. |
+| {{ entity }}    | Existe um Ente preso neste local que pode ser libertado ou derrotado. |
+| {{ item }}      | Um item pode ser encontrado ou resgatado neste local. |
+| {{ skill }}     | Uma habilidade pode ser aprendida ou utilizada neste local. |
+| {{ companion }} | Um companheiro pode ser encontrado, enfrentado ou recrutado neste local. |
+| {{ event }}     | Um evento pode ocorrer neste local, afetando os Heróis ou o ambiente de maneiras diversas seja de forma idêntica ao texto da carta ou customizado para o local. |
+
 O objetivo é avançar na exploração do baralho, até que o objetivo estabelecido para quele baralho seja cumprido ou o baralho acabe.
+
+Quando uma carta sem contexto é revelada
+* Se for uma carta de ficha ela é descartada sem efeito
+* Se for uma carta de recurso, é realizado um teste do ( {{ knowledge }} + {{ enr }} ➜ Dificuldade do Objetivo ✖ **10** ) para tentar obter a carta, se falhar, a carta é descartada sem efeito.
 
 ---
 
@@ -103,6 +119,8 @@ O objetivo é avançar na exploração do baralho, até que o objetivo estabelec
 
   Revelação da carta do topo do baralho, descrição da cena e dos desafios associados à carta, e decisão dos Heróis sobre como reagir à situação.
 
+  Cada Herói, em seu respectivo turno, revela a carta do topo do baralho que está explorando. O narrador então descreve a cena e os desafios associados à carta usando o contexto que aquele baralho representa.
+
   !!!secondary Exemplo 1 - Combate
   _O Herói que explora o Salão Principal revela a primeira carta, que é um inimigo Lv 1. Tem início um combate entre o Herói e a carta de {{ companion }} que representa o inimigo._
   !!!
@@ -156,5 +174,25 @@ O objetivo é avançar na exploração do baralho, até que o objetivo estabelec
   !!!
 
 >>>
+
+---
+
+## Dicas para o Narrador
+
+!!-tip Dica para determinar o tempo de exploração
+Uma boa fórmula para calcular o tempo em rodadas que os Heróis podem passar explorando um objetivo seria:
+
+$$
+\left( \frac{\text{Número de Cartas Total do Objetivo}}{\text{Número de Heróis Participantes}} \times \text{Constante de Controle} \right)
+$$
+
+Onde a constante de controle seria um número geralmente entre 1 e 2 que ajusta o tempo de exploração, dependendo do ritmo desejado para a aventura. Por exemplo, uma constante de controle de 1,2 pode ser usada para criar um ritmo mais desafiador e tenso, enquanto uma constante de controle de 1,8 pode ser usada para um ritmo mais relaxado e exploratório.
+
+Exemplo: Se um objetivo tem um total de 40 cartas (2 baralhos de 20 cartas cada) e há 3 Heróis participando, usando uma constante de controle de 1,2, o cálculo seria:
+
+$$
+\left( \frac{40}{3} \times 1.2 \right) = \left( 13.333... \times 1.2 \right) = 16 \text{ rodadas}
+$$
+!!!
 
 ---
