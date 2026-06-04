@@ -7,10 +7,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.832639425737">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.833925554398">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.5.3">
+    <meta name="generator" content="Retype 4.6.0">
 
     <!-- Primary Meta Tags -->
     <title>Batalha Naval</title>
@@ -41,11 +41,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.5.3.832639425737" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.833925554398" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.5.3.832639425737" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="/resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.5.3.832639425737" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.833925554398" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.833925554398" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -490,6 +490,15 @@
 <h4 id="navios">Navios</h4>
 <p>São cartas de <a href="/cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a> com a propriedade <strong>Navio (Ship)</strong> e o efeito <strong>Unidade (Unit)</strong>. Neste formato, os navios estão sujeitos a regras específicas de jogo aqui descritas.</p>
 <p>Os 7 atributos de um <a href="/cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a> são transpostos em cada navio da seguinte forma:</p>
+<retype-table copy-text="| Atributo  | Navio               | Descrição |
+| ---       | ---                 | ---       |
+| [&lt;span class=&quot;house&quot;&gt;&lt;b&gt;CON&lt;/b&gt;&lt;/span&gt;](/hero/attributes.md) | **Casco**           | Resistência do navio a ataques. Segue a mesma regra de &lt;b&gt;DANO&lt;/b&gt; do formato _Padrão_ |
+| [&lt;span class=&quot;house&quot;&gt;&lt;b&gt;FOR&lt;/b&gt;&lt;/span&gt;](/hero/attributes.md) | **Carga**           | Quantidade de carga que o navio pode carregar |
+| [&lt;span class=&quot;house&quot;&gt;&lt;b&gt;AGI&lt;/b&gt;&lt;/span&gt;](/hero/attributes.md) | **Velocidade**      | Número máximo de _Contadores de Velocidade_. O número de _Contadores de Velocidade_ que o navio tem define com quanto [&lt;span class=&quot;main&quot;&gt;&lt;b&gt;AÇÃO&lt;/b&gt;&lt;/span&gt;](/hero/#ação) o navio começa o seu turno |
+| [&lt;span class=&quot;house&quot;&gt;&lt;b&gt;PER&lt;/b&gt;&lt;/span&gt;](/hero/attributes.md) | **Alcance**         | Iniciativa e distância máxima que o navio pode atacar |
+| [&lt;span class=&quot;house&quot;&gt;&lt;b&gt;INT&lt;/b&gt;&lt;/span&gt;](/hero/attributes.md) | **Manobrabilidade** | Número de vezes que o navio pode rotacionar por turno |
+| [&lt;span class=&quot;house&quot;&gt;&lt;b&gt;CAR&lt;/b&gt;&lt;/span&gt;](/hero/attributes.md) | **Tripulação**      | Número máximo de _Contadores de Tripulação_. Quando o navio não tem mais tripulação, ele não pode jogar |
+| [&lt;span class=&quot;house&quot;&gt;&lt;b&gt;ESP&lt;/b&gt;&lt;/span&gt;](/hero/attributes.md) | **Canhões**         | Valor adicionado aos ataques do navio |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="compact">
 <thead>
@@ -538,6 +547,7 @@
 </tbody>
 </table>
 </div>
+</retype-table>
 <hr>
 <h4 id="tabuleiro">Tabuleiro</h4>
 <ul>
@@ -597,6 +607,11 @@
 <hr>
 <h4 id="reparar">Reparar</h4>
 <p>O Navio pode ser reparado em estaleiros, pagando em <a href="/cards/item/"><span class="item"><b>PREÇO</b></span></a> por ponto restaurado, utilizando <a href="/cards/item/"><span class="item"><b>ITEM</b></span></a> ou Carga.</p>
+<retype-table copy-text="| Reparo      | Custo |
+| ---         | ---   |
+| Tripulantes | $100  |
+| Casco       | $50   |
+| Velas       | $25   |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="compact">
 <thead>
@@ -621,9 +636,17 @@
 </tbody>
 </table>
 </div>
+</retype-table>
 <hr>
 <h4 id="cargas">Cargas</h4>
 <p>Cada tipo de carga tem um valor de carga específico, que pode ser utilizado para comprar melhorias ou reparar o navio.</p>
+<retype-table copy-text="| Carga   | Valor  |
+| ---     | ---    |
+| Madeira | $50    |
+| Rum     | $100   |
+| Chá     | $150   |
+| Tabaco  | $200   |
+| Açúcar  | $250   |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="compact">
 <thead>
@@ -656,11 +679,22 @@
 </tbody>
 </table>
 </div>
+</retype-table>
 <hr>
 <h4 id="melhorias">Melhorias</h4>
 <p>Melhorias no navio podem ser adicionados na forma de <a href="/gameplay/marker/"><span class="main"><b>MARCADOR</b></span></a>.</p>
 <p>Cada navio pode ter até 3 melhorias. Sendo que uma vez adicionada a melhoria, ela não pode ser removida.</p>
 <p>Melhorias são compradas em estaleiros, pagando com cargas específicas.</p>
+<retype-table copy-text="| Nome               | Marcador     | Preço                               | Efeito |
+| ---                | ---          | ---                                 | ---    |
+| Cirurgião de Bordo | Quadrado     | 3 de Chá                            | Sacrificar o turno  para recuperar 1 de tripulação |
+| Quartermestre      | Triângulo    | 3 de Tabaco                         | &lt;span class=&quot;positive&quot;&gt;+2&lt;/span&gt; de Tripulação |
+| Construtor         | Escudo       | 5 de Madeira                        | Tem que remover o shield primeiro (tem que reparar o navio completamente para recuperar o shild) |
+| Carpinteiro        | Coração      | 3 de Madeira                        | Sacrificar o turno para recuperar 1d2 de vida |
+| Homem de Armas     | Impacto      | 4 de Rum                            | &lt;span class=&quot;positive&quot;&gt;+2&lt;/span&gt; em abordagens |
+| Sentinela          | Mira         | 3 de Açúcar                         | &lt;span class=&quot;positive&quot;&gt;+1&lt;/span&gt; de alcance para os canhões |
+| Piloto             | Estrela      | 1 de Açúcar e 2 de Tabaco           | &lt;span class=&quot;positive&quot;&gt;+1&lt;/span&gt; de Velocidade e Manobrabilidade |
+| Artilheiro         | Encantamento | 2 de Rum, 1 de Açúcar e 1 de Tabaco | &lt;span class=&quot;positive&quot;&gt;+2&lt;/span&gt; de Canhões |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="compact">
 <thead>
@@ -723,6 +757,7 @@
 </tbody>
 </table>
 </div>
+</retype-table>
 <hr>
 <h4 id="navio-de-comando">Navio de Comando</h4>
 <p>Além disso, o navio de comando da frota, chamado de <strong>Naú Capitania (flagship)</strong>, recebe uma melhoria especial, chamada de <strong>Almirante</strong>. Esta melhoria não conta para o limite de 3 melhorias por navio.</p>

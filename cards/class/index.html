@@ -7,10 +7,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.832639425737">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.833925554398">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.5.3">
+    <meta name="generator" content="Retype 4.6.0">
 
     <!-- Primary Meta Tags -->
     <title>Classe</title>
@@ -47,11 +47,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.5.3.832639425737" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.833925554398" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.5.3.832639425737" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="/resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.5.3.832639425737" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.833925554398" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.833925554398" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -521,6 +521,11 @@
 </ol>
     </div>
 </div>
+<retype-table copy-text="| Nível da Classe                           | Nível 1 | Nível 2 | Nível 3 |
+| ---                                       | ---     | ---     | ---     |
+| Somatório dos Bônus de Atributos          | 2       | 4       | 6       |
+| Número de Conhecimentos                   | 2       | 2       | 3       |
+| Soma dos Espaços de Equipamento e Memento | 2       | 3       | 4       |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="compact">
 <thead>
@@ -553,33 +558,132 @@
 </tbody>
 </table>
 </div>
+</retype-table>
 <hr>
 <h2 id="caminho"><span class="class">Caminho</span></h2>
 <p>Cada <a href="/cards/class/"><span class="class"><b>CLASSE</b></span></a> pertence a um caminho, que é uma linha de evolução. O caminho é representado por um ícone de uma peça de dominó, que é o mesmo para todas as cartas daquele caminho.</p>
 <p>Dentre as 3 cartas de <a href="/cards/class/"><span class="class"><b>CLASSE</b></span></a> que um personagem pode possuir, ele pode ter apenas 1 carta de cada caminho.</p>
 <p>Os 20 caminhos são:</p>
-<p class="compact">| | ---              | ---                                                |<br />
-|    | Magos, feiticeiros, bruxas                         |<br />
-|   | Estudiosos, pesquisadores, cientistas, alquimistas |<br />
-|     | Herbalistas, druidas, xamãs, curandeiros           |<br />
-|     | Guerreiros, espadachins                            |<br />
-|      | Religiosos, sacerdotes, clérigos                   |<br />
-|      | Arqueiros, pistoleiros, atiradores                 |<br />
-|     | Militares, mercenários, policias, soldados         |<br />
-|       | Bárbaros, selvagens, domadores, párias             |<br />
-|      | Eremitas, andarilhos, buscadores, filósofos        |<br />
-|       | Comerciantes, jogadores, trapaceiros, mercadores   |<br />
-|     | Trabalhadores, profissionais, artesãos, ferreiros  |<br />
-|      | Caçadores, armadilheiros, rastreadores, batedores  |<br />
-|       | Ladrões, assassinos, espiões                       |<br />
-|  | Artistas, bardos, músicos, dançarinos              |<br />
-|       | Ocultistas, cultistas, necromantes                 |<br />
-|       | Brigões, lutadores                                 |<br />
-|        | Aventureiros, exploradores, caçadores de tesouros  |<br />
-|        | Mentalistas, ilusionistas, hipnólogos              |<br />
-|         | Cavaleiros, heróis                                 |<br />
-|    | Vasculhadores, sobreviventes, desajustados         |<br />
-| <span style="color: #AAA"></span> | <span style="color: #AAA"><em>Classes de casos especiais, como iluminados</em> |</p>
+<retype-table copy-text="|
+| ---              | ---                                                |
+|    | Magos, feiticeiros, bruxas                         |
+|   | Estudiosos, pesquisadores, cientistas, alquimistas |
+|     | Herbalistas, druidas, xamãs, curandeiros           |
+|     | Guerreiros, espadachins                            |
+|      | Religiosos, sacerdotes, clérigos                   |
+|      | Arqueiros, pistoleiros, atiradores                 |
+|     | Militares, mercenários, policias, soldados         |
+|       | Bárbaros, selvagens, domadores, párias             |
+|      | Eremitas, andarilhos, buscadores, filósofos        |
+|       | Comerciantes, jogadores, trapaceiros, mercadores   |
+|     | Trabalhadores, profissionais, artesãos, ferreiros  |
+|      | Caçadores, armadilheiros, rastreadores, batedores  |
+|       | Ladrões, assassinos, espiões                       |
+|  | Artistas, bardos, músicos, dançarinos              |
+|       | Ocultistas, cultistas, necromantes                 |
+|       | Brigões, lutadores                                 |
+|        | Aventureiros, exploradores, caçadores de tesouros  |
+|        | Mentalistas, ilusionistas, hipnólogos              |
+|         | Cavaleiros, heróis                                 |
+|    | Vasculhadores, sobreviventes, desajustados         |
+| &lt;span style=&quot;color: #AAA&quot;&gt;&lt;/span&gt; | &lt;span style=&quot;color: #AAA&quot;&gt;_Classes de casos especiais, como iluminados_ |">
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th class="compact"> </th>
+<th> </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="compact"></td>
+<td>Magos, feiticeiros, bruxas</td>
+</tr>
+<tr>
+<td class="compact"></td>
+<td>Estudiosos, pesquisadores, cientistas, alquimistas</td>
+</tr>
+<tr>
+<td class="compact"></td>
+<td>Herbalistas, druidas, xamãs, curandeiros</td>
+</tr>
+<tr>
+<td class="compact"></td>
+<td>Guerreiros, espadachins</td>
+</tr>
+<tr>
+<td class="compact"></td>
+<td>Religiosos, sacerdotes, clérigos</td>
+</tr>
+<tr>
+<td class="compact"></td>
+<td>Arqueiros, pistoleiros, atiradores</td>
+</tr>
+<tr>
+<td class="compact"></td>
+<td>Militares, mercenários, policias, soldados</td>
+</tr>
+<tr>
+<td class="compact"></td>
+<td>Bárbaros, selvagens, domadores, párias</td>
+</tr>
+<tr>
+<td class="compact"></td>
+<td>Eremitas, andarilhos, buscadores, filósofos</td>
+</tr>
+<tr>
+<td class="compact"></td>
+<td>Comerciantes, jogadores, trapaceiros, mercadores</td>
+</tr>
+<tr>
+<td class="compact"></td>
+<td>Trabalhadores, profissionais, artesãos, ferreiros</td>
+</tr>
+<tr>
+<td class="compact"></td>
+<td>Caçadores, armadilheiros, rastreadores, batedores</td>
+</tr>
+<tr>
+<td class="compact"></td>
+<td>Ladrões, assassinos, espiões</td>
+</tr>
+<tr>
+<td class="compact"></td>
+<td>Artistas, bardos, músicos, dançarinos</td>
+</tr>
+<tr>
+<td class="compact"></td>
+<td>Ocultistas, cultistas, necromantes</td>
+</tr>
+<tr>
+<td class="compact"></td>
+<td>Brigões, lutadores</td>
+</tr>
+<tr>
+<td class="compact"></td>
+<td>Aventureiros, exploradores, caçadores de tesouros</td>
+</tr>
+<tr>
+<td class="compact"></td>
+<td>Mentalistas, ilusionistas, hipnólogos</td>
+</tr>
+<tr>
+<td class="compact"></td>
+<td>Cavaleiros, heróis</td>
+</tr>
+<tr>
+<td class="compact"></td>
+<td>Vasculhadores, sobreviventes, desajustados</td>
+</tr>
+<tr>
+<td class="compact"><span style="color: #AAA"></span></td>
+<td><span style="color: #AAA"><em>Classes de casos especiais, como iluminados</em></td>
+</tr>
+</tbody>
+</table>
+</div>
+</retype-table>
 <hr>
 <h2 id="adquirir"><span class="class">Adquirir</span></h2>
 <p>Para adicionar uma nova <a href="/cards/class/"><span class="class"><b>CLASSE</b></span></a>, o personagem precisa estar em um local de <span class="class"><b>TAVERNA</b></span> que permita acesso à carta, e então sacrificar seu turno.</p>

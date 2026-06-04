@@ -7,10 +7,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.832639425737">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.833925554398">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.5.3">
+    <meta name="generator" content="Retype 4.6.0">
 
     <!-- Primary Meta Tags -->
     <title>Batalha Campal</title>
@@ -41,11 +41,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.5.3.832639425737" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.833925554398" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.5.3.832639425737" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="/resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.5.3.832639425737" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.833925554398" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.833925554398" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -488,6 +488,9 @@
 <p>É um formato de batalha onde os jogadores se enfrentam em um campo de batalha terrestre, com regras específicas para o combate e a movimentação, na intensão de simular uma batalha em grande escala entre exércitos.</p>
 <h2 id="governo-monárquico">Governo Monárquico</h2>
 <p>O governo da resistência precisa ser administrado, para isso são usados <strong>Poder</strong>, uma pontuação equivalente ao ( número de províncias controladas - 1 );</p>
+<retype-table copy-text="|
+| --- | --- | --- | --- |
+| **Poder** | Representa a quantidade de pessoas ao seu lado e seu poder de convencimento geral | O número de milícias recrutadas a cada rotação. | Representado pelo número de contadores na carta de classe no suporte do Exército |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
@@ -508,7 +511,13 @@
 </tbody>
 </table>
 </div>
+</retype-table>
 <p>E <strong>Recursos</strong>, uma moeda de troca usada para comprar tropas, melhorias, entre outros;</p>
+<retype-table copy-text="|
+| --- | --- |
+| 💰 **Dinheiro** | Representado pelo número de contadores na carta de **Muito Papel Moeda** no suporte do Exército |
+| 🍊 **Alimentos** | Representado pelo número de contadores na carta de **Banquete** no suporte do Exército |
+| 🪨 **Metais** | Representado pelo número de contadores na carta de **Postura Defensiva** no suporte do Exército |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
@@ -533,10 +542,17 @@
 </tbody>
 </table>
 </div>
+</retype-table>
 <h2 id="diplomacia">Diplomacia</h2>
 <p>Nenhum governo consegue se manter sozinho, por isso é necessário manter uma boa relação com seus vizinhos e criar alianças. A diplomacia é o painel de relação com as outras cidades estados relevantes para o conflito.</p>
 <p>O exércitos da resistência pode ter um aliado para cada ponto de <strong>Poder</strong> que possuir. Se perderem <strong>Poder</strong>, a última aliança feita é desfeita.</p>
 <p><strong>Alianças</strong></p>
+<retype-table copy-text="|
+| --- | --- | --- | --- |
+| **Carrefour** | *Comercial* | **+1** de 💰 por rotação | Podem se aliar a ambos os lados |
+| **Ultramar** | *Produtiva* | **+1** de 🪨 por rotação |  |
+| **~~Akka~~** | *Religiosa* | **+1** de 🍊 por rotação | Não pode ser aliado pois estão sobre controle da Ordem do Caos e já são aliados dos republicanos |
+| **Babel** | *Conveniência* | Tropas Mercenárias | Podem ser usados por ambos os lados |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
@@ -575,7 +591,13 @@
 </tbody>
 </table>
 </div>
+</retype-table>
 <p>É possível trocar recursos por tropas se você se aliar a Babel;</p>
+<retype-table copy-text="| Samurais | *Infantaria* | **3** de 🪨 |
+| --- | --- | --- |
+| Arqueiros Longos | *Artilharia* | **3** de 💰 |
+| Horda | *Cavalaria* | **3** de 🍊 |
+| Dragoons | *Misto* | **2** de 💰, 🍊 e 🪨  |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
@@ -604,16 +626,72 @@
 </tbody>
 </table>
 </div>
+</retype-table>
 <h2 id="províncias">Províncias</h2>
-<p class="compact">| | --- | --- | --- | --- |<br />
-| <strong>Vale do Amanhecer</strong> | Base de Operações dos Monarquistas.<br>Se conquistada, acabou<br>Ao final de todas as batalhas de uma rotação. Adicione unidades <em>Legionários</em> ao Vale do Amanhecer até que você tenha 2 Legionários totais no exército  | <span class="docs-emoji">&#x1F4B0;</span><span class="docs-emoji">&#x1F34A;</span>🪨 |<br />
-| <strong>Vilarejos</strong> | <strong>+1</strong> Milícia por rotação | <span class="docs-emoji">&#x1F34A;</span>🪨 |<br />
-| <strong>Serra</strong> | Se tiver uma única tropa aqui, ela não pode ser reconquistada pelos republicanos | 🪨🪨🪨 |<br />
-| <strong>Campos</strong> | Quando conquistada pela primeira vez, compre <strong>3</strong> melhorias de unidade sem pagar os custos associados em <span class="docs-emoji">&#x1F34A;</span> | <span class="docs-emoji">&#x1F34A;</span><span class="docs-emoji">&#x1F34A;</span><span class="docs-emoji">&#x1F34A;</span> |<br />
-| <strong>Mata</strong> | Se você não tiver nenhuma tropa de arquearia:<br><strong>1</strong> arqueiro<br><em>(não precisa ser aliado de babel)</em> | <span class="docs-emoji">&#x1F4B0;</span><span class="docs-emoji">&#x1F34A;</span> |<br />
-| <strong>Periferia</strong> | <strong>+1</strong> aliado | <span class="docs-emoji">&#x1F4B0;</span><span class="docs-emoji">&#x1F4B0;</span> |<br />
-| <strong>Centro</strong> | <strong>+1</strong> de <strong>Poder</strong> | <span class="docs-emoji">&#x1F4B0;</span><span class="docs-emoji">&#x1F4B0;</span><span class="docs-emoji">&#x1F4B0;</span><span class="docs-emoji">&#x1F34A;</span><span class="docs-emoji">&#x1F34A;</span>🪨🪨 |<br />
-| <strong>Ninho da Fênix</strong> | Base de operações dos Republicanos.<br>Se conquistada, acabou<br><strong>+1</strong> <em>Legionário</em> por rotação | <span class="docs-emoji">&#x1F4B0;</span><span class="docs-emoji">&#x1F34A;</span>🪨 |</p>
+<retype-table copy-text="|
+| --- | --- | --- | --- |
+| **Vale do Amanhecer** | Base de Operações dos Monarquistas.&lt;br&gt;Se conquistada, acabou&lt;br&gt;Ao final de todas as batalhas de uma rotação. Adicione unidades *Legionários* ao Vale do Amanhecer até que você tenha 2 Legionários totais no exército  | 💰🍊🪨 |
+| **Vilarejos** | **+1** Milícia por rotação | 🍊🪨 |
+| **Serra** | Se tiver uma única tropa aqui, ela não pode ser reconquistada pelos republicanos | 🪨🪨🪨 |
+| **Campos** | Quando conquistada pela primeira vez, compre **3** melhorias de unidade sem pagar os custos associados em 🍊 | 🍊🍊🍊 |
+| **Mata** | Se você não tiver nenhuma tropa de arquearia:&lt;br&gt;**1** arqueiro&lt;br&gt;*(não precisa ser aliado de babel)* | 💰🍊 |
+| **Periferia** | **+1** aliado | 💰💰 |
+| **Centro** | **+1** de **Poder** | 💰💰💰🍊🍊🪨🪨 |
+| **Ninho da Fênix** | Base de operações dos Republicanos.&lt;br&gt;Se conquistada, acabou&lt;br&gt;**+1** *Legionário* por rotação | 💰🍊🪨 |">
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th class="compact"> </th>
+<th> </th>
+<th> </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="compact"><strong>Vale do Amanhecer</strong></td>
+<td>Base de Operações dos Monarquistas.<br>Se conquistada, acabou<br>Ao final de todas as batalhas de uma rotação. Adicione unidades <em>Legionários</em> ao Vale do Amanhecer até que você tenha 2 Legionários totais no exército</td>
+<td><span class="docs-emoji">&#x1F4B0;</span><span class="docs-emoji">&#x1F34A;</span>🪨</td>
+</tr>
+<tr>
+<td class="compact"><strong>Vilarejos</strong></td>
+<td><strong>+1</strong> Milícia por rotação</td>
+<td><span class="docs-emoji">&#x1F34A;</span>🪨</td>
+</tr>
+<tr>
+<td class="compact"><strong>Serra</strong></td>
+<td>Se tiver uma única tropa aqui, ela não pode ser reconquistada pelos republicanos</td>
+<td>🪨🪨🪨</td>
+</tr>
+<tr>
+<td class="compact"><strong>Campos</strong></td>
+<td>Quando conquistada pela primeira vez, compre <strong>3</strong> melhorias de unidade sem pagar os custos associados em <span class="docs-emoji">&#x1F34A;</span></td>
+<td><span class="docs-emoji">&#x1F34A;</span><span class="docs-emoji">&#x1F34A;</span><span class="docs-emoji">&#x1F34A;</span></td>
+</tr>
+<tr>
+<td class="compact"><strong>Mata</strong></td>
+<td>Se você não tiver nenhuma tropa de arquearia:<br><strong>1</strong> arqueiro<br><em>(não precisa ser aliado de babel)</em></td>
+<td><span class="docs-emoji">&#x1F4B0;</span><span class="docs-emoji">&#x1F34A;</span></td>
+</tr>
+<tr>
+<td class="compact"><strong>Periferia</strong></td>
+<td><strong>+1</strong> aliado</td>
+<td><span class="docs-emoji">&#x1F4B0;</span><span class="docs-emoji">&#x1F4B0;</span></td>
+</tr>
+<tr>
+<td class="compact"><strong>Centro</strong></td>
+<td><strong>+1</strong> de <strong>Poder</strong></td>
+<td><span class="docs-emoji">&#x1F4B0;</span><span class="docs-emoji">&#x1F4B0;</span><span class="docs-emoji">&#x1F4B0;</span><span class="docs-emoji">&#x1F34A;</span><span class="docs-emoji">&#x1F34A;</span>🪨🪨</td>
+</tr>
+<tr>
+<td class="compact"><strong>Ninho da Fênix</strong></td>
+<td>Base de operações dos Republicanos.<br>Se conquistada, acabou<br><strong>+1</strong> <em>Legionário</em> por rotação</td>
+<td><span class="docs-emoji">&#x1F4B0;</span><span class="docs-emoji">&#x1F34A;</span>🪨</td>
+</tr>
+</tbody>
+</table>
+</div>
+</retype-table>
 <h2 id="exército">Exército</h2>
 <p>O exército é divido em batalhões, cada um fica em uma província.</p>
 <h3 id="mudança">Mudança</h3>
@@ -676,6 +754,15 @@
 <li>Evento → Alimentos → Banquete</li>
 <li>Habilidade → Metal → Postura Defensiva</li>
 </ul>
+<retype-table copy-text="|
+| --- | --- | --- |
+| **CON** | MORAL | Define a quantidade de Vida |
+| **FOR** | DANO | Dano causando em ataques normais |
+| **AGI** | DESLOCAMENTO | Equivalente à AÇÃO nas regras padrão |
+| **PER** | ALCANCE | Dano causando em ataques à distância |
+| **INT** | EXPERIÊNCIA MÁXIMA | Número máximo de contadores de Experiência que esta carta pode ter |
+| **CAR** | CONFIANÇA | Valor de Moral recuperado quando uma unidade inimiga é debandada |
+| **ESP** | DANO ESPECIAL | Usado para definir o dano de técnicas domo magias e explosivos |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
@@ -724,10 +811,22 @@
 </tbody>
 </table>
 </div>
+</retype-table>
 <h3 id="experiência">Experiência</h3>
 <p>Unidades ganham experiência de combate. Ao final de uma batalha, todas as unidades vivas recebem <strong>+1</strong> contador na sua respectiva carta (<strong>max igual à INT</strong>). O valor desse contador deve ser somado ao valor de qualquer rolagem de dado feita por esta unidades, seja ele proposto por um ataque, teste, ou técnica.</p>
 <h3 id="melhorias">Melhorias</h3>
 <p>Cada unidade pode ter até <strong>3</strong> melhorias que podem ser compradas para ela. Adicione o ícone de marcador para representar.</p>
+<retype-table copy-text="| **Nome** | **Marcador** | **Preço** | **Efeito** |
+| --- | --- | --- | --- |
+| **Marchar** | *Triângulo* | 🍊🍊 | +1 de Deslocamento |
+| **Formação**  | *Quadrado* | 🪨🪨 | Esta unidade e unidades aliadas adjacentes sofrem -2 de DANO (não cumulativo) |
+| **Entrincheirar**  | *Escudo* | 🪨 | Sofre -3 de DANO se não se mover nesse ciclo |
+| **Inspirar**  | *Encantamento* | 💰💰 | +10 de CONFIANÇA |
+| **Disciplina** | *Coração* | 💰💰🍊 | +2 de MORAL (20 de HP) |
+| **Flanquear** | *Seta* | 💰🪨 | +2 de DANO quando atacando pelos flancos ou retaguarda |
+| **Treinamento**  | *Impacto* | 🪨 | +2 de EXPERIÊNCIA MÁXIMA |
+| **Escaramuça**  | *Mira* | 💰💰🍊 | +1 de ALCANCE |
+| **Reagrupar**  | *Circulo* | 🪨🪨 🍊🍊 | Uma vez por batalha, se debandada por falta de Moral, eles voltam na próxima fase de restauração com 10 de VIDA |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
@@ -796,6 +895,7 @@
 </tbody>
 </table>
 </div>
+</retype-table>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
     <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
@@ -816,6 +916,15 @@
 <h3 id="oficial-comandante">Oficial Comandante</h3>
 <p>Cada Herói pode se juntar a uma unidade como seu oficial comandante, fornecendo um bônus extra.</p>
 <p>Se a unidade de um comandante morrer, ele pode assumir outra unidade na próxima fase de restauração.</p>
+<retype-table copy-text="|
+| --- | --- | --- |
+| **Marechal** | Comandante       | +1 de Moral (10 de HP) |
+| **Caleb**    | *Estrategista*   | Sua unidade recebe +1 contadores de EXP ao final da batalha |
+| **Drako**    | *Artilheiro*     | +1d3 de DANO |
+| **Hércules** | *Batedor*        | +1 de DESLOCAMENTO |
+| **Carlos**   | *Defensor*       | -2 sofrido de Ataques |
+| **Ryan**     | *Ponta de Lança* | +3 de DANO quando sem aliados adjacentes |
+| **von**      | *Inspiração*     | Unidades recuperam o dobro de moral ao eliminar unidades inimigas |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
@@ -864,6 +973,7 @@
 </tbody>
 </table>
 </div>
+</retype-table>
 <h3 id="promoção">Promoção</h3>
 <p>Para recrutar uma unidade nova, o jogador deve promover uma milícia, lhe fornecendo treinamento adequado.</p>
 <div class="mb-6 overflow-hidden border rounded-md docs-columns dark:border-base-border" style="grid-template-columns: repeat(2, minmax(0, 1fr));">
@@ -874,21 +984,93 @@
         <span>Quantidade de soldados aproximada por unidade</span>
     </div>
     <div class="px-5 py-3 docs-columns-content border-r border-base-border">
-<p class="compact">| | --- | --- |<br />
-| <strong>Homens-de-Armas</strong> | <span class="docs-emoji">&#x1F34A;</span>🪨 |<br />
-| <strong>Lanceiros</strong> | <span class="docs-emoji">&#x1F4B0;</span><span class="docs-emoji">&#x1F34A;</span> |<br />
-| <strong>Arqueiros</strong> | <span class="docs-emoji">&#x1F4B0;</span>🪨 |<br />
-| <strong>Rifleiros</strong> | <span class="docs-emoji">&#x1F4B0;</span><span class="docs-emoji">&#x1F34A;</span>🪨 |<br />
-| <strong>Canhões</strong> | <span class="docs-emoji">&#x1F4B0;</span><span class="docs-emoji">&#x1F4B0;</span>🪨 |<br />
-| <strong>Cavalaria Leve</strong> | <span class="docs-emoji">&#x1F4B0;</span><span class="docs-emoji">&#x1F34A;</span>🪨 |<br />
-| <strong>Cavalaria Arqueira</strong> | <span class="docs-emoji">&#x1F4B0;</span><span class="docs-emoji">&#x1F34A;</span><span class="docs-emoji">&#x1F34A;</span> |<br />
-| <strong>Cavalaria Pesada</strong> | <span class="docs-emoji">&#x1F34A;</span>🪨🪨 |</p>
+<retype-table copy-text="|
+| --- | --- |
+| **Homens-de-Armas** | 🍊🪨 |
+| **Lanceiros** | 💰🍊 |
+| **Arqueiros** | 💰🪨 |
+| **Rifleiros** | 💰🍊🪨 |
+| **Canhões** | 💰💰🪨 |
+| **Cavalaria Leve** | 💰🍊🪨 |
+| **Cavalaria Arqueira** | 💰🍊🍊 |
+| **Cavalaria Pesada** | 🍊🪨🪨 |">
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th class="compact"> </th>
+<th> </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="compact"><strong>Homens-de-Armas</strong></td>
+<td><span class="docs-emoji">&#x1F34A;</span>🪨</td>
+</tr>
+<tr>
+<td class="compact"><strong>Lanceiros</strong></td>
+<td><span class="docs-emoji">&#x1F4B0;</span><span class="docs-emoji">&#x1F34A;</span></td>
+</tr>
+<tr>
+<td class="compact"><strong>Arqueiros</strong></td>
+<td><span class="docs-emoji">&#x1F4B0;</span>🪨</td>
+</tr>
+<tr>
+<td class="compact"><strong>Rifleiros</strong></td>
+<td><span class="docs-emoji">&#x1F4B0;</span><span class="docs-emoji">&#x1F34A;</span>🪨</td>
+</tr>
+<tr>
+<td class="compact"><strong>Canhões</strong></td>
+<td><span class="docs-emoji">&#x1F4B0;</span><span class="docs-emoji">&#x1F4B0;</span>🪨</td>
+</tr>
+<tr>
+<td class="compact"><strong>Cavalaria Leve</strong></td>
+<td><span class="docs-emoji">&#x1F4B0;</span><span class="docs-emoji">&#x1F34A;</span>🪨</td>
+</tr>
+<tr>
+<td class="compact"><strong>Cavalaria Arqueira</strong></td>
+<td><span class="docs-emoji">&#x1F4B0;</span><span class="docs-emoji">&#x1F34A;</span><span class="docs-emoji">&#x1F34A;</span></td>
+</tr>
+<tr>
+<td class="compact"><strong>Cavalaria Pesada</strong></td>
+<td><span class="docs-emoji">&#x1F34A;</span>🪨🪨</td>
+</tr>
+</tbody>
+</table>
+</div>
+</retype-table>
     </div>
     <div class="px-5 py-3 docs-columns-content">
-<p class="compact">| | --- | --- |<br />
-| <strong>Infantaria</strong> | 100 homens |<br />
-| <strong>Cavalaria</strong> | 50 homens |<br />
-| <strong>Artilharia</strong> | 25 homens |</p>
+<retype-table copy-text="|
+| --- | --- |
+| **Infantaria** | 100 homens |
+| **Cavalaria** | 50 homens |
+| **Artilharia** | 25 homens |">
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th class="compact"> </th>
+<th> </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="compact"><strong>Infantaria</strong></td>
+<td>100 homens</td>
+</tr>
+<tr>
+<td class="compact"><strong>Cavalaria</strong></td>
+<td>50 homens</td>
+</tr>
+<tr>
+<td class="compact"><strong>Artilharia</strong></td>
+<td>25 homens</td>
+</tr>
+</tbody>
+</table>
+</div>
+</retype-table>
     </div>
 </div>
 <hr>
