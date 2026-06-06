@@ -26,7 +26,7 @@
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/cards/companion/</loc>
-    <lastmod>2026-04-19T14:06:21Z</lastmod>
+    <lastmod>2026-06-05T22:43:54Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/glossary/</loc>
@@ -58,7 +58,7 @@
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/cards/entity/</loc>
-    <lastmod>2026-05-02T23:54:50Z</lastmod>
+    <lastmod>2026-06-05T22:43:54Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/cards/summus/</loc>
@@ -78,7 +78,7 @@
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/lore/cosmology/</loc>
-    <lastmod>2026-04-29T22:01:36Z</lastmod>
+    <lastmod>2026-06-05T22:43:54Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/cards/lignum/</loc>
@@ -86,7 +86,7 @@
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/hero/attributes/</loc>
-    <lastmod>2026-02-21T16:28:37Z</lastmod>
+    <lastmod>2026-06-05T22:43:54Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/hero/knowledge/</loc>
@@ -169,12 +169,20 @@
     <lastmod>2026-04-12T20:18:38Z</lastmod>
   </url>
   <url>
+    <loc>https://apotheosiscardgame.com/cards/summus/ascensus/</loc>
+    <lastmod>2026-06-05T22:43:54Z</lastmod>
+  </url>
+  <url>
     <loc>https://apotheosiscardgame.com/battle/board/</loc>
     <lastmod>2026-03-31T18:25:31Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/battle/chip/</loc>
     <lastmod>2026-05-09T16:26:33Z</lastmod>
+  </url>
+  <url>
+    <loc>https://apotheosiscardgame.com/gameplay/counter/</loc>
+    <lastmod>2026-05-08T22:52:23Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/gameplay/scenario/</loc>
@@ -209,10 +217,6 @@
     <lastmod>2026-03-31T18:25:31Z</lastmod>
   </url>
   <url>
-    <loc>https://apotheosiscardgame.com/cards/summus/ascensus/</loc>
-    <lastmod>2026-06-05T21:57:25Z</lastmod>
-  </url>
-  <url>
     <loc>https://apotheosiscardgame.com/cards/summus/collegium/</loc>
     <lastmod>2026-02-27T19:37:56Z</lastmod>
   </url>
@@ -230,10 +234,6 @@
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/gameplay/game-mode/</loc>
-    <lastmod>2026-05-08T22:52:23Z</lastmod>
-  </url>
-  <url>
-    <loc>https://apotheosiscardgame.com/gameplay/counter/</loc>
     <lastmod>2026-05-08T22:52:23Z</lastmod>
   </url>
   <url>
@@ -290,7 +290,7 @@
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/lore/beings/created/dealer/</loc>
-    <lastmod>2026-03-31T18:25:31Z</lastmod>
+    <lastmod>2026-06-05T22:43:54Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/lore/beings/created/drako/</loc>
@@ -302,7 +302,7 @@
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/lore/beings/created/human-companion/</loc>
-    <lastmod>2026-03-31T18:25:31Z</lastmod>
+    <lastmod>2026-06-05T22:43:54Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/cards/summus/ars/</loc>

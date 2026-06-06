@@ -7,7 +7,7 @@ Esta seção ainda não foi completamente revisada. Algumas informações podem 
 > **Cartomante**
 >
 
-É como um avatar para o mestre de jogo, que sendo ele a trindade, é por consequência também o avatar da trindade. Representando ideia do messias vindo do mundo superior, para salvar as almas humanas presas neste mundo, ou para colocar em movimento os planos da trindade para este mundo.
+É como um avatar para o mestre de jogo, que sendo ele a trindade, é por consequência também o avatar da trindade. Representando ideia do messias vindo do mundo superior, para salvar as espíritos humanas presas neste mundo, ou para colocar em movimento os planos da trindade para este mundo.
 
 # Para o Mestre
 

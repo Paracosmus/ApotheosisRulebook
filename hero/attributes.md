@@ -76,7 +76,7 @@ Referente ao uso dos cinco sentidos e acuidade. Um personagem com alta percepç�
 
 ---
 
-[!badge variant="primary" text="alma"]
+[!badge variant="primary" text="espírito"]
 
 ||| <span class="attr magic"> CARISMA<span class="bar"> | </span> <span class="short">CAR</span></span>
 Determina a capacidade do personagem de fazer com que outros gostem dele, seria o seu charme ou característica nata em agradar as pessoas.
@@ -87,7 +87,7 @@ Determina a capacidade do personagem de fazer com que outros gostem dele, seria 
 |||
 
 ||| <span class="attr magic"> ESPIRITUAL<span class="bar"> | </span> <span class="short">ESP</span></span>
-Está relacionado à capacidade do personagem de sentir e manipular tudo que envolve o éter e é chamado popularmente de magia. Também representa a sabedoria do personagem, no sentido de sabedoria e estado de consciência que vem do espirito. (Sua evolução espiritual)
+Está relacionado à capacidade do personagem de sentir e manipular tudo que envolve o éter e é chamado popularmente de magia. Também representa a sabedoria do personagem, no sentido de sabedoria e estado de consciência que vem do espírito. (Sua evolução espiritual)
 
 * Testes relacionados ao éter.
 * <b>DANO</b> de ataques etéreos, como magias e encantamentos.
