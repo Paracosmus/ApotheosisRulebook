@@ -2,11 +2,11 @@
 
 > *Ascensus* é o termo latino para *“ascensão”*, no sentido de subir, elevar-se, alcançar um nível superior.
 
-> *So - No - Chi* é uma contração de *Soma - Nous - Psyche*, que são os termos gregos para corpo, mente e alma, respectivamente.
+> *So - No - Chi* é uma contração de *Soma - Nous - Psyche*, que são os termos gregos para corpo, mente e espírito, respectivamente.
 
-Em jogo, o _Ascensus_ representa um estado de ascensão de um Herói, onde ele alcança um nível superior de poder, compreensão ou conexão com o éter através de seu [<span class="entity"><b>ENTE</b></span>](/cards/entity.md). Isso é feito quando o Herói atinge um nível de compreensão elevado dos elementos que o constituem, corpo, mente e alma, e de como eles se relacionam com o éter e entre si. O Herói se torna então capaz de colocar esses elementos em perfeita harmonia, alcançando um estado de equilíbrio e sintonia com o éter, o que lhe permite acessar um poder e conhecimento superiores usando o seu [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) como canal.
+Em jogo, o _Ascensus_ representa um estado de ascensão de um Herói, onde ele alcança um nível superior de poder, compreensão ou conexão com o éter através de seu [<span class="entity"><b>ENTE</b></span>](/cards/entity.md). Isso é feito quando o Herói atinge um nível de compreensão elevado dos elementos que o constituem, corpo, mente e espírito, e de como eles se relacionam com o éter e entre si. O Herói se torna então capaz de colocar esses elementos em perfeita harmonia, alcançando um estado de equilíbrio e sintonia com o éter, o que lhe permite acessar um poder e conhecimento superiores usando o seu [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) como canal.
 
-Ao atingir esse estado, o personagem entra no Modo Ascendido. Existem diversos métodos para atingir esse estado, que se manifestam na forma das várias cartas de _Ascensus_. Cada carta representa o conceito e ideia por trás daquele modo de ascensão, mas todas elas trabalham com o conceito central de harmonização do corpo, mente e alma.
+Ao atingir esse estado, o personagem entra no Modo Ascendido. Existem diversos métodos para atingir esse estado, que se manifestam na forma das várias cartas de _Ascensus_. Cada carta representa o conceito e ideia por trás daquele modo de ascensão, mas todas elas trabalham com o conceito central de harmonização do corpo, mente e espírito.
 
 Uma vez que o personagem tenha aprendido aquele método, ele inicia sua transformação verbalizando forte e claramente as palavras de ordem: _So - No - Chi_.
 
