@@ -49,7 +49,7 @@ TODO
 
 > Evocações são seres artificiais, criados a pártir da vontade de uma pessoa, combinada com uma magia específica de criação.
 >
-> Elas podem assumir qualquer forma, bem como possuir certas habilidades. Isso é realizado através de uma complexa e minuciosa transformação do éter em matéria viva, que é operado por um evocador, um personagem que possui o conhecimento e a habilidade necessária para criar e controlar essas criaturas. O processo de criação de uma evocação é extremamente complexo, e requer um profundo entendimento de como moldar e manipular a energia etérea para criar um corpo físico animado (criar corpo e alma).
+> Elas podem assumir qualquer forma, bem como possuir certas habilidades. Isso é realizado através de uma complexa e minuciosa transformação do éter em matéria viva, que é operado por um evocador, um personagem que possui o conhecimento e a habilidade necessária para criar e controlar essas criaturas. O processo de criação de uma evocação é extremamente complexo, e requer um profundo entendimento de como moldar e manipular a energia etérea para criar um corpo físico animado (criar corpo e espírito).
 >
 > O resultado é uma energia viva que deve ser depositada em um material armazenador de éter, talhado de uma forma que se assemelhe a forma evocada da criatura, mantendo assim a energia em um formato transformável na forma final. Esse objetos são chamados de _totens_ e são feitos geralmente de madeira mágica, por ser mais abundante e fácil de trabalhar, mas podendo ser feito de qualquer outro material armazenador de éter.
 

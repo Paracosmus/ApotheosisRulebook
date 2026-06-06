@@ -7,7 +7,7 @@ order: 90
 
 # Ente
 
-> Entes são manifestações de energia pura, que habitam o universo e pelo acumulo, se tornam almas sem corpo ou consciência. Eles podem ser incorporados e adormecidos dentro do corpo de um personagem. Quando despertados pelo personagem, causam uma transformação do seu corpo, que concede poderes e habilidades especiais.
+> Entes são manifestações de energia pura, que habitam o universo e pelo acumulo, se tornam espíritos sem corpo ou consciência. Eles podem ser incorporados e adormecidos dentro do corpo de um personagem. Quando despertados pelo personagem, causam uma transformação do seu corpo, que concede poderes e habilidades especiais.
 >
 > A energia que quando aglomerada em um único ponto, se torna um ente, pode ser de qualquer natureza, como pensamentos, desejos, sentimentos, elementos, forças naturais, crenças, ideias, etc.
 

@@ -130,7 +130,7 @@ order: 99
   2. A evolução guiada continua, e surgem os primeiros cordados. Os regentes veem na notocorda um novo futuro para o seu mais recente plano, a criação de vida inteligente, mas autônoma, sem a necessidade de uma colmeia que a controle como é o caso dos vigilantes.
   3. Com bastante investimento, os répteis surgem, e os regentes estão convencidos que essa é a matéria animada suprema, o limite da evolução. Eles teriam então finalmente criado a estrutura biológica que poderia ser utilizada para criar um ser inteligente e autônomo.
   4. Usando a estrutura reptiliana como base, eles começam a tentar criar este ser, com várias tentativas, algumas promissoras, eles conseguem criar algumas espécies reptilianas, mas todas acabam sucumbindo para a violência e ignorância, destruindo a si mesmas.
-  5. Tentando dar a eles a razão e emoção avançadas, os regentes tentam adicionar uma essência de si mesmos, mas sem resultados frutíferos. Porém essas tentativas de adicionar uma consciência semelhante a deles aos répteis faz eles perceberem que podem criar corpos animados físicos para eles mesmos, corpos que diferentes dos planetas, podem viver na superfície da terra e agir diretamente. São criados então os **Drakos**, corpos de forma draconiana, assustadora, capazes de receber parte da essência da alma de um regente.
+  5. Tentando dar a eles a razão e emoção avançadas, os regentes tentam adicionar uma essência de si mesmos, mas sem resultados frutíferos. Porém essas tentativas de adicionar uma consciência semelhante a deles aos répteis faz eles perceberem que podem criar corpos animados físicos para eles mesmos, corpos que diferentes dos planetas, podem viver na superfície da terra e agir diretamente. São criados então os **Drakos**, corpos de forma draconiana, assustadora, capazes de receber parte da essência do espírito de um regente.
       1. Drako → Sub corpo mortal de aparência draconiana (humanoide ou não), porém duradouros, criados pelos Regentes para eles mesmos abitarem como seus avatares. Podem durar milhares de anos. O Regente pode abandonar este corpo quando quiser, e ter vários desses em lugares diferentes e trocar de um para o outro com certas magias.
 
       Quando habitando estes corpos, apenas uma parte do Regente é colocado, mesmo um planeta não é a materialização total de um Regente, não são suficientes. Geralmente é colocado apenas a parte do regente compatível com aquele corpo, e para o qual o corpo foi criado, como por exemplo, apenas a parte sábia e calma, ou a parte guerreira e raivosa, etc.
@@ -171,8 +171,8 @@ order: 99
   Essa crueldade os torturava de culpa, desesperados eles se voltaram para Prehod, o numinoso esquecido, aquele que não se juntara aos regentes e era tão velho quanto o mais velho deles.
 
   Tomando ciência de tudo que acontecia, Prehod então percebe o que é o espírito humano e disse “Eu ajudarei o teu, mas o espírito que o anima tem vibração que me contenta, você pode levar os teus, mas aqueles que se corromperem eu farei meus”
-      1. O que Prehod está falando aqui é que quando uma alma peca (se corrompe), suas vibrações espirituais diminuem, chegando à níveis tão baixos que ele pode interagir com elas finalmente, da sua dimensão de baixa vibração, e tomar elas para ele. Seu interesse no espírito se dá pelo fato de ser algo divino de um mundo sútil, ou seja uma energia que ele pode usar para seus próprio desejos e alimentação energética.
-      2. Neste momento Prehod cria os ceifeiros, seres de matéria escura que se agarram aos fios de prata quando estes se desprendem e levam até ele, ele então tenta se conectar ao fio de prata para drenar as energias do espírito, mas se a alma não estiver corrompida o fio se solta e sobe, como  um balão. Então quanto mais conexões com o fractal Lumis, melhor.
+      1. O que Prehod está falando aqui é que quando um espírito peca (se corrompe), suas vibrações espirituais diminuem, chegando à níveis tão baixos que ele pode interagir com elas finalmente, da sua dimensão de baixa vibração, e tomar elas para ele. Seu interesse no espírito se dá pelo fato de ser algo divino de um mundo sútil, ou seja uma energia que ele pode usar para seus próprio desejos e alimentação energética.
+      2. Neste momento Prehod cria os ceifeiros, seres de matéria escura que se agarram aos fios de prata quando estes se desprendem e levam até ele, ele então tenta se conectar ao fio de prata para drenar as energias do espírito, mas se o espírito não estiver corrompida o fio se solta e sobe, como  um balão. Então quanto mais conexões com o fractal Lumis, melhor.
           1. Aqui você vê a ideia do julgamento feito por um ser so submundo como a balança de Anubis por exemplo presente nas religiões do jogo. Não é um julgamento de fato, mas um condição natural mecânica.
 
       A Trindade e Prehod então criam juntos um túnel de mão dupla, aberto de cada lado, um no acima do Vazio e outro abaixo, uma passagem segura do espírito Lumis até Mundo da Unidade, passando pelo Vazio.
@@ -183,7 +183,7 @@ order: 99
 
       Portanto, entre os muitos deuses criados até o momento, o escolhido para “despertar” a Lumis foi **O Portador da Luz** um deus jovem, que representava o conceito da revelação da verdade, a luz que vem do conhecimento divino.
 
-      Ele poderia permanecer no corpo humano por apenas um breve período de tempo, pois nenhum daqueles corpos, e muito menos suas almas (mentes) e espíritos, estavam em uma condição adequada de manter tal energia. Ficar mais que alguns minutos seria fatal.
+      Ele poderia permanecer no corpo humano por apenas um breve período de tempo, pois nenhum daqueles corpos, e muito menos seus espíritos (mentes) e espíritos, estavam em uma condição adequada de manter tal energia. Ficar mais que alguns minutos seria fatal.
 
   10. Tem início então a operação de resgate, e o portador da luz incorpora em uma mulher, neste momento o fractal ainda não se multiplicou e encarnou em dois corpos, o do primeiro homem e de sua companheira.
 
@@ -196,9 +196,9 @@ order: 99
   Conforme planejado, o portador volta ao Mundo da Unidade e agora, juntos ao exército da Trindade, os deuses, eles aguardam por aqueles que possam invocá-los.
   11. Os dois agora despertos mudam claramente de comportamento, e os regentes percebem. Entendendo o que aconteceu os regentes ficam ainda mais furiosos e punem os dois, sabendo que matá-los é inútil pois seus espíritos são imortais. E para mantê-los aqui para sempre vibrando, eles criam a Roda dos Tempos, um mecanismo parte físico parte astral que garante que o fractal vai ficar perpetuamente reencarnando, e a cada encarnação, esquecerá tudo de novo.
   12. Os dois então são deixados para se virar no mundo dos regentes, onde eles se multiplicaram e com os outros hominídeos e criaram a raça humana. Que começa a se espalhar pela terra, conforme as interferências dos regentes, da trindade e seus respectivos aliados.
-  13. A guerra estava deflagrada e a trindade e os regentes estavam agora em uma batalha até o fim pelas almas humanas.
-      1. Os regentes querem as almas presas à matéria pois eles se viciaram nas vibrações dos seres vivos, tal qual um adicto em drogas, e o espírito gerava as vibrações mais fortes e entorpecentes, como uma iguaria.
-      2. A trindade quer libertar as almas através da Apoteose e levar elas para o Mundo Superior
+  13. A guerra estava deflagrada e a trindade e os regentes estavam agora em uma batalha até o fim pelos espíritos humanos.
+      1. Os regentes querem os espíritos presos à matéria pois eles se viciaram nas vibrações dos seres vivos, tal qual um adicto em drogas, e o espírito gerava as vibrações mais fortes e entorpecentes, como uma iguaria.
+      2. A trindade quer libertar os espíritos através da Apoteose e levar eles para o Mundo Superior
       3. Prehod, assim como os regentes, também quer as vibrações dos espíritos, mas não por vício e sim por que lhe dá poder.
   14. Os regentes percebem que o número de humanos despertos está crescendo demais, e isso se torna perigoso. Por isso eles se unem e queimam toda a superfície da terra, para reduzir o número de pessoas. Os sobreviventes escolhidos por eles, eram completamente ignorantes aos fatos passados. Ou foi o que eles pensaram…
 

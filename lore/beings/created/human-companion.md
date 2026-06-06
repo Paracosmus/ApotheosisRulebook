@@ -9,4 +9,4 @@ order: 99
 
 No jogo, são representados por cartas de ‣ do tipo **Human**
 
-Os hominídeos com alma, mas sem a presença de um espírito.
+Os hominídeos com espírito, mas sem a presença de um espírito.
