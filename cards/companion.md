@@ -74,6 +74,23 @@ O evocador pode a qualquer momento do seu turno, desevocar sua evocação, para 
 #### Morte da Evocação
 Diferente de outros personagens, quando uma evocação morre, ela é desevocada (sua carta é ocultada) e sua peça é removida do tabuleiro, não deixando corpo, se ela possuir cartas anexadas, elas não devem ser descartadas. Quando desevocada dessa forma, ela não pode ser evocada novamente até o final da batalha.
 
+### <span class="icon"></span> Automato
+
+- Reviver e curar não funciona em automaton, mas sim **Reparar**. Que são feitos por efeito de carta ou mecânica de jogo
+  - *Reparar*: Descarte ícones de mech para reparar 25 de {{ hp }} por ícone descartado. Sendo que isso vale mesmo quando mortos, podendo recuperar vida e até voltarem a vida se for o caso.
+- Um personagem só pode concertar automatons do conhecimento e nível que ele possuí
+  - O automato tem que estar adjacente. Isso gasta all-in do personagem que reparar
+- Automatons não podem descansar, nem outras atividades do tipo
+- Quando um efeito diz “Recuperar HP” e não curar/reparar, ele ainda vale no automaton
+- A grande vantagem do automaton é que eles são imortais. Eles não são descartados apenas se ao final do combate não forem recondicionados.
+- Eles ainda podem sofrer perda total normalmente
+
+### <span class="icon"></span> Vigilante
+
+Quando no turno de um vigilante, pode ser jogado com qualquer outro vigilante, porém usa-se os {{ ap }} do personagem do turno.
+
+### <span class="icon"></span> Drako
+
 ---
 
 ## <span class="companion">Caminho</span>

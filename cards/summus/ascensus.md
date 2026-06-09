@@ -10,7 +10,7 @@ order: 0
 
 > *So - No - Chi* é uma contração de *Soma - Nous - Psyche*, que são os termos gregos para corpo, mente e espírito, respectivamente.
 
-Em jogo, o _Ascensus_ representa um estado de ascensão de um Herói, onde ele alcança um nível superior de poder, compreensão ou conexão com o éter através de seu {{ entity }}. Isso é feito quando o Herói atinge um nível de compreensão elevado dos elementos que o constituem, corpo, mente e espírito, e de como eles se relacionam com o éter e entre si. O Herói se torna então capaz de colocar esses elementos em perfeita harmonia, alcançando um estado de equilíbrio e sintonia com o éter, o que lhe permite acessar um poder e conhecimento superiores usando o seu {{ entity }} como canal.
+Em jogo, o _Ascensus_ são cartas de {{ entity }} que não são um *Ente* em si, mas sim uma transformação do seu *Ente* na {{ sheet }}. Representam um estado de ascensão de um Herói, onde ele alcança um nível superior de poder, compreensão ou conexão com o éter através de seu {{ entity }}. Isso é feito quando o Herói atinge um nível de compreensão elevado dos elementos que o constituem, corpo, mente e espírito, e de como eles se relacionam com o éter e entre si. O Herói se torna então capaz de colocar esses elementos em perfeita harmonia, alcançando um estado de equilíbrio e sintonia com o éter, o que lhe permite acessar um poder e conhecimento superiores usando o seu {{ entity }} como canal.
 
 Ao atingir esse estado, o personagem entra no Modo Ascendido. Existem diversos métodos para atingir esse estado, que se manifestam na forma das várias cartas de _Ascensus_. Cada carta representa o conceito e ideia por trás daquele modo de ascensão, mas todas elas trabalham com o conceito central de harmonização do corpo, mente e espírito.
 
@@ -26,7 +26,7 @@ O poder adquirido se manifesta na forma de bônus altíssimos de Atributos.
 - Quando revelada, a carta de _Ascensus_
   - Concede seus bônus em cada Atributo.
   - Seus efeitos podem ser usados normalmente.
-  - Adicione um **20** {{ counter_ascended }} à esta carta
+  - Adicione **20** {{ counter_ascended }} à esta carta
 - A primeira linha da caixa de mecânica indica uma condição que o {{ entity }} do Herói deve cumprir para poder revelar o _Ascensus_.
 - A caixa de mecânica do _Ascensus_ possuí 3 colunas com valores indicados. O jogador deve calcular o valor de cada coluna e somar os 3 resultados. Essa soma é então aplicada como bônus em cada Atributo do Herói.
 - {{ counter_ascended }} são a energia especial do modo Ascendido. Eles são gastos tanto pelo tempo quanto pelas ações do Herói, além de servirem como um escudo etéreo.
@@ -51,11 +51,11 @@ O poder adquirido se manifesta na forma de bônus altíssimos de Atributos.
 - O Herói precisa ter um {{ entity }} na {{ sheet }} que cumpre as condições do _Ascensus_.
 - O Herói pode revelar o _Ascensus_ durante o seu turno, **sem custos**.
 - Para revelar o carta o jogador deve verbalizar claramente o comando _"So - No - Chi"_.
-- O personagem pode usar seu _Ascensus_ apenas uma vez a cada dia, ou seja, depois de ocultada, a carta não pode ser usada novamente por 6 períodos completos do dia.
+- O personagem pode usar seu _Ascensus_ apenas uma vez a cada dia, ou seja, depois de ocultada, a carta não pode ser usada novamente por 5 períodos completos do dia.
 
 ==- <span class="item">:icon-feed-issue-closed:</span>ㅤRequerimentos
 - O Herói deve ter um {{ entity }} na {{ sheet }} que cumpre as condições do _Ascensus_ na sua **Zona Extra** para revelar o _Ascensus_.
-- Se a qualquer momento o Herói não tiver mais um {{ entity }} na {{ sheet }} ou o {{ entity }} na {{ sheet }} não cumprir as condições do _Ascensus_ na sua **Zona Extra**, oculte o _Ascensus_ na sua **Zona Extra**.
+- Se, a qualquer momento, o Herói não tiver mais um {{ entity }} na {{ sheet }} ou o {{ entity }} na {{ sheet }} não cumprir as condições do _Ascensus_ na sua **Zona Extra**, oculte o _Ascensus_ na sua **Zona Extra**.
 - Se na {{ yourEndPhase }} o Herói não tiver mais um {{ entity }} na {{ sheet }}, ele deve descartar o _Ascensus_ da sua **Zona Extra**.
 
 ==- <span class="positive">:icon-feed-plus:</span>ㅤObter
@@ -72,7 +72,7 @@ Adicionais
 
 ==- Modo Ascendido
 
-Quando no modo Ascendido, narrativamente, o Herói é dito como no _modo \<nome da carta\>_, ou seja, se a carta chamar _Alinhamento Tríadico_ o Herói é dito como no _modo Alinhamento Tríadico_.
+Quando no modo Ascendido, narrativamente, o Herói é dito como no _modo \<nome da carta\>_, ou seja, se a carta chamar _Alinhamento Triádico_ o Herói é dito como no _modo Alinhamento Triádico_.
 
 ===
 
