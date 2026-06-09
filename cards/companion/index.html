@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.834025370411">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.834346394231">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -47,11 +47,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.6.0.834025370411" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.834346394231" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.834025370411" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.834346394231" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.834025370411" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.834346394231" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -549,6 +549,26 @@
 <p>O evocador pode a qualquer momento do seu turno, desevocar sua evocação, para isto ele anuncia a ação, oculta a carta da evocação e remove a peça dela do tabuleiro.</p>
 <h4 id="morte-da-evocação">Morte da Evocação</h4>
 <p>Diferente de outros personagens, quando uma evocação morre, ela é desevocada (sua carta é ocultada) e sua peça é removida do tabuleiro, não deixando corpo, se ela possuir cartas anexadas, elas não devem ser descartadas. Quando desevocada dessa forma, ela não pode ser evocada novamente até o final da batalha.</p>
+<h3 id="-automato"><span class="icon"></span> Automato</h3>
+<ul>
+<li>Reviver e curar não funciona em automaton, mas sim <strong>Reparar</strong>. Que são feitos por efeito de carta ou mecânica de jogo
+<ul>
+<li><em>Reparar</em>: Descarte ícones de mech para reparar 25 de <a href="/hero/#vida"><span class="hp"><b>VIDA</b></span></a> por ícone descartado. Sendo que isso vale mesmo quando mortos, podendo recuperar vida e até voltarem a vida se for o caso.</li>
+</ul>
+</li>
+<li>Um personagem só pode concertar automatons do conhecimento e nível que ele possuí
+<ul>
+<li>O automato tem que estar adjacente. Isso gasta all-in do personagem que reparar</li>
+</ul>
+</li>
+<li>Automatons não podem descansar, nem outras atividades do tipo</li>
+<li>Quando um efeito diz “Recuperar HP” e não curar/reparar, ele ainda vale no automaton</li>
+<li>A grande vantagem do automaton é que eles são imortais. Eles não são descartados apenas se ao final do combate não forem recondicionados.</li>
+<li>Eles ainda podem sofrer perda total normalmente</li>
+</ul>
+<h3 id="-vigilante"><span class="icon"></span> Vigilante</h3>
+<p>Quando no turno de um vigilante, pode ser jogado com qualquer outro vigilante, porém usa-se os <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a> do personagem do turno.</p>
+<h3 id="-drako"><span class="icon"></span> Drako</h3>
 <hr>
 <h2 id="caminho"><span class="companion">Caminho</span></h2>
 <p>Um <a href="/cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a> pode ou não pertencer a um caminho, que é uma linha de evolução. O caminho é representado por um ícone de uma peça de dominó, que é o mesmo para todas as cartas daquele caminho.</p>
@@ -928,8 +948,8 @@
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-06-05T22:43:54" title="2026-06-05" data-absolute-label="Last updated on 2026-06-05 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-06-05 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
-                        Last updated on 2026-06-05 by Bruno Caxito
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-06-09T15:54:21" title="2026-06-09" data-absolute-label="Last updated on 2026-06-09 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-06-09 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                        Last updated on 2026-06-09 by Bruno Caxito
                     </time>
                 </div>
 

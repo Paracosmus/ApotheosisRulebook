@@ -32,10 +32,10 @@ Casas
 
 ---
 
-## ÁREA DE DOMÍNIO
-Todo personagem possui uma área de domínio sobre o tabuleiro, que são as casas adjacentes a sua peça no tabuleiro com exceção da casa atrás da peça em relação a sua orientação.
+## ÁREA DE INFLUÊNCIA
+Todo personagem possui uma área de influência sobre o tabuleiro, que são as casas adjacentes a sua peça no tabuleiro com exceção da casa atrás da peça em relação a sua orientação.
 
-A área de domínio aumenta em 1 de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação) o custo para que um personagem inimigo possa se mover para ela. Caso uma casa do tabuleiro esteja na área de domínio de 2 ou mais personagens, o custo para se mover para esta casa aumenta em 1 de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação) para cada personagem inimigo.
+A área de influência aumenta em 1 de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação) o custo para que um personagem inimigo possa se mover para ela. Caso uma casa do tabuleiro esteja na área de influência de 2 ou mais personagens, o custo para se mover para esta casa aumenta em 1 de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação) para cada personagem inimigo.
 
 ---
 
