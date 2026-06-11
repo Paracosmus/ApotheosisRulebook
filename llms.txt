@@ -196,4 +196,4 @@
 
 ## Decklex
 
-- [1. The Cards](https://apotheosiscardgame.com/decklex/1_cards.md)
+- [1. The Cards](https://apotheosiscardgame.com/decklex/1-cards.md): As cartas são o elemento central de qualquer jogo de cartas. Elas são a base da maioria das interações e jogabilidade. Então nada mais justo e fundamental do que começarmos por elas.

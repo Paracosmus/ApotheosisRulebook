@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.834433008218">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.834459310365">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -15,34 +15,38 @@
     <!-- Primary Meta Tags -->
     <title>1. The Cards</title>
     <meta name="title" content="1. The Cards">
+    <meta name="description" content="As cartas são o elemento central de qualquer jogo de cartas. Elas são a base da maioria das interações e jogabilidade. Então nada mais justo e fundamental do que começarmos por elas.">
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://apotheosiscardgame.com/decklex/1_cards/">
+    <link rel="canonical" href="https://apotheosiscardgame.com/decklex/1-cards/">
     <link rel="sitemap" type="application/xml" title="Sitemap" href="https://apotheosiscardgame.com/sitemap.xml">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://apotheosiscardgame.com/decklex/1_cards/">
+    <meta property="og:url" content="https://apotheosiscardgame.com/decklex/1-cards/">
     <meta property="og:title" content="1. The Cards">
+    <meta property="og:description" content="As cartas são o elemento central de qualquer jogo de cartas. Elas são a base da maioria das interações e jogabilidade. Então nada mais justo e fundamental do que começarmos por elas.">
     <meta property="og:site_name" content="Apotheosis">
     <meta property="og:locale" content="en_US">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://apotheosiscardgame.com/decklex/1_cards/">
+    <meta name="twitter:url" content="https://apotheosiscardgame.com/decklex/1-cards/">
     <meta name="twitter:title" content="1. The Cards">
+    <meta name="twitter:description" content="As cartas são o elemento central de qualquer jogo de cartas. Elas são a base da maioria das interações e jogabilidade. Então nada mais justo e fundamental do que começarmos por elas.">
 
     <!-- Alternate Markdown -->
-    <link rel="alternate" type="text/markdown" href="https://apotheosiscardgame.com/decklex/1_cards.md">
+    <link rel="alternate" type="text/markdown" href="https://apotheosiscardgame.com/decklex/1-cards.md">
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.6.0.834433008218" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.834459310365" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.834433008218" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.834459310365" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.834433008218" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.834459310365" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="/resources/js/prism.js?v=4.6.0.834459310365" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -434,7 +438,7 @@
                             </svg>
                         </li>
                         <li class="pr-4">
-                            <a href="/decklex/1_cards/" class="pr-4">
+                            <a href="/decklex/1-cards/" class="pr-4">
                                 1. The Cards
                             </a>
                         </li>
@@ -449,6 +453,191 @@
 <!-- Message -->
 <!-- Briefing -->
 <h1 id="1-the-cards">1. The Cards</h1>
+<p>As cartas são o elemento central de qualquer jogo de cartas. Elas são a base da maioria das interações e jogabilidade. Então nada mais justo e fundamental do que começarmos por elas.</p>
+<p>Na nossa engine, existem 3 tipos de cartas, cada uma com suas próprias características e funções. São elas:</p>
+<p><doc-anchor-trigger to="#card">Card</doc-anchor-trigger>, <doc-anchor-trigger to="#set-card">Set Card</doc-anchor-trigger>, e <doc-anchor-trigger to="#play-card">Play Card</doc-anchor-trigger>.</p>
+<hr>
+<h2 id="card">Card</h2>
+<p>Este é o objeto carta de fato, é onde as informações da mesma estão contidas, como nome, descrição, atributos, etc.</p>
+<doc-tabs>
+<doc-tab v-cloak id="card-object">
+<template #title>Card Object</template>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-typescript"><code v-pre class="language-typescript">abstract class Card {
+    name: Text;
+    illustration: Texture;
+    effects: [Text];
+    keywords: [EKeyword];
+};</code></pre>
+</doc-codeblock></div>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-typescript"><code v-pre class="language-typescript">class MonsterCard extends Card {
+    attack: integer;
+    defense: integer;
+};</code></pre>
+</doc-codeblock></div>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-typescript"><code v-pre class="language-typescript">class SpellCard extends Card {
+    type: ESpellType;
+    manaCost: integer;
+};</code></pre>
+</doc-codeblock></div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Classe <strong>Abstrata</strong></h5>
+<p>A classe <code translate="no" v-pre>Card</code> é abstrata, o que significa que ela não pode ser instanciada diretamente. Ela serve como uma base para outras classes de cartas específicas, como <code translate="no" v-pre>MonsterCard</code> e <code translate="no" v-pre>SpellCard</code>, que podem herdar suas propriedades e métodos, comuns a todas as cartas.</p>
+        </div>
+    </div>
+</div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Tipo <strong>Text</strong></h5>
+<p>O tipo <code translate="no" v-pre>Text</code> é utilizado para armazenar uma string localizável, ou seja, que pode ser traduzida para diferentes idiomas. A maioria das engines possuem um tipo nativo para isso, como o <code translate="no" v-pre>FText</code> do Unreal Engine, que é recomendado para textos que serão exibidos para o jogador, como nomes, descrições e flavor text. Ele permite que o jogo suporte múltiplos idiomas de forma eficiente. Se seu sistema de localização for diferente, adapte o tipo conforme necessário, ou use uma string simples caso não tenha esta funcionalidade.</p>
+        </div>
+    </div>
+</div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Tipo <strong>Texture</strong></h5>
+<p>O tipo <code translate="no" v-pre>Texture</code> é utilizado para armazenar uma imagem ou textura, que pode ser exibida no jogo. A maioria das engines possuem um tipo nativo para isso, como o <code translate="no" v-pre>UTexture2D</code> do Unreal Engine, que é recomendado para ilustrações de cartas, ícones e outros elementos visuais. Ele permite que o jogo utilize recursos gráficos de forma eficiente. Se seu sistema de renderização for diferente, adapte o tipo conforme necessário, ou use um caminho para a imagem caso não tenha esta funcionalidade.</p>
+        </div>
+    </div>
+</div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Tipagem</h5>
+<p>O efeito ocasionalmente pode ser uma estrutura mais complexa, podendo conter campos como <code translate="no" v-pre>requirements</code>, &quot;keywords&quot;, entre outros. Na implementação do Apotheosis especificamente, é usado um array de <code translate="no" v-pre>Effect (struct)</code>, já que evita redundância e melhora a organização, pois uma carta pode ter vários efeitos.</p>
+        </div>
+    </div>
+</div>
+</doc-tab>
+<doc-tab v-cloak id="card-properties">
+<template #title>Card Properties</template>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-typescript"><code v-pre class="language-typescript">enum EKeyword {
+    // Activation
+    Activate,
+    Permanent,
+
+    // Triggered
+    OnPlay,
+    OnDiscard,
+
+    // Mechanical
+    Flying,
+    Trample,
+};</code></pre>
+</doc-codeblock></div>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-typescript"><code v-pre class="language-typescript">enum ESpellType {
+    Normal,
+    Quick,
+    Continuous,
+};</code></pre>
+</doc-codeblock></div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Implementação</h5>
+<p>Esta é apenas uma forma de implementar a os efeitos. Para o seu jogo, pode ser melhor dividir as keywords em diferentes enums por categorias por exemplo. Aqui, como em todo este guia, manteremos a implementação o mais simples possível.</p>
+        </div>
+    </div>
+</div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Implementação</h5>
+<p>No seu jogo você pode notar que algumas propriedades da carta são tipos primitivos, outros são enumerators, outros são data structures, e outras são objetos completos. Como desenvolvedor você deve avaliar cada propriedade e seus tipo adequado.</p>
+        </div>
+    </div>
+</div>
+</doc-tab>
+</doc-tabs>
+<hr>
+<h2 id="set-card">Set Card</h2>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-secondary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-secondary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+<p>No Apotheosis não existem Set Cards, isso porque por ser um jogo puramente digital, não existe reprint, portanto toda carta aparece apenas uma vez, na coleção em que foi lançada. A raridade é usada como um &quot;marcador de qualidade&quot; da carta, portanto uma carta precisa ter sempre a mesma raridade. E as coleções são usada para controle de quais cartas são permitidas em cada partida.</p>
+        </div>
+    </div>
+</div>
+<hr>
+<h2 id="play-card">Play Card</h2>
 <hr>
 <!-- Insert this at the bottom of each markdown page -->
 <!-- Tooltips -->
@@ -456,7 +645,7 @@
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-06-10T15:57:58" title="2026-06-10" data-absolute-label="Last updated on 2026-06-10 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-06-10 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-06-10T23:16:25" title="2026-06-10" data-absolute-label="Last updated on 2026-06-10 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-06-10 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
                         Last updated on 2026-06-10 by Bruno Caxito
                     </time>
                 </div>
@@ -518,7 +707,7 @@
 
     <div id="retype-overlay-target"></div>
 
-        <script data-cfasync="false">window.__DOCS__ = { "title": "1. The Cards", level: 2, icon: "file", hasPrism: false, hasInstagram: false, hasMermaid: false, hasMath: false, tocDepth: 23, "md": "/decklex/1_cards.md" }</script>
+        <script data-cfasync="false">window.__DOCS__ = { "title": "1. The Cards", level: 2, icon: "file", hasPrism: true, hasInstagram: false, hasMermaid: false, hasMath: false, tocDepth: 23, "md": "/decklex/1-cards.md" }</script>
 
     <!-- Footer -->
     <footer>
