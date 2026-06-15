@@ -9,7 +9,6 @@
 - [Herói](https://apotheosiscardgame.com/hero/index.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [Batalha](https://apotheosiscardgame.com/battle/index.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [Diretrizes](https://apotheosiscardgame.com/guidelines.md): As diretrizes são regras gerais aplicáveis a todas as situações do jogo. Elas devem ser seguidas sempre que possível, a não ser quando uma regra mais específica ou um efeito de carta disser o contrário.
-- [Decklex](https://apotheosiscardgame.com/decklex/index.md): Deck + Lex (Law) | Lexer (Lexical Analyzer)
 - [Cartilha](https://apotheosiscardgame.com/chart.md): Custo de AÇÃO e/ou Energia (ESTAMINA, MANA e/ou Essência), além dos requerimentos e custos adicionais descritos na carta, se houver
 - [Glossário](https://apotheosiscardgame.com/glossary.md): Este livro e as cartas do jogo utilizam termos com significados específicos. Abaixo estão listados esses termos e seus significados.
 - [Ícones](https://apotheosiscardgame.com/icons.md): Icon
@@ -193,7 +192,3 @@
 - [Cenário](https://apotheosiscardgame.com/gameplay/scenario.md): É uma área onde são colocadas cartas que estão em jogo e seus efeitos devem ser considerados, mas não são cartas dos jogadores e seus personagens.
 - [Limbo](https://apotheosiscardgame.com/gameplay/limbo.md): Limbo é um estado de jogo onde um componente está temporariamente fora de jogo.
 - [Passagem do Tempo](https://apotheosiscardgame.com/gameplay/time.md): Método utilizado para controlar a passagem das horas e a data em jogo.
-
-## Decklex
-
-- [1. The Cards](https://apotheosiscardgame.com/decklex/1-cards.md): As cartas são o elemento central de qualquer jogo de cartas. Elas são a base da maioria das interações e jogabilidade. Então nada mais justo e fundamental do que começarmos por elas.

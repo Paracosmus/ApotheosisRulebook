@@ -7,10 +7,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.834459310365">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.834866369813">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
+    <meta name="robots" content="noindex">
 
     <!-- Primary Meta Tags -->
     <title>1. The Cards</title>
@@ -41,12 +42,12 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.6.0.834459310365" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.834866369813" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.834459310365" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.834866369813" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.834459310365" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="/resources/js/prism.js?v=4.6.0.834459310365" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.834866369813" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="/resources/js/prism.js?v=4.6.0.834866369813" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -448,201 +449,27 @@
                 <doc-page-actions></doc-page-actions>
 
                 <!-- Page content  -->
-<!-- Insert this at the top of each markdown page -->
-<!-- Global Functions -->
-<!-- Message -->
-<!-- Briefing -->
-<h1 id="1-the-cards">1. The Cards</h1>
-<p>As cartas são o elemento central de qualquer jogo de cartas. Elas são a base da maioria das interações e jogabilidade. Então nada mais justo e fundamental do que começarmos por elas.</p>
-<p>Na nossa engine, existem 3 tipos de cartas, cada uma com suas próprias características e funções. São elas:</p>
-<p><doc-anchor-trigger to="#card">Card</doc-anchor-trigger>, <doc-anchor-trigger to="#set-card">Set Card</doc-anchor-trigger>, e <doc-anchor-trigger to="#play-card">Play Card</doc-anchor-trigger>.</p>
-<hr>
-<h2 id="card">Card</h2>
-<p>Este é o objeto carta de fato, é onde as informações da mesma estão contidas, como nome, descrição, atributos, etc.</p>
-<doc-tabs>
-<doc-tab v-cloak id="card-object">
-<template #title>Card Object</template>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre translate="no" class="language-typescript"><code v-pre class="language-typescript">abstract class Card {
-    name: Text;
-    illustration: Texture;
-    effects: [Text];
-    keywords: [EKeyword];
-};</code></pre>
-</doc-codeblock></div>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre translate="no" class="language-typescript"><code v-pre class="language-typescript">class MonsterCard extends Card {
-    attack: integer;
-    defense: integer;
-};</code></pre>
-</doc-codeblock></div>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre translate="no" class="language-typescript"><code v-pre class="language-typescript">class SpellCard extends Card {
-    type: ESpellType;
-    manaCost: integer;
-};</code></pre>
-</doc-codeblock></div>
-<div class="flex mb-6">
-    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
-    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
-        <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
-                <g fill="currentColor"><g>
-                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
-                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                </g></g>
-            </svg>
-        </div>
-        <div class="pr-5 ml-3 w-full">
-            <h5>Classe <strong>Abstrata</strong></h5>
-<p>A classe <code translate="no" v-pre>Card</code> é abstrata, o que significa que ela não pode ser instanciada diretamente. Ela serve como uma base para outras classes de cartas específicas, como <code translate="no" v-pre>MonsterCard</code> e <code translate="no" v-pre>SpellCard</code>, que podem herdar suas propriedades e métodos, comuns a todas as cartas.</p>
-        </div>
-    </div>
-</div>
-<div class="flex mb-6">
-    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
-    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
-        <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
-                <g fill="currentColor"><g>
-                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
-                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                </g></g>
-            </svg>
-        </div>
-        <div class="pr-5 ml-3 w-full">
-            <h5>Tipo <strong>Text</strong></h5>
-<p>O tipo <code translate="no" v-pre>Text</code> é utilizado para armazenar uma string localizável, ou seja, que pode ser traduzida para diferentes idiomas. A maioria das engines possuem um tipo nativo para isso, como o <code translate="no" v-pre>FText</code> do Unreal Engine, que é recomendado para textos que serão exibidos para o jogador, como nomes, descrições e flavor text. Ele permite que o jogo suporte múltiplos idiomas de forma eficiente. Se seu sistema de localização for diferente, adapte o tipo conforme necessário, ou use uma string simples caso não tenha esta funcionalidade.</p>
-        </div>
-    </div>
-</div>
-<div class="flex mb-6">
-    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
-    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
-        <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
-                <g fill="currentColor"><g>
-                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
-                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                </g></g>
-            </svg>
-        </div>
-        <div class="pr-5 ml-3 w-full">
-            <h5>Tipo <strong>Texture</strong></h5>
-<p>O tipo <code translate="no" v-pre>Texture</code> é utilizado para armazenar uma imagem ou textura, que pode ser exibida no jogo. A maioria das engines possuem um tipo nativo para isso, como o <code translate="no" v-pre>UTexture2D</code> do Unreal Engine, que é recomendado para ilustrações de cartas, ícones e outros elementos visuais. Ele permite que o jogo utilize recursos gráficos de forma eficiente. Se seu sistema de renderização for diferente, adapte o tipo conforme necessário, ou use um caminho para a imagem caso não tenha esta funcionalidade.</p>
-        </div>
-    </div>
-</div>
-<div class="flex mb-6">
-    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
-    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
-        <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
-                <g fill="currentColor"><g>
-                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
-                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                </g></g>
-            </svg>
-        </div>
-        <div class="pr-5 ml-3 w-full">
-            <h5>Tipagem</h5>
-<p>O efeito ocasionalmente pode ser uma estrutura mais complexa, podendo conter campos como <code translate="no" v-pre>requirements</code>, &quot;keywords&quot;, entre outros. Na implementação do Apotheosis especificamente, é usado um array de <code translate="no" v-pre>Effect (struct)</code>, já que evita redundância e melhora a organização, pois uma carta pode ter vários efeitos.</p>
-        </div>
-    </div>
-</div>
-</doc-tab>
-<doc-tab v-cloak id="card-properties">
-<template #title>Card Properties</template>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre translate="no" class="language-typescript"><code v-pre class="language-typescript">enum EKeyword {
-    // Activation
-    Activate,
-    Permanent,
 
-    // Triggered
-    OnPlay,
-    OnDiscard,
-
-    // Mechanical
-    Flying,
-    Trample,
-};</code></pre>
-</doc-codeblock></div>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre translate="no" class="language-typescript"><code v-pre class="language-typescript">enum ESpellType {
-    Normal,
-    Quick,
-    Continuous,
-};</code></pre>
-</doc-codeblock></div>
-<div class="flex mb-6">
-    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
-    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
-        <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
-                <g fill="currentColor"><g>
-                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
-                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                </g></g>
-            </svg>
+<div id="protected-content" data="12808.PLVafOr6N7i+K8rc+uwWTA==.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" class="text-center mt-12 pb-16">
+    <div class="inline-block bg-gray-200 dark:bg-dark-550 dark:text-white p-6 rounded-lg">
+        <div class="-mt-2 pb-6 text-2xl">
+            This page is password protected
         </div>
-        <div class="pr-5 ml-3 w-full">
-            <h5>Implementação</h5>
-<p>Esta é apenas uma forma de implementar a os efeitos. Para o seu jogo, pode ser melhor dividir as keywords em diferentes enums por categorias por exemplo. Aqui, como em todo este guia, manteremos a implementação o mais simples possível.</p>
+        <div>
+            Enter password:
+            <br>
+            <input id="protected-content-password" type="password" class="border-4 h-8 pl-1 rounded text-2xl text-gray-700 w-75" onkeyup="if (event.keyCode === 13){ document.getElementById('protected-content-ok').click(); }">
+        </div>
+        <div id="protected-content-error" class="transition-opacity opacity-0 text-danger-600">
+            Wrong password!
+        </div>
+        <div class="mt-4">
+            <button id="protected-content-ok" class="no-link inline-flex align-middle items-center font-medium cursor-pointer transition-colors duration-200 ease-out focus:outline-hidden bg-button-primary hover:bg-button-primary-hover text-white px-3 h-8 text-sm rounded">
+                Unlock
+            </button>
         </div>
     </div>
 </div>
-<div class="flex mb-6">
-    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
-    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
-        <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
-                <g fill="currentColor"><g>
-                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
-                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                </g></g>
-            </svg>
-        </div>
-        <div class="pr-5 ml-3 w-full">
-            <h5>Implementação</h5>
-<p>No seu jogo você pode notar que algumas propriedades da carta são tipos primitivos, outros são enumerators, outros são data structures, e outras são objetos completos. Como desenvolvedor você deve avaliar cada propriedade e seus tipo adequado.</p>
-        </div>
-    </div>
-</div>
-</doc-tab>
-</doc-tabs>
-<hr>
-<h2 id="set-card">Set Card</h2>
-<div class="flex mb-6">
-    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-secondary"></div>
-    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
-        <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-secondary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
-                <g fill="currentColor"><g>
-                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
-                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                </g></g>
-            </svg>
-        </div>
-        <div class="pr-5 ml-3 w-full">
-<p>No Apotheosis não existem Set Cards, isso porque por ser um jogo puramente digital, não existe reprint, portanto toda carta aparece apenas uma vez, na coleção em que foi lançada. A raridade é usada como um &quot;marcador de qualidade&quot; da carta, portanto uma carta precisa ter sempre a mesma raridade. E as coleções são usada para controle de quais cartas são permitidas em cada partida.</p>
-        </div>
-    </div>
-</div>
-<hr>
-<h2 id="play-card">Play Card</h2>
-<hr>
-<!-- Insert this at the bottom of each markdown page -->
-<!-- Tooltips -->
-<!-- *[AWS]: Amazon Web Services -->
-
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
                     <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-06-10T23:16:25" title="2026-06-10" data-absolute-label="Last updated on 2026-06-10 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-06-10 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
