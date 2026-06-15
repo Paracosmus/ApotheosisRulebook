@@ -2,6 +2,7 @@
 label: Decklex
 icon: /static/img/icons/decklex.svg
 order: 0
+visibility: protected
 ---
 
 <style>
