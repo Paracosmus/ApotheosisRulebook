@@ -84,7 +84,7 @@ Ao final da batalha, o personagem pode ser revivido por alguns efeitos de cartas
 
 Uma vez por batalha, quando uma ação resultar em sua [<span class="hp"><b>VIDA</b></span>](/hero/#vida) ficar menor ou igual a 0, antes de determinar que este personagem está morto, ele ainda pode obter uma _Salvação Divina_.
 
-O jogador deve observar quantos pontos [<span class="hp"><b>VIDA</b></span>](/hero/#vida) negativa o personagem ficou, o personagem deve então descartar 3 de [<span class="event"><b>DESTINO</b></span>](/cards/event.md), e mais 2 de [<span class="event"><b>DESTINO</b></span>](/cards/event.md) para cada ponto de [<span class="hp"><b>VIDA</b></span>](/hero/#vida) negativo que tiver. Qualquer excesso descartado é perdido. O personagem então não morre, mas fica com 1 de [<span class="hp"><b>VIDA</b></span>](/hero/#vida).
+O jogador deve observar quantos pontos [<span class="hp"><b>VIDA</b></span>](/hero/#vida) negativa o personagem ficou, o personagem deve então descartar 1 de [<span class="event"><b>DESTINO</b></span>](/cards/event.md) para cada ponto de [<span class="hp"><b>VIDA</b></span>](/hero/#vida) negativo que tiver. Qualquer excesso descartado é perdido. O personagem então não morre, mas fica com 1 de [<span class="hp"><b>VIDA</b></span>](/hero/#vida).
 
 !!!
 Em uma _Salvação Divina_, não se considera que o personagem tenha morrido, nem que tenha sido curado ou revivido, portanto, não se deve aplicar as mecânicas e efeitos relacionados a estes casos e o personagem pode continuar jogando normalmente.

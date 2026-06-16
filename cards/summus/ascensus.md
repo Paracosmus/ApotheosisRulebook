@@ -29,7 +29,7 @@ O poder adquirido se manifesta na forma de bônus altíssimos de Atributos.
   - Ao realizar um Ataque Normal, remova **1** [<span class="main">❂<b>CONTADOR DE ASCENSO</b></span>](/gameplay/counter/) desta carta.
   - Quando sofrer <b>DANO</b>, ao invés de calcular a <b>LESÃO</b> e remove [<span class="hp"><b>VIDA</b></span>](/hero/#vida), para cada <span class="negative">50</span> de <b>DANO</b> sofrido, remova **1** [<span class="main">❂<b>CONTADOR DE ASCENSO</b></span>](/gameplay/counter/) desta carta. Logo, um ataque que cause <span class="negative">60</span> de <b>DANO</b> remove 1, um ataque de <span class="negative">90</span> remove 1, um ataque de <span class="negative">120</span> remove 2, e assim por diante.
   - Quando esta carta não tiver mais [<span class="main">❂<b>CONTADOR DE ASCENSO</b></span>](/gameplay/counter/), o Herói perde o estado de Ascendido. O _Ascensus_ é ocultado imediatamente.
-- Quando a carta de _Ascensus_ é ocultada por qualquer motivo, o turno do personagem é encerrado imediatamente. Se isso ocorrer durante uma batalha, o personagem não tem um turno na próxima rodada.
+- Quando a carta de _Ascensus_ é ocultada por qualquer motivo, o turno do personagem é encerrado imediatamente. Se isso ocorrer durante uma batalha, o personagem não recupera [<span class="main"><b>AÇÃO</b></span>](/hero/#ação) na próxima [<span class="keyword-timing">Fase de Recomposição</span>](/cards/effect.md).
 
 ||| Caixa de Mecânica
 ![](/static/img/summus/ascensus.png)
