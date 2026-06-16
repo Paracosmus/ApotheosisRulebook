@@ -93,7 +93,7 @@ Este livro e as cartas do jogo utilizam termos com significados específicos. Ab
 | **Descartar**  | *Discard*     | Colocar uma carta na pilha de descarte |
 | **Enterrar**   | *Bury*        | Colocar uma carta no fundo do baralho específico do naipe |
 | **Banir**      | *Banish*      | Remover uma carta do jogo |
-| **Obter**      | *Get*         | Adicionar uma carta da pilha de descarte ao {{ inv }} |
+| **Obter**      | *Get*         | É quando uma carta passa a estar sobre o controle do Herói. Quando uma carta é obtida a não ser que a situação especifique o contrário, o jogador decide onde colocá-la, seja em sua {{ table }}, {{ inv }} ou anexada a uma carta por mecânica de jogo |
 | **Baixar**     | *Place*       | Adicionar uma carta à {{ table }} |
 | **Puxar**      | *Draw*        | Pegar a carta do topo do baralho especificado e adicionar ao {{ inv }}, sem mostrá-la |
 | **Revelar**    | *Reveal*      | Mostrar uma carta que está oculta, geralmente virando-a de face para cima, ou mostrando-a para todos os jogadores |

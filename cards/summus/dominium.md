@@ -8,9 +8,9 @@ order: 0
 # <span class="summus"> Dominium</span>
 
 > Dominium é o termo latino para “domínio”, no sentido de posse, território, propriedade.
-> 
+>
 > O Dominium é uma dimensão forjada pela vontade do seu criador a sua imagem e semelhança. É uma zona interdimensional que quando ativada, se entrelaça com o espaço-tempo ao redor do seu conjurador criando uma área no local, com regras e características próprias, definidas pela mente e magia do seu criador, e onde ele é deus.
-> 
+>
 > Por este motivo, são representados por cartas de {{ event }} no {{ scenario }}, aplicando seus efeitos a todos.
 
 Dominiums são cartas de {{ event }} que quando ativadas do {{ inv }} são enviadas para o {{ scenario }} para aplicar efeitos a todos os personagens.
@@ -25,6 +25,8 @@ Dominiums são cartas de {{ event }} que quando ativadas do {{ inv }} são envia
     - Quaisquer bônus negativos proporcionados pela carta **não** são aplicados ao Herói que a ativou.
     - O efeito na caixa identificadora do Summus é valido apenas para o Herói que a ativou.
 - A carta deve ser removida do {{ scenario }} após passados a quantidade de *Fases de Restauração* definidas na carta.
+  - O jogador que ativou o Dominium pode optar por remover o Dominium do {{ scenario }} antes do tempo.
+- Quando no {{ scenario }}, o Dominium não pode ser removido por efeito de carta.
 - Pode ser ativado apenas no turno do seu dono, e o turno se encerra imediatamente após sua ativação.
 
 

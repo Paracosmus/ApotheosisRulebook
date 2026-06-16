@@ -35,7 +35,7 @@ O poder adquirido se manifesta na forma de bônus altíssimos de Atributos.
   - Ao realizar um Ataque Normal, remova **1** {{ counter_ascended }} desta carta.
   - Quando sofrer {{ dmg }}, ao invés de calcular a {{ injury }} e remove {{ hp }}, para cada {{ n"50" }} de {{ dmg }} sofrido, remova **1** {{ counter_ascended }} desta carta. Logo, um ataque que cause {{ n"60" }} de {{ dmg }} remove 1, um ataque de {{ n"90" }} remove 1, um ataque de {{ n"120" }} remove 2, e assim por diante.
   - Quando esta carta não tiver mais {{ counter_ascended }}, o Herói perde o estado de Ascendido. O _Ascensus_ é ocultado imediatamente.
-- Quando a carta de _Ascensus_ é ocultada por qualquer motivo, o turno do personagem é encerrado imediatamente. Se isso ocorrer durante uma batalha, o personagem não tem um turno na próxima rodada.
+- Quando a carta de _Ascensus_ é ocultada por qualquer motivo, o turno do personagem é encerrado imediatamente. Se isso ocorrer durante uma batalha, o personagem não recupera {{ ap }} na próxima {{ resetPhase }}.
 
 ||| Caixa de Mecânica
 ![](/static/img/summus/ascensus.png)

@@ -87,7 +87,7 @@ Ao final da batalha, o personagem pode ser revivido por alguns efeitos de cartas
 
 Uma vez por batalha, quando uma ação resultar em sua {{ hp }} ficar menor ou igual a 0, antes de determinar que este personagem está morto, ele ainda pode obter uma _Salvação Divina_.
 
-O jogador deve observar quantos pontos {{ hp }} negativa o personagem ficou, o personagem deve então descartar 3 de {{ fate }}, e mais 2 de {{ fate }} para cada ponto de {{ hp }} negativo que tiver. Qualquer excesso descartado é perdido. O personagem então não morre, mas fica com 1 de {{ hp }}.
+O jogador deve observar quantos pontos {{ hp }} negativa o personagem ficou, o personagem deve então descartar 1 de {{ fate }} para cada ponto de {{ hp }} negativo que tiver. Qualquer excesso descartado é perdido. O personagem então não morre, mas fica com 1 de {{ hp }}.
 
 !!!
 Em uma _Salvação Divina_, não se considera que o personagem tenha morrido, nem que tenha sido curado ou revivido, portanto, não se deve aplicar as mecânicas e efeitos relacionados a estes casos e o personagem pode continuar jogando normalmente.
