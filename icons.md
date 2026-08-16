@@ -227,7 +227,7 @@ layout: page
 |                                         | Propriedade       | *Tag*          | -             | e935    | -         |
 | -                                        | Tabuleiro         | *Board*        | -             | -       | -         |
 | -                                        | Casa do Tabuleiro | *Tile*         | -             | -       | -         |
-| -                                        | Peça              | *Chip*         | -             | -       | -         |
+| -                                        | Peça              | *Piece*        | -             | -       | -         |
 | -                                        | Personagem        | *Character*    | -             | -       | -         |
 | -                                        | Herói             | *Hero*         | -             | -       | -         |
 | -                                        | Próprio / Si      | *Self*         | -             | -       | -         |

@@ -226,7 +226,7 @@ order: 100
     - **Humanos**: Aliados dos jogadores ou NPCs de campanha
     - **Criaturas**: Animais, bestas e monstros
     - **Evocações**: Seres sobrenaturais evocados por magias
-  - [Modelo (Dummy)](/battle/chip/dummy.md): Personagens que fogem das regras de jogo, geralmente chefes de campanha
+  - [Modelo (Dummy)](/battle/piece/dummy.md): Personagens que fogem das regras de jogo, geralmente chefes de campanha
 
 
 
