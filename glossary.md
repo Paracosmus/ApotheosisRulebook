@@ -44,7 +44,7 @@ Este livro e as cartas do jogo utilizam termos com significados específicos. Ab
 
 ## M
 
-[!card compact](battle/chip/dummy.md) [!card compact](gameplay/game-mode/battle-mode.md)
+[!card compact](battle/piece/dummy.md) [!card compact](gameplay/game-mode/battle-mode.md)
 
 [!card compact](gameplay/game-mode/) [!card compact](gameplay/game-mode/story-mode.md)
 
@@ -108,7 +108,7 @@ Este livro e as cartas do jogo utilizam termos com significados específicos. Ab
 | Termo                    | Inglês          | Significado |
 | ------------------------ | --------------- | ----------- |
 | **Componente**           | *Component*     | Qualquer elemento físico do jogo, como cartas, peças, contadores, etc. |
-| **Peça**                 | *Chip*          | Peão que representa um personagem ou objeto no tabuleiro de batalha |
+| **Peça**                 | *Piece*          | Peão que representa um personagem ou objeto no tabuleiro de batalha |
 | **Mover**                | *Move*          | Colocar uma peça em outra casa do tabuleiro |
 | **Distância**            | *Distance*      | Alcance da ação ou movimento |
 | **Trajeto / Trajetória** | *Trajectory*    | Conjunto de casas do tabuleiro por onde passa a linha reta entre o personagem que executa a ação e o alvo da ação |

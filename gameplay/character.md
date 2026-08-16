@@ -12,7 +12,7 @@ Os personagens são representados por cartas, miniaturas ou meeples no tabuleiro
 
 Personagem é a forma de se designar qualquer referência que represente um ser animado, englobando humanos, animais, evocações e quaisquer criaturas vivas, tendo elas peças no tabuleiro ou não.
 
-Geralmente, o termo se refere a [Heróis](/hero/), [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) e [Modelos](/battle/chip/dummy.md), mas em situações específicas de campanha, podem também se referir a outras criaturas.
+Geralmente, o termo se refere a [Heróis](/hero/), [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) e [Modelos](/battle/piece/dummy.md), mas em situações específicas de campanha, podem também se referir a outras criaturas.
 
 ---
 
