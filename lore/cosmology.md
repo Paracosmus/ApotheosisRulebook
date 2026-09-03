@@ -213,6 +213,7 @@ order: 99
   Rebelião dos vigilantes e criação dos Caídos
 
   Os Caídos criam as civilizações mitológicas como Atlântida, Mu e Lemúria.
+  São nestas civilizações que é criado a magia rúnica original, de onde a magia com runas nórdicas é baseada posteriormente.
 
   Como fruto dessas civilizações espiritualmente avançadas, é criada a **Fraternidade Branca** (por isso “*antiga e mística*” no nome).
 
