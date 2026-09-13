@@ -20,7 +20,7 @@ Enviar carta da {{ table }} para o {{ inv }}
 
 Interagir com Objeto ou Personagem
 :   **2** de {{ ap }}
-*   Falar com personagem
+*   Falar com personagem (Pode ser feito no turno de qualquer personagem desde que não interrompa uma ação)
 *   Mover a peça de um Objeto para uma casa vazia adjacente a ela
 *   Obter um {{ item }} de uma peça do tipo Container
 
@@ -51,7 +51,9 @@ Propor/Fechar Pacto
 ## Apenas Fora de Batalha
 
 Realizar um Teste
-:   **2** de {{ ap }}
+:   **3** de {{ ap }}
+*   Se o teste envolve a ativação de uma ou mais cartas que tenham custos, os custos são substituídos pelo custo de {{ ap }} e **Energia** das cartas, incluindo cumprir os requerimentos.
+*   3 é um valor padrão médio. O Mestre de Jogo pode ajustar os custos de acordo com a situação, a seu critério, inclusive removendo ou adicionando custos.
 
 Adquirir {{ class }}
 :   Ação total e enterrar {{n 5}} cartas de recurso do mesmo nível da carta desejada
