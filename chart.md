@@ -15,7 +15,7 @@ Enviar carta da [<span class="main"><b>MESA</b></span>](/hero/table/) para o 
 
 Interagir com Objeto ou Personagem
 :   **2** de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação)
-*   Falar com personagem
+*   Falar com personagem (Pode ser feito no turno de qualquer personagem desde que não interrompa uma ação)
 *   Mover a peça de um Objeto para uma casa vazia adjacente a ela
 *   Obter um [<span class="item"><b>ITEM</b></span>](/cards/item.md) de uma peça do tipo Container
 
@@ -46,7 +46,9 @@ Propor/Fechar Pacto
 ## Apenas Fora de Batalha
 
 Realizar um Teste
-:   **2** de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação)
+:   **3** de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação)
+*   Se o teste envolve a ativação de uma ou mais cartas que tenham custos, os custos são substituídos pelo custo de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação) e **Energia** das cartas, incluindo cumprir os requerimentos.
+*   3 é um valor padrão médio. O Mestre de Jogo pode ajustar os custos de acordo com a situação, a seu critério, inclusive removendo ou adicionando custos.
 
 Adquirir [<span class="class"><b>CLASSE</b></span>](/cards/class.md)
 :   Ação total e enterrar <span class="negative">5</span> cartas de recurso do mesmo nível da carta desejada
