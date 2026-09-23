@@ -54,7 +54,6 @@ layout: page
 | Icon                                     | Termo (PT)   | English         | Variável            | Unicode | Color     |
 | ---------------------------------------- | ------------ | --------------- | ------------------- | ------- | --------- |
 | <span style="color: #995D52;"></span> | Conhecimento | *Knowledge*     | {{ knowledge }}     | e92a    | `#995D52` |
-| <span style="color: #995D52;"></span> | Livre        | *Free*          | {{ free }}          | e92a    | `#995D52` |
 | <span style="color: #995D52;"></span> | Fé           | *Faith*         | {{ faith }}         | e92a    | `#995D52` |
 | <span style="color: #995D52;"></span> | Cooperação   | *Cooperation*   | {{ cooperation }}   | e92a    | `#995D52` |
 | <span style="color: #995D52;"></span> | Prática      | *Practice*      | {{ practice }}      | e92a    | `#995D52` |
@@ -118,6 +117,7 @@ layout: page
 | <span class="companion"></span> | Criatura   | *Creature*   | {{ creature }} | e900    | `#FF7043` |
 | <span class="companion"></span> | Humano     | *Human*      | {{ human }}    | e901    | `#FF7043` |
 | <span class="companion"></span> | Evocação   | *Summon*     | {{ summon }}   | e902    | `#FF7043` |
+| <span class="companion"></span> | Autômato   | *Automaton*  | {{ automaton }}| eb40    | `#FF7043` |
 | <span class="companion"></span> | Vigilante  | *Watcher*    | {{ watcher }}  | e94d    | `#FF7043` |
 | <span class="companion"></span> | Drako      | *Drako*      | {{ drako }}    | e94c    | `#FF7043` |
 
@@ -275,14 +275,11 @@ layout: page
 
 | Icon                          | Termo (Latim) | Variável          | Unicode | Color     |
 | ----------------------------- | ------------- | ----------------- | ------- | --------- |
-| <span class="summus"></span>  | Ars           | {{ ars }}         | -       | `#FF22B2` |
-| <span class="summus"></span>  | Ascensus      | {{ ascensus }}    | -       | `#FF22B2` |
+| <span class="summus"></span> | Ascensus      | {{ ascensus }}    | eaa6    | `#FF22B2` |
 | <span class="summus"></span> | Collegium     | {{ collegium }}   | e9d6    | `#FF22B2` |
 | <span class="summus"></span> | Daemon        | {{ daemon }}      | e96d    | `#FF22B2` |
 | <span class="summus"></span> | Dominium      | {{ dominium }}    | e9dc    | `#FF22B2` |
 | <span class="summus"></span> | Magisterium   | {{ magisterium }} | e95c    | `#FF22B2` |
-| <span class="summus"></span>  | Pactum        | {{ pactum }}      | -       | `#FF22B2` |
-| <span class="summus"></span>  | Res           | {{ res }}         | -       | `#FF22B2` |
 | <span class="summus"></span> | Ultimatum     | {{ ultimatum }}   | eab7    | `#FF22B2` |
 
 <br><br>
@@ -291,16 +288,16 @@ layout: page
 
 ## Fonte Oficial
 
-[!file](/static/fonts/Apotheosis.ttf)
+[!file](http://get.lunehub.com/apotheosis/fonts/Apotheosis.ttf)
 
-[!file](/static/fonts/Apotheosis.svg)
+[!file](http://get.lunehub.com/apotheosis/fonts/Apotheosis.svg)
 
-[!file](/static/fonts/Apotheosis.woff)
+[!file](http://get.lunehub.com/apotheosis/fonts/Apotheosis.woff)
 
 ---
 
 ## Ícones
 
-[!file](/static/fonts/Icons.zip)
+[!file](http://get.lunehub.com/apotheosis/fonts/icons.zip)
 
 ---
