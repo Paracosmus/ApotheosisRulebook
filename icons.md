@@ -16,7 +16,6 @@ layout: page
 | <span class="skill"></span>     | Habilidade  | *Skill*      | {{ skill }}     | e956    | `#2196F3` |
 | <span class="companion"></span> | Companheiro | *Companion*  | {{ companion }} | e950    | `#FF7043` |
 | <span class="event"></span>     | Evento      | *Event*      | {{ event }}     | e953    | `#4CAF50` |
-| <span class="summus"></span>    | Summus      | *Summus*     | {{ summus }}    | e94b    | `#FF22B2` |
 
 <br><br>
 
@@ -275,6 +274,7 @@ layout: page
 
 | Icon                          | Termo (Latim) | Variável          | Unicode | Color     |
 | ----------------------------- | ------------- | ----------------- | ------- | --------- |
+| <span class="summus"></span> | Summus        | {{ summus }}      | e94b    | `#FF22B2` |
 | <span class="summus"></span> | Ascensus      | {{ ascensus }}    | eaa6    | `#FF22B2` |
 | <span class="summus"></span> | Collegium     | {{ collegium }}   | e9d6    | `#FF22B2` |
 | <span class="summus"></span> | Daemon        | {{ daemon }}      | e96d    | `#FF22B2` |
@@ -288,16 +288,16 @@ layout: page
 
 ## Fonte Oficial
 
-[!file](http://get.lunehub.com/apotheosis/fonts/Apotheosis.ttf)
+[!file](https://get.lunehub.com/apotheosis/fonts/Apotheosis.ttf)
 
-[!file](http://get.lunehub.com/apotheosis/fonts/Apotheosis.svg)
+[!file](https://get.lunehub.com/apotheosis/fonts/Apotheosis.svg)
 
-[!file](http://get.lunehub.com/apotheosis/fonts/Apotheosis.woff)
+[!file](https://get.lunehub.com/apotheosis/fonts/Apotheosis.woff)
 
 ---
 
 ## Ícones
 
-[!file](http://get.lunehub.com/apotheosis/fonts/icons.zip)
+[!file](https://get.lunehub.com/apotheosis/fonts/icons.zip)
 
 ---
