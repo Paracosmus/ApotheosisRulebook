@@ -22,7 +22,7 @@
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/icons/</loc>
-    <lastmod>2026-08-15T22:33:42Z</lastmod>
+    <lastmod>2026-09-23T14:06:50Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/cards/companion/</loc>
@@ -305,10 +305,6 @@
     <lastmod>2026-06-05T22:43:54Z</lastmod>
   </url>
   <url>
-    <loc>https://apotheosiscardgame.com/cards/summus/ars/</loc>
-    <lastmod>2026-03-06T13:57:20Z</lastmod>
-  </url>
-  <url>
     <loc>https://apotheosiscardgame.com/cards/summus/ultimatum/</loc>
     <lastmod>2026-03-03T23:51:37Z</lastmod>
   </url>
@@ -365,11 +361,7 @@
     <lastmod>2026-03-31T18:25:31Z</lastmod>
   </url>
   <url>
-    <loc>https://apotheosiscardgame.com/cards/summus/pactum/</loc>
-    <lastmod>2026-03-06T13:57:20Z</lastmod>
-  </url>
-  <url>
-    <loc>https://apotheosiscardgame.com/cards/summus/res/</loc>
+    <loc>https://apotheosiscardgame.com/cards/summus/ars/</loc>
     <lastmod>2026-03-06T13:57:20Z</lastmod>
   </url>
   <url>
@@ -383,6 +375,14 @@
   <url>
     <loc>https://apotheosiscardgame.com/lore/beings/numinous/regent/</loc>
     <lastmod>2026-03-31T18:25:31Z</lastmod>
+  </url>
+  <url>
+    <loc>https://apotheosiscardgame.com/cards/summus/pactum/</loc>
+    <lastmod>2026-03-06T13:57:20Z</lastmod>
+  </url>
+  <url>
+    <loc>https://apotheosiscardgame.com/cards/summus/res/</loc>
+    <lastmod>2026-03-06T13:57:20Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/hero/table/extra-zone/</loc>

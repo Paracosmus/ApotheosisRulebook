@@ -49,7 +49,6 @@
 | Icon                                     | Termo (PT)   | English         | Variável            | Unicode | Color     |
 | ---------------------------------------- | ------------ | --------------- | ------------------- | ------- | --------- |
 | <span style="color: #995D52;"></span> | Conhecimento | *Knowledge*     | [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md)     | e92a    | `#995D52` |
-| <span style="color: #995D52;"></span> | Livre        | *Free*          | [<span class="knowledge"><b>LIVRE</b></span>](/hero/knowledge.md#livre)          | e92a    | `#995D52` |
 | <span style="color: #995D52;"></span> | Fé           | *Faith*         | [<span class="knowledge"><b>FÉ</b></span>](/hero/knowledge.md#fé)         | e92a    | `#995D52` |
 | <span style="color: #995D52;"></span> | Cooperação   | *Cooperation*   | [<span class="knowledge"><b>COOPERAÇÃO</b></span>](/hero/knowledge.md#cooperação)   | e92a    | `#995D52` |
 | <span style="color: #995D52;"></span> | Prática      | *Practice*      | [<span class="knowledge"><b>PRÁTICA</b></span>](/hero/knowledge.md#prática)      | e92a    | `#995D52` |
@@ -112,6 +111,7 @@
 | <span class="companion"></span> | Criatura   | *Creature*   | [<span class="companion"><b>CRIATURA</b></span>](/cards/companion.md#-criatura) | e900    | `#FF7043` |
 | <span class="companion"></span> | Humano     | *Human*      | [<span class="companion"><b>HUMANO</b></span>](/cards/companion.md#-humano)    | e901    | `#FF7043` |
 | <span class="companion"></span> | Evocação   | *Summon*     | [<span class="companion"><b>EVOCAÇÃO</b></span>](/cards/companion.md#-evocação)   | e902    | `#FF7043` |
+| <span class="companion"></span> | Autômato   | *Automaton*  | [<span class="companion"><b>AUTOMATO</b></span>](/cards/companion.md#-automato)| eb40    | `#FF7043` |
 | <span class="companion"></span> | Vigilante  | *Watcher*    | [<span class="companion"><b>VIGILANTE</b></span>](/cards/companion.md)  | e94d    | `#FF7043` |
 | <span class="companion"></span> | Drako      | *Drako*      | [<span class="companion"><b>DRAKO</b></span>](/cards/companion.md)    | e94c    | `#FF7043` |
 
@@ -269,14 +269,11 @@
 
 | Icon                          | Termo (Latim) | Variável          | Unicode | Color     |
 | ----------------------------- | ------------- | ----------------- | ------- | --------- |
-| <span class="summus"></span>  | Ars           | [<span class="summus"><b>ARS</b></span>](/cards/summus/ars.md)         | -       | `#FF22B2` |
-| <span class="summus"></span>  | Ascensus      | [<span class="summus"><b>ASCENSUS</b></span>](/cards/summus/ascensus.md)    | -       | `#FF22B2` |
+| <span class="summus"></span> | Ascensus      | [<span class="summus"><b>ASCENSUS</b></span>](/cards/summus/ascensus.md)    | eaa6    | `#FF22B2` |
 | <span class="summus"></span> | Collegium     | [<span class="summus"><b>COLLEGIUM</b></span>](/cards/summus/collegium.md)   | e9d6    | `#FF22B2` |
 | <span class="summus"></span> | Daemon        | [<span class="summus"><b>DAEMON</b></span>](/cards/summus/daemon.md)      | e96d    | `#FF22B2` |
 | <span class="summus"></span> | Dominium      | [<span class="summus"><b>DOMINIUM</b></span>](/cards/summus/dominium.md)    | e9dc    | `#FF22B2` |
 | <span class="summus"></span> | Magisterium   | [<span class="summus"><b>MAGISTERIUM</b></span>](/cards/summus/magisterium.md) | e95c    | `#FF22B2` |
-| <span class="summus"></span>  | Pactum        | [<span class="summus"><b>PACTUM</b></span>](/cards/summus/pactum.md)      | -       | `#FF22B2` |
-| <span class="summus"></span>  | Res           | [<span class="summus"><b>RES</b></span>](/cards/summus/res.md)         | -       | `#FF22B2` |
 | <span class="summus"></span> | Ultimatum     | [<span class="summus"><b>ULTIMATUM</b></span>](/cards/summus/ultimatum.md)   | eab7    | `#FF22B2` |
 
 <br><br>
@@ -285,16 +282,16 @@
 
 ## Fonte Oficial
 
-[!file](/static/fonts/Apotheosis.ttf)
+[!file](http://get.lunehub.com/apotheosis/fonts/Apotheosis.ttf)
 
-[!file](/static/fonts/Apotheosis.svg)
+[!file](http://get.lunehub.com/apotheosis/fonts/Apotheosis.svg)
 
-[!file](/static/fonts/Apotheosis.woff)
+[!file](http://get.lunehub.com/apotheosis/fonts/Apotheosis.woff)
 
 ---
 
 ## Ícones
 
-[!file](/static/fonts/Icons.zip)
+[!file](http://get.lunehub.com/apotheosis/fonts/icons.zip)
 
 ---
