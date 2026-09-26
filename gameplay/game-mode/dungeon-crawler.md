@@ -45,12 +45,13 @@ Teste
 ### Testes
 
 Propagar Voz
-:   **4** de propagação por casa
+:   **4** de propagação em <b>ALCANCE</b>
 *   *Gritar*( [<span class="house"><b>CON</b></span>](/hero/attributes.md) )
 *   *Vocalização Técnica*( [<span class="knowledge"><b>ARTE</b></span>](/hero/knowledge.md#arte) + [<span class="house"><b>CON</b></span>](/hero/attributes.md) )
 
 Escutar
-:   **1** de [<span class="house"><b>PER</b></span>](/hero/attributes.md) por casa
+:   **2** de [<span class="house"><b>PER</b></span>](/hero/attributes.md) em <b>ALCANCE</b>
+*   Um som precisa ter chegado até alguma casa neste <b>ALCANCE</b> para ser ouvido.
 
 Peças
 :   Dificuldade do teste igual à [<span class="hp"><b>VIDA</b></span>](/hero/#vida) da peça
