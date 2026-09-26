@@ -50,12 +50,13 @@ Teste
 ### Testes
 
 Propagar Voz
-:   **4** de propagação por casa
+:   **4** de propagação em {{ range }}
 *   *Gritar*( {{ enr }} )
 *   *Vocalização Técnica*( {{ art }} + {{ enr }} )
 
 Escutar
-:   **1** de {{ per }} por casa
+:   **2** de {{ per }} em {{ range }}
+*   Um som precisa ter chegado até alguma casa neste {{ range }} para ser ouvido.
 
 Peças
 :   Dificuldade do teste igual à {{ hp }} da peça
