@@ -39,7 +39,7 @@ O personagem (receptáculo) pode incorporar, estas formas de energia e dominá-l
 
 Cada tipo de {{ entity }} possui um requerimento mínimo de nível para ser incorporado pelo personagem. Quanto mais poderoso o ente, mais preparo físico, mental e espiritual, o receptáculo precisa. Este requerimento deve sempre ser considerado, mesmo que o ente seja adicionado ao personagem por efeito de carta ou qualquer outra mecânica de jogo.
 
-Para incorporar, é necessário que o espaço de {{ entity }} na {{ sheet }} esteja disponível e o personagem esteja em uma local de {{ wound }} que permita o acesso a carta desejada. Você deve selecionar uma carta, sacrificar o seu turno e enterrar 5 cartas de recurso do mesmo nível que o {{ entity }} selecionado. Envie a carta, oculta, para o espaço de {{ entity }} da sua {{ table }}.
+Para incorporar, é necessário que o espaço de {{ entity }} na {{ sheet }} esteja disponível e o personagem esteja em uma local de {{ rift }} que permita o acesso a carta desejada. Você deve selecionar uma carta, sacrificar o seu turno e enterrar 5 cartas de recurso do mesmo nível que o {{ entity }} selecionado. Envie a carta, oculta, para o espaço de {{ entity }} da sua {{ table }}.
 
 TIPO         | NÍVEL | NÍVEL MÍNIMO REQUERIDO DO HERÓI
 ---          | ---   | ---

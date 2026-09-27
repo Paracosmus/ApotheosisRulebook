@@ -12,14 +12,14 @@ No formato padrão de campanhas, existem sete baralhos de campanha, um para cart
 
 O conteúdo de um baralho é definido pela campanha ou formato de jogo, estando vazios por padrão. Sendo que uma composição inicial de cartas pode ser definida, bem como novas cartas podem ser adicionadas da caixa aos baralhos conforme a campanha progride, certos marcos e tarefas são concluídos ou conforme outras mecânicas estabelecidas pela campanha ou formato são executadas.
 
-Novas cartas podem ser adicionadas a estes baralhos pela campanha, e estas cartas são enviadas para os personagens ou para a pilha de descarte seja pela campanha, mecânica de jogo ou efeito de carta.
+Novas cartas podem ser adicionadas a estes baralhos pela campanha, e estas cartas são enviadas para os personagens ou para o entreposto seja pela campanha, mecânica de jogo ou efeito de carta.
 
 {.striped}
 Baralho         | Naipe
 --------------- |------
-{{ factors }}   | Para cartas de {{ house }}
+{{ cradle }}    | Para cartas de {{ house }}
 {{ tavern }}    | Para cartas de {{ class }}
-{{ wound }}     | Para cartas de {{ entity }}
+{{ rift }}      | Para cartas de {{ entity }}
 {{ market }}    | Para cartas de {{ item }}
 {{ academy }}   | Para cartas de {{ skill }}
 {{ bestiary }}  | Para cartas de {{ companion }}

@@ -207,7 +207,7 @@ O {{ hp }} da peça de um companheiro no tabuleiro é determinada pelo nível da
 
 ### <span class="companion">Morte</span>
 
-Quando um {{ companion }} morrer, sua carta deve ser enterrada e todas as cartas anexadas devem ser descartadas para a sua respectiva pilha de descarte, exceto {{ item }}, que podem ser saqueados do seu corpo.
+Quando um {{ companion }} morrer, sua carta deve ser enterrada e todas as cartas anexadas devem ser descartadas para o entreposto, exceto {{ item }}, que podem ser saqueados do seu corpo.
 
 ### Morte do Herói
 

@@ -59,7 +59,7 @@ Quando um {{ item }} em seu {{ equip }} possuir uma barra de ativação, em adic
 
 {{ item }} São as únicas cartas de Recurso que podem não ter um valor (preço).
 
-Se um {{ item }} não possuir {{ price }}, ele não pode ser obtido pelos meios padrões de trocas de cartas com a pilha de descarte, e deve ser considerado como tendo valor zero em qualquer troca. Estes ainda podem ser obtidos de outras formas, como por exemplo, através de ações de personagens ou efeitos de cartas.
+Se um {{ item }} não possuir {{ price }}, ele não pode ser obtido pelos meios padrões de trocas de cartas com o entreposto, e deve ser considerado como tendo valor zero em qualquer troca. Estes ainda podem ser obtidos de outras formas, como por exemplo, através de ações de personagens ou efeitos de cartas.
 
 ---
 
@@ -79,7 +79,7 @@ Tipos de Especificadores:
 
 ## <span class="item">Fabricar</span>
 
-Uma forma alternativa de se obter um {{ item }}, é fabricando-o. Para isso, o personagem deve sacrificar seu turno, selecionar um {{ item }} na pilha de descarte do {{ market }}, cujo nível mínimo do {{ knowledge }} ele possua, e enterrar cartas de {{ item }} de sua {{ table }} e/ou {{ inv }}, que juntas contenham pelo menos os mesmos ícones de materiais, na mesma quantidade, presentes na carta selecionada.
+Uma forma alternativa de se obter um {{ item }}, é fabricando-o. Para isso, o personagem deve sacrificar seu turno, selecionar um {{ item }} no entreposto, cujo nível mínimo do {{ knowledge }} ele possua, e enterrar cartas de {{ item }} de sua {{ table }} e/ou {{ inv }}, que juntas contenham pelo menos os mesmos ícones de materiais, na mesma quantidade, presentes na carta selecionada.
 
 Tipos de Materiais de Fabricação:
 
@@ -97,6 +97,6 @@ Tipos de Materiais de Fabricação:
 * <span class="item"></span> Oricalco
 * <span class="item"></span> Âmbar
 
-Em adicional, não é possível fabricar um {{ item }} quando em batalha, e não é necessário estar em um local com acesso à pilha de descarte.
+Em adicional, não é possível fabricar um {{ item }} quando em batalha, e não é necessário estar em um local com acesso ao entreposto.
 
 ---

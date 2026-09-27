@@ -23,14 +23,14 @@ layout: page
 
 | Icon                             | Termo (PT)        | English        | Variável        | Unicode | Color     |
 | -------------------------------- | ----------------- | -------------- | --------------- | ------- | --------- |
-| <span class="house"></span>     | Fatores           | *Factors*      | {{ factors }}   | eb3c    | `#673AB7` |
+| <span class="house"></span>     | Matriz            | *Cradle*       | {{ cradle }}    | eb3c    | `#673AB7` |
 | <span class="class"></span>     | Taverna           | *Tavern*       | {{ tavern }}    | e943    | `#F44336` |
-| <span class="entity"></span>    | Ferida            | *Wound*        | {{ wound }}     | e944    | `#3F51B5` |
+| <span class="entity"></span>    | Fenda             | *Rift*         | {{ rift }}      | e944    | `#3F51B5` |
 | <span class="item"></span>      | Mercado           | *Market*       | {{ market }}    | e940    | `#FFC107` |
 | <span class="skill"></span>     | Academia          | *Academy*      | {{ academy }}   | e93f    | `#2196F3` |
 | <span class="companion"></span> | Bestiário         | *Bestiary*     | {{ bestiary }}  | e941    | `#FF7043` |
 | <span class="event"></span>     | Santuário         | *Sanctuary*    | {{ sanctuary }} | e942    | `#4CAF50` |
-| -                                | Pilha de Descarte | *Discard Pile* | -               | -       | -         |
+| -                                | Entreposto        | *Trading Post* | -               | -       | -         |
 
 <br><br>
 

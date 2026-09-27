@@ -84,7 +84,7 @@ Quando um efeito possuir mais de um momento de ativação, ele pode/deve ser ati
 
 ==- <span class="fill">{{ onDiscard }}</span> [!badge text="On Discard" variant="ghost"]
 
-  Este efeito pode/deve ser ativado quando esta carta for descartada, ou seja, quando esta carta for movida para uma pilha de descarte.
+  Este efeito pode/deve ser ativado quando esta carta for descartada, ou seja, quando esta carta for movida para o entreposto.
 
 ==- <span class="fill">{{ onBury }}</span> [!badge text="On Bury" variant="ghost"]
 
@@ -231,7 +231,7 @@ Quando um efeito possuir mais de um escopo, ele pode/deve ser ativado em todos o
 
 ==- <span class="fill">{{ anywhere }}</span> [!badge text="From Anywhere" variant="ghost"]
 
-  Este efeito pode ser ativado de qualquer lugar, ele pode ser ativado mesmo que esta carta não esteja em jogo. Pode ser ativado da mão, pilha de descarte, anexada a outra carta, etc..
+  Este efeito pode ser ativado de qualquer lugar, ele pode ser ativado mesmo que esta carta não esteja em jogo. Pode ser ativado da mão, do entreposto, anexada a outra carta, etc..
 
   Observe que cartas no limbo são consideradas como não existentes, e portanto não podem ser ativadas.
 
@@ -243,9 +243,9 @@ Quando um efeito possuir mais de um escopo, ele pode/deve ser ativado em todos o
 
   Este efeito pode ser ativado apenas se estiver no {{ inv }} de um Herói. Não pode ser ativado da {{ table }} ou {{ scenario }} como esperado normalmente.
 
-==- <span class="fill">{{ discardPile }}</span> [!badge text="From Discard Pile" variant="ghost"]
+==- <span class="fill">{{ tradingPost }}</span> [!badge text="From Trading Post" variant="ghost"]
 
-  Este efeito pode ser ativado apenas se estiver em uma pilha de descarte.
+  Este efeito pode ser ativado apenas se estiver no entreposto.
 
 ==- <span class="fill">{{ team }}</span> [!badge text="From Team Member" variant="ghost"]
 
@@ -564,7 +564,7 @@ Uma vez que todos os efeitos {{ auto }} tenham sido ativados, resolvidos e remov
 3. **Efeitos de Heróis Oponentes**
 4. **Efeitos de Heróis do Time**
 5. **Efeitos do Herói (Ou Herói do Companheiro) do Turno**
-6. **Efeitos da Pilha de Descarte**
+6. **Efeitos do Entreposto**
 7. **Efeitos do Mestre de Jogo**
 
 A prioridade é dada ao efeito e não à carta em si, observe que isso significa que mesmo um efeito que não esteja ligado a uma carta, como um Efeito de Campanha ou Efeito de Modelo, por exemplo, entram na pilha de encadeamento.
@@ -574,7 +574,7 @@ A prioridade é dada ao efeito e não à carta em si, observe que isso significa
 - Quando duas cartas {{ auto }} do mesmo jogador possuem a mesma prioridade, o jogador escolhe qual delas ativar primeiro.
 
 !!!
-Note que uma carta em uma pilha de descarte ou baralho controlados por um Herói são consideradas cartas do Herói, e não cartas da pilha de descarte.
+Note que uma carta em um entreposto ou baralho controlados por um Herói são consideradas cartas do Herói, e não cartas do entreposto.
 !!!
 
 ---

@@ -24,6 +24,6 @@ A Mão do Mestre é um baralho de cartas sobre o controle do Mestre de Jogo, que
 
 A quantidade de cartas na mão do mestre é de conhecimento público, porém as cartas são de conhecimento apenas do Mestre.
 
-Ao início de cada novo dia no jogo, o Mestre de Jogo pode descartar ou enterrar cartas da sua mão ou obter cartas das pilhas de descarte, dos baralhos, ou mesmo da caixa do jogo (*cartas fora da campanha ou banidas*).
+Ao início de cada novo dia no jogo, o Mestre de Jogo pode descartar ou enterrar cartas da sua mão ou obter cartas do entreposto, dos baralhos, ou mesmo da caixa do jogo (*cartas fora da campanha ou banidas*).
 
 ---

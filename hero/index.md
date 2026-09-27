@@ -79,7 +79,7 @@ Ao final da batalha, o personagem pode ser revivido por alguns efeitos de cartas
 
 * A carta de {{ house }} deve ser banida.
 * Cartas de {{ item }} devem ser distribuídas entre os membros do seu time e/ou enviadas para o {{ market }}.
-* Todas as demais cartas devem ser enviadas para suas respectivas pilhas de descarte.
+* Todas as demais cartas devem ser enviadas para o entreposto.
 
 ### Salvação Divina
 

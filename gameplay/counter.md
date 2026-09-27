@@ -21,7 +21,7 @@ Contadores são utilizados comumente para contar unidades ou tempo, como custos 
 
 ## Duração
 
-Os contadores de uma carta a acompanham para onde ela for, exceto quando ela é enviada para uma pilha de descarte ou baralho, neste caso os contadores são perdidos.
+Os contadores de uma carta a acompanham para onde ela for, exceto quando ela é enviada para o entreposto ou para um baralho, neste caso os contadores são perdidos.
 
 Se uma carta com contadores for enviada para o {{ inv }} ou {{ hand }}, ou receber contadores enquanto estiver nesses locais, a carta deve permanecer revelada, de forma que os jogadores possam saber quantos contadores aquela carta possui.
 

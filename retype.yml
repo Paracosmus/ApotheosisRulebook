@@ -193,9 +193,9 @@ data:
   masterHand: '[<span class="main"><b>MÃO DO MESTRE</b></span>](/gameplay/game-master/#mão-do-mestre)'
 
   # Decks
-  factors:   <span class="house"><b>FATORES</b></span>
+  cradle:    <span class="house"><b>MATRIZ</b></span>
   tavern:    <span class="class"><b>TAVERNA</b></span>
-  wound:     <span class="entity"><b>FERIDA</b></span>
+  rift:      <span class="entity"><b>FENDA</b></span>
   market:    <span class="item"><b>MERCADO</b></span>
   academy:   <span class="skill"><b>ACADEMIA</b></span>
   bestiary:  <span class="companion"><b>BESTIÁRIO</b></span>
@@ -320,7 +320,7 @@ data:
   anywhere:                '[<span class="keyword-scope">De Qualquer Lugar</span>](/cards/effect.md)'
   onTable:                 '[<span class="keyword-scope">Da Mesa</span>](/cards/effect.md)'
   hand:                    '[<span class="keyword-scope">Da Mão</span>](/cards/effect.md)'
-  discardPile:             '[<span class="keyword-scope">Da Pilha de Descarte</span>](/cards/effect.md)'
+  tradingPost:             '[<span class="keyword-scope">Do Entreposto</span>](/cards/effect.md)'
   team:                    '[<span class="keyword-scope">Do Membro do Time</span>](/cards/effect.md)'
   attached:                '[<span class="keyword-scope">Do Anexo</span>](/cards/effect.md)'
 

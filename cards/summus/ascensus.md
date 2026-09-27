@@ -59,7 +59,7 @@ O poder adquirido se manifesta na forma de bônus altíssimos de Atributos.
 - Se na {{ yourEndPhase }} o Herói não tiver mais um {{ entity }} na {{ sheet }}, ele deve descartar o _Ascensus_ da sua **Zona Extra**.
 
 ==- <span class="positive">:icon-feed-plus:</span>ㅤObter
-Quando não estiver em batalha, você pode realizar uma {{ allIn }} e **Banir** {{ n 3 }} {{ entity }} da pilha de descarte, para adicionar um _Ascensus_ à sua **Zona Extra**.
+Quando não estiver em batalha, você pode realizar uma {{ allIn }} e **Banir** {{ n 3 }} {{ entity }} do entreposto, para adicionar um _Ascensus_ à sua **Zona Extra**.
 
 ==- <span class="negative">	:icon-x-circle-fill:</span>ㅤRemover
 Quando não estiver em batalha, você pode realizar uma {{ allIn }} para descartar um _Ascensus_ da sua **Zona Extra**.
