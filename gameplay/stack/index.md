@@ -12,7 +12,7 @@ Quando uma carta está em uma pilha, por padrão, ela não possui efeito e nao �
 
 ## Baralhos
 
-São chamados de baralhos as pilhas de cartas colocadas de face para baixo (_ocultas_) e disponíveis para os jogadores conforme as regras do jogo. Cada baralho possui um conjunto de cartas que podem ser utilizadas durante a partida, e que são embaralhadas e dispostas de forma aleatória. Diferente da pilha de descarte, a ordem das cartas em um baralho é importante, e as cartas devem ser mantidas na ordem em que foram embaralhadas e dispostas, a menos que um efeito ou mecânica de jogo permita ou exija que as cartas sejam reordenadas.
+São chamados de baralhos as pilhas de cartas colocadas de face para baixo (_ocultas_) e disponíveis para os jogadores conforme as regras do jogo. Cada baralho possui um conjunto de cartas que podem ser utilizadas durante a partida, e que são embaralhadas e dispostas de forma aleatória. Diferente do entreposto, a ordem das cartas em um baralho é importante, e as cartas devem ser mantidas na ordem em que foram embaralhadas e dispostas, a menos que um efeito ou mecânica de jogo permita ou exija que as cartas sejam reordenadas.
 
 !!!
 Em formatos competitivos, é comum que os jogadores montem seus próprios baralhos, escolhendo as cartas que irão compor seus baralhos a partir de um pool de cartas pré-definido, e seguindo regras específicas para a construção do baralho. Nestes casos, o formato de jogo vai especificar claramente as regras de construção dos baralhos, bem como as regras de interação com eles.
@@ -20,11 +20,11 @@ Em formatos competitivos, é comum que os jogadores montem seus próprios baralh
 
 #### Baralho Vazio
 
-Quando um baralho ficar sem cartas e por algum meio for necessário comprar ou descartar uma carta deste baralho, ele deve ser reabastecido a partir de sua pilha de descarte
+Quando um baralho ficar sem cartas e por algum meio for necessário comprar ou descartar uma carta deste baralho, ele deve ser reabastecido a partir do entreposto
 
-O Mestre deve embaralhar 100 cartas daquele naipe na pilha de descarte, ou a quantidade que estiver disponível, e colocá-las de face para baixo para formar um novo baralho.
+O Mestre deve embaralhar 100 cartas daquele naipe no entreposto, ou a quantidade que estiver disponível, e colocá-las de face para baixo para formar um novo baralho.
 
-Se não houver nenhuma carta elegível na pilha de descarte, o baralho é considerado vazio e não pode mais ser utilizado até que cartas sejam adicionadas ao baralho por outros meios, ou no futuro, quando houverem cartas elegíveis na pilha e destacar e o baralho tiver que ser reabastecido.
+Se não houver nenhuma carta elegível no entreposto, o baralho é considerado vazio e não pode mais ser utilizado até que cartas sejam adicionadas ao baralho por outros meios, ou no futuro, quando houverem cartas elegíveis no entreposto e o baralho tiver que ser reabastecido.
 
 ---
 

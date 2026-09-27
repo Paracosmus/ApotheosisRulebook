@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.843757537980">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.843836934529">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -41,11 +41,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.6.0.843757537980" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.843836934529" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.843757537980" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.843836934529" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.843757537980" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.843836934529" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -467,7 +467,7 @@
 <p>Quando uma carta está em uma pilha, por padrão, ela não possui efeito e nao é considerado ativa (em jogo), a menos que seja especificado o contrário por um efeito de carta ou mecânica de jogo. Além disso, estas cartão não possuem estado, ou seja, não são consideradas nem restauradas, nem consumidas, ou qualquer outro estado que uma carta possa ter, a menos que seja especificado o contrário por um efeito de carta ou mecânica de jogo.</p>
 <hr>
 <h2 id="baralhos">Baralhos</h2>
-<p>São chamados de baralhos as pilhas de cartas colocadas de face para baixo (<em>ocultas</em>) e disponíveis para os jogadores conforme as regras do jogo. Cada baralho possui um conjunto de cartas que podem ser utilizadas durante a partida, e que são embaralhadas e dispostas de forma aleatória. Diferente da pilha de descarte, a ordem das cartas em um baralho é importante, e as cartas devem ser mantidas na ordem em que foram embaralhadas e dispostas, a menos que um efeito ou mecânica de jogo permita ou exija que as cartas sejam reordenadas.</p>
+<p>São chamados de baralhos as pilhas de cartas colocadas de face para baixo (<em>ocultas</em>) e disponíveis para os jogadores conforme as regras do jogo. Cada baralho possui um conjunto de cartas que podem ser utilizadas durante a partida, e que são embaralhadas e dispostas de forma aleatória. Diferente do entreposto, a ordem das cartas em um baralho é importante, e as cartas devem ser mantidas na ordem em que foram embaralhadas e dispostas, a menos que um efeito ou mecânica de jogo permita ou exija que as cartas sejam reordenadas.</p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
     <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
@@ -486,9 +486,9 @@
     </div>
 </div>
 <h4 id="baralho-vazio">Baralho Vazio</h4>
-<p>Quando um baralho ficar sem cartas e por algum meio for necessário comprar ou descartar uma carta deste baralho, ele deve ser reabastecido a partir de sua pilha de descarte</p>
-<p>O Mestre deve embaralhar 100 cartas daquele naipe na pilha de descarte, ou a quantidade que estiver disponível, e colocá-las de face para baixo para formar um novo baralho.</p>
-<p>Se não houver nenhuma carta elegível na pilha de descarte, o baralho é considerado vazio e não pode mais ser utilizado até que cartas sejam adicionadas ao baralho por outros meios, ou no futuro, quando houverem cartas elegíveis na pilha e destacar e o baralho tiver que ser reabastecido.</p>
+<p>Quando um baralho ficar sem cartas e por algum meio for necessário comprar ou descartar uma carta deste baralho, ele deve ser reabastecido a partir do entreposto</p>
+<p>O Mestre deve embaralhar 100 cartas daquele naipe no entreposto, ou a quantidade que estiver disponível, e colocá-las de face para baixo para formar um novo baralho.</p>
+<p>Se não houver nenhuma carta elegível no entreposto, o baralho é considerado vazio e não pode mais ser utilizado até que cartas sejam adicionadas ao baralho por outros meios, ou no futuro, quando houverem cartas elegíveis no entreposto e o baralho tiver que ser reabastecido.</p>
 <hr>
 <h2 id="buscar-cartas">Buscar Cartas</h2>
 <p>Alguns efeitos de cartas e mecânicas de jogo permitem que os jogadores busquem cartas em um pilhas de cartas, e as obtenham, descartem ou realizem outras tarefas.</p>
@@ -501,8 +501,8 @@
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-05-09T16:26:33" title="2026-05-09" data-absolute-label="Last updated on 2026-05-09 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-05-09 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
-                        Last updated on 2026-05-09 by Bruno Caxito
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-09-27T12:08:32" title="2026-09-27" data-absolute-label="Last updated on 2026-09-27 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-09-27 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                        Last updated on 2026-09-27 by Bruno Caxito
                     </time>
                 </div>
 

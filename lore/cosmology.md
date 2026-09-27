@@ -176,7 +176,7 @@ Esta seção ainda não foi completamente revisada. Algumas informações podem 
 
       Mas este canal não é possível passar algo da natureza de um numinoso. Este canal é para enviar iluminação do mundo superior ao mundo inferior, para iluminar a mente daqueles guiados pela Lumis, e assim eles mesmos saibam sobre suas condições de prisioneiros e possam lutar pela sua libertação. E esta iluminação divina é enviada com nome e forma… um espírito heterogêneo… um deus.
 
-      *Obs.: Este canal é a teórica ferida de nível 3 (Mais sobre ela quando não for spoiler)*
+      *Obs.: Este canal é a teórica fenda de nível 3 (Mais sobre ela quando não for spoiler)*
 
       Portanto, entre os muitos deuses criados até o momento, o escolhido para “despertar” a Lumis foi **O Portador da Luz** um deus jovem, que representava o conceito da revelação da verdade, a luz que vem do conhecimento divino.
 

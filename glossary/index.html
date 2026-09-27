@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.843757537980">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.843836934529">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -41,11 +41,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.6.0.843757537980" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.843836934529" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.843757537980" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.843836934529" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.843757537980" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.843836934529" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -688,7 +688,7 @@
 | -------------- | ------------- | ----------- |
 | **Consumir**   | *Exhaust*     | Girar a carta para que ela fique na horizontal, em relação à [&lt;span class=&quot;main&quot;&gt;&lt;b&gt;MESA&lt;/b&gt;&lt;/span&gt;](/hero/table/) do Herói |
 | **Recuperar**  | *Recover*     | Girar a carta para que ela fique na vertical, em relação à [&lt;span class=&quot;main&quot;&gt;&lt;b&gt;MESA&lt;/b&gt;&lt;/span&gt;](/hero/table/) do Herói |
-| **Descartar**  | *Discard*     | Colocar uma carta na pilha de descarte |
+| **Descartar**  | *Discard*     | Colocar uma carta no entreposto |
 | **Enterrar**   | *Bury*        | Colocar uma carta no fundo do baralho específico do naipe |
 | **Banir**      | *Banish*      | Remover uma carta do jogo |
 | **Obter**      | *Get*         | É quando uma carta passa a estar sobre o controle do Herói. Quando uma carta é obtida a não ser que a situação especifique o contrário, o jogador decide onde colocá-la, seja em sua [&lt;span class=&quot;main&quot;&gt;&lt;b&gt;MESA&lt;/b&gt;&lt;/span&gt;](/hero/table/), [&lt;span class=&quot;main&quot;&gt;&lt;b&gt;INVENTÁRIO&lt;/b&gt;&lt;/span&gt;](/hero/inventory.md) ou anexada a uma carta por mecânica de jogo |
@@ -727,7 +727,7 @@
 <tr>
 <td><strong>Descartar</strong></td>
 <td><em>Discard</em></td>
-<td>Colocar uma carta na pilha de descarte</td>
+<td>Colocar uma carta no entreposto</td>
 </tr>
 <tr>
 <td><strong>Enterrar</strong></td>
@@ -903,7 +903,7 @@
 <retype-table copy-text="| Termo          | Inglês    | Significado |
 | -------------  | --------- | ----------- |
 | **Ação Total** | *All-in*  | O personagem não pode ter realizado nenhuma ação ou jogada não automática (passiva) neste Ciclo para realizar uma Ação Total; feito isso, ele só terá um turno no próximo *Ciclo* |
-| **Substituir** | *Replace* | Um elemento de jogo é substituído por outro determinado, herdando o estado do original&lt;br&gt;&lt;br&gt;**Quando uma carta**: Ela é substituída por outra colocada no mesmo espaço, a nova carta recebe todos os contadores e anexos da carta original, e a carta original é enviada para o mesmo local em que estava a nova carta, se possível, caso contrário, a carta original é descartada para a pilha de descarte&lt;br&gt;&lt;br&gt;**Quando uma peça**: Ela é substituída por outra, a nova peça mantém a [&lt;span class=&quot;hp&quot;&gt;&lt;b&gt;VIDA&lt;/b&gt;&lt;/span&gt;](/hero/#vida), [&lt;span class=&quot;main&quot;&gt;&lt;b&gt;AÇÃO&lt;/b&gt;&lt;/span&gt;](/hero/#ação), Marcadores, ordem do turno e posição no tabuleiro da peça original, a peça original é removida do jogo |
+| **Substituir** | *Replace* | Um elemento de jogo é substituído por outro determinado, herdando o estado do original&lt;br&gt;&lt;br&gt;**Quando uma carta**: Ela é substituída por outra colocada no mesmo espaço, a nova carta recebe todos os contadores e anexos da carta original, e a carta original é enviada para o mesmo local em que estava a nova carta, se possível, caso contrário, a carta original é descartada para o entreposto&lt;br&gt;&lt;br&gt;**Quando uma peça**: Ela é substituída por outra, a nova peça mantém a [&lt;span class=&quot;hp&quot;&gt;&lt;b&gt;VIDA&lt;/b&gt;&lt;/span&gt;](/hero/#vida), [&lt;span class=&quot;main&quot;&gt;&lt;b&gt;AÇÃO&lt;/b&gt;&lt;/span&gt;](/hero/#ação), Marcadores, ordem do turno e posição no tabuleiro da peça original, a peça original é removida do jogo |
 | **Ciclo**      | *Stint*   | O período entre uma Fase de Recomposição e outra |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
@@ -923,7 +923,7 @@
 <tr>
 <td><strong>Substituir</strong></td>
 <td><em>Replace</em></td>
-<td>Um elemento de jogo é substituído por outro determinado, herdando o estado do original<br><br><strong>Quando uma carta</strong>: Ela é substituída por outra colocada no mesmo espaço, a nova carta recebe todos os contadores e anexos da carta original, e a carta original é enviada para o mesmo local em que estava a nova carta, se possível, caso contrário, a carta original é descartada para a pilha de descarte<br><br><strong>Quando uma peça</strong>: Ela é substituída por outra, a nova peça mantém a <a href="/hero/#vida"><span class="hp"><b>VIDA</b></span></a>, <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a>, Marcadores, ordem do turno e posição no tabuleiro da peça original, a peça original é removida do jogo</td>
+<td>Um elemento de jogo é substituído por outro determinado, herdando o estado do original<br><br><strong>Quando uma carta</strong>: Ela é substituída por outra colocada no mesmo espaço, a nova carta recebe todos os contadores e anexos da carta original, e a carta original é enviada para o mesmo local em que estava a nova carta, se possível, caso contrário, a carta original é descartada para o entreposto<br><br><strong>Quando uma peça</strong>: Ela é substituída por outra, a nova peça mantém a <a href="/hero/#vida"><span class="hp"><b>VIDA</b></span></a>, <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a>, Marcadores, ordem do turno e posição no tabuleiro da peça original, a peça original é removida do jogo</td>
 </tr>
 <tr>
 <td><strong>Ciclo</strong></td>
@@ -944,8 +944,8 @@ Teammate se refere aos demais membros do seu time que não são você, enquanto 
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-08-15T22:33:42" title="2026-08-15" data-absolute-label="Last updated on 2026-08-15 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-08-15 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
-                        Last updated on 2026-08-15 by Bruno Caxito
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-09-27T12:08:32" title="2026-09-27" data-absolute-label="Last updated on 2026-09-27 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-09-27 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                        Last updated on 2026-09-27 by Bruno Caxito
                     </time>
                 </div>
 

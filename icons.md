@@ -18,14 +18,14 @@
 
 | Icon                             | Termo (PT)        | English        | Variável        | Unicode | Color     |
 | -------------------------------- | ----------------- | -------------- | --------------- | ------- | --------- |
-| <span class="house"></span>     | Fatores           | *Factors*      | <span class="house"><b>FATORES</b></span>   | eb3c    | `#673AB7` |
+| <span class="house"></span>     | Matriz            | *Cradle*       | <span class="house"><b>MATRIZ</b></span>    | eb3c    | `#673AB7` |
 | <span class="class"></span>     | Taverna           | *Tavern*       | <span class="class"><b>TAVERNA</b></span>    | e943    | `#F44336` |
-| <span class="entity"></span>    | Ferida            | *Wound*        | <span class="entity"><b>FERIDA</b></span>     | e944    | `#3F51B5` |
+| <span class="entity"></span>    | Fenda             | *Rift*         | <span class="entity"><b>FENDA</b></span>      | e944    | `#3F51B5` |
 | <span class="item"></span>      | Mercado           | *Market*       | <span class="item"><b>MERCADO</b></span>    | e940    | `#FFC107` |
 | <span class="skill"></span>     | Academia          | *Academy*      | <span class="skill"><b>ACADEMIA</b></span>   | e93f    | `#2196F3` |
 | <span class="companion"></span> | Bestiário         | *Bestiary*     | <span class="companion"><b>BESTIÁRIO</b></span>  | e941    | `#FF7043` |
 | <span class="event"></span>     | Santuário         | *Sanctuary*    | <span class="event"><b>SANTUÁRIO</b></span> | e942    | `#4CAF50` |
-| -                                | Pilha de Descarte | *Discard Pile* | -               | -       | -         |
+| -                                | Entreposto        | *Trading Post* | -               | -       | -         |
 
 <br><br>
 

@@ -6,13 +6,13 @@
     
 A carta a qual os anexos estão ligados é referida como carta **Hospedeira**. Os anexos são utilizados para diferentes funções, comumente relacionados a efeitos ou habilidades da carta hospedeira.
 
-Os anexos de uma carta a acompanham para onde ela for enviada, exceto quando ela é enviada para uma pilha ou baralho, neste caso os anexos são enviados para a pilha de descarte.
+Os anexos de uma carta a acompanham para onde ela for enviada, exceto quando ela é enviada para uma pilha ou baralho, neste caso os anexos são enviados para o entreposto.
 
 Uma carta anexada é parte da carta hospedeira, e portanto não pode ser tratada como um elemento de jogo independente.
 
 - O anexo não pode ser usado (consumido, descartado, etc.), mas a carta hospedeira pode.
 - O anexo não pode ser alvo de ações, a não ser quando a ação especificar que seleciona um anexo como alvo.
-- O anexo não pode possuir seus próprios anexos, se isto acontecer, os anexos dele devem ser enviados para o [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) do dono se possível, ou para a pilha de descarte caso contrário.
+- O anexo não pode possuir seus próprios anexos, se isto acontecer, os anexos dele devem ser enviados para o [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) do dono se possível, ou para o entreposto caso contrário.
 - O anexo não pode possuir seus próprios [<span class="main">❂<b>CONTADOR</b></span>](/gameplay/counter/), nesse caso os contadores são perdidos quando o anexo for anexado à outra carta.
 - O anexo deve ser sempre mantido revelado, mesmo que a carta hospedeira esteja oculta. Quando isso ocorrer, lembre-se que os anexos se tornam [inativos](/cards/#estado-da-carta), portanto, mesmo efeitos [<span class="keyword-scope">Do Anexo</span>](/cards/effect.md) não podem ser usados.
 - Anexos não ocupam espaço na [<span class="main"><b>MESA</b></span>](/hero/table/) do Herói, apenas a hospedeira conta.

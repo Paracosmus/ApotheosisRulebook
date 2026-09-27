@@ -30,11 +30,11 @@ Existem sete naipes de cartas, cada um com suas próprias características e mec
   {.list-icon}
   - :icon-check-circle: No espaço apropriado designado da [<span class="main"><b>MESA</b></span>](/hero/table/) de um Herói.
   - :icon-check-circle: Baralhos
-  - :icon-check-circle: Pilhas de descarte
+  - :icon-check-circle: Entreposto
   - :icon-check-circle: Anexo
   - :icon-check-circle: Zona extra
 
-  Se uma situação de jogo resultar em uma Carta de Ficha estar ou ser envida para outro local que não estes, ela deve ser enviada para a pilha de descarte.
+  Se uma situação de jogo resultar em uma Carta de Ficha estar ou ser envida para outro local que não estes, ela deve ser enviada para o entreposto.
 
 ==- Carta de Recurso [!badge text="Asset Card" variant="ghost"]
 
@@ -186,7 +186,7 @@ O estado de uma carta é a condição ou situação em que ela se encontra duran
     * Apesar de serem consideradas ativas, apenas os efeitos [<span class="keyword-scope">Do Anexo</span>](/cards/effect.md) podem/devem ser usados.
   * Cartas reveladas no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/scenario.md).
   * Cartas reveladas em pilhas de cartas, que possuem efeitos de pilha
-    * [<span class="keyword-scope">De Qualquer Lugar</span>](/cards/effect.md), [<span class="keyword-scope">Da Pilha de Descarte</span>](/cards/effect.md).
+    * [<span class="keyword-scope">De Qualquer Lugar</span>](/cards/effect.md), [<span class="keyword-scope">Do Entreposto</span>](/cards/effect.md).
     * Apesar de serem consideradas ativas, apenas os efeitos de pilha podem/devem ser usados.
   * Casos Especiais
     * Alguns [<span class="summus"><b>SUMMUS</b></span>](/cards/summus/) estabelecem condições específicas para estarem ativas, como estar em uma zona específica ou possuir um estado específico.

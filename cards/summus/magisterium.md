@@ -32,7 +32,7 @@ Este entendimento superior é representado em jogo através de bônus. Sendo o _
 - Se em algum momento o Herói perder o [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md) necessário (sem considerar o provido pelo próprio _Magisterium_), ele deve descartar o _Magisterium_ da sua **Zona Extra**.
 
 ==- Obter
-Quando não estiver em batalha, você pode realizar uma **Ação Total** e **Banir** <span class="negative">5</span> [<span class="class"><b>CLASSE</b></span>](/cards/class.md) de **Caminhos** que você possua, da pilha de descarte, para adicionar um _Magisterium_ à sua **Zona Extra**.
+Quando não estiver em batalha, você pode realizar uma **Ação Total** e **Banir** <span class="negative">5</span> [<span class="class"><b>CLASSE</b></span>](/cards/class.md) de **Caminhos** que você possua, do entreposto, para adicionar um _Magisterium_ à sua **Zona Extra**.
 
 ==- Remover
 Quando não estiver em batalha, você pode realizar uma **Ação Total** para descartar um _Magisterium_ da sua **Zona Extra**.
@@ -61,7 +61,7 @@ O bônus fornecido não necessariamente é uma constante, em alguns casos pode s
     - *<span class="positive">+2</span> de <b>DANO</b>*
     - *<span class="positive">+1</span> em **testes***
 - **Bônus Variável:** Ele depende de uma variável, como o número de cartas em uma pilha, ou o número de inimigos próximos.
-    - *<span class="positive">+1</span> de <b>DANO</b> para cada carta na pilha de descarte*
+    - *<span class="positive">+1</span> de <b>DANO</b> para cada carta no entreposto*
     - *<span class="positive">+5</span> de <b>DANO</b> para cada inimigo adjacente*
 - **Bônus de Dados:** É rolado um dado para determinar o bônus, e o resultado do dado é o valor do bônus.
     - Quando mais de um caso for satisfeito, o dado do bônus é rolado apenas uma vez e aplicado para cada caso, ou seja, o bônus é o mesmo para cada caso.

@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.843757537980">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.843836934529">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -47,11 +47,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.6.0.843757537980" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.843836934529" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.843757537980" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.843836934529" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.843757537980" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.843836934529" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -536,7 +536,7 @@
 <hr>
 <h2 id="item-sem-preço"><span class="item">Item sem Preço</span></h2>
 <p><a href="/cards/item/"><span class="item"><b>ITEM</b></span></a> São as únicas cartas de Recurso que podem não ter um valor (preço).</p>
-<p>Se um <a href="/cards/item/"><span class="item"><b>ITEM</b></span></a> não possuir <a href="/cards/item/"><span class="item"><b>PREÇO</b></span></a>, ele não pode ser obtido pelos meios padrões de trocas de cartas com a pilha de descarte, e deve ser considerado como tendo valor zero em qualquer troca. Estes ainda podem ser obtidos de outras formas, como por exemplo, através de ações de personagens ou efeitos de cartas.</p>
+<p>Se um <a href="/cards/item/"><span class="item"><b>ITEM</b></span></a> não possuir <a href="/cards/item/"><span class="item"><b>PREÇO</b></span></a>, ele não pode ser obtido pelos meios padrões de trocas de cartas com o entreposto, e deve ser considerado como tendo valor zero em qualquer troca. Estes ainda podem ser obtidos de outras formas, como por exemplo, através de ações de personagens ou efeitos de cartas.</p>
 <hr>
 <h2 id="especificadores"><span class="item">Especificadores</span></h2>
 <p>Alguns <a href="/cards/item/"><span class="item"><b>ITEM</b></span></a> podem possuir especificadores, que são ícones que definem um tipo de objeto. O Herói pode ter apenas uma carta de cada especificador equipado por vez.</p>
@@ -550,7 +550,7 @@
 </ul>
 <hr>
 <h2 id="fabricar"><span class="item">Fabricar</span></h2>
-<p>Uma forma alternativa de se obter um <a href="/cards/item/"><span class="item"><b>ITEM</b></span></a>, é fabricando-o. Para isso, o personagem deve sacrificar seu turno, selecionar um <a href="/cards/item/"><span class="item"><b>ITEM</b></span></a> na pilha de descarte do <span class="item"><b>MERCADO</b></span>, cujo nível mínimo do <a href="/hero/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a> ele possua, e enterrar cartas de <a href="/cards/item/"><span class="item"><b>ITEM</b></span></a> de sua <a href="/hero/table/"><span class="main"><b>MESA</b></span></a> e/ou <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a>, que juntas contenham pelo menos os mesmos ícones de materiais, na mesma quantidade, presentes na carta selecionada.</p>
+<p>Uma forma alternativa de se obter um <a href="/cards/item/"><span class="item"><b>ITEM</b></span></a>, é fabricando-o. Para isso, o personagem deve sacrificar seu turno, selecionar um <a href="/cards/item/"><span class="item"><b>ITEM</b></span></a> no entreposto, cujo nível mínimo do <a href="/hero/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a> ele possua, e enterrar cartas de <a href="/cards/item/"><span class="item"><b>ITEM</b></span></a> de sua <a href="/hero/table/"><span class="main"><b>MESA</b></span></a> e/ou <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a>, que juntas contenham pelo menos os mesmos ícones de materiais, na mesma quantidade, presentes na carta selecionada.</p>
 <p>Tipos de Materiais de Fabricação:</p>
 <ul>
 <li><span class="item"></span> Forja</li>
@@ -567,7 +567,7 @@
 <li><span class="item"></span> Oricalco</li>
 <li><span class="item"></span> Âmbar</li>
 </ul>
-<p>Em adicional, não é possível fabricar um <a href="/cards/item/"><span class="item"><b>ITEM</b></span></a> quando em batalha, e não é necessário estar em um local com acesso à pilha de descarte.</p>
+<p>Em adicional, não é possível fabricar um <a href="/cards/item/"><span class="item"><b>ITEM</b></span></a> quando em batalha, e não é necessário estar em um local com acesso ao entreposto.</p>
 <hr>
 <div id="retype-backlinks">
     <h2>See also</h2>
@@ -638,6 +638,17 @@
     </a>
 </div>
 <div class="card-compact-container">
+    <a href="/gameplay/stack/trading-post/" class="group card-compact no-link">
+        <div class="card-compact-body">
+            <div class="card-compact-header">
+                <span class="card-compact-icon inline-flex shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><!--icon--><path d="M3.75 15a.75.75 0 0 1 .75.75v3.5c0 .138.112.25.25.25h3.5a.75.75 0 0 1 0 1.5h-3.5A1.75 1.75 0 0 1 3 19.25v-3.5a.75.75 0 0 1 .75-.75Zm16.5 0a.75.75 0 0 1 .75.75v3.5A1.75 1.75 0 0 1 19.25 21h-3.5a.75.75 0 0 1 0-1.5h3.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 .75-.75ZM4.75 4.5a.25.25 0 0 0-.25.25v3.5a.75.75 0 0 1-1.5 0v-3.5C3 3.784 3.784 3 4.75 3h3.5a.75.75 0 0 1 0 1.5ZM15 3.75a.75.75 0 0 1 .75-.75h3.5c.966 0 1.75.784 1.75 1.75v3.5a.75.75 0 0 1-1.5 0v-3.5a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1-.75-.75Z"/></svg></span>
+                <span class="card-compact-title">Entreposto</span>
+            </div>
+            <p class="card-compact-description">Esta é a zona do jogo para onde as cartas são enviadas quando são descartadas.</p>
+        </div>
+    </a>
+</div>
+<div class="card-compact-container">
     <a href="/hero/" class="group card-compact no-link">
         <div class="card-compact-body">
             <div class="card-compact-header">
@@ -681,17 +692,6 @@
     </a>
 </div>
 <div class="card-compact-container">
-    <a href="/gameplay/stack/discard-pile/" class="group card-compact no-link">
-        <div class="card-compact-body">
-            <div class="card-compact-header">
-                <span class="card-compact-icon inline-flex shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><!--icon--><path d="M3.75 15a.75.75 0 0 1 .75.75v3.5c0 .138.112.25.25.25h3.5a.75.75 0 0 1 0 1.5h-3.5A1.75 1.75 0 0 1 3 19.25v-3.5a.75.75 0 0 1 .75-.75Zm16.5 0a.75.75 0 0 1 .75.75v3.5A1.75 1.75 0 0 1 19.25 21h-3.5a.75.75 0 0 1 0-1.5h3.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 .75-.75ZM4.75 4.5a.25.25 0 0 0-.25.25v3.5a.75.75 0 0 1-1.5 0v-3.5C3 3.784 3.784 3 4.75 3h3.5a.75.75 0 0 1 0 1.5ZM15 3.75a.75.75 0 0 1 .75-.75h3.5c.966 0 1.75.784 1.75 1.75v3.5a.75.75 0 0 1-1.5 0v-3.5a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1-.75-.75Z"/></svg></span>
-                <span class="card-compact-title">Pilha de Descarte</span>
-            </div>
-            <p class="card-compact-description">Esta é a zona do jogo para onde as cartas são enviadas quando são descartadas.</p>
-        </div>
-    </a>
-</div>
-<div class="card-compact-container">
     <a href="/gameplay/check/" class="group card-compact no-link">
         <div class="card-compact-body">
             <div class="card-compact-header">
@@ -710,8 +710,8 @@
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-04-19T14:06:21" title="2026-04-19" data-absolute-label="Last updated on 2026-04-19 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-04-19 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
-                        Last updated on 2026-04-19 by Bruno Caxito
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-09-27T12:08:32" title="2026-09-27" data-absolute-label="Last updated on 2026-09-27 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-09-27 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                        Last updated on 2026-09-27 by Bruno Caxito
                     </time>
                 </div>
 

@@ -99,7 +99,7 @@ Cada rodada de viagem nos ermos prateados tem a duração de um período do dia 
 
   Durante a viagem, conforme o time se distancia da borda de gelo prateado, ou seja, quanto mais longe das terras descongeladas, mais severo é o congelamento.
 
-  Isto é representado em jogo adicionando ao [<span class="event"><b>CENÁRIO</b></span>](/gameplay/scenario.md) cartas que tenham pelo menos as propriedades **TERRENO** e **GELO PRATEADO** simultaneamente. Estas cartas devem vir da pilha de descarte primariamente, se não houver mais cartas com estas propriedades na pilha de descarte, o mestre busca as cartas no <span class="event"><b>SANTUÁRIO</b></span>, se também não houver o suficiente, o mestre pode usar da sua mão.
+  Isto é representado em jogo adicionando ao [<span class="event"><b>CENÁRIO</b></span>](/gameplay/scenario.md) cartas que tenham pelo menos as propriedades **TERRENO** e **GELO PRATEADO** simultaneamente. Estas cartas devem vir do entreposto primariamente, se não houver mais cartas com estas propriedades no entreposto, o mestre busca as cartas no <span class="event"><b>SANTUÁRIO</b></span>, se também não houver o suficiente, o mestre pode usar da sua mão.
 
   A cada **5** [<span class="main">❂<b>CONTADOR DE VIAGEM</b></span>](/gameplay/counter/), adicione uma destas cartas ao [<span class="event"><b>CENÁRIO</b></span>](/gameplay/scenario.md).
 

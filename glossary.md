@@ -84,7 +84,7 @@ Este livro e as cartas do jogo utilizam termos com significados específicos. Ab
 | -------------- | ------------- | ----------- |
 | **Consumir**   | *Exhaust*     | Girar a carta para que ela fique na horizontal, em relação à [<span class="main"><b>MESA</b></span>](/hero/table/) do Herói |
 | **Recuperar**  | *Recover*     | Girar a carta para que ela fique na vertical, em relação à [<span class="main"><b>MESA</b></span>](/hero/table/) do Herói |
-| **Descartar**  | *Discard*     | Colocar uma carta na pilha de descarte |
+| **Descartar**  | *Discard*     | Colocar uma carta no entreposto |
 | **Enterrar**   | *Bury*        | Colocar uma carta no fundo do baralho específico do naipe |
 | **Banir**      | *Banish*      | Remover uma carta do jogo |
 | **Obter**      | *Get*         | É quando uma carta passa a estar sobre o controle do Herói. Quando uma carta é obtida a não ser que a situação especifique o contrário, o jogador decide onde colocá-la, seja em sua [<span class="main"><b>MESA</b></span>](/hero/table/), [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) ou anexada a uma carta por mecânica de jogo |
@@ -127,7 +127,7 @@ Este livro e as cartas do jogo utilizam termos com significados específicos. Ab
 | Termo          | Inglês    | Significado |
 | -------------  | --------- | ----------- |
 | **Ação Total** | *All-in*  | O personagem não pode ter realizado nenhuma ação ou jogada não automática (passiva) neste Ciclo para realizar uma Ação Total; feito isso, ele só terá um turno no próximo *Ciclo* |
-| **Substituir** | *Replace* | Um elemento de jogo é substituído por outro determinado, herdando o estado do original<br><br>**Quando uma carta**: Ela é substituída por outra colocada no mesmo espaço, a nova carta recebe todos os contadores e anexos da carta original, e a carta original é enviada para o mesmo local em que estava a nova carta, se possível, caso contrário, a carta original é descartada para a pilha de descarte<br><br>**Quando uma peça**: Ela é substituída por outra, a nova peça mantém a [<span class="hp"><b>VIDA</b></span>](/hero/#vida), [<span class="main"><b>AÇÃO</b></span>](/hero/#ação), Marcadores, ordem do turno e posição no tabuleiro da peça original, a peça original é removida do jogo |
+| **Substituir** | *Replace* | Um elemento de jogo é substituído por outro determinado, herdando o estado do original<br><br>**Quando uma carta**: Ela é substituída por outra colocada no mesmo espaço, a nova carta recebe todos os contadores e anexos da carta original, e a carta original é enviada para o mesmo local em que estava a nova carta, se possível, caso contrário, a carta original é descartada para o entreposto<br><br>**Quando uma peça**: Ela é substituída por outra, a nova peça mantém a [<span class="hp"><b>VIDA</b></span>](/hero/#vida), [<span class="main"><b>AÇÃO</b></span>](/hero/#ação), Marcadores, ordem do turno e posição no tabuleiro da peça original, a peça original é removida do jogo |
 | **Ciclo**      | *Stint*   | O período entre uma Fase de Recomposição e outra |
 
 ---

@@ -203,7 +203,7 @@ O [<span class="hp"><b>VIDA</b></span>](/hero/#vida) da peça de um companhei
 
 ### <span class="companion">Morte</span>
 
-Quando um [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) morrer, sua carta deve ser enterrada e todas as cartas anexadas devem ser descartadas para a sua respectiva pilha de descarte, exceto [<span class="item"><b>ITEM</b></span>](/cards/item.md), que podem ser saqueados do seu corpo.
+Quando um [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) morrer, sua carta deve ser enterrada e todas as cartas anexadas devem ser descartadas para o entreposto, exceto [<span class="item"><b>ITEM</b></span>](/cards/item.md), que podem ser saqueados do seu corpo.
 
 ### Morte do Herói
 

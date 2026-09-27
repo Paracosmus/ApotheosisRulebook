@@ -56,7 +56,7 @@ Quando um [<span class="item"><b>ITEM</b></span>](/cards/item.md) em seu [<sp
 
 [<span class="item"><b>ITEM</b></span>](/cards/item.md) São as únicas cartas de Recurso que podem não ter um valor (preço).
 
-Se um [<span class="item"><b>ITEM</b></span>](/cards/item.md) não possuir [<span class="item"><b>PREÇO</b></span>](/cards/item.md), ele não pode ser obtido pelos meios padrões de trocas de cartas com a pilha de descarte, e deve ser considerado como tendo valor zero em qualquer troca. Estes ainda podem ser obtidos de outras formas, como por exemplo, através de ações de personagens ou efeitos de cartas.
+Se um [<span class="item"><b>ITEM</b></span>](/cards/item.md) não possuir [<span class="item"><b>PREÇO</b></span>](/cards/item.md), ele não pode ser obtido pelos meios padrões de trocas de cartas com o entreposto, e deve ser considerado como tendo valor zero em qualquer troca. Estes ainda podem ser obtidos de outras formas, como por exemplo, através de ações de personagens ou efeitos de cartas.
 
 ---
 
@@ -76,7 +76,7 @@ Tipos de Especificadores:
 
 ## <span class="item">Fabricar</span>
 
-Uma forma alternativa de se obter um [<span class="item"><b>ITEM</b></span>](/cards/item.md), é fabricando-o. Para isso, o personagem deve sacrificar seu turno, selecionar um [<span class="item"><b>ITEM</b></span>](/cards/item.md) na pilha de descarte do <span class="item"><b>MERCADO</b></span>, cujo nível mínimo do [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md) ele possua, e enterrar cartas de [<span class="item"><b>ITEM</b></span>](/cards/item.md) de sua [<span class="main"><b>MESA</b></span>](/hero/table/) e/ou [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md), que juntas contenham pelo menos os mesmos ícones de materiais, na mesma quantidade, presentes na carta selecionada.
+Uma forma alternativa de se obter um [<span class="item"><b>ITEM</b></span>](/cards/item.md), é fabricando-o. Para isso, o personagem deve sacrificar seu turno, selecionar um [<span class="item"><b>ITEM</b></span>](/cards/item.md) no entreposto, cujo nível mínimo do [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md) ele possua, e enterrar cartas de [<span class="item"><b>ITEM</b></span>](/cards/item.md) de sua [<span class="main"><b>MESA</b></span>](/hero/table/) e/ou [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md), que juntas contenham pelo menos os mesmos ícones de materiais, na mesma quantidade, presentes na carta selecionada.
 
 Tipos de Materiais de Fabricação:
 
@@ -94,6 +94,6 @@ Tipos de Materiais de Fabricação:
 * <span class="item"></span> Oricalco
 * <span class="item"></span> Âmbar
 
-Em adicional, não é possível fabricar um [<span class="item"><b>ITEM</b></span>](/cards/item.md) quando em batalha, e não é necessário estar em um local com acesso à pilha de descarte.
+Em adicional, não é possível fabricar um [<span class="item"><b>ITEM</b></span>](/cards/item.md) quando em batalha, e não é necessário estar em um local com acesso ao entreposto.
 
 ---
