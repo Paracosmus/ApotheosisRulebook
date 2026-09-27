@@ -1,10 +1,10 @@
 # Cenário
 
 |||{.briefing} [!badge text="Scenario" variant="ghost"]
-  É uma área onde são colocadas cartas que estão em jogo e seus efeitos devem ser considerados, mas não são cartas dos jogadores e seus personagens.
+  É a área onde ficam as cartas em jogo do Mestre ou da campanha. Cartas que estão em jogo, mas não pertencem a nenhum Herói.
 |||
     
-O cenário é usadas para adicionar cartas de efeito e uso global, que afetam o jogo ou o tabuleiro universalmente, tais como cartas de clima, condições, terrenos e eventos especiais.
+O cenário é a zona das cartas em jogo do Mestre de Jogo e/ou da campanha, de qualquer naipe. É onde ficam as cartas de efeito e uso global, que afetam o jogo ou o tabuleiro universalmente, tais como cartas de clima, condições, terrenos e eventos especiais, e também os [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) que estão em jogo sem acompanhar nenhum Herói, como as criaturas de um encontro.
 
 Todas as cartas no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/scenario.md) estão consideradas ativas por padrão e seus efeitos devem ser considerados para todos os personagens.
 
@@ -20,7 +20,13 @@ Todas as cartas no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/sce
 Bônus e Outros
 :   Bônus e outras características, como adição de [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md), espaços, etc. são aplicados a todos os personagens, mesmo que não tenham o [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md) e nível necessários.
 
-Geralmente, o [<span class="event"><b>CENÁRIO</b></span>](/gameplay/scenario.md) é preenchido por cartas de [<span class="event"><b>EVENTO</b></span>](/cards/event.md), mas não existe uma regra que impeça que cartas de outros tipos sejam colocadas no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/scenario.md). Quando isso acontece, essas cartas seguem a mesma regra.
+O [<span class="event"><b>CENÁRIO</b></span>](/gameplay/scenario.md) aceita cartas de qualquer naipe, e todas seguem a mesma regra. Por isso, um efeito que se refere a um tipo de carta no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/scenario.md) deve especificá-lo, como em "cada [<span class="event"><b>EVENTO</b></span>](/cards/event.md) no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/scenario.md)".
+
+---
+
+## Personagens no Cenário
+
+Um [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/scenario.md) é um personagem do Mestre que não acompanha nenhum Herói, como cada lobo de uma matilha encontrada em uma viagem. Ele pode ter sua peça no tabuleiro.
 
 ---
 

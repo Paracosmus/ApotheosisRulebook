@@ -190,6 +190,6 @@
 - [Pilha de Cartas](https://apotheosiscardgame.com/gameplay/stack/index.md): Pilha de cartas é o nome dado a qualquer monte de cartas utilizado no jogo.
 - [Baralhos de Campanha](https://apotheosiscardgame.com/gameplay/stack/campaign-decks.md): São baralhos utilizados para fornecer novas cartas aos jogadores durante a campanha.
 - [Entreposto](https://apotheosiscardgame.com/gameplay/stack/trading-post.md): Esta é a zona do jogo para onde as cartas são enviadas quando são descartadas.
-- [Cenário](https://apotheosiscardgame.com/gameplay/scenario.md): É uma área onde são colocadas cartas que estão em jogo e seus efeitos devem ser considerados, mas não são cartas dos jogadores e seus personagens.
+- [Cenário](https://apotheosiscardgame.com/gameplay/scenario.md): É a área onde ficam as cartas em jogo do Mestre ou da campanha. Cartas que estão em jogo, mas não pertencem a nenhum Herói.
 - [Limbo](https://apotheosiscardgame.com/gameplay/limbo.md): Limbo é um estado de jogo onde um componente está temporariamente fora de jogo.
 - [Passagem do Tempo](https://apotheosiscardgame.com/gameplay/time.md): Método utilizado para controlar a passagem das horas e a data em jogo.
