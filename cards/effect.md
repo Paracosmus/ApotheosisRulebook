@@ -239,9 +239,9 @@ Quando um efeito possuir mais de um escopo, ele pode/deve ser ativado em todos o
 
   Este efeito pode ser ativado apenas se estiver no [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) de um Herói. Não pode ser ativado da [<span class="main"><b>MESA</b></span>](/hero/table/) ou [<span class="event"><b>CENÁRIO</b></span>](/gameplay/scenario.md) como esperado normalmente.
 
-==- <span class="fill">[<span class="keyword-scope">Do Entreposto</span>](/cards/effect.md)</span> [!badge text="From Trading Post" variant="ghost"]
+==- <span class="fill">[<span class="keyword-scope">Da Pilha</span>](/cards/effect.md)</span> [!badge text="From Pile" variant="ghost"]
 
-  Este efeito pode ser ativado apenas se estiver no entreposto.
+  Este efeito pode ser ativado apenas se esta carta estiver revelada em uma pilha de cartas, como o entreposto. Por padrão, os efeitos das cartas em uma pilha são desconsiderados.
 
 ==- <span class="fill">[<span class="keyword-scope">Do Membro do Time</span>](/cards/effect.md)</span> [!badge text="From Team Member" variant="ghost"]
 

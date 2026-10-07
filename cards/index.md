@@ -186,7 +186,7 @@ O estado de uma carta é a condição ou situação em que ela se encontra duran
     * Apesar de serem consideradas ativas, apenas os efeitos [<span class="keyword-scope">Do Anexo</span>](/cards/effect.md) podem/devem ser usados.
   * Cartas reveladas no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/scenario.md).
   * Cartas reveladas em pilhas de cartas, que possuem efeitos de pilha
-    * [<span class="keyword-scope">De Qualquer Lugar</span>](/cards/effect.md), [<span class="keyword-scope">Do Entreposto</span>](/cards/effect.md).
+    * [<span class="keyword-scope">De Qualquer Lugar</span>](/cards/effect.md), [<span class="keyword-scope">Da Pilha</span>](/cards/effect.md).
     * Apesar de serem consideradas ativas, apenas os efeitos de pilha podem/devem ser usados.
   * Casos Especiais
     * Alguns [<span class="summus"><b>SUMMUS</b></span>](/cards/summus/) estabelecem condições específicas para estarem ativas, como estar em uma zona específica ou possuir um estado específico.
