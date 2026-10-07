@@ -191,7 +191,7 @@ O estado de uma carta é a condição ou situação em que ela se encontra duran
     * Apesar de serem consideradas ativas, apenas os efeitos {{ attached }} podem/devem ser usados.
   * Cartas reveladas no {{ scenario }}.
   * Cartas reveladas em pilhas de cartas, que possuem efeitos de pilha
-    * {{ anywhere }}, {{ tradingPost }}.
+    * {{ anywhere }}, {{ pile }}.
     * Apesar de serem consideradas ativas, apenas os efeitos de pilha podem/devem ser usados.
   * Casos Especiais
     * Alguns {{ summus }} estabelecem condições específicas para estarem ativas, como estar em uma zona específica ou possuir um estado específico.

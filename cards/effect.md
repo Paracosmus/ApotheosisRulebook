@@ -243,9 +243,9 @@ Quando um efeito possuir mais de um escopo, ele pode/deve ser ativado em todos o
 
   Este efeito pode ser ativado apenas se estiver no {{ inv }} de um Herói. Não pode ser ativado da {{ table }} ou {{ scenario }} como esperado normalmente.
 
-==- <span class="fill">{{ tradingPost }}</span> [!badge text="From Trading Post" variant="ghost"]
+==- <span class="fill">{{ pile }}</span> [!badge text="From Pile" variant="ghost"]
 
-  Este efeito pode ser ativado apenas se estiver no entreposto.
+  Este efeito pode ser ativado apenas se esta carta estiver revelada em uma pilha de cartas, como o entreposto. Por padrão, os efeitos das cartas em uma pilha são desconsiderados.
 
 ==- <span class="fill">{{ team }}</span> [!badge text="From Team Member" variant="ghost"]
 
