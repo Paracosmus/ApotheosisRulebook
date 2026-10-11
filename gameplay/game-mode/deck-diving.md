@@ -120,7 +120,7 @@ Quando uma carta sem contexto é revelada
   !!!
 
   !!!secondary Exemplo 2 - Evento
-  _O Herói que explora o Jardim Submerso revela a primeira carta, que é um evento "Tempestade". O narrador decide por ativar a carta normalmente e descreve que uma tempestade repentina começa a se formar, tornando a água turbulenta e dificultando a natação, fazendo com que tentar mergulhar seja mais desafiador enquanto esta carta estiver no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/scenario.md)._
+  _O Herói que explora o Jardim Submerso revela a primeira carta, que é um evento "Tempestade". O narrador decide por ativar a carta normalmente e descreve que uma tempestade repentina começa a se formar, tornando a água turbulenta e dificultando a natação, fazendo com que tentar mergulhar seja mais desafiador enquanto esta carta estiver no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md)._
   !!!
 
 >>> Resolução
@@ -146,17 +146,17 @@ Quando uma carta sem contexto é revelada
   !!!
 
   !!!secondary Exemplo 2 - Falha
-  _O Herói que explora o Jardim Submerso tentou nadar através da tempestade, mas falhou no teste de Mergulho. Ele sofre <span class="negative">10</span> de <b>DANO</b> e a carta de evento "Tempestade" **NÃO** é descartada, pois já foi enviada do topo deste baralho para o [<span class="event"><b>CENÁRIO</b></span>](/gameplay/scenario.md), e seu efeito continua ativo até que seja resolvido ou removido por outros meios. O Herói então pode tentar a próxima carta do baralho._
+  _O Herói que explora o Jardim Submerso tentou nadar através da tempestade, mas falhou no teste de Mergulho. Ele sofre <span class="negative">10</span> de <b>DANO</b> e a carta de evento "Tempestade" **NÃO** é descartada, pois já foi enviada do topo deste baralho para o [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md), e seu efeito continua ativo até que seja resolvido ou removido por outros meios. O Herói então pode tentar a próxima carta do baralho._
   !!!
 
 >>> Conclusão
 
   O ciclo de exploração continua até que o objetivo do baralho seja cumprido ou o baralho acabe.
 
-  Quando um baralho que ainda contem cartas é finalizado, o narrador pode escolher enviar as cartas restantes para a mão do mestre, ou descartá-las, dependendo da situação e do que fizer mais sentido para a narrativa.
+  Quando um baralho que ainda contem cartas é finalizado, o narrador pode escolher enviar as cartas restantes de volta para os suprimentos da campanha, ou descartá-las, dependendo da situação e do que fizer mais sentido para a narrativa.
 
   !!!secondary Exemplo 1 - Salão Principal
-  _O Herói que explora o Salão Principal continua enfrentando os inimigos e avançando pelas cartas do baralho, até que finalmente encontra a wildcard "Inércia", que representa a chegada à Câmara dos Guardiões. Todas as cartas restantes neste baralho são então envidas para a mão do mestre. Agora com um caminho limpo e reconhecido, o Herói pode voltar para ajudar o seu companheiro no baralho (local) do lado._
+  _O Herói que explora o Salão Principal continua enfrentando os inimigos e avançando pelas cartas do baralho, até que finalmente encontra a wildcard "Inércia", que representa a chegada à Câmara dos Guardiões. Todas as cartas restantes neste baralho são então envidas de volta para os suprimentos da campanha. Agora com um caminho limpo e reconhecido, o Herói pode voltar para ajudar o seu companheiro no baralho (local) do lado._
   !!!
 
   !!!secondary Exemplo 2 - Jardim Submerso

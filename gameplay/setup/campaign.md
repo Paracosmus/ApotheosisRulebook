@@ -40,7 +40,7 @@ Campanhas podem incluir efeitos especiais, como bônus ou penalidades para os pe
 
 Os efeitos de campanha funcionam exatamente como qualquer outro efeito, seguindo as mesmas regras e mecânicas estabelecidas no jogo. Porém, eles não estão ligados a uma carta específica, e sim à campanha como um todo.
 
-Durante a campanha, será determinado quando um efeito está ativo ou inativo. Quando ativos, eles são tratados de forma semelhante às cartas no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/scenario.md), porém sem uma carta associada, e assim como no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/scenario.md), os efeitos de campanha estão disponíveis e são aplicados à todos os personagens.
+Durante a campanha, será determinado quando um efeito está ativo ou inativo. Quando ativos, eles são tratados de forma semelhante às cartas no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md), porém sem uma carta associada, e assim como no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md), os efeitos de campanha estão disponíveis e são aplicados à todos os personagens.
 
 - Efeitos [<span class="keyword-activation">Ativar</span>](/cards/effect.md) podem ser ativados por qualquer personagem no seu turno ou quando as condições para sua ativação forem atendidas.
 - Efeitos [<span class="keyword-activation">Auto</span>](/cards/effect.md) são ativados automaticamente quando as condições para sua ativação forem atendidas.

@@ -196,8 +196,7 @@
 | <span class="companion"></span> | Suporte       | *Support*       | [<span class="companion"><b>SUPORTE</b></span>](/hero/table/support.md)   | eb3d    | `#FF7043` |
 |                                 | Inventário    | *Inventory*     | [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md)       | e929    | -         |
 |                                 | Espaço        | *Slot*          | -               | e92d    | -         |
-| <span class="event"></span>     | Cenário       | *Scenario*      | [<span class="event"><b>CENÁRIO</b></span>](/gameplay/scenario.md)  | ea1c    | `#4CAF50` |
-| -                                | Mão do Mestre | *Dealer's Hand* | -               | -       | -         |
+| <span class="event"></span>     | Cenário       | *Scenario*      | [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md)  | ea1c    | `#4CAF50` |
 
 <br><br>
 

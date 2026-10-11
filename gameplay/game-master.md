@@ -13,13 +13,3 @@ Note que, apesar de poderoso, o Mestre de Jogo também está sujeito às regras 
 !!!
 
 ---
-
-## Mão do Mestre
-
-A Mão do Mestre é um baralho de cartas sobre o controle do Mestre de Jogo, que pode conter cartas de quaisquer naipes. Sua função é permitir ao Mestre de Jogo, jogar ou descartar cartas durante a campanha, como ativar um [<span class="event"><b>EVENTO</b></span>](/cards/event.md) a qualquer momento,  começar um combate contra determinados [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md), bem como armazenar cartas secretas e de recompensa da campanha.
-
-A quantidade de cartas na mão do mestre é de conhecimento público, porém as cartas são de conhecimento apenas do Mestre.
-
-Ao início de cada novo dia no jogo, o Mestre de Jogo pode descartar ou enterrar cartas da sua mão ou obter cartas do entreposto, dos baralhos, ou mesmo da caixa do jogo (*cartas fora da campanha ou banidas*).
-
----

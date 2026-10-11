@@ -52,11 +52,11 @@ Quando um efeito possuir mais de um momento de ativação, ele pode/deve ser ati
 
 ==- <span class="fill">[<span class="keyword-timing">Ao Jogar</span>](/cards/effect.md)</span> [!badge text="On Play" variant="ghost"]
 
-  Este efeito pode/deve ser ativado quando esta carta for colocada em jogo, ou seja, quando esta carta for para a [<span class="main"><b>MESA</b></span>](/hero/table/) ou [<span class="event"><b>CENÁRIO</b></span>](/gameplay/scenario.md), ou anexada a outra carta se possuir a palavra-chave [<span class="keyword-scope">Do Anexo</span>](/cards/effect.md).
+  Este efeito pode/deve ser ativado quando esta carta for colocada em jogo, ou seja, quando esta carta for para a [<span class="main"><b>MESA</b></span>](/hero/table/) ou [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md), ou anexada a outra carta se possuir a palavra-chave [<span class="keyword-scope">Do Anexo</span>](/cards/effect.md).
 
 ==- <span class="fill">[<span class="keyword-timing">Ao Sair</span>](/cards/effect.md)</span> [!badge text="On Exit" variant="ghost"]
 
-  Este efeito pode/deve ser ativado quando esta carta deixar de estar em jogo, ou seja, quando esta carta for ser retirada da [<span class="main"><b>MESA</b></span>](/hero/table/) ou [<span class="event"><b>CENÁRIO</b></span>](/gameplay/scenario.md), ou desanexada de outra carta se possuir a palavra-chave [<span class="keyword-scope">Do Anexo</span>](/cards/effect.md).
+  Este efeito pode/deve ser ativado quando esta carta deixar de estar em jogo, ou seja, quando esta carta for ser retirada da [<span class="main"><b>MESA</b></span>](/hero/table/) ou [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md), ou desanexada de outra carta se possuir a palavra-chave [<span class="keyword-scope">Do Anexo</span>](/cards/effect.md).
 
 ==- <span class="fill">[<span class="keyword-timing">Ao Obter</span>](/cards/effect.md)</span> [!badge text="On Obtain" variant="ghost"]
 
@@ -233,15 +233,15 @@ Quando um efeito possuir mais de um escopo, ele pode/deve ser ativado em todos o
 
 ==- <span class="fill">[<span class="keyword-scope">Da Mesa</span>](/cards/effect.md)</span> [!badge text="From Table" variant="ghost"]
 
-  Este efeito pode ser ativado apenas se estiver na [<span class="main"><b>MESA</b></span>](/hero/table/) de um Herói. Não pode ser ativado do [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) ou [<span class="event"><b>CENÁRIO</b></span>](/gameplay/scenario.md) como esperado normalmente.
+  Este efeito pode ser ativado apenas se estiver na [<span class="main"><b>MESA</b></span>](/hero/table/) de um Herói. Não pode ser ativado do [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) ou [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md) como esperado normalmente.
 
 ==- <span class="fill">[<span class="keyword-scope">Da Mão</span>](/cards/effect.md)</span> [!badge text="From Hand" variant="ghost"]
 
-  Este efeito pode ser ativado apenas se estiver no [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) de um Herói. Não pode ser ativado da [<span class="main"><b>MESA</b></span>](/hero/table/) ou [<span class="event"><b>CENÁRIO</b></span>](/gameplay/scenario.md) como esperado normalmente.
+  Este efeito pode ser ativado apenas se estiver no [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) de um Herói. Não pode ser ativado da [<span class="main"><b>MESA</b></span>](/hero/table/) ou [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md) como esperado normalmente.
 
 ==- <span class="fill">[<span class="keyword-scope">Da Pilha</span>](/cards/effect.md)</span> [!badge text="From Pile" variant="ghost"]
 
-  Este efeito pode ser ativado apenas se esta carta estiver revelada em uma pilha de cartas, como o entreposto. Por padrão, os efeitos das cartas em uma pilha são desconsiderados.
+  Este efeito pode ser ativado apenas se esta carta estiver revelada em um [monte de cartas](/gameplay/stack/index.md), como o entreposto. Se os demais efeitos das cartas de um monte são considerados depende da configuração de uso dele.
 
 ==- <span class="fill">[<span class="keyword-scope">Do Membro do Time</span>](/cards/effect.md)</span> [!badge text="From Team Member" variant="ghost"]
 
@@ -249,7 +249,7 @@ Quando um efeito possuir mais de um escopo, ele pode/deve ser ativado em todos o
 
 ==- <span class="fill">[<span class="keyword-scope">Do Anexo</span>](/cards/effect.md)</span> [!badge text="From Attachment" variant="ghost"]
 
-  Este efeito pode ser ativado apenas se esta carta estiver anexada a outra carta, ou seja, este efeito não pode ser ativado se esta carta estiver na [<span class="main"><b>MESA</b></span>](/hero/table/), [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) ou [<span class="event"><b>CENÁRIO</b></span>](/gameplay/scenario.md).
+  Este efeito pode ser ativado apenas se esta carta estiver anexada a outra carta, ou seja, este efeito não pode ser ativado se esta carta estiver na [<span class="main"><b>MESA</b></span>](/hero/table/), [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) ou [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md).
 
 ===
 

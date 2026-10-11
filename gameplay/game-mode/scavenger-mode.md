@@ -26,7 +26,7 @@ O time então se desloca par a borda dos ermos prateados, e uma vez que adentrem
 
 Sempre que o time avançar par longe das terras descongelados, adicione um [<span class="main">❂<b>CONTADOR DE VIAGEM</b></span>](/gameplay/counter/) à viagem, usado para acompanhar o progresso do time. Quando o time voltar em direção às terras descongeladas, remova um [<span class="main">❂<b>CONTADOR DE VIAGEM</b></span>](/gameplay/counter/) da viagem.
 
-O número de [<span class="main">❂<b>CONTADOR DE VIAGEM</b></span>](/gameplay/counter/) na viagem representa a distância do time em relação à borda dos ermos prateados, e é usado para determinar a quantidade de cartas de gelo prateado que devem ser adicionadas ao [<span class="event"><b>CENÁRIO</b></span>](/gameplay/scenario.md).
+O número de [<span class="main">❂<b>CONTADOR DE VIAGEM</b></span>](/gameplay/counter/) na viagem representa a distância do time em relação à borda dos ermos prateados, e é usado para determinar a quantidade de cartas de gelo prateado que devem ser adicionadas ao [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md).
 
 ---
 
@@ -85,7 +85,7 @@ Cada rodada de viagem nos ermos prateados tem a duração de um período do dia 
 
   #### Dificuldade
 
-  > _Dificuldade_ = Número de Personagens do Time ✱ ( Número de Cartas de Gelo Prateado no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/scenario.md) + Dificuldade Base do Desafio + Modificadores Narrativos )
+  > _Dificuldade_ = Número de Personagens do Time ✱ ( Número de Cartas de Gelo Prateado no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md) + Dificuldade Base do Desafio + Modificadores Narrativos )
 
   ##### Número de Personagens do Time
 
@@ -95,13 +95,13 @@ Cada rodada de viagem nos ermos prateados tem a duração de um período do dia 
 
   Isso pode levar a conclusão que é mais fácil viajar sozinho, mas isso não é verdade, pois o trabalho em equipe é essencial para superar os desafios dos ermos prateados, já que diferentes personagens possuem diferentes forças e habilidades. Onde você pode ter dificuldade, um outro personagem do time pode complementar por você, e vice-versa.
 
-  ##### Número de Cartas de Gelo Prateado no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/scenario.md)
+  ##### Número de Cartas de Gelo Prateado no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md)
 
   Durante a viagem, conforme o time se distancia da borda de gelo prateado, ou seja, quanto mais longe das terras descongeladas, mais severo é o congelamento.
 
-  Isto é representado em jogo adicionando ao [<span class="event"><b>CENÁRIO</b></span>](/gameplay/scenario.md) cartas que tenham pelo menos as propriedades **TERRENO** e **GELO PRATEADO** simultaneamente. Estas cartas devem vir do entreposto primariamente, se não houver mais cartas com estas propriedades no entreposto, o mestre busca as cartas no <span class="event"><b>SANTUÁRIO</b></span>, se também não houver o suficiente, o mestre pode usar da sua mão.
+  Isto é representado em jogo adicionando ao [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md) cartas que tenham pelo menos as propriedades **TERRENO** e **GELO PRATEADO** simultaneamente. Estas cartas devem vir do entreposto primariamente, se não houver mais cartas com estas propriedades no entreposto, o mestre busca as cartas no <span class="event"><b>SANTUÁRIO</b></span>, se também não houver o suficiente, o mestre pode usar da sua mão.
 
-  A cada **5** [<span class="main">❂<b>CONTADOR DE VIAGEM</b></span>](/gameplay/counter/), adicione uma destas cartas ao [<span class="event"><b>CENÁRIO</b></span>](/gameplay/scenario.md).
+  A cada **5** [<span class="main">❂<b>CONTADOR DE VIAGEM</b></span>](/gameplay/counter/), adicione uma destas cartas ao [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md).
 
   Quando fazendo o caminho de volta para as terras descongeladas, estas cartas devem ser reduzidas conforme a distância da mesma forma que foram adicionadas.
 
@@ -160,6 +160,6 @@ Cada rodada de viagem nos ermos prateados tem a duração de um período do dia 
 
 O criador da região ou da campanha pode criar locais específicos para os Heróis encontrarem durante a viagem pelos ermos prateados, como ruínas, cavernas, torres, acampamentos abandonados, etc., e preencher estes locais com tesouros, segredos, desafios e perigos.
 
-Ao criar um local e adicioná-lo ao mapa da região, o criador deve determinar a dificuldade base do desafio de sobrevivência para chegar até o local, e a distância do local em relação à borda dos ermos prateados, para determinar quantas cartas de gelo prateado devem ser adicionadas ao [<span class="event"><b>CENÁRIO</b></span>](/gameplay/scenario.md) durante a viagem, e quantas vezes o time precisa avançar para chegar ao local.
+Ao criar um local e adicioná-lo ao mapa da região, o criador deve determinar a dificuldade base do desafio de sobrevivência para chegar até o local, e a distância do local em relação à borda dos ermos prateados, para determinar quantas cartas de gelo prateado devem ser adicionadas ao [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md) durante a viagem, e quantas vezes o time precisa avançar para chegar ao local.
 
 ---

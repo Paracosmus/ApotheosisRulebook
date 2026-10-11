@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.844727717672">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.844999425944">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -41,11 +41,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.6.0.844727717672" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.844999425944" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.844727717672" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.844999425944" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.844727717672" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.844999425944" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -691,7 +691,7 @@
 <hr>
 <h2 id="ativar">Ativar</h2>
 <p>Para usar uma carta você deve ativá-la, o que é feito ao pagar seu custo e cumprir seus requisitos, se houverem. O processo de ativação é o mesmo para todas as cartas, independentemente do naipe.</p>
-<p>Por padrão cada Herói pode ativar apenas as cartas que ele controla, ou seja, as cartas que estão em seu <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a>, <a href="/hero/table/"><span class="main"><b>MESA</b></span></a> ou anexadas a outras cartas que ele controla. No entanto, algumas cartas podem permitir ou exigir que o jogador ative cartas que ele não controla, como as cartas de outros jogadores ou cartas em zonas específicas como às do <a href="/gameplay/scenario/"><span class="event"><b>CENÁRIO</b></span></a>.</p>
+<p>Por padrão cada Herói pode ativar apenas as cartas que ele controla, ou seja, as cartas que estão em seu <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a>, <a href="/hero/table/"><span class="main"><b>MESA</b></span></a> ou anexadas a outras cartas que ele controla. No entanto, algumas cartas podem permitir ou exigir que o jogador ative cartas que ele não controla, como as cartas de outros jogadores ou cartas em zonas específicas como às do <a href="/gameplay/stack/scenario/"><span class="event"><b>CENÁRIO</b></span></a>.</p>
 <div class="mb-6 overflow-hidden border rounded-md docs-columns dark:border-base-border" style="grid-template-columns: repeat(2, minmax(0, 1fr));">
     <div class="flex items-center px-5 py-3 font-medium leading-snug text-gray-900 border-b border-base-border dark:text-white border-r">
         <span>Cartas em Jogo</span>
@@ -789,11 +789,11 @@
 <li>Apesar de serem consideradas ativas, apenas os efeitos <a href="/cards/effect/"><span class="keyword-scope">Do Anexo</span></a> podem/devem ser usados.</li>
 </ul>
 </li>
-<li>Cartas reveladas no <a href="/gameplay/scenario/"><span class="event"><b>CENÁRIO</b></span></a>.</li>
-<li>Cartas reveladas em pilhas de cartas, que possuem efeitos de pilha
+<li>Cartas reveladas no <a href="/gameplay/stack/scenario/"><span class="event"><b>CENÁRIO</b></span></a>.</li>
+<li>Cartas reveladas em <a href="/gameplay/stack/">montes de cartas</a>, conforme o uso do monte.
 <ul>
-<li><a href="/cards/effect/"><span class="keyword-scope">De Qualquer Lugar</span></a>, <a href="/cards/effect/"><span class="keyword-scope">Da Pilha</span></a>.</li>
-<li>Apesar de serem consideradas ativas, apenas os efeitos de pilha podem/devem ser usados.</li>
+<li>Quando o uso do monte é <strong>Sempre</strong>, todos os efeitos são considerados.</li>
+<li>Quando o uso do monte é <strong>Com palavra-chave</strong>, apesar de serem consideradas ativas, apenas os efeitos <a href="/cards/effect/"><span class="keyword-scope">De Qualquer Lugar</span></a> e <a href="/cards/effect/"><span class="keyword-scope">Da Pilha</span></a> podem/devem ser usados.</li>
 </ul>
 </li>
 <li>Casos Especiais
@@ -812,14 +812,15 @@
 <ul>
 <li>Cartas ocultas na <a href="/hero/table/"><span class="main"><b>MESA</b></span></a> dos Heróis.</li>
 <li>Cartas ocultas no <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a> dos Heróis.</li>
-<li>Cartas ocultas no <a href="/gameplay/scenario/"><span class="event"><b>CENÁRIO</b></span></a>.</li>
+<li>Cartas ocultas no <a href="/gameplay/stack/scenario/"><span class="event"><b>CENÁRIO</b></span></a>.</li>
 <li>Cartas anexadas:
 <ul>
 <li>Quando estão anexadas a cartas ocultas.</li>
 <li>Quando não possuem efeitos <a href="/cards/effect/"><span class="keyword-scope">Do Anexo</span></a>.</li>
 </ul>
 </li>
-<li>Cartas ocultas em baralhos.</li>
+<li>Cartas ocultas em montes de cartas.</li>
+<li>Cartas em montes de cartas cujo uso é <strong>Nunca</strong>, como as cartas banidas.</li>
 <li>Casos Especiais
 <ul>
 <li>Alguns efeitos de carta podem inativar outras cartas, seja permanentemente ou temporariamente.</li>
@@ -932,8 +933,8 @@
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-10-07T19:34:45" title="2026-10-07" data-absolute-label="Last updated on 2026-10-07 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-10-07 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
-                        Last updated on 2026-10-07 by Bruno Caxito
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-10-10T23:03:24" title="2026-10-10" data-absolute-label="Last updated on 2026-10-10 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-10-10 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                        Last updated on 2026-10-10 by Bruno Caxito
                     </time>
                 </div>
 

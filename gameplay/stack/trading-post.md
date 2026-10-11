@@ -40,6 +40,6 @@ O nível de casso do local não limita o acesso pelo efeito de cartas. Os efeito
 
 Indiferente do nível de acesso do local em que a batalha estiver acontecendo, o nível de acesso do entreposto durante uma batalha é sempre 0, impossibilitando a troca de cartas.
 
-Alguns efeitos de cartas, como cartas de [<span class="event"><b>EVENTO</b></span>](/cards/event.md) no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/scenario.md), entre outras, podem modificar o nível de acesso de um local, isso inclui durante uma batalha, permitindo dessa forma a troca de cartas em batalha.
+Alguns efeitos de cartas, como cartas de [<span class="event"><b>EVENTO</b></span>](/cards/event.md) no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md), entre outras, podem modificar o nível de acesso de um local, isso inclui durante uma batalha, permitindo dessa forma a troca de cartas em batalha.
 
 ---

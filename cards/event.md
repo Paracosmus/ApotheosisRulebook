@@ -30,6 +30,6 @@ Um evento é geralmente ativado quando o grupo está [viajando](/gameplay/game-m
 
 Para ser ativado pelo Herói, o evento deve estar em seu [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) e o Herói deve ter o [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md) e nível da carta. A descrição e efeito do [<span class="event"><b>EVENTO</b></span>](/cards/event.md) são então lidos em voz alta, que por final, é aplicado a todos os Heróis naquele momento e local.
 
-Alguns [<span class="event"><b>EVENTO</b></span>](/cards/event.md) podem requerer em seu efeito que devem ser enviados para o [<span class="event"><b>CENÁRIO</b></span>](/gameplay/scenario.md), geralmente determinando por quanto tempo, neste caso, os bônus e efeitos passivos da carta são aplicados continuamente enquanto ela permanecer no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/scenario.md), bem como qualquer efeito listado que determine como pode ser utilizado.
+Alguns [<span class="event"><b>EVENTO</b></span>](/cards/event.md) podem requerer em seu efeito que devem ser enviados para o [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md), geralmente determinando por quanto tempo, neste caso, os bônus e efeitos passivos da carta são aplicados continuamente enquanto ela permanecer no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md), bem como qualquer efeito listado que determine como pode ser utilizado.
 
 ---

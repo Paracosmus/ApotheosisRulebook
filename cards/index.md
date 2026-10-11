@@ -111,7 +111,7 @@ Uma carta também pode conter outros elementos, sejam eles comuns a todas as car
 
 Para usar uma carta você deve ativá-la, o que é feito ao pagar seu custo e cumprir seus requisitos, se houverem. O processo de ativação é o mesmo para todas as cartas, independentemente do naipe.
 
-Por padrão cada Herói pode ativar apenas as cartas que ele controla, ou seja, as cartas que estão em seu [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md), [<span class="main"><b>MESA</b></span>](/hero/table/) ou anexadas a outras cartas que ele controla. No entanto, algumas cartas podem permitir ou exigir que o jogador ative cartas que ele não controla, como as cartas de outros jogadores ou cartas em zonas específicas como às do [<span class="event"><b>CENÁRIO</b></span>](/gameplay/scenario.md).
+Por padrão cada Herói pode ativar apenas as cartas que ele controla, ou seja, as cartas que estão em seu [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md), [<span class="main"><b>MESA</b></span>](/hero/table/) ou anexadas a outras cartas que ele controla. No entanto, algumas cartas podem permitir ou exigir que o jogador ative cartas que ele não controla, como as cartas de outros jogadores ou cartas em zonas específicas como às do [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md).
 
 ||| Cartas em Jogo
 
@@ -184,10 +184,10 @@ O estado de uma carta é a condição ou situação em que ela se encontra duran
   * Cartas reveladas no [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) dos Heróis.
   * Cartas que possuem efeitos [<span class="keyword-scope">Do Anexo</span>](/cards/effect.md) anexadas a cartas reveladas.
     * Apesar de serem consideradas ativas, apenas os efeitos [<span class="keyword-scope">Do Anexo</span>](/cards/effect.md) podem/devem ser usados.
-  * Cartas reveladas no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/scenario.md).
-  * Cartas reveladas em pilhas de cartas, que possuem efeitos de pilha
-    * [<span class="keyword-scope">De Qualquer Lugar</span>](/cards/effect.md), [<span class="keyword-scope">Da Pilha</span>](/cards/effect.md).
-    * Apesar de serem consideradas ativas, apenas os efeitos de pilha podem/devem ser usados.
+  * Cartas reveladas no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md).
+  * Cartas reveladas em [montes de cartas](/gameplay/stack/index.md), conforme o uso do monte.
+    * Quando o uso do monte é **Sempre**, todos os efeitos são considerados.
+    * Quando o uso do monte é **Com palavra-chave**, apesar de serem consideradas ativas, apenas os efeitos [<span class="keyword-scope">De Qualquer Lugar</span>](/cards/effect.md) e [<span class="keyword-scope">Da Pilha</span>](/cards/effect.md) podem/devem ser usados.
   * Casos Especiais
     * Alguns [<span class="summus"><b>SUMMUS</b></span>](/cards/summus/) estabelecem condições específicas para estarem ativas, como estar em uma zona específica ou possuir um estado específico.
 
@@ -199,11 +199,12 @@ O estado de uma carta é a condição ou situação em que ela se encontra duran
 
   * Cartas ocultas na [<span class="main"><b>MESA</b></span>](/hero/table/) dos Heróis.
   * Cartas ocultas no [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) dos Heróis.
-  * Cartas ocultas no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/scenario.md).
+  * Cartas ocultas no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md).
   * Cartas anexadas:
     * Quando estão anexadas a cartas ocultas.
     * Quando não possuem efeitos [<span class="keyword-scope">Do Anexo</span>](/cards/effect.md).
-  * Cartas ocultas em baralhos.
+  * Cartas ocultas em montes de cartas.
+  * Cartas em montes de cartas cujo uso é **Nunca**, como as cartas banidas.
   * Casos Especiais
     * Alguns efeitos de carta podem inativar outras cartas, seja permanentemente ou temporariamente.
     * Alguns [<span class="summus"><b>SUMMUS</b></span>](/cards/summus/) estabelecem condições específicas para estarem inativas, como estar em uma zona específica ou possuir um estado específico.

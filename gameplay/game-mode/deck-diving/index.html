@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.844727717672">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.844999425944">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -41,11 +41,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.6.0.844727717672" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.844999425944" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.844727717672" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.844999425944" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.844727717672" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.844999425944" data-turbo-eval="false" defer></script>
     <link href="/resources/css/katex.css?v=4.6.0" rel="stylesheet">
     <script id="katex-js" data-cfasync="false" src="/resources/js/katex.js?v=4.6.0" defer></script>
 
@@ -704,7 +704,7 @@
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Exemplo 2 - Evento</h5>
-<p><em>O Herói que explora o Jardim Submerso revela a primeira carta, que é um evento &quot;Tempestade&quot;. O narrador decide por ativar a carta normalmente e descreve que uma tempestade repentina começa a se formar, tornando a água turbulenta e dificultando a natação, fazendo com que tentar mergulhar seja mais desafiador enquanto esta carta estiver no <a href="/gameplay/scenario/"><span class="event"><b>CENÁRIO</b></span></a>.</em></p>
+<p><em>O Herói que explora o Jardim Submerso revela a primeira carta, que é um evento &quot;Tempestade&quot;. O narrador decide por ativar a carta normalmente e descreve que uma tempestade repentina começa a se formar, tornando a água turbulenta e dificultando a natação, fazendo com que tentar mergulhar seja mais desafiador enquanto esta carta estiver no <a href="/gameplay/stack/scenario/"><span class="event"><b>CENÁRIO</b></span></a>.</em></p>
         </div>
     </div>
 </div>
@@ -766,7 +766,7 @@
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Exemplo 2 - Falha</h5>
-<p><em>O Herói que explora o Jardim Submerso tentou nadar através da tempestade, mas falhou no teste de Mergulho. Ele sofre <span class="negative">10</span> de <b>DANO</b> e a carta de evento &quot;Tempestade&quot; <strong>NÃO</strong> é descartada, pois já foi enviada do topo deste baralho para o <a href="/gameplay/scenario/"><span class="event"><b>CENÁRIO</b></span></a>, e seu efeito continua ativo até que seja resolvido ou removido por outros meios. O Herói então pode tentar a próxima carta do baralho.</em></p>
+<p><em>O Herói que explora o Jardim Submerso tentou nadar através da tempestade, mas falhou no teste de Mergulho. Ele sofre <span class="negative">10</span> de <b>DANO</b> e a carta de evento &quot;Tempestade&quot; <strong>NÃO</strong> é descartada, pois já foi enviada do topo deste baralho para o <a href="/gameplay/stack/scenario/"><span class="event"><b>CENÁRIO</b></span></a>, e seu efeito continua ativo até que seja resolvido ou removido por outros meios. O Herói então pode tentar a próxima carta do baralho.</em></p>
         </div>
     </div>
 </div>
@@ -774,7 +774,7 @@
    <doc-step id="conclusão" step-number="6">
       <template #title>Conclusão</template>
 <p>O ciclo de exploração continua até que o objetivo do baralho seja cumprido ou o baralho acabe.</p>
-<p>Quando um baralho que ainda contem cartas é finalizado, o narrador pode escolher enviar as cartas restantes para a mão do mestre, ou descartá-las, dependendo da situação e do que fizer mais sentido para a narrativa.</p>
+<p>Quando um baralho que ainda contem cartas é finalizado, o narrador pode escolher enviar as cartas restantes de volta para os suprimentos da campanha, ou descartá-las, dependendo da situação e do que fizer mais sentido para a narrativa.</p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-secondary"></div>
     <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
@@ -789,7 +789,7 @@
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Exemplo 1 - Salão Principal</h5>
-<p><em>O Herói que explora o Salão Principal continua enfrentando os inimigos e avançando pelas cartas do baralho, até que finalmente encontra a wildcard &quot;Inércia&quot;, que representa a chegada à Câmara dos Guardiões. Todas as cartas restantes neste baralho são então envidas para a mão do mestre. Agora com um caminho limpo e reconhecido, o Herói pode voltar para ajudar o seu companheiro no baralho (local) do lado.</em></p>
+<p><em>O Herói que explora o Salão Principal continua enfrentando os inimigos e avançando pelas cartas do baralho, até que finalmente encontra a wildcard &quot;Inércia&quot;, que representa a chegada à Câmara dos Guardiões. Todas as cartas restantes neste baralho são então envidas de volta para os suprimentos da campanha. Agora com um caminho limpo e reconhecido, o Herói pode voltar para ajudar o seu companheiro no baralho (local) do lado.</em></p>
         </div>
     </div>
 </div>
@@ -855,8 +855,8 @@
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-06-04T19:00:17" title="2026-06-04" data-absolute-label="Last updated on 2026-06-04 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-06-04 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
-                        Last updated on 2026-06-04 by Bruno Caxito
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-10-10T23:03:24" title="2026-10-10" data-absolute-label="Last updated on 2026-10-10 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-10-10 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                        Last updated on 2026-10-10 by Bruno Caxito
                     </time>
                 </div>
 

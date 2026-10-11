@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.844727717672">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.844999425944">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -41,11 +41,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.6.0.844727717672" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.844999425944" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.844727717672" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.844999425944" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.844727717672" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.844999425944" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -482,7 +482,7 @@
 <hr>
 <h2 id="contadores-de-viagem">Contadores de Viagem</h2>
 <p>Sempre que o time avançar par longe das terras descongelados, adicione um <a href="/gameplay/counter/"><span class="main">❂<b>CONTADOR DE VIAGEM</b></span></a> à viagem, usado para acompanhar o progresso do time. Quando o time voltar em direção às terras descongeladas, remova um <a href="/gameplay/counter/"><span class="main">❂<b>CONTADOR DE VIAGEM</b></span></a> da viagem.</p>
-<p>O número de <a href="/gameplay/counter/"><span class="main">❂<b>CONTADOR DE VIAGEM</b></span></a> na viagem representa a distância do time em relação à borda dos ermos prateados, e é usado para determinar a quantidade de cartas de gelo prateado que devem ser adicionadas ao <a href="/gameplay/scenario/"><span class="event"><b>CENÁRIO</b></span></a>.</p>
+<p>O número de <a href="/gameplay/counter/"><span class="main">❂<b>CONTADOR DE VIAGEM</b></span></a> na viagem representa a distância do time em relação à borda dos ermos prateados, e é usado para determinar a quantidade de cartas de gelo prateado que devem ser adicionadas ao <a href="/gameplay/stack/scenario/"><span class="event"><b>CENÁRIO</b></span></a>.</p>
 <hr>
 <h2 id="cruzando-os-ermos-prateados">Cruzando os Ermos Prateados</h2>
 <p>Cada rodada de viagem nos ermos prateados tem a duração de um período do dia e deve seguir a sequência:</p>
@@ -597,16 +597,16 @@ No abrigo seguro, o time aproveita para se recuperar da árdua viagem</p>
 </blockquote>
 <h4 id="dificuldade">Dificuldade</h4>
 <blockquote>
-<p><em>Dificuldade</em> = Número de Personagens do Time ✱ ( Número de Cartas de Gelo Prateado no <a href="/gameplay/scenario/"><span class="event"><b>CENÁRIO</b></span></a> + Dificuldade Base do Desafio + Modificadores Narrativos )</p>
+<p><em>Dificuldade</em> = Número de Personagens do Time ✱ ( Número de Cartas de Gelo Prateado no <a href="/gameplay/stack/scenario/"><span class="event"><b>CENÁRIO</b></span></a> + Dificuldade Base do Desafio + Modificadores Narrativos )</p>
 </blockquote>
 <h5 id="número-de-personagens-do-time">Número de Personagens do Time</h5>
 <p>A dificuldade do teste é calculada conforme o tamanho do time, incluindo todos os personagens.</p>
 <p>Cada personagem significa mais um indivíduo para sobreviver, o que torna a viagem mais difícil, portanto times muito grandes precisam de muitos recursos e valores.</p>
 <p>Isso pode levar a conclusão que é mais fácil viajar sozinho, mas isso não é verdade, pois o trabalho em equipe é essencial para superar os desafios dos ermos prateados, já que diferentes personagens possuem diferentes forças e habilidades. Onde você pode ter dificuldade, um outro personagem do time pode complementar por você, e vice-versa.</p>
-<h5 id="número-de-cartas-de-gelo-prateado-no-cenário">Número de Cartas de Gelo Prateado no <a href="/gameplay/scenario/"><span class="event"><b>CENÁRIO</b></span></a></h5>
+<h5 id="número-de-cartas-de-gelo-prateado-no-cenário">Número de Cartas de Gelo Prateado no <a href="/gameplay/stack/scenario/"><span class="event"><b>CENÁRIO</b></span></a></h5>
 <p>Durante a viagem, conforme o time se distancia da borda de gelo prateado, ou seja, quanto mais longe das terras descongeladas, mais severo é o congelamento.</p>
-<p>Isto é representado em jogo adicionando ao <a href="/gameplay/scenario/"><span class="event"><b>CENÁRIO</b></span></a> cartas que tenham pelo menos as propriedades <strong>TERRENO</strong> e <strong>GELO PRATEADO</strong> simultaneamente. Estas cartas devem vir do entreposto primariamente, se não houver mais cartas com estas propriedades no entreposto, o mestre busca as cartas no <span class="event"><b>SANTUÁRIO</b></span>, se também não houver o suficiente, o mestre pode usar da sua mão.</p>
-<p>A cada <strong>5</strong> <a href="/gameplay/counter/"><span class="main">❂<b>CONTADOR DE VIAGEM</b></span></a>, adicione uma destas cartas ao <a href="/gameplay/scenario/"><span class="event"><b>CENÁRIO</b></span></a>.</p>
+<p>Isto é representado em jogo adicionando ao <a href="/gameplay/stack/scenario/"><span class="event"><b>CENÁRIO</b></span></a> cartas que tenham pelo menos as propriedades <strong>TERRENO</strong> e <strong>GELO PRATEADO</strong> simultaneamente. Estas cartas devem vir do entreposto primariamente, se não houver mais cartas com estas propriedades no entreposto, o mestre busca as cartas no <span class="event"><b>SANTUÁRIO</b></span>, se também não houver o suficiente, o mestre pode usar da sua mão.</p>
+<p>A cada <strong>5</strong> <a href="/gameplay/counter/"><span class="main">❂<b>CONTADOR DE VIAGEM</b></span></a>, adicione uma destas cartas ao <a href="/gameplay/stack/scenario/"><span class="event"><b>CENÁRIO</b></span></a>.</p>
 <p>Quando fazendo o caminho de volta para as terras descongeladas, estas cartas devem ser reduzidas conforme a distância da mesma forma que foram adicionadas.</p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
@@ -690,7 +690,7 @@ No abrigo seguro, o time aproveita para se recuperar da árdua viagem</p>
 <hr>
 <h2 id="criando-locais">Criando Locais</h2>
 <p>O criador da região ou da campanha pode criar locais específicos para os Heróis encontrarem durante a viagem pelos ermos prateados, como ruínas, cavernas, torres, acampamentos abandonados, etc., e preencher estes locais com tesouros, segredos, desafios e perigos.</p>
-<p>Ao criar um local e adicioná-lo ao mapa da região, o criador deve determinar a dificuldade base do desafio de sobrevivência para chegar até o local, e a distância do local em relação à borda dos ermos prateados, para determinar quantas cartas de gelo prateado devem ser adicionadas ao <a href="/gameplay/scenario/"><span class="event"><b>CENÁRIO</b></span></a> durante a viagem, e quantas vezes o time precisa avançar para chegar ao local.</p>
+<p>Ao criar um local e adicioná-lo ao mapa da região, o criador deve determinar a dificuldade base do desafio de sobrevivência para chegar até o local, e a distância do local em relação à borda dos ermos prateados, para determinar quantas cartas de gelo prateado devem ser adicionadas ao <a href="/gameplay/stack/scenario/"><span class="event"><b>CENÁRIO</b></span></a> durante a viagem, e quantas vezes o time precisa avançar para chegar ao local.</p>
 <hr>
 <!-- Insert this at the bottom of each markdown page -->
 <!-- Tooltips -->
