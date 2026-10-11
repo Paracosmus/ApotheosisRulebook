@@ -190,9 +190,9 @@ O estado de uma carta é a condição ou situação em que ela se encontra duran
   * Cartas que possuem efeitos {{ attached }} anexadas a cartas reveladas.
     * Apesar de serem consideradas ativas, apenas os efeitos {{ attached }} podem/devem ser usados.
   * Cartas reveladas no {{ scenario }}.
-  * Cartas reveladas em pilhas de cartas, que possuem efeitos de pilha
-    * {{ anywhere }}, {{ pile }}.
-    * Apesar de serem consideradas ativas, apenas os efeitos de pilha podem/devem ser usados.
+  * Cartas reveladas em [montes de cartas](/gameplay/stack/index.md), conforme o uso do monte.
+    * Quando o uso do monte é **Sempre**, todos os efeitos são considerados.
+    * Quando o uso do monte é **Com palavra-chave**, apesar de serem consideradas ativas, apenas os efeitos {{ anywhere }} e {{ pile }} podem/devem ser usados.
   * Casos Especiais
     * Alguns {{ summus }} estabelecem condições específicas para estarem ativas, como estar em uma zona específica ou possuir um estado específico.
 
@@ -208,7 +208,8 @@ O estado de uma carta é a condição ou situação em que ela se encontra duran
   * Cartas anexadas:
     * Quando estão anexadas a cartas ocultas.
     * Quando não possuem efeitos {{ attached }}.
-  * Cartas ocultas em baralhos.
+  * Cartas ocultas em montes de cartas.
+  * Cartas em montes de cartas cujo uso é **Nunca**, como as cartas banidas.
   * Casos Especiais
     * Alguns efeitos de carta podem inativar outras cartas, seja permanentemente ou temporariamente.
     * Alguns {{ summus }} estabelecem condições específicas para estarem inativas, como estar em uma zona específica ou possuir um estado específico.

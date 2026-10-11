@@ -203,7 +203,6 @@ layout: page
 |                                 | Inventário    | *Inventory*     | {{ inv }}       | e929    | -         |
 |                                 | Espaço        | *Slot*          | -               | e92d    | -         |
 | <span class="event"></span>     | Cenário       | *Scenario*      | {{ scenario }}  | ea1c    | `#4CAF50` |
-| -                                | Mão do Mestre | *Dealer's Hand* | -               | -       | -         |
 
 <br><br>
 

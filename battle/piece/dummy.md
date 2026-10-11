@@ -65,6 +65,6 @@ Um modelo não pode possuir cartas, pois ele não possui {{ table }}. No entanto
   > Quando um modelo for associado a um {{ entity }}, é também esperado que ele possua a propriedade **RECEPTÁCULO** por coerência. Essa propriedade é comum em {{ human }} cuja a temática seja um personagem com um {{ entity }} incorporado.
 !!!
 
-Quando um modelo é derrotado, mesmo não possuindo as cartas, o mestre pode descartar da sua mão ou de um baralho as cartas associadas àquele modelo e tornar os {{ item }} associados disponíveis para outros jogadores saquearem.
+Quando um modelo é derrotado, mesmo não possuindo as cartas, o mestre pode descartar de um baralho as cartas associadas àquele modelo e tornar os {{ item }} associados disponíveis para outros jogadores saquearem.
 
 ---

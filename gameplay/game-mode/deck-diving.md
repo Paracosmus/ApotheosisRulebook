@@ -159,10 +159,10 @@ Quando uma carta sem contexto é revelada
 
   O ciclo de exploração continua até que o objetivo do baralho seja cumprido ou o baralho acabe.
 
-  Quando um baralho que ainda contem cartas é finalizado, o narrador pode escolher enviar as cartas restantes para a mão do mestre, ou descartá-las, dependendo da situação e do que fizer mais sentido para a narrativa.
+  Quando um baralho que ainda contem cartas é finalizado, o narrador pode escolher enviar as cartas restantes de volta para os suprimentos da campanha, ou descartá-las, dependendo da situação e do que fizer mais sentido para a narrativa.
 
   !!!secondary Exemplo 1 - Salão Principal
-  _O Herói que explora o Salão Principal continua enfrentando os inimigos e avançando pelas cartas do baralho, até que finalmente encontra a wildcard "Inércia", que representa a chegada à Câmara dos Guardiões. Todas as cartas restantes neste baralho são então envidas para a mão do mestre. Agora com um caminho limpo e reconhecido, o Herói pode voltar para ajudar o seu companheiro no baralho (local) do lado._
+  _O Herói que explora o Salão Principal continua enfrentando os inimigos e avançando pelas cartas do baralho, até que finalmente encontra a wildcard "Inércia", que representa a chegada à Câmara dos Guardiões. Todas as cartas restantes neste baralho são então envidas de volta para os suprimentos da campanha. Agora com um caminho limpo e reconhecido, o Herói pode voltar para ajudar o seu companheiro no baralho (local) do lado._
   !!!
 
   !!!secondary Exemplo 2 - Jardim Submerso

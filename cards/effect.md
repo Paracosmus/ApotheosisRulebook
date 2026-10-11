@@ -245,7 +245,7 @@ Quando um efeito possuir mais de um escopo, ele pode/deve ser ativado em todos o
 
 ==- <span class="fill">{{ pile }}</span> [!badge text="From Pile" variant="ghost"]
 
-  Este efeito pode ser ativado apenas se esta carta estiver revelada em uma pilha de cartas, como o entreposto. Por padrão, os efeitos das cartas em uma pilha são desconsiderados.
+  Este efeito pode ser ativado apenas se esta carta estiver revelada em um [monte de cartas](/gameplay/stack/index.md), como o entreposto. Se os demais efeitos das cartas de um monte são considerados depende da configuração de uso dele.
 
 ==- <span class="fill">{{ team }}</span> [!badge text="From Team Member" variant="ghost"]
 

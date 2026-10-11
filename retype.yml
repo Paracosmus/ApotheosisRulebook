@@ -189,8 +189,7 @@ data:
   mem:        '[<span class="skill"><b>MEMENTO</b></span>](/hero/table/memento.md)'
   support:    '[<span class="companion"><b>SUPORTE</b></span>](/hero/table/support.md)'
   inv:        '[<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md)'
-  scenario:   '[<span class="event"><b>CENÁRIO</b></span>](/gameplay/scenario.md)'
-  masterHand: '[<span class="main"><b>MÃO DO MESTRE</b></span>](/gameplay/game-master/#mão-do-mestre)'
+  scenario:   '[<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md)'
 
   # Decks
   cradle:    <span class="house"><b>MATRIZ</b></span>
