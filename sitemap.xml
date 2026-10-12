@@ -65,12 +65,12 @@
     <lastmod>2026-04-19T14:06:21Z</lastmod>
   </url>
   <url>
-    <loc>https://apotheosiscardgame.com/cards/summus/</loc>
-    <lastmod>2026-04-19T14:06:21Z</lastmod>
-  </url>
-  <url>
     <loc>https://apotheosiscardgame.com/chart/</loc>
     <lastmod>2026-09-27T12:08:32Z</lastmod>
+  </url>
+  <url>
+    <loc>https://apotheosiscardgame.com/cards/summus/</loc>
+    <lastmod>2026-04-19T14:06:21Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/cards/skills/</loc>
@@ -173,6 +173,10 @@
     <lastmod>2026-09-27T12:08:32Z</lastmod>
   </url>
   <url>
+    <loc>https://apotheosiscardgame.com/cards/summus/collegium/</loc>
+    <lastmod>2026-02-27T19:37:56Z</lastmod>
+  </url>
+  <url>
     <loc>https://apotheosiscardgame.com/cards/summus/magisterium/</loc>
     <lastmod>2026-09-27T12:08:32Z</lastmod>
   </url>
@@ -183,6 +187,10 @@
   <url>
     <loc>https://apotheosiscardgame.com/battle/piece/</loc>
     <lastmod>2026-08-15T22:33:42Z</lastmod>
+  </url>
+  <url>
+    <loc>https://apotheosiscardgame.com/battle/initiative/</loc>
+    <lastmod>2026-05-08T16:07:58Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/gameplay/game-mode/</loc>
@@ -217,24 +225,24 @@
     <lastmod>2026-04-12T20:18:38Z</lastmod>
   </url>
   <url>
-    <loc>https://apotheosiscardgame.com/lore/beings/synthetic/</loc>
-    <lastmod>2026-03-31T18:25:31Z</lastmod>
+    <loc>https://apotheosiscardgame.com/lore/cards-sets/sets/teography/</loc>
+    <lastmod>2026-04-12T20:18:38Z</lastmod>
   </url>
   <url>
-    <loc>https://apotheosiscardgame.com/cards/summus/collegium/</loc>
-    <lastmod>2026-02-27T19:37:56Z</lastmod>
+    <loc>https://apotheosiscardgame.com/lore/beings/synthetic/</loc>
+    <lastmod>2026-03-31T18:25:31Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/cards/summus/dominium/</loc>
     <lastmod>2026-06-16T19:32:53Z</lastmod>
   </url>
   <url>
-    <loc>https://apotheosiscardgame.com/battle/initiative/</loc>
-    <lastmod>2026-05-08T16:07:58Z</lastmod>
+    <loc>https://apotheosiscardgame.com/hero/table/equipment/</loc>
+    <lastmod>2026-04-09T20:01:27Z</lastmod>
   </url>
   <url>
-    <loc>https://apotheosiscardgame.com/lore/cards-sets/sets/teography/</loc>
-    <lastmod>2026-04-12T20:18:38Z</lastmod>
+    <loc>https://apotheosiscardgame.com/gameplay/marker/</loc>
+    <lastmod>2026-05-09T16:26:33Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/lore/cards-sets/lignums/ablyss/</loc>
@@ -251,10 +259,6 @@
   <url>
     <loc>https://apotheosiscardgame.com/cards/summus/daemon/</loc>
     <lastmod>2026-03-06T13:57:20Z</lastmod>
-  </url>
-  <url>
-    <loc>https://apotheosiscardgame.com/hero/table/equipment/</loc>
-    <lastmod>2026-04-09T20:01:27Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/hero/table/memento/</loc>
@@ -277,12 +281,12 @@
     <lastmod>2026-10-10T23:03:24Z</lastmod>
   </url>
   <url>
-    <loc>https://apotheosiscardgame.com/gameplay/marker/</loc>
-    <lastmod>2026-05-09T16:26:33Z</lastmod>
-  </url>
-  <url>
     <loc>https://apotheosiscardgame.com/gameplay/attachment/</loc>
     <lastmod>2026-09-27T12:08:32Z</lastmod>
+  </url>
+  <url>
+    <loc>https://apotheosiscardgame.com/guidelines/</loc>
+    <lastmod>2026-05-08T22:52:23Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/lore/beings/created/fallen/</loc>
@@ -309,6 +313,10 @@
     <lastmod>2026-06-05T22:43:54Z</lastmod>
   </url>
   <url>
+    <loc>https://apotheosiscardgame.com/lore/beings/created/human-hero/</loc>
+    <lastmod>2026-04-17T20:33:55Z</lastmod>
+  </url>
+  <url>
     <loc>https://apotheosiscardgame.com/cards/summus/ultimatum/</loc>
     <lastmod>2026-03-03T23:51:37Z</lastmod>
   </url>
@@ -325,12 +333,8 @@
     <lastmod>2026-10-10T23:03:24Z</lastmod>
   </url>
   <url>
-    <loc>https://apotheosiscardgame.com/guidelines/</loc>
-    <lastmod>2026-05-08T22:52:23Z</lastmod>
-  </url>
-  <url>
-    <loc>https://apotheosiscardgame.com/lore/beings/created/human-hero/</loc>
-    <lastmod>2026-04-17T20:33:55Z</lastmod>
+    <loc>https://apotheosiscardgame.com/decklex/</loc>
+    <lastmod>2026-10-12T13:42:36Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/lore/beings/created/watcher/</loc>
@@ -361,7 +365,19 @@
     <lastmod>2026-03-06T13:57:20Z</lastmod>
   </url>
   <url>
+    <loc>https://apotheosiscardgame.com/cards/summus/pactum/</loc>
+    <lastmod>2026-03-06T13:57:20Z</lastmod>
+  </url>
+  <url>
+    <loc>https://apotheosiscardgame.com/gameplay/setup/format/</loc>
+    <lastmod>2026-05-08T16:07:58Z</lastmod>
+  </url>
+  <url>
     <loc>https://apotheosiscardgame.com/gameplay/setup/campaign/</loc>
+    <lastmod>2026-05-08T16:07:58Z</lastmod>
+  </url>
+  <url>
+    <loc>https://apotheosiscardgame.com/gameplay/game-mode/story-mode/</loc>
     <lastmod>2026-05-08T16:07:58Z</lastmod>
   </url>
   <url>
@@ -377,12 +393,12 @@
     <lastmod>2026-10-10T23:03:24Z</lastmod>
   </url>
   <url>
-    <loc>https://apotheosiscardgame.com/lore/beings/numinous/regent/</loc>
-    <lastmod>2026-03-31T18:25:31Z</lastmod>
+    <loc>https://apotheosiscardgame.com/gameplay/limbo/</loc>
+    <lastmod>2026-09-27T12:08:32Z</lastmod>
   </url>
   <url>
-    <loc>https://apotheosiscardgame.com/cards/summus/pactum/</loc>
-    <lastmod>2026-03-06T13:57:20Z</lastmod>
+    <loc>https://apotheosiscardgame.com/lore/beings/numinous/regent/</loc>
+    <lastmod>2026-03-31T18:25:31Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/cards/summus/res/</loc>
@@ -391,14 +407,6 @@
   <url>
     <loc>https://apotheosiscardgame.com/hero/table/extra-zone/</loc>
     <lastmod>2026-04-24T20:06:15Z</lastmod>
-  </url>
-  <url>
-    <loc>https://apotheosiscardgame.com/gameplay/setup/format/</loc>
-    <lastmod>2026-05-08T16:07:58Z</lastmod>
-  </url>
-  <url>
-    <loc>https://apotheosiscardgame.com/gameplay/game-mode/story-mode/</loc>
-    <lastmod>2026-05-08T16:07:58Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/gameplay/game-mode/scavenger-mode/</loc>
@@ -411,10 +419,6 @@
   <url>
     <loc>https://apotheosiscardgame.com/gameplay/bonus/</loc>
     <lastmod>2026-05-09T16:26:33Z</lastmod>
-  </url>
-  <url>
-    <loc>https://apotheosiscardgame.com/gameplay/limbo/</loc>
-    <lastmod>2026-09-27T12:08:32Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/lore/beings/synthetic/robots/</loc>
@@ -449,6 +453,10 @@
     <lastmod>2026-05-08T22:52:23Z</lastmod>
   </url>
   <url>
+    <loc>https://apotheosiscardgame.com/decklex/expressions/</loc>
+    <lastmod>2026-10-12T13:42:36Z</lastmod>
+  </url>
+  <url>
     <loc>https://apotheosiscardgame.com/lore/beings/numinous/others/maedra/</loc>
     <lastmod>2026-03-31T18:25:31Z</lastmod>
   </url>
@@ -461,11 +469,11 @@
     <lastmod>2026-03-31T18:25:31Z</lastmod>
   </url>
   <url>
-    <loc>https://apotheosiscardgame.com/gameplay/setup/format/naval-battle/</loc>
+    <loc>https://apotheosiscardgame.com/lore/beings/numinous/trinity/unity/</loc>
     <lastmod>2026-03-31T18:25:31Z</lastmod>
   </url>
   <url>
-    <loc>https://apotheosiscardgame.com/lore/beings/numinous/trinity/unity/</loc>
+    <loc>https://apotheosiscardgame.com/gameplay/setup/format/naval-battle/</loc>
     <lastmod>2026-03-31T18:25:31Z</lastmod>
   </url>
   <url>
@@ -481,11 +489,11 @@
     <lastmod>2026-03-31T18:25:31Z</lastmod>
   </url>
   <url>
-    <loc>https://apotheosiscardgame.com/gameplay/setup/format/lagvig/</loc>
+    <loc>https://apotheosiscardgame.com/gameplay/setup/format/companion-bowl/</loc>
     <lastmod>2026-03-31T18:25:31Z</lastmod>
   </url>
   <url>
-    <loc>https://apotheosiscardgame.com/gameplay/setup/format/companion-bowl/</loc>
+    <loc>https://apotheosiscardgame.com/gameplay/setup/format/lagvig/</loc>
     <lastmod>2026-03-31T18:25:31Z</lastmod>
   </url>
 </urlset>
