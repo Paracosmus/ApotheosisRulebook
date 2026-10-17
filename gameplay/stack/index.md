@@ -1,7 +1,7 @@
 ---
 label: Monte de Cartas
 icon: stack
-order: 30
+order: 180
 ---
 
 # Monte de Cartas

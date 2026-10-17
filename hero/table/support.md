@@ -1,6 +1,6 @@
 ---
 label: Suporte
-icon: sliders
+icon: "/static/img/icons/support.svg"
 order: 20
 ---
 {{ review() }}

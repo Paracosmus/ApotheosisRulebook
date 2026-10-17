@@ -1,7 +1,7 @@
 ---
 label: Atributos
 icon: sliders
-order: 4
+order: 150
 ---
 {{ review() }}
 

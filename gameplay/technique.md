@@ -1,7 +1,7 @@
 ---
 label: Técnica
 icon: code-square
-order: 50
+order: 160
 ---
 {{ review() }}
 

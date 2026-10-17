@@ -1,7 +1,7 @@
 ---
 label: Configuração da Partida
 icon: gear
-order: 100
+order: 220
 ---
 
 # Configuração da Partida

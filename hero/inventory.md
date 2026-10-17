@@ -1,6 +1,6 @@
 ---
 label: Inventário
-icon: inbox
+icon: "/static/img/icons/inventory.svg"
 order: 1
 ---
 {{ review() }}

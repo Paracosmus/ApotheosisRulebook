@@ -20,7 +20,7 @@ Outra forma comum, é para gerar personagens temporários ou voláteis gerados p
 
 Um modelo possuí as seguintes estatísticas, em adicional às estatísticas presentes em todas as peças. Estes valores são definidos por sua carta, campanha ou método de geração, que por padrão funcionam da mesma forma que as estatísticas de outros personagens, mas podem ser modificadas por mecânicas próprias do Modelo:
 
-- [Técnicas](/cards/technique.md)
+- [Técnicas](/gameplay/technique.md)
 - [Mecânicas próprias](#mecânicas-de-modelo)
 
 ---

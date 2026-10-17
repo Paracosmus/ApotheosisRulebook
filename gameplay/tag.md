@@ -1,7 +1,7 @@
 ---
 label: Propriedade
 icon: 
-order: 40
+order: 130
 ---
 
 # Propriedade

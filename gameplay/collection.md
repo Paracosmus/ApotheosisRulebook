@@ -1,7 +1,7 @@
 ---
 label: Coleção
 icon: briefcase
-order: 30
+order: 40
 ---
 
 # Coleção

@@ -1,7 +1,7 @@
 ---
 label: Conhecimentos
-icon: repo
-order: 2
+icon: "/static/img/icons/knowledge.svg"
+order: 140
 ---
 {{ review() }}
 

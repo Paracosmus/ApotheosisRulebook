@@ -1,7 +1,7 @@
 ---
 label: Teste
 icon: checkbox
-order: 35
+order: 70
 ---
 
 # Teste

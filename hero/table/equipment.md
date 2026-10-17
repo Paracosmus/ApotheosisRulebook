@@ -1,6 +1,6 @@
 ---
 label: Equipamento
-icon: sliders
+icon: "/static/img/icons/equipment.svg"
 order: 40
 ---
 {{ review() }}

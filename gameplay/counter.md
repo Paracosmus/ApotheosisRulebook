@@ -1,7 +1,7 @@
 ---
 label: Contador
-icon: number
-order: 60
+icon: ❂
+order: 110
 ---
 
 # Contador

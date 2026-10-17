@@ -18,7 +18,7 @@ O personagem (receptáculo) pode incorporar, estas formas de energia e dominá-l
 ||| :icon-file-moved:
 ![](/static/img/cards/entity.png)
 ||| :icon-arrow-down-right:
-1. **Bônus de Atributo**: Valores adicionados aos [Atributos](/hero/attributes.md) do personagem quando este {{ entity }} está desperto.
+1. **Bônus de Atributo**: Valores adicionados aos [Atributos](/gameplay/attributes.md) do personagem quando este {{ entity }} está desperto.
 
 1. **Tipo**: Ícone e nome do tipo deste {{ entity }}, definido pelo nível da carta
 

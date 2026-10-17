@@ -1,7 +1,7 @@
 ---
 label: Modificador
 icon: boolean-on
-order: 50
+order: 80
 ---
 
 # Modificador

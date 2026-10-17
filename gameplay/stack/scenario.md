@@ -1,6 +1,6 @@
 ---
 label: Cenário
-icon: globe
+icon: "/static/img/icons/scenario.svg"
 order: 25
 ---
 

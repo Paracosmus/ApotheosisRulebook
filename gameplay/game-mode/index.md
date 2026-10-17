@@ -1,7 +1,7 @@
 ---
 label: Modo de Jogo
 icon: node
-order: 90
+order: 210
 ---
 
 # Modo de Jogo

@@ -104,11 +104,11 @@ Uma carta também pode conter outros elementos, sejam eles comuns a todas as car
 - Para informações sobre os elementos específicos de cada naipe, consulte a seção de cada um deles.
 - Para informações sobre os elementos comuns a todas as cartas, consulte a seção correspondente:
 
-[!card layout="signal"](/cards/effect.md) [!card layout="signal"](/cards/technique.md)
+[!card layout="signal"](/gameplay/effect.md) [!card layout="signal"](/gameplay/technique.md)
 
-[!card layout="signal"](/cards/tag.md) [!card layout="signal"](/cards/collection.md)
+[!card layout="signal"](/gameplay/tag.md) [!card layout="signal"](/gameplay/collection.md)
 
-[!card layout="signal"](/cards/rarity.md)  [!card layout="signal"](/cards/summus/)
+[!card layout="signal"](/gameplay/rarity.md)  [!card layout="signal"](/cards/summus/)
 
 ---
 

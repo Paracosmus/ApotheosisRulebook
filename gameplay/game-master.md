@@ -1,7 +1,7 @@
 ---
 label: Mestre de Jogo
 icon: person-add
-order: 80
+order: 200
 ---
 
 # Mestre de Jogo

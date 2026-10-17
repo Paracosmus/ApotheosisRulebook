@@ -1,7 +1,7 @@
 ---
 label: Raridade
 icon: star
-order: 20
+order: 30
 ---
 
 # Raridade

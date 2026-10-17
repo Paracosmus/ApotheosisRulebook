@@ -16,7 +16,7 @@ Cada personagem pode possuir até 3 cartas de {{ class }} em sua {{ sheet }}, qu
 ||| :icon-file-moved:
 ![](/static/img/cards/class.png)
 ||| :icon-arrow-down-right:
-1. **Bônus de Atributo**: Valores adicionados aos [Atributos](/hero/attributes.md) do personagem
+1. **Bônus de Atributo**: Valores adicionados aos [Atributos](/gameplay/attributes.md) do personagem
 
 1. **Conhecimentos**: Adiciona {{ p'+1' }} de nível em cada {{ knowledge }} listado
 

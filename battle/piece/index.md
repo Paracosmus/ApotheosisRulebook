@@ -11,8 +11,8 @@ A batalha acontece em um tabuleiro quadriculado de 11x11 casas. No tabuleiro, po
 
 - {{ hp }}
 - {{ ap }}
-- [Atributos](/hero/attributes.md)
-- [Propriedades](/cards/tag.md)
+- [Atributos](/gameplay/attributes.md)
+- [Propriedades](/gameplay/tag.md)
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 label: Memento
-icon: sliders
+icon: "/static/img/icons/memento.svg"
 order: 30
 ---
 {{ review() }}

@@ -1,7 +1,7 @@
 ---
 label: Personagem
 icon: person
-order: 70
+order: 190
 ---
 {{ review() }}
 
