@@ -13,9 +13,9 @@ Cada personagem pode possuir até 3 cartas de [<span class="class"><b>CLASSE<
 ||| :icon-file-moved:
 ![](/static/img/cards/class.png)
 ||| :icon-arrow-down-right:
-1. **Bônus de Atributo**: Valores adicionados aos [Atributos](/hero/attributes.md) do personagem
+1. **Bônus de Atributo**: Valores adicionados aos [Atributos](/gameplay/attributes.md) do personagem
 
-1. **Conhecimentos**: Adiciona <span class="positive">+1</span> de nível em cada [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md) listado
+1. **Conhecimentos**: Adiciona <span class="positive">+1</span> de nível em cada [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md) listado
 
 1. **Espaços de Equipamento**: Bônus de espaços de [<span class="item"><b>EQUIPAMENTO</b></span>](/hero/table/equipment.md)
 

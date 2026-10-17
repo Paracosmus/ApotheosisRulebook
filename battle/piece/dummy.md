@@ -16,7 +16,7 @@ Outra forma comum, é para gerar personagens temporários ou voláteis gerados p
 
 Um modelo possuí as seguintes estatísticas, em adicional às estatísticas presentes em todas as peças. Estes valores são definidos por sua carta, campanha ou método de geração, que por padrão funcionam da mesma forma que as estatísticas de outros personagens, mas podem ser modificadas por mecânicas próprias do Modelo:
 
-- [Técnicas](/cards/technique.md)
+- [Técnicas](/gameplay/technique.md)
 - [Mecânicas próprias](#mecânicas-de-modelo)
 
 ---
@@ -39,7 +39,7 @@ Extraordinariamente, quando um chefe de campanha é representado por um Modelo, 
 
 ## Mecânicas de Modelo
 
-Modelos podem possuir mecânicas próprias, que podem adicionar novas estatísticas ou modificar as já existentes, como por exemplo, uma mecânica onde o chefe possuí múltiplos turnos em uma rodada, ou uma mecânica onde seus pontos de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação) não são definidos por sua [<span class="house"><b>AGI</b></span>](/hero/attributes.md), etc..
+Modelos podem possuir mecânicas próprias, que podem adicionar novas estatísticas ou modificar as já existentes, como por exemplo, uma mecânica onde o chefe possuí múltiplos turnos em uma rodada, ou uma mecânica onde seus pontos de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação) não são definidos por sua [<span class="house"><b>AGI</b></span>](/gameplay/attributes.md), etc..
 
 ---
 

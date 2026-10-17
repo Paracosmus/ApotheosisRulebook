@@ -62,7 +62,7 @@ Cada rodada de viagem nos ermos prateados tem a duração de um período do dia 
 
   #### Atributo do Desafio
 
-  O atributo associado ao desafio de sobrevivência é o atributo que os Heróis devem usar no teste em conjunto para superar o desafio, sendo que os testes não estão relacionados a nenhum [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md).
+  O atributo associado ao desafio de sobrevivência é o atributo que os Heróis devem usar no teste em conjunto para superar o desafio, sendo que os testes não estão relacionados a nenhum [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md).
 
   {.striped}
   Dado | Atributo    | Nome                   | Exemplo

@@ -80,7 +80,7 @@ Uso | Em inglês | Efeitos considerados | Exemplo
 --- | --- | --- | ---
 **Sempre** | *Always* | Todos os efeitos das cartas de face para cima. | [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md)
 **Nunca** | *Never* | Nenhum efeito, nem mesmo os das cartas de face para cima. | Cartas banidas, [Limbo](/gameplay/limbo.md)
-**Com palavra-chave** | *Keyworded* | Apenas os efeitos com a palavra-chave [<span class="keyword-scope">Da Pilha</span>](/cards/effect.md) ou [<span class="keyword-scope">De Qualquer Lugar</span>](/cards/effect.md) das cartas de face para cima. | [Entreposto](trading-post.md)
+**Com palavra-chave** | *Keyworded* | Apenas os efeitos com a palavra-chave [<span class="keyword-scope">Da Pilha</span>](/gameplay/effect.md) ou [<span class="keyword-scope">De Qualquer Lugar</span>](/gameplay/effect.md) das cartas de face para cima. | [Entreposto](trading-post.md)
 
 ### Afetados
 

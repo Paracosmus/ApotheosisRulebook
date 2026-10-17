@@ -46,7 +46,7 @@ Existem sete naipes de cartas, cada um com suas próprias características e mec
 
   [!card layout="snap" title="Companion" icon="/static/img/icons/suit_companion.svg"](/cards/companion.md) [!card layout="snap" title="Event" icon="/static/img/icons/suit_event.svg"](/cards/event.md)
 
-  Estas cartas possuem um requerimento de nível mínimo de [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md), que um Herói precisa ter para ter esta carta em sua [<span class="main"><b>MESA</b></span>](/hero/table/), exceto quando anexadas a uma outra carta. Se uma situação de jogo resultar nesta carta estar ou ser envida para [<span class="main"><b>MESA</b></span>](/hero/table/) de um Herói que não atenda a este requerimento, ela deve ser enviada para o [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) do mesmo.
+  Estas cartas possuem um requerimento de nível mínimo de [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md), que um Herói precisa ter para ter esta carta em sua [<span class="main"><b>MESA</b></span>](/hero/table/), exceto quando anexadas a uma outra carta. Se uma situação de jogo resultar nesta carta estar ou ser envida para [<span class="main"><b>MESA</b></span>](/hero/table/) de um Herói que não atenda a este requerimento, ela deve ser enviada para o [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) do mesmo.
 
 ===
 
@@ -76,11 +76,11 @@ A sua função é principalmente estética, não sendo utilizado para efeitos de
 
 ==- Vidro [!badge text="Glass" variant="ghost"]
 
-  Este estilo apresenta a arte sobreposta em um fundo translúcido que utiliza as cores da própria ilustração com um efeito de vidro fosco aplicado, dando a impressão de que a ilustração está sobre uma superfície que a reflete. Ele é utilizado para criar um efeito moderno, sendo utilizado em cartas especiais de raridade [<span class="uncommon">INCOMUM</span>](/cards/rarity.md) ou superior.
+  Este estilo apresenta a arte sobreposta em um fundo translúcido que utiliza as cores da própria ilustração com um efeito de vidro fosco aplicado, dando a impressão de que a ilustração está sobre uma superfície que a reflete. Ele é utilizado para criar um efeito moderno, sendo utilizado em cartas especiais de raridade [<span class="uncommon">INCOMUM</span>](/gameplay/rarity.md) ou superior.
 
 ==- Estendida [!badge text="Full Art" variant="ghost"]
 
-  Este estilo apresenta a arte estendida, cobrindo toda a extensão da carta, sem bordas ou molduras. Ele é utilizado para destacar a ilustração bem como apresentar um estética diferenciada, além de adicionar um fator colecionável a mais, sendo utilizado exclusivamente em cartas de raridade [<span class="rare">RARA</span>](/cards/rarity.md) ou superior.
+  Este estilo apresenta a arte estendida, cobrindo toda a extensão da carta, sem bordas ou molduras. Ele é utilizado para destacar a ilustração bem como apresentar um estética diferenciada, além de adicionar um fator colecionável a mais, sendo utilizado exclusivamente em cartas de raridade [<span class="rare">RARA</span>](/gameplay/rarity.md) ou superior.
 
 ===
 
@@ -99,11 +99,11 @@ Uma carta também pode conter outros elementos, sejam eles comuns a todas as car
 - Para informações sobre os elementos específicos de cada naipe, consulte a seção de cada um deles.
 - Para informações sobre os elementos comuns a todas as cartas, consulte a seção correspondente:
 
-[!card layout="signal"](/cards/effect.md) [!card layout="signal"](/cards/technique.md)
+[!card layout="signal"](/gameplay/effect.md) [!card layout="signal"](/gameplay/technique.md)
 
-[!card layout="signal"](/cards/tag.md) [!card layout="signal"](/cards/collection.md)
+[!card layout="signal"](/gameplay/tag.md) [!card layout="signal"](/gameplay/collection.md)
 
-[!card layout="signal"](/cards/rarity.md)  [!card layout="signal"](/cards/summus/)
+[!card layout="signal"](/gameplay/rarity.md)  [!card layout="signal"](/cards/summus/)
 
 ---
 
@@ -121,20 +121,20 @@ Por padrão cada Herói pode ativar apenas as cartas que ele controla, ou seja, 
 
   Quando uma carta é ativada do [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md), a carta deve ser descartada, a menos que uma carta ou regra do jogo diga o contrário.
 
-  Se a carta possuir uma palavra-chave de tarefa, como [<span class="keyword-task">Descarte</span>](/cards/effect.md) ou [<span class="keyword-task">Enterre</span>](/cards/effect.md), a tarefa tem precedência, e a carta deve ser enviada para onde a tarefa designar, ao invés de ser descartada.
+  Se a carta possuir uma palavra-chave de tarefa, como [<span class="keyword-task">Descarte</span>](/gameplay/effect.md) ou [<span class="keyword-task">Enterre</span>](/gameplay/effect.md), a tarefa tem precedência, e a carta deve ser enviada para onde a tarefa designar, ao invés de ser descartada.
 
-  Observe que apenas efeitos do tipo [<span class="keyword-activation">Ativar</span>](/cards/effect.md) podem ser ativados do [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md).
+  Observe que apenas efeitos do tipo [<span class="keyword-activation">Ativar</span>](/gameplay/effect.md) podem ser ativados do [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md).
 
 |||
 
 Ao declarar a ativação de uma carta, o jogador deve seguir os seguintes passos:
 
-==- Manualmente [<span class="keyword-activation">Ativar</span>](/cards/effect.md)
+==- Manualmente [<span class="keyword-activation">Ativar</span>](/gameplay/effect.md)
 
-  1. A carta deve possuir um ou mais efeitos com a palavra-chave [<span class="keyword-activation">Ativar</span>](/cards/effect.md) ou ter uma barra indicando o <b>DANO</b> e/ou <b>ALCANCE</b>. Se a carta não possuir nenhuma destas características, ela não pode ser ativada manualmente.
-     a. Se a carta possuir mais de um efeito com a palavra-chave [<span class="keyword-activation">Ativar</span>](/cards/effect.md), o jogador deve escolher qual efeito ele deseja ativar.
+  1. A carta deve possuir um ou mais efeitos com a palavra-chave [<span class="keyword-activation">Ativar</span>](/gameplay/effect.md) ou ter uma barra indicando o <b>DANO</b> e/ou <b>ALCANCE</b>. Se a carta não possuir nenhuma destas características, ela não pode ser ativada manualmente.
+     a. Se a carta possuir mais de um efeito com a palavra-chave [<span class="keyword-activation">Ativar</span>](/gameplay/effect.md), o jogador deve escolher qual efeito ele deseja ativar.
   2. Verificar se ele cumpre os requisitos para ativar a carta.
-     a. Nível de [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md) necessário
+     a. Nível de [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md) necessário
      a. Pontos [<span class="main"><b>AÇÃO</b></span>](/hero/#ação) necessários
      a. Custos adicionais do naipe, como energias
      a. Verificar se atende aos requisitos determinados por palavras-chave de temporização, tarefas, etc.
@@ -149,16 +149,16 @@ Ao declarar a ativação de uma carta, o jogador deve seguir os seguintes passos
      1. Se a carta possuir um <b>ALCANCE</b> do tipo <b>AREA</b>, o dano é aplicado a todas as peças e casas dentro da área de efeito, sem a necessidade de selecionar um alvo específico.
      2. Observe que alguns efeitos de carta podem especificar que são aplicados após o dano, ao invés de antes, como seria o padrão.
 
-==- Automaticamente [<span class="keyword-activation">Auto</span>](/cards/effect.md)
+==- Automaticamente [<span class="keyword-activation">Auto</span>](/gameplay/effect.md)
 
-  1. A carta deve possuir um ou mais efeitos com a palavra-chave [<span class="keyword-activation">Auto</span>](/cards/effect.md).
-     1. Efeitos com a palavra-chave [<span class="keyword-activation">Auto</span>](/cards/effect.md) são ativados automaticamente de forma obrigatória quando suas condições de ativação são atendidas.
-     2. Se a carta possuir mais de um efeito com a palavra-chave [<span class="keyword-activation">Auto</span>](/cards/effect.md), todos os efeitos que puderem ser ativados, serão ativados automaticamente.
+  1. A carta deve possuir um ou mais efeitos com a palavra-chave [<span class="keyword-activation">Auto</span>](/gameplay/effect.md).
+     1. Efeitos com a palavra-chave [<span class="keyword-activation">Auto</span>](/gameplay/effect.md) são ativados automaticamente de forma obrigatória quando suas condições de ativação são atendidas.
+     2. Se a carta possuir mais de um efeito com a palavra-chave [<span class="keyword-activation">Auto</span>](/gameplay/effect.md), todos os efeitos que puderem ser ativados, serão ativados automaticamente.
   2. Verificar se ele cumpre os requisitos para ativar a carta.
-     1. Nível de [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md) necessário
+     1. Nível de [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md) necessário
      2. Verificar se atende aos requisitos determinados por palavras-chave de temporização, tarefas, etc.
      3. outras condições adicionais descritas nos requerimentos do efeito.
-     4. Ativações automáticas não possuem custos de ativação em [<span class="main"><b>AÇÃO</b></span>](/hero/#ação) e/ou Energias, se a carta possuir esses custos, eles devem ser considerados para outros efeitos [<span class="keyword-activation">Ativar</span>](/cards/effect.md) daquela carta, e ignorados para os efeitos [<span class="keyword-activation">Auto</span>](/cards/effect.md).
+     4. Ativações automáticas não possuem custos de ativação em [<span class="main"><b>AÇÃO</b></span>](/hero/#ação) e/ou Energias, se a carta possuir esses custos, eles devem ser considerados para outros efeitos [<span class="keyword-activation">Ativar</span>](/gameplay/effect.md) daquela carta, e ignorados para os efeitos [<span class="keyword-activation">Auto</span>](/gameplay/effect.md).
 
   Estando todas as condições atendidas, o jogador deve informar a ativação da carta.
 
@@ -182,12 +182,12 @@ O estado de uma carta é a condição ou situação em que ela se encontra duran
 
   * Cartas reveladas na [<span class="main"><b>MESA</b></span>](/hero/table/) dos Heróis.
   * Cartas reveladas no [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) dos Heróis.
-  * Cartas que possuem efeitos [<span class="keyword-scope">Do Anexo</span>](/cards/effect.md) anexadas a cartas reveladas.
-    * Apesar de serem consideradas ativas, apenas os efeitos [<span class="keyword-scope">Do Anexo</span>](/cards/effect.md) podem/devem ser usados.
+  * Cartas que possuem efeitos [<span class="keyword-scope">Do Anexo</span>](/gameplay/effect.md) anexadas a cartas reveladas.
+    * Apesar de serem consideradas ativas, apenas os efeitos [<span class="keyword-scope">Do Anexo</span>](/gameplay/effect.md) podem/devem ser usados.
   * Cartas reveladas no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md).
   * Cartas reveladas em [montes de cartas](/gameplay/stack/index.md), conforme o uso do monte.
     * Quando o uso do monte é **Sempre**, todos os efeitos são considerados.
-    * Quando o uso do monte é **Com palavra-chave**, apesar de serem consideradas ativas, apenas os efeitos [<span class="keyword-scope">De Qualquer Lugar</span>](/cards/effect.md) e [<span class="keyword-scope">Da Pilha</span>](/cards/effect.md) podem/devem ser usados.
+    * Quando o uso do monte é **Com palavra-chave**, apesar de serem consideradas ativas, apenas os efeitos [<span class="keyword-scope">De Qualquer Lugar</span>](/gameplay/effect.md) e [<span class="keyword-scope">Da Pilha</span>](/gameplay/effect.md) podem/devem ser usados.
   * Casos Especiais
     * Alguns [<span class="summus"><b>SUMMUS</b></span>](/cards/summus/) estabelecem condições específicas para estarem ativas, como estar em uma zona específica ou possuir um estado específico.
 
@@ -202,7 +202,7 @@ O estado de uma carta é a condição ou situação em que ela se encontra duran
   * Cartas ocultas no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md).
   * Cartas anexadas:
     * Quando estão anexadas a cartas ocultas.
-    * Quando não possuem efeitos [<span class="keyword-scope">Do Anexo</span>](/cards/effect.md).
+    * Quando não possuem efeitos [<span class="keyword-scope">Do Anexo</span>](/gameplay/effect.md).
   * Cartas ocultas em montes de cartas.
   * Cartas em montes de cartas cujo uso é **Nunca**, como as cartas banidas.
   * Casos Especiais

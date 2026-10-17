@@ -28,8 +28,8 @@ Este entendimento superior é representado em jogo através de bônus. Sendo o _
 |||
 
 ==- Requerimentos
-É necessário ter pelo menos um dos [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md) listados na carta de _Magisterium_ no nível **3**.
-- Se em algum momento o Herói perder o [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md) necessário (sem considerar o provido pelo próprio _Magisterium_), ele deve descartar o _Magisterium_ da sua **Zona Extra**.
+É necessário ter pelo menos um dos [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md) listados na carta de _Magisterium_ no nível **3**.
+- Se em algum momento o Herói perder o [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md) necessário (sem considerar o provido pelo próprio _Magisterium_), ele deve descartar o _Magisterium_ da sua **Zona Extra**.
 
 ==- Obter
 Quando não estiver em batalha, você pode realizar uma **Ação Total** e **Banir** <span class="negative">5</span> [<span class="class"><b>CLASSE</b></span>](/cards/class.md) de **Caminhos** que você possua, do entreposto, para adicionar um _Magisterium_ à sua **Zona Extra**.
@@ -49,8 +49,8 @@ Os _Magisterium_s são divididos em dois níveis narrativos de maestria, o níve
 
 | **Nível de Maestria** | **Atributos** | **Conhecimentos** | **Slots** | **Efeito** | **Raridade**             | {.compact}
 | --------------------- | ------------- | ----------------- | --------- | ---------- | ------------------------ |
-| **Mestre**            | +2            | +1                |           | Não tem    | [<span class="rare">RARA</span>](/cards/rarity.md) ou [<span class="epic">ÉPICA</span>](/cards/rarity.md) |
-| **Grande Mestre**     | +4            | +2                | 1         | Pode ter   | [<span class="legendary">LENDÁRIA</span>](/cards/rarity.md)          |
+| **Mestre**            | +2            | +1                |           | Não tem    | [<span class="rare">RARA</span>](/gameplay/rarity.md) ou [<span class="epic">ÉPICA</span>](/gameplay/rarity.md) |
+| **Grande Mestre**     | +4            | +2                | 1         | Pode ter   | [<span class="legendary">LENDÁRIA</span>](/gameplay/rarity.md)          |
 
 ==- Tipos de Bônus
 

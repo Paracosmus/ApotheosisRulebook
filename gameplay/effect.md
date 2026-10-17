@@ -26,19 +26,19 @@ O efeito é composto por três partes em seu texto:
 
 Este conjunto de palavras-chave indica o tipo de ativação do efeito, ou seja, como ele é ativado e aplicado durante a partida. Ele é importante para determinar a natureza do efeito e como ele é ativado. Este é o único tipo de palavras-chave que é obrigatória para um efeito, ou seja, todo efeito deve possuir uma palavras-chave de ativação, e apenas uma.
 
-==- <span class="fill">[<span class="keyword-activation">Ativar</span>](/cards/effect.md)</span> [!badge text="Activate" variant="ghost"]
+==- <span class="fill">[<span class="keyword-activation">Ativar</span>](/gameplay/effect.md)</span> [!badge text="Activate" variant="ghost"]
 
   Efeitos que precisam ser ativados manualmente pelo jogador apenas em seu próprio turno. Quando um efeito tem esta palavra-chave, este é o efeito resolvido quando o jogador declara a ativação desta carta.
 
   Se a carta possuir mais de um efeito com esta palavra-chave, o jogador deve escolher qual deles irá ativar.
 
-==- <span class="fill">[<span class="keyword-activation">Auto</span>](/cards/effect.md)</span> [!badge text="Auto" variant="ghost"]
+==- <span class="fill">[<span class="keyword-activation">Auto</span>](/gameplay/effect.md)</span> [!badge text="Auto" variant="ghost"]
 
   Efeitos ativados automaticamente, sem necessidade de ação do jogador. Quando um efeito tem esta palavra-chave, ele é ativado automaticamente em resposta a uma situação específica, ou seja, quando as condições de ativação do efeito são atendidas, mesmo quando isso ocorrer no turno de um outro personagem que não seja o que controla esta carta.
 
   Se várias cartas ou efeitos forem ativados em resposta a uma mesma situação, observe  prioridade de ativação.
 
-==- <span class="fill">[<span class="keyword-activation">Permanente</span>](/cards/effect.md)</span> [!badge text="Permanent" variant="ghost"]
+==- <span class="fill">[<span class="keyword-activation">Permanente</span>](/gameplay/effect.md)</span> [!badge text="Permanent" variant="ghost"]
 
   Efeitos passivos, aplicados instantaneamente e que permanecem continuamente enquanto esta carta estiver em jogo. Quando um efeito tem esta palavra-chave, ele vale a partir do momento em que esta carta é colocada em jogo, não sendo considerado que foi ativado.
 
@@ -50,128 +50,128 @@ Determina o momento ou situação específica em que o efeito pode ser ativado, 
 
 Quando um efeito possuir mais de um momento de ativação, ele pode/deve ser ativado em todos os momentos listados, ou seja, sempre que qualquer um dos momentos listados ocorrer, e se o efeito tiver requerimentos de ativação, eles devem ser atendidos para cada momento em que o efeito for ativado separadamente.
 
-==- <span class="fill">[<span class="keyword-timing">Ao Jogar</span>](/cards/effect.md)</span> [!badge text="On Play" variant="ghost"]
+==- <span class="fill">[<span class="keyword-timing">Ao Jogar</span>](/gameplay/effect.md)</span> [!badge text="On Play" variant="ghost"]
 
-  Este efeito pode/deve ser ativado quando esta carta for colocada em jogo, ou seja, quando esta carta for para a [<span class="main"><b>MESA</b></span>](/hero/table/) ou [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md), ou anexada a outra carta se possuir a palavra-chave [<span class="keyword-scope">Do Anexo</span>](/cards/effect.md).
+  Este efeito pode/deve ser ativado quando esta carta for colocada em jogo, ou seja, quando esta carta for para a [<span class="main"><b>MESA</b></span>](/hero/table/) ou [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md), ou anexada a outra carta se possuir a palavra-chave [<span class="keyword-scope">Do Anexo</span>](/gameplay/effect.md).
 
-==- <span class="fill">[<span class="keyword-timing">Ao Sair</span>](/cards/effect.md)</span> [!badge text="On Exit" variant="ghost"]
+==- <span class="fill">[<span class="keyword-timing">Ao Sair</span>](/gameplay/effect.md)</span> [!badge text="On Exit" variant="ghost"]
 
-  Este efeito pode/deve ser ativado quando esta carta deixar de estar em jogo, ou seja, quando esta carta for ser retirada da [<span class="main"><b>MESA</b></span>](/hero/table/) ou [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md), ou desanexada de outra carta se possuir a palavra-chave [<span class="keyword-scope">Do Anexo</span>](/cards/effect.md).
+  Este efeito pode/deve ser ativado quando esta carta deixar de estar em jogo, ou seja, quando esta carta for ser retirada da [<span class="main"><b>MESA</b></span>](/hero/table/) ou [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md), ou desanexada de outra carta se possuir a palavra-chave [<span class="keyword-scope">Do Anexo</span>](/gameplay/effect.md).
 
-==- <span class="fill">[<span class="keyword-timing">Ao Obter</span>](/cards/effect.md)</span> [!badge text="On Obtain" variant="ghost"]
+==- <span class="fill">[<span class="keyword-timing">Ao Obter</span>](/gameplay/effect.md)</span> [!badge text="On Obtain" variant="ghost"]
 
   Este efeito pode/deve ser ativado quando esta carta for obtida, ou seja, quando esta carta passar a ser de seu controle, seja indo para o seu [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md), [<span class="main"><b>MESA</b></span>](/hero/table/) ou anexada a outra carta.
 
-==- <span class="fill">[<span class="keyword-timing">Ao Revelar</span>](/cards/effect.md)</span> [!badge text="On Reveal" variant="ghost"]
+==- <span class="fill">[<span class="keyword-timing">Ao Revelar</span>](/gameplay/effect.md)</span> [!badge text="On Reveal" variant="ghost"]
 
   Este efeito pode/deve ser ativado quando esta carta for revelada, ou seja, quando esta carta for mostrada para os outros jogadores, seja do [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) ou outro local, ou quando esta carta for virada para cima na [<span class="main"><b>MESA</b></span>](/hero/table/).
 
-==- <span class="fill">[<span class="keyword-timing">Ao Ocultar</span>](/cards/effect.md)</span> [!badge text="On Conceal" variant="ghost"]
+==- <span class="fill">[<span class="keyword-timing">Ao Ocultar</span>](/gameplay/effect.md)</span> [!badge text="On Conceal" variant="ghost"]
 
   Este efeito pode/deve ser ativado quando esta carta for ocultada, ou seja, quando esta carta for virada para baixo na [<span class="main"><b>MESA</b></span>](/hero/table/) ou escondida de alguma forma dos outros jogadores, com por exemplo, deixando de estar revelada no [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md).
 
-==- <span class="fill">[<span class="keyword-timing">Ao Consumir</span>](/cards/effect.md)</span> [!badge text="On Exhaust" variant="ghost"]
+==- <span class="fill">[<span class="keyword-timing">Ao Consumir</span>](/gameplay/effect.md)</span> [!badge text="On Exhaust" variant="ghost"]
 
   Este efeito pode/deve ser ativado quando esta carta for consumida, ou seja, quando esta carta for virada de lado para utilizar suas energias e/ou pagar algum tipo de custo.
 
-==- <span class="fill">[<span class="keyword-timing">Ao Recuperar</span>](/cards/effect.md)</span> [!badge text="On Recover" variant="ghost"]
+==- <span class="fill">[<span class="keyword-timing">Ao Recuperar</span>](/gameplay/effect.md)</span> [!badge text="On Recover" variant="ghost"]
 
   Este efeito pode/deve ser ativado quando esta carta for recuperada, ou seja, quando esta carta for virada para sua posição normal como uma forma de recuperação ou recarga de energia.
 
-==- <span class="fill">[<span class="keyword-timing">Ao Descartar</span>](/cards/effect.md)</span> [!badge text="On Discard" variant="ghost"]
+==- <span class="fill">[<span class="keyword-timing">Ao Descartar</span>](/gameplay/effect.md)</span> [!badge text="On Discard" variant="ghost"]
 
   Este efeito pode/deve ser ativado quando esta carta for descartada, ou seja, quando esta carta for movida para o entreposto.
 
-==- <span class="fill">[<span class="keyword-timing">Ao Enterrar</span>](/cards/effect.md)</span> [!badge text="On Bury" variant="ghost"]
+==- <span class="fill">[<span class="keyword-timing">Ao Enterrar</span>](/gameplay/effect.md)</span> [!badge text="On Bury" variant="ghost"]
 
   Este efeito pode/deve ser ativado quando esta carta for enterrada, ou seja, quando esta carta for colocado no fundo de um baralho.
 
-==- <span class="fill">[<span class="keyword-timing">Ao Banir</span>](/cards/effect.md)</span> [!badge text="On Banish" variant="ghost"]
+==- <span class="fill">[<span class="keyword-timing">Ao Banir</span>](/gameplay/effect.md)</span> [!badge text="On Banish" variant="ghost"]
 
   Este efeito pode/deve ser ativado quando esta carta for banida, ou seja, quando esta carta for movida para uma pilha de cartas banidas.
 
-==- <span class="fill">[<span class="keyword-timing">Quando Testando</span>](/cards/effect.md)</span> [!badge text="When Checking" variant="ghost"]
+==- <span class="fill">[<span class="keyword-timing">Quando Testando</span>](/gameplay/effect.md)</span> [!badge text="When Checking" variant="ghost"]
 
   Este efeito pode/deve ser ativado quando um personagem estiver fazendo um teste. O efeito deixara claro o momento exato do teste em que ele pode ser ativado, como por exemplo, "quando for fazer um teste", "antes de rolar os dados", "depois de rolar os dados", etc.
 
-==- <span class="fill">[<span class="keyword-timing">Quando Atacando</span>](/cards/effect.md)</span> [!badge text="When Attacking" variant="ghost"]
+==- <span class="fill">[<span class="keyword-timing">Quando Atacando</span>](/gameplay/effect.md)</span> [!badge text="When Attacking" variant="ghost"]
 
   Este efeito pode/deve ser ativado quando um personagem estiver realizando uma ação de ataque. O efeito deixara claro o momento exato do ataque em que ele pode ser ativado, como por exemplo, "quando for declarar um ataque", "antes de rolar os dados de ataque", "depois de rolar os dados de ataque", etc.
 
-==- <span class="fill">[<span class="keyword-timing">Quando Atacado</span>](/cards/effect.md)</span> [!badge text="When Attacked" variant="ghost"]
+==- <span class="fill">[<span class="keyword-timing">Quando Atacado</span>](/gameplay/effect.md)</span> [!badge text="When Attacked" variant="ghost"]
 
   Este efeito pode/deve ser ativado quando um personagem estiver sendo atacado. O efeito deixara claro o momento exato do ataque em que ele pode ser ativado, como por exemplo, "quando for declarado um ataque contra este personagem", "antes de rolar os dados de defesa", "depois de rolar os dados de defesa", etc.
 
-==- <span class="fill">[<span class="keyword-timing">Quando Selecionado</span>](/cards/effect.md)</span> [!badge text="When Selected" variant="ghost"]
+==- <span class="fill">[<span class="keyword-timing">Quando Selecionado</span>](/gameplay/effect.md)</span> [!badge text="When Selected" variant="ghost"]
 
   Este efeito pode/deve ser ativado quando um personagem for selecionado como alvo de uma ação.
 
-==- <span class="fill">[<span class="keyword-timing">Quando Rolando Dados</span>](/cards/effect.md)</span> [!badge text="When Rolling" variant="ghost"]
+==- <span class="fill">[<span class="keyword-timing">Quando Rolando Dados</span>](/gameplay/effect.md)</span> [!badge text="When Rolling" variant="ghost"]
 
   Este efeito pode/deve ser ativado quando um personagem estiver rolando dados, seja para um teste, ataque, ou outra situação que envolva rolar dados. O efeito deixara claro o momento exato do rolamento em que ele pode ser ativado, como por exemplo, "Quando for rolar os dados", "adicione ao valor obtidos nos dados", etc.
 
   - Não incluindo dados aleatórios
   - Não incluindo dados extras em caso de crítico
 
-==- <span class="fill">[<span class="keyword-timing">Início da Batalha</span>](/cards/effect.md)</span> [!badge text="Start of Battle" variant="ghost"]
+==- <span class="fill">[<span class="keyword-timing">Início da Batalha</span>](/gameplay/effect.md)</span> [!badge text="Start of Battle" variant="ghost"]
 
   Este efeito pode/deve ser ativado no início de uma batalha, antes de qualquer ação ser realizada pelos personagens.
 
-==- <span class="fill">[<span class="keyword-timing">Final da Batalha</span>](/cards/effect.md)</span> [!badge text="End of Battle" variant="ghost"]
+==- <span class="fill">[<span class="keyword-timing">Final da Batalha</span>](/gameplay/effect.md)</span> [!badge text="End of Battle" variant="ghost"]
 
   Este efeito pode/deve ser ativado no final de uma batalha, após todas as ações terem sido realizadas pelos personagens e a batalha tiver sido declarada encerrada.
 
-==- <span class="fill">[<span class="keyword-timing">Fase de Recomposição</span>](/cards/effect.md)</span> [!badge text="Reset Phase" variant="ghost"]
+==- <span class="fill">[<span class="keyword-timing">Fase de Recomposição</span>](/gameplay/effect.md)</span> [!badge text="Reset Phase" variant="ghost"]
 
   Este efeito pode/deve ser ativado durante a fase de restauração, ou seja, a fase que ocorre entre o final de um ciclo e o início do próximo ciclo, onde os personagens realizam ações de manutenção e preparação para o próximo ciclo.
 
-==- <span class="fill">[<span class="keyword-timing">Sua Fase Inicial</span>](/cards/effect.md)</span> [!badge text="Your Start Phase" variant="ghost"]
+==- <span class="fill">[<span class="keyword-timing">Sua Fase Inicial</span>](/gameplay/effect.md)</span> [!badge text="Your Start Phase" variant="ghost"]
 
   Este efeito pode/deve ser ativado no início do seu primeiro turno neste ciclo, antes de qualquer ação ser realizada por você.
 
-==- <span class="fill">[<span class="keyword-timing">Sua Fase Final</span>](/cards/effect.md)</span> [!badge text="Your End Phase" variant="ghost"]
+==- <span class="fill">[<span class="keyword-timing">Sua Fase Final</span>](/gameplay/effect.md)</span> [!badge text="Your End Phase" variant="ghost"]
 
   Este efeito pode/deve ser ativado no final do seu último turno neste ciclo, quando você declara que encerrou suas ações deste ciclo.
 
-==- <span class="fill">[<span class="keyword-timing">Fase Inicial do Membro do Time</span>](/cards/effect.md)</span> [!badge text="Team Member's Start Phase" variant="ghost"]
+==- <span class="fill">[<span class="keyword-timing">Fase Inicial do Membro do Time</span>](/gameplay/effect.md)</span> [!badge text="Team Member's Start Phase" variant="ghost"]
 
   Este efeito pode/deve ser ativado no início do primeiro turno de personagens do seu time neste ciclo, incluindo você, antes de qualquer ação ser realizada por aquele personagem.
 
-==- <span class="fill">[<span class="keyword-timing">Fase Final do Membro do Time</span>](/cards/effect.md)</span> [!badge text="Team Member's End Phase" variant="ghost"]
+==- <span class="fill">[<span class="keyword-timing">Fase Final do Membro do Time</span>](/gameplay/effect.md)</span> [!badge text="Team Member's End Phase" variant="ghost"]
 
   Este efeito pode/deve ser ativado no final do último turno de personagens do seu time neste ciclo, incluindo você, quando aquele personagem declara que encerrou suas ações deste ciclo.
 
-==- <span class="fill">[<span class="keyword-timing">Fase Inicial do Parceiro</span>](/cards/effect.md)</span> [!badge text="Teammate's Start Phase" variant="ghost"]
+==- <span class="fill">[<span class="keyword-timing">Fase Inicial do Parceiro</span>](/gameplay/effect.md)</span> [!badge text="Teammate's Start Phase" variant="ghost"]
 
   Este efeito pode/deve ser ativado no início do primeiro turno de um personagem do seu time neste ciclo, exceto você, antes de qualquer ação ser realizada por aquele personagem.
 
-==- <span class="fill">[<span class="keyword-timing">Fase Final do Parceiro</span>](/cards/effect.md)</span> [!badge text="Teammate's End Phase" variant="ghost"]
+==- <span class="fill">[<span class="keyword-timing">Fase Final do Parceiro</span>](/gameplay/effect.md)</span> [!badge text="Teammate's End Phase" variant="ghost"]
 
   Este efeito pode/deve ser ativado no final do último turno de um personagem do seu time neste ciclo, exceto você, quando aquele personagem declara que encerrou suas ações deste ciclo.
 
-==- <span class="fill">[<span class="keyword-timing">Fase Inicial do Oponente</span>](/cards/effect.md)</span> [!badge text="Opponent's Start Phase" variant="ghost"]
+==- <span class="fill">[<span class="keyword-timing">Fase Inicial do Oponente</span>](/gameplay/effect.md)</span> [!badge text="Opponent's Start Phase" variant="ghost"]
 
   Este efeito pode/deve ser ativado no início do primeiro turno de personagens de outros times neste ciclo, antes de qualquer ação ser realizada por aquele personagem.
 
-==- <span class="fill">[<span class="keyword-timing">Fase Final do Oponente</span>](/cards/effect.md)</span> [!badge text="Opponent's End Phase" variant="ghost"]
+==- <span class="fill">[<span class="keyword-timing">Fase Final do Oponente</span>](/gameplay/effect.md)</span> [!badge text="Opponent's End Phase" variant="ghost"]
 
   Este efeito pode/deve ser ativado no final do último turno de personagens de outros times neste ciclo, quando aquele personagem declara que encerrou suas ações deste ciclo.
 
-==- <span class="fill">[<span class="keyword-timing">Fase Inicial de Todos</span>](/cards/effect.md)</span> [!badge text="All Start Phase" variant="ghost"]
+==- <span class="fill">[<span class="keyword-timing">Fase Inicial de Todos</span>](/gameplay/effect.md)</span> [!badge text="All Start Phase" variant="ghost"]
 
   Este efeito pode/deve ser ativado no início do primeiro turno de qualquer personagem neste ciclo, antes de qualquer ação ser realizada por aquele personagem.
 
-==- <span class="fill">[<span class="keyword-timing">Fase Final de Todos</span>](/cards/effect.md)</span> [!badge text="All End Phase" variant="ghost"]
+==- <span class="fill">[<span class="keyword-timing">Fase Final de Todos</span>](/gameplay/effect.md)</span> [!badge text="All End Phase" variant="ghost"]
 
   Este efeito pode/deve ser ativado no final do último turno de qualquer personagem neste ciclo, quando aquele personagem declara que encerrou suas ações deste ciclo.
 
-==- <span class="fill">[<span class="keyword-timing">Fase Inicial deste Personagem</span>](/cards/effect.md)</span> [!badge text="This Character's Start Phase" variant="ghost"]
+==- <span class="fill">[<span class="keyword-timing">Fase Inicial deste Personagem</span>](/gameplay/effect.md)</span> [!badge text="This Character's Start Phase" variant="ghost"]
 
   Esta palavra-chave é usada para efeitos em cartas de [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) que se referem ao próprio personagem, ou seja, o personagem representado por esta carta, e não ao Herói que a controla, como é o caso dos demais efeitos.
 
   Este efeito pode/deve ser ativado no início do primeiro turno deste [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) neste ciclo, antes de qualquer ação ser realizada por ele.
 
-==- <span class="fill">[<span class="keyword-timing">Fase Final deste Personagem</span>](/cards/effect.md)</span> [!badge text="This Character's End Phase" variant="ghost"]
+==- <span class="fill">[<span class="keyword-timing">Fase Final deste Personagem</span>](/gameplay/effect.md)</span> [!badge text="This Character's End Phase" variant="ghost"]
 
   Esta palavra-chave é usada para efeitos em cartas de [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) que se referem ao próprio personagem, ou seja, o personagem representado por esta carta, e não ao Herói que a controla, como é o caso dos demais efeitos.
 
@@ -185,33 +185,33 @@ Tem a função de limitar ou controlar a quantidade de ativações de um efeito,
 
 Quando um efeito possuir mais de um limite, todos os limites listados devem ser seguidos para cada ativação do efeito, ou seja, o efeito só pode ser ativado se todos os limites listados puderem ser atendidos e aplicados.
 
-==- <span class="fill">[<span class="keyword-limit">Apenas no seu Turno</span>](/cards/effect.md)</span> [!badge text="Your Turn Only" variant="ghost"]
+==- <span class="fill">[<span class="keyword-limit">Apenas no seu Turno</span>](/gameplay/effect.md)</span> [!badge text="Your Turn Only" variant="ghost"]
 
   Este efeito pode/deve ser ativado durante o seu próprio turno, ou seja, quando for a sua vez de jogar. Ele não pode ser ativado durante o turno de outros personagens, mesmo que as condições de ativação sejam atendidas.
 
-==- <span class="fill">[<span class="keyword-limit">Uma vez por Ciclo</span>](/cards/effect.md)</span> [!badge text="Once per Stint" variant="ghost"]
+==- <span class="fill">[<span class="keyword-limit">Uma vez por Ciclo</span>](/gameplay/effect.md)</span> [!badge text="Once per Stint" variant="ghost"]
 
   Este efeito só pode ser ativado uma vez por ciclo, ou seja, ele só pode ser ativado uma vez durante o ciclo atual, e não pode ser ativado novamente até o início do próximo ciclo. Note que o próximo ciclo começa já durante a próxima fase de restauração.
 
-==- <span class="fill">[<span class="keyword-limit">Uma vez por Batalha</span>](/cards/effect.md)</span> [!badge text="Once per Battle" variant="ghost"]
+==- <span class="fill">[<span class="keyword-limit">Uma vez por Batalha</span>](/gameplay/effect.md)</span> [!badge text="Once per Battle" variant="ghost"]
 
   Este efeito só pode ser ativado uma vez por batalha, ou seja, ele só pode ser ativado uma vez durante a batalha atual, e não pode ser ativado novamente até o início da próxima batalha.
 
-==- <span class="fill">[<span class="keyword-limit">Ação Total</span>](/cards/effect.md)</span> [!badge text="All-In" variant="ghost"]
+==- <span class="fill">[<span class="keyword-limit">Ação Total</span>](/gameplay/effect.md)</span> [!badge text="All-In" variant="ghost"]
 
   Para ativar este efeito, o Herói não pode ter realizado nenhuma ação não automática durante este turno, ou seja, ele não pode ter ativado nenhuma carta, nem se mover, atacar, etc..
 
   Ao ser resolvido, o turno deste Herói termina imediatamente.
 
-==- <span class="fill">[<span class="keyword-limit">Não Respondível</span>](/cards/effect.md)</span> [!badge text="No Response" variant="ghost"]
+==- <span class="fill">[<span class="keyword-limit">Não Respondível</span>](/gameplay/effect.md)</span> [!badge text="No Response" variant="ghost"]
 
-  Ao ser ativado, nenhuma outro efeito pode ser ativado em resposta a este efeito, mesmo efeitos [<span class="keyword-activation">Auto</span>](/cards/effect.md).
+  Ao ser ativado, nenhuma outro efeito pode ser ativado em resposta a este efeito, mesmo efeitos [<span class="keyword-activation">Auto</span>](/gameplay/effect.md).
 
-==- <span class="fill">[<span class="keyword-limit">Não Negável</span>](/cards/effect.md)</span> [!badge text="No Negation" variant="ghost"]
+==- <span class="fill">[<span class="keyword-limit">Não Negável</span>](/gameplay/effect.md)</span> [!badge text="No Negation" variant="ghost"]
 
-  Ao ser ativado, este efeito não pode ser negado por nenhum outro efeito, mesmo efeitos [<span class="keyword-activation">Auto</span>](/cards/effect.md).
+  Ao ser ativado, este efeito não pode ser negado por nenhum outro efeito, mesmo efeitos [<span class="keyword-activation">Auto</span>](/gameplay/effect.md).
 
-==- <span class="fill">[<span class="keyword-limit">Residual</span>](/cards/effect.md)</span> [!badge text="Lingering" variant="ghost"]
+==- <span class="fill">[<span class="keyword-limit">Residual</span>](/gameplay/effect.md)</span> [!badge text="Lingering" variant="ghost"]
 
   Este efeito permanece sendo aplicados por um tempo depois de ativados, mesmo se esta carta deixar de estar em jogo, ou seja, ele continua afetando o jogo normalmente, até que sua duração termine ou seja removido por outro efeito.
 
@@ -225,29 +225,29 @@ Este conjunto de palavras-chave indica de onde o efeito pode ser ativado, ou sej
 
 Quando um efeito possuir mais de um escopo, ele pode/deve ser ativado em todos os escopos listados, ou seja, sempre que qualquer um dos escopos listados ocorrer.
 
-==- <span class="fill">[<span class="keyword-scope">De Qualquer Lugar</span>](/cards/effect.md)</span> [!badge text="From Anywhere" variant="ghost"]
+==- <span class="fill">[<span class="keyword-scope">De Qualquer Lugar</span>](/gameplay/effect.md)</span> [!badge text="From Anywhere" variant="ghost"]
 
   Este efeito pode ser ativado de qualquer lugar, ele pode ser ativado mesmo que esta carta não esteja em jogo. Pode ser ativado da mão, do entreposto, anexada a outra carta, etc..
 
   Observe que cartas no limbo são consideradas como não existentes, e portanto não podem ser ativadas.
 
-==- <span class="fill">[<span class="keyword-scope">Da Mesa</span>](/cards/effect.md)</span> [!badge text="From Table" variant="ghost"]
+==- <span class="fill">[<span class="keyword-scope">Da Mesa</span>](/gameplay/effect.md)</span> [!badge text="From Table" variant="ghost"]
 
   Este efeito pode ser ativado apenas se estiver na [<span class="main"><b>MESA</b></span>](/hero/table/) de um Herói. Não pode ser ativado do [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) ou [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md) como esperado normalmente.
 
-==- <span class="fill">[<span class="keyword-scope">Da Mão</span>](/cards/effect.md)</span> [!badge text="From Hand" variant="ghost"]
+==- <span class="fill">[<span class="keyword-scope">Da Mão</span>](/gameplay/effect.md)</span> [!badge text="From Hand" variant="ghost"]
 
   Este efeito pode ser ativado apenas se estiver no [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) de um Herói. Não pode ser ativado da [<span class="main"><b>MESA</b></span>](/hero/table/) ou [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md) como esperado normalmente.
 
-==- <span class="fill">[<span class="keyword-scope">Da Pilha</span>](/cards/effect.md)</span> [!badge text="From Pile" variant="ghost"]
+==- <span class="fill">[<span class="keyword-scope">Da Pilha</span>](/gameplay/effect.md)</span> [!badge text="From Pile" variant="ghost"]
 
   Este efeito pode ser ativado apenas se esta carta estiver revelada em um [monte de cartas](/gameplay/stack/index.md), como o entreposto. Se os demais efeitos das cartas de um monte são considerados depende da configuração de uso dele.
 
-==- <span class="fill">[<span class="keyword-scope">Do Membro do Time</span>](/cards/effect.md)</span> [!badge text="From Team Member" variant="ghost"]
+==- <span class="fill">[<span class="keyword-scope">Do Membro do Time</span>](/gameplay/effect.md)</span> [!badge text="From Team Member" variant="ghost"]
 
   Quando esta carta estiver na sua [<span class="main"><b>MESA</b></span>](/hero/table/), este efeito pode ser ativado por qualquer Herói do seu time, incluindo você, durante o respectivo turno daquele personagem. O Herói que ativar este efeito é responsável por arcar com os requerimentos, demais custos e consequências de ativar este efeito, e ele é o personagem afetado por este efeito, mesmo que esta carta esteja na [<span class="main"><b>MESA</b></span>](/hero/table/) de outro Herói do time, além de ser o responsável por selecionar alvos, rolar dados, etc.
 
-==- <span class="fill">[<span class="keyword-scope">Do Anexo</span>](/cards/effect.md)</span> [!badge text="From Attachment" variant="ghost"]
+==- <span class="fill">[<span class="keyword-scope">Do Anexo</span>](/gameplay/effect.md)</span> [!badge text="From Attachment" variant="ghost"]
 
   Este efeito pode ser ativado apenas se esta carta estiver anexada a outra carta, ou seja, este efeito não pode ser ativado se esta carta estiver na [<span class="main"><b>MESA</b></span>](/hero/table/), [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) ou [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md).
 
@@ -259,27 +259,27 @@ Complementa a ativação do efeito, indicando uma ação adicional que deve ser 
 
 Um efeito nunca possui mais de uma tarefa, mas pode possuir uma tarefa e outros requerimentos de ativação, ou seja, para ativar o efeito, o jogador deve realizar a tarefa e atender os outros requerimentos de ativação listados.
 
-==- <span class="fill">[<span class="keyword-task">Consuma</span>](/cards/effect.md)</span> [!badge text="Exhaust" variant="ghost"]
+==- <span class="fill">[<span class="keyword-task">Consuma</span>](/gameplay/effect.md)</span> [!badge text="Exhaust" variant="ghost"]
 
   Consuma esta carta ao ativá-la.
 
-==- <span class="fill">[<span class="keyword-task">Recupere</span>](/cards/effect.md)</span> [!badge text="Recover" variant="ghost"]
+==- <span class="fill">[<span class="keyword-task">Recupere</span>](/gameplay/effect.md)</span> [!badge text="Recover" variant="ghost"]
 
   Recupere esta carta ao ativá-la.
 
-==- <span class="fill">[<span class="keyword-task">Descarte</span>](/cards/effect.md)</span> [!badge text="Discard" variant="ghost"]
+==- <span class="fill">[<span class="keyword-task">Descarte</span>](/gameplay/effect.md)</span> [!badge text="Discard" variant="ghost"]
 
   Descarte esta carta ao ativá-la.
 
-==- <span class="fill">[<span class="keyword-task">Enterre</span>](/cards/effect.md)</span> [!badge text="Bury" variant="ghost"]
+==- <span class="fill">[<span class="keyword-task">Enterre</span>](/gameplay/effect.md)</span> [!badge text="Bury" variant="ghost"]
 
   Enterre esta carta ao ativá-la.
 
-==- <span class="fill">[<span class="keyword-task">Bane</span>](/cards/effect.md)</span> [!badge text="Banish" variant="ghost"]
+==- <span class="fill">[<span class="keyword-task">Bane</span>](/gameplay/effect.md)</span> [!badge text="Banish" variant="ghost"]
 
   Bane esta carta ao ativá-la.
 
-==- <span class="fill">[<span class="keyword-task">Registre</span>](/cards/effect.md)</span> [!badge text="Register" variant="ghost"]
+==- <span class="fill">[<span class="keyword-task">Registre</span>](/gameplay/effect.md)</span> [!badge text="Register" variant="ghost"]
 
   Registre esta carta ao ativá-la.
 
@@ -307,7 +307,7 @@ Os requerimentos vêm na seguinte ordem, porém isso não determina hierarquia e
 
   > <span class="req">【</span> Custo 1; Custo 2; ... <span class="req">】</span>
 
-  > <span class="req">【</span> **Descarte** um [<span class="item"><b>ITEM</b></span>](/cards/item.md); **Consuma** <span class="negative">2</span> de [<span class="skill"><span class="red"><b>VERMELHA</b></span>](/cards/lignum.md#essência) <span class="req">】</span>
+  > <span class="req">【</span> **Descarte** um [<span class="item"><b>ITEM</b></span>](/cards/item.md); **Consuma** <span class="negative">2</span> de [<span class="skill"><span class="red"><b>VERMELHA</b></span>](/gameplay/lignum.md#essência) <span class="req">】</span>
 
 >>> **Ações** → `Selecione`, `Mova`, `Role dados`, etc.
 
@@ -403,33 +403,33 @@ Além disso, alguns conceitos relacionados teóricos inferidos no texto são imp
   ||| **<span class="red">( )</span> Expressões**
 
   Operações são sempre descritos dentro de parênteses, e os valores envolvidos são descritos usando os ícones e símbolos específicos para cada tipo de valor, como por exemplo:
-  (  [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md) + [<span class="house"><b>INT</b></span>](/hero/attributes.md) + **5** )
+  (  [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md) + [<span class="house"><b>INT</b></span>](/gameplay/attributes.md) + **5** )
 
   |||
 
   ||| **<span class="red">➜</span> Atribuição**
 
   Atribuições são descritas usando a seta, indicando o valor que deve ser atribuído a uma variável ou estado, como por exemplo:
-  - Você precisa de [<span class="house"><b>FOR</b></span>](/hero/attributes.md) ➜ **10** (Significa que o valor de [<span class="house"><b>FOR</b></span>](/hero/attributes.md) precisa ser exatamente igual a 10)
-  - Teste de _Procurar_( [<span class="house"><b>PER</b></span>](/hero/attributes.md) ➜ **6** ) (Significa que o valor mínimo neste teste é 6)
+  - Você precisa de [<span class="house"><b>FOR</b></span>](/gameplay/attributes.md) ➜ **10** (Significa que o valor de [<span class="house"><b>FOR</b></span>](/gameplay/attributes.md) precisa ser exatamente igual a 10)
+  - Teste de _Procurar_( [<span class="house"><b>PER</b></span>](/gameplay/attributes.md) ➜ **6** ) (Significa que o valor mínimo neste teste é 6)
 
   |||
 
   ||| **<span class="red">✚</span> Maior ou igual**
 
-  [<span class="house"><b>CAR</b></span>](/hero/attributes.md) **10✚** (Significa que o valor de [<span class="house"><b>CAR</b></span>](/hero/attributes.md) é 10 ou mais)
+  [<span class="house"><b>CAR</b></span>](/gameplay/attributes.md) **10✚** (Significa que o valor de [<span class="house"><b>CAR</b></span>](/gameplay/attributes.md) é 10 ou mais)
 
   |||
 
   ||| **<span class="red">–</span> Menor ou igual**
 
-  [<span class="house"><b>INT</b></span>](/hero/attributes.md) **10–** (Significa que o valor de [<span class="house"><b>INT</b></span>](/hero/attributes.md) é 10 ou menos)
+  [<span class="house"><b>INT</b></span>](/gameplay/attributes.md) **10–** (Significa que o valor de [<span class="house"><b>INT</b></span>](/gameplay/attributes.md) é 10 ou menos)
 
   |||
 
   ||| **<span class="red">✱</span> Multiplicação**
 
-  [<span class="house"><b>FOR</b></span>](/hero/attributes.md) **✱2** (Significa que o valor de [<span class="house"><b>FOR</b></span>](/hero/attributes.md) é multiplicado por 2)
+  [<span class="house"><b>FOR</b></span>](/gameplay/attributes.md) **✱2** (Significa que o valor de [<span class="house"><b>FOR</b></span>](/gameplay/attributes.md) é multiplicado por 2)
 
   |||
 
@@ -450,7 +450,7 @@ Além disso, alguns conceitos relacionados teóricos inferidos no texto são imp
   ||| **<span class="red">❙</span> Separador**
 
   É utilizado uma barra vertical para separar informações de forma semelhante a uma tabela, tendo função apenas organizacional.
-  - [<span class="knowledge"><b>ASTÚCIA</b></span>](/hero/knowledge.md#astúcia) 2 ❙ [<span class="knowledge"><b>INSTRUÇÃO</b></span>](/hero/knowledge.md#instrução) 2
+  - [<span class="knowledge"><b>ASTÚCIA</b></span>](/gameplay/knowledge.md#astúcia) 2 ❙ [<span class="knowledge"><b>INSTRUÇÃO</b></span>](/gameplay/knowledge.md#instrução) 2
 
   |||
 
@@ -472,7 +472,7 @@ Além disso, alguns conceitos relacionados teóricos inferidos no texto são imp
 
 O efeito deve ser resolvido exatamente como descrito no texto, seguindo a ordem das ações e interações conforme elas aparecem no texto, e levando em consideração as regras gerais do jogo.
 
-Durante cada passo da resolução do efeito, os jogadores podem ativar outros efeitos em [resposta](#responder-a-um-efeito), bem como efeitos [<span class="keyword-activation">Auto</span>](/cards/effect.md).
+Durante cada passo da resolução do efeito, os jogadores podem ativar outros efeitos em [resposta](#responder-a-um-efeito), bem como efeitos [<span class="keyword-activation">Auto</span>](/gameplay/effect.md).
 
 ---
 
@@ -493,7 +493,7 @@ O sistema de resolução de efeitos no Apoteose funciona através de uma Pilha D
 
   > Ex.: Considere que uma carta qualquer com o seguinte texto de efeito foi ativada:
   > ---
-  > [<span class="keyword-activation">Ativar</span>](/cards/effect.md)<span class="req">【</span> **Descarte** uma carta; **Consuma** <span class="negative">2</span> de [<span class="skill"><b>ESTAMINA</b></span>](/hero/#estamina) <span class="req">】</span>
+  > [<span class="keyword-activation">Ativar</span>](/gameplay/effect.md)<span class="req">【</span> **Descarte** uma carta; **Consuma** <span class="negative">2</span> de [<span class="skill"><b>ESTAMINA</b></span>](/hero/#estamina) <span class="req">】</span>
   > **Cure** <span class="positive">25</span> de [<span class="hp"><b>VIDA</b></span>](/hero/#vida) e **Recupere** <span class="positive">2</span> de [<span class="skill"><b>MANA</b></span>](/hero/#mana).
 
 >>> Atender os Requerimentos
@@ -551,9 +551,9 @@ Quando um efeito entra na pilha de encadeamento é possível que várias cartas 
 
 Observe que a prioridade define apenas quem vai ativar primeiro, mas não impede que os demais jogadores possam ativar seus efeitos em resposta, ou seja, mesmo que um jogador tenha a prioridade para ativar um efeito em resposta, os demais jogadores ainda podem ativar seus efeitos em resposta a este efeito depois da reposta do primeiro ser resolvida.
 
-Todos os efeitos do tipo [<span class="keyword-activation">Auto</span>](/cards/effect.md) que são ativados em resposta a um efeito devem ser todos ativados antes de que os jogadores possam responder manualmente. Eles são ativados seguindo também a ordem de prioridade abaixo.
+Todos os efeitos do tipo [<span class="keyword-activation">Auto</span>](/gameplay/effect.md) que são ativados em resposta a um efeito devem ser todos ativados antes de que os jogadores possam responder manualmente. Eles são ativados seguindo também a ordem de prioridade abaixo.
 
-Uma vez que todos os efeitos [<span class="keyword-activation">Auto</span>](/cards/effect.md) tenham sido ativados, resolvidos e removidos da pilha de encadeamento, os jogadores podem então responder manualmente com os efeitos [<span class="keyword-activation">Ativar</span>](/cards/effect.md), também seguindo a ordem de prioridade abaixo.
+Uma vez que todos os efeitos [<span class="keyword-activation">Auto</span>](/gameplay/effect.md) tenham sido ativados, resolvidos e removidos da pilha de encadeamento, os jogadores podem então responder manualmente com os efeitos [<span class="keyword-activation">Ativar</span>](/gameplay/effect.md), também seguindo a ordem de prioridade abaixo.
 
 1. **Efeitos de Campanha**
 2. **Efeitos do Cenário**
@@ -565,9 +565,9 @@ Uma vez que todos os efeitos [<span class="keyword-activation">Auto</span>](/car
 
 A prioridade é dada ao efeito e não à carta em si, observe que isso significa que mesmo um efeito que não esteja ligado a uma carta, como um Efeito de Campanha ou Efeito de Modelo, por exemplo, entram na pilha de encadeamento.
 
-- Quando dois jogadores do mesmo time possuem efeitos [<span class="keyword-activation">Auto</span>](/cards/effect.md) com a mesma prioridade, o jogador com mais Iniciativa tem prioridade.
-  - Observe que para efeitos [<span class="keyword-activation">Ativar</span>](/cards/effect.md) os jogadores, sendo do mesmo time, podem simplesmente entrar em acordo sobre quem ativa primeiro, e isso não é considerado quebra da regra de prioridade, pois a ativação não é obrigatória, assim sendo quando o novo índice de encadeamento for resolvido e a holofote voltar para essa carta, o jogador que decidiu não concorrer na ativação antes pode ativar agora.
-- Quando duas cartas [<span class="keyword-activation">Auto</span>](/cards/effect.md) do mesmo jogador possuem a mesma prioridade, o jogador escolhe qual delas ativar primeiro.
+- Quando dois jogadores do mesmo time possuem efeitos [<span class="keyword-activation">Auto</span>](/gameplay/effect.md) com a mesma prioridade, o jogador com mais Iniciativa tem prioridade.
+  - Observe que para efeitos [<span class="keyword-activation">Ativar</span>](/gameplay/effect.md) os jogadores, sendo do mesmo time, podem simplesmente entrar em acordo sobre quem ativa primeiro, e isso não é considerado quebra da regra de prioridade, pois a ativação não é obrigatória, assim sendo quando o novo índice de encadeamento for resolvido e a holofote voltar para essa carta, o jogador que decidiu não concorrer na ativação antes pode ativar agora.
+- Quando duas cartas [<span class="keyword-activation">Auto</span>](/gameplay/effect.md) do mesmo jogador possuem a mesma prioridade, o jogador escolhe qual delas ativar primeiro.
 
 !!!
 Note que uma carta em um entreposto ou baralho controlados por um Herói são consideradas cartas do Herói, e não cartas do entreposto.

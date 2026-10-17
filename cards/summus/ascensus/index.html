@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.845138580199">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.845589465131">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -47,11 +47,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.6.0.845138580199" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.845589465131" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.845138580199" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.845589465131" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.845138580199" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.845589465131" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -491,14 +491,14 @@
 <li>A caixa de mecânica do <em>Ascensus</em> possuí 3 colunas com valores indicados. O jogador deve calcular o valor de cada coluna e somar os 3 resultados. Essa soma é então aplicada como bônus em cada Atributo do Herói.</li>
 <li><a href="/gameplay/counter/"><span class="main">❂<b>CONTADOR DE ASCENSO</b></span></a> são a energia especial do modo Ascendido. Eles são gastos tanto pelo tempo quanto pelas ações do Herói, além de servirem como um escudo etéreo.
 <ul>
-<li>Na <a href="/cards/effect/"><span class="keyword-timing">Sua Fase Inicial</span></a>, remova <strong>2</strong> <a href="/gameplay/counter/"><span class="main">❂<b>CONTADOR DE ASCENSO</b></span></a> desta carta.</li>
+<li>Na <a href="/gameplay/effect/"><span class="keyword-timing">Sua Fase Inicial</span></a>, remova <strong>2</strong> <a href="/gameplay/counter/"><span class="main">❂<b>CONTADOR DE ASCENSO</b></span></a> desta carta.</li>
 <li>Ao ativar uma carta, remova <strong>1</strong> <a href="/gameplay/counter/"><span class="main">❂<b>CONTADOR DE ASCENSO</b></span></a> desta carta.</li>
 <li>Ao realizar um Ataque Normal, remova <strong>1</strong> <a href="/gameplay/counter/"><span class="main">❂<b>CONTADOR DE ASCENSO</b></span></a> desta carta.</li>
 <li>Quando sofrer <b>DANO</b>, ao invés de calcular a <b>LESÃO</b> e remove <a href="/hero/#vida"><span class="hp"><b>VIDA</b></span></a>, para cada <span class="negative">50</span> de <b>DANO</b> sofrido, remova <strong>1</strong> <a href="/gameplay/counter/"><span class="main">❂<b>CONTADOR DE ASCENSO</b></span></a> desta carta. Logo, um ataque que cause <span class="negative">60</span> de <b>DANO</b> remove 1, um ataque de <span class="negative">90</span> remove 1, um ataque de <span class="negative">120</span> remove 2, e assim por diante.</li>
 <li>Quando esta carta não tiver mais <a href="/gameplay/counter/"><span class="main">❂<b>CONTADOR DE ASCENSO</b></span></a>, o Herói perde o estado de Ascendido. O <em>Ascensus</em> é ocultado imediatamente.</li>
 </ul>
 </li>
-<li>Quando a carta de <em>Ascensus</em> é ocultada por qualquer motivo, o turno do personagem é encerrado imediatamente. Se isso ocorrer durante uma batalha, o personagem não recupera <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a> na próxima <a href="/cards/effect/"><span class="keyword-timing">Fase de Recomposição</span></a>.</li>
+<li>Quando a carta de <em>Ascensus</em> é ocultada por qualquer motivo, o turno do personagem é encerrado imediatamente. Se isso ocorrer durante uma batalha, o personagem não recupera <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a> na próxima <a href="/gameplay/effect/"><span class="keyword-timing">Fase de Recomposição</span></a>.</li>
 </ul>
 <div class="mb-6 overflow-hidden border rounded-md docs-columns dark:border-base-border" style="grid-template-columns: repeat(1, minmax(0, 1fr));">
     <div class="flex items-center px-5 py-3 font-medium leading-snug text-gray-900 border-b border-base-border dark:text-white">
@@ -533,16 +533,16 @@
 <ul>
 <li>O Herói deve ter um <a href="/cards/entity/"><span class="entity"><b>ENTE</b></span></a> na <a href="/hero/table/sheet/"><span class="main"><b>FICHA</b></span></a> que cumpre as condições do <em>Ascensus</em> na sua <strong>Zona Extra</strong> para revelar o <em>Ascensus</em>.</li>
 <li>Se, a qualquer momento, o Herói não tiver mais um <a href="/cards/entity/"><span class="entity"><b>ENTE</b></span></a> na <a href="/hero/table/sheet/"><span class="main"><b>FICHA</b></span></a> ou o <a href="/cards/entity/"><span class="entity"><b>ENTE</b></span></a> na <a href="/hero/table/sheet/"><span class="main"><b>FICHA</b></span></a> não cumprir as condições do <em>Ascensus</em> na sua <strong>Zona Extra</strong>, oculte o <em>Ascensus</em> na sua <strong>Zona Extra</strong>.</li>
-<li>Se na <a href="/cards/effect/"><span class="keyword-timing">Sua Fase Final</span></a> o Herói não tiver mais um <a href="/cards/entity/"><span class="entity"><b>ENTE</b></span></a> na <a href="/hero/table/sheet/"><span class="main"><b>FICHA</b></span></a>, ele deve descartar o <em>Ascensus</em> da sua <strong>Zona Extra</strong>.</li>
+<li>Se na <a href="/gameplay/effect/"><span class="keyword-timing">Sua Fase Final</span></a> o Herói não tiver mais um <a href="/cards/entity/"><span class="entity"><b>ENTE</b></span></a> na <a href="/hero/table/sheet/"><span class="main"><b>FICHA</b></span></a>, ele deve descartar o <em>Ascensus</em> da sua <strong>Zona Extra</strong>.</li>
 </ul>
    </doc-panel>
    <doc-panel id="span-classpositivespanㅤobter" collapsed>
        <template #title><span class="positive"><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 16 16" role="presentation"><g fill="currentColor"><g><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0Zm1.062 4.312a1 1 0 1 0-2 0v2.75h-2.75a1 1 0 0 0 0 2h2.75v2.75a1 1 0 1 0 2 0v-2.75h2.75a1 1 0 1 0 0-2h-2.75Z"/></g></g></svg></span>ㅤObter</template>
-<p>Quando não estiver em batalha, você pode realizar uma <a href="/cards/effect/"><span class="keyword-limit">Ação Total</span></a> e <strong>Banir</strong> <span class="negative">3</span> <a href="/cards/entity/"><span class="entity"><b>ENTE</b></span></a> do entreposto, para adicionar um <em>Ascensus</em> à sua <strong>Zona Extra</strong>.</p>
+<p>Quando não estiver em batalha, você pode realizar uma <a href="/gameplay/effect/"><span class="keyword-limit">Ação Total</span></a> e <strong>Banir</strong> <span class="negative">3</span> <a href="/cards/entity/"><span class="entity"><b>ENTE</b></span></a> do entreposto, para adicionar um <em>Ascensus</em> à sua <strong>Zona Extra</strong>.</p>
    </doc-panel>
    <doc-panel id="span-classnegativespanㅤremover" collapsed>
        <template #title><span class="negative">	<svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M1 12C1 5.925 5.925 1 12 1s11 4.925 11 11-4.925 11-11 11S1 18.075 1 12Zm8.036-4.024a.751.751 0 0 0-1.042.018.751.751 0 0 0-.018 1.042L10.939 12l-2.963 2.963a.749.749 0 0 0 .326 1.275.749.749 0 0 0 .734-.215L12 13.06l2.963 2.964a.75.75 0 0 0 1.061-1.06L13.061 12l2.963-2.964a.749.749 0 0 0-.326-1.275.749.749 0 0 0-.734.215L12 10.939Z"/></g></g></svg></span>ㅤRemover</template>
-<p>Quando não estiver em batalha, você pode realizar uma <a href="/cards/effect/"><span class="keyword-limit">Ação Total</span></a> para descartar um <em>Ascensus</em> da sua <strong>Zona Extra</strong>.</p>
+<p>Quando não estiver em batalha, você pode realizar uma <a href="/gameplay/effect/"><span class="keyword-limit">Ação Total</span></a> para descartar um <em>Ascensus</em> da sua <strong>Zona Extra</strong>.</p>
    </doc-panel>
 </doc-panels>
 <hr>
@@ -585,11 +585,11 @@
             
                 <nav id="retype-nextprev" class="print:hidden flex mt-14">
                     <div class="w-1/2">
-                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="/cards/summus/ars/">
+                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="/cards/summus/">
                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                             <span>
                                 <span class="block text-xs font-normal text-base-text-muted">Previous</span>
-                                <span class="block mt-1">Ars</span>
+                                <span class="block mt-1">Summus</span>
                             </span>
                         </a>
                     </div>

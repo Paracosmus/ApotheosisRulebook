@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.845138580199">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.845589465131">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -41,11 +41,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.6.0.845138580199" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.845589465131" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.845138580199" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.845589465131" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.845138580199" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.845589465131" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -506,8 +506,8 @@
 <p>Os efeitos de campanha funcionam exatamente como qualquer outro efeito, seguindo as mesmas regras e mecânicas estabelecidas no jogo. Porém, eles não estão ligados a uma carta específica, e sim à campanha como um todo.</p>
 <p>Durante a campanha, será determinado quando um efeito está ativo ou inativo. Quando ativos, eles são tratados de forma semelhante às cartas no <a href="/gameplay/stack/scenario/"><span class="event"><b>CENÁRIO</b></span></a>, porém sem uma carta associada, e assim como no <a href="/gameplay/stack/scenario/"><span class="event"><b>CENÁRIO</b></span></a>, os efeitos de campanha estão disponíveis e são aplicados à todos os personagens.</p>
 <ul>
-<li>Efeitos <a href="/cards/effect/"><span class="keyword-activation">Ativar</span></a> podem ser ativados por qualquer personagem no seu turno ou quando as condições para sua ativação forem atendidas.</li>
-<li>Efeitos <a href="/cards/effect/"><span class="keyword-activation">Auto</span></a> são ativados automaticamente quando as condições para sua ativação forem atendidas.</li>
+<li>Efeitos <a href="/gameplay/effect/"><span class="keyword-activation">Ativar</span></a> podem ser ativados por qualquer personagem no seu turno ou quando as condições para sua ativação forem atendidas.</li>
+<li>Efeitos <a href="/gameplay/effect/"><span class="keyword-activation">Auto</span></a> são ativados automaticamente quando as condições para sua ativação forem atendidas.</li>
 <li>Quando um efeito for respondido de forma que resulte no descarte da carta ou semelhante, deve-se apenas ignorar esta parte.</li>
 </ul>
 <div class="flex mb-6">
@@ -544,7 +544,7 @@
             <h5>Exemplo 2 - <em>Uma Maldição Narrativa Convertida em Jogo</em></h5>
 <p>Em uma campanha onde durante a noite uma maldição afeta todos os animais e eles ficam loucos e agressivos.</p>
 <blockquote>
-<p><a href="/cards/effect/"><span class="keyword-activation">Permanente</span></a> <span class="req">【</span> Quando Noite, Meia-Noite, ou Madrugada <span class="req">】</span> <a href="/cards/companion/#-criatura"><span class="companion"><b>CRIATURA</b></span></a> infligem <span class="positive">+10</span> de <b>DANO</b>.</p>
+<p><a href="/gameplay/effect/"><span class="keyword-activation">Permanente</span></a> <span class="req">【</span> Quando Noite, Meia-Noite, ou Madrugada <span class="req">】</span> <a href="/cards/companion/#-criatura"><span class="companion"><b>CRIATURA</b></span></a> infligem <span class="positive">+10</span> de <b>DANO</b>.</p>
 </blockquote>
         </div>
     </div>
@@ -565,19 +565,19 @@
             <h5>Exemplo 3 - <em>Sistema de Sobrevivência</em></h5>
 <p>Em uma campanha onde existem um sistema de fome, sede, e sono.</p>
 <blockquote>
-<p><a href="/cards/effect/"><span class="keyword-activation">Auto</span></a> <a href="/cards/effect/"><span class="keyword-timing">Fase de Recomposição</span></a> Adicione <span class="negative">1</span> <strong>❂CONTADOR DE FOME</strong>, <span class="negative">1</span> <strong>❂CONTADOR DE SEDE</strong> e <span class="negative">1</span> <strong>❂CONTADOR DE SONO</strong>, a sua <a href="/cards/house/"><span class="house"><b>CASA</b></span></a>.</p>
+<p><a href="/gameplay/effect/"><span class="keyword-activation">Auto</span></a> <a href="/gameplay/effect/"><span class="keyword-timing">Fase de Recomposição</span></a> Adicione <span class="negative">1</span> <strong>❂CONTADOR DE FOME</strong>, <span class="negative">1</span> <strong>❂CONTADOR DE SEDE</strong> e <span class="negative">1</span> <strong>❂CONTADOR DE SONO</strong>, a sua <a href="/cards/house/"><span class="house"><b>CASA</b></span></a>.</p>
 </blockquote>
 <blockquote>
-<p><a href="/cards/effect/"><span class="keyword-activation">Permanente</span></a> Você recebe bônus de <span class="negative">-1</span> em <strong>Testes</strong> e <b>DANO</b> para cada <strong>❂CONTADOR DE FOME</strong>, <strong>❂CONTADOR DE SEDE</strong> e <strong>❂CONTADOR DE SONO</strong> na sua <a href="/cards/house/"><span class="house"><b>CASA</b></span></a>.</p>
+<p><a href="/gameplay/effect/"><span class="keyword-activation">Permanente</span></a> Você recebe bônus de <span class="negative">-1</span> em <strong>Testes</strong> e <b>DANO</b> para cada <strong>❂CONTADOR DE FOME</strong>, <strong>❂CONTADOR DE SEDE</strong> e <strong>❂CONTADOR DE SONO</strong> na sua <a href="/cards/house/"><span class="house"><b>CASA</b></span></a>.</p>
 </blockquote>
 <blockquote>
-<p><a href="/cards/effect/"><span class="keyword-activation">Ativar</span></a> <span class="req">【</span> Quando um <a href="/cards/item/#fabricar"><span class="item"><b>CULINÁRIA</b></a> for ativado <span class="req">】</span> Remova um <strong>❂CONTADOR DE FOME</strong> da sua <a href="/cards/house/"><span class="house"><b>CASA</b></span></a>.</p>
+<p><a href="/gameplay/effect/"><span class="keyword-activation">Ativar</span></a> <span class="req">【</span> Quando um <a href="/cards/item/#fabricar"><span class="item"><b>CULINÁRIA</b></a> for ativado <span class="req">】</span> Remova um <strong>❂CONTADOR DE FOME</strong> da sua <a href="/cards/house/"><span class="house"><b>CASA</b></span></a>.</p>
 </blockquote>
 <blockquote>
-<p><a href="/cards/effect/"><span class="keyword-activation">Ativar</span></a> <span class="req">【</span> Descarte uma <strong>ÁGUA</strong> <span class="req">】</span> Remova um <strong>❂CONTADOR DE SEDE</strong> da sua <a href="/cards/house/"><span class="house"><b>CASA</b></span></a>.</p>
+<p><a href="/gameplay/effect/"><span class="keyword-activation">Ativar</span></a> <span class="req">【</span> Descarte uma <strong>ÁGUA</strong> <span class="req">】</span> Remova um <strong>❂CONTADOR DE SEDE</strong> da sua <a href="/cards/house/"><span class="house"><b>CASA</b></span></a>.</p>
 </blockquote>
 <blockquote>
-<p><a href="/cards/effect/"><span class="keyword-activation">Ativar</span></a> <span class="req">【</span> Quando <em>Descansar</em> <span class="req">】</span> Remova <strong>3</strong> <strong>❂CONTADOR DE SONO</strong> da sua <a href="/cards/house/"><span class="house"><b>CASA</b></span></a>.</p>
+<p><a href="/gameplay/effect/"><span class="keyword-activation">Ativar</span></a> <span class="req">【</span> Quando <em>Descansar</em> <span class="req">】</span> Remova <strong>3</strong> <strong>❂CONTADOR DE SONO</strong> da sua <a href="/cards/house/"><span class="house"><b>CASA</b></span></a>.</p>
 </blockquote>
         </div>
     </div>

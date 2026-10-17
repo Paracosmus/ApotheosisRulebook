@@ -12,23 +12,23 @@ Existem 14 CONHECIMENTO, divididos em dois grupos de cunho narrativo.
 
 ||| BAIXA ETEREOLOGIA
 
-[<span class="knowledge"><b>FÉ</b></span>](/hero/knowledge.md#fé)
-[<span class="knowledge"><b>COOPERAÇÃO</b></span>](/hero/knowledge.md#cooperação)
-[<span class="knowledge"><b>PRÁTICA</b></span>](/hero/knowledge.md#prática)
-[<span class="knowledge"><b>DEFESA</b></span>](/hero/knowledge.md#defesa)
-[<span class="knowledge"><b>ATLETISMO</b></span>](/hero/knowledge.md#atletismo)
-[<span class="knowledge"><b>INSTRUÇÃO</b></span>](/hero/knowledge.md#instrução)
-[<span class="knowledge"><b>ARCANO</b></span>](/hero/knowledge.md#arcano)
-[<span class="knowledge"><b>ELEMENTAL</b></span>](/hero/knowledge.md#elemental)
-[<span class="knowledge"><b>ASTÚCIA</b></span>](/hero/knowledge.md#astúcia)
-[<span class="knowledge"><b>ARTE</b></span>](/hero/knowledge.md#arte)
+[<span class="knowledge"><b>FÉ</b></span>](/gameplay/knowledge.md#fé)
+[<span class="knowledge"><b>COOPERAÇÃO</b></span>](/gameplay/knowledge.md#cooperação)
+[<span class="knowledge"><b>PRÁTICA</b></span>](/gameplay/knowledge.md#prática)
+[<span class="knowledge"><b>DEFESA</b></span>](/gameplay/knowledge.md#defesa)
+[<span class="knowledge"><b>ATLETISMO</b></span>](/gameplay/knowledge.md#atletismo)
+[<span class="knowledge"><b>INSTRUÇÃO</b></span>](/gameplay/knowledge.md#instrução)
+[<span class="knowledge"><b>ARCANO</b></span>](/gameplay/knowledge.md#arcano)
+[<span class="knowledge"><b>ELEMENTAL</b></span>](/gameplay/knowledge.md#elemental)
+[<span class="knowledge"><b>ASTÚCIA</b></span>](/gameplay/knowledge.md#astúcia)
+[<span class="knowledge"><b>ARTE</b></span>](/gameplay/knowledge.md#arte)
 
 ||| ALTA ETEREOLOGIA
 
-[<span class="knowledge"><b>TRANSMUTAÇÃO</b></span>](/hero/knowledge.md#transmutação)
-[<span class="knowledge"><b>DIMENSIONAL</b></span>](/hero/knowledge.md#dimensional)
-[<span class="knowledge"><b>VITAL</b></span>](/hero/knowledge.md#vital)
-[<span class="knowledge"><b>MENTAL</b></span>](/hero/knowledge.md#mental)
+[<span class="knowledge"><b>TRANSMUTAÇÃO</b></span>](/gameplay/knowledge.md#transmutação)
+[<span class="knowledge"><b>DIMENSIONAL</b></span>](/gameplay/knowledge.md#dimensional)
+[<span class="knowledge"><b>VITAL</b></span>](/gameplay/knowledge.md#vital)
+[<span class="knowledge"><b>MENTAL</b></span>](/gameplay/knowledge.md#mental)
 
 |||
 
@@ -36,9 +36,9 @@ Existem 14 CONHECIMENTO, divididos em dois grupos de cunho narrativo.
 
 ## Livre
 
-Uma carta [<span class="knowledge"><b>LIVRE</b></span>](/hero/knowledge.md#livre), não está vinculada a um [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md) específico, podendo ser utilizada por qualquer personagem a partir de um determinado nível em relação ao nível da carta.
+Uma carta [<span class="knowledge"><b>LIVRE</b></span>](/gameplay/knowledge.md#livre), não está vinculada a um [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md) específico, podendo ser utilizada por qualquer personagem a partir de um determinado nível em relação ao nível da carta.
 
-NÍVEL DA CARTA [<span class="knowledge"><b>LIVRE</b></span>](/hero/knowledge.md#livre) | NÍVEL REQUERIDO DO HERÓI
+NÍVEL DA CARTA [<span class="knowledge"><b>LIVRE</b></span>](/gameplay/knowledge.md#livre) | NÍVEL REQUERIDO DO HERÓI
 ---                      | ---
 1                        | 1
 2                        | 4

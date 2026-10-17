@@ -28,7 +28,7 @@ O objetivo é avançar na exploração do baralho, até que o objetivo estabelec
 
 Quando uma carta sem contexto é revelada
 * Se for uma carta de ficha ela é descartada sem efeito
-* Se for uma carta de recurso, é realizado um teste do ( [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md) + [<span class="house"><b>CON</b></span>](/hero/attributes.md) ➜ Dificuldade do Objetivo ✖ **10** ) para tentar obter a carta, se falhar, a carta é descartada sem efeito.
+* Se for uma carta de recurso, é realizado um teste do ( [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md) + [<span class="house"><b>CON</b></span>](/gameplay/attributes.md) ➜ Dificuldade do Objetivo ✖ **10** ) para tentar obter a carta, se falhar, a carta é descartada sem efeito.
 
 ---
 
@@ -50,7 +50,7 @@ Quando uma carta sem contexto é revelada
 
   _Os jogadores chegam às ruínas do Templo Esquecido, um local antigo e misterioso cheio de segredos e perigos. O objetivo é encontrar a Lira Flutuante (Carta de Item), um artefato lendário que se diz ter o poder de controlar as emoções e os elementos da natureza. Os baralhos representam diferentes áreas do templo._
 
-  > **Efeitos de objetivo**: [<span class="keyword-activation">Permanente</span>](/cards/effect.md) Todo [<span class="event"><b>DESTINO</b></span>](/cards/event.md) descartado em testes vale o dobro.
+  > **Efeitos de objetivo**: [<span class="keyword-activation">Permanente</span>](/gameplay/effect.md) Todo [<span class="event"><b>DESTINO</b></span>](/cards/event.md) descartado em testes vale o dobro.
 
   !!!
 
@@ -80,7 +80,7 @@ Quando uma carta sem contexto é revelada
   - 3x Habilidades com ÁGUA
   - 1x Wildcard (Chave da Câmara dos Guardiões)
 
-  > **Efeitos de baralho**: [<span class="keyword-activation">Ativar</span>](/cards/effect.md) [<span class="keyword-limit">Ação Total</span>](/cards/effect.md) Realize um teste de Mergulho( [<span class="knowledge"><b>ATLETISMO</b></span>](/hero/knowledge.md#atletismo) + [<span class="house"><b>CON</b></span>](/hero/attributes.md) ➜ **24** ). Se bem sucedido, o jogador pode buscar uma **wildcard** neste baralho e obtê-la. Se falhar, o Herói sofre <span class="negative">10</span> de <b>DANO</b>.
+  > **Efeitos de baralho**: [<span class="keyword-activation">Ativar</span>](/gameplay/effect.md) [<span class="keyword-limit">Ação Total</span>](/gameplay/effect.md) Realize um teste de Mergulho( [<span class="knowledge"><b>ATLETISMO</b></span>](/gameplay/knowledge.md#atletismo) + [<span class="house"><b>CON</b></span>](/gameplay/attributes.md) ➜ **24** ). Se bem sucedido, o jogador pode buscar uma **wildcard** neste baralho e obtê-la. Se falhar, o Herói sofre <span class="negative">10</span> de <b>DANO</b>.
 
   +++ Câmara dos Guardiões
   _Essa câmara é protegida por guardiões antigos e cheia de armadilhas mortais. Para chegar nela é preciso passar pelo Salão Principal levando a chave que está perdida no fundo do Jardim Submerso._

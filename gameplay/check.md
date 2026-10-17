@@ -16,7 +16,7 @@ Desta forma, os jogadores não podem simplesmente declarar que seus personagens 
 
 Quando a narração da ação de um personagem, seja por parte dos jogadores ou por parte do Mestre, chegar a um ponto onde a mera declaração dos resultados daquela ação não forem suficientes, óbvios ou justos, é necessário realizar um teste.
 
-Primariamente, cabe ao jogador descrever como o personagem sobre seu controle está realizando a ação. Dado a descrição fornecida, o jogador então diz qual será a forma que ele vai jogar este teste, ou seja, qual [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md) e Atributo ele irá usar para realizar aquele teste e o Mestre arbitra se esta forma é apropriada ou não, tendo ele a palavra final sobre a forma do teste conforme a descrição, bem como fornecer opções de como realizar o teste ao jogador, se necessário.
+Primariamente, cabe ao jogador descrever como o personagem sobre seu controle está realizando a ação. Dado a descrição fornecida, o jogador então diz qual será a forma que ele vai jogar este teste, ou seja, qual [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md) e Atributo ele irá usar para realizar aquele teste e o Mestre arbitra se esta forma é apropriada ou não, tendo ele a palavra final sobre a forma do teste conforme a descrição, bem como fornecer opções de como realizar o teste ao jogador, se necessário.
 
 Não cabe ao Mestre censurar ou orientar as ideias dos jogadores. Se o jogador decidir por uma forma que o mestre julgar mais complexa ou difícil, ele não deve impedir, e apenas ajustar a dificuldade. Sendo a jogada válida, o Mestre deve aceitar a forma escolhida pelo jogador, mesmo que seja diferente do que ele tinha em mente inicialmente.
 
@@ -33,9 +33,9 @@ Para persuadir um NPC, o Mestre conhece a real personalidade e motivações do N
 Não existe forma "correta" ou "errada" de fazer um teste, a criatividade e a narrativa são os elementos mais importantes, e o sistema tem função apenas de emular e medir a ação narrada.
 
 !!!secondary Exemplo
-Um teste de _Corrida_ é geralmente realizado com ( [<span class="knowledge"><b>ATLETISMO</b></span>](/hero/knowledge.md#atletismo) + [<span class="house"><b>AGI</b></span>](/hero/attributes.md) ), enquanto um teste de _Persuasão_ geralmente é realizado com ( [<span class="knowledge"><b>ASTÚCIA</b></span>](/hero/knowledge.md#astúcia) + [<span class="house"><b>CAR</b></span>](/hero/attributes.md) ), etc..
+Um teste de _Corrida_ é geralmente realizado com ( [<span class="knowledge"><b>ATLETISMO</b></span>](/gameplay/knowledge.md#atletismo) + [<span class="house"><b>AGI</b></span>](/gameplay/attributes.md) ), enquanto um teste de _Persuasão_ geralmente é realizado com ( [<span class="knowledge"><b>ASTÚCIA</b></span>](/gameplay/knowledge.md#astúcia) + [<span class="house"><b>CAR</b></span>](/gameplay/attributes.md) ), etc..
 
-Porém, o jogador pode contra-argumentar que nesta situação ele está tentando "_convencer um NPC que é atleta, a não abandonar o esporte_", e portanto ele vai usar ( [<span class="knowledge"><b>ATLETISMO</b></span>](/hero/knowledge.md#atletismo) + [<span class="house"><b>INT</b></span>](/hero/attributes.md) ) para um teste de _Persuasão_, ao explicar que irá usar seus conhecimentos de [<span class="knowledge"><b>ATLETISMO</b></span>](/hero/knowledge.md#atletismo) combinado com lógica ([<span class="house"><b>INT</b></span>](/hero/attributes.md)) para apoiar sua tentativa de convencimento do NPC.
+Porém, o jogador pode contra-argumentar que nesta situação ele está tentando "_convencer um NPC que é atleta, a não abandonar o esporte_", e portanto ele vai usar ( [<span class="knowledge"><b>ATLETISMO</b></span>](/gameplay/knowledge.md#atletismo) + [<span class="house"><b>INT</b></span>](/gameplay/attributes.md) ) para um teste de _Persuasão_, ao explicar que irá usar seus conhecimentos de [<span class="knowledge"><b>ATLETISMO</b></span>](/gameplay/knowledge.md#atletismo) combinado com lógica ([<span class="house"><b>INT</b></span>](/gameplay/attributes.md)) para apoiar sua tentativa de convencimento do NPC.
 
 O Mestre então, julga a dificuldade do teste com base na forma. Ele pode decidir que para persuadir o alvo por mentiras e manipulações, o teste de _Persuasão_ tradicional é mais difícil, mas para persuadir o alvo por meio de argumentos lógicos sobre um tema que o NPC ama, o teste de _Persuasão_ alternativo é mais fácil, ou vice-versa, dependendo do contexto da situação.
 
@@ -48,13 +48,13 @@ Assim, um jogador experiente ou criativo consegue adaptar a forma de realizar um
 
 O teste é composto de **7** elementos, descritos na seguinte notação:
 
-> _Nome_( [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md) + **Atributo** + **Modificadores** + **Bônus** ➜ **Dificuldade** )
+> _Nome_( [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md) + **Atributo** + **Modificadores** + **Bônus** ➜ **Dificuldade** )
 >
 > O sétimo elemento é o dado rolado, mas ele não é expresso na notação do teste.
 > ---
-> * Ex. 1: _Escalar_( [<span class="knowledge"><b>ATLETISMO</b></span>](/hero/knowledge.md#atletismo) + [<span class="house"><b>FOR</b></span>](/hero/attributes.md) ➜ **12** )
-> * Ex. 2: _Caçar_( [<span class="knowledge"><b>PRÁTICA</b></span>](/hero/knowledge.md#prática) + [<span class="house"><b>PER</b></span>](/hero/attributes.md) - <span class="negative">3</span> ➜ **16** )
-> * Ex. 3: _Memória_( [<span class="house"><b>INT</b></span>](/hero/attributes.md) + <span class="positive">10</span> ➜ **20** )
+> * Ex. 1: _Escalar_( [<span class="knowledge"><b>ATLETISMO</b></span>](/gameplay/knowledge.md#atletismo) + [<span class="house"><b>FOR</b></span>](/gameplay/attributes.md) ➜ **12** )
+> * Ex. 2: _Caçar_( [<span class="knowledge"><b>PRÁTICA</b></span>](/gameplay/knowledge.md#prática) + [<span class="house"><b>PER</b></span>](/gameplay/attributes.md) - <span class="negative">3</span> ➜ **16** )
+> * Ex. 3: _Memória_( [<span class="house"><b>INT</b></span>](/gameplay/attributes.md) + <span class="positive">10</span> ➜ **20** )
 
 ==- Nome
 
@@ -70,14 +70,14 @@ O teste é composto de **7** elementos, descritos na seguinte notação:
 
 ==- Conhecimento
 
-  O [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md) do teste é a base para determinar de qual área do conhecimento este teste faz parte.
+  O [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md) do teste é a base para determinar de qual área do conhecimento este teste faz parte.
 
-  Como já explicado, não existe um [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md) certo ou predeterminado para cada teste que possa surgir durante o jogo, mas existem alguns conhecimentos que são mais comumente associados a certos tipos de testes. Cabe ao jogador que controla o personagem dizer quando, como e de que forma ele irá realizar aquele teste, e isso inclui a escolha do conhecimento que ele acredita ser mais relevante para aquela situação, sendo que o Mestre tem a palavra final sobre a escolha.
+  Como já explicado, não existe um [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md) certo ou predeterminado para cada teste que possa surgir durante o jogo, mas existem alguns conhecimentos que são mais comumente associados a certos tipos de testes. Cabe ao jogador que controla o personagem dizer quando, como e de que forma ele irá realizar aquele teste, e isso inclui a escolha do conhecimento que ele acredita ser mais relevante para aquela situação, sendo que o Mestre tem a palavra final sobre a escolha.
 
-  Se o personagem tem o [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md) determinado para o teste, ele recebe um bônus no teste relacionado ao seu nível de [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md).
+  Se o personagem tem o [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md) determinado para o teste, ele recebe um bônus no teste relacionado ao seu nível de [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md).
 
   {.striped}
-  | Nível do [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md) | Bônus |
+  | Nível do [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md) | Bônus |
   | --- | --- |
   | 0 | 0  |
   | 1 | 1  |
@@ -95,20 +95,20 @@ O teste é composto de **7** elementos, descritos na seguinte notação:
   Existem também os testes de conhecimento **Livre**, que são aqueles testes onde não é possível ou não faz sentido associar um conhecimento específico, e portanto o personagem não recebe nenhum bônus de conhecimento para realizar aquele teste.
 
   !!!secondary Exemplo
-  _Resistir a Veneno_: um personagem inconsciente está resistindo a uma substância nociva em seu organismo. Seria um teste **Livre** de [<span class="house"><b>CON</b></span>](/hero/attributes.md), onde os demais bônus são aplicados, mas nenhum [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md) é associado.
+  _Resistir a Veneno_: um personagem inconsciente está resistindo a uma substância nociva em seu organismo. Seria um teste **Livre** de [<span class="house"><b>CON</b></span>](/gameplay/attributes.md), onde os demais bônus são aplicados, mas nenhum [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md) é associado.
   !!!
 
 ==- Atributo
 
-  Junto ao [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md), este elemento dá a forma ao teste, sendo escolhido com base na descrição fornecida pelo jogador que controla o personagem que realiza o teste.
+  Junto ao [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md), este elemento dá a forma ao teste, sendo escolhido com base na descrição fornecida pelo jogador que controla o personagem que realiza o teste.
 
-  O Atributo escolhido para o teste deve ser aquele que melhor representa a capacidade ou característica do personagem que está sendo testada naquela situação específica. Assim como o [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md), o Atributo é escolhido pelo jogador, mas o Mestre tem a palavra final sobre a escolha, e pode sugerir ou exigir um Atributo específico com base na descrição da ação ou situação.
+  O Atributo escolhido para o teste deve ser aquele que melhor representa a capacidade ou característica do personagem que está sendo testada naquela situação específica. Assim como o [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md), o Atributo é escolhido pelo jogador, mas o Mestre tem a palavra final sobre a escolha, e pode sugerir ou exigir um Atributo específico com base na descrição da ação ou situação.
 
 ==- Modificadores
 
   São todos os [benefícios e penalidades](/gameplay/modifier.md) provenientes de cartas afetando o teste.
 
-  É comum que personagens tenham cartas e efeitos que forneçam bônus para certos tipos de testes, como bônus para testes de [<span class="knowledge"><b>ARCANO</b></span>](/hero/knowledge.md#arcano), ou bônus para testes de [<span class="house"><b>PER</b></span>](/hero/attributes.md), etc., e esses bônus são modificadores para o teste.
+  É comum que personagens tenham cartas e efeitos que forneçam bônus para certos tipos de testes, como bônus para testes de [<span class="knowledge"><b>ARCANO</b></span>](/gameplay/knowledge.md#arcano), ou bônus para testes de [<span class="house"><b>PER</b></span>](/gameplay/attributes.md), etc., e esses bônus são modificadores para o teste.
 
 ==- Bônus
 
@@ -134,9 +134,9 @@ O teste é composto de **7** elementos, descritos na seguinte notação:
 
 ==- Dado
 
-  O teste é resolvido por meio de uma rolagem de [dados](/gameplay/die.md), onde o jogador rola um dado de 6 faces (<b>(1D6)</b>) e soma o resultado ao total do [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md), Atributo, Modificadores e Bônus para obter o resultado final do teste.
+  O teste é resolvido por meio de uma rolagem de [dados](/gameplay/die.md), onde o jogador rola um dado de 6 faces (<b>(1D6)</b>) e soma o resultado ao total do [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md), Atributo, Modificadores e Bônus para obter o resultado final do teste.
 
-  Se o teste for de um [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md) que o personagem não possui, ele deve rolar .
+  Se o teste for de um [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md) que o personagem não possui, ele deve rolar .
 
   Na rolagem do dado do teste, leva-se em conta a regra de [rolagem perfeita](/gameplay/die.md#dados-extras-rolagem-perfeita).
 
@@ -222,7 +222,7 @@ Se o personagem não conseguiu destrancar a porta de uma casa, ele não pode mai
 
 #### Reteste
 
-Sendo este um jogo de progressão de personagem, dado uma passagem de tempo de <u>pelo menos 1 dia</u>, combinado com uma <u>mudança na construção do personagem</u>, como mudança de [<span class="class"><b>CLASSE</b></span>](/cards/class.md), uma carta que possa ser advogada como bônus significativo, ou a aquisição de [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md), isso deve ser interpretado como uma mudança expressiva no personagem, permitindo uma nova tentativa.
+Sendo este um jogo de progressão de personagem, dado uma passagem de tempo de <u>pelo menos 1 dia</u>, combinado com uma <u>mudança na construção do personagem</u>, como mudança de [<span class="class"><b>CLASSE</b></span>](/cards/class.md), uma carta que possa ser advogada como bônus significativo, ou a aquisição de [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md), isso deve ser interpretado como uma mudança expressiva no personagem, permitindo uma nova tentativa.
 
 ---
 
@@ -234,8 +234,8 @@ Nestes casos, o Mestre pode estabelecer uma série de testes, onde cada teste su
 
 !!!secondary Exemplo 1
 _O personagem quer extrair uma informação do taverneiro, porém o taverneiro desconfiado, não engaja na conversa com o personagem._
-> _Iniciar Conversa_( [<span class="house"><b>CAR</b></span>](/hero/attributes.md) ➜ **10** )
-> _Persuadir_( [<span class="knowledge"><b>ASTÚCIA</b></span>](/hero/knowledge.md#astúcia) + [<span class="house"><b>INT</b></span>](/hero/attributes.md) ➜ **14** )
+> _Iniciar Conversa_( [<span class="house"><b>CAR</b></span>](/gameplay/attributes.md) ➜ **10** )
+> _Persuadir_( [<span class="knowledge"><b>ASTÚCIA</b></span>](/gameplay/knowledge.md#astúcia) + [<span class="house"><b>INT</b></span>](/gameplay/attributes.md) ➜ **14** )
 
 Neste caso, se falhar no primeiro teste, o personagem não consegue iniciar a conversa, e portanto não tem a oportunidade de realizar o teste de persuasão.
 
@@ -244,8 +244,8 @@ Porém, se obtiver um sucesso de nível 2 por exemplo, o taverneiro poderia fica
 
 !!!secondary Exemplo 2
 _O personagem quer escalar um muro e depois saltar do muro para o telhado de uma construção._
-> _Escalar Muro_( [<span class="knowledge"><b>ATLETISMO</b></span>](/hero/knowledge.md#atletismo) + [<span class="house"><b>FOR</b></span>](/hero/attributes.md) ➜ **14** )
-> _Saltar para o Telhado_( [<span class="house"><b>AGI</b></span>](/hero/attributes.md) ➜ **10** )
+> _Escalar Muro_( [<span class="knowledge"><b>ATLETISMO</b></span>](/gameplay/knowledge.md#atletismo) + [<span class="house"><b>FOR</b></span>](/gameplay/attributes.md) ➜ **14** )
+> _Saltar para o Telhado_( [<span class="house"><b>AGI</b></span>](/gameplay/attributes.md) ➜ **10** )
 
 Neste caso, se falhar no primeiro teste, o personagem não consegue escalar o muro, e portanto não tem a oportunidade de realizar o teste de salto para o telhado.
 
@@ -264,14 +264,14 @@ Diferente de uma sequência de testes, onde cada teste subsequente é condiciona
 
 !!!secondary Exemplo
 _O personagem quer realizar um ataque de espada, onde ele precisa acertar uma das falhas na armadura do alvo e matá-lo._
-> _Acertar Falha da Armadura_( [<span class="house"><b>PER</b></span>](/hero/attributes.md) ) + _Matar Alvo_( [<span class="house"><b>FOR</b></span>](/hero/attributes.md) ) ➜ **28**
+> _Acertar Falha da Armadura_( [<span class="house"><b>PER</b></span>](/gameplay/attributes.md) ) + _Matar Alvo_( [<span class="house"><b>FOR</b></span>](/gameplay/attributes.md) ) ➜ **28**
 
 Neste caso, o estrago final causado é determinado por quão bem o personagem encaixou o golpe na falha da armadura, bem como pela força e habilidade do personagem ao tentar matar o alvo, sendo que o Mestre expos que 28 causaria a morte do alvo.
 !!!
 
 !!!secondary Exemplo
 _O personagem quer correr de uma ponta a outra de uma corda bamba o mais rápido possível e sem cair._
-> _Equilíbrio_( [<span class="house"><b>AGI</b></span>](/hero/attributes.md) ) + _Correr_( [<span class="knowledge"><b>ATLETISMO</b></span>](/hero/knowledge.md#atletismo) + [<span class="house"><b>AGI</b></span>](/hero/attributes.md) )
+> _Equilíbrio_( [<span class="house"><b>AGI</b></span>](/gameplay/attributes.md) ) + _Correr_( [<span class="knowledge"><b>ATLETISMO</b></span>](/gameplay/knowledge.md#atletismo) + [<span class="house"><b>AGI</b></span>](/gameplay/attributes.md) )
 
 Neste caso, a velocidade de travessia é determinado pela composição do equilíbrio e velocidade do personagem.
 !!!
@@ -326,17 +326,17 @@ Sendo que uma competição pode envolver varias partes, seja essas partes person
 
 Uma competição usa a seguinte notação:
 
-> _Nome_( [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md) + **Atributo** + **Modificadores** + **Bônus**  ✖  [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md) + **Atributo** + **Modificadores** + **Bônus** )
+> _Nome_( [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md) + **Atributo** + **Modificadores** + **Bônus**  ✖  [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md) + **Atributo** + **Modificadores** + **Bônus** )
 > ---
-> * Ex. 1: _Luta de Box_( [<span class="knowledge"><b>ATLETISMO</b></span>](/hero/knowledge.md#atletismo) + [<span class="house"><b>FOR</b></span>](/hero/attributes.md) ✖ [<span class="knowledge"><b>ATLETISMO</b></span>](/hero/knowledge.md#atletismo) + [<span class="house"><b>CON</b></span>](/hero/attributes.md) )
-> * Ex. 2: _Acertar Pedrada_( [<span class="house"><b>PER</b></span>](/hero/attributes.md) ✖ [<span class="house"><b>AGI</b></span>](/hero/attributes.md) )
+> * Ex. 1: _Luta de Box_( [<span class="knowledge"><b>ATLETISMO</b></span>](/gameplay/knowledge.md#atletismo) + [<span class="house"><b>FOR</b></span>](/gameplay/attributes.md) ✖ [<span class="knowledge"><b>ATLETISMO</b></span>](/gameplay/knowledge.md#atletismo) + [<span class="house"><b>CON</b></span>](/gameplay/attributes.md) )
+> * Ex. 2: _Acertar Pedrada_( [<span class="house"><b>PER</b></span>](/gameplay/attributes.md) ✖ [<span class="house"><b>AGI</b></span>](/gameplay/attributes.md) )
 
 !!!secondary Exemplo 1 - Teste Simples
 _Luta de Box_: dois personagens estão competindo em uma luta de boxe, e o resultado do teste de cada personagem é comparado para determinar quem venceu a luta, com base em quem teve o maior resultado. Pode se realizar um teste de competiçao por round se preferirem uma luta longa, onde em cada round os jogadores descrevem suas ações e estratégias para aquele round, determinando assim a forma do teste de cada round.
 !!!
 
 !!!secondary Exemplo 2 - Teste Composto
-_Duelo_: dois personagens estão competindo em um duelo de saque de arma e tiro estilo velho oeste. É feito um teste de [<span class="house"><b>AGI</b></span>](/hero/attributes.md) para sacar a arma, e o personagem que tiver o maior resultado consegue sacar primeiro, e então tem a oportunidade de realizar um teste de [<span class="house"><b>PER</b></span>](/hero/attributes.md) para atirar no oponente, se ele não obtiver o mínimo determinado pelo mestre para acertar, o outro personagem então também tem a oportunidade de realizar um teste de [<span class="house"><b>PER</b></span>](/hero/attributes.md) para atirar.
+_Duelo_: dois personagens estão competindo em um duelo de saque de arma e tiro estilo velho oeste. É feito um teste de [<span class="house"><b>AGI</b></span>](/gameplay/attributes.md) para sacar a arma, e o personagem que tiver o maior resultado consegue sacar primeiro, e então tem a oportunidade de realizar um teste de [<span class="house"><b>PER</b></span>](/gameplay/attributes.md) para atirar no oponente, se ele não obtiver o mínimo determinado pelo mestre para acertar, o outro personagem então também tem a oportunidade de realizar um teste de [<span class="house"><b>PER</b></span>](/gameplay/attributes.md) para atirar.
 !!!
 
 !!!secondary Exemplo 3 - Teste em Conjunto
@@ -365,12 +365,12 @@ Personagens podem adicionar cartas de recurso em testes, para melhorar as condi�
 
 Para isso, o jogador deve descartar uma quantidade de cartas de recurso do [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) do Herói, ou do anexo do [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md), podendo combinar diferentes recursos para um mesmo teste, sendo que cada tipo de recurso tem uma função diferente, e deve ser usado em um momento específico do teste, como descrito a seguir.
 
-Se o recurso descartado for do mesmo [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md) do teste (incluindo Livre), ele adiciona o dobro do se valor. Um recurso de ( [<span class="knowledge"><b>ARCANO</b></span>](/hero/knowledge.md#arcano) ➜ **2** ) de valor igual a **5**, para um teste de [<span class="knowledge"><b>ARCANO</b></span>](/hero/knowledge.md#arcano), contaria como **10**.
+Se o recurso descartado for do mesmo [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md) do teste (incluindo Livre), ele adiciona o dobro do se valor. Um recurso de ( [<span class="knowledge"><b>ARCANO</b></span>](/gameplay/knowledge.md#arcano) ➜ **2** ) de valor igual a **5**, para um teste de [<span class="knowledge"><b>ARCANO</b></span>](/gameplay/knowledge.md#arcano), contaria como **10**.
 
 Acompanhe o seguinte exemplo:
 
 > _O personagem está tentando destrancar a porta de uma loja._
-> _Destrancar_( [<span class="knowledge"><b>ASTÚCIA</b></span>](/hero/knowledge.md#astúcia) + [<span class="house"><b>AGI</b></span>](/hero/attributes.md) ➜ **14** )
+> _Destrancar_( [<span class="knowledge"><b>ASTÚCIA</b></span>](/gameplay/knowledge.md#astúcia) + [<span class="house"><b>AGI</b></span>](/gameplay/attributes.md) ➜ **14** )
 
 ==- <span class="fill">[<span class="skill"><b>XP</b></span>](/cards/skills.md)</span> [!badge Antes de realizar o teste]
 
@@ -471,7 +471,7 @@ Ele advoga que ele tem a carta _Corda_, e portanto tem um item que pode ajudá-l
 !!!secondary Exemplo 3 - [<span class="skill"><b>HABILIDADE</b></span>](/cards/skills.md)
 _O personagem está tentando acender uma fogueira._
 
-Ele advoga que ele tem a carta _Bola de Fogo_, e portanto o teste que seria de ( [<span class="knowledge"><b>PRÁTICA</b></span>](/hero/knowledge.md#prática) + [<span class="house"><b>FOR</b></span>](/hero/attributes.md) ) para acender a fogueira, pode ser realizado com ( [<span class="knowledge"><b>ARCANO</b></span>](/hero/knowledge.md#arcano) + [<span class="house"><b>ESP</b></span>](/hero/attributes.md) ) para usar a magia de fogo para acender a fogueira, e o mestre aceita o argumento, permitindo que o teste seja realizado com [<span class="knowledge"><b>ARCANO</b></span>](/hero/knowledge.md#arcano) ao invés de [<span class="knowledge"><b>PRÁTICA</b></span>](/hero/knowledge.md#prática), porém o jogador deve adicionalmente pagar custo de [<span class="skill"><b>MANA</b></span>](/hero/#mana) relacionados à carta.
+Ele advoga que ele tem a carta _Bola de Fogo_, e portanto o teste que seria de ( [<span class="knowledge"><b>PRÁTICA</b></span>](/gameplay/knowledge.md#prática) + [<span class="house"><b>FOR</b></span>](/gameplay/attributes.md) ) para acender a fogueira, pode ser realizado com ( [<span class="knowledge"><b>ARCANO</b></span>](/gameplay/knowledge.md#arcano) + [<span class="house"><b>ESP</b></span>](/gameplay/attributes.md) ) para usar a magia de fogo para acender a fogueira, e o mestre aceita o argumento, permitindo que o teste seja realizado com [<span class="knowledge"><b>ARCANO</b></span>](/gameplay/knowledge.md#arcano) ao invés de [<span class="knowledge"><b>PRÁTICA</b></span>](/gameplay/knowledge.md#prática), porém o jogador deve adicionalmente pagar custo de [<span class="skill"><b>MANA</b></span>](/hero/#mana) relacionados à carta.
 !!!
 
 Qualquer carta na mesa de um personagem pode ser usada como argumento para obter bônus em um teste, cabe ao Mestre e jogadores estarem atentos a tais cartas.

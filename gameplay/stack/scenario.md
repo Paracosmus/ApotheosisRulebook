@@ -8,17 +8,17 @@ O cenário é a zona das cartas em jogo do Mestre de Jogo e/ou da campanha, de q
 
 Todas as cartas no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md) estão consideradas ativas por padrão e seus efeitos devem ser considerados para todos os personagens.
 
-[<span class="keyword-activation">Permanente</span>](/cards/effect.md)
-:   Efeitos permanentes devem ser aplicados a todos os personagens, mesmo que não tenham o [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md) e nível necessários.
+[<span class="keyword-activation">Permanente</span>](/gameplay/effect.md)
+:   Efeitos permanentes devem ser aplicados a todos os personagens, mesmo que não tenham o [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md) e nível necessários.
 
-[<span class="keyword-activation">Auto</span>](/cards/effect.md)
-:   Efeitos automáticos devem ser aplicados a todos os personagens, mesmo que não tenham o [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md) e nível necessários.
+[<span class="keyword-activation">Auto</span>](/gameplay/effect.md)
+:   Efeitos automáticos devem ser aplicados a todos os personagens, mesmo que não tenham o [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md) e nível necessários.
 
-[<span class="keyword-activation">Ativar</span>](/cards/effect.md)
-:   Efeitos ativáveis podem ser ativados por qualquer personagem no seu turno. Sendo que o personagem que ativar o efeito deve pagar todos os custos associados ao efeito e cumprir os demais requerimentos, bem como ter [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md) e nível.
+[<span class="keyword-activation">Ativar</span>](/gameplay/effect.md)
+:   Efeitos ativáveis podem ser ativados por qualquer personagem no seu turno. Sendo que o personagem que ativar o efeito deve pagar todos os custos associados ao efeito e cumprir os demais requerimentos, bem como ter [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md) e nível.
 
 Bônus e Outros
-:   Bônus e outras características, como adição de [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md), espaços, etc. são aplicados a todos os personagens, mesmo que não tenham o [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md) e nível necessários.
+:   Bônus e outras características, como adição de [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md), espaços, etc. são aplicados a todos os personagens, mesmo que não tenham o [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md) e nível necessários.
 
 O [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md) aceita cartas de qualquer naipe, e todas seguem a mesma regra. Por isso, um efeito que se refere a um tipo de carta no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md) deve especificá-lo, como em "cada [<span class="event"><b>EVENTO</b></span>](/cards/event.md) no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md)".
 
@@ -34,7 +34,7 @@ Um [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) n
 
 Uma carta pode ser adicionada ao [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md) das seguintes formas:
 
-1. **Palavra-chave**: Quando um efeito com a palavra-chave [<span class="keyword-task">Registre</span>](/cards/effect.md) for ativado.
+1. **Palavra-chave**: Quando um efeito com a palavra-chave [<span class="keyword-task">Registre</span>](/gameplay/effect.md) for ativado.
 
 1. **Efeito de carta**: Algumas cartas possuem efeitos que especificam qual, quando e como uma carta será enviada para o [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md).
 

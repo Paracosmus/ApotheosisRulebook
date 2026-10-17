@@ -76,7 +76,7 @@ Tipos de Especificadores:
 
 ## <span class="item">Fabricar</span>
 
-Uma forma alternativa de se obter um [<span class="item"><b>ITEM</b></span>](/cards/item.md), é fabricando-o. Para isso, o personagem deve sacrificar seu turno, selecionar um [<span class="item"><b>ITEM</b></span>](/cards/item.md) no entreposto, cujo nível mínimo do [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md) ele possua, e enterrar cartas de [<span class="item"><b>ITEM</b></span>](/cards/item.md) de sua [<span class="main"><b>MESA</b></span>](/hero/table/) e/ou [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md), que juntas contenham pelo menos os mesmos ícones de materiais, na mesma quantidade, presentes na carta selecionada.
+Uma forma alternativa de se obter um [<span class="item"><b>ITEM</b></span>](/cards/item.md), é fabricando-o. Para isso, o personagem deve sacrificar seu turno, selecionar um [<span class="item"><b>ITEM</b></span>](/cards/item.md) no entreposto, cujo nível mínimo do [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md) ele possua, e enterrar cartas de [<span class="item"><b>ITEM</b></span>](/cards/item.md) de sua [<span class="main"><b>MESA</b></span>](/hero/table/) e/ou [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md), que juntas contenham pelo menos os mesmos ícones de materiais, na mesma quantidade, presentes na carta selecionada.
 
 Tipos de Materiais de Fabricação:
 

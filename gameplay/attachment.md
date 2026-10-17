@@ -14,7 +14,7 @@ Uma carta anexada é parte da carta hospedeira, e portanto não pode ser tratada
 - O anexo não pode ser alvo de ações, a não ser quando a ação especificar que seleciona um anexo como alvo.
 - O anexo não pode possuir seus próprios anexos, se isto acontecer, os anexos dele devem ser enviados para o [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) do dono se possível, ou para o entreposto caso contrário.
 - O anexo não pode possuir seus próprios [<span class="main">❂<b>CONTADOR</b></span>](/gameplay/counter/), nesse caso os contadores são perdidos quando o anexo for anexado à outra carta.
-- O anexo deve ser sempre mantido revelado, mesmo que a carta hospedeira esteja oculta. Quando isso ocorrer, lembre-se que os anexos se tornam [inativos](/cards/#estado-da-carta), portanto, mesmo efeitos [<span class="keyword-scope">Do Anexo</span>](/cards/effect.md) não podem ser usados.
+- O anexo deve ser sempre mantido revelado, mesmo que a carta hospedeira esteja oculta. Quando isso ocorrer, lembre-se que os anexos se tornam [inativos](/cards/#estado-da-carta), portanto, mesmo efeitos [<span class="keyword-scope">Do Anexo</span>](/gameplay/effect.md) não podem ser usados.
 - Anexos não ocupam espaço na [<span class="main"><b>MESA</b></span>](/hero/table/) do Herói, apenas a hospedeira conta.
 
 !!!
@@ -37,6 +37,6 @@ Uma carta pode possuir até **5** anexos.
 
 ## Efeitos de Anexos
 
-Cartas anexadas têm seu efeito ignorados, e não podem ser ativadas. A não ser quando uma carta anexada possua o identificador de efeito [<span class="keyword-scope">Do Anexo</span>](/cards/effect.md).
+Cartas anexadas têm seu efeito ignorados, e não podem ser ativadas. A não ser quando uma carta anexada possua o identificador de efeito [<span class="keyword-scope">Do Anexo</span>](/gameplay/effect.md).
 
 ---

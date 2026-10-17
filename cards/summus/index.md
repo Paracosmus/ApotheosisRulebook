@@ -11,7 +11,7 @@ A ideia por trás de Summus é adicionar *gimmicks* (mecânicas) novas ao jogo, 
 Uma carta [<span class="summus"><b>SUMMUS</b></span>](/cards/summus/) pode ser identificada por suas 3 características distintas:
 
 - O ícone do naipe tem sua cor modificada para <span class="summus">magenta</span>.
-- Raridade [<span class="rare">RARA</span>](/cards/rarity.md) ou superior, e *full-art*.
+- Raridade [<span class="rare">RARA</span>](/gameplay/rarity.md) ou superior, e *full-art*.
 - Cartas de **nível 3** (*Exceto quando cartas de [<span class="house"><b>CASA</b></span>](/cards/house.md)*)
 - A presença de uma caixa identificadora do tipo de Summus, abaixo ou acima do texto do efeito da carta, contendo informações adicionais referentes à sua mecânica extra.
 

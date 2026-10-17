@@ -15,7 +15,7 @@ O personagem (receptáculo) pode incorporar, estas formas de energia e dominá-l
 ||| :icon-file-moved:
 ![](/static/img/cards/entity.png)
 ||| :icon-arrow-down-right:
-1. **Bônus de Atributo**: Valores adicionados aos [Atributos](/hero/attributes.md) do personagem quando este [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) está desperto.
+1. **Bônus de Atributo**: Valores adicionados aos [Atributos](/gameplay/attributes.md) do personagem quando este [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) está desperto.
 
 1. **Tipo**: Ícone e nome do tipo deste [<span class="entity"><b>ENTE</b></span>](/cards/entity.md), definido pelo nível da carta
 
@@ -84,13 +84,13 @@ Para remover a carta de [<span class="entity"><b>ENTE</b></span>](/cards/enti
 
 > Ou _Falsa Apoteose_, é realizado ao incorporar um deus de grau menor, de menor poder ou relevância. Geralmente deuses jovens, ligados a eventos específicos ou ações.
 
-Em mecânicas de jogo, é quando o [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) é de **nível 3** ([<span class="entity"><b>DEUS</b></span>](/cards/entity.md)), e a raridade de sua carta é [<span class="epic">ÉPICA</span>](/cards/rarity.md) ou inferior.
+Em mecânicas de jogo, é quando o [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) é de **nível 3** ([<span class="entity"><b>DEUS</b></span>](/cards/entity.md)), e a raridade de sua carta é [<span class="epic">ÉPICA</span>](/gameplay/rarity.md) ou inferior.
 
 ### Grande Apoteose
 
 > Ou _Apoteose Verdadeira_, é realizado ao incorporar um deus de grau elevado, de grande poder e relevância. Geralmente deuses antigos, ligados aos primórdios da criação.
 
-Em mecânicas de jogo, é quando o [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) é de **nível 3** ([<span class="entity"><b>DEUS</b></span>](/cards/entity.md)), e a raridade de sua carta é [<span class="legendary">LENDÁRIA</span>](/cards/rarity.md).
+Em mecânicas de jogo, é quando o [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) é de **nível 3** ([<span class="entity"><b>DEUS</b></span>](/cards/entity.md)), e a raridade de sua carta é [<span class="legendary">LENDÁRIA</span>](/gameplay/rarity.md).
 
 ---
 

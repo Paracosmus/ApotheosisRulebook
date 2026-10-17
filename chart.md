@@ -77,6 +77,6 @@ Mover (por casa do tabuleiro)
 Ataque Normal
 :   **3** de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação)
 
-    | <b>DANO</b>    | [<span class="house"><b>FOR</b></span>](/hero/attributes.md) +  | {.compact}
+    | <b>DANO</b>    | [<span class="house"><b>FOR</b></span>](/gameplay/attributes.md) +  | {.compact}
     | ------------ | ---------------------- |
     | <b>DIRETO</b> | 1                      |

@@ -17,13 +17,13 @@ Os 7 atributos de um [<span class="companion"><b>COMPANHEIRO</b></span>](/car
 
 | Atributo  | Navio               | Descrição | {.compact}
 | ---       | ---                 | ---       |
-| [<span class="house"><b>CON</b></span>](/hero/attributes.md) | **Casco**           | Resistência do navio a ataques. Segue a mesma regra de <b>DANO</b> do formato _Padrão_ |
-| [<span class="house"><b>FOR</b></span>](/hero/attributes.md) | **Carga**           | Quantidade de carga que o navio pode carregar |
-| [<span class="house"><b>AGI</b></span>](/hero/attributes.md) | **Velocidade**      | Número máximo de _Contadores de Velocidade_. O número de _Contadores de Velocidade_ que o navio tem define com quanto [<span class="main"><b>AÇÃO</b></span>](/hero/#ação) o navio começa o seu turno |
-| [<span class="house"><b>PER</b></span>](/hero/attributes.md) | **Alcance**         | Iniciativa e distância máxima que o navio pode atacar |
-| [<span class="house"><b>INT</b></span>](/hero/attributes.md) | **Manobrabilidade** | Número de vezes que o navio pode rotacionar por turno |
-| [<span class="house"><b>CAR</b></span>](/hero/attributes.md) | **Tripulação**      | Número máximo de _Contadores de Tripulação_. Quando o navio não tem mais tripulação, ele não pode jogar |
-| [<span class="house"><b>ESP</b></span>](/hero/attributes.md) | **Canhões**         | Valor adicionado aos ataques do navio |
+| [<span class="house"><b>CON</b></span>](/gameplay/attributes.md) | **Casco**           | Resistência do navio a ataques. Segue a mesma regra de <b>DANO</b> do formato _Padrão_ |
+| [<span class="house"><b>FOR</b></span>](/gameplay/attributes.md) | **Carga**           | Quantidade de carga que o navio pode carregar |
+| [<span class="house"><b>AGI</b></span>](/gameplay/attributes.md) | **Velocidade**      | Número máximo de _Contadores de Velocidade_. O número de _Contadores de Velocidade_ que o navio tem define com quanto [<span class="main"><b>AÇÃO</b></span>](/hero/#ação) o navio começa o seu turno |
+| [<span class="house"><b>PER</b></span>](/gameplay/attributes.md) | **Alcance**         | Iniciativa e distância máxima que o navio pode atacar |
+| [<span class="house"><b>INT</b></span>](/gameplay/attributes.md) | **Manobrabilidade** | Número de vezes que o navio pode rotacionar por turno |
+| [<span class="house"><b>CAR</b></span>](/gameplay/attributes.md) | **Tripulação**      | Número máximo de _Contadores de Tripulação_. Quando o navio não tem mais tripulação, ele não pode jogar |
+| [<span class="house"><b>ESP</b></span>](/gameplay/attributes.md) | **Canhões**         | Valor adicionado aos ataques do navio |
 
 ---
 

@@ -7,18 +7,18 @@
 Quando um número é apresentado na forma **+X** ou **-X**, isso indica que se trata de um bônus.
 
 !!!secondary Exemplo 1
-  > <b>DANO</b> = [<span class="house"><b>FOR</b></span>](/hero/attributes.md) + <span class="positive">3</span> + 
+  > <b>DANO</b> = [<span class="house"><b>FOR</b></span>](/gameplay/attributes.md) + <span class="positive">3</span> + 
 
   * <b>DANO</b> é o valor final que se deseja saber. O resultado do cálculo.
-  * [<span class="house"><b>FOR</b></span>](/hero/attributes.md) é a variável base que recebe os bônus.
+  * [<span class="house"><b>FOR</b></span>](/gameplay/attributes.md) é a variável base que recebe os bônus.
   * Tanto o valor **3** quanto o valor <b>(1D6)</b> são o bônus adicionados ao valor base.
 !!!
 
 !!!secondary Exemplo 2
-  > <b>DANO</b> = [<span class="house"><b>FOR</b></span>](/hero/attributes.md) + <span class="positive">3</span> + 
+  > <b>DANO</b> = [<span class="house"><b>FOR</b></span>](/gameplay/attributes.md) + <span class="positive">3</span> + 
 
   * <b>DANO</b> é o valor final que se deseja saber. O resultado do cálculo.
-  * [<span class="house"><b>FOR</b></span>](/hero/attributes.md) é a variável base que recebe os bônus.
+  * [<span class="house"><b>FOR</b></span>](/gameplay/attributes.md) é a variável base que recebe os bônus.
   * Tanto o valor **3** quanto o valor <b>(1D6)</b> são o bônus adicionados ao valor base.
 !!!
 

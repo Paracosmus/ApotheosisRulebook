@@ -68,13 +68,13 @@ ou
 
 | {.compact}
 | ---                                                              | ---                            | ---                            |
-| <span class="house"></span> [<span class="house"><b>FOR</b></span>](/hero/attributes.md) + <span></span> | <span class="house"></span> 1 | <span class="house"></span> 3 |
+| <span class="house"></span> [<span class="house"><b>FOR</b></span>](/gameplay/attributes.md) + <span></span> | <span class="house"></span> 1 | <span class="house"></span> 3 |
 
 :::
 
 É o ataque padrão que todo personagem pode realizar, sem a necessidade de cartas ou recursos.
 
-Ao custo de 3 de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação) o personagem pode realizar um ataque <b>DIRETO</b> de 1 de <b>ALCANCE</b>, com <b>DANO</b> igual a ( [<span class="house"><b>FOR</b></span>](/hero/attributes.md) +  ).
+Ao custo de 3 de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação) o personagem pode realizar um ataque <b>DIRETO</b> de 1 de <b>ALCANCE</b>, com <b>DANO</b> igual a ( [<span class="house"><b>FOR</b></span>](/gameplay/attributes.md) +  ).
 
 Este ataque não possui propriedades ou efeitos, é o mais simples e direto que um ataque pode ser.
 
@@ -90,17 +90,17 @@ Você pode utilizar uma carta conforme as regras durante a batalha. Você pode u
 
 Todo ataque causa uma quantidade de <b>DANO</b>. O personagem que recebeu o ataque perde uma quantidade de [<span class="hp"><b>VIDA</b></span>](/hero/#vida) equivalente ao <b>DANO</b> sofrido. A quantidade de [<span class="hp"><b>VIDA</b></span>](/hero/#vida) perdida é chamada de <b>LESÃO</b> e calculada observando os seguintes passos.
 
-* +1 de <b>LESÃO</b> se o <b>DANO</b> for maior ou igual à metade da [<span class="house"><b>CON</b></span>](/hero/attributes.md) do alvo
-* +1 de <b>LESÃO</b> se o <b>DANO</b> for maior ou igual à [<span class="house"><b>CON</b></span>](/hero/attributes.md) do alvo
-* +1 de <b>LESÃO</b> para cada 5 pontos que o <b>DANO</b> for maior que a [<span class="house"><b>CON</b></span>](/hero/attributes.md) do alvo
+* +1 de <b>LESÃO</b> se o <b>DANO</b> for maior ou igual à metade da [<span class="house"><b>CON</b></span>](/gameplay/attributes.md) do alvo
+* +1 de <b>LESÃO</b> se o <b>DANO</b> for maior ou igual à [<span class="house"><b>CON</b></span>](/gameplay/attributes.md) do alvo
+* +1 de <b>LESÃO</b> para cada 5 pontos que o <b>DANO</b> for maior que a [<span class="house"><b>CON</b></span>](/gameplay/attributes.md) do alvo
 
 !!!info
-Por exemplo, se um alvo tem <u>_6 de [<span class="house"><b>CON</b></span>](/hero/attributes.md)_</u> e recebe um ataque de <u>_18 de <b>DANO</b>_</u>, o alvo sofre <u>_4 de <b>LESÃO</b>_</u>. O cálculo é feito da seguinte forma:
+Por exemplo, se um alvo tem <u>_6 de [<span class="house"><b>CON</b></span>](/gameplay/attributes.md)_</u> e recebe um ataque de <u>_18 de <b>DANO</b>_</u>, o alvo sofre <u>_4 de <b>LESÃO</b>_</u>. O cálculo é feito da seguinte forma:
 
-* +1 de <b>LESÃO</b> por ter sofrido um ataque maior ou igual à ( [<span class="house"><b>CON</b></span>](/hero/attributes.md) / 2 ) → (18 ≥ 6 / 2)
-* +1 de <b>LESÃO</b> por ter sofrido um ataque maior ou igual à [<span class="house"><b>CON</b></span>](/hero/attributes.md) → (18 ≥ 6)
-* +1 de <b>LESÃO</b> por ter sofrido um ataque 5 pontos maior que a [<span class="house"><b>CON</b></span>](/hero/attributes.md) → (18 ≥ 11)
-* +1 de <b>LESÃO</b> por ter sofrido um ataque 10 pontos maior que a [<span class="house"><b>CON</b></span>](/hero/attributes.md) → (18 ≥ 16)
+* +1 de <b>LESÃO</b> por ter sofrido um ataque maior ou igual à ( [<span class="house"><b>CON</b></span>](/gameplay/attributes.md) / 2 ) → (18 ≥ 6 / 2)
+* +1 de <b>LESÃO</b> por ter sofrido um ataque maior ou igual à [<span class="house"><b>CON</b></span>](/gameplay/attributes.md) → (18 ≥ 6)
+* +1 de <b>LESÃO</b> por ter sofrido um ataque 5 pontos maior que a [<span class="house"><b>CON</b></span>](/gameplay/attributes.md) → (18 ≥ 11)
+* +1 de <b>LESÃO</b> por ter sofrido um ataque 10 pontos maior que a [<span class="house"><b>CON</b></span>](/gameplay/attributes.md) → (18 ≥ 16)
 
 ==- Expresso em fórmula:
 $$
@@ -140,7 +140,7 @@ $$
 
 ### Falha
 
-Observando a equação acima, note que quando o <b>DANO</b> for menor que a metade da [<span class="house"><b>CON</b></span>](/hero/attributes.md) do alvo, o ataque falha e não causa <b>LESÃO</b>. Neste caso é considerado que o atacante errou o ataque, que pode ser por diversos motivos, como o alvo se esquivou, se defendeu ou o ataque não atingiu o alvo.
+Observando a equação acima, note que quando o <b>DANO</b> for menor que a metade da [<span class="house"><b>CON</b></span>](/gameplay/attributes.md) do alvo, o ataque falha e não causa <b>LESÃO</b>. Neste caso é considerado que o atacante errou o ataque, que pode ser por diversos motivos, como o alvo se esquivou, se defendeu ou o ataque não atingiu o alvo.
 
 ### Crítico
 

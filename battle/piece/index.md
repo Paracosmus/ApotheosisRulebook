@@ -8,8 +8,8 @@ A batalha acontece em um tabuleiro quadriculado de 11x11 casas. No tabuleiro, po
 
 - [<span class="hp"><b>VIDA</b></span>](/hero/#vida)
 - [<span class="main"><b>AÇÃO</b></span>](/hero/#ação)
-- [Atributos](/hero/attributes.md)
-- [Propriedades](/cards/tag.md)
+- [Atributos](/gameplay/attributes.md)
+- [Propriedades](/gameplay/tag.md)
 
 ---
 

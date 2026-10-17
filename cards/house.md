@@ -15,7 +15,7 @@ O jogador recebe uma carta de [<span class="house"><b>CASA</b></span>](/cards
 ![](/static/img/cards/house.png)
 
 ||| :icon-arrow-down-right:
-1. **Atributos Base**: Valores iniciais dos [Atributos](/hero/attributes.md) do personagem.
+1. **Atributos Base**: Valores iniciais dos [Atributos](/gameplay/attributes.md) do personagem.
 
 1. **Espaços iniciais de Equipamento**: Toda casa confere 3 espaços de [<span class="item"><b>EQUIPAMENTO</b></span>](/hero/table/equipment.md)
 

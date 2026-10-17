@@ -33,13 +33,13 @@
 
 | Icon                         | Termo (PT)   | English        | Variável           | Abreviação | Unicode | Color     |
 | ---------------------------- | ------------ | -------------- | ------------------ | ---------- | ------- | --------- |
-| <span class="house"></span> | Constituição | *Endurance*    | [<span class="house"><b>CONSTITUIÇÃO</b>](/hero/attributes.md)    | [<span class="house"><b>CON</b></span>](/hero/attributes.md)  | e905    | `#673AB7` |
-| <span class="house"></span> | Força        | *Strength*     | [<span class="house"><b>FORÇA</b>](/hero/attributes.md)     | [<span class="house"><b>FOR</b></span>](/hero/attributes.md)  | e909    | `#673AB7` |
-| <span class="house"></span> | Agilidade    | *Agility*      | [<span class="house"><b>AGILIDADE</b>](/hero/attributes.md)      | [<span class="house"><b>AGI</b></span>](/hero/attributes.md)  | e903    | `#673AB7` |
-| <span class="house"></span> | Percepção    | *Perception*   | [<span class="house"><b>PERCEPÇÃO</b>](/hero/attributes.md)   | [<span class="house"><b>PER</b></span>](/hero/attributes.md)  | e907    | `#673AB7` |
-| <span class="house"></span> | Inteligência | *Intelligence* | [<span class="house"><b>INTELIGÊNCIA</b>](/hero/attributes.md) | [<span class="house"><b>INT</b></span>](/hero/attributes.md)  | e906    | `#673AB7` |
-| <span class="house"></span> | Carisma      | *Charisma*     | [<span class="house"><b>CARISMA</b>](/hero/attributes.md)     | [<span class="house"><b>CAR</b></span>](/hero/attributes.md)  | e904    | `#673AB7` |
-| <span class="house"></span> | Espiritual   | *Spiritual*    | [<span class="house"><b>ESPIRITUAL</b>](/hero/attributes.md)    | [<span class="house"><b>ESP</b></span>](/hero/attributes.md)  | e908    | `#673AB7` |
+| <span class="house"></span> | Constituição | *Endurance*    | [<span class="house"><b>CONSTITUIÇÃO</b>](/gameplay/attributes.md)    | [<span class="house"><b>CON</b></span>](/gameplay/attributes.md)  | e905    | `#673AB7` |
+| <span class="house"></span> | Força        | *Strength*     | [<span class="house"><b>FORÇA</b>](/gameplay/attributes.md)     | [<span class="house"><b>FOR</b></span>](/gameplay/attributes.md)  | e909    | `#673AB7` |
+| <span class="house"></span> | Agilidade    | *Agility*      | [<span class="house"><b>AGILIDADE</b>](/gameplay/attributes.md)      | [<span class="house"><b>AGI</b></span>](/gameplay/attributes.md)  | e903    | `#673AB7` |
+| <span class="house"></span> | Percepção    | *Perception*   | [<span class="house"><b>PERCEPÇÃO</b>](/gameplay/attributes.md)   | [<span class="house"><b>PER</b></span>](/gameplay/attributes.md)  | e907    | `#673AB7` |
+| <span class="house"></span> | Inteligência | *Intelligence* | [<span class="house"><b>INTELIGÊNCIA</b>](/gameplay/attributes.md) | [<span class="house"><b>INT</b></span>](/gameplay/attributes.md)  | e906    | `#673AB7` |
+| <span class="house"></span> | Carisma      | *Charisma*     | [<span class="house"><b>CARISMA</b>](/gameplay/attributes.md)     | [<span class="house"><b>CAR</b></span>](/gameplay/attributes.md)  | e904    | `#673AB7` |
+| <span class="house"></span> | Espiritual   | *Spiritual*    | [<span class="house"><b>ESPIRITUAL</b>](/gameplay/attributes.md)    | [<span class="house"><b>ESP</b></span>](/gameplay/attributes.md)  | e908    | `#673AB7` |
 
 <br><br>
 
@@ -47,21 +47,21 @@
 
 | Icon                                     | Termo (PT)   | English         | Variável            | Unicode | Color     |
 | ---------------------------------------- | ------------ | --------------- | ------------------- | ------- | --------- |
-| <span style="color: #995D52;"></span> | Conhecimento | *Knowledge*     | [<span class="knowledge"><b>CONHECIMENTO</b></span>](/hero/knowledge.md)     | e92a    | `#995D52` |
-| <span style="color: #995D52;"></span> | Fé           | *Faith*         | [<span class="knowledge"><b>FÉ</b></span>](/hero/knowledge.md#fé)         | e92a    | `#995D52` |
-| <span style="color: #995D52;"></span> | Cooperação   | *Cooperation*   | [<span class="knowledge"><b>COOPERAÇÃO</b></span>](/hero/knowledge.md#cooperação)   | e92a    | `#995D52` |
-| <span style="color: #995D52;"></span> | Prática      | *Practice*      | [<span class="knowledge"><b>PRÁTICA</b></span>](/hero/knowledge.md#prática)      | e92a    | `#995D52` |
-| <span style="color: #995D52;"></span> | Defesa       | *Defense*       | [<span class="knowledge"><b>DEFESA</b></span>](/hero/knowledge.md#defesa)       | e92a    | `#995D52` |
-| <span style="color: #995D52;"></span> | Atletismo    | *Athletics*     | [<span class="knowledge"><b>ATLETISMO</b></span>](/hero/knowledge.md#atletismo)     | e92a    | `#995D52` |
-| <span style="color: #995D52;"></span> | Instrução    | *Instruction*   | [<span class="knowledge"><b>INSTRUÇÃO</b></span>](/hero/knowledge.md#instrução)   | e92a    | `#995D52` |
-| <span style="color: #995D52;"></span> | Arcano       | *Arcane*        | [<span class="knowledge"><b>ARCANO</b></span>](/hero/knowledge.md#arcano)        | e92a    | `#995D52` |
-| <span style="color: #995D52;"></span> | Elemental    | *Elemental*     | [<span class="knowledge"><b>ELEMENTAL</b></span>](/hero/knowledge.md#elemental)     | e92a    | `#995D52` |
-| <span style="color: #995D52;"></span> | Astúcia      | *Cunning*       | [<span class="knowledge"><b>ASTÚCIA</b></span>](/hero/knowledge.md#astúcia)       | e92a    | `#995D52` |
-| <span style="color: #995D52;"></span> | Arte         | *Art*           | [<span class="knowledge"><b>ARTE</b></span>](/hero/knowledge.md#arte)           | e92a    | `#995D52` |
-| <span style="color: #995D52;"></span> | Transmutação | *Transmutation* | [<span class="knowledge"><b>TRANSMUTAÇÃO</b></span>](/hero/knowledge.md#transmutação) | e92a    | `#995D52` |
-| <span style="color: #995D52;"></span> | Dimensional  | *Dimensional*   | [<span class="knowledge"><b>DIMENSIONAL</b></span>](/hero/knowledge.md#dimensional)   | e92a    | `#995D52` |
-| <span style="color: #995D52;"></span> | Vital        | *Vital*         | [<span class="knowledge"><b>VITAL</b></span>](/hero/knowledge.md#vital)         | e92a    | `#995D52` |
-| <span style="color: #995D52;"></span> | Mental       | *Mental*        | [<span class="knowledge"><b>MENTAL</b></span>](/hero/knowledge.md#mental)        | e92a    | `#995D52` |
+| <span style="color: #995D52;"></span> | Conhecimento | *Knowledge*     | [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md)     | e92a    | `#995D52` |
+| <span style="color: #995D52;"></span> | Fé           | *Faith*         | [<span class="knowledge"><b>FÉ</b></span>](/gameplay/knowledge.md#fé)         | e92a    | `#995D52` |
+| <span style="color: #995D52;"></span> | Cooperação   | *Cooperation*   | [<span class="knowledge"><b>COOPERAÇÃO</b></span>](/gameplay/knowledge.md#cooperação)   | e92a    | `#995D52` |
+| <span style="color: #995D52;"></span> | Prática      | *Practice*      | [<span class="knowledge"><b>PRÁTICA</b></span>](/gameplay/knowledge.md#prática)      | e92a    | `#995D52` |
+| <span style="color: #995D52;"></span> | Defesa       | *Defense*       | [<span class="knowledge"><b>DEFESA</b></span>](/gameplay/knowledge.md#defesa)       | e92a    | `#995D52` |
+| <span style="color: #995D52;"></span> | Atletismo    | *Athletics*     | [<span class="knowledge"><b>ATLETISMO</b></span>](/gameplay/knowledge.md#atletismo)     | e92a    | `#995D52` |
+| <span style="color: #995D52;"></span> | Instrução    | *Instruction*   | [<span class="knowledge"><b>INSTRUÇÃO</b></span>](/gameplay/knowledge.md#instrução)   | e92a    | `#995D52` |
+| <span style="color: #995D52;"></span> | Arcano       | *Arcane*        | [<span class="knowledge"><b>ARCANO</b></span>](/gameplay/knowledge.md#arcano)        | e92a    | `#995D52` |
+| <span style="color: #995D52;"></span> | Elemental    | *Elemental*     | [<span class="knowledge"><b>ELEMENTAL</b></span>](/gameplay/knowledge.md#elemental)     | e92a    | `#995D52` |
+| <span style="color: #995D52;"></span> | Astúcia      | *Cunning*       | [<span class="knowledge"><b>ASTÚCIA</b></span>](/gameplay/knowledge.md#astúcia)       | e92a    | `#995D52` |
+| <span style="color: #995D52;"></span> | Arte         | *Art*           | [<span class="knowledge"><b>ARTE</b></span>](/gameplay/knowledge.md#arte)           | e92a    | `#995D52` |
+| <span style="color: #995D52;"></span> | Transmutação | *Transmutation* | [<span class="knowledge"><b>TRANSMUTAÇÃO</b></span>](/gameplay/knowledge.md#transmutação) | e92a    | `#995D52` |
+| <span style="color: #995D52;"></span> | Dimensional  | *Dimensional*   | [<span class="knowledge"><b>DIMENSIONAL</b></span>](/gameplay/knowledge.md#dimensional)   | e92a    | `#995D52` |
+| <span style="color: #995D52;"></span> | Vital        | *Vital*         | [<span class="knowledge"><b>VITAL</b></span>](/gameplay/knowledge.md#vital)         | e92a    | `#995D52` |
+| <span style="color: #995D52;"></span> | Mental       | *Mental*        | [<span class="knowledge"><b>MENTAL</b></span>](/gameplay/knowledge.md#mental)        | e92a    | `#995D52` |
 
 <br><br>
 
@@ -153,11 +153,11 @@
 | Icon                          | Termo (PT) | English    | Variável     | Unicode | Color     |
 | ----------------------------- | ---------- | ---------- | ------------ | ------- | --------- |
 | -                             | Essência   | *Essence*  | -            | -       | -         |
-| <span class="black"></span>  | Preta      | *Black*    | [<span class="skill"><span class="black"><b>PRETA</b></span>](/cards/lignum.md#essência)  | e933    | `#212121` |
-| <span class="blue"></span>   | Azul       | *Blue*     | [<span class="skill"><span class="blue"><b>AZUL</b></span>](/cards/lignum.md#essência)   | e934    | `#0D47A1` |
-| <span class="yellow"></span> | Amarela    | *Yellow*   | [<span class="skill"><span class="yellow"><b>AMARELA</b></span>](/cards/lignum.md#essência) | e935    | `#FDD835` |
-| <span class="red"></span>    | Vermelha   | *Red*      | [<span class="skill"><span class="red"><b>VERMELHA</b></span>](/cards/lignum.md#essência)    | e936    | `#B71C1C` |
-| <span class="white"></span>  | Branca     | *White*    | [<span class="skill"><span class="white"><b>BRANCA</b></span>](/cards/lignum.md#essência)  | e937    | `#BDBDBD` |
+| <span class="black"></span>  | Preta      | *Black*    | [<span class="skill"><span class="black"><b>PRETA</b></span>](/gameplay/lignum.md#essência)  | e933    | `#212121` |
+| <span class="blue"></span>   | Azul       | *Blue*     | [<span class="skill"><span class="blue"><b>AZUL</b></span>](/gameplay/lignum.md#essência)   | e934    | `#0D47A1` |
+| <span class="yellow"></span> | Amarela    | *Yellow*   | [<span class="skill"><span class="yellow"><b>AMARELA</b></span>](/gameplay/lignum.md#essência) | e935    | `#FDD835` |
+| <span class="red"></span>    | Vermelha   | *Red*      | [<span class="skill"><span class="red"><b>VERMELHA</b></span>](/gameplay/lignum.md#essência)    | e936    | `#B71C1C` |
+| <span class="white"></span>  | Branca     | *White*    | [<span class="skill"><span class="white"><b>BRANCA</b></span>](/gameplay/lignum.md#essência)  | e937    | `#BDBDBD` |
 
 <br><br>
 
@@ -239,11 +239,11 @@
 
 | Box                                                                 | Termo           | Cor       |
 | ------------------------------------------------------------------- | --------------- | --------- |
-| <div class="rarity-box" style="background-color: #9E9E9E">C</div> | [<span class="common">COMUM</span>](/cards/rarity.md)    | `#9E9E9E` |
-| <div class="rarity-box" style="background-color: #8BC34A">U</div> | [<span class="uncommon">INCOMUM</span>](/cards/rarity.md)  | `#8BC34A` |
-| <div class="rarity-box" style="background-color: #01579B">R</div> | [<span class="rare">RARA</span>](/cards/rarity.md)      | `#01579B` |
-| <div class="rarity-box" style="background-color: #673AB7">E</div> | [<span class="epic">ÉPICA</span>](/cards/rarity.md)      | `#673AB7` |
-| <div class="rarity-box" style="background-color: #FFC400">L</div> | [<span class="legendary">LENDÁRIA</span>](/cards/rarity.md) | `#FFC400` |
+| <div class="rarity-box" style="background-color: #9E9E9E">C</div> | [<span class="common">COMUM</span>](/gameplay/rarity.md)    | `#9E9E9E` |
+| <div class="rarity-box" style="background-color: #8BC34A">U</div> | [<span class="uncommon">INCOMUM</span>](/gameplay/rarity.md)  | `#8BC34A` |
+| <div class="rarity-box" style="background-color: #01579B">R</div> | [<span class="rare">RARA</span>](/gameplay/rarity.md)      | `#01579B` |
+| <div class="rarity-box" style="background-color: #673AB7">E</div> | [<span class="epic">ÉPICA</span>](/gameplay/rarity.md)      | `#673AB7` |
+| <div class="rarity-box" style="background-color: #FFC400">L</div> | [<span class="legendary">LENDÁRIA</span>](/gameplay/rarity.md) | `#FFC400` |
 
 <br><br>
 

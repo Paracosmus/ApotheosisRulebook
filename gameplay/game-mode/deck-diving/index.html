@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.845138580199">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.845589465131">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -41,11 +41,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.6.0.845138580199" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.845589465131" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.845138580199" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.845589465131" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.845138580199" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.845589465131" data-turbo-eval="false" defer></script>
     <link href="/resources/css/katex.css?v=4.6.0" rel="stylesheet">
     <script id="katex-js" data-cfasync="false" src="/resources/js/katex.js?v=4.6.0" defer></script>
 
@@ -546,7 +546,7 @@
 <p>Quando uma carta sem contexto é revelada</p>
 <ul>
 <li>Se for uma carta de ficha ela é descartada sem efeito</li>
-<li>Se for uma carta de recurso, é realizado um teste do ( <a href="/hero/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a> + <a href="/hero/attributes/"><span class="house"><b>CON</b></span></a> ➜ Dificuldade do Objetivo ✖ <strong>10</strong> ) para tentar obter a carta, se falhar, a carta é descartada sem efeito.</li>
+<li>Se for uma carta de recurso, é realizado um teste do ( <a href="/gameplay/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a> + <a href="/gameplay/attributes/"><span class="house"><b>CON</b></span></a> ➜ Dificuldade do Objetivo ✖ <strong>10</strong> ) para tentar obter a carta, se falhar, a carta é descartada sem efeito.</li>
 </ul>
 <hr>
 <h2 id="ciclo-de-jogo">Ciclo de Jogo</h2>
@@ -574,7 +574,7 @@
             <h5>Exemplo</h5>
 <p><em>Os jogadores chegam às ruínas do Templo Esquecido, um local antigo e misterioso cheio de segredos e perigos. O objetivo é encontrar a Lira Flutuante (Carta de Item), um artefato lendário que se diz ter o poder de controlar as emoções e os elementos da natureza. Os baralhos representam diferentes áreas do templo.</em></p>
 <blockquote>
-<p><strong>Efeitos de objetivo</strong>: <a href="/cards/effect/"><span class="keyword-activation">Permanente</span></a> Todo <a href="/cards/event/"><span class="event"><b>DESTINO</b></span></a> descartado em testes vale o dobro.</p>
+<p><strong>Efeitos de objetivo</strong>: <a href="/gameplay/effect/"><span class="keyword-activation">Permanente</span></a> Todo <a href="/cards/event/"><span class="event"><b>DESTINO</b></span></a> descartado em testes vale o dobro.</p>
 </blockquote>
         </div>
     </div>
@@ -620,7 +620,7 @@
 <li>1x Wildcard (Chave da Câmara dos Guardiões)</li>
 </ul>
 <blockquote>
-<p><strong>Efeitos de baralho</strong>: <a href="/cards/effect/"><span class="keyword-activation">Ativar</span></a> <a href="/cards/effect/"><span class="keyword-limit">Ação Total</span></a> Realize um teste de Mergulho( <a href="/hero/knowledge/#atletismo"><span class="knowledge"><b>ATLETISMO</b></span></a> + <a href="/hero/attributes/"><span class="house"><b>CON</b></span></a> ➜ <strong>24</strong> ). Se bem sucedido, o jogador pode buscar uma <strong>wildcard</strong> neste baralho e obtê-la. Se falhar, o Herói sofre <span class="negative">10</span> de <b>DANO</b>.</p>
+<p><strong>Efeitos de baralho</strong>: <a href="/gameplay/effect/"><span class="keyword-activation">Ativar</span></a> <a href="/gameplay/effect/"><span class="keyword-limit">Ação Total</span></a> Realize um teste de Mergulho( <a href="/gameplay/knowledge/#atletismo"><span class="knowledge"><b>ATLETISMO</b></span></a> + <a href="/gameplay/attributes/"><span class="house"><b>CON</b></span></a> ➜ <strong>24</strong> ). Se bem sucedido, o jogador pode buscar uma <strong>wildcard</strong> neste baralho e obtê-la. Se falhar, o Herói sofre <span class="negative">10</span> de <b>DANO</b>.</p>
 </blockquote>
 </doc-tab>
 <doc-tab v-cloak id="câmara-dos-guardiões">
