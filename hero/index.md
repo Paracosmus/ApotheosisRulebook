@@ -24,7 +24,11 @@ Como pode notar, o cabeçalho é um espaço para descrever informações narrati
 
 ## Nível do Herói
 
-É determinado pela soma dos níveis de todas as suas cartas de CLASSE, somado mais 1 (Carta de CASA).
+O nível do Herói é a soma do nível da sua carta de [<span class="house"><b>CASA</b></span>](/cards/house.md) com os níveis das cartas nos três espaços de [<span class="class"><b>CLASSE</b></span>](/cards/class.md) da [<span class="main"><b>FICHA</b></span>](/hero/table/sheet.md). Toda [<span class="house"><b>CASA</b></span>](/cards/house.md) é de nível **1** e cada [<span class="class"><b>CLASSE</b></span>](/cards/class.md) vai do nível **1** ao **3**. Como o Herói pode ter de **0** a **3** [<span class="class"><b>CLASSE</b></span>](/cards/class.md), seu nível vai de **1** a **10**.
+
+Apenas esses **4** espaços contam: cartas em outros locais da [<span class="main"><b>FICHA</b></span>](/hero/table/sheet.md), como a Zona Extra, não somam nível, mesmo que sejam de [<span class="house"><b>CASA</b></span>](/cards/house.md) ou [<span class="class"><b>CLASSE</b></span>](/cards/class.md).
+
+Efeitos de cartas podem modificar o nível do Herói, mas ele nunca fica abaixo de **1** nem acima de **10**.
 
 ---
 
@@ -60,6 +64,14 @@ Representa a quantidade de ações que um personagem pode realizar em um turno. 
 
 ---
 
+## Fora de Cena
+
+Um Herói que não está participando da cena atual, como quando o time se divide e cada parte segue um caminho diferente, está fora de cena.
+
+Enquanto estiver fora de cena, o Herói e todas as suas cartas, inclusive as da [<span class="main"><b>MESA</b></span>](/hero/table/), do [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) e dos seus montes, são desconsiderados: nenhum de seus efeitos ou bônus é aplicado aos personagens em cena.
+
+---
+
 ## Score
 
 ---
@@ -75,8 +87,8 @@ Os critérios para morte podem ser modificados de acordo com a campanha. Por exe
 Ao final da batalha, o personagem pode ser revivido por alguns efeitos de cartas, se isto não for feito, o personagem está então permanentemente morto.
 
 * A carta de [<span class="house"><b>CASA</b></span>](/cards/house.md) deve ser banida.
-* Cartas de [<span class="item"><b>ITEM</b></span>](/cards/item.md) devem ser distribuídas entre os membros do seu time e/ou enviadas para o <span class="item"><b>MERCADO</b></span>.
-* Todas as demais cartas devem ser enviadas para o entreposto.
+* Cartas de [<span class="item"><b>ITEM</b></span>](/cards/item.md) devem ser distribuídas entre os membros do seu time e/ou enviadas para o [<span class="item"><b>MERCADO</b></span>](/gameplay/stack/market.md).
+* Todas as demais cartas devem ser enviadas para o [<span class="main"><b>ENTREPOSTO</b></span>](/gameplay/stack/trading-post.md).
 
 ### Salvação Divina
 

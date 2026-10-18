@@ -29,7 +29,7 @@ Evocar uma [<span class="companion"><b>EVOCAÇÃO</b></span>](/cards/companio
 Descansar
 :   Ação total para curar <span class="positive">10</span> de [<span class="hp"><b>VIDA</b></span>](/hero/#vida) e recuperar <span class="positive">2</span> de **Energia**
 
-Trocar cartas com o Entreposto
+Trocar cartas com o [<span class="main"><b>ENTREPOSTO</b></span>](/gameplay/stack/trading-post.md)
     - _Comprar [<span class="item"><b>ITEM</b></span>](/cards/item.md)_
     - _Aprender [<span class="skill"><b>HABILIDADE</b></span>](/cards/skills.md)_
     - _Recrutar [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md)_

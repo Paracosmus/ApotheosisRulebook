@@ -115,7 +115,7 @@ Todas levam o prefixo `math::`.
 
 ## Arredondamento
 
-O jogo não usa frações, como definem as [Diretrizes](/guidelines.md). Quando o resultado final de uma expressão é fracionário, ele é arredondado para baixo: `7 / 2.0` resulta em `3`.
+O jogo não usa frações, como definem as [Diretrizes](/guidelines.md). Quando o resultado final de uma expressão é fracionário, ele é arredondado em direção ao zero: `7 / 2.0` resulta em `3`, e `-7 / 2.0` resulta em `-3`.
 
 A divisão entre dois números inteiros já resulta em um inteiro: `7 / 2` é `3`.
 
@@ -131,6 +131,6 @@ Uma expressão que não pode ser calculada resulta em `false`, sem nenhum aviso.
 - **Todos os lados são calculados.** `&&`, `||` e `if` calculam todas as suas partes antes de decidir. `$x != 0 && 10 / $x > 1` falha quando `$x` é `0`, em vez de resultar em falso pela primeira parte.
 - **Comparações não se encadeiam.** `1 < 2 < 3` falha. Escreva `1 < 2 && 2 < 3`.
 - **Booleano não é número.** `true && 1` e `1 + true` falham.
-- **Divisão de inteiro negativo arredonda em direção ao zero.** `-7 / 2` é `-3`, e `-7 % 3` é `-1`.
+- **O resto de um negativo é negativo.** `-7 % 3` é `-1`.
 - **Uma expressão não altera variáveis.** `=`, `+=` e os demais operadores de atribuição falham.
 - **Não há sorteio.** Não existe função de número aleatório.

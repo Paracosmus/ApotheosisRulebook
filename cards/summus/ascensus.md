@@ -53,7 +53,7 @@ O poder adquirido se manifesta na forma de bônus altíssimos de Atributos.
 - Se na [<span class="keyword-timing">Sua Fase Final</span>](/gameplay/effect.md) o Herói não tiver mais um [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) na [<span class="main"><b>FICHA</b></span>](/hero/table/sheet.md), ele deve descartar o _Ascensus_ da sua **Zona Extra**.
 
 ==- <span class="positive">:icon-feed-plus:</span>ㅤObter
-Quando não estiver em batalha, você pode realizar uma [<span class="keyword-limit">Ação Total</span>](/gameplay/effect.md) e **Banir** <span class="negative">3</span> [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) do entreposto, para adicionar um _Ascensus_ à sua **Zona Extra**.
+Quando não estiver em batalha, você pode realizar uma [<span class="keyword-limit">Ação Total</span>](/gameplay/effect.md) e **Banir** <span class="negative">3</span> [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) do [<span class="main"><b>ENTREPOSTO</b></span>](/gameplay/stack/trading-post.md), para adicionar um _Ascensus_ à sua **Zona Extra**.
 
 ==- <span class="negative">	:icon-x-circle-fill:</span>ㅤRemover
 Quando não estiver em batalha, você pode realizar uma [<span class="keyword-limit">Ação Total</span>](/gameplay/effect.md) para descartar um _Ascensus_ da sua **Zona Extra**.

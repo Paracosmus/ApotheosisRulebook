@@ -116,7 +116,7 @@
 
   ##### Cartas
 
-  Separe as cartas iniciais listadas, faça um baralho para cada naipe e embaralhe-os separadamente. Posicione estes baralhos na área do jogo de forma que os jogadores possam ter acesso. Reserve também uma zona para o entreposto.
+  Separe as cartas iniciais listadas, faça um baralho para cada naipe e embaralhe-os separadamente. Posicione estes baralhos na área do jogo de forma que os jogadores possam ter acesso. Reserve também uma zona para o [<span class="main"><b>ENTREPOSTO</b></span>](/gameplay/stack/trading-post.md).
 
   !!!
   Na maioria dos modos de Arena, os jogadores trazem os seus baralhos customizados prontos, e apenas embaralham suas cartas de recurso antes de começar a partida

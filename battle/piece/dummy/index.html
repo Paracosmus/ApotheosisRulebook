@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.845598141916">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.845605467567">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -41,11 +41,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.6.0.845598141916" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.845605467567" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.845598141916" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.845605467567" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.845598141916" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.845605467567" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -484,6 +484,7 @@
 <hr>
 <h2 id="técnicas-de-modelo">Técnicas de Modelo</h2>
 <p>Por não terem cartas que os representem, todas as habilidades, efeitos e capacidades de um Modelo são definidas por meio de técnicas, exatamente como feito em cartas de <a href="/cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a>.</p>
+<p>Os efeitos das técnicas de um Modelo só estão disponíveis enquanto a sua peça estiver no tabuleiro.</p>
 <p>Quando uma técnica de um Modelo for ativada, deve-se considerar o mesmo processo de ativação de uma técnica de <a href="/cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a>. Ou seja, trate como se estivesse ativando a técnica de uma carta de <a href="/cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a> contendo as mesmas propriedades que o Modelo.</p>
 <p>Isso permite que respostas e reações sejam ativadas normalmente, e que o processo de ativação seja o mesmo. Por exemplo, uma carta que pode responder à ativação de uma técnica ou à ativação de uma carta de <a href="/cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a>, pode ser ativada normalmente em resposta à ativação de uma técnica de um Modelo.</p>
 <p>Pelo fato de um modelo não ser, nem possuir uma carta de <a href="/cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a>, um efeito de resposta que causaria o descarte, ocultação, retorno ao <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a>, etc., da carta não se aplica diretamente a um Modelo, neste caso, estes efeitos quando chegarem neste momento da resolução, não acontece nada nesta parte.</p>
@@ -584,6 +585,17 @@
     </a>
 </div>
 <div class="card-compact-container">
+    <a href="/gameplay/effect/" class="group card-compact no-link">
+        <div class="card-compact-body">
+            <div class="card-compact-header">
+                <span class="card-compact-icon inline-flex shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><!--icon--><path d="M15.22 4.97a.75.75 0 0 1 1.06 0l6.5 6.5a.75.75 0 0 1 0 1.06l-6.5 6.5a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L21.19 12l-5.97-5.97a.75.75 0 0 1 0-1.06Zm-6.44 0a.75.75 0 0 1 0 1.06L2.81 12l5.97 5.97a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215l-6.5-6.5a.75.75 0 0 1 0-1.06l6.5-6.5a.75.75 0 0 1 1.06 0Z"/></svg></span>
+                <span class="card-compact-title">Efeito</span>
+            </div>
+            <p class="card-compact-description">O efeito de uma carta é um texto que descreve sua função e mecânica, explicando como jogá-la e aplicá-la durante a partida. A função do efeito é conferir</p>
+        </div>
+    </a>
+</div>
+<div class="card-compact-container">
     <a href="/glossary/" class="group card-compact no-link">
         <div class="card-compact-body">
             <div class="card-compact-header">
@@ -612,7 +624,7 @@
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-10-17T18:57:17" title="2026-10-17" data-absolute-label="Last updated on 2026-10-17 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-10-17 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-10-17T23:24:03" title="2026-10-17" data-absolute-label="Last updated on 2026-10-17 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-10-17 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
                         Last updated on 2026-10-17 by Bruno Caxito
                     </time>
                 </div>

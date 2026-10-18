@@ -10,11 +10,21 @@ Esta seção ainda não foi completamente revisada. Algumas informações podem 
 
 ## Casa Adjacente
 
-## Casa de Acesso
+## Casa de Posicionamento
+
+São as casas onde as peças são colocadas no início da batalha.
+
+## Casa de Reforço
+
+São as casas por onde os personagens chamados durante uma batalha em andamento, como um [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) recrutado, entram no tabuleiro.
+
+As demais casas não permitem que nenhuma peça entre no tabuleiro por elas.
 
 ## Direção do Ataque
 
 ## Altitude
+
+Toda casa do tabuleiro tem uma <b>ALTITUDE</b>, a sua altura em relação ao nível do solo, onde **1** de <b>ALTITUDE</b> equivale a cerca de **1** metro. O nível do solo é **0**: o que está abaixo dele tem <b>ALTITUDE</b> negativa, como um fosso, e o que está acima tem <b>ALTITUDE</b> positiva, como um telhado.
 
 ## Distância
 
@@ -22,13 +32,18 @@ Esta seção ainda não foi completamente revisada. Algumas informações podem 
 
 ## Terreno
 
-* 🌾 Campo
+Toda casa do tabuleiro tem um tipo de terreno. Por padrão, uma casa é de terreno **Plano**. Além dele, apenas a **Água** está definida; os demais terrenos ainda estão em desenvolvimento:
+
+* ⬜ Plano _(padrão)_
+* 🌾 Campo _(grama)_
 * ⛰️ Rocha
 * 🌿 Pântano
 * 🌵 Areia
 * ⛄ Gelo
 * ❄️ Gelo Prateado
 * 💧 Água
+* 🟫 Terra
+* 🟤 Lama
 
 ---
 
@@ -53,10 +68,6 @@ Agua
 Field
 
 Etc.
-
-Tiles tem Altura/Altitude
-
-Sempre positiva. Sendo o 0 a altura do nível do solo padrão
 
 Tiles podem ter peças nele. Mas apenas uma peça por tile. Portanto o Encero precisa ser reescrito e o nuvero eu acho
 

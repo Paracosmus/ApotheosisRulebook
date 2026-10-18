@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.845598141916">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.845605467567">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -41,11 +41,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.6.0.845598141916" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.845605467567" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.845598141916" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.845605467567" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.845598141916" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.845605467567" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -475,6 +475,7 @@
     <span>Keyword</span>
 </span></h2>
 <p>São palavras ou expressões específicas no início do texto, que indicam ações, condições, ou características comuns, e são utilizadas para simplificar o texto do efeito. Elas são identificadas por uma caixa de texto colorida ao redor da palavra, e cada palavra-chave tem um significado específico.</p>
+<p>Na carta, as palavras-chave aparecem sempre agrupadas nesta ordem: <strong>Ativação</strong>, <strong>Escopo</strong>, <strong>Tarefa</strong>, <strong>Temporização</strong> e <strong>Limite</strong>.</p>
 <h3 id="ativação">Ativação <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>Activation</span>
 </span></h3>
@@ -553,19 +554,19 @@
        <template #title><span class="fill"><a href="/gameplay/effect/"><span class="keyword-timing">Ao Descartar</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>On Discard</span>
 </span></template>
-<p>Este efeito pode/deve ser ativado quando esta carta for descartada, ou seja, quando esta carta for movida para o entreposto.</p>
+<p>Este efeito pode/deve ser ativado quando esta carta for descartada, ou seja, quando esta carta for movida para o <a href="/gameplay/stack/trading-post/"><span class="main"><b>ENTREPOSTO</b></span></a>.</p>
    </doc-panel>
    <doc-panel id="span-classfillspan-classkeyword-timingao-enterrarspangameplayeffectmdspan-badge-texton-bury-variantghost" collapsed>
        <template #title><span class="fill"><a href="/gameplay/effect/"><span class="keyword-timing">Ao Enterrar</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>On Bury</span>
 </span></template>
-<p>Este efeito pode/deve ser ativado quando esta carta for enterrada, ou seja, quando esta carta for colocado no fundo de um baralho.</p>
+<p>Este efeito pode/deve ser ativado quando esta carta for enterrada, ou seja, quando esta carta for colocada no fundo de um monte de cartas.</p>
    </doc-panel>
    <doc-panel id="span-classfillspan-classkeyword-timingao-banirspangameplayeffectmdspan-badge-texton-banish-variantghost" collapsed>
        <template #title><span class="fill"><a href="/gameplay/effect/"><span class="keyword-timing">Ao Banir</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>On Banish</span>
 </span></template>
-<p>Este efeito pode/deve ser ativado quando esta carta for banida, ou seja, quando esta carta for movida para uma pilha de cartas banidas.</p>
+<p>Este efeito pode/deve ser ativado quando esta carta for banida, ou seja, quando esta carta for colocada na pilha de <a href="/gameplay/stack/banished/"><span class="main"><b>BANIDAS</b></span></a>.</p>
    </doc-panel>
    <doc-panel id="span-classfillspan-classkeyword-timingquando-testandospangameplayeffectmdspan-badge-textwhen-checking-variantghost" collapsed>
        <template #title><span class="fill"><a href="/gameplay/effect/"><span class="keyword-timing">Quando Testando</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
@@ -755,7 +756,7 @@
        <template #title><span class="fill"><a href="/gameplay/effect/"><span class="keyword-scope">De Qualquer Lugar</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>From Anywhere</span>
 </span></template>
-<p>Este efeito pode ser ativado de qualquer lugar, ele pode ser ativado mesmo que esta carta não esteja em jogo. Pode ser ativado da mão, do entreposto, anexada a outra carta, etc..</p>
+<p>Este efeito pode ser ativado de qualquer lugar, ele pode ser ativado mesmo que esta carta não esteja em jogo. Pode ser ativado da mão, do <a href="/gameplay/stack/trading-post/"><span class="main"><b>ENTREPOSTO</b></span></a>, anexada a outra carta, etc..</p>
 <p>Observe que cartas no limbo são consideradas como não existentes, e portanto não podem ser ativadas.</p>
    </doc-panel>
    <doc-panel id="span-classfillspan-classkeyword-scopeda-mesaspangameplayeffectmdspan-badge-textfrom-table-variantghost" collapsed>
@@ -774,7 +775,7 @@
        <template #title><span class="fill"><a href="/gameplay/effect/"><span class="keyword-scope">Da Pilha</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>From Pile</span>
 </span></template>
-<p>Este efeito pode ser ativado apenas se esta carta estiver revelada em um <a href="/gameplay/stack/">monte de cartas</a>, como o entreposto. Se os demais efeitos das cartas de um monte são considerados depende da configuração de uso dele.</p>
+<p>Este efeito pode ser ativado apenas se esta carta estiver revelada em um <a href="/gameplay/stack/">monte de cartas</a>, como o <a href="/gameplay/stack/trading-post/"><span class="main"><b>ENTREPOSTO</b></span></a>. Se os demais efeitos das cartas de um monte são considerados depende da configuração de uso dele.</p>
    </doc-panel>
    <doc-panel id="span-classfillspan-classkeyword-scopedo-membro-do-timespangameplayeffectmdspan-badge-textfrom-team-member-variantghost" collapsed>
        <template #title><span class="fill"><a href="/gameplay/effect/"><span class="keyword-scope">Do Membro do Time</span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
@@ -1061,6 +1062,18 @@
    </doc-panel>
 </doc-panels>
 <hr>
+<h2 id="origem-dos-efeitos">Origem dos Efeitos</h2>
+<p>Os efeitos considerados em um momento da partida vêm sempre das seguintes origens:</p>
+<ol>
+<li><strong><a href="/gameplay/setup/campaign/#efeitos-de-campanha">Efeitos de campanha</a></strong> ativos.</li>
+<li><strong>Cartas dos Heróis em cena</strong>: as cartas da <a href="/hero/table/"><span class="main"><b>MESA</b></span></a>, do <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a> e dos montes de cada Herói. Heróis <a href="/hero/#fora-de-cena">fora de cena</a> são desconsiderados.</li>
+<li><strong>Anexos</strong> dessas cartas.</li>
+<li><strong>Técnicas de <a href="/cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a></strong>, que seguem as mesmas regras da carta do <a href="/cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a>.</li>
+<li><strong>Cartas dos montes sem dono</strong>, como o <a href="/gameplay/stack/scenario/"><span class="event"><b>CENÁRIO</b></span></a> e o <a href="/gameplay/stack/trading-post/"><span class="main"><b>ENTREPOSTO</b></span></a>, conforme o <a href="/gameplay/stack/#uso">uso</a> de cada monte. Montes de uso <strong>Nunca</strong> não fornecem efeitos.</li>
+<li><strong>Técnicas de <a href="/battle/piece/dummy/">Modelos</a></strong> cuja peça esteja no tabuleiro.</li>
+</ol>
+<p>Em todos os casos, se o efeito de uma carta é considerado ou não depende também do <a href="/cards/#estado-da-carta">estado da carta</a> e das palavras-chave de <doc-anchor-trigger to="#escopo">escopo</doc-anchor-trigger> do efeito.</p>
+<hr>
 <h2 id="resolução-do-efeito">Resolução do Efeito</h2>
 <p>É chamado de resolver o efeito o ato de aplicar o efeito depois de ativado, ou seja, realizar as ações e interações descritas no texto do efeito, seguindo as regras gerais do jogo e as instruções específicas do texto do efeito.</p>
 <p>O efeito deve ser resolvido exatamente como descrito no texto, seguindo a ordem das ações e interações conforme elas aparecem no texto, e levando em consideração as regras gerais do jogo.</p>
@@ -1145,7 +1158,7 @@
 <li><strong>Efeitos de Heróis Oponentes</strong></li>
 <li><strong>Efeitos de Heróis do Time</strong></li>
 <li><strong>Efeitos do Herói (Ou Herói do Companheiro) do Turno</strong></li>
-<li><strong>Efeitos do Entreposto</strong></li>
+<li><strong>Efeitos do <a href="/gameplay/stack/trading-post/"><span class="main"><b>ENTREPOSTO</b></span></a></strong></li>
 <li><strong>Efeitos do Mestre de Jogo</strong></li>
 </ol>
 <p>A prioridade é dada ao efeito e não à carta em si, observe que isso significa que mesmo um efeito que não esteja ligado a uma carta, como um Efeito de Campanha ou Efeito de Modelo, por exemplo, entram na pilha de encadeamento.</p>
@@ -1170,7 +1183,7 @@
             </svg>
         </div>
         <div class="pr-5 ml-3 w-full">
-<p>Note que uma carta em um entreposto ou baralho controlados por um Herói são consideradas cartas do Herói, e não cartas do entreposto.</p>
+<p>Note que uma carta em um entreposto ou baralho controlados por um Herói são consideradas cartas do Herói, e não cartas do <a href="/gameplay/stack/trading-post/"><span class="main"><b>ENTREPOSTO</b></span></a>.</p>
         </div>
     </div>
 </div>
@@ -1185,13 +1198,13 @@
     <h2>See also</h2>
 <div class="card-compact-group">
 <div class="card-compact-container">
-    <a href="/gameplay/attachment/" class="group card-compact no-link">
+    <a href="/gameplay/stack/banished/" class="group card-compact no-link">
         <div class="card-compact-body">
             <div class="card-compact-header">
-                <span class="card-compact-icon inline-flex shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><!--icon--><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></svg></span>
-                <span class="card-compact-title">Anexo</span>
+                <span class="card-compact-icon inline-flex shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><!--icon--><path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM5.834 19.227A9.464 9.464 0 0 0 12 21.5a9.5 9.5 0 0 0 9.5-9.5 9.464 9.464 0 0 0-2.273-6.166ZM2.5 12a9.464 9.464 0 0 0 2.273 6.166L18.166 4.773A9.463 9.463 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Z"/></svg></span>
+                <span class="card-compact-title">Banidas</span>
             </div>
-            <p class="card-compact-description">Anexo, ou carta anexada, é uma carta colocada sob outra carta, representando que está ligada àquela.</p>
+            <p class="card-compact-description">Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.</p>
         </div>
     </a>
 </div>
@@ -1240,21 +1253,11 @@
     </a>
 </div>
 <div class="card-compact-container">
-    <a href="/icons/" class="group card-compact no-link">
+    <a href="/hero/inventory/" class="group card-compact no-link">
         <div class="card-compact-body">
             <div class="card-compact-header">
-                <span class="card-compact-title">Ícones</span>
-            </div>
-            <p class="card-compact-description">Icon</p>
-        </div>
-    </a>
-</div>
-<div class="card-compact-container">
-    <a href="/gameplay/lignum/" class="group card-compact no-link">
-        <div class="card-compact-body">
-            <div class="card-compact-header">
-                <span class="card-compact-icon inline-flex shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><!--icon--><path d="M2.5 19.25a3.248 3.248 0 0 1 2.505-3.164A.81.81 0 0 1 5 16V8c0-.029.002-.057.005-.086a3.247 3.247 0 0 1-2.486-3.539 3.25 3.25 0 1 1 3.976 3.539A.827.827 0 0 1 6.5 8v3.51A3.247 3.247 0 0 1 8.25 11h7a2.25 2.25 0 0 0 2.25-2.25v-.837a3.25 3.25 0 1 1 1.5 0v.837a3.752 3.752 0 0 1-3.75 3.75h-7a1.75 1.75 0 0 0-1.75 1.75V16a.81.81 0 0 1-.005.086A3.25 3.25 0 1 1 2.5 19.25ZM5.75 6.5c.464 0 .909-.184 1.237-.513a1.746 1.746 0 0 0 0-2.474 1.746 1.746 0 0 0-2.474 0A1.74 1.74 0 0 0 4 4.75a1.752 1.752 0 0 0 1.08 1.617c.213.088.44.133.67.133Zm0 14.5c.464 0 .909-.184 1.237-.513a1.746 1.746 0 0 0 0-2.474 1.746 1.746 0 0 0-2.474 0 1.746 1.746 0 0 0 0 2.474c.328.329.773.513 1.237.513ZM16.5 4.75a1.752 1.752 0 0 0 1.08 1.617A1.752 1.752 0 0 0 20 4.75c0-.464-.184-.909-.513-1.237a1.746 1.746 0 0 0-2.474 0A1.746 1.746 0 0 0 16.5 4.75Zm4.22 10.47a.749.749 0 1 1 1.06 1.06l-5.323 5.324a1.01 1.01 0 0 1-.707.292.991.991 0 0 1-.707-.292L12.72 19.28a.749.749 0 1 1 1.06-1.06l1.97 1.969 4.97-4.969Z"/></svg></span>
-                <span class="card-compact-title">Lignum</span>
+                <span class="card-compact-icon inline-flex shrink-0"><img width="20" height="20" src="/static/img/icons/inventory.svg"></span>
+                <span class="card-compact-title">Inventário</span>
             </div>
             <p class="card-compact-description">Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.</p>
         </div>
@@ -1305,6 +1308,17 @@
     </a>
 </div>
 <div class="card-compact-container">
+    <a href="/battle/turn/" class="group card-compact no-link">
+        <div class="card-compact-body">
+            <div class="card-compact-header">
+                <span class="card-compact-icon inline-flex shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><!--icon--><path d="M4.75 2h14.5a.75.75 0 0 1 0 1.5h-.75v2.982a4.75 4.75 0 0 1-2.215 4.017l-2.044 1.29a.25.25 0 0 0 0 .422l2.044 1.29a4.75 4.75 0 0 1 2.215 4.017V20.5h.75a.75.75 0 0 1 0 1.5H4.75a.75.75 0 0 1 0-1.5h.75v-2.982a4.75 4.75 0 0 1 2.215-4.017l2.044-1.29a.25.25 0 0 0 0-.422l-2.044-1.29A4.75 4.75 0 0 1 5.5 6.482V3.5h-.75a.75.75 0 0 1 0-1.5ZM17 3.5H7v2.982A3.25 3.25 0 0 0 8.516 9.23l2.044 1.29a1.75 1.75 0 0 1 0 2.96l-2.044 1.29A3.25 3.25 0 0 0 7 17.518V20.5h10v-2.982a3.25 3.25 0 0 0-1.516-2.748l-2.044-1.29a1.75 1.75 0 0 1 0-2.96l2.044-1.29A3.25 3.25 0 0 0 17 6.482Z"/></svg></span>
+                <span class="card-compact-title">Rodadas e Turnos</span>
+            </div>
+            <p class="card-compact-description">Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.</p>
+        </div>
+    </a>
+</div>
+<div class="card-compact-container">
     <a href="/cards/summus/ascensus/" class="group card-compact no-link">
         <div class="card-compact-body">
             <div class="card-compact-header">
@@ -1323,7 +1337,7 @@
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-10-17T18:57:17" title="2026-10-17" data-absolute-label="Last updated on 2026-10-17 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-10-17 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-10-17T23:24:03" title="2026-10-17" data-absolute-label="Last updated on 2026-10-17 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-10-17 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
                         Last updated on 2026-10-17 by Bruno Caxito
                     </time>
                 </div>
@@ -1335,11 +1349,11 @@
             
                 <nav id="retype-nextprev" class="print:hidden flex mt-14">
                     <div class="w-1/2">
-                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="/gameplay/stack/scenario/">
+                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="/gameplay/stack/banished/">
                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                             <span>
                                 <span class="block text-xs font-normal text-base-text-muted">Previous</span>
-                                <span class="block mt-1">Cenário</span>
+                                <span class="block mt-1">Banidas</span>
                             </span>
                         </a>
                     </div>

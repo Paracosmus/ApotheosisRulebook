@@ -30,11 +30,11 @@ Existem sete naipes de cartas, cada um com suas próprias características e mec
   {.list-icon}
   - :icon-check-circle: No espaço apropriado designado da [<span class="main"><b>MESA</b></span>](/hero/table/) de um Herói.
   - :icon-check-circle: Baralhos
-  - :icon-check-circle: Entreposto
+  - :icon-check-circle: [<span class="main"><b>ENTREPOSTO</b></span>](/gameplay/stack/trading-post.md)
   - :icon-check-circle: Anexo
   - :icon-check-circle: Zona extra
 
-  Se uma situação de jogo resultar em uma Carta de Ficha estar ou ser envida para outro local que não estes, ela deve ser enviada para o entreposto.
+  Se uma situação de jogo resultar em uma Carta de Ficha estar ou ser envida para outro local que não estes, ela deve ser enviada para o [<span class="main"><b>ENTREPOSTO</b></span>](/gameplay/stack/trading-post.md).
 
 ==- Carta de Recurso [!badge text="Asset Card" variant="ghost"]
 
@@ -47,6 +47,31 @@ Existem sete naipes de cartas, cada um com suas próprias características e mec
   [!card layout="snap" title="Companion" icon="/static/img/icons/suit_companion.svg"](/cards/companion.md) [!card layout="snap" title="Event" icon="/static/img/icons/suit_event.svg"](/cards/event.md)
 
   Estas cartas possuem um requerimento de nível mínimo de [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md), que um Herói precisa ter para ter esta carta em sua [<span class="main"><b>MESA</b></span>](/hero/table/), exceto quando anexadas a uma outra carta. Se uma situação de jogo resultar nesta carta estar ou ser envida para [<span class="main"><b>MESA</b></span>](/hero/table/) de um Herói que não atenda a este requerimento, ela deve ser enviada para o [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) do mesmo.
+
+  #### Valor
+
+  Toda carta de Recurso tem um valor, medido em um recurso próprio do seu naipe: [<span class="item"><b>ITEM</b></span>](/cards/item.md) em [<span class="item"><b>PREÇO</b></span>](/cards/item.md), [<span class="skill"><b>HABILIDADE</b></span>](/cards/skills.md) em [<span class="skill"><b>XP</b></span>](/cards/skills.md), [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) em [<span class="companion"><b>VONTADE</b></span>](/cards/companion.md) e [<span class="event"><b>EVENTO</b></span>](/cards/event.md) em [<span class="event"><b>DESTINO</b></span>](/cards/event.md).
+
+  O valor de um [<span class="item"><b>ITEM</b></span>](/cards/item.md) é o [<span class="item"><b>PREÇO</b></span>](/cards/item.md) impresso na carta. Já o valor dos demais naipes é obtido pelo nível da carta, conforme a tabela de conversão de nível em valor abaixo.
+
+  !!!
+  Esta tabela não é exclusiva das cartas de Recurso: o jogo a usa sempre que um nível precisa ser convertido em um valor, como o bônus do nível de [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md) nos [testes](/gameplay/check.md).
+  !!!
+
+  {.striped}
+  | Nível | Valor |
+  | --- | --- |
+  | 0 | **0** |
+  | 1 | **1** |
+  | 2 | **5** |
+  | 3 | **10** |
+  | 4 | **20** |
+  | 5 | **30** |
+  | 6 | **40** |
+  | 7 | **50** |
+  | 8 | **60** |
+  | 9 | **70** |
+  | 10 | **80** |
 
 ===
 
@@ -69,10 +94,6 @@ A sua função é principalmente estética, não sendo utilizado para efeitos de
 ==- Normal [!badge text="Standard" variant="ghost"]
 
   Este é o estilo mais comum de ilustração, onde a arte é sobreposta em um fundo branco sem bordas ou molduras definidas, mostrando a arte como um objeto destacável. Este estilo é utilizado para a maioria das cartas, proporcionando uma aparência clássica e organizada.
-
-==- Textura [!badge text="Texture" variant="ghost"]
-
-  Este estilo apresenta a arte sobreposta em um fundo texturizado sem bordas ou molduras definidas, geralmente com um padrão ou design que complementa a ilustração. Ele é utilizado para dar uma sensação mais tátil e visualmente interessante à carta, adicionando profundidade e riqueza à sua aparência, sendo um estilo comum.
 
 ==- Vidro [!badge text="Glass" variant="ghost"]
 
@@ -123,7 +144,7 @@ Por padrão cada Herói pode ativar apenas as cartas que ele controla, ou seja, 
 
   Se a carta possuir uma palavra-chave de tarefa, como [<span class="keyword-task">Descarte</span>](/gameplay/effect.md) ou [<span class="keyword-task">Enterre</span>](/gameplay/effect.md), a tarefa tem precedência, e a carta deve ser enviada para onde a tarefa designar, ao invés de ser descartada.
 
-  Observe que apenas efeitos do tipo [<span class="keyword-activation">Ativar</span>](/gameplay/effect.md) podem ser ativados do [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md).
+  Observe que apenas efeitos do tipo [<span class="keyword-activation">Ativar</span>](/gameplay/effect.md) podem ser ativados do [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md). Efeitos [<span class="keyword-activation">Permanente</span>](/gameplay/effect.md) de cartas reveladas no [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) não são ativados, mas valem normalmente enquanto a carta estiver revelada.
 
 |||
 
@@ -176,43 +197,45 @@ Ao declarar a ativação de uma carta, o jogador deve seguir os seguintes passos
 
 O estado de uma carta é a condição ou situação em que ela se encontra durante o jogo, podendo influenciar suas interações, mecânicas e sinergias com outros componentes do jogo.
 
-==- <span class="fill">Ativa</span> [!badge text="Active" variant="ghost"]
+==- <span class="fill">Jogável</span> [!badge text="Playable" variant="ghost"]
 
-  Também chamadas de "_cartas em jogo_", são as cartas cujo efeito está ativo ou pode ser ativado.
+  São as cartas cujos efeitos são considerados na partida: estão valendo ou podem ser ativados.
 
   * Cartas reveladas na [<span class="main"><b>MESA</b></span>](/hero/table/) dos Heróis.
   * Cartas reveladas no [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) dos Heróis.
-  * Cartas que possuem efeitos [<span class="keyword-scope">Do Anexo</span>](/gameplay/effect.md) anexadas a cartas reveladas.
-    * Apesar de serem consideradas ativas, apenas os efeitos [<span class="keyword-scope">Do Anexo</span>](/gameplay/effect.md) podem/devem ser usados.
+  * Cartas ocultas no [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) dos Heróis que possuam efeitos [<span class="keyword-scope">Da Mão</span>](/gameplay/effect.md) ou [<span class="keyword-scope">De Qualquer Lugar</span>](/gameplay/effect.md).
+    * Apesar de serem consideradas jogáveis, apenas os efeitos [<span class="keyword-scope">Da Mão</span>](/gameplay/effect.md) e [<span class="keyword-scope">De Qualquer Lugar</span>](/gameplay/effect.md) podem/devem ser usados.
+  * Cartas que possuem efeitos [<span class="keyword-scope">Do Anexo</span>](/gameplay/effect.md) ou [<span class="keyword-scope">De Qualquer Lugar</span>](/gameplay/effect.md) anexadas a cartas reveladas.
+    * Apesar de serem consideradas jogáveis, apenas os efeitos [<span class="keyword-scope">Do Anexo</span>](/gameplay/effect.md) e [<span class="keyword-scope">De Qualquer Lugar</span>](/gameplay/effect.md) podem/devem ser usados.
   * Cartas reveladas no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md).
   * Cartas reveladas em [montes de cartas](/gameplay/stack/index.md), conforme o uso do monte.
-    * Quando o uso do monte é **Sempre**, todos os efeitos são considerados.
-    * Quando o uso do monte é **Com palavra-chave**, apesar de serem consideradas ativas, apenas os efeitos [<span class="keyword-scope">De Qualquer Lugar</span>](/gameplay/effect.md) e [<span class="keyword-scope">Da Pilha</span>](/gameplay/effect.md) podem/devem ser usados.
+    * Quando o uso do monte é **Sempre**, todos os efeitos são considerados, exceto os que uma palavra-chave de escopo prende a outro lugar, como [<span class="keyword-scope">Da Mesa</span>](/gameplay/effect.md), [<span class="keyword-scope">Da Mão</span>](/gameplay/effect.md) e [<span class="keyword-scope">Do Anexo</span>](/gameplay/effect.md).
+    * Quando o uso do monte é **Com palavra-chave**, apesar de serem consideradas jogáveis, apenas os efeitos [<span class="keyword-scope">De Qualquer Lugar</span>](/gameplay/effect.md) e [<span class="keyword-scope">Da Pilha</span>](/gameplay/effect.md) podem/devem ser usados.
   * Casos Especiais
-    * Alguns [<span class="summus"><b>SUMMUS</b></span>](/cards/summus/) estabelecem condições específicas para estarem ativas, como estar em uma zona específica ou possuir um estado específico.
+    * Alguns [<span class="summus"><b>SUMMUS</b></span>](/cards/summus/) estabelecem condições específicas para serem jogáveis, como estar em uma zona específica ou possuir um estado específico.
 
-==- <span class="fill">Inativa</span> [!badge text="Inactive" variant="ghost"]
+==- <span class="fill">Não Jogável</span> [!badge text="Unplayable" variant="ghost"]
 
   São as cartas cujo o efeito não está disponível ou não é de conhecimento público.
 
-  A carta estar inativa significa apenas que seu efeito não está disponível, os demais aspectos da carta, como energias, valor, peça no tabuleiro, etc., devem ser tratados normalmente.
+  A carta não ser jogável significa apenas que seu efeito não está disponível, os demais aspectos da carta, como energias, valor, peça no tabuleiro, etc., devem ser tratados normalmente.
 
   * Cartas ocultas na [<span class="main"><b>MESA</b></span>](/hero/table/) dos Heróis.
-  * Cartas ocultas no [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) dos Heróis.
+  * Cartas ocultas no [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) dos Heróis, exceto as que possuam efeitos [<span class="keyword-scope">Da Mão</span>](/gameplay/effect.md) ou [<span class="keyword-scope">De Qualquer Lugar</span>](/gameplay/effect.md).
   * Cartas ocultas no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md).
   * Cartas anexadas:
     * Quando estão anexadas a cartas ocultas.
-    * Quando não possuem efeitos [<span class="keyword-scope">Do Anexo</span>](/gameplay/effect.md).
+    * Quando não possuem efeitos [<span class="keyword-scope">Do Anexo</span>](/gameplay/effect.md) ou [<span class="keyword-scope">De Qualquer Lugar</span>](/gameplay/effect.md).
   * Cartas ocultas em montes de cartas.
   * Cartas em montes de cartas cujo uso é **Nunca**, como as cartas banidas.
   * Casos Especiais
-    * Alguns efeitos de carta podem inativar outras cartas, seja permanentemente ou temporariamente.
-    * Alguns [<span class="summus"><b>SUMMUS</b></span>](/cards/summus/) estabelecem condições específicas para estarem inativas, como estar em uma zona específica ou possuir um estado específico.
+    * Alguns efeitos de carta podem tornar outras cartas não jogáveis, seja permanentemente ou temporariamente.
+    * Alguns [<span class="summus"><b>SUMMUS</b></span>](/cards/summus/) estabelecem condições específicas para não serem jogáveis, como estar em uma zona específica ou possuir um estado específico.
 
-  Em alguns casos, cartas inativas reveladas podem ser colocadas de cabeça para baixo para indicar seu estado.
+  Em alguns casos, cartas reveladas não jogáveis podem ser colocadas de cabeça para baixo para indicar seu estado.
 
   !!!
-  Cartas no Limbo são desconsideradas, portanto não são consideradas ativas ou inativas.
+  Cartas no Limbo são desconsideradas, portanto não são consideradas jogáveis nem não jogáveis.
   !!!
 
 ==- <span class="fill">Revelada</span> [!badge text="Revealed" variant="ghost"]

@@ -31,7 +31,7 @@ O grupo pode realizar apenas ações coletivas no modo de viagem, ou seja, as a�
 
 \:icon-move-to-end: **Continuar**: O grupo dá continuidade à viagem, seguindo o percurso determinado.
 :   - Avance para o próximo período do dia.
-    - Revele a carta do topo do <span class="event"><b>SANTUÁRIO</b></span>. A carta é ativada, se possível. O efeito da carta é aplicado a todos os personagens do grupo e deve ser resolvido. Se, pelo efeito da carta, ela for enviada para um personagem em vez de ser descartada, apenas um personagem é escolhido para recebê-la.
+    - Revele a carta do topo do [<span class="event"><b>SANTUÁRIO</b></span>](/gameplay/stack/sanctuary.md). A carta é ativada, se possível. O efeito da carta é aplicado a todos os personagens do grupo e deve ser resolvido. Se, pelo efeito da carta, ela for enviada para um personagem em vez de ser descartada, apenas um personagem é escolhido para recebê-la.
     - O [<span class="main">❂<b>CONTADOR DE VIAGEM</b></span>](/gameplay/counter/) é **incrementado** em **1**. Se o [<span class="main">❂<b>CONTADOR DE VIAGEM</b></span>](/gameplay/counter/) chegar ao valor total da viagem, a viagem é considerada concluída e o grupo chega ao destino.
 
 \:icon-dash: **Pausar**: O grupo interrompe a viagem para descansar, explorar ou realizar outras atividades.
@@ -40,13 +40,13 @@ O grupo pode realizar apenas ações coletivas no modo de viagem, ou seja, as a�
 
 \:icon-move-to-start: **Retornar**: O grupo decide voltar pelo percurso percorrido.
 :   - Avance para o próximo período do dia.
-    - Revele a carta do topo do <span class="event"><b>SANTUÁRIO</b></span>. A carta é ativada, se possível. O efeito da carta é aplicado a todos os personagens do grupo e deve ser resolvido. Se, pelo efeito da carta, ela for enviada para um personagem em vez de ser descartada, apenas um personagem é escolhido para recebê-la.
+    - Revele a carta do topo do [<span class="event"><b>SANTUÁRIO</b></span>](/gameplay/stack/sanctuary.md). A carta é ativada, se possível. O efeito da carta é aplicado a todos os personagens do grupo e deve ser resolvido. Se, pelo efeito da carta, ela for enviada para um personagem em vez de ser descartada, apenas um personagem é escolhido para recebê-la.
     - O [<span class="main">❂<b>CONTADOR DE VIAGEM</b></span>](/gameplay/counter/) é **deduzido** em **1**. Se o [<span class="main">❂<b>CONTADOR DE VIAGEM</b></span>](/gameplay/counter/) chegar a zero, a viagem é considerada concluída e o grupo retorna ao local de origem.
 
 !!!
 Algumas campanhas e objetivos podem modificar as ações disponíveis durante o modo de viagem, como permitir que o grupo encontre recursos, mude de rota ou destino, enfrente desafios ou eventos específicos.
 
-Também podem determinar o que acontece no momento em que uma carta do topo do <span class="event"><b>SANTUÁRIO</b></span> é ativada pela viagem, substituindo essa mecânica por outra específica.
+Também podem determinar o que acontece no momento em que uma carta do topo do [<span class="event"><b>SANTUÁRIO</b></span>](/gameplay/stack/sanctuary.md) é ativada pela viagem, substituindo essa mecânica por outra específica.
 !!!
 
 !!!

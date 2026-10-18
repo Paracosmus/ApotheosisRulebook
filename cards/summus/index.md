@@ -38,6 +38,8 @@ Indiferente do tipo de Summus, elas compartilham as seguintes regras de jogo.
 
 A mecânica adicionada por uma carta Summus é definida pelo seu tipo, e pode ser encontrada na lista a seguir.
 
+[!ref icon="/static/img/icons/summus_ascensus.svg"](ascensus.md)
+
 [!ref icon="/static/img/icons/summus_collegium.svg"](collegium.md)
 
 [!ref icon="/static/img/icons/summus_daemon.svg"](daemon.md)

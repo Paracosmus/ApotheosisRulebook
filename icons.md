@@ -217,18 +217,18 @@
 | <span style="color: #FF7043;"></span> | ↳ Suporte | *Support* | [<span class="companion"><b>SUPORTE</b></span>](/hero/table/support.md) | eb3d | `#FF7043` |
 |  | Inventário | *Inventory* | [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) | e929 | - |
 | - | Baralho | *Deck* | - | - | - |
-| <span style="color: #673AB7;"></span> | ↳ Matriz | *Cradle* | <span class="house"><b>MATRIZ</b></span> | eb3c | `#673AB7` |
-| <span style="color: #F44336;"></span> | ↳ Taverna | *Tavern* | <span class="class"><b>TAVERNA</b></span> | e943 | `#F44336` |
-| <span style="color: #3F51B5;"></span> | ↳ Fenda | *Rift* | <span class="entity"><b>FENDA</b></span> | e944 | `#3F51B5` |
-| <span style="color: #FFC107;"></span> | ↳ Mercado | *Market* | <span class="item"><b>MERCADO</b></span> | e940 | `#FFC107` |
-| <span style="color: #2196F3;"></span> | ↳ Academia | *Academy* | <span class="skill"><b>ACADEMIA</b></span> | e93f | `#2196F3` |
-| <span style="color: #FF7043;"></span> | ↳ Bestiário | *Bestiary* | <span class="companion"><b>BESTIÁRIO</b></span> | e941 | `#FF7043` |
-| <span style="color: #4CAF50;"></span> | ↳ Santuário | *Sanctuary* | <span class="event"><b>SANTUÁRIO</b></span> | e942 | `#4CAF50` |
+| <span style="color: #673AB7;"></span> | ↳ Matriz | *Cradle* | [<span class="house"><b>MATRIZ</b></span>](/gameplay/stack/cradle.md) | eb3c | `#673AB7` |
+| <span style="color: #F44336;"></span> | ↳ Taverna | *Tavern* | [<span class="class"><b>TAVERNA</b></span>](/gameplay/stack/tavern.md) | e943 | `#F44336` |
+| <span style="color: #3F51B5;"></span> | ↳ Fenda | *Rift* | [<span class="entity"><b>FENDA</b></span>](/gameplay/stack/rift.md) | e944 | `#3F51B5` |
+| <span style="color: #FFC107;"></span> | ↳ Mercado | *Market* | [<span class="item"><b>MERCADO</b></span>](/gameplay/stack/market.md) | e940 | `#FFC107` |
+| <span style="color: #2196F3;"></span> | ↳ Academia | *Academy* | [<span class="skill"><b>ACADEMIA</b></span>](/gameplay/stack/academy.md) | e93f | `#2196F3` |
+| <span style="color: #FF7043;"></span> | ↳ Bestiário | *Bestiary* | [<span class="companion"><b>BESTIÁRIO</b></span>](/gameplay/stack/bestiary.md) | e941 | `#FF7043` |
+| <span style="color: #4CAF50;"></span> | ↳ Santuário | *Sanctuary* | [<span class="event"><b>SANTUÁRIO</b></span>](/gameplay/stack/sanctuary.md) | e942 | `#4CAF50` |
 | - | Monte de Cartas | *Pile* | - | - | - |
-|  | ↳ Entreposto | *Trading Post* | - | - | - |
+|  | ↳ Entreposto | *Trading Post* | [<span class="main"><b>ENTREPOSTO</b></span>](/gameplay/stack/trading-post.md) | eb48 | - |
 | <span style="color: #4CAF50;"></span> | ↳ Cenário | *Scenario* | [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md) | ea1c | `#4CAF50` |
 | - | ↳ - | *Storage* | - | - | - |
-| - | ↳ - | *Banished* | - | - | - |
+| - | ↳ Banidas | *Banished* | [<span class="main"><b>BANIDAS</b></span>](/gameplay/stack/banished.md) | - | - |
 | - | ↳ Limbo | *Limbo* | - | - | - |
 
 <br><br>

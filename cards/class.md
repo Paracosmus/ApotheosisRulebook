@@ -74,16 +74,18 @@ Os 20 caminhos são:
 
 ## <span class="class">Adquirir</span>
 
-Para adicionar uma nova [<span class="class"><b>CLASSE</b></span>](/cards/class.md), o personagem precisa estar em um local de <span class="class"><b>TAVERNA</b></span> que permita acesso à carta, e então sacrificar seu turno.
+Para adicionar uma nova [<span class="class"><b>CLASSE</b></span>](/cards/class.md), o personagem precisa estar em um local de [<span class="class"><b>TAVERNA</b></span>](/gameplay/stack/tavern.md) que permita acesso à carta, e então sacrificar seu turno.
 
 Selecionar então, uma carta acessível, de um caminho que não possua e **enterre 5 cartas de recurso do mesmo nível** da carta selecionada.
 
-A [<span class="class"><b>CLASSE</b></span>](/cards/class.md) deve então ser enviada para um espaço disponível na sua [<span class="main"><b>MESA</b></span>](/hero/table/). Se não houver espaços disponíveis, o personagem deve escolher e enterrar uma de suas cartas de [<span class="class"><b>CLASSE</b></span>](/cards/class.md) na [<span class="main"><b>FICHA</b></span>](/hero/table/sheet.md) e adicionar a nova carta em seu lugar.
+A [<span class="class"><b>CLASSE</b></span>](/cards/class.md) deve então ser enviada para um espaço disponível na sua [<span class="main"><b>MESA</b></span>](/hero/table/). Se não houver espaços disponíveis, o personagem deve escolher uma de suas cartas de [<span class="class"><b>CLASSE</b></span>](/cards/class.md) na [<span class="main"><b>FICHA</b></span>](/hero/table/sheet.md) e colocar a nova carta em seu lugar. A carta anterior é descartada para o [<span class="main"><b>ENTREPOSTO</b></span>](/gameplay/stack/trading-post.md), levando consigo seus anexos, contadores e demais componentes.
 
 ---
 
 ## <span class="class">Progredir</span>
 
-Se o personagem possuir em sua [<span class="main"><b>FICHA</b></span>](/hero/table/sheet.md), uma [<span class="class"><b>CLASSE</b></span>](/cards/class.md) do mesmo caminho de uma outra [<span class="class"><b>CLASSE</b></span>](/cards/class.md) desejada e nível imediatamente inferior ou igual, para adquirir esta carta, siga as mesmas instruções em [Adquirir](/cards/class.md#adquirir), porém no momento de enterrar as cartas de custo, ao invés, enterre sua carta de [<span class="class"><b>CLASSE</b></span>](/cards/class.md) de mesmo caminho e 3 cartas de recurso.
+Se o personagem possuir em sua [<span class="main"><b>FICHA</b></span>](/hero/table/sheet.md), uma [<span class="class"><b>CLASSE</b></span>](/cards/class.md) do mesmo caminho de uma outra [<span class="class"><b>CLASSE</b></span>](/cards/class.md) desejada e nível imediatamente inferior ou igual, para adquirir esta carta, siga as mesmas instruções em [Adquirir](/cards/class.md#adquirir), porém no momento de enterrar as cartas de custo, ao invés, enterre sua carta de [<span class="class"><b>CLASSE</b></span>](/cards/class.md) de mesmo caminho e **3** cartas de recurso.
+
+A progressão é uma [substituição](/glossary.md#outros): a nova carta ocupa o espaço da anterior e herda seus anexos, contadores e demais componentes.
 
 ---

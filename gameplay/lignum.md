@@ -61,7 +61,7 @@ Se você pagar essência em uma ativação que seja exclusiva de estamina ou man
 
 Cartas de Lignum podem se referenciar, ou seja, uma carta de Lignum pode ter um efeito que se aplica a outras cartas do mesmo Lignum. Por exemplo, uma carta de Lignum pode dizer:
 
-> [<span class="keyword-activation">Permanente</span>](/gameplay/effect.md) <span class="req">【</span> Enquanto esta carta estiver ativa <span class="req">】</span> Todas as outras cartas de deste Lignum ganham +1 de dano.
+> [<span class="keyword-activation">Permanente</span>](/gameplay/effect.md) <span class="req">【</span> Enquanto esta carta for jogável <span class="req">】</span> Todas as outras cartas de deste Lignum ganham +1 de dano.
 
 Um efeito de carta de Lignum que se aplica a outras cartas do mesmo Lignum é chamado de efeito de apoio. Este efeitos nunca referenciam o Lignum pelo nome, mas sim por meio de auto-referenciação usando expressões como "outras cartas deste Lignum", "todas as cartas deste Lignum", "este Lignum", etc.
 

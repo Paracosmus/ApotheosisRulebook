@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.845598141916">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.845605467567">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -41,11 +41,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.6.0.845598141916" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.845605467567" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.845598141916" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.845605467567" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.845598141916" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.845605467567" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -464,14 +464,16 @@
     </div>
 </div>
 <p>A carta a qual os anexos estão ligados é referida como carta <strong>Hospedeira</strong>. Os anexos são utilizados para diferentes funções, comumente relacionados a efeitos ou habilidades da carta hospedeira.</p>
-<p>Os anexos de uma carta a acompanham para onde ela for enviada, exceto quando ela é enviada para uma pilha ou baralho, neste caso os anexos são enviados para o entreposto.</p>
+<p>Apenas cartas na <a href="/hero/table/"><span class="main"><b>MESA</b></span></a> de um Herói podem ter anexos.</p>
+<p>Os anexos de uma carta a acompanham para onde ela for enviada. Enquanto ela permanece na <a href="/hero/table/"><span class="main"><b>MESA</b></span></a>, eles continuam anexados. Quando ela sai da <a href="/hero/table/"><span class="main"><b>MESA</b></span></a>, eles são desanexados e enviados para o mesmo local, logo após a carta hospedeira: ao ir para o <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a>, chegam nele como cartas comuns; ao ser descartada, ficam sobre ela no <a href="/gameplay/stack/trading-post/"><span class="main"><b>ENTREPOSTO</b></span></a>; ao ser enterrada, ficam sob ela no baralho. Os anexos são apenas movidos junto com a hospedeira, e não são considerados descartados, enterrados, etc.</p>
+<p>A única exceção é quando a carta hospedeira é anexada a outra carta: neste caso, seus anexos são enviados para o <a href="/gameplay/stack/trading-post/"><span class="main"><b>ENTREPOSTO</b></span></a>.</p>
 <p>Uma carta anexada é parte da carta hospedeira, e portanto não pode ser tratada como um elemento de jogo independente.</p>
 <ul>
 <li>O anexo não pode ser usado (consumido, descartado, etc.), mas a carta hospedeira pode.</li>
 <li>O anexo não pode ser alvo de ações, a não ser quando a ação especificar que seleciona um anexo como alvo.</li>
-<li>O anexo não pode possuir seus próprios anexos, se isto acontecer, os anexos dele devem ser enviados para o <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a> do dono se possível, ou para o entreposto caso contrário.</li>
+<li>O anexo não pode possuir seus próprios anexos, se isto acontecer, os anexos dele devem ser enviados para o <a href="/gameplay/stack/trading-post/"><span class="main"><b>ENTREPOSTO</b></span></a>.</li>
 <li>O anexo não pode possuir seus próprios <a href="/gameplay/counter/"><span class="main">❂<b>CONTADOR</b></span></a>, nesse caso os contadores são perdidos quando o anexo for anexado à outra carta.</li>
-<li>O anexo deve ser sempre mantido revelado, mesmo que a carta hospedeira esteja oculta. Quando isso ocorrer, lembre-se que os anexos se tornam <a href="/cards/#estado-da-carta">inativos</a>, portanto, mesmo efeitos <a href="/gameplay/effect/"><span class="keyword-scope">Do Anexo</span></a> não podem ser usados.</li>
+<li>O anexo deve ser sempre mantido revelado, mesmo que a carta hospedeira esteja oculta. Quando isso ocorrer, lembre-se que os anexos se tornam <a href="/cards/#estado-da-carta">não jogáveis</a>, portanto, mesmo efeitos <a href="/gameplay/effect/"><span class="keyword-scope">Do Anexo</span></a> e <a href="/gameplay/effect/"><span class="keyword-scope">De Qualquer Lugar</span></a> não podem ser usados.</li>
 <li>Anexos não ocupam espaço na <a href="/hero/table/"><span class="main"><b>MESA</b></span></a> do Herói, apenas a hospedeira conta.</li>
 </ul>
 <div class="flex mb-6">
@@ -499,7 +501,7 @@
 <p>Uma carta pode possuir até <strong>5</strong> anexos.</p>
 <hr>
 <h2 id="efeitos-de-anexos">Efeitos de Anexos</h2>
-<p>Cartas anexadas têm seu efeito ignorados, e não podem ser ativadas. A não ser quando uma carta anexada possua o identificador de efeito <a href="/gameplay/effect/"><span class="keyword-scope">Do Anexo</span></a>.</p>
+<p>Cartas anexadas têm seu efeito ignorados, e não podem ser ativadas. A não ser os efeitos com a palavra-chave <a href="/gameplay/effect/"><span class="keyword-scope">Do Anexo</span></a> ou <a href="/gameplay/effect/"><span class="keyword-scope">De Qualquer Lugar</span></a>, que podem ser usados normalmente enquanto a carta hospedeira estiver revelada.</p>
 <hr>
 <div id="retype-backlinks">
     <h2>See also</h2>
@@ -522,7 +524,7 @@
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-10-17T18:57:17" title="2026-10-17" data-absolute-label="Last updated on 2026-10-17 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-10-17 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-10-17T23:24:03" title="2026-10-17" data-absolute-label="Last updated on 2026-10-17 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-10-17 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
                         Last updated on 2026-10-17 by Bruno Caxito
                     </time>
                 </div>

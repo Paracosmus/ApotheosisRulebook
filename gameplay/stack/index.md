@@ -32,7 +32,7 @@ A visibilidade de um monte se refere ao seu controlador, enquanto os efeitos das
 
 ## Visibilidade
 
-A visibilidade define a orientação das cartas do monte e quem pode vê-las. Uma carta adicionada a um monte assume a orientação dele.
+A visibilidade define a orientação das cartas do monte e quem pode vê-las. Uma carta sempre entra em um monte na orientação dele, seja qual for a forma como chega até ele: enviada, descartada, enterrada, banida, etc.
 
 {.striped}
 Visibilidade | Em inglês | Tipo de monte | Quem vê as cartas
@@ -43,11 +43,11 @@ Visibilidade | Em inglês | Tipo de monte | Quem vê as cartas
 
 ### Pilhas
 
-São chamados de pilhas os montes de cartas colocados de face para cima (_reveladas_), e portanto visíveis para todos os jogadores, como o [entreposto](trading-post.md).
+São chamados de pilhas os montes de cartas colocados de face para cima (_reveladas_), e portanto visíveis para todos os jogadores, como o [<span class="main"><b>ENTREPOSTO</b></span>](/gameplay/stack/trading-post.md).
 
 ### Baralhos
 
-São chamados de baralhos os montes de cartas colocados de face para baixo (_ocultas_) e disponíveis para os jogadores conforme as regras do jogo. Cada baralho possui um conjunto de cartas que podem ser utilizadas durante a partida, e que são embaralhadas e dispostas de forma aleatória. Diferente do entreposto, a ordem das cartas em um baralho é importante, e as cartas devem ser mantidas na ordem em que foram embaralhadas e dispostas, a menos que um efeito ou mecânica de jogo permita ou exija que as cartas sejam reordenadas.
+São chamados de baralhos os montes de cartas colocados de face para baixo (_ocultas_) e disponíveis para os jogadores conforme as regras do jogo. Cada baralho possui um conjunto de cartas que podem ser utilizadas durante a partida, e que são embaralhadas e dispostas de forma aleatória. Diferente do [<span class="main"><b>ENTREPOSTO</b></span>](/gameplay/stack/trading-post.md), a ordem das cartas em um baralho é importante, e as cartas devem ser mantidas na ordem em que foram embaralhadas e dispostas, a menos que um efeito ou mecânica de jogo permita ou exija que as cartas sejam reordenadas.
 
 Por padrão, ninguém pode ver as cartas de um baralho. Alguns baralhos, porém, podem ser vistos pelo seu controlador, e apenas por ele.
 
@@ -55,13 +55,41 @@ Por padrão, ninguém pode ver as cartas de um baralho. Alguns baralhos, porém,
 Em formatos competitivos, é comum que os jogadores montem seus próprios baralhos, escolhendo as cartas que irão compor seus baralhos a partir de um pool de cartas pré-definido, e seguindo regras específicas para a construção do baralho. Nestes casos, o formato de jogo vai especificar claramente as regras de construção dos baralhos, bem como as regras de interação com eles.
 !!!
 
+#### Baralhos de Campanha
+
+No formato padrão de campanhas, existem **7** baralhos de campanha, um para cartas de cada naipe. Estes baralhos são a fonte principal de novas cartas para os jogadores, e são utilizados para expandir o pool de cartas conforme a campanha progride.
+
+O conteúdo de um baralho é definido pela campanha ou formato de jogo, estando vazios por padrão. Sendo que uma composição inicial de cartas pode ser definida, bem como novas cartas podem ser adicionadas da caixa aos baralhos conforme a campanha progride, certos marcos e tarefas são concluídos ou conforme outras mecânicas estabelecidas pela campanha ou formato são executadas.
+
+Novas cartas podem ser adicionadas a estes baralhos pela campanha, e estas cartas são enviadas para os personagens ou para o [<span class="main"><b>ENTREPOSTO</b></span>](/gameplay/stack/trading-post.md) seja pela campanha, mecânica de jogo ou efeito de carta.
+
+{.striped}
+Baralho         | Naipe
+--------------- |------
+[<span class="house"><b>MATRIZ</b></span>](/gameplay/stack/cradle.md)    | Para cartas de [<span class="house"><b>CASA</b></span>](/cards/house.md)
+[<span class="class"><b>TAVERNA</b></span>](/gameplay/stack/tavern.md)    | Para cartas de [<span class="class"><b>CLASSE</b></span>](/cards/class.md)
+[<span class="entity"><b>FENDA</b></span>](/gameplay/stack/rift.md)      | Para cartas de [<span class="entity"><b>ENTE</b></span>](/cards/entity.md)
+[<span class="item"><b>MERCADO</b></span>](/gameplay/stack/market.md)    | Para cartas de [<span class="item"><b>ITEM</b></span>](/cards/item.md)
+[<span class="skill"><b>ACADEMIA</b></span>](/gameplay/stack/academy.md)   | Para cartas de [<span class="skill"><b>HABILIDADE</b></span>](/cards/skills.md)
+[<span class="companion"><b>BESTIÁRIO</b></span>](/gameplay/stack/bestiary.md)  | Para cartas de [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md)
+[<span class="event"><b>SANTUÁRIO</b></span>](/gameplay/stack/sanctuary.md) | Para cartas de [<span class="event"><b>EVENTO</b></span>](/cards/event.md)
+
+Todos os baralhos de campanha têm a mesma configuração de monte:
+
+{.striped}
+Configuração | Valor
+--- | ---
+**Visibilidade** | Face para baixo
+**Uso** | Com palavra-chave
+**Afetados** | Todos
+
 #### Baralho Vazio
 
-Quando um baralho ficar sem cartas e por algum meio for necessário comprar ou descartar uma carta deste baralho, ele deve ser reabastecido a partir do entreposto
+Quando um baralho ficar sem cartas e por algum meio for necessário comprar ou descartar uma carta deste baralho, ele deve ser reabastecido a partir do [<span class="main"><b>ENTREPOSTO</b></span>](/gameplay/stack/trading-post.md)
 
-O Mestre deve embaralhar 100 cartas daquele naipe no entreposto, ou a quantidade que estiver disponível, e colocá-las de face para baixo para formar um novo baralho.
+O Mestre deve embaralhar 100 cartas daquele naipe no [<span class="main"><b>ENTREPOSTO</b></span>](/gameplay/stack/trading-post.md), ou a quantidade que estiver disponível, e colocá-las de face para baixo para formar um novo baralho.
 
-Se não houver nenhuma carta elegível no entreposto, o baralho é considerado vazio e não pode mais ser utilizado até que cartas sejam adicionadas ao baralho por outros meios, ou no futuro, quando houverem cartas elegíveis no entreposto e o baralho tiver que ser reabastecido.
+Se não houver nenhuma carta elegível no [<span class="main"><b>ENTREPOSTO</b></span>](/gameplay/stack/trading-post.md), o baralho é considerado vazio e não pode mais ser utilizado até que cartas sejam adicionadas ao baralho por outros meios, ou no futuro, quando houverem cartas elegíveis no [<span class="main"><b>ENTREPOSTO</b></span>](/gameplay/stack/trading-post.md) e o baralho tiver que ser reabastecido.
 
 ---
 
@@ -78,9 +106,9 @@ Define quando os efeitos das cartas de face para cima do monte são considerados
 {.striped}
 Uso | Em inglês | Efeitos considerados | Exemplo
 --- | --- | --- | ---
-**Sempre** | *Always* | Todos os efeitos das cartas de face para cima. | [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md)
-**Nunca** | *Never* | Nenhum efeito, nem mesmo os das cartas de face para cima. | Cartas banidas, [Limbo](/gameplay/limbo.md)
-**Com palavra-chave** | *Keyworded* | Apenas os efeitos com a palavra-chave [<span class="keyword-scope">Da Pilha</span>](/gameplay/effect.md) ou [<span class="keyword-scope">De Qualquer Lugar</span>](/gameplay/effect.md) das cartas de face para cima. | [Entreposto](trading-post.md)
+**Sempre** | *Always* | Todos os efeitos das cartas de face para cima, exceto os que uma palavra-chave de escopo prende a outro lugar, como [<span class="keyword-scope">Da Mesa</span>](/gameplay/effect.md), [<span class="keyword-scope">Da Mão</span>](/gameplay/effect.md) e [<span class="keyword-scope">Do Anexo</span>](/gameplay/effect.md). | [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md)
+**Nunca** | *Never* | Nenhum efeito, nem mesmo os das cartas de face para cima. | [<span class="main"><b>BANIDAS</b></span>](/gameplay/stack/banished.md), [Limbo](/gameplay/limbo.md)
+**Com palavra-chave** | *Keyworded* | Apenas os efeitos com a palavra-chave [<span class="keyword-scope">Da Pilha</span>](/gameplay/effect.md) ou [<span class="keyword-scope">De Qualquer Lugar</span>](/gameplay/effect.md) das cartas de face para cima. | [<span class="main"><b>ENTREPOSTO</b></span>](/gameplay/stack/trading-post.md)
 
 ### Afetados
 
@@ -100,7 +128,7 @@ Em um monte que afeta todos, uma carta que concede +2 de <b>DANO</b> concede 
 
 ### Estado das Cartas
 
-As cartas em um monte não possuem estado, ou seja, não são consideradas nem restauradas, nem consumidas, ou qualquer outro estado que uma carta possa ter, a menos que seja especificado o contrário por um efeito de carta ou mecânica de jogo.
+As cartas em um monte não são consideradas nem restauradas, nem consumidas, nem possuem qualquer outro estado, a menos que seja especificado o contrário por um efeito de carta ou mecânica de jogo. A orientação, porém, sempre vale: ela é a do monte e define se os efeitos da carta são considerados.
 
 ---
 

@@ -169,9 +169,16 @@
 ### Monte de Cartas
 
 - [Monte de Cartas](https://apotheosiscardgame.com/gameplay/stack/index.md): Monte de cartas é o nome dado a qualquer conjunto de cartas empilhadas utilizado no jogo.
-- [Baralhos de Campanha](https://apotheosiscardgame.com/gameplay/stack/campaign-decks.md): São baralhos utilizados para fornecer novas cartas aos jogadores durante a campanha.
+- [Matriz](https://apotheosiscardgame.com/gameplay/stack/cradle.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Taverna](https://apotheosiscardgame.com/gameplay/stack/tavern.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Fenda](https://apotheosiscardgame.com/gameplay/stack/rift.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Mercado](https://apotheosiscardgame.com/gameplay/stack/market.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Academia](https://apotheosiscardgame.com/gameplay/stack/academy.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Bestiário](https://apotheosiscardgame.com/gameplay/stack/bestiary.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Santuário](https://apotheosiscardgame.com/gameplay/stack/sanctuary.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [Entreposto](https://apotheosiscardgame.com/gameplay/stack/trading-post.md): Esta é a zona do jogo para onde as cartas são enviadas quando são descartadas.
 - [Cenário](https://apotheosiscardgame.com/gameplay/stack/scenario.md): É a área onde ficam as cartas em jogo do Mestre ou da campanha. Cartas que estão em jogo, mas não pertencem a nenhum Herói.
+- [Banidas](https://apotheosiscardgame.com/gameplay/stack/banished.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [Efeito](https://apotheosiscardgame.com/gameplay/effect.md): O efeito de uma carta é um texto que descreve sua função e mecânica, explicando como jogá-la e aplicá-la durante a partida. A função do efeito é conferir
 - [Técnica](https://apotheosiscardgame.com/gameplay/technique.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [ATRIBUTOS](https://apotheosiscardgame.com/gameplay/attributes.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.

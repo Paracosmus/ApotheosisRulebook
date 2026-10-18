@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.845598141916">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.845605467567">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -41,11 +41,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.6.0.845598141916" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.845605467567" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.845598141916" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.845605467567" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.845598141916" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.845605467567" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -471,20 +471,29 @@
 <p>é a área quadriculada especificamente onde as batalhas entre os personagens ocorrem.</p>
 <hr>
 <h2 id="casa-adjacente">Casa Adjacente</h2>
-<h2 id="casa-de-acesso">Casa de Acesso</h2>
+<h2 id="casa-de-posicionamento">Casa de Posicionamento</h2>
+<p>São as casas onde as peças são colocadas no início da batalha.</p>
+<h2 id="casa-de-reforço">Casa de Reforço</h2>
+<p>São as casas por onde os personagens chamados durante uma batalha em andamento, como um <a href="/cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a> recrutado, entram no tabuleiro.</p>
+<p>As demais casas não permitem que nenhuma peça entre no tabuleiro por elas.</p>
 <h2 id="direção-do-ataque">Direção do Ataque</h2>
 <h2 id="altitude">Altitude</h2>
+<p>Toda casa do tabuleiro tem uma <b>ALTITUDE</b>, a sua altura em relação ao nível do solo, onde <strong>1</strong> de <b>ALTITUDE</b> equivale a cerca de <strong>1</strong> metro. O nível do solo é <strong>0</strong>: o que está abaixo dele tem <b>ALTITUDE</b> negativa, como um fosso, e o que está acima tem <b>ALTITUDE</b> positiva, como um telhado.</p>
 <h2 id="distância">Distância</h2>
 <h2 id="mover">Mover</h2>
 <h2 id="terreno">Terreno</h2>
+<p>Toda casa do tabuleiro tem um tipo de terreno. Por padrão, uma casa é de terreno <strong>Plano</strong>. Além dele, apenas a <strong>Água</strong> está definida; os demais terrenos ainda estão em desenvolvimento:</p>
 <ul>
-<li><span class="docs-emoji">&#x1F33E;</span> Campo</li>
+<li><span class="docs-emoji">&#x2B1C;</span> Plano <em>(padrão)</em></li>
+<li><span class="docs-emoji">&#x1F33E;</span> Campo <em>(grama)</em></li>
 <li><span class="docs-emoji">&#x26F0;&#xFE0F;</span> Rocha</li>
 <li><span class="docs-emoji">&#x1F33F;</span> Pântano</li>
 <li><span class="docs-emoji">&#x1F335;</span> Areia</li>
 <li><span class="docs-emoji">&#x26C4;</span> Gelo</li>
 <li><span class="docs-emoji">&#x2744;&#xFE0F;</span> Gelo Prateado</li>
 <li><span class="docs-emoji">&#x1F4A7;</span> Água</li>
+<li><span class="docs-emoji">&#x1F7EB;</span> Terra</li>
+<li><span class="docs-emoji">&#x1F7E4;</span> Lama</li>
 </ul>
 <hr>
 <p>Tiles podem receber estados</p>
@@ -498,8 +507,6 @@
 <p>Agua</p>
 <p>Field</p>
 <p>Etc.</p>
-<p>Tiles tem Altura/Altitude</p>
-<p>Sempre positiva. Sendo o 0 a altura do nível do solo padrão</p>
 <p>Tiles podem ter peças nele. Mas apenas uma peça por tile. Portanto o Encero precisa ser reescrito e o nuvero eu acho</p>
 <p>Os tamanhos mais comuns utilizados de tabuleiro são</p>
 <ul>
@@ -516,6 +523,17 @@
 <div id="retype-backlinks">
     <h2>See also</h2>
 <div class="card-compact-group">
+<div class="card-compact-container">
+    <a href="/battle/" class="group card-compact no-link">
+        <div class="card-compact-body">
+            <div class="card-compact-header">
+                <span class="card-compact-icon inline-flex shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><!--icon--><path d="M14.265 1.627c0 3.545 1.869 5.327 3.479 7.021 1.54 1.62 3.006 3.163 3.006 6.102 0 4.812-3.753 8.25-8.565 8.25-4.813 0-8.935-3.421-8.935-8.25 0-2.039.962-4.011 2.509-4.899.305-.175.672.007.803.334C7.563 12.684 8.797 12.64 9.437 12c.388-.387.47-1.116-.004-2.062-2.405-4.812 1.863-8.279 4.2-8.854.336-.082.615.198.632.543ZM12.185 21.5c4.059 0 7.065-2.84 7.065-6.75 0-2.337-1.093-3.489-2.678-5.158l-.021-.023c-1.44-1.517-3.139-3.351-3.649-6.557a6.148 6.148 0 0 0-1.911 1.76c-.787 1.144-1.147 2.633-.216 4.495.603 1.205.777 2.74-.277 3.794-.657.657-1.762 1.1-2.956.586-.752-.324-1.353-.955-1.838-1.79-.567.706-.954 1.74-.954 2.893 0 3.847 3.288 6.75 7.435 6.75Z"/></svg></span>
+                <span class="card-compact-title">Batalha</span>
+            </div>
+            <p class="card-compact-description">Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.</p>
+        </div>
+    </a>
+</div>
 <div class="card-compact-container">
     <a href="/getting-started/" class="group card-compact no-link">
         <div class="card-compact-body">
@@ -549,6 +567,17 @@
         </div>
     </a>
 </div>
+<div class="card-compact-container">
+    <a href="/battle/piece/" class="group card-compact no-link">
+        <div class="card-compact-body">
+            <div class="card-compact-header">
+                <span class="card-compact-icon inline-flex shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><!--icon--><path d="M12 2.5a5.5 5.5 0 0 1 3.096 10.047 9.005 9.005 0 0 1 5.9 8.181.75.75 0 1 1-1.499.044 7.5 7.5 0 0 0-14.993 0 .75.75 0 0 1-1.5-.045 9.005 9.005 0 0 1 5.9-8.18A5.5 5.5 0 0 1 12 2.5ZM8 8a4 4 0 1 0 8 0 4 4 0 0 0-8 0Z"/></svg></span>
+                <span class="card-compact-title">Peça</span>
+            </div>
+            <p class="card-compact-description">Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.</p>
+        </div>
+    </a>
+</div>
 </div>
 </div>
 <!-- Insert this at the bottom of each markdown page -->
@@ -557,8 +586,8 @@
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-03-31T18:25:31" title="2026-03-31" data-absolute-label="Last updated on 2026-03-31 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-03-31 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
-                        Last updated on 2026-03-31 by Bruno Caxito
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-10-17T23:24:03" title="2026-10-17" data-absolute-label="Last updated on 2026-10-17 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-10-17 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                        Last updated on 2026-10-17 by Bruno Caxito
                     </time>
                 </div>
 

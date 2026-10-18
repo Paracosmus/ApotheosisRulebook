@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.845598141916">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.845605467567">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -47,11 +47,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.6.0.845598141916" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.845605467567" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.845598141916" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.845605467567" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.845598141916" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.845605467567" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -536,7 +536,7 @@
 <hr>
 <h2 id="item-sem-preço"><span class="item">Item sem Preço</span></h2>
 <p><a href="/cards/item/"><span class="item"><b>ITEM</b></span></a> São as únicas cartas de Recurso que podem não ter um valor (preço).</p>
-<p>Se um <a href="/cards/item/"><span class="item"><b>ITEM</b></span></a> não possuir <a href="/cards/item/"><span class="item"><b>PREÇO</b></span></a>, ele não pode ser obtido pelos meios padrões de trocas de cartas com o entreposto, e deve ser considerado como tendo valor zero em qualquer troca. Estes ainda podem ser obtidos de outras formas, como por exemplo, através de ações de personagens ou efeitos de cartas.</p>
+<p>Se um <a href="/cards/item/"><span class="item"><b>ITEM</b></span></a> não possuir <a href="/cards/item/"><span class="item"><b>PREÇO</b></span></a>, ele não pode ser obtido pelos meios padrões de trocas de cartas com o <a href="/gameplay/stack/trading-post/"><span class="main"><b>ENTREPOSTO</b></span></a>, e deve ser considerado como tendo valor zero em qualquer troca. Estes ainda podem ser obtidos de outras formas, como por exemplo, através de ações de personagens ou efeitos de cartas.</p>
 <hr>
 <h2 id="especificadores"><span class="item">Especificadores</span></h2>
 <p>Alguns <a href="/cards/item/"><span class="item"><b>ITEM</b></span></a> podem possuir especificadores, que são ícones que definem um tipo de objeto. O Herói pode ter apenas uma carta de cada especificador equipado por vez.</p>
@@ -550,7 +550,7 @@
 </ul>
 <hr>
 <h2 id="fabricar"><span class="item">Fabricar</span></h2>
-<p>Uma forma alternativa de se obter um <a href="/cards/item/"><span class="item"><b>ITEM</b></span></a>, é fabricando-o. Para isso, o personagem deve sacrificar seu turno, selecionar um <a href="/cards/item/"><span class="item"><b>ITEM</b></span></a> no entreposto, cujo nível mínimo do <a href="/gameplay/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a> ele possua, e enterrar cartas de <a href="/cards/item/"><span class="item"><b>ITEM</b></span></a> de sua <a href="/hero/table/"><span class="main"><b>MESA</b></span></a> e/ou <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a>, que juntas contenham pelo menos os mesmos ícones de materiais, na mesma quantidade, presentes na carta selecionada.</p>
+<p>Uma forma alternativa de se obter um <a href="/cards/item/"><span class="item"><b>ITEM</b></span></a>, é fabricando-o. Para isso, o personagem deve sacrificar seu turno, selecionar um <a href="/cards/item/"><span class="item"><b>ITEM</b></span></a> no <a href="/gameplay/stack/trading-post/"><span class="main"><b>ENTREPOSTO</b></span></a>, cujo nível mínimo do <a href="/gameplay/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a> ele possua, e enterrar cartas de <a href="/cards/item/"><span class="item"><b>ITEM</b></span></a> de sua <a href="/hero/table/"><span class="main"><b>MESA</b></span></a> e/ou <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a>, que juntas contenham pelo menos os mesmos ícones de materiais, na mesma quantidade, presentes na carta selecionada.</p>
 <p>Tipos de Materiais de Fabricação:</p>
 <ul>
 <li><span class="item"></span> Forja</li>
@@ -567,22 +567,11 @@
 <li><span class="item"></span> Oricalco</li>
 <li><span class="item"></span> Âmbar</li>
 </ul>
-<p>Em adicional, não é possível fabricar um <a href="/cards/item/"><span class="item"><b>ITEM</b></span></a> quando em batalha, e não é necessário estar em um local com acesso ao entreposto.</p>
+<p>Em adicional, não é possível fabricar um <a href="/cards/item/"><span class="item"><b>ITEM</b></span></a> quando em batalha, e não é necessário estar em um local com acesso ao <a href="/gameplay/stack/trading-post/"><span class="main"><b>ENTREPOSTO</b></span></a>.</p>
 <hr>
 <div id="retype-backlinks">
     <h2>See also</h2>
 <div class="card-compact-group">
-<div class="card-compact-container">
-    <a href="/gameplay/stack/campaign-decks/" class="group card-compact no-link">
-        <div class="card-compact-body">
-            <div class="card-compact-header">
-                <span class="card-compact-icon inline-flex shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><!--icon--><path d="M5.962 2.513a.75.75 0 0 1-.475.949l-.816.272a.25.25 0 0 0-.171.237V21.25c0 .138.112.25.25.25h14.5a.25.25 0 0 0 .25-.25V3.97a.25.25 0 0 0-.17-.236l-.817-.272a.75.75 0 0 1 .474-1.424l.816.273A1.751 1.751 0 0 1 21 3.97v17.28A1.75 1.75 0 0 1 19.25 23H4.75A1.75 1.75 0 0 1 3 21.25V3.97a1.75 1.75 0 0 1 1.197-1.66l.816-.272a.75.75 0 0 1 .949.475Z"/><path d="M7 1.75C7 .784 7.784 0 8.75 0h6.5C16.216 0 17 .784 17 1.75v1.5A1.75 1.75 0 0 1 15.25 5h-6.5A1.75 1.75 0 0 1 7 3.25Zm1.75-.25a.25.25 0 0 0-.25.25v1.5c0 .138.112.25.25.25h6.5a.25.25 0 0 0 .25-.25v-1.5a.25.25 0 0 0-.25-.25Z"/></svg></span>
-                <span class="card-compact-title">Baralhos de Campanha</span>
-            </div>
-            <p class="card-compact-description">São baralhos utilizados para fornecer novas cartas aos jogadores durante a campanha.</p>
-        </div>
-    </a>
-</div>
 <div class="card-compact-container">
     <a href="/cards/" class="group card-compact no-link">
         <div class="card-compact-body">
@@ -623,17 +612,6 @@
                 <span class="card-compact-title">COMPANHEIRO</span>
             </div>
             <p class="card-compact-description">Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.</p>
-        </div>
-    </a>
-</div>
-<div class="card-compact-container">
-    <a href="/gameplay/game-mode/deck-diving/" class="group card-compact no-link">
-        <div class="card-compact-body">
-            <div class="card-compact-header">
-                <span class="card-compact-icon inline-flex shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><!--icon--><path d="M4.801 3.57A1.75 1.75 0 0 1 6.414 2.5h11.174c.702 0 1.337.42 1.611 1.067l3.741 8.828c.04.092.06.192.06.293v7.562A1.75 1.75 0 0 1 21.25 22H2.75A1.75 1.75 0 0 1 1 20.25v-7.5c0-.1.02-.199.059-.291L4.8 3.571ZM6.414 4a.25.25 0 0 0-.23.153L2.88 12H8a.75.75 0 0 1 .648.372L10.18 15h3.638l1.533-2.628a.75.75 0 0 1 .64-.372l5.13-.051-3.304-7.797a.25.25 0 0 0-.23-.152H6.414Z"/></svg></span>
-                <span class="card-compact-title">Deck Diving</span>
-            </div>
-            <p class="card-compact-description">É o modo de jogo onde os Heróis exploram baralhos em busca de cartas especiais, segredos e estratégias para avançar na aventura ou cumprir um objetivo.</p>
         </div>
     </a>
 </div>
@@ -681,6 +659,17 @@
     </a>
 </div>
 <div class="card-compact-container">
+    <a href="/gameplay/stack/market/" class="group card-compact no-link">
+        <div class="card-compact-body">
+            <div class="card-compact-header">
+                <span class="card-compact-icon inline-flex shrink-0"><img width="20" height="20" src="/static/img/icons/suit_item.svg"></span>
+                <span class="card-compact-title">Mercado</span>
+            </div>
+            <p class="card-compact-description">Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.</p>
+        </div>
+    </a>
+</div>
+<div class="card-compact-container">
     <a href="/battle/piece/dummy/" class="group card-compact no-link">
         <div class="card-compact-body">
             <div class="card-compact-header">
@@ -688,6 +677,17 @@
                 <span class="card-compact-title">Modelo</span>
             </div>
             <p class="card-compact-description">Se trata de uma peça no tabuleiro que não representa um personagem Herói, com MESA, e nem um personagem COMPANHEIRO, com uma carta que o define</p>
+        </div>
+    </a>
+</div>
+<div class="card-compact-container">
+    <a href="/gameplay/stack/" class="group card-compact no-link">
+        <div class="card-compact-body">
+            <div class="card-compact-header">
+                <span class="card-compact-icon inline-flex shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><!--icon--><path d="M11.063 1.456a1.749 1.749 0 0 1 1.874 0l8.383 5.316a1.751 1.751 0 0 1 0 2.956l-8.383 5.316a1.749 1.749 0 0 1-1.874 0L2.68 9.728a1.751 1.751 0 0 1 0-2.956Zm1.071 1.267a.25.25 0 0 0-.268 0L3.483 8.039a.25.25 0 0 0 0 .422l8.383 5.316a.25.25 0 0 0 .268 0l8.383-5.316a.25.25 0 0 0 0-.422Z"/><path d="M1.867 12.324a.75.75 0 0 1 1.035-.232l8.964 5.685a.25.25 0 0 0 .268 0l8.964-5.685a.75.75 0 0 1 .804 1.267l-8.965 5.685a1.749 1.749 0 0 1-1.874 0l-8.965-5.685a.75.75 0 0 1-.231-1.035Z"/><path d="M1.867 16.324a.75.75 0 0 1 1.035-.232l8.964 5.685a.25.25 0 0 0 .268 0l8.964-5.685a.75.75 0 0 1 .804 1.267l-8.965 5.685a1.749 1.749 0 0 1-1.874 0l-8.965-5.685a.75.75 0 0 1-.231-1.035Z"/></svg></span>
+                <span class="card-compact-title">Monte de Cartas</span>
+            </div>
+            <p class="card-compact-description">Monte de cartas é o nome dado a qualquer conjunto de cartas empilhadas utilizado no jogo.</p>
         </div>
     </a>
 </div>
@@ -710,8 +710,8 @@
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-09-27T12:08:32" title="2026-09-27" data-absolute-label="Last updated on 2026-09-27 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-09-27 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
-                        Last updated on 2026-09-27 by Bruno Caxito
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-10-17T23:24:03" title="2026-10-17" data-absolute-label="Last updated on 2026-10-17 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-10-17 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                        Last updated on 2026-10-17 by Bruno Caxito
                     </time>
                 </div>
 

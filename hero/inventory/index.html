@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.845598141916">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.845605467567">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -41,11 +41,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.6.0.845598141916" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.845605467567" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.845598141916" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.845605467567" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.845598141916" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.845605467567" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -468,7 +468,7 @@
     </div>
 </div>
 <h1 id="inventário">Inventário</h1>
-<p>É onde o Herói armazena cartas que não estão ativas ou em uso, mas que ainda são de sua posse. Ele é tratado de forma diferente da <a href="/hero/table/"><span class="main"><b>MESA</b></span></a>, tendo suas próprias regras.</p>
+<p>É onde o Herói guarda as cartas que são de sua posse, mas não estão na sua <a href="/hero/table/"><span class="main"><b>MESA</b></span></a>. Ele é tratado de forma diferente da <a href="/hero/table/"><span class="main"><b>MESA</b></span></a>, tendo suas próprias regras.</p>
 <p>As cartas no <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a> são tratadas como ocultas, ou seja, elas não são visíveis para outros jogadores. Os demais jogadores podem saber quantas cartas estão no <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a> do Herói, mas não podem ver quais são essas cartas.</p>
 <p>Alguns efeitos e mecânicas podem determinar que uma carta do <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a> seja revelada ou permaneça revelada, neste caso, o jogador deve mantê-la visível para todos os jogadores. Sendo permitido aos outros jogadores pegar as cartas do Herói a qualquer momento para ler e fazer verificações.</p>
 <hr>
@@ -494,8 +494,8 @@
 <p>Qualquer carta de Recurso pode ser colocada em um espaço de <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a>, não tendo requerimentos de nível de <a href="/gameplay/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a> ou outras condições.</p>
 <hr>
 <h2 id="ativação">Ativação</h2>
-<p>Cartas ocultas no <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a> não podem ser ativadas e devem ter seus efeitos e bônus ignorados a todo momento.</p>
-<p>Cartas permanecidas reveladas no <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a> podem ser ativadas, e seus efeitos e bônus devem ser considerados a todo momento.</p>
+<p>Cartas ocultas no <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a> devem ter seus efeitos e bônus ignorados a todo momento, exceto os efeitos <a href="/gameplay/effect/"><span class="keyword-scope">Da Mão</span></a> e <a href="/gameplay/effect/"><span class="keyword-scope">De Qualquer Lugar</span></a>, que podem ser usados normalmente.</p>
+<p>Cartas permanecidas reveladas no <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a> podem ser ativadas, e seus efeitos e bônus, inclusive os <a href="/gameplay/effect/"><span class="keyword-activation">Permanente</span></a>, devem ser considerados a todo momento.</p>
 <p>Porém, <a href="/cards/event/"><span class="event"><b>EVENTO</b></span></a> são exceção a esta regra, podendo ser ativados normalmente, bem como ativados quando uma condição opcional for cumprida. Assim como as cartas na <a href="/hero/table/"><span class="main"><b>MESA</b></span></a>, um <a href="/cards/event/"><span class="event"><b>EVENTO</b></span></a> no <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a> segue as mesmas regras de ativação e requerem que o Herói tenha o nível de <a href="/gameplay/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a> da carta para poder ativá-la e usar seu efeito.</p>
 <p>Se um <a href="/cards/event/"><span class="event"><b>EVENTO</b></span></a> for ativado do <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a>, ele deve ser revelado, e se após resolver seu efeito, ele não for descartado, ele deve ser ocultado novamente.</p>
 <hr>
@@ -543,6 +543,17 @@
                 <span class="card-compact-title">Efeito</span>
             </div>
             <p class="card-compact-description">O efeito de uma carta é um texto que descreve sua função e mecânica, explicando como jogá-la e aplicá-la durante a partida. A função do efeito é conferir</p>
+        </div>
+    </a>
+</div>
+<div class="card-compact-container">
+    <a href="/gameplay/stack/trading-post/" class="group card-compact no-link">
+        <div class="card-compact-body">
+            <div class="card-compact-header">
+                <span class="card-compact-icon inline-flex shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><!--icon--><path d="M3.75 15a.75.75 0 0 1 .75.75v3.5c0 .138.112.25.25.25h3.5a.75.75 0 0 1 0 1.5h-3.5A1.75 1.75 0 0 1 3 19.25v-3.5a.75.75 0 0 1 .75-.75Zm16.5 0a.75.75 0 0 1 .75.75v3.5A1.75 1.75 0 0 1 19.25 21h-3.5a.75.75 0 0 1 0-1.5h3.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 .75-.75ZM4.75 4.5a.25.25 0 0 0-.25.25v3.5a.75.75 0 0 1-1.5 0v-3.5C3 3.784 3.784 3 4.75 3h3.5a.75.75 0 0 1 0 1.5ZM15 3.75a.75.75 0 0 1 .75-.75h3.5c.966 0 1.75.784 1.75 1.75v3.5a.75.75 0 0 1-1.5 0v-3.5a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1-.75-.75Z"/></svg></span>
+                <span class="card-compact-title">Entreposto</span>
+            </div>
+            <p class="card-compact-description">Esta é a zona do jogo para onde as cartas são enviadas quando são descartadas.</p>
         </div>
     </a>
 </div>
@@ -613,17 +624,6 @@
     </a>
 </div>
 <div class="card-compact-container">
-    <a href="/cards/summus/" class="group card-compact no-link">
-        <div class="card-compact-body">
-            <div class="card-compact-header">
-                <span class="card-compact-icon inline-flex shrink-0"><img width="20" height="20" src="/static/img/icons/suit_summus.svg"></span>
-                <span class="card-compact-title">Summus</span>
-            </div>
-            <p class="card-compact-description">Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.</p>
-        </div>
-    </a>
-</div>
-<div class="card-compact-container">
     <a href="/hero/table/sheet/" class="group card-compact no-link">
         <div class="card-compact-body">
             <div class="card-compact-header">
@@ -642,7 +642,7 @@
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-10-17T18:57:17" title="2026-10-17" data-absolute-label="Last updated on 2026-10-17 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-10-17 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-10-17T23:24:03" title="2026-10-17" data-absolute-label="Last updated on 2026-10-17 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-10-17 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
                         Last updated on 2026-10-17 by Bruno Caxito
                     </time>
                 </div>

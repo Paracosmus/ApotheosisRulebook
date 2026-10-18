@@ -32,7 +32,7 @@ São personagens humanos, animais ou evocações. Diferente de um [Herói](/hero
 
 ## <span class="companion">Tipo</span>
 
-A carta de [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) pode ser de 3 tipos diferentes, que são representados por ícones. O tipo da carta é importante para determinar como ela interage com outras cartas e mecânicas do jogo.
+A carta de [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) pode ser de **6** tipos diferentes, que são representados por ícones. O tipo da carta é importante para determinar como ela interage com outras cartas e mecânicas do jogo.
 
 ### <span class="icon"></span> Humano
 
@@ -126,7 +126,7 @@ Os 20 caminhos são:
 
 Ao custo de 2 de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação), esta carta pode ser enviada para um espaço disponível no [<span class="companion"><b>SUPORTE</b></span>](/hero/table/support.md) do Herói.
 
-- Se o personagem for [<span class="companion"><b>HUMANO</b></span>](/cards/companion.md#-humano) ou [<span class="companion"><b>CRIATURA</b></span>](/cards/companion.md#-criatura), ele deve ser colocado em uma [casa de acesso do tabuleiro](/battle/board.md#casa-de-acesso). Se não houverem casas de acesso disponíveis, o personagem não pode ser recrutado.
+- Se o personagem for [<span class="companion"><b>HUMANO</b></span>](/cards/companion.md#-humano) ou [<span class="companion"><b>CRIATURA</b></span>](/cards/companion.md#-criatura), ele deve ser colocado em uma [casa de reforço do tabuleiro](/battle/board.md#casa-de-reforço). Se não houverem casas de reforço disponíveis, o personagem não pode ser recrutado.
 
 - Se o personagem for uma [<span class="companion"><b>EVOCAÇÃO</b></span>](/cards/companion.md#-evocação), coloque sua peça em uma casa adjacente ao Herói. Se não houver nenhuma casa adjacente disponível, este personagem não pode ser evocado.
 
@@ -136,7 +136,7 @@ Ao custo de 2 de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação), es
 
 Ao custo de 2 de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação), esta carta pode ser enviada do [<span class="companion"><b>SUPORTE</b></span>](/hero/table/support.md) para o [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) do Herói.
 
-- Se o personagem for [<span class="companion"><b>HUMANO</b></span>](/cards/companion.md#-humano) ou [<span class="companion"><b>CRIATURA</b></span>](/cards/companion.md#-criatura), é necessário que haja uma [casa de cesso do tabuleiro](/battle/board.md#casa-de-acesso) disponível para que o personagem possa ser retirado do tabuleiro. Se não houver casas de acesso disponíveis, o personagem não pode ser abandonado.
+- Se o personagem for [<span class="companion"><b>HUMANO</b></span>](/cards/companion.md#-humano) ou [<span class="companion"><b>CRIATURA</b></span>](/cards/companion.md#-criatura), é necessário que haja uma [casa de reforço do tabuleiro](/battle/board.md#casa-de-reforço) disponível para que o personagem possa ser retirado do tabuleiro. Se não houver casas de reforço disponíveis, o personagem não pode ser abandonado.
 
 - Se o personagem for uma [<span class="companion"><b>EVOCAÇÃO</b></span>](/cards/companion.md#-evocação), remova sua peça do tabuleiro.
 
@@ -146,7 +146,7 @@ Ao custo de 2 de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação), es
 
 Este é o processo de trocar uma carta de [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) em seu [<span class="companion"><b>SUPORTE</b></span>](/hero/table/support.md) por outra de nível superior e mesmo caminho.
 
-A qualquer momento do turno de um personagem [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) que esteja na [<span class="main"><b>MESA</b></span>](/hero/table/) de um Herói, mesmo que em combate ou quando ele não tem acesso ao <span class="companion"><b>BESTIÁRIO</b></span>, ele pode sacrificar o seu turno e descartar 3 de [<span class="skill"><b>XP</b></span>](/cards/skills.md), para selecionar uma carta de [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) do <span class="companion"><b>BESTIÁRIO</b></span> de nível imediatamente superior ao seu e de mesmo caminho, observando se o seu Herói possuí o [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md) e nível necessário para ter aquela carta em sua [<span class="main"><b>MESA</b></span>](/hero/table/), bem como outros requerimentos, se houverem.
+A qualquer momento do turno de um personagem [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) que esteja na [<span class="main"><b>MESA</b></span>](/hero/table/) de um Herói, mesmo que em combate ou quando ele não tem acesso ao [<span class="companion"><b>BESTIÁRIO</b></span>](/gameplay/stack/bestiary.md), ele pode sacrificar o seu turno e descartar 3 de [<span class="skill"><b>XP</b></span>](/cards/skills.md), para selecionar uma carta de [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) do [<span class="companion"><b>BESTIÁRIO</b></span>](/gameplay/stack/bestiary.md) de nível imediatamente superior ao seu e de mesmo caminho, observando se o seu Herói possuí o [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md) e nível necessário para ter aquela carta em sua [<span class="main"><b>MESA</b></span>](/hero/table/), bem como outros requerimentos, se houverem.
 
 Enterre então a carta de [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md), substituindo-a ela pela nova carta, que herda seus anexos e contadores.
 
@@ -203,7 +203,7 @@ O [<span class="hp"><b>VIDA</b></span>](/hero/#vida) da peça de um companhei
 
 ### <span class="companion">Morte</span>
 
-Quando um [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) morrer, sua carta deve ser enterrada e todas as cartas anexadas devem ser descartadas para o entreposto, exceto [<span class="item"><b>ITEM</b></span>](/cards/item.md), que podem ser saqueados do seu corpo.
+Quando um [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) morrer, sua carta deve ser enterrada e todas as cartas anexadas devem ser descartadas para o [<span class="main"><b>ENTREPOSTO</b></span>](/gameplay/stack/trading-post.md), exceto [<span class="item"><b>ITEM</b></span>](/cards/item.md), que podem ser saqueados do seu corpo.
 
 ### Morte do Herói
 

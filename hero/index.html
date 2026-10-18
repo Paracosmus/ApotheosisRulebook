@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.845598141916">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.845605467567">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -41,11 +41,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.6.0.845598141916" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.845605467567" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.845598141916" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.845605467567" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.845598141916" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.845605467567" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -485,7 +485,9 @@
 </div>
 <hr>
 <h2 id="nível-do-herói">Nível do Herói</h2>
-<p>É determinado pela soma dos níveis de todas as suas cartas de CLASSE, somado mais 1 (Carta de CASA).</p>
+<p>O nível do Herói é a soma do nível da sua carta de <a href="/cards/house/"><span class="house"><b>CASA</b></span></a> com os níveis das cartas nos três espaços de <a href="/cards/class/"><span class="class"><b>CLASSE</b></span></a> da <a href="/hero/table/sheet/"><span class="main"><b>FICHA</b></span></a>. Toda <a href="/cards/house/"><span class="house"><b>CASA</b></span></a> é de nível <strong>1</strong> e cada <a href="/cards/class/"><span class="class"><b>CLASSE</b></span></a> vai do nível <strong>1</strong> ao <strong>3</strong>. Como o Herói pode ter de <strong>0</strong> a <strong>3</strong> <a href="/cards/class/"><span class="class"><b>CLASSE</b></span></a>, seu nível vai de <strong>1</strong> a <strong>10</strong>.</p>
+<p>Apenas esses <strong>4</strong> espaços contam: cartas em outros locais da <a href="/hero/table/sheet/"><span class="main"><b>FICHA</b></span></a>, como a Zona Extra, não somam nível, mesmo que sejam de <a href="/cards/house/"><span class="house"><b>CASA</b></span></a> ou <a href="/cards/class/"><span class="class"><b>CLASSE</b></span></a>.</p>
+<p>Efeitos de cartas podem modificar o nível do Herói, mas ele nunca fica abaixo de <strong>1</strong> nem acima de <strong>10</strong>.</p>
 <hr>
 <h2 id="vida">Vida</h2>
 <p><a href="/hero/#vida"><span class="hp"><b>VIDA</b></span></a> = 4 + Nível do Herói</p>
@@ -508,6 +510,10 @@
 <hr>
 <h2 id="propriedades-do-herói">Propriedades do Herói</h2>
 <p>É o conjunto de propriedades das suas cartas de <a href="/cards/house/"><span class="house"><b>CASA</b></span></a>, <a href="/cards/class/"><span class="class"><b>CLASSE</b></span></a>, do <a href="/cards/entity/"><span class="entity"><b>ENTE</b></span></a> quando desperto, e dos <a href="/cards/item/"><span class="item"><b>ITEM</b></span></a> no seu <a href="/hero/table/equipment/"><span class="item"><b>EQUIPAMENTO</b></span></a>, <u>que possuam especificador</u>.</p>
+<hr>
+<h2 id="fora-de-cena">Fora de Cena</h2>
+<p>Um Herói que não está participando da cena atual, como quando o time se divide e cada parte segue um caminho diferente, está fora de cena.</p>
+<p>Enquanto estiver fora de cena, o Herói e todas as suas cartas, inclusive as da <a href="/hero/table/"><span class="main"><b>MESA</b></span></a>, do <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a> e dos seus montes, são desconsiderados: nenhum de seus efeitos ou bônus é aplicado aos personagens em cena.</p>
 <hr>
 <h2 id="score">Score</h2>
 <hr>
@@ -533,8 +539,8 @@
 <p>Ao final da batalha, o personagem pode ser revivido por alguns efeitos de cartas, se isto não for feito, o personagem está então permanentemente morto.</p>
 <ul>
 <li>A carta de <a href="/cards/house/"><span class="house"><b>CASA</b></span></a> deve ser banida.</li>
-<li>Cartas de <a href="/cards/item/"><span class="item"><b>ITEM</b></span></a> devem ser distribuídas entre os membros do seu time e/ou enviadas para o <span class="item"><b>MERCADO</b></span>.</li>
-<li>Todas as demais cartas devem ser enviadas para o entreposto.</li>
+<li>Cartas de <a href="/cards/item/"><span class="item"><b>ITEM</b></span></a> devem ser distribuídas entre os membros do seu time e/ou enviadas para o <a href="/gameplay/stack/market/"><span class="item"><b>MERCADO</b></span></a>.</li>
+<li>Todas as demais cartas devem ser enviadas para o <a href="/gameplay/stack/trading-post/"><span class="main"><b>ENTREPOSTO</b></span></a>.</li>
 </ul>
 <h3 id="salvação-divina">Salvação Divina</h3>
 <blockquote>
@@ -593,17 +599,6 @@
     </a>
 </div>
 <div class="card-compact-container">
-    <a href="/battle/" class="group card-compact no-link">
-        <div class="card-compact-body">
-            <div class="card-compact-header">
-                <span class="card-compact-icon inline-flex shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><!--icon--><path d="M14.265 1.627c0 3.545 1.869 5.327 3.479 7.021 1.54 1.62 3.006 3.163 3.006 6.102 0 4.812-3.753 8.25-8.565 8.25-4.813 0-8.935-3.421-8.935-8.25 0-2.039.962-4.011 2.509-4.899.305-.175.672.007.803.334C7.563 12.684 8.797 12.64 9.437 12c.388-.387.47-1.116-.004-2.062-2.405-4.812 1.863-8.279 4.2-8.854.336-.082.615.198.632.543ZM12.185 21.5c4.059 0 7.065-2.84 7.065-6.75 0-2.337-1.093-3.489-2.678-5.158l-.021-.023c-1.44-1.517-3.139-3.351-3.649-6.557a6.148 6.148 0 0 0-1.911 1.76c-.787 1.144-1.147 2.633-.216 4.495.603 1.205.777 2.74-.277 3.794-.657.657-1.762 1.1-2.956.586-.752-.324-1.353-.955-1.838-1.79-.567.706-.954 1.74-.954 2.893 0 3.847 3.288 6.75 7.435 6.75Z"/></svg></span>
-                <span class="card-compact-title">Batalha</span>
-            </div>
-            <p class="card-compact-description">Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.</p>
-        </div>
-    </a>
-</div>
-<div class="card-compact-container">
     <a href="/cards/" class="group card-compact no-link">
         <div class="card-compact-body">
             <div class="card-compact-header">
@@ -611,17 +606,6 @@
                 <span class="card-compact-title">Cartas</span>
             </div>
             <p class="card-compact-description">São a base do jogo, as partículas que compõem os personagens e eventos. Cada carta possui um conjunto de informações que são utilizadas para dar função e significado.</p>
-        </div>
-    </a>
-</div>
-<div class="card-compact-container">
-    <a href="/getting-started/" class="group card-compact no-link">
-        <div class="card-compact-body">
-            <div class="card-compact-header">
-                <span class="card-compact-icon inline-flex shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><!--icon--><path d="M20.322.75h1.176a1.75 1.75 0 0 1 1.75 1.749v1.177a10.75 10.75 0 0 1-2.925 7.374l-1.228 1.304a23.699 23.699 0 0 1-1.596 1.542v5.038c0 .615-.323 1.184-.85 1.5l-4.514 2.709a.75.75 0 0 1-1.12-.488l-.963-4.572a1.305 1.305 0 0 1-.14-.129L8.04 15.96l-1.994-1.873a1.305 1.305 0 0 1-.129-.14l-4.571-.963a.75.75 0 0 1-.49-1.12l2.71-4.514c.316-.527.885-.85 1.5-.85h5.037a23.668 23.668 0 0 1 1.542-1.594l1.304-1.23A10.753 10.753 0 0 1 20.321.75Zm-6.344 4.018v-.001l-1.304 1.23a22.275 22.275 0 0 0-3.255 3.851l-2.193 3.29 1.859 1.744a.545.545 0 0 1 .034.034l1.743 1.858 3.288-2.192a22.263 22.263 0 0 0 3.854-3.257l1.228-1.303a9.251 9.251 0 0 0 2.517-6.346V2.5a.25.25 0 0 0-.25-.25h-1.177a9.252 9.252 0 0 0-6.344 2.518ZM6.5 21c-1.209 1.209-3.901 1.445-4.743 1.49a.236.236 0 0 1-.18-.067.236.236 0 0 1-.067-.18c.045-.842.281-3.534 1.49-4.743.9-.9 2.6-.9 3.5 0 .9.9.9 2.6 0 3.5Zm-.592-8.588L8.17 9.017c.23-.346.47-.685.717-1.017H5.066a.25.25 0 0 0-.214.121l-2.167 3.612ZM16 15.112c-.333.248-.672.487-1.018.718l-3.393 2.262.678 3.223 3.612-2.167a.25.25 0 0 0 .121-.214ZM17.5 8a1.5 1.5 0 1 1-3.001-.001A1.5 1.5 0 0 1 17.5 8Z"/></svg></span>
-                <span class="card-compact-title">Começando a Jogar</span>
-            </div>
-            <p class="card-compact-description">Este é um jogo de tabuleiro e cartas híbrido que combina elementos de:</p>
         </div>
     </a>
 </div>
@@ -644,6 +628,16 @@
                 <span class="card-compact-title">Efeito</span>
             </div>
             <p class="card-compact-description">O efeito de uma carta é um texto que descreve sua função e mecânica, explicando como jogá-la e aplicá-la durante a partida. A função do efeito é conferir</p>
+        </div>
+    </a>
+</div>
+<div class="card-compact-container">
+    <a href="/glossary/" class="group card-compact no-link">
+        <div class="card-compact-body">
+            <div class="card-compact-header">
+                <span class="card-compact-title">Glossário</span>
+            </div>
+            <p class="card-compact-description">Este livro e as cartas do jogo utilizam termos com significados específicos. Abaixo estão listados esses termos e seus significados.</p>
         </div>
     </a>
 </div>
@@ -692,13 +686,24 @@
     </a>
 </div>
 <div class="card-compact-container">
-    <a href="/gameplay/character/" class="group card-compact no-link">
+    <a href="/gameplay/check/" class="group card-compact no-link">
         <div class="card-compact-body">
             <div class="card-compact-header">
-                <span class="card-compact-icon inline-flex shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><!--icon--><path d="M12 2.5a5.5 5.5 0 0 1 3.096 10.047 9.005 9.005 0 0 1 5.9 8.181.75.75 0 1 1-1.499.044 7.5 7.5 0 0 0-14.993 0 .75.75 0 0 1-1.5-.045 9.005 9.005 0 0 1 5.9-8.18A5.5 5.5 0 0 1 12 2.5ZM8 8a4 4 0 1 0 8 0 4 4 0 0 0-8 0Z"/></svg></span>
-                <span class="card-compact-title">Personagem</span>
+                <span class="card-compact-icon inline-flex shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><!--icon--><path d="M17.28 9.28a.75.75 0 0 0-1.06-1.06l-5.97 5.97-2.47-2.47a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l6.5-6.5Z"/><path d="M3.75 2h16.5c.966 0 1.75.784 1.75 1.75v16.5A1.75 1.75 0 0 1 20.25 22H3.75A1.75 1.75 0 0 1 2 20.25V3.75C2 2.784 2.784 2 3.75 2ZM3.5 3.75v16.5c0 .138.112.25.25.25h16.5a.25.25 0 0 0 .25-.25V3.75a.25.25 0 0 0-.25-.25H3.75a.25.25 0 0 0-.25.25Z"/></svg></span>
+                <span class="card-compact-title">Teste</span>
             </div>
-            <p class="card-compact-description">Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.</p>
+            <p class="card-compact-description">Um teste é uma ação realizada por um personagem para determinar se ele consegue ou não alcançar um determinado objetivo ou superar um desafio.</p>
+        </div>
+    </a>
+</div>
+<div class="card-compact-container">
+    <a href="/cards/summus/ascensus/" class="group card-compact no-link">
+        <div class="card-compact-body">
+            <div class="card-compact-header">
+                <span class="card-compact-icon inline-flex shrink-0"><img width="20" height="20" src="/static/img/icons/summus_ascensus.svg"></span>
+                <span class="card-compact-title"> Ascensus</span>
+            </div>
+            <p class="card-compact-description">Ascensus é o termo latino para “ascensão”, no sentido de subir, elevar-se, alcançar um nível superior.</p>
         </div>
     </a>
 </div>
@@ -721,8 +726,8 @@
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-09-27T12:08:32" title="2026-09-27" data-absolute-label="Last updated on 2026-09-27 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-09-27 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
-                        Last updated on 2026-09-27 by Bruno Caxito
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-10-17T23:24:03" title="2026-10-17" data-absolute-label="Last updated on 2026-10-17 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-10-17 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                        Last updated on 2026-10-17 by Bruno Caxito
                     </time>
                 </div>
 

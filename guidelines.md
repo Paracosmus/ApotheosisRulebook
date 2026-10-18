@@ -31,7 +31,7 @@ Portanto, não é possível que um personagem tenha um Atributo com valor zero, 
 
 ## Divisão e Arredondamento
 
-Toda divisão que tiver como resultado um valor fracionado deve ser arredondada para baixo, de forma a utilizar sempre números inteiros.
+Toda divisão que tiver como resultado um valor fracionado deve ser arredondada em direção ao zero, de forma a utilizar sempre números inteiros: **3,5** vira **3**, e **−3,5** vira **−3**.
 
 ---
 
