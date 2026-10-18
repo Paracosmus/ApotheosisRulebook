@@ -7,12 +7,22 @@ order: 90
 
 # Peça
 
-A batalha acontece em um tabuleiro quadriculado de 11x11 casas. No tabuleiro, podem conter casas bloqueadas ou com diferentes níveis de altura. Cada casa possui um tipo de terreno (grama, terra, água, lama, areia etc.).
+A batalha acontece em um tabuleiro quadriculado de 11x11 casas. No tabuleiro, podem conter casas bloqueadas ou com diferentes níveis de altura. Cada casa possui um tipo de [terreno](/battle/board.md#terreno).
 
 - {{ hp }}
 - {{ ap }}
 - [Atributos](/gameplay/attributes.md)
 - [Propriedades](/gameplay/tag.md)
+
+---
+
+## Sair do Tabuleiro
+
+Uma peça que sai do tabuleiro guarda o seu estado, como {{ hp }} e [marcadores](/gameplay/marker.md). Quando volta ao tabuleiro, ela volta exatamente como estava, exceto pelos pontos de {{ ap }} e pelo seu lugar na [ordem dos turnos](/battle/turn.md#entrar-e-sair-da-ordem-dos-turnos).
+
+!!!
+Isso impede, por exemplo, que um {{ companion }} seja retirado da {{ table }} e recrutado de novo para recuperar sua {{ hp }} ou se livrar de marcadores.
+!!!
 
 ---
 
@@ -41,6 +51,8 @@ Objetos não podem ser curados (reparados)
 ## **Container**
 
 É um estado de uma peça que torna ela um armazem de cartas. Os personagens podem interagir com eles quando a 1 de distância pagando 2 de  AÇÃO para obter uma carta armazenada neles.
+
+As cartas armazenadas em um contêiner são [não jogáveis](/cards/index.md#estado-da-carta): nenhum de seus efeitos ou bônus é considerado.
 
 Personagens mortos são containers que outros jogadores podem obter suas cartas de item
 

@@ -191,15 +191,17 @@ data:
   support:    '[<span class="companion"><b>SUPORTE</b></span>](/hero/table/support.md)'
   inv:        '[<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md)'
   scenario:   '[<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md)'
+  tradingPost: '[<span class="main"><b>ENTREPOSTO</b></span>](/gameplay/stack/trading-post.md)'
+  banished:   '[<span class="main"><b>BANIDAS</b></span>](/gameplay/stack/banished.md)'
 
   # Decks
-  cradle:    <span class="house"><b>MATRIZ</b></span>
-  tavern:    <span class="class"><b>TAVERNA</b></span>
-  rift:      <span class="entity"><b>FENDA</b></span>
-  market:    <span class="item"><b>MERCADO</b></span>
-  academy:   <span class="skill"><b>ACADEMIA</b></span>
-  bestiary:  <span class="companion"><b>BESTIÁRIO</b></span>
-  sanctuary: <span class="event"><b>SANTUÁRIO</b></span>
+  cradle:    '[<span class="house"><b>MATRIZ</b></span>](/gameplay/stack/cradle.md)'
+  tavern:    '[<span class="class"><b>TAVERNA</b></span>](/gameplay/stack/tavern.md)'
+  rift:      '[<span class="entity"><b>FENDA</b></span>](/gameplay/stack/rift.md)'
+  market:    '[<span class="item"><b>MERCADO</b></span>](/gameplay/stack/market.md)'
+  academy:   '[<span class="skill"><b>ACADEMIA</b></span>](/gameplay/stack/academy.md)'
+  bestiary:  '[<span class="companion"><b>BESTIÁRIO</b></span>](/gameplay/stack/bestiary.md)'
+  sanctuary: '[<span class="event"><b>SANTUÁRIO</b></span>](/gameplay/stack/sanctuary.md)'
 
   # Specification
   headpiece: '[<span class="item"><b>CABEÇA</b>](/cards/item.md#fabricar)'

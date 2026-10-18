@@ -29,6 +29,8 @@ Um modelo possuí as seguintes estatísticas, em adicional às estatísticas pre
 
 Por não terem cartas que os representem, todas as habilidades, efeitos e capacidades de um Modelo são definidas por meio de técnicas, exatamente como feito em cartas de {{ companion }}.
 
+Os efeitos das técnicas de um Modelo só estão disponíveis enquanto a sua peça estiver no tabuleiro.
+
 Quando uma técnica de um Modelo for ativada, deve-se considerar o mesmo processo de ativação de uma técnica de {{ companion }}. Ou seja, trate como se estivesse ativando a técnica de uma carta de {{ companion }} contendo as mesmas propriedades que o Modelo.
 
 Isso permite que respostas e reações sejam ativadas normalmente, e que o processo de ativação seja o mesmo. Por exemplo, uma carta que pode responder à ativação de uma técnica ou à ativação de uma carta de {{ companion }}, pode ser ativada normalmente em resposta à ativação de uma técnica de um Modelo.

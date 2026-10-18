@@ -34,7 +34,7 @@ Evocar uma {{ summon }}
 Descansar
 :   Ação total para curar {{p'10'}} de {{ hp }} e recuperar {{p'2'}} de **Energia**
 
-Trocar cartas com o Entreposto
+Trocar cartas com o {{ tradingPost }}
     - _Comprar {{ item }}_
     - _Aprender {{ skill }}_
     - _Recrutar {{ companion }}_

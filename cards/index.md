@@ -35,11 +35,11 @@ Existem sete naipes de cartas, cada um com suas próprias características e mec
   {.list-icon}
   - :icon-check-circle: No espaço apropriado designado da {{ table }} de um Herói.
   - :icon-check-circle: Baralhos
-  - :icon-check-circle: Entreposto
+  - :icon-check-circle: {{ tradingPost }}
   - :icon-check-circle: Anexo
   - :icon-check-circle: Zona extra
 
-  Se uma situação de jogo resultar em uma Carta de Ficha estar ou ser envida para outro local que não estes, ela deve ser enviada para o entreposto.
+  Se uma situação de jogo resultar em uma Carta de Ficha estar ou ser envida para outro local que não estes, ela deve ser enviada para o {{ tradingPost }}.
 
 ==- Carta de Recurso [!badge text="Asset Card" variant="ghost"]
 
@@ -52,6 +52,31 @@ Existem sete naipes de cartas, cada um com suas próprias características e mec
   [!card layout="snap" title="Companion" icon="/static/img/icons/suit_companion.svg"](/cards/companion.md) [!card layout="snap" title="Event" icon="/static/img/icons/suit_event.svg"](/cards/event.md)
 
   Estas cartas possuem um requerimento de nível mínimo de {{ knowledge }}, que um Herói precisa ter para ter esta carta em sua {{ table }}, exceto quando anexadas a uma outra carta. Se uma situação de jogo resultar nesta carta estar ou ser envida para {{ table }} de um Herói que não atenda a este requerimento, ela deve ser enviada para o {{ inv}} do mesmo.
+
+  #### Valor
+
+  Toda carta de Recurso tem um valor, medido em um recurso próprio do seu naipe: {{ item }} em {{ price }}, {{ skill }} em {{ xp }}, {{ companion }} em {{ will }} e {{ event }} em {{ fate }}.
+
+  O valor de um {{ item }} é o {{ price }} impresso na carta. Já o valor dos demais naipes é obtido pelo nível da carta, conforme a tabela de conversão de nível em valor abaixo.
+
+  !!!
+  Esta tabela não é exclusiva das cartas de Recurso: o jogo a usa sempre que um nível precisa ser convertido em um valor, como o bônus do nível de {{ knowledge }} nos [testes](/gameplay/check.md).
+  !!!
+
+  {.striped}
+  | Nível | Valor |
+  | --- | --- |
+  | 0 | **0** |
+  | 1 | **1** |
+  | 2 | **5** |
+  | 3 | **10** |
+  | 4 | **20** |
+  | 5 | **30** |
+  | 6 | **40** |
+  | 7 | **50** |
+  | 8 | **60** |
+  | 9 | **70** |
+  | 10 | **80** |
 
 ===
 
@@ -74,10 +99,6 @@ A sua função é principalmente estética, não sendo utilizado para efeitos de
 ==- Normal [!badge text="Standard" variant="ghost"]
 
   Este é o estilo mais comum de ilustração, onde a arte é sobreposta em um fundo branco sem bordas ou molduras definidas, mostrando a arte como um objeto destacável. Este estilo é utilizado para a maioria das cartas, proporcionando uma aparência clássica e organizada.
-
-==- Textura [!badge text="Texture" variant="ghost"]
-
-  Este estilo apresenta a arte sobreposta em um fundo texturizado sem bordas ou molduras definidas, geralmente com um padrão ou design que complementa a ilustração. Ele é utilizado para dar uma sensação mais tátil e visualmente interessante à carta, adicionando profundidade e riqueza à sua aparência, sendo um estilo comum.
 
 ==- Vidro [!badge text="Glass" variant="ghost"]
 
@@ -128,7 +149,7 @@ Por padrão cada Herói pode ativar apenas as cartas que ele controla, ou seja, 
 
   Se a carta possuir uma palavra-chave de tarefa, como {{ discard }} ou {{ bury }}, a tarefa tem precedência, e a carta deve ser enviada para onde a tarefa designar, ao invés de ser descartada.
 
-  Observe que apenas efeitos do tipo {{ activate }} podem ser ativados do {{ inv }}.
+  Observe que apenas efeitos do tipo {{ activate }} podem ser ativados do {{ inv }}. Efeitos {{ permanent }} de cartas reveladas no {{ inv }} não são ativados, mas valem normalmente enquanto a carta estiver revelada.
 
 |||
 
@@ -181,43 +202,45 @@ Ao declarar a ativação de uma carta, o jogador deve seguir os seguintes passos
 
 O estado de uma carta é a condição ou situação em que ela se encontra durante o jogo, podendo influenciar suas interações, mecânicas e sinergias com outros componentes do jogo.
 
-==- <span class="fill">Ativa</span> [!badge text="Active" variant="ghost"]
+==- <span class="fill">Jogável</span> [!badge text="Playable" variant="ghost"]
 
-  Também chamadas de "_cartas em jogo_", são as cartas cujo efeito está ativo ou pode ser ativado.
+  São as cartas cujos efeitos são considerados na partida: estão valendo ou podem ser ativados.
 
   * Cartas reveladas na {{ table }} dos Heróis.
   * Cartas reveladas no {{ inv }} dos Heróis.
-  * Cartas que possuem efeitos {{ attached }} anexadas a cartas reveladas.
-    * Apesar de serem consideradas ativas, apenas os efeitos {{ attached }} podem/devem ser usados.
+  * Cartas ocultas no {{ inv }} dos Heróis que possuam efeitos {{ hand }} ou {{ anywhere }}.
+    * Apesar de serem consideradas jogáveis, apenas os efeitos {{ hand }} e {{ anywhere }} podem/devem ser usados.
+  * Cartas que possuem efeitos {{ attached }} ou {{ anywhere }} anexadas a cartas reveladas.
+    * Apesar de serem consideradas jogáveis, apenas os efeitos {{ attached }} e {{ anywhere }} podem/devem ser usados.
   * Cartas reveladas no {{ scenario }}.
   * Cartas reveladas em [montes de cartas](/gameplay/stack/index.md), conforme o uso do monte.
-    * Quando o uso do monte é **Sempre**, todos os efeitos são considerados.
-    * Quando o uso do monte é **Com palavra-chave**, apesar de serem consideradas ativas, apenas os efeitos {{ anywhere }} e {{ pile }} podem/devem ser usados.
+    * Quando o uso do monte é **Sempre**, todos os efeitos são considerados, exceto os que uma palavra-chave de escopo prende a outro lugar, como {{ onTable }}, {{ hand }} e {{ attached }}.
+    * Quando o uso do monte é **Com palavra-chave**, apesar de serem consideradas jogáveis, apenas os efeitos {{ anywhere }} e {{ pile }} podem/devem ser usados.
   * Casos Especiais
-    * Alguns {{ summus }} estabelecem condições específicas para estarem ativas, como estar em uma zona específica ou possuir um estado específico.
+    * Alguns {{ summus }} estabelecem condições específicas para serem jogáveis, como estar em uma zona específica ou possuir um estado específico.
 
-==- <span class="fill">Inativa</span> [!badge text="Inactive" variant="ghost"]
+==- <span class="fill">Não Jogável</span> [!badge text="Unplayable" variant="ghost"]
 
   São as cartas cujo o efeito não está disponível ou não é de conhecimento público.
 
-  A carta estar inativa significa apenas que seu efeito não está disponível, os demais aspectos da carta, como energias, valor, peça no tabuleiro, etc., devem ser tratados normalmente.
+  A carta não ser jogável significa apenas que seu efeito não está disponível, os demais aspectos da carta, como energias, valor, peça no tabuleiro, etc., devem ser tratados normalmente.
 
   * Cartas ocultas na {{ table }} dos Heróis.
-  * Cartas ocultas no {{ inv }} dos Heróis.
+  * Cartas ocultas no {{ inv }} dos Heróis, exceto as que possuam efeitos {{ hand }} ou {{ anywhere }}.
   * Cartas ocultas no {{ scenario }}.
   * Cartas anexadas:
     * Quando estão anexadas a cartas ocultas.
-    * Quando não possuem efeitos {{ attached }}.
+    * Quando não possuem efeitos {{ attached }} ou {{ anywhere }}.
   * Cartas ocultas em montes de cartas.
   * Cartas em montes de cartas cujo uso é **Nunca**, como as cartas banidas.
   * Casos Especiais
-    * Alguns efeitos de carta podem inativar outras cartas, seja permanentemente ou temporariamente.
-    * Alguns {{ summus }} estabelecem condições específicas para estarem inativas, como estar em uma zona específica ou possuir um estado específico.
+    * Alguns efeitos de carta podem tornar outras cartas não jogáveis, seja permanentemente ou temporariamente.
+    * Alguns {{ summus }} estabelecem condições específicas para não serem jogáveis, como estar em uma zona específica ou possuir um estado específico.
 
-  Em alguns casos, cartas inativas reveladas podem ser colocadas de cabeça para baixo para indicar seu estado.
+  Em alguns casos, cartas reveladas não jogáveis podem ser colocadas de cabeça para baixo para indicar seu estado.
 
   !!!
-  Cartas no Limbo são desconsideradas, portanto não são consideradas ativas ou inativas.
+  Cartas no Limbo são desconsideradas, portanto não são consideradas jogáveis nem não jogáveis.
   !!!
 
 ==- <span class="fill">Revelada</span> [!badge text="Revealed" variant="ghost"]

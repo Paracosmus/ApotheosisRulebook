@@ -69,6 +69,18 @@ Compõe o momento em que o jogador declara ter encerrado o seu turno. Neste mome
 
 ---
 
+## Entrar e Sair da Ordem dos Turnos
+
+Um personagem que sai do tabuleiro, morre ou é nocauteado é removido da ordem dos turnos. Mover a peça no tabuleiro não altera a sua vez.
+
+Quando ele volta ao tabuleiro, é revivido ou acorda, entra no **final** da ordem dos turnos e **sem** pontos de {{ ap }}. Nesta rodada, ele só pode realizar ações que não custam {{ ap }}, e joga normalmente a partir da próxima rodada.
+
+!!!
+Se o personagem voltar durante a {{ resetPhase }}, como acontece com a maioria dos efeitos que retiram personagens do tabuleiro, ele recebe pontos de {{ ap }} normalmente e entra na ordem dos turnos recalculada para a nova rodada.
+!!!
+
+---
+
 ## Simultaneidade de Efeitos
 Note que todos os efeitos que devem ser aplicados durante uma determinada fase são aplicados simultaneamente, ou seja, todos acontecem ao mesmo tempo, não tendo uma sucessão ou ordem a ser seguida.
 

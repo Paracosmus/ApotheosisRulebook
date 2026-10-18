@@ -81,12 +81,14 @@ Para adicionar uma nova {{ class }}, o personagem precisa estar em um local de {
 
 Selecionar então, uma carta acessível, de um caminho que não possua e **enterre 5 cartas de recurso do mesmo nível** da carta selecionada.
 
-A {{ class }} deve então ser enviada para um espaço disponível na sua {{ table }}. Se não houver espaços disponíveis, o personagem deve escolher e enterrar uma de suas cartas de {{ class }} na {{ sheet }} e adicionar a nova carta em seu lugar.
+A {{ class }} deve então ser enviada para um espaço disponível na sua {{ table }}. Se não houver espaços disponíveis, o personagem deve escolher uma de suas cartas de {{ class }} na {{ sheet }} e colocar a nova carta em seu lugar. A carta anterior é descartada para o {{ tradingPost }}, levando consigo seus anexos, contadores e demais componentes.
 
 ---
 
 ## <span class="class">Progredir</span>
 
-Se o personagem possuir em sua {{ sheet }}, uma {{ class }} do mesmo caminho de uma outra {{ class }} desejada e nível imediatamente inferior ou igual, para adquirir esta carta, siga as mesmas instruções em [Adquirir](/cards/class.md#adquirir), porém no momento de enterrar as cartas de custo, ao invés, enterre sua carta de {{ class }} de mesmo caminho e 3 cartas de recurso.
+Se o personagem possuir em sua {{ sheet }}, uma {{ class }} do mesmo caminho de uma outra {{ class }} desejada e nível imediatamente inferior ou igual, para adquirir esta carta, siga as mesmas instruções em [Adquirir](/cards/class.md#adquirir), porém no momento de enterrar as cartas de custo, ao invés, enterre sua carta de {{ class }} de mesmo caminho e **3** cartas de recurso.
+
+A progressão é uma [substituição](/glossary.md#outros): a nova carta ocupa o espaço da anterior e herda seus anexos, contadores e demais componentes.
 
 ---

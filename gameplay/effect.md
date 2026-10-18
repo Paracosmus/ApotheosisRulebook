@@ -26,6 +26,8 @@ O efeito é composto por três partes em seu texto:
 
   São palavras ou expressões específicas no início do texto, que indicam ações, condições, ou características comuns, e são utilizadas para simplificar o texto do efeito. Elas são identificadas por uma caixa de texto colorida ao redor da palavra, e cada palavra-chave tem um significado específico.
 
+  Na carta, as palavras-chave aparecem sempre agrupadas nesta ordem: **Ativação**, **Escopo**, **Tarefa**, **Temporização** e **Limite**.
+
 ### Ativação [!badge text="Activation" variant="ghost"]
 
 Este conjunto de palavras-chave indica o tipo de ativação do efeito, ou seja, como ele é ativado e aplicado durante a partida. Ele é importante para determinar a natureza do efeito e como ele é ativado. Este é o único tipo de palavras-chave que é obrigatória para um efeito, ou seja, todo efeito deve possuir uma palavras-chave de ativação, e apenas uma.
@@ -84,15 +86,15 @@ Quando um efeito possuir mais de um momento de ativação, ele pode/deve ser ati
 
 ==- <span class="fill">{{ onDiscard }}</span> [!badge text="On Discard" variant="ghost"]
 
-  Este efeito pode/deve ser ativado quando esta carta for descartada, ou seja, quando esta carta for movida para o entreposto.
+  Este efeito pode/deve ser ativado quando esta carta for descartada, ou seja, quando esta carta for movida para o {{ tradingPost }}.
 
 ==- <span class="fill">{{ onBury }}</span> [!badge text="On Bury" variant="ghost"]
 
-  Este efeito pode/deve ser ativado quando esta carta for enterrada, ou seja, quando esta carta for colocado no fundo de um baralho.
+  Este efeito pode/deve ser ativado quando esta carta for enterrada, ou seja, quando esta carta for colocada no fundo de um monte de cartas.
 
 ==- <span class="fill">{{ onBanish }}</span> [!badge text="On Banish" variant="ghost"]
 
-  Este efeito pode/deve ser ativado quando esta carta for banida, ou seja, quando esta carta for movida para uma pilha de cartas banidas.
+  Este efeito pode/deve ser ativado quando esta carta for banida, ou seja, quando esta carta for colocada na pilha de {{ banished }}.
 
 ==- <span class="fill">{{ checking }}</span> [!badge text="When Checking" variant="ghost"]
 
@@ -231,7 +233,7 @@ Quando um efeito possuir mais de um escopo, ele pode/deve ser ativado em todos o
 
 ==- <span class="fill">{{ anywhere }}</span> [!badge text="From Anywhere" variant="ghost"]
 
-  Este efeito pode ser ativado de qualquer lugar, ele pode ser ativado mesmo que esta carta não esteja em jogo. Pode ser ativado da mão, do entreposto, anexada a outra carta, etc..
+  Este efeito pode ser ativado de qualquer lugar, ele pode ser ativado mesmo que esta carta não esteja em jogo. Pode ser ativado da mão, do {{ tradingPost }}, anexada a outra carta, etc..
 
   Observe que cartas no limbo são consideradas como não existentes, e portanto não podem ser ativadas.
 
@@ -245,7 +247,7 @@ Quando um efeito possuir mais de um escopo, ele pode/deve ser ativado em todos o
 
 ==- <span class="fill">{{ pile }}</span> [!badge text="From Pile" variant="ghost"]
 
-  Este efeito pode ser ativado apenas se esta carta estiver revelada em um [monte de cartas](/gameplay/stack/index.md), como o entreposto. Se os demais efeitos das cartas de um monte são considerados depende da configuração de uso dele.
+  Este efeito pode ser ativado apenas se esta carta estiver revelada em um [monte de cartas](/gameplay/stack/index.md), como o {{ tradingPost }}. Se os demais efeitos das cartas de um monte são considerados depende da configuração de uso dele.
 
 ==- <span class="fill">{{ team }}</span> [!badge text="From Team Member" variant="ghost"]
 
@@ -470,6 +472,21 @@ Além disso, alguns conceitos relacionados teóricos inferidos no texto são imp
 
 ---
 
+## Origem dos Efeitos
+
+Os efeitos considerados em um momento da partida vêm sempre das seguintes origens:
+
+1. **[Efeitos de campanha](/gameplay/setup/campaign.md#efeitos-de-campanha)** ativos.
+1. **Cartas dos Heróis em cena**: as cartas da {{ table }}, do {{ inv }} e dos montes de cada Herói. Heróis [fora de cena](/hero/#fora-de-cena) são desconsiderados.
+1. **Anexos** dessas cartas.
+1. **Técnicas de {{ companion }}**, que seguem as mesmas regras da carta do {{ companion }}.
+1. **Cartas dos montes sem dono**, como o {{ scenario }} e o {{ tradingPost }}, conforme o [uso](/gameplay/stack/index.md#uso) de cada monte. Montes de uso **Nunca** não fornecem efeitos.
+1. **Técnicas de [Modelos](/battle/piece/dummy.md)** cuja peça esteja no tabuleiro.
+
+Em todos os casos, se o efeito de uma carta é considerado ou não depende também do [estado da carta](/cards/index.md#estado-da-carta) e das palavras-chave de [escopo](#escopo) do efeito.
+
+---
+
 ## Resolução do Efeito
 
 É chamado de resolver o efeito o ato de aplicar o efeito depois de ativado, ou seja, realizar as ações e interações descritas no texto do efeito, seguindo as regras gerais do jogo e as instruções específicas do texto do efeito.
@@ -564,7 +581,7 @@ Uma vez que todos os efeitos {{ auto }} tenham sido ativados, resolvidos e remov
 3. **Efeitos de Heróis Oponentes**
 4. **Efeitos de Heróis do Time**
 5. **Efeitos do Herói (Ou Herói do Companheiro) do Turno**
-6. **Efeitos do Entreposto**
+6. **Efeitos do {{ tradingPost }}**
 7. **Efeitos do Mestre de Jogo**
 
 A prioridade é dada ao efeito e não à carta em si, observe que isso significa que mesmo um efeito que não esteja ligado a uma carta, como um Efeito de Campanha ou Efeito de Modelo, por exemplo, entram na pilha de encadeamento.
@@ -574,7 +591,7 @@ A prioridade é dada ao efeito e não à carta em si, observe que isso significa
 - Quando duas cartas {{ auto }} do mesmo jogador possuem a mesma prioridade, o jogador escolhe qual delas ativar primeiro.
 
 !!!
-Note que uma carta em um entreposto ou baralho controlados por um Herói são consideradas cartas do Herói, e não cartas do entreposto.
+Note que uma carta em um entreposto ou baralho controlados por um Herói são consideradas cartas do Herói, e não cartas do {{ tradingPost }}.
 !!!
 
 ---

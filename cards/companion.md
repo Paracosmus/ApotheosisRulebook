@@ -35,7 +35,7 @@ São personagens humanos, animais ou evocações. Diferente de um [Herói](/hero
 
 ## <span class="companion">Tipo</span>
 
-A carta de {{ companion }} pode ser de 3 tipos diferentes, que são representados por ícones. O tipo da carta é importante para determinar como ela interage com outras cartas e mecânicas do jogo.
+A carta de {{ companion }} pode ser de **6** tipos diferentes, que são representados por ícones. O tipo da carta é importante para determinar como ela interage com outras cartas e mecânicas do jogo.
 
 ### <span class="icon"></span> Humano
 
@@ -129,7 +129,7 @@ Os 20 caminhos são:
 
 Ao custo de 2 de {{ ap }}, esta carta pode ser enviada para um espaço disponível no {{ support }} do Herói.
 
-- Se o personagem for {{ human }} ou {{ creature }}, ele deve ser colocado em uma [casa de acesso do tabuleiro](/battle/board.md#casa-de-acesso). Se não houverem casas de acesso disponíveis, o personagem não pode ser recrutado.
+- Se o personagem for {{ human }} ou {{ creature }}, ele deve ser colocado em uma [casa de reforço do tabuleiro](/battle/board.md#casa-de-reforço). Se não houverem casas de reforço disponíveis, o personagem não pode ser recrutado.
 
 - Se o personagem for uma {{ summon }}, coloque sua peça em uma casa adjacente ao Herói. Se não houver nenhuma casa adjacente disponível, este personagem não pode ser evocado.
 
@@ -139,7 +139,7 @@ Ao custo de 2 de {{ ap }}, esta carta pode ser enviada para um espaço disponív
 
 Ao custo de 2 de {{ ap }}, esta carta pode ser enviada do {{ support }} para o {{ inv }} do Herói.
 
-- Se o personagem for {{ human }} ou {{ creature }}, é necessário que haja uma [casa de cesso do tabuleiro](/battle/board.md#casa-de-acesso) disponível para que o personagem possa ser retirado do tabuleiro. Se não houver casas de acesso disponíveis, o personagem não pode ser abandonado.
+- Se o personagem for {{ human }} ou {{ creature }}, é necessário que haja uma [casa de reforço do tabuleiro](/battle/board.md#casa-de-reforço) disponível para que o personagem possa ser retirado do tabuleiro. Se não houver casas de reforço disponíveis, o personagem não pode ser abandonado.
 
 - Se o personagem for uma {{ summon }}, remova sua peça do tabuleiro.
 
@@ -207,7 +207,7 @@ O {{ hp }} da peça de um companheiro no tabuleiro é determinada pelo nível da
 
 ### <span class="companion">Morte</span>
 
-Quando um {{ companion }} morrer, sua carta deve ser enterrada e todas as cartas anexadas devem ser descartadas para o entreposto, exceto {{ item }}, que podem ser saqueados do seu corpo.
+Quando um {{ companion }} morrer, sua carta deve ser enterrada e todas as cartas anexadas devem ser descartadas para o {{ tradingPost }}, exceto {{ item }}, que podem ser saqueados do seu corpo.
 
 ### Morte do Herói
 

@@ -230,10 +230,10 @@ layout: page
 | <span style="color: #FF7043;"></span> | ↳ Bestiário | *Bestiary* | {{ bestiary }} | e941 | `#FF7043` |
 | <span style="color: #4CAF50;"></span> | ↳ Santuário | *Sanctuary* | {{ sanctuary }} | e942 | `#4CAF50` |
 | - | Monte de Cartas | *Pile* | - | - | - |
-|  | ↳ Entreposto | *Trading Post* | - | - | - |
+|  | ↳ Entreposto | *Trading Post* | {{ tradingPost }} | eb48 | - |
 | <span style="color: #4CAF50;"></span> | ↳ Cenário | *Scenario* | {{ scenario }} | ea1c | `#4CAF50` |
 | - | ↳ - | *Storage* | - | - | - |
-| - | ↳ - | *Banished* | - | - | - |
+| - | ↳ Banidas | *Banished* | {{ banished }} | - | - |
 | - | ↳ Limbo | *Limbo* | - | - | - |
 
 <br><br>
