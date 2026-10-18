@@ -77,12 +77,12 @@
     <lastmod>2026-10-17T23:24:03Z</lastmod>
   </url>
   <url>
-    <loc>https://apotheosiscardgame.com/lore/cosmology/</loc>
-    <lastmod>2026-09-27T12:08:32Z</lastmod>
-  </url>
-  <url>
     <loc>https://apotheosiscardgame.com/gameplay/effect/</loc>
     <lastmod>2026-10-17T23:24:03Z</lastmod>
+  </url>
+  <url>
+    <loc>https://apotheosiscardgame.com/lore/cosmology/</loc>
+    <lastmod>2026-09-27T12:08:32Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/gameplay/stack/</loc>
@@ -393,8 +393,12 @@
     <lastmod>2026-10-17T18:57:17Z</lastmod>
   </url>
   <url>
+    <loc>https://apotheosiscardgame.com/gameplay/bonus/</loc>
+    <lastmod>2026-10-17T23:59:19Z</lastmod>
+  </url>
+  <url>
     <loc>https://apotheosiscardgame.com/gameplay/modifier/</loc>
-    <lastmod>2026-10-17T18:57:17Z</lastmod>
+    <lastmod>2026-10-17T23:59:19Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/gameplay/die/</loc>
@@ -427,10 +431,6 @@
   <url>
     <loc>https://apotheosiscardgame.com/gameplay/stack/sanctuary/</loc>
     <lastmod>2026-10-17T23:24:03Z</lastmod>
-  </url>
-  <url>
-    <loc>https://apotheosiscardgame.com/gameplay/bonus/</loc>
-    <lastmod>2026-10-17T18:57:17Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/lore/beings/synthetic/robots/</loc>

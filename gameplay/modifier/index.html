@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.845605467567">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.845607587034">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -41,11 +41,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.6.0.845605467567" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.845607587034" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.845605467567" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.845607587034" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.845605467567" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.845607587034" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -513,15 +513,18 @@
     </div>
 </div>
 <hr>
-<h2 id="modificadores-temporários">Modificadores Temporários</h2>
-<p>Também conhecidos como Vantagem (<em>Buff</em>) e Penalidade (<em>Debuff</em>).</p>
-<p>São modificadores não permanentes, que um personagem pode receber. Por serem temporários, eles tem um &quot;prazo de validade&quot; e se dissipam automaticamente após um determinado evento ou condição, explicitado pelo efeito que os concedeu.</p>
-<p>Todo efeito de modificador temporário utilizam a mecânica de <a href="/gameplay/effect/"><span class="keyword-limit">Residual</span></a> e portanto, explicitam sua duração no corpo do efeito.</p>
+<h2 id="ordem-de-aplicação">Ordem de Aplicação</h2>
+<p>Quando um valor, como um Atributo ou o nível do Herói, recebe bônus e modificadores, ele é calculado nesta ordem:</p>
+<ol>
+<li><strong><a href="/gameplay/bonus/">Bônus</a> fixos</strong>: são somados ao valor base. A ordem entre eles é irrelevante.</li>
+<li><strong><a href="/gameplay/bonus/#b%C3%B4nus-tempor%C3%A1rios">Bônus temporários</a></strong>: são somados ao resultado. A ordem entre eles é irrelevante.</li>
+<li><strong>Modificadores</strong>: são aplicados um a um, cada um sobre o valor deixado pelo anterior, em ordem de prioridade: o de maior prioridade é aplicado primeiro. Um efeito sem prioridade definida tem prioridade <strong>0</strong>. Dois efeitos com mesma prioridade são aplicados na ordem em que foram coletados.</li>
+</ol>
 <div class="flex mb-6">
-    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-secondary"></div>
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
     <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
         <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-secondary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
                 <g fill="currentColor"><g>
                     <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
                     <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
@@ -530,11 +533,7 @@
             </svg>
         </div>
         <div class="pr-5 ml-3 w-full">
-            <h5>Exemplo</h5>
-<blockquote>
-<p><em>Estimulante</em>: <a href="/gameplay/effect/"><span class="keyword-activation">Ativar</span></a> <a href="/gameplay/effect/"><span class="keyword-limit">Residual</span></a> <span class="positive">+1</span> de <a href="/gameplay/attributes/"><span class="house"><b>AGI</b></span></a> até o <a href="/gameplay/effect/"><span class="keyword-timing">Final da Batalha</span></a>.</p>
-</blockquote>
-<p>Sendo do tipo <a href="/gameplay/effect/"><span class="keyword-limit">Residual</span></a>, o modificador é aplicado imediatamente e mesmo que a carta seja removida de jogo, ele se mantém ativo até o <a href="/gameplay/effect/"><span class="keyword-timing">Final da Batalha</span></a>, quando se dissipa automaticamente.</p>
+<p>Diferente dos bônus, a ordem dos modificadores importa. Um efeito que limita o valor, como &quot;o nível máximo é <strong>8</strong>&quot;, precisa ser aplicado depois dos que o aumentam, e por isso tem uma prioridade menor que a deles.</p>
         </div>
     </div>
 </div>
@@ -572,7 +571,7 @@
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-10-17T18:57:17" title="2026-10-17" data-absolute-label="Last updated on 2026-10-17 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-10-17 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-10-17T23:59:19" title="2026-10-17" data-absolute-label="Last updated on 2026-10-17 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-10-17 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
                         Last updated on 2026-10-17 by Bruno Caxito
                     </time>
                 </div>

@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.845605467567">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.845607587034">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -41,11 +41,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.6.0.845605467567" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.845607587034" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.845605467567" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.845607587034" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.845605467567" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.845607587034" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -514,7 +514,7 @@
         </div>
     </div>
 </div>
-<p>Um bônus não pode ser definido por um efeito de carta, apenas por regras e mecânicas do jogo.</p>
+<p>Um bônus fixo não pode ser definido por um efeito de carta, apenas por regras e mecânicas do jogo. Efeitos <a href="/gameplay/effect/"><span class="keyword-limit">Residual</span></a> podem conceder <doc-anchor-trigger to="#b%C3%B4nus-tempor%C3%A1rios">bônus temporários</doc-anchor-trigger>.</p>
 <p>Os adicionais de Atributos (quando +X, -X) e os espaços extras dados por cartas são bônus, pois são adicionados ao Herói pela regra que define como devem ser aplicados. Por não estarem descritos no texto da carta, eles não são efeitos.</p>
 <p>Isto porque o bônus é uma consequência de uma regra, e não algo que pode ser gerado pelos jogadores ativando cartas. Assim sendo, um bônus não pode ser impedido, negado ou modificado por efeitos de cartas a não ser que o efeito em sí explicitamente especifique esta capacidade.</p>
 <div class="flex mb-6">
@@ -535,9 +535,46 @@
     </div>
 </div>
 <hr>
+<h2 id="bônus-temporários">Bônus Temporários</h2>
+<p>Também conhecidos como Vantagem (<em>Buff</em>) e Penalidade (<em>Debuff</em>).</p>
+<p>São bônus não permanentes que um personagem pode receber de um efeito <a href="/gameplay/effect/"><span class="keyword-limit">Residual</span></a>. Um bônus temporário é sempre um valor constante somado por um tempo, como &quot;<span class="positive">+1</span> até o final da rodada&quot;, e nunca possui condições. Por ser temporário, ele tem um &quot;prazo de validade&quot;, explicitado pelo efeito que o concedeu, e se dissipa automaticamente ao final dele.</p>
+<p>No cálculo de um valor, os bônus temporários são somados depois dos bônus fixos e antes dos <a href="/gameplay/modifier/#ordem-de-aplica%C3%A7%C3%A3o">modificadores</a>, em qualquer ordem entre si.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-secondary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-secondary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Exemplo</h5>
+<blockquote>
+<p><em>Estimulante</em>: <a href="/gameplay/effect/"><span class="keyword-activation">Ativar</span></a> <a href="/gameplay/effect/"><span class="keyword-limit">Residual</span></a> <span class="positive">+1</span> de <a href="/gameplay/attributes/"><span class="house"><b>AGI</b></span></a> até o <a href="/gameplay/effect/"><span class="keyword-timing">Final da Batalha</span></a>.</p>
+</blockquote>
+<p>Sendo do tipo <a href="/gameplay/effect/"><span class="keyword-limit">Residual</span></a>, o bônus é aplicado imediatamente e, mesmo que a carta seja removida de jogo, ele se mantém até o <a href="/gameplay/effect/"><span class="keyword-timing">Final da Batalha</span></a>, quando se dissipa automaticamente.</p>
+        </div>
+    </div>
+</div>
+<hr>
 <div id="retype-backlinks">
     <h2>See also</h2>
 <div class="card-compact-group">
+<div class="card-compact-container">
+    <a href="/gameplay/modifier/" class="group card-compact no-link">
+        <div class="card-compact-body">
+            <div class="card-compact-header">
+                <span class="card-compact-icon inline-flex shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><!--icon--><path d="M2 3.75C2 2.784 2.784 2 3.75 2h16.5c.966 0 1.75.784 1.75 1.75v16.5c0 .464-.184.909-.513 1.237A1.746 1.746 0 0 1 20.25 22H3.75c-.464 0-.909-.184-1.237-.513A1.746 1.746 0 0 1 2 20.25V3.75Zm1.75-.25a.25.25 0 0 0-.25.25v16.5c0 .138.112.25.25.25h16.5a.25.25 0 0 0 .25-.25V3.75a.25.25 0 0 0-.25-.25H3.75Z"/><path d="M12.75 8.75a.75.75 0 0 0-1.5 0v6.5a.75.75 0 0 0 1.5 0v-6.5Z"/></svg></span>
+                <span class="card-compact-title">Modificador</span>
+            </div>
+            <p class="card-compact-description">São valores providos por um efeito que são aplicados à um cálculo e podem ser positivos ou negativos</p>
+        </div>
+    </a>
+</div>
 <div class="card-compact-container">
     <a href="/gameplay/check/" class="group card-compact no-link">
         <div class="card-compact-body">
@@ -557,7 +594,7 @@
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-10-17T18:57:17" title="2026-10-17" data-absolute-label="Last updated on 2026-10-17 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-10-17 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-10-17T23:59:19" title="2026-10-17" data-absolute-label="Last updated on 2026-10-17 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-10-17 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
                         Last updated on 2026-10-17 by Bruno Caxito
                     </time>
                 </div>

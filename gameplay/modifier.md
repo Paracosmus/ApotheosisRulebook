@@ -22,18 +22,16 @@ Algumas efeitos concedem modificadores para determinadas situações, como teste
 
 ---
 
-## Modificadores Temporários
+## Ordem de Aplicação
 
-Também conhecidos como Vantagem (_Buff_) e Penalidade (_Debuff_).
+Quando um valor, como um Atributo ou o nível do Herói, recebe bônus e modificadores, ele é calculado nesta ordem:
 
-São modificadores não permanentes, que um personagem pode receber. Por serem temporários, eles tem um "prazo de validade" e se dissipam automaticamente após um determinado evento ou condição, explicitado pelo efeito que os concedeu.
+1. **[Bônus](/gameplay/bonus.md) fixos**: são somados ao valor base. A ordem entre eles é irrelevante.
+1. **[Bônus temporários](/gameplay/bonus.md#bônus-temporários)**: são somados ao resultado. A ordem entre eles é irrelevante.
+1. **Modificadores**: são aplicados um a um, cada um sobre o valor deixado pelo anterior, em ordem de prioridade: o de maior prioridade é aplicado primeiro. Um efeito sem prioridade definida tem prioridade **0**. Dois efeitos com mesma prioridade são aplicados na ordem em que foram coletados.
 
-Todo efeito de modificador temporário utilizam a mecânica de [<span class="keyword-limit">Residual</span>](/gameplay/effect.md) e portanto, explicitam sua duração no corpo do efeito.
-
-!!!secondary Exemplo
-  > _Estimulante_: [<span class="keyword-activation">Ativar</span>](/gameplay/effect.md) [<span class="keyword-limit">Residual</span>](/gameplay/effect.md) <span class="positive">+1</span> de [<span class="house"><b>AGI</b></span>](/gameplay/attributes.md) até o [<span class="keyword-timing">Final da Batalha</span>](/gameplay/effect.md).
-
-  Sendo do tipo [<span class="keyword-limit">Residual</span>](/gameplay/effect.md), o modificador é aplicado imediatamente e mesmo que a carta seja removida de jogo, ele se mantém ativo até o [<span class="keyword-timing">Final da Batalha</span>](/gameplay/effect.md), quando se dissipa automaticamente.
+!!!
+Diferente dos bônus, a ordem dos modificadores importa. Um efeito que limita o valor, como "o nível máximo é **8**", precisa ser aplicado depois dos que o aumentam, e por isso tem uma prioridade menor que a deles.
 !!!
 
 ---
