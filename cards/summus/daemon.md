@@ -34,7 +34,7 @@ Os daemons são evocados através de um custo em *“sangue”*.
 - Para evocar um Daemon o Herói deve pagar o custo em VIDA determinado na carta.
 - No início do turno do Daemon, o seu dono deve pagar 25 de VIDA, ou desevoca-lo
 - Ele deve escolher uma área quadrada no tabuleiro conforme o tamanho especificado do daemon.
-    - No início da turno do daemon, esse área pode ser redefinida.
+    - No início da turno do daemon, esse área pode ser redefinida ao custo de {{ n 1 }} de {{ ap }}.
 - Toda ação do daemon que tiver um alvo, seleciona todos os personagens dentro da área como alvos.
     - Se o personagem possuir efeitos “ao ser selecionados / ao ser atacado / etc.”, eles são válidos
 - Quando mais de um daemon estiver em jogo, eles podem selecionar um ao outro como alvo sem estar na área um do outro.
