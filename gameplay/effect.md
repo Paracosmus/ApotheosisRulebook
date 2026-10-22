@@ -66,7 +66,7 @@ Quando um efeito possuir mais de um momento de ativação, ele pode/deve ser ati
 
 ==- <span class="fill">{{ onObtain }}</span> [!badge text="On Obtain" variant="ghost"]
 
-  Este efeito pode/deve ser ativado quando esta carta for obtida, ou seja, quando esta carta passar a ser de seu controle, seja indo para o seu {{ inv }}, {{ table }} ou anexada a outra carta.
+  Este efeito pode/deve ser ativado quando esta carta for obtida, ou seja, quando um personagem se tornar dono dela.
 
 ==- <span class="fill">{{ onReveal }}</span> [!badge text="On Reveal" variant="ghost"]
 

@@ -94,7 +94,7 @@ Este livro e as cartas do jogo utilizam termos com significados específicos. Ab
 | **Descartar**  | *Discard*     | Colocar uma carta no topo do {{ tradingPost }} |
 | **Enterrar**   | *Bury*        | Colocar uma carta no fundo de um monte de cartas. Diferente de descartar, enterrar sempre especifica o monte |
 | **Banir**      | *Banish*      | Colocar uma carta no topo da pilha de {{ banished }}, removendo-a do jogo permanentemente |
-| **Obter**      | *Get*         | É quando uma carta passa a estar sobre o controle do Herói. Quando uma carta é obtida a não ser que a situação especifique o contrário, o jogador decide onde colocá-la, seja em sua {{ table }}, {{ inv }} ou anexada a uma carta por mecânica de jogo |
+| **Obter**      | *Get*         | É quando um personagem se torna dono de uma carta, seja qual for a zona para onde ela vai. Quando a situação não especificar o destino, o jogador decide se ela vai para a sua {{ table }} ou para o seu {{ inv }} |
 | **Baixar**     | *Place*       | Adicionar uma carta à {{ table }} |
 | **Puxar**      | *Draw*        | Pegar a carta do topo do baralho especificado e adicionar ao {{ inv }}, sem mostrá-la |
 | **Revelar**    | *Reveal*      | Mostrar uma carta que está oculta, geralmente virando-a de face para cima, ou mostrando-a para todos os jogadores |
@@ -137,7 +137,7 @@ Ao enviar, descartar, enterrar, banir ou exilar uma carta para um monte, ela ass
 | **Ação Total** | *All-in*  | O personagem não pode ter realizado nenhuma ação ou jogada não automática (passiva) neste Ciclo para realizar uma Ação Total; feito isso, ele só terá um turno no próximo *Ciclo* |
 | **Substituir** | *Replace* | Um elemento de jogo é substituído por outro determinado, herdando o estado do original<br><br>**Quando uma carta**: Ela é substituída por outra colocada no mesmo espaço, a nova carta recebe todos os contadores e anexos da carta original, e a carta original é enterrada<br><br>Colocar uma carta em um espaço ocupado sem uma mecânica de substituição, como ao adquirir uma {{ class }}, não é substituir: a carta anterior é descartada para o {{ tradingPost }}, levando consigo seus anexos e contadores<br><br>**Quando uma peça**: Ela é substituída por outra, a nova peça mantém a {{ hp }}, {{ ap }}, Marcadores, ordem do turno e posição no tabuleiro da peça original, a peça original é removida do jogo |
 | **Ciclo**      | *Stint*   | O período entre uma Fase de Recomposição e outra |
-| **Dono**        | *Owner*      | O personagem, geralmente um Herói, a quem uma carta ou um monte de cartas pertence |
+| **Dono**        | *Owner*      | O personagem a quem uma carta ou um monte de cartas pertence. Um Herói é dono de toda carta em sua {{ table }}, em seu {{ inv }}, anexada a uma carta dele ou em um monte de que ele é dono. Já um {{ companion }} é dono apenas das cartas anexadas a ele desde que ele não esteja no suporte de um Herói, neste caso o Herói é o dono dessas cartas |
 | **Controlador** | *Controller* | O jogador que controla um Herói e, por consequência, as cartas e montes de cartas desse Herói. Um Herói sem jogador é controlado pelo Mestre de Jogo |
 
 ---

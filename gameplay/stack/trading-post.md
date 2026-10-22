@@ -31,7 +31,7 @@ Em alguns formatos de jogo, principalmente em formatos onde cada jogador monta s
 
 Um personagem pode realizar uma Ação Total para trocar [cartas de recurso](/cards/index.md) livremente com o {{ tradingPost }} da campanha.
 
-Ele deve selecionar as cartas que deseja obter do {{ tradingPost }} e então selecionar cartas que possui cuja soma dos valores seja igual ou superior à soma dados valores das cartas que deseja obter. As cartas trocadas são descartadas para o {{ tradingPost }}, e as cartas obtidas são colocadas no {{ inv }} do Herói ou anexos do {{ companion }}.
+Ele deve selecionar as cartas que deseja obter do {{ tradingPost }} e então selecionar cartas que possui cuja soma dos valores seja igual ou superior à soma dados valores das cartas que deseja obter. As cartas trocadas são descartadas para o {{ tradingPost }}, e as cartas obtidas são colocadas obrigatoriamente no {{ inv }} do Herói.
 
 !!!
 Observe que cada naipe de Recurso tem um tipo de valor, e portanto não pode ser trocada por cartas de outro tipo. Por exemplo, uma carta de {{ item }} cujo valor é medido pelo seu {{ price }}, não pode ser trocada por uma carta de {{ skill }}, cujo valor é medido em {{ xp }}.
