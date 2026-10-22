@@ -195,4 +195,5 @@
 - [Coleção](https://apotheosiscardgame.com/gameplay/collection.md): Elemento importante na organização e identificação das cartas em um jogo de cartas colecionáveis, ela representa o conjunto de cartas que foram lançadas juntas, geralmente com uma temática ou história em comum.
 - [Raridade](https://apotheosiscardgame.com/gameplay/rarity.md): A raridade de uma carta é indicada por uma caixinha colorida com uma letra capitalizada, no canto inferior direito. Ela influencia na qualidade da carta, geralmente com um efeito ou status melhores.
 - [Lignum](https://apotheosiscardgame.com/gameplay/lignum.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Linha de Montagem](https://apotheosiscardgame.com/gameplay/assembly-line.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [Limbo](https://apotheosiscardgame.com/gameplay/limbo.md): Limbo é um estado de jogo onde um componente está temporariamente fora de jogo.

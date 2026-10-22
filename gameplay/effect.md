@@ -62,7 +62,7 @@ Quando um efeito possuir mais de um momento de ativação, ele pode/deve ser ati
 
 ==- <span class="fill">[<span class="keyword-timing">Ao Obter</span>](/gameplay/effect.md)</span> [!badge text="On Obtain" variant="ghost"]
 
-  Este efeito pode/deve ser ativado quando esta carta for obtida, ou seja, quando esta carta passar a ser de seu controle, seja indo para o seu [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md), [<span class="main"><b>MESA</b></span>](/hero/table/) ou anexada a outra carta.
+  Este efeito pode/deve ser ativado quando esta carta for obtida, ou seja, quando um personagem se tornar dono dela.
 
 ==- <span class="fill">[<span class="keyword-timing">Ao Revelar</span>](/gameplay/effect.md)</span> [!badge text="On Reveal" variant="ghost"]
 

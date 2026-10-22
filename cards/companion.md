@@ -185,7 +185,7 @@ Cartas de [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companio
 
 Os COMPANHEIROS podem ser requeridos a pagar certos custos pelo efeito de outras cartas ou mecânica de jogo, como descartar cartas e valores.
 
-Observando que COMPANHEIROS não possuem MESA nem [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md), quando um texto especificar uma ação impossível para um COMPANHEIRO, como “descarte do seu [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md)” ou “deite 2 de [<span class="skill"><b>MANA</b></span>](/hero/#mana)”, o personagem não tem como cumprir aquela exigência, logo, ela deve ser ignorada.
+Observando que COMPANHEIROS não possuem MESA nem [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md), quando um texto especificar uma ação impossível para um COMPANHEIRO, como “descarte do seu [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md)” ou “deite 2 de [<span class="skill"><b>MANA</b></span>](/hero/#mana)”, o personagem não tem como cumprir aquela exigência, logo, ela deve ser ignorada quando forem consequências dessa ação, quando forem requerimentos para da ação, então ele não tem como cumprir este requerimentos e a ação não pode ser realizada.
 
 Porém, quando o texto não apresenta uma restrição, por exemplo, “descarte uma carta” ou “descarte pontos de [<span class="event"><b>DESTINO</b></span>](/cards/event.md)”, o COMPANHEIRO pode/deve utilizar seus anexos nestes casos. Note que se o custo for obrigatório, o personagem precisa pagar, se for opcional o jogador pode optar.
 
