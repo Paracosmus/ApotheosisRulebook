@@ -41,6 +41,17 @@ Toda divisão que tiver como resultado um valor fracionado deve ser arredondada 
 
 ---
 
+## Igualdade
+
+Em caso de empate entre valores, ambos os valores devem ser considerados quando possível.
+
+Por exemplo, se o efeito diz algo como:
+* "_+1 de bônus para o seu maior atributo_", e o personagem tiver dois ou mais atributos empatados no maior valor, todos devem receber o bônus.
+* "_Este ataque atinge a peça do tabuleira mais próxima de você_", e houver empate na distância, todas as peças empatadas devem ser atingidas.
+* "_Troque de lugar com a peça mais próxima de você_", e houver empate na distância, todas as peças empatadas deveriam trocar de lugar com você, porém como não é possível duas peças ocuparem o mesmo espaço, apenas uma delas poderá efetivamente trocar de lugar, neste caso, favorece-se o controlador do efeito, que então escolhe qual peça será trocada.
+
+---
+
 ## Individualidade
 
 Ninguém pode jogar o turno de um jogador por ele; cada um deve agir por conta própria. Se um jogador quer a opinião de outro antes de agir, seus personagens precisam conversar, e não os jogadores. Personifiquem os personagens e interpretem-nos.

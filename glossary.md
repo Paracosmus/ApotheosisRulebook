@@ -115,8 +115,8 @@ Ao enviar, descartar, enterrar, banir ou exilar uma carta para um monte, ela ass
 
 | Termo                    | Inglês          | Significado |
 | ------------------------ | --------------- | ----------- |
-| **Componente**           | *Component*     | Qualquer elemento físico do jogo, como cartas, peças, contadores, etc. |
-| **Peça**                 | *Piece*          | Peão que representa um personagem ou objeto no tabuleiro de batalha |
+| **Componente**           | *Component*     | Qualquer elemento físico do jogo, como cartas, peças, contadores, tabuleiros, mapas, etc. |
+| **Peça**                 | *Piece*         | Peão que representa um personagem ou objeto no tabuleiro de batalha |
 | **Mover**                | *Move*          | Colocar uma peça em outra casa do tabuleiro |
 | **Distância**            | *Distance*      | Alcance da ação ou movimento |
 | **Trajeto / Trajetória** | *Trajectory*    | Conjunto de casas do tabuleiro por onde passa a linha reta entre o personagem que executa a ação e o alvo da ação |
@@ -137,7 +137,7 @@ Ao enviar, descartar, enterrar, banir ou exilar uma carta para um monte, ela ass
 | **Ação Total** | *All-in*  | O personagem não pode ter realizado nenhuma ação ou jogada não automática (passiva) neste Ciclo para realizar uma Ação Total; feito isso, ele só terá um turno no próximo *Ciclo* |
 | **Substituir** | *Replace* | Um elemento de jogo é substituído por outro determinado, herdando o estado do original<br><br>**Quando uma carta**: Ela é substituída por outra colocada no mesmo espaço, a nova carta recebe todos os contadores e anexos da carta original, e a carta original é enterrada<br><br>Colocar uma carta em um espaço ocupado sem uma mecânica de substituição, como ao adquirir uma {{ class }}, não é substituir: a carta anterior é descartada para o {{ tradingPost }}, levando consigo seus anexos e contadores<br><br>**Quando uma peça**: Ela é substituída por outra, a nova peça mantém a {{ hp }}, {{ ap }}, Marcadores, ordem do turno e posição no tabuleiro da peça original, a peça original é removida do jogo |
 | **Ciclo**      | *Stint*   | O período entre uma Fase de Recomposição e outra |
-| **Dono**        | *Owner*      | O personagem a quem uma carta ou um monte de cartas pertence. Um Herói é dono de toda carta em sua {{ table }}, em seu {{ inv }}, anexada a uma carta dele ou em um monte de que ele é dono. Já um {{ companion }} é dono apenas das cartas anexadas a ele desde que ele não esteja no suporte de um Herói, neste caso o Herói é o dono dessas cartas |
+| **Dono**       | *Owner*   | O personagem a quem uma carta ou um monte de cartas pertence. Um Herói é dono de toda carta em sua {{ table }}, em seu {{ inv }}, anexada a uma carta dele ou em um monte de que ele é dono. Já um {{ companion }} é dono apenas das cartas anexadas a ele desde que ele não esteja no suporte de um Herói, neste caso o Herói é o dono dessas cartas. Os textos podem se referir ao "dono" ou à "posse" como sendo a mesma coisa, no sentido de que o dono possui o componente |
 | **Controlador** | *Controller* | O jogador que controla um Herói e, por consequência, as cartas e montes de cartas desse Herói. Um Herói sem jogador é controlado pelo Mestre de Jogo |
 
 ---
