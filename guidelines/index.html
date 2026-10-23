@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.846010775405">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.846081526980">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -41,11 +41,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.6.0.846010775405" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.846081526980" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.846010775405" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.846081526980" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.846010775405" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.846081526980" data-turbo-eval="false" defer></script>
     <script id="mermaid-js" data-cfasync="false" src="/resources/js/mermaid.js?v=4.6.0" defer></script>
 
     <!-- Font -->
@@ -447,6 +447,15 @@
 <h2 id="divisão-e-arredondamento">Divisão e Arredondamento</h2>
 <p>Toda divisão que tiver como resultado um valor fracionado deve ser arredondada em direção ao zero, de forma a utilizar sempre números inteiros: <strong>3,5</strong> vira <strong>3</strong>, e <strong>−3,5</strong> vira <strong>−3</strong>.</p>
 <hr>
+<h2 id="igualdade">Igualdade</h2>
+<p>Em caso de empate entre valores, ambos os valores devem ser considerados quando possível.</p>
+<p>Por exemplo, se o efeito diz algo como:</p>
+<ul>
+<li>&quot;<em>+1 de bônus para o seu maior atributo</em>&quot;, e o personagem tiver dois ou mais atributos empatados no maior valor, todos devem receber o bônus.</li>
+<li>&quot;<em>Este ataque atinge a peça do tabuleira mais próxima de você</em>&quot;, e houver empate na distância, todas as peças empatadas devem ser atingidas.</li>
+<li>&quot;<em>Troque de lugar com a peça mais próxima de você</em>&quot;, e houver empate na distância, todas as peças empatadas deveriam trocar de lugar com você, porém como não é possível duas peças ocuparem o mesmo espaço, apenas uma delas poderá efetivamente trocar de lugar, neste caso, favorece-se o controlador do efeito, que então escolhe qual peça será trocada.</li>
+</ul>
+<hr>
 <h2 id="individualidade">Individualidade</h2>
 <p>Ninguém pode jogar o turno de um jogador por ele; cada um deve agir por conta própria. Se um jogador quer a opinião de outro antes de agir, seus personagens precisam conversar, e não os jogadores. Personifiquem os personagens e interpretem-nos.</p>
 <hr>
@@ -489,8 +498,8 @@
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-10-17T23:24:03" title="2026-10-17" data-absolute-label="Last updated on 2026-10-17 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-10-17 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
-                        Last updated on 2026-10-17 by Bruno Caxito
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-10-23T11:38:21" title="2026-10-23" data-absolute-label="Last updated on 2026-10-23 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-10-23 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                        Last updated on 2026-10-23 by Bruno Caxito
                     </time>
                 </div>
 

@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.846010775405">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.846081526980">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -41,11 +41,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.6.0.846010775405" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.846081526980" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.846010775405" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.846081526980" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.846010775405" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.846081526980" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -796,8 +796,8 @@
 <h2 id="tabuleiro">Tabuleiro</h2>
 <retype-table copy-text="| Termo                    | Inglês          | Significado |
 | ------------------------ | --------------- | ----------- |
-| **Componente**           | *Component*     | Qualquer elemento físico do jogo, como cartas, peças, contadores, etc. |
-| **Peça**                 | *Piece*          | Peão que representa um personagem ou objeto no tabuleiro de batalha |
+| **Componente**           | *Component*     | Qualquer elemento físico do jogo, como cartas, peças, contadores, tabuleiros, mapas, etc. |
+| **Peça**                 | *Piece*         | Peão que representa um personagem ou objeto no tabuleiro de batalha |
 | **Mover**                | *Move*          | Colocar uma peça em outra casa do tabuleiro |
 | **Distância**            | *Distance*      | Alcance da ação ou movimento |
 | **Trajeto / Trajetória** | *Trajectory*    | Conjunto de casas do tabuleiro por onde passa a linha reta entre o personagem que executa a ação e o alvo da ação |
@@ -821,7 +821,7 @@
 <tr>
 <td><strong>Componente</strong></td>
 <td><em>Component</em></td>
-<td>Qualquer elemento físico do jogo, como cartas, peças, contadores, etc.</td>
+<td>Qualquer elemento físico do jogo, como cartas, peças, contadores, tabuleiros, mapas, etc.</td>
 </tr>
 <tr>
 <td><strong>Peça</strong></td>
@@ -889,7 +889,7 @@
 | **Ação Total** | *All-in*  | O personagem não pode ter realizado nenhuma ação ou jogada não automática (passiva) neste Ciclo para realizar uma Ação Total; feito isso, ele só terá um turno no próximo *Ciclo* |
 | **Substituir** | *Replace* | Um elemento de jogo é substituído por outro determinado, herdando o estado do original&lt;br&gt;&lt;br&gt;**Quando uma carta**: Ela é substituída por outra colocada no mesmo espaço, a nova carta recebe todos os contadores e anexos da carta original, e a carta original é enterrada&lt;br&gt;&lt;br&gt;Colocar uma carta em um espaço ocupado sem uma mecânica de substituição, como ao adquirir uma [&lt;span class=&quot;class&quot;&gt;&lt;b&gt;CLASSE&lt;/b&gt;&lt;/span&gt;](/cards/class.md), não é substituir: a carta anterior é descartada para o [&lt;span class=&quot;main&quot;&gt;&lt;b&gt;ENTREPOSTO&lt;/b&gt;&lt;/span&gt;](/gameplay/stack/trading-post.md), levando consigo seus anexos e contadores&lt;br&gt;&lt;br&gt;**Quando uma peça**: Ela é substituída por outra, a nova peça mantém a [&lt;span class=&quot;hp&quot;&gt;&lt;b&gt;VIDA&lt;/b&gt;&lt;/span&gt;](/hero/#vida), [&lt;span class=&quot;main&quot;&gt;&lt;b&gt;AÇÃO&lt;/b&gt;&lt;/span&gt;](/hero/#ação), Marcadores, ordem do turno e posição no tabuleiro da peça original, a peça original é removida do jogo |
 | **Ciclo**      | *Stint*   | O período entre uma Fase de Recomposição e outra |
-| **Dono**        | *Owner*      | O personagem a quem uma carta ou um monte de cartas pertence. Um Herói é dono de toda carta em sua [&lt;span class=&quot;main&quot;&gt;&lt;b&gt;MESA&lt;/b&gt;&lt;/span&gt;](/hero/table/), em seu [&lt;span class=&quot;main&quot;&gt;&lt;b&gt;INVENTÁRIO&lt;/b&gt;&lt;/span&gt;](/hero/inventory.md), anexada a uma carta dele ou em um monte de que ele é dono. Já um [&lt;span class=&quot;companion&quot;&gt;&lt;b&gt;COMPANHEIRO&lt;/b&gt;&lt;/span&gt;](/cards/companion.md) é dono apenas das cartas anexadas a ele desde que ele não esteja no suporte de um Herói, neste caso o Herói é o dono dessas cartas |
+| **Dono**       | *Owner*   | O personagem a quem uma carta ou um monte de cartas pertence. Um Herói é dono de toda carta em sua [&lt;span class=&quot;main&quot;&gt;&lt;b&gt;MESA&lt;/b&gt;&lt;/span&gt;](/hero/table/), em seu [&lt;span class=&quot;main&quot;&gt;&lt;b&gt;INVENTÁRIO&lt;/b&gt;&lt;/span&gt;](/hero/inventory.md), anexada a uma carta dele ou em um monte de que ele é dono. Já um [&lt;span class=&quot;companion&quot;&gt;&lt;b&gt;COMPANHEIRO&lt;/b&gt;&lt;/span&gt;](/cards/companion.md) é dono apenas das cartas anexadas a ele desde que ele não esteja no suporte de um Herói, neste caso o Herói é o dono dessas cartas. Os textos podem se referir ao &quot;dono&quot; ou à &quot;posse&quot; como sendo a mesma coisa, no sentido de que o dono possui o componente |
 | **Controlador** | *Controller* | O jogador que controla um Herói e, por consequência, as cartas e montes de cartas desse Herói. Um Herói sem jogador é controlado pelo Mestre de Jogo |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
@@ -919,7 +919,7 @@
 <tr>
 <td><strong>Dono</strong></td>
 <td><em>Owner</em></td>
-<td>O personagem a quem uma carta ou um monte de cartas pertence. Um Herói é dono de toda carta em sua <a href="/hero/table/"><span class="main"><b>MESA</b></span></a>, em seu <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a>, anexada a uma carta dele ou em um monte de que ele é dono. Já um <a href="/cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a> é dono apenas das cartas anexadas a ele desde que ele não esteja no suporte de um Herói, neste caso o Herói é o dono dessas cartas</td>
+<td>O personagem a quem uma carta ou um monte de cartas pertence. Um Herói é dono de toda carta em sua <a href="/hero/table/"><span class="main"><b>MESA</b></span></a>, em seu <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a>, anexada a uma carta dele ou em um monte de que ele é dono. Já um <a href="/cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a> é dono apenas das cartas anexadas a ele desde que ele não esteja no suporte de um Herói, neste caso o Herói é o dono dessas cartas. Os textos podem se referir ao &quot;dono&quot; ou à &quot;posse&quot; como sendo a mesma coisa, no sentido de que o dono possui o componente</td>
 </tr>
 <tr>
 <td><strong>Controlador</strong></td>
@@ -967,8 +967,8 @@ Teammate se refere aos demais membros do seu time que não são você, enquanto 
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-10-22T15:58:59" title="2026-10-22" data-absolute-label="Last updated on 2026-10-22 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-10-22 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
-                        Last updated on 2026-10-22 by Bruno Caxito
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-10-23T11:38:21" title="2026-10-23" data-absolute-label="Last updated on 2026-10-23 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-10-23 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                        Last updated on 2026-10-23 by Bruno Caxito
                     </time>
                 </div>
 
