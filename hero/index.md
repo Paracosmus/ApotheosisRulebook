@@ -10,6 +10,14 @@ Um Herói é todo e qualquer personagem que possua uma [<span class="main"><b
 
 ---
 
+## Controle
+
+Cada Herói é controlado por um jogador. Um Herói que não pertence a nenhum jogador é controlado pelo [Mestre de Jogo](/gameplay/game-master.md).
+
+Quando o jogador de um Herói estiver ausente, o Mestre de Jogo recebe o controle do Herói dele. Ele pode então passar esse controle temporariamente para outro jogador presente.
+
+---
+
 ## Cabeçalho
 
 Características narrativas adicionais não essenciais do Herói que não são expressas nas cartas, tais como nome, sexo, idade, descrição, estória de vida, etc.
@@ -22,7 +30,7 @@ Como pode notar, o cabeçalho é um espaço para descrever informações narrati
 
 ---
 
-## Nível do Herói
+## Nível
 
 O nível do Herói é a soma do nível da sua carta de [<span class="house"><b>CASA</b></span>](/cards/house.md) com os níveis das cartas nos três espaços de [<span class="class"><b>CLASSE</b></span>](/cards/class.md) da [<span class="main"><b>FICHA</b></span>](/hero/table/sheet.md). Toda [<span class="house"><b>CASA</b></span>](/cards/house.md) é de nível **1** e cada [<span class="class"><b>CLASSE</b></span>](/cards/class.md) vai do nível **1** ao **3**. Como o Herói pode ter de **0** a **3** [<span class="class"><b>CLASSE</b></span>](/cards/class.md), seu nível vai de **1** a **10**.
 
@@ -32,7 +40,7 @@ Efeitos de cartas podem modificar o nível do Herói, mas ele nunca fica abaixo 
 
 ---
 
-## Atributos do Herói
+## Atributos
 
 Cada atributo do Herói é a soma dos bônus daquele atributo nas suas cartas reveladas. Em cada local, somam apenas os tipos de carta indicados:
 
@@ -49,9 +57,21 @@ Efeitos de cartas podem modificar os atributos do Herói, mas nenhum deles fica 
 
 ---
 
+## Conhecimentos
+
+O nível do Herói em cada [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md) recebe **+1** para cada vez que aquele [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md) aparece listado nas cartas de [<span class="class"><b>CLASSE</b></span>](/cards/class.md) reveladas na sua [<span class="main"><b>FICHA</b></span>](/hero/table/sheet.md), inclusive na Zona Extra.
+
+Efeitos de cartas podem modificar os conhecimentos do Herói, mas nenhum deles fica abaixo de **0**. Um [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md) de nível **0** é um [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md) que o Herói não possui.
+
+---
+
 ## Vida
 
-[<span class="hp"><b>VIDA</b></span>](/hero/#vida) = 4 + Nível do Herói
+A [<span class="hp"><b>VIDA</b></span>](/hero/#vida) máxima do Herói é a sua [<span class="house"><b>CON</b></span>](/gameplay/attributes.md) multiplicada por **10**.
+
+Efeitos de cartas podem modificar a [<span class="hp"><b>VIDA</b></span>](/hero/#vida) máxima do Herói.
+
+> [<span class="hp"><b>VIDA</b></span>](/hero/#vida) máxima: [<span class="house"><b>CON</b></span>](/gameplay/attributes.md) × **10**.
 
 ---
 

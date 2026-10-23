@@ -38,16 +38,17 @@ Esta seção ainda não foi completamente revisada. Algumas informações podem 
 8. Aplicação do Dano
 9.  Calculo da Lesão
 10.  Aplicação da Lesão
-11. Remover a vida do alvo
+11. Clipagem de Valor (Aplica-se a regra de limites de valores)
+12. Remover a vida do alvo
     1. Salvação Divina
-12. Resolução de Consequências
-13. Situação do Alvo
+13. Resolução de Consequências
+14. Situação do Alvo
     1.  Vivo
     2.  Nocauteado
     3.  Morto
     4. Salvação Divina
-14. Resolução de Consequências
-15. Situação do Alvo
+15. Resolução de Consequências
+16. Situação do Alvo
     1.  Vivo
     2.  Nocauteado
     3.  Morto

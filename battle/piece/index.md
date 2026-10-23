@@ -13,6 +13,12 @@ A batalha acontece em um tabuleiro quadriculado de 11x11 casas. No tabuleiro, po
 
 ---
 
+## Criar uma Peça
+
+Uma peça é criada com a [<span class="hp"><b>VIDA</b></span>](/hero/#vida) cheia, igual à sua [<span class="hp"><b>VIDA</b></span>](/hero/#vida) máxima. Isso acontece só quando a peça ainda não existe: uma peça que sai do tabuleiro e volta é a mesma peça, e mantém a [<span class="hp"><b>VIDA</b></span>](/hero/#vida) que tinha.
+
+---
+
 ## Sair do Tabuleiro
 
 Uma peça que sai do tabuleiro guarda o seu estado, como [<span class="hp"><b>VIDA</b></span>](/hero/#vida) e [marcadores](/gameplay/marker.md). Quando volta ao tabuleiro, ela volta exatamente como estava, exceto pelos pontos de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação) e pelo seu lugar na [ordem dos turnos](/battle/turn.md#entrar-e-sair-da-ordem-dos-turnos).

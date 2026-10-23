@@ -29,9 +29,17 @@ Quando um valor, como um Atributo ou o nível do Herói, recebe bônus e modific
 1. **[Bônus](/gameplay/bonus.md) fixos**: são somados ao valor base. A ordem entre eles é irrelevante.
 1. **[Bônus temporários](/gameplay/bonus.md#bônus-temporários)**: são somados ao resultado. A ordem entre eles é irrelevante.
 1. **Modificadores**: são aplicados um a um, cada um sobre o valor deixado pelo anterior, em ordem de prioridade: o de maior prioridade é aplicado primeiro. Um efeito sem prioridade definida tem prioridade **0**. Dois efeitos com mesma prioridade são aplicados na ordem em que foram coletados.
+2. **Limites da regra**: por último, o valor é ajustado aos limites que a regra define, como o mínimo de **1** de um Atributo. Este ajuste é realizado após a aplicação de todos os efeitos, portanto ele sempre prevalece.
 
 !!!
 Diferente dos bônus, a ordem dos modificadores importa. Um efeito que limita o valor, como "o nível máximo é **8**", precisa ser aplicado depois dos que o aumentam, e por isso tem uma prioridade menor que a deles.
+!!!
+
+!!!secondary Exemplo
+  > Efeito: [<span class="keyword-activation">Permanente</span>](/gameplay/effect.md) se a sua [<span class="house"><b>FOR</b></span>](/gameplay/attributes.md) for exatamente **1**, ela passa a ser **2**.
+
+  * Os bônus e modificadores da [<span class="house"><b>FOR</b></span>](/gameplay/attributes.md) do Herói resultam em **-2**. O efeito não age, pois o valor não é **1**.
+  * O limite da regra transforma **-2** em **1**. A [<span class="house"><b>FOR</b></span>](/gameplay/attributes.md) do Herói é **1**, e não **2**.
 !!!
 
 ---
