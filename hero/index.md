@@ -32,6 +32,23 @@ Efeitos de cartas podem modificar o nível do Herói, mas ele nunca fica abaixo 
 
 ---
 
+## Atributos do Herói
+
+Cada atributo do Herói é a soma dos bônus daquele atributo nas suas cartas reveladas. Em cada local, somam apenas os tipos de carta indicados:
+
+| Local       | Cartas que somam                                                |
+| ----------- | --------------------------------------------------------------- |
+| [<span class="main"><b>FICHA</b></span>](/hero/table/sheet.md) | [<span class="house"><b>CASA</b></span>](/cards/house.md), [<span class="class"><b>CLASSE</b></span>](/cards/class.md) e [<span class="entity"><b>ENTE</b></span>](/cards/entity.md), inclusive na Zona Extra |
+| [<span class="item"><b>EQUIPAMENTO</b></span>](/hero/table/equipment.md) | [<span class="item"><b>ITEM</b></span>](/cards/item.md)                                                      |
+| [<span class="skill"><b>MEMENTO</b></span>](/hero/table/memento.md)   | [<span class="skill"><b>HABILIDADE</b></span>](/cards/skills.md)                                                     |
+| [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md)   | [<span class="item"><b>ITEM</b></span>](/cards/item.md), [<span class="skill"><b>HABILIDADE</b></span>](/cards/skills.md) e [<span class="event"><b>EVENTO</b></span>](/cards/event.md)                           |
+
+Não somam atributos ao Herói: cartas ocultas, cartas anexadas e os [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) no [<span class="companion"><b>SUPORTE</b></span>](/hero/table/support.md).
+
+Efeitos de cartas podem modificar os atributos do Herói, mas nenhum deles fica abaixo de **1**.
+
+---
+
 ## Vida
 
 [<span class="hp"><b>VIDA</b></span>](/hero/#vida) = 4 + Nível do Herói

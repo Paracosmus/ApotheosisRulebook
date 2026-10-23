@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.846081526980">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.846093825356">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -41,11 +41,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.6.0.846081526980" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.846093825356" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.846081526980" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.846093825356" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.846081526980" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.846093825356" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -472,6 +472,46 @@
 <p>Apenas esses <strong>4</strong> espaços contam: cartas em outros locais da <a href="/hero/table/sheet/"><span class="main"><b>FICHA</b></span></a>, como a Zona Extra, não somam nível, mesmo que sejam de <a href="/cards/house/"><span class="house"><b>CASA</b></span></a> ou <a href="/cards/class/"><span class="class"><b>CLASSE</b></span></a>.</p>
 <p>Efeitos de cartas podem modificar o nível do Herói, mas ele nunca fica abaixo de <strong>1</strong> nem acima de <strong>10</strong>.</p>
 <hr>
+<h2 id="atributos-do-herói">Atributos do Herói</h2>
+<p>Cada atributo do Herói é a soma dos bônus daquele atributo nas suas cartas reveladas. Em cada local, somam apenas os tipos de carta indicados:</p>
+<retype-table copy-text="| Local       | Cartas que somam                                                |
+| ----------- | --------------------------------------------------------------- |
+| [&lt;span class=&quot;main&quot;&gt;&lt;b&gt;FICHA&lt;/b&gt;&lt;/span&gt;](/hero/table/sheet.md) | [&lt;span class=&quot;house&quot;&gt;&lt;b&gt;CASA&lt;/b&gt;&lt;/span&gt;](/cards/house.md), [&lt;span class=&quot;class&quot;&gt;&lt;b&gt;CLASSE&lt;/b&gt;&lt;/span&gt;](/cards/class.md) e [&lt;span class=&quot;entity&quot;&gt;&lt;b&gt;ENTE&lt;/b&gt;&lt;/span&gt;](/cards/entity.md), inclusive na Zona Extra |
+| [&lt;span class=&quot;item&quot;&gt;&lt;b&gt;EQUIPAMENTO&lt;/b&gt;&lt;/span&gt;](/hero/table/equipment.md) | [&lt;span class=&quot;item&quot;&gt;&lt;b&gt;ITEM&lt;/b&gt;&lt;/span&gt;](/cards/item.md)                                                      |
+| [&lt;span class=&quot;skill&quot;&gt;&lt;b&gt;MEMENTO&lt;/b&gt;&lt;/span&gt;](/hero/table/memento.md)   | [&lt;span class=&quot;skill&quot;&gt;&lt;b&gt;HABILIDADE&lt;/b&gt;&lt;/span&gt;](/cards/skills.md)                                                     |
+| [&lt;span class=&quot;main&quot;&gt;&lt;b&gt;INVENTÁRIO&lt;/b&gt;&lt;/span&gt;](/hero/inventory.md)   | [&lt;span class=&quot;item&quot;&gt;&lt;b&gt;ITEM&lt;/b&gt;&lt;/span&gt;](/cards/item.md), [&lt;span class=&quot;skill&quot;&gt;&lt;b&gt;HABILIDADE&lt;/b&gt;&lt;/span&gt;](/cards/skills.md) e [&lt;span class=&quot;event&quot;&gt;&lt;b&gt;EVENTO&lt;/b&gt;&lt;/span&gt;](/cards/event.md)                           |">
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Local</th>
+<th>Cartas que somam</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="/hero/table/sheet/"><span class="main"><b>FICHA</b></span></a></td>
+<td><a href="/cards/house/"><span class="house"><b>CASA</b></span></a>, <a href="/cards/class/"><span class="class"><b>CLASSE</b></span></a> e <a href="/cards/entity/"><span class="entity"><b>ENTE</b></span></a>, inclusive na Zona Extra</td>
+</tr>
+<tr>
+<td><a href="/hero/table/equipment/"><span class="item"><b>EQUIPAMENTO</b></span></a></td>
+<td><a href="/cards/item/"><span class="item"><b>ITEM</b></span></a></td>
+</tr>
+<tr>
+<td><a href="/hero/table/memento/"><span class="skill"><b>MEMENTO</b></span></a></td>
+<td><a href="/cards/skills/"><span class="skill"><b>HABILIDADE</b></span></a></td>
+</tr>
+<tr>
+<td><a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a></td>
+<td><a href="/cards/item/"><span class="item"><b>ITEM</b></span></a>, <a href="/cards/skills/"><span class="skill"><b>HABILIDADE</b></span></a> e <a href="/cards/event/"><span class="event"><b>EVENTO</b></span></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</retype-table>
+<p>Não somam atributos ao Herói: cartas ocultas, cartas anexadas e os <a href="/cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a> no <a href="/hero/table/support/"><span class="companion"><b>SUPORTE</b></span></a>.</p>
+<p>Efeitos de cartas podem modificar os atributos do Herói, mas nenhum deles fica abaixo de <strong>1</strong>.</p>
+<hr>
 <h2 id="vida">Vida</h2>
 <p><a href="/hero/#vida"><span class="hp"><b>VIDA</b></span></a> = 4 + Nível do Herói</p>
 <hr>
@@ -709,8 +749,8 @@
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-10-17T23:24:03" title="2026-10-17" data-absolute-label="Last updated on 2026-10-17 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-10-17 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
-                        Last updated on 2026-10-17 by Bruno Caxito
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-10-23T15:03:19" title="2026-10-23" data-absolute-label="Last updated on 2026-10-23 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-10-23 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                        Last updated on 2026-10-23 by Bruno Caxito
                     </time>
                 </div>
 
