@@ -13,6 +13,14 @@ Um Herói é todo e qualquer personagem que possua uma {{ table }} de cartas e u
 
 ---
 
+## Controle
+
+Cada Herói é controlado por um jogador. Um Herói que não pertence a nenhum jogador é controlado pelo [Mestre de Jogo](/gameplay/game-master.md).
+
+Quando o jogador de um Herói estiver ausente, o Mestre de Jogo recebe o controle do Herói dele. Ele pode então passar esse controle temporariamente para outro jogador presente.
+
+---
+
 ## Cabeçalho
 
 Características narrativas adicionais não essenciais do Herói que não são expressas nas cartas, tais como nome, sexo, idade, descrição, estória de vida, etc.
@@ -25,7 +33,7 @@ Como pode notar, o cabeçalho é um espaço para descrever informações narrati
 
 ---
 
-## Nível do Herói
+## Nível
 
 O nível do Herói é a soma do nível da sua carta de {{ house }} com os níveis das cartas nos três espaços de {{ class }} da {{ sheet }}. Toda {{ house }} é de nível **1** e cada {{ class }} vai do nível **1** ao **3**. Como o Herói pode ter de **0** a **3** {{ class }}, seu nível vai de **1** a **10**.
 
@@ -35,7 +43,7 @@ Efeitos de cartas podem modificar o nível do Herói, mas ele nunca fica abaixo 
 
 ---
 
-## Atributos do Herói
+## Atributos
 
 Cada atributo do Herói é a soma dos bônus daquele atributo nas suas cartas reveladas. Em cada local, somam apenas os tipos de carta indicados:
 
@@ -52,9 +60,21 @@ Efeitos de cartas podem modificar os atributos do Herói, mas nenhum deles fica 
 
 ---
 
+## Conhecimentos
+
+O nível do Herói em cada {{ knowledge }} recebe **+1** para cada vez que aquele {{ knowledge }} aparece listado nas cartas de {{ class }} reveladas na sua {{ sheet }}, inclusive na Zona Extra.
+
+Efeitos de cartas podem modificar os conhecimentos do Herói, mas nenhum deles fica abaixo de **0**. Um {{ knowledge }} de nível **0** é um {{ knowledge }} que o Herói não possui.
+
+---
+
 ## Vida
 
-{{ hp }} = 4 + Nível do Herói
+A {{ hp }} máxima do Herói é a sua {{ enr }} multiplicada por **10**.
+
+Efeitos de cartas podem modificar a {{ hp }} máxima do Herói.
+
+> {{ hp }} máxima: {{ enr }} × **10**.
 
 ---
 

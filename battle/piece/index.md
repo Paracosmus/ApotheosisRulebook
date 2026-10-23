@@ -16,6 +16,12 @@ A batalha acontece em um tabuleiro quadriculado de 11x11 casas. No tabuleiro, po
 
 ---
 
+## Criar uma Peça
+
+Uma peça é criada com a {{ hp }} cheia, igual à sua {{ hp }} máxima. Isso acontece só quando a peça ainda não existe: uma peça que sai do tabuleiro e volta é a mesma peça, e mantém a {{ hp }} que tinha.
+
+---
+
 ## Sair do Tabuleiro
 
 Uma peça que sai do tabuleiro guarda o seu estado, como {{ hp }} e [marcadores](/gameplay/marker.md). Quando volta ao tabuleiro, ela volta exatamente como estava, exceto pelos pontos de {{ ap }} e pelo seu lugar na [ordem dos turnos](/battle/turn.md#entrar-e-sair-da-ordem-dos-turnos).
