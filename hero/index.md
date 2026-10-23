@@ -35,6 +35,23 @@ Efeitos de cartas podem modificar o nível do Herói, mas ele nunca fica abaixo 
 
 ---
 
+## Atributos do Herói
+
+Cada atributo do Herói é a soma dos bônus daquele atributo nas suas cartas reveladas. Em cada local, somam apenas os tipos de carta indicados:
+
+| Local       | Cartas que somam                                                |
+| ----------- | --------------------------------------------------------------- |
+| {{ sheet }} | {{ house }}, {{ class }} e {{ entity }}, inclusive na Zona Extra |
+| {{ equip }} | {{ item }}                                                      |
+| {{ mem }}   | {{ skill }}                                                     |
+| {{ inv }}   | {{ item }}, {{ skill }} e {{ event }}                           |
+
+Não somam atributos ao Herói: cartas ocultas, cartas anexadas e os {{ companion }} no {{ support }}.
+
+Efeitos de cartas podem modificar os atributos do Herói, mas nenhum deles fica abaixo de **1**.
+
+---
+
 ## Vida
 
 {{ hp }} = 4 + Nível do Herói
