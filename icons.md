@@ -375,7 +375,8 @@ layout: page
 | ---- | ---------- | ------- | -------- | ------- | ----- |
 | <span style="color: #2B6A2E;"></span> | Vida | *Life (HP)* | {{ hp }} | e928 | `#2B6A2E` |
 | <span style="color: #01C9C1;"></span> | Ação | *Action (AP)* | {{ ap }} | e924 | `#01C9C1` |
-| - | Nível | *Level* | - | - | - |
+| Lv | Nível | *Level* | - | - | - |
+| - | Score | *Score* | - | - | - |
 | - | Lignum | *Lignum* | - | - | - |
 | - | Coleção | *Collection* | - | - | - |
 | <span style="color: #D50000;"></span> | Dano | *Damage* | {{ dmg }} | e919 | `#D50000` |

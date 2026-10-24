@@ -114,6 +114,35 @@ Enquanto estiver fora de cena, o Herói e todas as suas cartas, inclusive as da 
 
 ## Score
 
+O Score é um número arbitrário utilizado para medir a força geral de um Herói com base nas suas cartas. Essa medição se trata de uma aproximação considerando os diferentes aspectos e raridades das cartas que ele possui, já que a raridade está vinculada à qualidade das cartas.
+
+Observe que pela própria natureza do Score, ele é apenas uma estimativa e não uma medida absoluta.
+
+Cada carta tem o seu próprio Score, que é a soma de:
+
+* **2** pontos por nível, menos **1**. Uma carta de nível **1** vale **1**, uma de nível **2** vale **3**, e assim por diante.
+* Pontos por raridade: {{ common }} **0**, {{ uncommon }} **2**, {{ rare }} **4**, {{ epic }} **6** e {{ legendary }} **8**.
+* **5** pontos se a carta tiver for um {{ summus }}.
+
+O Score do Herói é a soma do Score das suas cartas, contadas assim:
+
+* Cartas na {{ table }}: **100%** do Score.
+* Cartas no {{ inv }}: **33%** do Score.
+* Cartas de face para cima nos montes do Herói em que os [afetados](/gameplay/stack/index.md#afetados) são apenas o **Dono**: **90%** do Score se o [uso](/gameplay/stack/index.md#uso) do monte for **Sempre**, e **20%** se for **Com palavra-chave**. As cartas dos demais montes não contam.
+
+O que vem do {{ inv }} e dos montes é somado e arredondado para baixo.
+
+O Score pode também ser indicado visualmente por uma cor de raridade, representando quão raro é um Herói ter aquele Score. Quanto maior o valor, mais raro.
+
+{.clean}
+| Score | Raridade |
+| ----- | -------- |
+| <span class="common">**0** a **74**</span>      | {{ common }}    |
+| <span class="uncommon">**75** a **199**</span>  | {{ uncommon }}  |
+| <span class="rare">**200** a **349**</span>     | {{ rare }}      |
+| <span class="epic">**350** a **499**</span>     | {{ epic }}      |
+| <span class="legendary">**500** ou mais</span>  | {{ legendary }} |
+
 ---
 
 ## Morte
