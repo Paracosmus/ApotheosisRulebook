@@ -95,3 +95,18 @@ Está relacionado à capacidade do personagem de sentir e manipular tudo que env
 |||
 
 ---
+
+## Raridade
+
+O atributo pode também ser indicado visualmente por uma cor de raridade, representando quão raro é um Herói ter aquele valor de atributo. Quanto maior o valor, mais raro.
+
+{.clean}
+| Valor | Raridade |
+| ----- | -------- |
+| <span class="common">**1** a **9**</span>     | [<span class="common">COMUM</span>](/gameplay/rarity.md)    |
+| <span class="uncommon">**10** a **15**</span> | [<span class="uncommon">INCOMUM</span>](/gameplay/rarity.md)  |
+| <span class="rare">**16** a **21**</span>     | [<span class="rare">RARA</span>](/gameplay/rarity.md)      |
+| <span class="epic">**22** a **29**</span>     | [<span class="epic">ÉPICA</span>](/gameplay/rarity.md)      |
+| <span class="legendary">**30** ou mais</span> | [<span class="legendary">LENDÁRIA</span>](/gameplay/rarity.md) |
+
+---

@@ -370,7 +370,8 @@
 | ---- | ---------- | ------- | -------- | ------- | ----- |
 | <span style="color: #2B6A2E;"></span> | Vida | *Life (HP)* | [<span class="hp"><b>VIDA</b></span>](/hero/#vida) | e928 | `#2B6A2E` |
 | <span style="color: #01C9C1;"></span> | Ação | *Action (AP)* | [<span class="main"><b>AÇÃO</b></span>](/hero/#ação) | e924 | `#01C9C1` |
-| - | Nível | *Level* | - | - | - |
+| Lv | Nível | *Level* | - | - | - |
+| - | Score | *Score* | - | - | - |
 | - | Lignum | *Lignum* | - | - | - |
 | - | Coleção | *Collection* | - | - | - |
 | <span style="color: #D50000;"></span> | Dano | *Damage* | <b>DANO</b> | e919 | `#D50000` |

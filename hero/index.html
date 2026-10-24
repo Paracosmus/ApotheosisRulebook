@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.846105526965">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.846124528243">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -41,11 +41,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.6.0.846105526965" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.846124528243" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.846105526965" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.846124528243" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.846105526965" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.846124528243" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -551,6 +551,62 @@
 <p>Enquanto estiver fora de cena, o Herói e todas as suas cartas, inclusive as da <a href="/hero/table/"><span class="main"><b>MESA</b></span></a>, do <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a> e dos seus montes, são desconsiderados: nenhum de seus efeitos ou bônus é aplicado aos personagens em cena.</p>
 <hr>
 <h2 id="score">Score</h2>
+<p>O Score é um número arbitrário utilizado para medir a força geral de um Herói com base nas suas cartas. Essa medição se trata de uma aproximação considerando os diferentes aspectos e raridades das cartas que ele possui, já que a raridade está vinculada à qualidade das cartas.</p>
+<p>Observe que pela própria natureza do Score, ele é apenas uma estimativa e não uma medida absoluta.</p>
+<p>Cada carta tem o seu próprio Score, que é a soma de:</p>
+<ul>
+<li><strong>2</strong> pontos por nível, menos <strong>1</strong>. Uma carta de nível <strong>1</strong> vale <strong>1</strong>, uma de nível <strong>2</strong> vale <strong>3</strong>, e assim por diante.</li>
+<li>Pontos por raridade: <a href="/gameplay/rarity/"><span class="common">COMUM</span></a> <strong>0</strong>, <a href="/gameplay/rarity/"><span class="uncommon">INCOMUM</span></a> <strong>2</strong>, <a href="/gameplay/rarity/"><span class="rare">RARA</span></a> <strong>4</strong>, <a href="/gameplay/rarity/"><span class="epic">ÉPICA</span></a> <strong>6</strong> e <a href="/gameplay/rarity/"><span class="legendary">LENDÁRIA</span></a> <strong>8</strong>.</li>
+<li><strong>5</strong> pontos se a carta tiver for um <a href="/cards/summus/"><span class="summus"><b>SUMMUS</b></span></a>.</li>
+</ul>
+<p>O Score do Herói é a soma do Score das suas cartas, contadas assim:</p>
+<ul>
+<li>Cartas na <a href="/hero/table/"><span class="main"><b>MESA</b></span></a>: <strong>100%</strong> do Score.</li>
+<li>Cartas no <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a>: <strong>33%</strong> do Score.</li>
+<li>Cartas de face para cima nos montes do Herói em que os <a href="/gameplay/stack/#afetados">afetados</a> são apenas o <strong>Dono</strong>: <strong>90%</strong> do Score se o <a href="/gameplay/stack/#uso">uso</a> do monte for <strong>Sempre</strong>, e <strong>20%</strong> se for <strong>Com palavra-chave</strong>. As cartas dos demais montes não contam.</li>
+</ul>
+<p>O que vem do <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a> e dos montes é somado e arredondado para baixo.</p>
+<p>O Score pode também ser indicado visualmente por uma cor de raridade, representando quão raro é um Herói ter aquele Score. Quanto maior o valor, mais raro.</p>
+<retype-table copy-text="| Score | Raridade |
+| ----- | -------- |
+| &lt;span class=&quot;common&quot;&gt;**0** a **74**&lt;/span&gt;      | [&lt;span class=&quot;common&quot;&gt;COMUM&lt;/span&gt;](/gameplay/rarity.md)    |
+| &lt;span class=&quot;uncommon&quot;&gt;**75** a **199**&lt;/span&gt;  | [&lt;span class=&quot;uncommon&quot;&gt;INCOMUM&lt;/span&gt;](/gameplay/rarity.md)  |
+| &lt;span class=&quot;rare&quot;&gt;**200** a **349**&lt;/span&gt;     | [&lt;span class=&quot;rare&quot;&gt;RARA&lt;/span&gt;](/gameplay/rarity.md)      |
+| &lt;span class=&quot;epic&quot;&gt;**350** a **499**&lt;/span&gt;     | [&lt;span class=&quot;epic&quot;&gt;ÉPICA&lt;/span&gt;](/gameplay/rarity.md)      |
+| &lt;span class=&quot;legendary&quot;&gt;**500** ou mais&lt;/span&gt;  | [&lt;span class=&quot;legendary&quot;&gt;LENDÁRIA&lt;/span&gt;](/gameplay/rarity.md) |">
+<div class="table-wrapper clean scrollbar overflow-hidden">
+<table class="comfortable clean">
+<thead>
+<tr>
+<th>Score</th>
+<th>Raridade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="common"><strong>0</strong> a <strong>74</strong></span></td>
+<td><a href="/gameplay/rarity/"><span class="common">COMUM</span></a></td>
+</tr>
+<tr>
+<td><span class="uncommon"><strong>75</strong> a <strong>199</strong></span></td>
+<td><a href="/gameplay/rarity/"><span class="uncommon">INCOMUM</span></a></td>
+</tr>
+<tr>
+<td><span class="rare"><strong>200</strong> a <strong>349</strong></span></td>
+<td><a href="/gameplay/rarity/"><span class="rare">RARA</span></a></td>
+</tr>
+<tr>
+<td><span class="epic"><strong>350</strong> a <strong>499</strong></span></td>
+<td><a href="/gameplay/rarity/"><span class="epic">ÉPICA</span></a></td>
+</tr>
+<tr>
+<td><span class="legendary"><strong>500</strong> ou mais</span></td>
+<td><a href="/gameplay/rarity/"><span class="legendary">LENDÁRIA</span></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</retype-table>
 <hr>
 <h2 id="morte">Morte</h2>
 <p>O personagem morre quando a sua <a href="/hero/#vida"><span class="hp"><b>VIDA</b></span></a> é reduzida a 0 ou menos. Caso o personagem morra, encerra-se a história para ele. Se todos os personagens de um jogador morrerem, é o fim do jogo para o jogador e, caso o jogador queira continuar jogando, ele deve criar outro personagem.</p>
@@ -761,7 +817,7 @@
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-10-23T18:18:20" title="2026-10-23" data-absolute-label="Last updated on 2026-10-23 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-10-23 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-10-23T23:35:02" title="2026-10-23" data-absolute-label="Last updated on 2026-10-23 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-10-23 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
                         Last updated on 2026-10-23 by Bruno Caxito
                     </time>
                 </div>
