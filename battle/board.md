@@ -11,7 +11,15 @@ order: 100
 
 ---
 
+## Tamanho
+
+Cada tabuleiro tem o seu próprio tamanho: um número de colunas por um número de linhas de casas.
+
 ## Casa Adjacente
+
+## Casa Ocupada
+
+Uma casa comporta apenas uma peça. Duas peças nunca podem estar na mesma casa, e nenhum efeito pode mudar isso.
 
 ## Casa de Posicionamento
 
@@ -25,20 +33,68 @@ As demais casas não permitem que nenhuma peça entre no tabuleiro por elas.
 
 ## Direção do Ataque
 
+## Camadas
+
+Toda casa tem pelo menos uma {{ layer }}, e pode ter outras empilhadas sobre ela, como o chão e uma ponte acima dele. Cada {{ layer }} tem a sua própria {{ alt }} e o seu próprio [terreno](#terreno), e pode ter uma {{ wall }} em cada um dos seus lados.
+
+Uma peça fica sempre na {{ layer }} mais alta da casa. Toda {{ layer }} abaixo dela serve apenas de passagem: uma peça pode passar por ela ou atirar através dela, mas não pode parar nela, como no chão sob uma ponte.
+
+Por padrão, uma casa tem uma única {{ layer }}, no nível do solo, de terreno **Plano** e sem {{ wall }}.
+
 ## Altitude
 
-Toda casa do tabuleiro tem uma {{ alt }}, a sua altura em relação ao nível do solo, onde **1** de {{ alt }} equivale a cerca de **1** metro. O nível do solo é **0**: o que está abaixo dele tem {{ alt }} negativa, como um fosso, e o que está acima tem {{ alt }} positiva, como um telhado.
+Toda {{ layer }} de uma casa tem uma {{ alt }}, a sua altura em relação ao nível do solo, onde **1** de {{ alt }} equivale a cerca de **1** metro. O nível do solo é **0**: o que está abaixo dele tem {{ alt }} negativa, como um fosso, e o que está acima tem {{ alt }} positiva, como um telhado.
+
+## Teto
+
+Uma casa pode ter um {{ ceiling }}. A altura do {{ ceiling }} é medida em {{ alt }} a partir do chão da casa, a sua {{ layer }} mais alta, e não a partir do nível do solo. Uma casa sem {{ ceiling }} fica a céu aberto.
+
+!!!
+Por exemplo, em uma casa de {{ alt }} **4** com {{ ceiling }} **2**, o {{ ceiling }} fica na {{ alt }} **6**.
+!!!
+
+## Paredes
+
+Uma {{ wall }} fica em um dos quatro lados de uma {{ layer }}, e impede que uma peça naquela {{ layer }} saia da casa ou interaja por aquele lado.
+
+A {{ wall }} só impede a saída da casa onde ela está. Para fechar a passagem nos dois sentidos, as duas casas vizinhas têm uma {{ wall }} no lado que dividem. Uma {{ wall }} em apenas uma delas é uma passagem de mão única.
+
+!!!
+Por exemplo, se uma casa tem uma {{ wall }} no lado oeste e a casa a oeste dela não tem {{ wall }} no lado leste, uma peça pode entrar na casa vindo do oeste, mas não pode sair dela pelo oeste.
+!!!
+
+Uma {{ wall }} bloqueia toda ação por aquele lado, não apenas o movimento e o ataque: uma peça também não pode, por exemplo, interagir com um baú ou um contêiner do outro lado dela. A única exceção é o ataque {{ arcing }}, que passa por cima da {{ wall }}, a não ser que um {{ ceiling }} o impeça.
+
+## Trajetória
+
+Quando a trajetória de uma ação passa exatamente pela quina entre duas casas, as duas casas fazem parte dela. Se qualquer uma das duas bloquear a trajetória, ela fica bloqueada.
+
+## Gimmicks
+
+### Escada
+
+### Rampa
+
+### Portal
+
+### Névoa de Guerra
 
 ## Distância
 
 ## Mover
 
+Ao se mover, uma peça pode passar por uma [casa ocupada](#casa-ocupada), mas não pode terminar o movimento nela. É a mesma regra das [camadas](#camadas) inferiores de uma casa: a peça passa por elas, mas não para nelas.
+
+!!!
+Por exemplo, uma peça pode atravessar a casa onde está outra peça para chegar à casa seguinte, mas não pode parar na casa da outra peça.
+!!!
+
 ## Terreno
 
-Toda casa do tabuleiro tem um tipo de terreno. Por padrão, uma casa é de terreno **Plano**. Além dele, apenas a **Água** está definida; os demais terrenos ainda estão em desenvolvimento:
+Toda {{ layer }} de uma casa tem um tipo de terreno. Por padrão, uma {{ layer }} é de terreno **Plano**.
 
 * ⬜ Plano _(padrão)_
-* 🌾 Campo _(grama)_
+* 🌾 Campo
 * ⛰️ Rocha
 * 🌿 Pântano
 * 🌵 Areia

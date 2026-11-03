@@ -8,11 +8,13 @@ order: 60
 
 {{ briefing `Die` `Inúmeras ações no jogo são resolvidas através da rolagem de dados, incluindo testes, ataques, efeitos, entre outros.` }}
 
-Os dados utilizados são de seis faces, representados pela sigla **D6**. Em alguns casos, serão necessários dados com menos faces, então o dado de seis faces deve ser tratado da seguinte forma:
+O jogo usa dados de **2**, **3**, **4**, **5**, **6**, **8**, **10**, **12**, **20** e **100** faces, representados pela letra **D** seguida do número de faces, como **D6** ou **D20**.
 
-| {{ d1d6 }} D6 | {{ d1d3 }} D3  | {{ d1d2 }} D2 |
-|--- |--- |---
-| Role o dado de 6 faces e utilize o número obtido como resultado. | Considera-se o dado de 6 faces como um dado de 3 faces:<br/>• 1 e 2 = 1<br/>• 3 e 4 = 2<br/>• 5 e 6 = 3 | Considera-se o dado de 6 faces como um dado de 2 faces:<br/>• 1, 2 e 3 = 1<br/>• 4, 5 e 6 = 2
+Os dados D2, D3, D5 e D100 são rolados com outros dados, da seguinte forma:
+
+| {{ d1d2 }} D2 | {{ d1d3 }} D3 | {{ d1d5 }} D5 | {{ d1d100 }} D100 |
+|--- |--- |--- |---
+| Considera-se o dado de 6 faces como um dado de 2 faces:<br/>• 1, 2 e 3 = 1<br/>• 4, 5 e 6 = 2 | Considera-se o dado de 6 faces como um dado de 3 faces:<br/>• 1 e 2 = 1<br/>• 3 e 4 = 2<br/>• 5 e 6 = 3 | Considera-se o dado de 10 faces como um dado de 5 faces:<br/>• 1 e 2 = 1<br/>• 3 e 4 = 2<br/>• 5 e 6 = 3<br/>• 7 e 8 = 4<br/>• 9 e 10 = 5 | Rolam-se 2 dados de 10 faces, um para a dezena e outro para a unidade:<br/>• em cada dado, o 10 vale 0<br/>• o resultado é a dezena seguida da unidade, como 7 e 3 = 73<br/>• 0 e 0 = 100
 
 !!!light
 Múltiplos dados são referidos na forma {{ e2d6 }}, {{ e3d2 }}, etc.
@@ -28,22 +30,32 @@ Múltiplos dados são referidos na forma {{ e2d6 }}, {{ e3d2 }}, etc.
 
 ## Tipos de Dados
 
+### Valor Natural
+
+O valor natural de um dado é o número que aparece na face do dado rolado, antes de qualquer leitura, bônus ou efeito. Em um D3, é o número do dado de 6 faces, de **1** a **6**. Em um D5, é o número do dado de 10 faces, de **1** a **10**.
+
 ### Dado Principal
 
-Do conjunto de dados rolados, um deles deve ser distinto dos demais, seja por ser rolado antes de todos ou por ter uma aparência diferente. Este é o dado principal.
+Toda rolagem de dados tem um único dado principal: o primeiro dado da lista de dados rolados. Ele deve ser distinto dos demais, seja por ser rolado antes de todos ou por ter uma aparência diferente.
 
-O dado principal determina se houve uma [Rolagem Perfeita](#dados-extras-rolagem-perfeita) (valor natural 6). Como apenas ele é considerado para esse efeito, a chance de rolagem perfeita é sempre 1 em 6, independentemente do número de dados rolados.
+Apenas o dado principal é considerado para saber se houve uma [Rolagem Perfeita](#dados-extras-rolagem-perfeita).
+
+!!!
+Por exemplo, em uma rolagem de {{ e2d6 }}, apenas um dos dois D6 é o dado principal. Em uma rolagem de 1D8 + 1D4, o D8 é o dado principal, porque vem primeiro na lista.
+!!!
 
 ### Dados Secundários
 
-São todos os demais dados em uma rolagem de dados que não sejam o dado principal, nem sejam dados extras obtidos por uma rolagem crítica.
+São todos os demais dados em uma rolagem de dados que não sejam o dado principal, nem sejam dados extras obtidos por uma rolagem perfeita.
 
 ### Dados Extras (Rolagem Perfeita)
 
-Quando o dado principal obtiver um 6 natural (rolagem perfeita), o jogador deve:
+Uma rolagem perfeita acontece quando o dado principal tira o maior valor natural possível do dado rolado. Não é sempre o 6: é o maior número que aquele dado pode mostrar. Em um D3, é o 6 natural do dado de 6 faces. Em um D5, é o 10 natural do dado de 10 faces. Em um D20, é o 20. No D100, o dado principal é o D10 da dezena, e a rolagem perfeita acontece quando ele tira **9**.
+
+Em uma rolagem perfeita, o jogador deve:
 
 1. Rolar {{ e1d3 }} adicional e somar o resultado ao total da rolagem.
-2. Se o valor natural no dado de 6 faces for novamente 6 (rolagem perfeita), rolar outro {{ e1d3 }} adicional.
+2. Se esse {{ e1d3 }} também tirar o seu maior valor natural, o 6, rolar outro {{ e1d3 }} adicional.
 3. Repetir o passo anterior até que o valor natural seja diferente de 6.
 
 ---

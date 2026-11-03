@@ -232,9 +232,11 @@ data:
   d1d3: 
   d2d3: 
   d3d3: 
+  d1d5: 
   d1d6: 
   d2d6: 
   d3d6: 
+  d1d100: 
 
   e1d2: <b>(1D2)</b>
   e2d2: <b>(2D2)</b>
@@ -263,6 +265,9 @@ data:
   # Others
   marker:  '[<span class="main"><b>MARCADOR</b></span>](/gameplay/marker.md)'
   alt:     <b>ALTITUDE</b>
+  layer:   <b>CAMADA</b>
+  wall:    <b>PAREDE</b>
+  ceiling: <b>TETO</b>
 
   counter:          '[<span class="main">❂<b>CONTADOR</b></span>](/gameplay/counter/)'
   counterTravel:    '[<span class="main">❂<b>CONTADOR DE VIAGEM</b></span>](/gameplay/counter/)'

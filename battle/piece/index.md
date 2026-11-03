@@ -7,7 +7,7 @@ order: 90
 
 # Peça
 
-A batalha acontece em um tabuleiro quadriculado de 11x11 casas. No tabuleiro, podem conter casas bloqueadas ou com diferentes níveis de altura. Cada casa possui um tipo de [terreno](/battle/board.md#terreno).
+A batalha acontece em um tabuleiro quadriculado. No tabuleiro, podem conter paredes ou casas com diferentes níveis de altura. Cada casa possui um tipo de [terreno](/battle/board.md#terreno).
 
 - {{ hp }}
 - {{ ap }}
@@ -29,6 +29,14 @@ Uma peça que sai do tabuleiro guarda o seu estado, como {{ hp }} e [marcadores]
 !!!
 Isso impede, por exemplo, que um {{ companion }} seja retirado da {{ table }} e recrutado de novo para recuperar sua {{ hp }} ou se livrar de marcadores.
 !!!
+
+---
+
+## Curar
+
+Apenas personagens podem ser curados. Um objeto nunca é curado.
+
+A cura nunca deixa a {{ hp }} de um personagem acima da sua {{ hp }} máxima.
 
 ---
 

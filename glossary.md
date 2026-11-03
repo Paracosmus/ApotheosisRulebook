@@ -122,7 +122,6 @@ Ao enviar, descartar, enterrar, banir ou exilar uma carta para um monte, ela ass
 | **Trajeto / Trajetória** | *Trajectory*    | Conjunto de casas do tabuleiro por onde passa a linha reta entre o personagem que executa a ação e o alvo da ação |
 | **Direção**              | *Direction*     | Vetor de direção de uma ação que parte de uma casa do tabuleiro até outra casa. É uma linha reta com comprimento infinito para ambos os lados e um sentido de direção |
 | **Adjacente**            | *Adjacent Tile* | Aquilo que está em uma casa do tabuleiro, ou é uma casa do tabuleiro, que está ao lado de outra casa do tabuleiro. Não inclui casas diagonais |
-| **Casa Bloqueada**       | *Blocked Tile*  | Casa que contém um obstáculo permanente, como uma parede. Nenhuma peça pode ocupá-la ou passar por ela, e trajetórias de ataques diretos não podem atravessá-la |
 | **Casa Ocupada**         | *Occupied Tile* | Existe uma peça nesta casa do tabuleiro |
 | **Casa Vazia**           | *Empty Tile*    | Qualquer casa do tabuleiro que não tenha uma peça |
 | **Casa Desabilitada**    | *Disabled Tile* | Nenhuma peça pode ser colocada ou passar por esta casa do tabuleiro, para todos os fins, ela não existe. Trajetórias de ataques não podem passar por ela |
