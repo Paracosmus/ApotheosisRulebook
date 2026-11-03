@@ -4,7 +4,7 @@ Esta seção ainda não foi completamente revisada. Algumas informações podem 
     
 # Batalha
 
-A batalha acontece em um tabuleiro quadriculado de 11x11 casas. No tabuleiro, podem conter casas bloqueadas ou com diferentes níveis de altura. Cada casa possui um tipo de [terreno](/battle/board.md#terreno).
+A batalha acontece em um tabuleiro quadriculado. No tabuleiro, podem conter paredes ou casas com diferentes níveis de altura. Cada casa possui um tipo de [terreno](/battle/board.md#terreno).
 
 ---
 
@@ -17,8 +17,6 @@ No seu turno, o personagem pode executar uma variedade de ações. As ações ge
 Em seu turno, o personagem pode se mover no tabuleiro. Por padrão, o custo para mover é de 1 de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação) por casa. Alguns terrenos podem ter regras específicas para mover, por exemplo em um terreno de lama pode custar 2 de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação) por casa.
 
 Pode-se mover para casas adjacentes com <b>ALTITUDE</b> diferentes, pagando-se 1 [<span class="main"><b>AÇÃO</b></span>](/hero/#ação) a mais para cada nível a mais de altura.
-
-Existem casas no tabuleiro que podem estar bloqueadas (ex.: uma parede) ou obstruídas (ex.: um corpo no chão, uma porta). Não se pode passar por ou ocupar casas bloqueadas. É possível passar por casas ocupadas, mas não é possível ocupá-las (encerrar a movimentação sobre esta casa).
 
 Quando terminar de mover, o personagem fica na direção que se moveu até a casa de destino.
 

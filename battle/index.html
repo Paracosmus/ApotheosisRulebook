@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.846124528243">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847047851758">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -41,11 +41,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.6.0.846124528243" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.847047851758" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.846124528243" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.847047851758" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.846124528243" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.847047851758" data-turbo-eval="false" defer></script>
     <link href="/resources/css/katex.css?v=4.6.0" rel="stylesheet">
     <script id="katex-js" data-cfasync="false" src="/resources/js/katex.js?v=4.6.0" defer></script>
 
@@ -445,14 +445,13 @@
     </div>
 </div>
 <h1 id="batalha">Batalha</h1>
-<p>A batalha acontece em um tabuleiro quadriculado de 11x11 casas. No tabuleiro, podem conter casas bloqueadas ou com diferentes níveis de altura. Cada casa possui um tipo de <a href="/battle/board/#terreno">terreno</a>.</p>
+<p>A batalha acontece em um tabuleiro quadriculado. No tabuleiro, podem conter paredes ou casas com diferentes níveis de altura. Cada casa possui um tipo de <a href="/battle/board/#terreno">terreno</a>.</p>
 <hr>
 <h2 id="ações">AÇÕES</h2>
 <p>No seu turno, o personagem pode executar uma variedade de ações. As ações geralmente possuem algum custo de <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a>. Quando o personagem realizar ações até esgotar a sua <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a>, o seu turno se encerra. Alguns tipos de ações podem ter custos associados como <a href="/hero/#mana"><span class="skill"><b>MANA</b></span></a> e <a href="/hero/#estamina"><span class="skill"><b>ESTAMINA</b></span></a>.</p>
 <h3 id="mover">MOVER</h3>
 <p>Em seu turno, o personagem pode se mover no tabuleiro. Por padrão, o custo para mover é de 1 de <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a> por casa. Alguns terrenos podem ter regras específicas para mover, por exemplo em um terreno de lama pode custar 2 de <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a> por casa.</p>
 <p>Pode-se mover para casas adjacentes com <b>ALTITUDE</b> diferentes, pagando-se 1 <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a> a mais para cada nível a mais de altura.</p>
-<p>Existem casas no tabuleiro que podem estar bloqueadas (ex.: uma parede) ou obstruídas (ex.: um corpo no chão, uma porta). Não se pode passar por ou ocupar casas bloqueadas. É possível passar por casas ocupadas, mas não é possível ocupá-las (encerrar a movimentação sobre esta casa).</p>
 <p>Quando terminar de mover, o personagem fica na direção que se moveu até a casa de destino.</p>
 <p>Adjacente<br />
 Distância<br />
@@ -634,8 +633,8 @@ Adjacentes</p>
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-10-17T23:24:03" title="2026-10-17" data-absolute-label="Last updated on 2026-10-17 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-10-17 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
-                        Last updated on 2026-10-17 by Bruno Caxito
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-11-03T16:03:12" title="2026-11-03" data-absolute-label="Last updated on 2026-11-03 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-11-03 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                        Last updated on 2026-11-03 by Bruno Caxito
                     </time>
                 </div>
 

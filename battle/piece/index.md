@@ -4,7 +4,7 @@ Esta seção ainda não foi completamente revisada. Algumas informações podem 
     
 # Peça
 
-A batalha acontece em um tabuleiro quadriculado de 11x11 casas. No tabuleiro, podem conter casas bloqueadas ou com diferentes níveis de altura. Cada casa possui um tipo de [terreno](/battle/board.md#terreno).
+A batalha acontece em um tabuleiro quadriculado. No tabuleiro, podem conter paredes ou casas com diferentes níveis de altura. Cada casa possui um tipo de [terreno](/battle/board.md#terreno).
 
 - [<span class="hp"><b>VIDA</b></span>](/hero/#vida)
 - [<span class="main"><b>AÇÃO</b></span>](/hero/#ação)
@@ -26,6 +26,14 @@ Uma peça que sai do tabuleiro guarda o seu estado, como [<span class="hp"><b
 !!!
 Isso impede, por exemplo, que um [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) seja retirado da [<span class="main"><b>MESA</b></span>](/hero/table/) e recrutado de novo para recuperar sua [<span class="hp"><b>VIDA</b></span>](/hero/#vida) ou se livrar de marcadores.
 !!!
+
+---
+
+## Curar
+
+Apenas personagens podem ser curados. Um objeto nunca é curado.
+
+A cura nunca deixa a [<span class="hp"><b>VIDA</b></span>](/hero/#vida) de um personagem acima da sua [<span class="hp"><b>VIDA</b></span>](/hero/#vida) máxima.
 
 ---
 
