@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847144542815">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847150764864">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -41,14 +41,14 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.6.0.847144542815" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.847150764864" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.847144542815" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.847150764864" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.847144542815" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.847150764864" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100..900&display=swap" rel="stylesheet">
 
     <!-- Styles -->
     <style>
@@ -69,7 +69,7 @@
         }
 
         div.container {
-            font-family: 'Open Sans', Apotheosis;
+            font-family: 'Noto Sans', Apotheosis;
             max-width: 1530px;
         }
 
@@ -84,6 +84,32 @@
 
         .icon {
             font-weight: normal;
+        }
+
+        .tk-icon {
+            font-weight: normal;
+        }
+
+        .tk-literal {
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .tk-dice > .tk-literal {
+            text-transform: none;
+        }
+
+        .tk-dice {
+            background-color: #e4f1e8;
+            border-radius: 50px;
+            padding: 0px 6px 0px 5px;
+            color: #006558;
+        }
+
+        .tk-dice .tk-literal {
+            letter-spacing: 0px;
+            font-weight: 900;
+            color: #008d7a;
         }
 
         .briefing {
@@ -201,19 +227,10 @@
             background-color: #212121;
             padding: 0px 10px;
             font-weight: 600;
-            /* Corners meet at mid-height; a superellipse between bevel (0) and round (1) gives softly curved points */
             border-radius: 10px / 50%;
             corner-shape: superellipse(0.7);
         }
 
-        .requirement {
-            font-size: 0.8em;
-            color: #F5F5F5;
-            background-color: #5C697A;
-            border-radius: 4px;
-            padding: 0px 8px;
-            font-weight: 550;
-        }
     </style>
 
 
@@ -231,6 +248,7 @@
 
 
     </div>
+
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -290,14 +308,6 @@
                                     <path d="M1.527 13.237a1.75 1.75 0 0 1 0-2.474l9.272-9.273a1.75 1.75 0 0 1 2.475 0l9.272 9.273a1.75 1.75 0 0 1 0 2.474l-9.272 9.272a1.75 1.75 0 0 1-2.475 0Zm1.06-1.414a.25.25 0 0 0 0 .354l9.273 9.272a.25.25 0 0 0 .353 0l9.272-9.272a.25.25 0 0 0 0-.354l-9.272-9.272a.25.25 0 0 0-.353 0Z"/>
                                 </svg>
                                 <span>Ícones</span>
-                            </a>
-                        </li>
-                        <li class="mr-6">
-                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://database.apotheosiscardgame.com/">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
-                                    <path d="M12 1.25c2.487 0 4.773.402 6.466 1.079.844.337 1.577.758 2.112 1.264.536.507.922 1.151.922 1.907v12.987l-.026.013h.026c0 .756-.386 1.4-.922 1.907-.535.506-1.268.927-2.112 1.264-1.693.677-3.979 1.079-6.466 1.079s-4.774-.402-6.466-1.079c-.844-.337-1.577-.758-2.112-1.264C2.886 19.9 2.5 19.256 2.5 18.5h.026l-.026-.013V5.5c0-.756.386-1.4.922-1.907.535-.506 1.268-.927 2.112-1.264C7.226 1.652 9.513 1.25 12 1.25ZM4 14.371v4.116l-.013.013H4c0 .211.103.487.453.817.351.332.898.666 1.638.962 1.475.589 3.564.971 5.909.971 2.345 0 4.434-.381 5.909-.971.739-.296 1.288-.63 1.638-.962.349-.33.453-.607.453-.817h.013L20 18.487v-4.116a7.85 7.85 0 0 1-1.534.8c-1.693.677-3.979 1.079-6.466 1.079s-4.774-.402-6.466-1.079a7.843 7.843 0 0 1-1.534-.8ZM20 12V7.871a7.85 7.85 0 0 1-1.534.8C16.773 9.348 14.487 9.75 12 9.75s-4.774-.402-6.466-1.079A7.85 7.85 0 0 1 4 7.871V12c0 .21.104.487.453.817.35.332.899.666 1.638.961 1.475.59 3.564.972 5.909.972 2.345 0 4.434-.382 5.909-.972.74-.295 1.287-.629 1.638-.96.35-.33.453-.607.453-.818ZM4 5.5c0 .211.103.487.453.817.351.332.898.666 1.638.962 1.475.589 3.564.971 5.909.971 2.345 0 4.434-.381 5.909-.971.739-.296 1.288-.63 1.638-.962.349-.33.453-.607.453-.817 0-.211-.103-.487-.453-.817-.351-.332-.898-.666-1.638-.962-1.475-.589-3.564-.971-5.909-.971-2.345 0-4.434.381-5.909.971-.739.296-1.288.63-1.638.962C4.104 5.013 4 5.29 4 5.5Z"/>
-                                </svg>
-                                <span>Database</span>
                             </a>
                         </li>
     
@@ -375,14 +385,6 @@
                                         <span>Ícones</span>
                                     </a>
                                 </li>
-                                <li class="mr-6">
-                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://database.apotheosiscardgame.com/">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
-                                            <path d="M12 1.25c2.487 0 4.773.402 6.466 1.079.844.337 1.577.758 2.112 1.264.536.507.922 1.151.922 1.907v12.987l-.026.013h.026c0 .756-.386 1.4-.922 1.907-.535.506-1.268.927-2.112 1.264-1.693.677-3.979 1.079-6.466 1.079s-4.774-.402-6.466-1.079c-.844-.337-1.577-.758-2.112-1.264C2.886 19.9 2.5 19.256 2.5 18.5h.026l-.026-.013V5.5c0-.756.386-1.4.922-1.907.535-.506 1.268-.927 2.112-1.264C7.226 1.652 9.513 1.25 12 1.25ZM4 14.371v4.116l-.013.013H4c0 .211.103.487.453.817.351.332.898.666 1.638.962 1.475.589 3.564.971 5.909.971 2.345 0 4.434-.381 5.909-.971.739-.296 1.288-.63 1.638-.962.349-.33.453-.607.453-.817h.013L20 18.487v-4.116a7.85 7.85 0 0 1-1.534.8c-1.693.677-3.979 1.079-6.466 1.079s-4.774-.402-6.466-1.079a7.843 7.843 0 0 1-1.534-.8ZM20 12V7.871a7.85 7.85 0 0 1-1.534.8C16.773 9.348 14.487 9.75 12 9.75s-4.774-.402-6.466-1.079A7.85 7.85 0 0 1 4 7.871V12c0 .21.104.487.453.817.35.332.899.666 1.638.961 1.475.59 3.564.972 5.909.972 2.345 0 4.434-.382 5.909-.972.74-.295 1.287-.629 1.638-.96.35-.33.453-.607.453-.818ZM4 5.5c0 .211.103.487.453.817.351.332.898.666 1.638.962 1.475.589 3.564.971 5.909.971 2.345 0 4.434-.381 5.909-.971.739-.296 1.288-.63 1.638-.962.349-.33.453-.607.453-.817 0-.211-.103-.487-.453-.817-.351-.332-.898-.666-1.638-.962-1.475-.589-3.564-.971-5.909-.971-2.345 0-4.434.381-5.909.971-.739.296-1.288.63-1.638.962C4.104 5.013 4 5.29 4 5.5Z"/>
-                                        </svg>
-                                        <span>Database</span>
-                                    </a>
-                                </li>
         
                             </ul>
                         </nav>
@@ -454,17 +456,17 @@
 <p>É o modo de jogo onde os Heróis exploram os ermos prateados em busca de resgatar tesouros e segredos antigos.</p>
     </div>
 </div>
-<p>Neste modo de jogo começa quando o grupo adentra os ermos prateados, um local repleto de perigos e mistérios. Os Heróis devem explorar as ruínas, enfrentar criaturas e exploradores hostis e resolver enigmas para encontrar tesouros escondidos e segredos antigos.</p>
+<p>Este modo de jogo começa quando o grupo adentra os ermos prateados, um local repleto de perigos e mistérios. Os Heróis devem explorar as ruínas, enfrentar criaturas e exploradores hostis e resolver enigmas para encontrar tesouros escondidos e segredos antigos.</p>
 <p>Como os ermos prateados estão cobertos pelo Gelo Prateado, os Heróis devem estar preparados para enfrentar condições climáticas adversas e terrenos traiçoeiros. A regra número 1 dos ermos é &quot;Não se aventure sozinho&quot;. Os Heróis devem trabalhar em equipe para sobreviver.</p>
-<p>Isto é representado em jogo por teste aleatórios de sobrevivência que os Heróis devem passar em conjunto.</p>
+<p>Isto é representado em jogo por testes aleatórios de sobrevivência pelos quais os Heróis devem passar em conjunto.</p>
 <hr>
 <h2 id="duração-da-viagem">Duração da Viagem</h2>
-<p>Uma vez que o destino ou trajeto de viagem for escolhido pelo grupo, a duração da viagem fica clara, dado a distância percorrida no mapa e a ritmo de cruzar os ermos. Sendo essa duração medida em períodos do dia, determinados pelo criador do mapa da região ou pelo criador da campanha.</p>
+<p>Uma vez que o destino ou trajeto de viagem for escolhido pelo grupo, a duração da viagem fica clara, dados a distância percorrida no mapa e o ritmo de cruzar os ermos. Sendo essa duração medida em períodos do dia, determinados pelo criador do mapa da região ou pelo criador da campanha.</p>
 <p>O mestre então calcula a quantidade de rodadas de avanço que o time precisa para chegar ao destino com base no trajeto declarado.</p>
-<p>O time então se desloca par a borda dos ermos prateados, e uma vez que adentrem os ermos, a viagem começa oficialmente e o time está no <em>Modo de Vasculhador</em>.</p>
+<p>O time então se desloca para a borda dos ermos prateados, e uma vez que adentrem os ermos, a viagem começa oficialmente e o time está no <em>Modo de Vasculhador</em>.</p>
 <hr>
 <h2 id="contadores-de-viagem">Contadores de Viagem</h2>
-<p>Sempre que o time avançar par longe das terras descongelados, adicione um <a href="/gameplay/counter/"><span class="main">❂<b>CONTADOR DE VIAGEM</b></span></a> à viagem, usado para acompanhar o progresso do time. Quando o time voltar em direção às terras descongeladas, remova um <a href="/gameplay/counter/"><span class="main">❂<b>CONTADOR DE VIAGEM</b></span></a> da viagem.</p>
+<p>Sempre que o time avançar para longe das terras descongeladas, adicione um <a href="/gameplay/counter/"><span class="main">❂<b>CONTADOR DE VIAGEM</b></span></a> à viagem, usado para acompanhar o progresso do time. Quando o time voltar em direção às terras descongeladas, remova um <a href="/gameplay/counter/"><span class="main">❂<b>CONTADOR DE VIAGEM</b></span></a> da viagem.</p>
 <p>O número de <a href="/gameplay/counter/"><span class="main">❂<b>CONTADOR DE VIAGEM</b></span></a> na viagem representa a distância do time em relação à borda dos ermos prateados, e é usado para determinar a quantidade de cartas de gelo prateado que devem ser adicionadas ao <a href="/gameplay/stack/scenario/"><span class="event"><b>CENÁRIO</b></span></a>.</p>
 <hr>
 <h2 id="cruzando-os-ermos-prateados">Cruzando os Ermos Prateados</h2>
@@ -487,19 +489,19 @@
 <li>Recuar de volta para as terras descongeladas</li>
 <li>Manter a posição</li>
 </ul>
-<p>Se o time decidir manter a posição, não é feito o desafio de viagem nesta rodada, e os personagens podem jogar seus turnos narrativos normalmente, equivalentes à um período do dia (4 horas de pausa). Passado este tempo, volte para o passo anterior, o atrito, começando um nova rodada de viagem e período do dia.</p>
+<p>Se o time decidir manter a posição, não é feito o desafio de viagem nesta rodada, e os personagens podem jogar seus turnos narrativos normalmente, equivalentes a um período do dia (4 horas de pausa). Passado este tempo, volte para o passo anterior, o atrito, começando uma nova rodada de viagem e período do dia.</p>
 <p>Se decidirem <em>avançar</em> ou <em>recuar</em> vá para o próximo passo, o desafio de sobrevivência.</p>
    </doc-step>
    <doc-step id="desafio-de-sobrevivência" step-number="3">
       <template #title>Desafio de Sobrevivência</template>
-<p>O desafio de sobrevivência é um teste aleatório que os Heróis devem passar para avançar. Não existem rotas e caminhos pré-determinados, o gelo está em constante mudança, onde antes havia um caminho, agora pode haver um abismo, torres de gelo prateada e dunas de neve prateada aparecem e desaparecem, se movem de lugar. O desafio de sobrevivência representa a imprevisibilidade dos ermos prateados e a necessidade de os Heróis se adaptarem às condições em constante mudança.</p>
-<p>Um dos jogadores rola <b>(1D6)</b> (considera a regra de <a href="/gameplay/die/#dados-extras-rolagem-perfeita">rolagem perfeita</a>), para determinar o desafio de sobrevivência conforme a tabela abaixo. O mestre pode adicionar um contexto narrativo e descrever o cenário e os perigos que os Heróis enfrentam.</p>
+<p>O desafio de sobrevivência é um teste aleatório que os Heróis devem passar para avançar. Não existem rotas e caminhos pré-determinados, o gelo está em constante mudança, onde antes havia um caminho, agora pode haver um abismo, torres de gelo prateado e dunas de neve prateada aparecem e desaparecem, se movem de lugar. O desafio de sobrevivência representa a imprevisibilidade dos ermos prateados e a necessidade de os Heróis se adaptarem às condições em constante mudança.</p>
+<p>Um dos jogadores rola <span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">1</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">6</span></span></span> (considera a regra de <a href="/gameplay/die/#dados-extras-rolagem-perfeita">rolagem perfeita</a>), para determinar o desafio de sobrevivência conforme a tabela abaixo. O mestre pode adicionar um contexto narrativo e descrever o cenário e os perigos que os Heróis enfrentam.</p>
 <h4 id="atributo-do-desafio">Atributo do Desafio</h4>
 <p>O atributo associado ao desafio de sobrevivência é o atributo que os Heróis devem usar no teste em conjunto para superar o desafio, sendo que os testes não estão relacionados a nenhum <a href="/gameplay/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a>.</p>
 <retype-table copy-text="Dado | Atributo    | Nome                   | Exemplo
   ---- | ----------- | ---------------------- | -------
   1	   | CON         | Vento Cortante         | Resistência e perseverança para continuar a viagem
-  2    | FOR         | Terreno Difícil        | Subida ingrime, escalada, pular muros, escombros
+  2    | FOR         | Terreno Difícil        | Subida íngreme, escalada, pular muros, escombros
   3    | AGI         | Chão Congelado         | Equilíbrio, salto, tobogã, deslizar, evitar gelo frágil
   4    | PER         | Necessidade de Pausa   | Precisam descansar, dormir, armar acampamento, cozinhar, coletar água
   5    | ESP         | Geada Sanguessuga      | Granizo, chuva, nevasca, orvalho, ferida
@@ -527,7 +529,7 @@
 <td>2</td>
 <td>FOR</td>
 <td>Terreno Difícil</td>
-<td>Subida ingrime, escalada, pular muros, escombros</td>
+<td>Subida íngreme, escalada, pular muros, escombros</td>
 </tr>
 <tr>
 <td>3</td>
@@ -585,10 +587,10 @@ No abrigo seguro, o time aproveita para se recuperar da árdua viagem</p>
 <h5 id="número-de-personagens-do-time">Número de Personagens do Time</h5>
 <p>A dificuldade do teste é calculada conforme o tamanho do time, incluindo todos os personagens.</p>
 <p>Cada personagem significa mais um indivíduo para sobreviver, o que torna a viagem mais difícil, portanto times muito grandes precisam de muitos recursos e valores.</p>
-<p>Isso pode levar a conclusão que é mais fácil viajar sozinho, mas isso não é verdade, pois o trabalho em equipe é essencial para superar os desafios dos ermos prateados, já que diferentes personagens possuem diferentes forças e habilidades. Onde você pode ter dificuldade, um outro personagem do time pode complementar por você, e vice-versa.</p>
+<p>Isso pode levar à conclusão de que é mais fácil viajar sozinho, mas isso não é verdade, pois o trabalho em equipe é essencial para superar os desafios dos ermos prateados, já que diferentes personagens possuem diferentes forças e habilidades. Onde você pode ter dificuldade, um outro personagem do time pode complementar por você, e vice-versa.</p>
 <h5 id="número-de-cartas-de-gelo-prateado-no-cenário">Número de Cartas de Gelo Prateado no <a href="/gameplay/stack/scenario/"><span class="event"><b>CENÁRIO</b></span></a></h5>
 <p>Durante a viagem, conforme o time se distancia da borda de gelo prateado, ou seja, quanto mais longe das terras descongeladas, mais severo é o congelamento.</p>
-<p>Isto é representado em jogo adicionando ao <a href="/gameplay/stack/scenario/"><span class="event"><b>CENÁRIO</b></span></a> cartas que tenham pelo menos as propriedades <strong>PAISAGEM</strong> e <strong>GELO PRATEADO</strong> simultaneamente. Estas cartas devem vir do <a href="/gameplay/stack/trading-post/"><span class="main"><b>ENTREPOSTO</b></span></a> primariamente, se não houver mais cartas com estas propriedades no <a href="/gameplay/stack/trading-post/"><span class="main"><b>ENTREPOSTO</b></span></a>, o mestre busca as cartas no <a href="/gameplay/stack/sanctuary/"><span class="event"><b>SANTUÁRIO</b></span></a>, se também não houver o suficiente, o mestre pode usar da sua mão.</p>
+<p>Isto é representado em jogo adicionando ao <a href="/gameplay/stack/scenario/"><span class="event"><b>CENÁRIO</b></span></a> cartas que tenham pelo menos as propriedades <strong>PAISAGEM</strong> e <strong>GELO PRATEADO</strong> simultaneamente. Estas cartas devem vir do <a href="/gameplay/stack/trading-post/"><span class="main"><b>ENTREPOSTO</b></span></a> primariamente, se não houver mais cartas com estas propriedades no <a href="/gameplay/stack/trading-post/"><span class="main"><b>ENTREPOSTO</b></span></a>, o mestre busca as cartas no <a href="/gameplay/stack/sanctuary/"><span class="event"><b>SANTUÁRIO</b></span></a>, se também não houver o suficiente, o mestre pode usar da caixa de suprimentos.</p>
 <p>A cada <strong>5</strong> <a href="/gameplay/counter/"><span class="main">❂<b>CONTADOR DE VIAGEM</b></span></a>, adicione uma destas cartas ao <a href="/gameplay/stack/scenario/"><span class="event"><b>CENÁRIO</b></span></a>.</p>
 <p>Quando fazendo o caminho de volta para as terras descongeladas, estas cartas devem ser reduzidas conforme a distância da mesma forma que foram adicionadas.</p>
 <div class="flex mb-6">
@@ -604,12 +606,12 @@ No abrigo seguro, o time aproveita para se recuperar da árdua viagem</p>
             </svg>
         </div>
         <div class="pr-5 ml-3 w-full">
-<p>O criador da campanha, deve estar atento ao número de cartas com as propriedades que serão necessárias. Se as cartas acabarem, adicione o máximo possível.</p>
+<p>O criador da campanha deve estar atento ao número de cartas com as propriedades que serão necessárias. Se as cartas acabarem, adicione o máximo possível.</p>
         </div>
     </div>
 </div>
 <h5 id="dificuldade-base-do-desafio">Dificuldade Base do Desafio</h5>
-<p>A dificuldade base do desafio é determinada pela local do desafio, que por sua vez é determinada pelo criador da campanha.</p>
+<p>A dificuldade base do desafio é determinada pelo local do desafio, que por sua vez é determinada pelo criador da campanha.</p>
 <p>Fatores como relevo, adversidades climáticas, evitar as criaturas mágicas hostis, etc, podem influenciar na dificuldade base do desafio. Comumente um número entre 1 e 20.</p>
 <ul>
 <li><strong>1 - 3</strong>: Muito Fácil</li>
@@ -654,7 +656,7 @@ No abrigo seguro, o time aproveita para se recuperar da árdua viagem</p>
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Exemplo - Aumento de Dificuldade</h5>
-<p>Os personagens estão transportando-se muito peso, ou com marcadores que podem influenciar, como <strong>FOME</strong>, <strong>EXAUSTÃO</strong>, <strong>DOENÇA</strong>, etc.</p>
+<p>Os personagens estão transportando muito peso, ou com marcadores que podem influenciar, como <strong>FOME</strong>, <strong>EXAUSTÃO</strong>, <strong>DOENÇA</strong>, etc.</p>
         </div>
     </div>
 </div>
@@ -681,8 +683,8 @@ No abrigo seguro, o time aproveita para se recuperar da árdua viagem</p>
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-10-18T16:11:50" title="2026-10-18" data-absolute-label="Last updated on 2026-10-18 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-10-18 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
-                        Last updated on 2026-10-18 by Bruno Caxito
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-11-04T20:39:00" title="2026-11-04" data-absolute-label="Last updated on 2026-11-04 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-11-04 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                        Last updated on 2026-11-04 by Bruno Caxito
                     </time>
                 </div>
 

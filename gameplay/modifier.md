@@ -1,10 +1,10 @@
 # Modificador
 
 |||{.briefing} [!badge text="Modifier" variant="ghost"]
-  São valores providos por um efeito que são aplicados à um cálculo e podem ser positivos ou negativos
+  São valores providos por um efeito que são aplicados a um cálculo e podem ser positivos ou negativos.
 |||
     
-Algumas efeitos concedem modificadores para determinadas situações, como testes, ataques e defesas, podendo ser valores constantes, variáveis ou expressões.
+Alguns efeitos concedem modificadores para determinadas situações, como testes, ataques e defesas, podendo ser valores constantes, variáveis ou expressões.
 
 !!!secondary Exemplo 1
   > Efeito: [<span class="keyword-activation">Permanente</span>](/gameplay/effect.md) <span class="positive">+2</span> em testes de [<span class="knowledge"><b>FÉ</b></span>](/gameplay/knowledge.md#fé)

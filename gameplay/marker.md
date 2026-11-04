@@ -16,7 +16,7 @@ O nome do marcador é a sua única característica, ele é utilizado para identi
 
 ## Receber um Marcador
 
-Marcadores podem ser recebidos por meio de efeitos de cartas, ou por efeitos de campanha, ou por situações narrativas criadas sobre demanda pelo mestre de jogo.
+Marcadores podem ser recebidos por meio de efeitos de cartas, ou por efeitos de campanha, ou por situações narrativas criadas sob demanda pelo mestre de jogo.
 
 Os marcadores são de caráter permanente. Uma vez recebido um marcador, ele permanece no personagem até que seja removido por um efeito.
 
@@ -26,7 +26,7 @@ Cada personagem pode ter infinitos marcadores, mas apenas um marcador de cada no
 
 ## Remover um Marcador
 
-Marcadores podem ser removidos por meio de efeitos de cartas, ou por efeitos de campanha, ou por situações narrativas criadas sobre demanda pelo mestre de jogo.
+Marcadores podem ser removidos por meio de efeitos de cartas, ou por efeitos de campanha, ou por situações narrativas criadas sob demanda pelo mestre de jogo.
 
 Para remover um marcador, o efeito deve especificar o nome do marcador a ser removido. Se o personagem não possuir o marcador especificado, o efeito pode ser aplicado, apenas ignore a parte de remoção.
 
@@ -41,7 +41,7 @@ Marcadores podem ser usados por meio de efeitos, o marcador não tem um efeito p
 
   > [<span class="keyword-activation">Ativar</span>](/gameplay/effect.md) O alvo recebe **ABENÇOADO**.
 
-  > [<span class="keyword-activation">Permanente</span>](/gameplay/effect.md) Personagens com **ABENÇOADO** recebem <span class="positive">+3</span> de **testes**.
+  > [<span class="keyword-activation">Permanente</span>](/gameplay/effect.md) Personagens com **ABENÇOADO** recebem <span class="positive">+3</span> em **testes**.
 !!!
 
 !!!secondary Exemplo 2 - Ruim
@@ -60,14 +60,14 @@ Observe que qualquer carta pode explorar um marcador em seus efeitos, mesmo que 
 
 ## Marcadores Narrativos
 
-Marcadores podem ser criados sobre demanda pelo mestre de jogo, ao seu critério, para se encaixar com eventos imprevistos em jogo.
+Marcadores podem ser criados sob demanda pelo mestre de jogo, ao seu critério, para se encaixar com eventos imprevistos em jogo.
 
-É comum que durante a narrativa, os personagens realizem ações inesperadas que levem a necessidade da adição de um marcador para representar uma nova condição ou estado.
+É comum que durante a narrativa, os personagens realizem ações inesperadas que levem à necessidade da adição de um marcador para representar uma nova condição ou estado.
 
 !!!secondary Exemplo 1
   > O personagem pula de um telhado e acaba quebrando o pé.
 
-  É adicionado sobre demanda o marcador **PÉ FRATURADO**, e o seguinte efeito é adicionado aos efeitos de campanha.
+  É adicionado sob demanda o marcador **PÉ FRATURADO**, e o seguinte efeito é adicionado aos efeitos de campanha.
 
   > [<span class="keyword-activation">Permanente</span>](/gameplay/effect.md) <span class="req">【</span> Se possuir **PÉ FRATURADO** <span class="req">】</span> Restaure apenas metade dos seus pontos de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação) na [<span class="keyword-timing">Fase de Recomposição</span>](/gameplay/effect.md).
 
@@ -77,7 +77,7 @@ Marcadores podem ser criados sobre demanda pelo mestre de jogo, ao seu critério
 !!!secondary Exemplo 2
   > O personagem é petulante com uma poderosa bruxa e é amaldiçoado por ela.
 
-  É adicionado sobre demanda o marcador **AMALDIÇOADO**, e o seguinte efeito é adicionado aos efeitos de campanha.
+  É adicionado sob demanda o marcador **AMALDIÇOADO**, e o seguinte efeito é adicionado aos efeitos de campanha.
 
   > [<span class="keyword-activation">Permanente</span>](/gameplay/effect.md) [<span class="keyword-limit">Apenas no seu Turno</span>](/gameplay/effect.md) <span class="req">【</span> Se possuir **AMALDIÇOADO** <span class="req">】</span> Você recebe <span class="negative">-5</span> em **testes**.
 
@@ -87,7 +87,7 @@ Marcadores podem ser criados sobre demanda pelo mestre de jogo, ao seu critério
 !!!secondary Exemplo 3 - Tempo de Duração
   > O personagem bebe demais em uma festa e fica embriagado.
 
-  É adicionado sobre demanda o marcador **EMBRIAGADO**, e o seguintes efeitos são adicionados aos efeitos de campanha.
+  É adicionado sob demanda o marcador **EMBRIAGADO**, e os seguintes efeitos são adicionados aos efeitos de campanha.
 
   > [<span class="keyword-activation">Permanente</span>](/gameplay/effect.md) <span class="req">【</span> Se possuir **EMBRIAGADO** <span class="req">】</span> <span class="positive">+2</span> de [<span class="house"><b>CAR</b></span>](/gameplay/attributes.md) e <span class="negative">-2</span> de [<span class="house"><b>AGI</b></span>](/gameplay/attributes.md) .
 

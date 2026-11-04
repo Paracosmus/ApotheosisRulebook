@@ -4,13 +4,13 @@ Esta seção ainda não foi completamente revisada. Algumas informações podem 
     
 # Casa
 
-> Representa um conjunto de várias famílias, diferentes em nome, porém ligadas por uma linhagem ancestral comum, não sendo necessariamente parentes, mas sim descendentes de um mesmo povo ou grupo. Os membros comumente apresentam comportamentos estereotípicos da casa, que são reconhecidas por sua, história, cultura e tradições.
+> Representa um conjunto de várias famílias, diferentes em nome, porém ligadas por uma linhagem ancestral comum, não sendo necessariamente parentes, mas sim descendentes de um mesmo povo ou grupo. Os membros comumente apresentam comportamentos estereotípicos da casa, que é reconhecida por sua história, cultura e tradições.
 
 É a pedra fundamental da construção de todo Herói, a sua base. Ao ser criado, o Herói já começa com uma carta de [<span class="house"><b>CASA</b></span>](/cards/house.md) em sua [<span class="main"><b>FICHA</b></span>](/hero/table/sheet.md), e é a partir dela que se constrói o restante do personagem.
 
 A carta de [<span class="house"><b>CASA</b></span>](/cards/house.md) nunca deixa o espaço de [<span class="house"><b>CASA</b></span>](/cards/house.md) da [<span class="main"><b>FICHA</b></span>](/hero/table/sheet.md), e esse espaço nunca fica vazio. Ela só pode ser trocada por [substituição](/glossary.md#outros): a nova carta de [<span class="house"><b>CASA</b></span>](/cards/house.md) ocupa o espaço e herda os anexos e contadores da anterior, que é enterrada na [<span class="house"><b>MATRIZ</b></span>](/gameplay/stack/cradle.md).
 
-O jogador recebe uma carta de [<span class="house"><b>CASA</b></span>](/cards/house.md) com base em disponibilidade e regras definidas pela campanha, como por exemplo, por escolha, sorteio, etc..
+O jogador recebe uma carta de [<span class="house"><b>CASA</b></span>](/cards/house.md) com base em disponibilidade e regras definidas pela campanha, como por exemplo, por escolha, sorteio, etc.
 
 ||| :icon-file-moved:
 

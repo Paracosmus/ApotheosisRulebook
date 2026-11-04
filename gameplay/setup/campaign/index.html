@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847144542815">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847150764864">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -41,14 +41,14 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.6.0.847144542815" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.847150764864" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.847144542815" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.847150764864" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.847144542815" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.847150764864" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100..900&display=swap" rel="stylesheet">
 
     <!-- Styles -->
     <style>
@@ -69,7 +69,7 @@
         }
 
         div.container {
-            font-family: 'Open Sans', Apotheosis;
+            font-family: 'Noto Sans', Apotheosis;
             max-width: 1530px;
         }
 
@@ -84,6 +84,32 @@
 
         .icon {
             font-weight: normal;
+        }
+
+        .tk-icon {
+            font-weight: normal;
+        }
+
+        .tk-literal {
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .tk-dice > .tk-literal {
+            text-transform: none;
+        }
+
+        .tk-dice {
+            background-color: #e4f1e8;
+            border-radius: 50px;
+            padding: 0px 6px 0px 5px;
+            color: #006558;
+        }
+
+        .tk-dice .tk-literal {
+            letter-spacing: 0px;
+            font-weight: 900;
+            color: #008d7a;
         }
 
         .briefing {
@@ -201,19 +227,10 @@
             background-color: #212121;
             padding: 0px 10px;
             font-weight: 600;
-            /* Corners meet at mid-height; a superellipse between bevel (0) and round (1) gives softly curved points */
             border-radius: 10px / 50%;
             corner-shape: superellipse(0.7);
         }
 
-        .requirement {
-            font-size: 0.8em;
-            color: #F5F5F5;
-            background-color: #5C697A;
-            border-radius: 4px;
-            padding: 0px 8px;
-            font-weight: 550;
-        }
     </style>
 
 
@@ -231,6 +248,7 @@
 
 
     </div>
+
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -290,14 +308,6 @@
                                     <path d="M1.527 13.237a1.75 1.75 0 0 1 0-2.474l9.272-9.273a1.75 1.75 0 0 1 2.475 0l9.272 9.273a1.75 1.75 0 0 1 0 2.474l-9.272 9.272a1.75 1.75 0 0 1-2.475 0Zm1.06-1.414a.25.25 0 0 0 0 .354l9.273 9.272a.25.25 0 0 0 .353 0l9.272-9.272a.25.25 0 0 0 0-.354l-9.272-9.272a.25.25 0 0 0-.353 0Z"/>
                                 </svg>
                                 <span>Ícones</span>
-                            </a>
-                        </li>
-                        <li class="mr-6">
-                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://database.apotheosiscardgame.com/">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
-                                    <path d="M12 1.25c2.487 0 4.773.402 6.466 1.079.844.337 1.577.758 2.112 1.264.536.507.922 1.151.922 1.907v12.987l-.026.013h.026c0 .756-.386 1.4-.922 1.907-.535.506-1.268.927-2.112 1.264-1.693.677-3.979 1.079-6.466 1.079s-4.774-.402-6.466-1.079c-.844-.337-1.577-.758-2.112-1.264C2.886 19.9 2.5 19.256 2.5 18.5h.026l-.026-.013V5.5c0-.756.386-1.4.922-1.907.535-.506 1.268-.927 2.112-1.264C7.226 1.652 9.513 1.25 12 1.25ZM4 14.371v4.116l-.013.013H4c0 .211.103.487.453.817.351.332.898.666 1.638.962 1.475.589 3.564.971 5.909.971 2.345 0 4.434-.381 5.909-.971.739-.296 1.288-.63 1.638-.962.349-.33.453-.607.453-.817h.013L20 18.487v-4.116a7.85 7.85 0 0 1-1.534.8c-1.693.677-3.979 1.079-6.466 1.079s-4.774-.402-6.466-1.079a7.843 7.843 0 0 1-1.534-.8ZM20 12V7.871a7.85 7.85 0 0 1-1.534.8C16.773 9.348 14.487 9.75 12 9.75s-4.774-.402-6.466-1.079A7.85 7.85 0 0 1 4 7.871V12c0 .21.104.487.453.817.35.332.899.666 1.638.961 1.475.59 3.564.972 5.909.972 2.345 0 4.434-.382 5.909-.972.74-.295 1.287-.629 1.638-.96.35-.33.453-.607.453-.818ZM4 5.5c0 .211.103.487.453.817.351.332.898.666 1.638.962 1.475.589 3.564.971 5.909.971 2.345 0 4.434-.381 5.909-.971.739-.296 1.288-.63 1.638-.962.349-.33.453-.607.453-.817 0-.211-.103-.487-.453-.817-.351-.332-.898-.666-1.638-.962-1.475-.589-3.564-.971-5.909-.971-2.345 0-4.434.381-5.909.971-.739.296-1.288.63-1.638.962C4.104 5.013 4 5.29 4 5.5Z"/>
-                                </svg>
-                                <span>Database</span>
                             </a>
                         </li>
     
@@ -373,14 +383,6 @@
                                             <path d="M1.527 13.237a1.75 1.75 0 0 1 0-2.474l9.272-9.273a1.75 1.75 0 0 1 2.475 0l9.272 9.273a1.75 1.75 0 0 1 0 2.474l-9.272 9.272a1.75 1.75 0 0 1-2.475 0Zm1.06-1.414a.25.25 0 0 0 0 .354l9.273 9.272a.25.25 0 0 0 .353 0l9.272-9.272a.25.25 0 0 0 0-.354l-9.272-9.272a.25.25 0 0 0-.353 0Z"/>
                                         </svg>
                                         <span>Ícones</span>
-                                    </a>
-                                </li>
-                                <li class="mr-6">
-                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://database.apotheosiscardgame.com/">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
-                                            <path d="M12 1.25c2.487 0 4.773.402 6.466 1.079.844.337 1.577.758 2.112 1.264.536.507.922 1.151.922 1.907v12.987l-.026.013h.026c0 .756-.386 1.4-.922 1.907-.535.506-1.268.927-2.112 1.264-1.693.677-3.979 1.079-6.466 1.079s-4.774-.402-6.466-1.079c-.844-.337-1.577-.758-2.112-1.264C2.886 19.9 2.5 19.256 2.5 18.5h.026l-.026-.013V5.5c0-.756.386-1.4.922-1.907.535-.506 1.268-.927 2.112-1.264C7.226 1.652 9.513 1.25 12 1.25ZM4 14.371v4.116l-.013.013H4c0 .211.103.487.453.817.351.332.898.666 1.638.962 1.475.589 3.564.971 5.909.971 2.345 0 4.434-.381 5.909-.971.739-.296 1.288-.63 1.638-.962.349-.33.453-.607.453-.817h.013L20 18.487v-4.116a7.85 7.85 0 0 1-1.534.8c-1.693.677-3.979 1.079-6.466 1.079s-4.774-.402-6.466-1.079a7.843 7.843 0 0 1-1.534-.8ZM20 12V7.871a7.85 7.85 0 0 1-1.534.8C16.773 9.348 14.487 9.75 12 9.75s-4.774-.402-6.466-1.079A7.85 7.85 0 0 1 4 7.871V12c0 .21.104.487.453.817.35.332.899.666 1.638.961 1.475.59 3.564.972 5.909.972 2.345 0 4.434-.382 5.909-.972.74-.295 1.287-.629 1.638-.96.35-.33.453-.607.453-.818ZM4 5.5c0 .211.103.487.453.817.351.332.898.666 1.638.962 1.475.589 3.564.971 5.909.971 2.345 0 4.434-.381 5.909-.971.739-.296 1.288-.63 1.638-.962.349-.33.453-.607.453-.817 0-.211-.103-.487-.453-.817-.351-.332-.898-.666-1.638-.962-1.475-.589-3.564-.971-5.909-.971-2.345 0-4.434.381-5.909.971-.739.296-1.288.63-1.638.962C4.104 5.013 4 5.29 4 5.5Z"/>
-                                        </svg>
-                                        <span>Database</span>
                                     </a>
                                 </li>
         
@@ -485,9 +487,9 @@
 <p>É recomendado que toda campanha tenha um objetivo final claro, que pode ser alcançado através de uma série de missões ou etapas. Cada missão deve ter seus próprios objetivos, desafios e recompensas, contribuindo para o progresso da história ou desenvolvimento dos personagens.</p>
 <hr>
 <h2 id="efeitos-de-campanha">Efeitos de Campanha</h2>
-<p>Campanhas podem incluir efeitos especiais, como bônus ou penalidades para os personagens, mudanças no ambiente de jogo, ou outras mecânicas que afetam a jogabilidade. Esses efeitos podem ser temporários ou permanentes, e devem ser claramente definidos e comunicados aos jogadores quando foram ativados ou inativados, sendo que, não é necessário revelá-los antes do momento em que eles são ativados.</p>
+<p>Campanhas podem incluir efeitos especiais, como bônus ou penalidades para os personagens, mudanças no ambiente de jogo, ou outras mecânicas que afetam a jogabilidade. Esses efeitos podem ser temporários ou permanentes, e devem ser claramente definidos e comunicados aos jogadores quando forem ativados ou inativados, sendo que não é necessário revelá-los antes do momento em que eles são ativados.</p>
 <p>Os efeitos de campanha funcionam exatamente como qualquer outro efeito, seguindo as mesmas regras e mecânicas estabelecidas no jogo. Porém, eles não estão ligados a uma carta específica, e sim à campanha como um todo.</p>
-<p>Durante a campanha, será determinado quando um efeito está ativo ou inativo. Quando ativos, eles são tratados de forma semelhante às cartas no <a href="/gameplay/stack/scenario/"><span class="event"><b>CENÁRIO</b></span></a>, porém sem uma carta associada, e assim como no <a href="/gameplay/stack/scenario/"><span class="event"><b>CENÁRIO</b></span></a>, os efeitos de campanha estão disponíveis e são aplicados à todos os personagens.</p>
+<p>Durante a campanha, será determinado quando um efeito está ativo ou inativo. Quando ativos, eles são tratados de forma semelhante às cartas no <a href="/gameplay/stack/scenario/"><span class="event"><b>CENÁRIO</b></span></a>, porém sem uma carta associada, e assim como no <a href="/gameplay/stack/scenario/"><span class="event"><b>CENÁRIO</b></span></a>, os efeitos de campanha estão disponíveis e são aplicados a todos os personagens.</p>
 <ul>
 <li>Efeitos <a href="/gameplay/effect/"><span class="keyword-activation">Ativar</span></a> podem ser ativados por qualquer personagem no seu turno ou quando as condições para sua ativação forem atendidas.</li>
 <li>Efeitos <a href="/gameplay/effect/"><span class="keyword-activation">Auto</span></a> são ativados automaticamente quando as condições para sua ativação forem atendidas.</li>
@@ -546,9 +548,9 @@
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Exemplo 3 - <em>Sistema de Sobrevivência</em></h5>
-<p>Em uma campanha onde existem um sistema de fome, sede, e sono.</p>
+<p>Em uma campanha onde existe um sistema de fome, sede e sono.</p>
 <blockquote>
-<p><a href="/gameplay/effect/"><span class="keyword-activation">Auto</span></a> <a href="/gameplay/effect/"><span class="keyword-timing">Fase de Recomposição</span></a> Adicione <span class="negative">1</span> <strong>❂CONTADOR DE FOME</strong>, <span class="negative">1</span> <strong>❂CONTADOR DE SEDE</strong> e <span class="negative">1</span> <strong>❂CONTADOR DE SONO</strong>, a sua <a href="/cards/house/"><span class="house"><b>CASA</b></span></a>.</p>
+<p><a href="/gameplay/effect/"><span class="keyword-activation">Auto</span></a> <a href="/gameplay/effect/"><span class="keyword-timing">Fase de Recomposição</span></a> Adicione <span class="negative">1</span> <strong>❂CONTADOR DE FOME</strong>, <span class="negative">1</span> <strong>❂CONTADOR DE SEDE</strong> e <span class="negative">1</span> <strong>❂CONTADOR DE SONO</strong> à sua <a href="/cards/house/"><span class="house"><b>CASA</b></span></a>.</p>
 </blockquote>
 <blockquote>
 <p><a href="/gameplay/effect/"><span class="keyword-activation">Permanente</span></a> Você recebe bônus de <span class="negative">-1</span> em <strong>Testes</strong> e <b>DANO</b> para cada <strong>❂CONTADOR DE FOME</strong>, <strong>❂CONTADOR DE SEDE</strong> e <strong>❂CONTADOR DE SONO</strong> na sua <a href="/cards/house/"><span class="house"><b>CASA</b></span></a>.</p>
@@ -572,7 +574,7 @@
 <h2 id="mecânicas-de-campanha">Mecânicas de Campanha</h2>
 <p>Mecânicas de campanha são regras ou modificações especiais que se aplicam a toda a campanha, e que afetam a jogabilidade de forma significativa. Elas podem incluir regras adicionais para os personagens, o cenário, ou outros aspectos do jogo, e geralmente são mais elaboradas e complexas do que os efeitos de campanha.</p>
 <p>Quando uma campanha inclui mecânicas de campanha, elas devem ser claramente definidas e comunicadas aos jogadores antes do início da campanha, para que eles possam entender como elas afetam a jogabilidade e se preparar adequadamente.</p>
-<p>O criador da campanha tem liberdade para criar e implementar as mecânicas de campanha que desejar, observando a compatibilidade com os formatos e variantes alvos dessa campanha. Apesar de poderem fazer modificações significativas na jogabilidade, observe que o objectivo não é criar um novo formato de jogo, apenas complementar o existente com uma necessidade narrativa ou temática desta campanha específica.</p>
+<p>O criador da campanha tem liberdade para criar e implementar as mecânicas de campanha que desejar, observando a compatibilidade com os formatos e variantes alvos dessa campanha. Apesar de poderem fazer modificações significativas na jogabilidade, observe que o objetivo não é criar um novo formato de jogo, apenas complementar o existente com uma necessidade narrativa ou temática desta campanha específica.</p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-secondary"></div>
     <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
@@ -589,7 +591,7 @@
             <h5>Exemplo - <em>Mecânica de Loucura</em></h5>
 <ol>
 <li>
-<p>Durante a campanha do gênero terror, os personagens podem ser afetados por uma condição de loucura, que representa o impacto psicológico das experiências traumáticas e estressantes que eles enfrentam durante a campanha. A condição de loucura é representada por uma barra horizontal para que representa a sanidade do time como um todo. A barra começa no valor 0 e pode variar de -5 (insano) a +5 (são).</p>
+<p>Durante a campanha do gênero terror, os personagens podem ser afetados por uma condição de loucura, que representa o impacto psicológico das experiências traumáticas e estressantes que eles enfrentam durante a campanha. A condição de loucura é representada por uma barra horizontal que representa a sanidade do time como um todo. A barra começa no valor 0 e pode variar de -5 (insano) a +5 (são).</p>
 </li>
 <li>
 <p>O Mestre de jogo concede pontos positivos ou negativos aos personagens conforme se desenrolam os eventos da campanha, e o valor da barra é atualizado de acordo. Por exemplo, se os personagens enfrentarem uma situação traumática, o Mestre de jogo pode conceder pontos negativos à barra, indicando que o time está ficando mais insano. Por outro lado, se os personagens conseguirem superar um desafio difícil ou encontrar um momento de alívio cômico, o Mestre de jogo pode conceder pontos positivos à barra, indicando que o time está ficando mais são.</p>
@@ -601,7 +603,7 @@
         </div>
     </div>
 </div>
-<p>Como observador no exemplo acima, as Mecânicas de Campanha são demasiadas elaboradas para serem representadas por efeitos de campanha sem que esses efeitos fossem excessivamente longos e detalhados, além de terem uma liberdade completa de modificar, remover e/ou adicionar regras. Em adicional, os efeitos jogam estritamente conforme as regras, não permitindo a intervenção ou gestão do Mestre de Jogo como no caso exemplificado.</p>
+<p>Como observado no exemplo acima, as Mecânicas de Campanha são demasiado elaboradas para serem representadas por efeitos de campanha sem que esses efeitos fossem excessivamente longos e detalhados, além de terem uma liberdade completa de modificar, remover e/ou adicionar regras. Em adicional, os efeitos jogam estritamente conforme as regras, não permitindo a intervenção ou gestão do Mestre de Jogo como no caso exemplificado.</p>
 <hr>
 <div id="retype-backlinks">
     <h2>See also</h2>
@@ -646,8 +648,8 @@
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-05-08T16:07:58" title="2026-05-08" data-absolute-label="Last updated on 2026-05-08 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-05-08 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
-                        Last updated on 2026-05-08 by Bruno Caxito
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-11-04T20:39:00" title="2026-11-04" data-absolute-label="Last updated on 2026-11-04 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-11-04 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                        Last updated on 2026-11-04 by Bruno Caxito
                     </time>
                 </div>
 

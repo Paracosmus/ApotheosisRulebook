@@ -4,7 +4,7 @@ Esta seção ainda não foi completamente revisada. Algumas informações podem 
     
 # Tabuleiro
 
-é a área quadriculada especificamente onde as batalhas entre os personagens ocorrem.
+É a área quadriculada especificamente onde as batalhas entre os personagens ocorrem.
 
 ---
 

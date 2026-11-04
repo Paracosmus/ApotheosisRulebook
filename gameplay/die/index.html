@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847144542815">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847150764864">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -41,14 +41,14 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.6.0.847144542815" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.847150764864" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.847144542815" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.847150764864" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.847144542815" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.847150764864" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100..900&display=swap" rel="stylesheet">
 
     <!-- Styles -->
     <style>
@@ -69,7 +69,7 @@
         }
 
         div.container {
-            font-family: 'Open Sans', Apotheosis;
+            font-family: 'Noto Sans', Apotheosis;
             max-width: 1530px;
         }
 
@@ -84,6 +84,32 @@
 
         .icon {
             font-weight: normal;
+        }
+
+        .tk-icon {
+            font-weight: normal;
+        }
+
+        .tk-literal {
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .tk-dice > .tk-literal {
+            text-transform: none;
+        }
+
+        .tk-dice {
+            background-color: #e4f1e8;
+            border-radius: 50px;
+            padding: 0px 6px 0px 5px;
+            color: #006558;
+        }
+
+        .tk-dice .tk-literal {
+            letter-spacing: 0px;
+            font-weight: 900;
+            color: #008d7a;
         }
 
         .briefing {
@@ -201,19 +227,10 @@
             background-color: #212121;
             padding: 0px 10px;
             font-weight: 600;
-            /* Corners meet at mid-height; a superellipse between bevel (0) and round (1) gives softly curved points */
             border-radius: 10px / 50%;
             corner-shape: superellipse(0.7);
         }
 
-        .requirement {
-            font-size: 0.8em;
-            color: #F5F5F5;
-            background-color: #5C697A;
-            border-radius: 4px;
-            padding: 0px 8px;
-            font-weight: 550;
-        }
     </style>
 
 
@@ -231,6 +248,7 @@
 
 
     </div>
+
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -290,14 +308,6 @@
                                     <path d="M1.527 13.237a1.75 1.75 0 0 1 0-2.474l9.272-9.273a1.75 1.75 0 0 1 2.475 0l9.272 9.273a1.75 1.75 0 0 1 0 2.474l-9.272 9.272a1.75 1.75 0 0 1-2.475 0Zm1.06-1.414a.25.25 0 0 0 0 .354l9.273 9.272a.25.25 0 0 0 .353 0l9.272-9.272a.25.25 0 0 0 0-.354l-9.272-9.272a.25.25 0 0 0-.353 0Z"/>
                                 </svg>
                                 <span>Ícones</span>
-                            </a>
-                        </li>
-                        <li class="mr-6">
-                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://database.apotheosiscardgame.com/">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
-                                    <path d="M12 1.25c2.487 0 4.773.402 6.466 1.079.844.337 1.577.758 2.112 1.264.536.507.922 1.151.922 1.907v12.987l-.026.013h.026c0 .756-.386 1.4-.922 1.907-.535.506-1.268.927-2.112 1.264-1.693.677-3.979 1.079-6.466 1.079s-4.774-.402-6.466-1.079c-.844-.337-1.577-.758-2.112-1.264C2.886 19.9 2.5 19.256 2.5 18.5h.026l-.026-.013V5.5c0-.756.386-1.4.922-1.907.535-.506 1.268-.927 2.112-1.264C7.226 1.652 9.513 1.25 12 1.25ZM4 14.371v4.116l-.013.013H4c0 .211.103.487.453.817.351.332.898.666 1.638.962 1.475.589 3.564.971 5.909.971 2.345 0 4.434-.381 5.909-.971.739-.296 1.288-.63 1.638-.962.349-.33.453-.607.453-.817h.013L20 18.487v-4.116a7.85 7.85 0 0 1-1.534.8c-1.693.677-3.979 1.079-6.466 1.079s-4.774-.402-6.466-1.079a7.843 7.843 0 0 1-1.534-.8ZM20 12V7.871a7.85 7.85 0 0 1-1.534.8C16.773 9.348 14.487 9.75 12 9.75s-4.774-.402-6.466-1.079A7.85 7.85 0 0 1 4 7.871V12c0 .21.104.487.453.817.35.332.899.666 1.638.961 1.475.59 3.564.972 5.909.972 2.345 0 4.434-.382 5.909-.972.74-.295 1.287-.629 1.638-.96.35-.33.453-.607.453-.818ZM4 5.5c0 .211.103.487.453.817.351.332.898.666 1.638.962 1.475.589 3.564.971 5.909.971 2.345 0 4.434-.381 5.909-.971.739-.296 1.288-.63 1.638-.962.349-.33.453-.607.453-.817 0-.211-.103-.487-.453-.817-.351-.332-.898-.666-1.638-.962-1.475-.589-3.564-.971-5.909-.971-2.345 0-4.434.381-5.909.971-.739.296-1.288.63-1.638.962C4.104 5.013 4 5.29 4 5.5Z"/>
-                                </svg>
-                                <span>Database</span>
                             </a>
                         </li>
     
@@ -375,14 +385,6 @@
                                         <span>Ícones</span>
                                     </a>
                                 </li>
-                                <li class="mr-6">
-                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://database.apotheosiscardgame.com/">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
-                                            <path d="M12 1.25c2.487 0 4.773.402 6.466 1.079.844.337 1.577.758 2.112 1.264.536.507.922 1.151.922 1.907v12.987l-.026.013h.026c0 .756-.386 1.4-.922 1.907-.535.506-1.268.927-2.112 1.264-1.693.677-3.979 1.079-6.466 1.079s-4.774-.402-6.466-1.079c-.844-.337-1.577-.758-2.112-1.264C2.886 19.9 2.5 19.256 2.5 18.5h.026l-.026-.013V5.5c0-.756.386-1.4.922-1.907.535-.506 1.268-.927 2.112-1.264C7.226 1.652 9.513 1.25 12 1.25ZM4 14.371v4.116l-.013.013H4c0 .211.103.487.453.817.351.332.898.666 1.638.962 1.475.589 3.564.971 5.909.971 2.345 0 4.434-.381 5.909-.971.739-.296 1.288-.63 1.638-.962.349-.33.453-.607.453-.817h.013L20 18.487v-4.116a7.85 7.85 0 0 1-1.534.8c-1.693.677-3.979 1.079-6.466 1.079s-4.774-.402-6.466-1.079a7.843 7.843 0 0 1-1.534-.8ZM20 12V7.871a7.85 7.85 0 0 1-1.534.8C16.773 9.348 14.487 9.75 12 9.75s-4.774-.402-6.466-1.079A7.85 7.85 0 0 1 4 7.871V12c0 .21.104.487.453.817.35.332.899.666 1.638.961 1.475.59 3.564.972 5.909.972 2.345 0 4.434-.382 5.909-.972.74-.295 1.287-.629 1.638-.96.35-.33.453-.607.453-.818ZM4 5.5c0 .211.103.487.453.817.351.332.898.666 1.638.962 1.475.589 3.564.971 5.909.971 2.345 0 4.434-.381 5.909-.971.739-.296 1.288-.63 1.638-.962.349-.33.453-.607.453-.817 0-.211-.103-.487-.453-.817-.351-.332-.898-.666-1.638-.962-1.475-.589-3.564-.971-5.909-.971-2.345 0-4.434.381-5.909.971-.739.296-1.288.63-1.638.962C4.104 5.013 4 5.29 4 5.5Z"/>
-                                        </svg>
-                                        <span>Database</span>
-                                    </a>
-                                </li>
         
                             </ul>
                         </nav>
@@ -447,18 +449,19 @@
     </div>
 </div>
 <p>O jogo usa dados de <strong>2</strong>, <strong>3</strong>, <strong>4</strong>, <strong>5</strong>, <strong>6</strong>, <strong>8</strong>, <strong>10</strong>, <strong>12</strong>, <strong>20</strong> e <strong>100</strong> faces, representados pela letra <strong>D</strong> seguida do número de faces, como <strong>D6</strong> ou <strong>D20</strong>.</p>
+<p>Uma rolagem é escrita com o ícone do dado seguido pela notação de RPG: quantidade de dados, a letra <em>d</em> e o número de faces. Por exemplo, <span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">2</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">10</span></span></span> e <span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">1</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">20</span></span></span>.</p>
 <p>Os dados D2, D3, D5 e D100 são rolados com outros dados, da seguinte forma:</p>
-<retype-table copy-text="|  D2 |  D3 |  D5 |  D100 |
+<retype-table copy-text="| &lt;span class=&quot;tk tk-dice&quot;&gt;&lt;span class=&quot;tk-icon&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tk-literal&quot;&gt;&lt;span class=&quot;tk-dice-number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;tk-dice-separator&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;tk-dice-sides&quot;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; | &lt;span class=&quot;tk tk-dice&quot;&gt;&lt;span class=&quot;tk-icon&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tk-literal&quot;&gt;&lt;span class=&quot;tk-dice-number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;tk-dice-separator&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;tk-dice-sides&quot;&gt;3&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; | &lt;span class=&quot;tk tk-dice&quot;&gt;&lt;span class=&quot;tk-icon&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tk-literal&quot;&gt;&lt;span class=&quot;tk-dice-number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;tk-dice-separator&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;tk-dice-sides&quot;&gt;5&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; | &lt;span class=&quot;tk tk-dice&quot;&gt;&lt;span class=&quot;tk-icon&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tk-literal&quot;&gt;&lt;span class=&quot;tk-dice-number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;tk-dice-separator&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;tk-dice-sides&quot;&gt;100&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; |
 |--- |--- |--- |---
 | Considera-se o dado de 6 faces como um dado de 2 faces:&lt;br/&gt;• 1, 2 e 3 = 1&lt;br/&gt;• 4, 5 e 6 = 2 | Considera-se o dado de 6 faces como um dado de 3 faces:&lt;br/&gt;• 1 e 2 = 1&lt;br/&gt;• 3 e 4 = 2&lt;br/&gt;• 5 e 6 = 3 | Considera-se o dado de 10 faces como um dado de 5 faces:&lt;br/&gt;• 1 e 2 = 1&lt;br/&gt;• 3 e 4 = 2&lt;br/&gt;• 5 e 6 = 3&lt;br/&gt;• 7 e 8 = 4&lt;br/&gt;• 9 e 10 = 5 | Rolam-se 2 dados de 10 faces, um para a dezena e outro para a unidade:&lt;br/&gt;• em cada dado, o 10 vale 0&lt;br/&gt;• o resultado é a dezena seguida da unidade, como 7 e 3 = 73&lt;br/&gt;• 0 e 0 = 100">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th> D2</th>
-<th> D3</th>
-<th> D5</th>
-<th> D100</th>
+<th><span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">1</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">2</span></span></span></th>
+<th><span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">1</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">3</span></span></span></th>
+<th><span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">1</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">5</span></span></span></th>
+<th><span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">1</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">100</span></span></span></th>
 </tr>
 </thead>
 <tbody>
@@ -485,7 +488,7 @@
             </svg>
         </div>
         <div class="pr-5 ml-3 w-full">
-<p>Múltiplos dados são referidos na forma <b>(2D6)</b>, <b>(3D2)</b>, etc.</p>
+<p>Múltiplos dados são referidos pela quantidade antes da letra <em>d</em>, como em <span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">2</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">6</span></span></span> e <span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">3</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">2</span></span></span>.</p>
         </div>
     </div>
 </div>
@@ -512,18 +515,18 @@
             </svg>
         </div>
         <div class="pr-5 ml-3 w-full">
-<p>Por exemplo, em uma rolagem de <b>(2D6)</b>, apenas um dos dois D6 é o dado principal. Em uma rolagem de 1D8 + 1D4, o D8 é o dado principal, porque vem primeiro na lista.</p>
+<p>Por exemplo, em uma rolagem de <span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">2</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">6</span></span></span>, apenas um dos dois dados é o dado principal. Em uma rolagem de <span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">1</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">8</span></span></span> + <span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">1</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">4</span></span></span>, o D8 é o dado principal, porque vem primeiro na lista.</p>
         </div>
     </div>
 </div>
 <h3 id="dados-secundários">Dados Secundários</h3>
 <p>São todos os demais dados em uma rolagem de dados que não sejam o dado principal, nem sejam dados extras obtidos por uma rolagem perfeita.</p>
 <h3 id="dados-extras-rolagem-perfeita">Dados Extras (Rolagem Perfeita)</h3>
-<p>Uma rolagem perfeita acontece quando o dado principal tira o maior valor natural possível do dado rolado. Não é sempre o 6: é o maior número que aquele dado pode mostrar. Em um D3, é o 6 natural do dado de 6 faces. Em um D5, é o 10 natural do dado de 10 faces. Em um D20, é o 20. No D100, o dado principal é o D10 da dezena, e a rolagem perfeita acontece quando ele tira <strong>9</strong>.</p>
+<p>Uma rolagem perfeita acontece quando o dado principal tira o maior valor natural possível do dado rolado. Não é sempre o 6: é o maior número que aquele dado pode mostrar. Em um D3, é o 6 natural do dado de 6 faces. Em um D5, é o 10 natural do dado de 10 faces. Em um D20, é o 20. No <span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">1</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">100</span></span></span>, o dado principal é o <span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">1</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">10</span></span></span> da dezena, e a rolagem perfeita acontece quando ele tira <strong>9</strong>.</p>
 <p>Em uma rolagem perfeita, o jogador deve:</p>
 <ol>
-<li>Rolar <b>(1D3)</b> adicional e somar o resultado ao total da rolagem.</li>
-<li>Se esse <b>(1D3)</b> também tirar o seu maior valor natural, o 6, rolar outro <b>(1D3)</b> adicional.</li>
+<li>Rolar <span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">1</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">3</span></span></span> adicional e somar o resultado ao total da rolagem.</li>
+<li>Se esse <span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">1</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">3</span></span></span> também tirar o seu maior valor natural, o 6, rolar outro <span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">1</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">3</span></span></span> adicional.</li>
 <li>Repetir o passo anterior até que o valor natural seja diferente de 6.</li>
 </ol>
 <hr>
@@ -535,6 +538,28 @@
 <div id="retype-backlinks">
     <h2>See also</h2>
 <div class="card-compact-group">
+<div class="card-compact-container">
+    <a href="/battle/" class="group card-compact no-link">
+        <div class="card-compact-body">
+            <div class="card-compact-header">
+                <span class="card-compact-icon inline-flex shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><!--icon--><path d="M14.265 1.627c0 3.545 1.869 5.327 3.479 7.021 1.54 1.62 3.006 3.163 3.006 6.102 0 4.812-3.753 8.25-8.565 8.25-4.813 0-8.935-3.421-8.935-8.25 0-2.039.962-4.011 2.509-4.899.305-.175.672.007.803.334C7.563 12.684 8.797 12.64 9.437 12c.388-.387.47-1.116-.004-2.062-2.405-4.812 1.863-8.279 4.2-8.854.336-.082.615.198.632.543ZM12.185 21.5c4.059 0 7.065-2.84 7.065-6.75 0-2.337-1.093-3.489-2.678-5.158l-.021-.023c-1.44-1.517-3.139-3.351-3.649-6.557a6.148 6.148 0 0 0-1.911 1.76c-.787 1.144-1.147 2.633-.216 4.495.603 1.205.777 2.74-.277 3.794-.657.657-1.762 1.1-2.956.586-.752-.324-1.353-.955-1.838-1.79-.567.706-.954 1.74-.954 2.893 0 3.847 3.288 6.75 7.435 6.75Z"/></svg></span>
+                <span class="card-compact-title">Batalha</span>
+            </div>
+            <p class="card-compact-description">Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.</p>
+        </div>
+    </a>
+</div>
+<div class="card-compact-container">
+    <a href="/gameplay/effect/" class="group card-compact no-link">
+        <div class="card-compact-body">
+            <div class="card-compact-header">
+                <span class="card-compact-icon inline-flex shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><!--icon--><path d="M15.22 4.97a.75.75 0 0 1 1.06 0l6.5 6.5a.75.75 0 0 1 0 1.06l-6.5 6.5a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L21.19 12l-5.97-5.97a.75.75 0 0 1 0-1.06Zm-6.44 0a.75.75 0 0 1 0 1.06L2.81 12l5.97 5.97a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215l-6.5-6.5a.75.75 0 0 1 0-1.06l6.5-6.5a.75.75 0 0 1 1.06 0Z"/></svg></span>
+                <span class="card-compact-title">Efeito</span>
+            </div>
+            <p class="card-compact-description">O efeito de uma carta é um texto que descreve sua função e mecânica, explicando como jogá-la e aplicá-la durante a partida. A função do efeito é conferir</p>
+        </div>
+    </a>
+</div>
 <div class="card-compact-container">
     <a href="/glossary/" class="group card-compact no-link">
         <div class="card-compact-body">
@@ -586,8 +611,8 @@
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-11-03T16:03:12" title="2026-11-03" data-absolute-label="Last updated on 2026-11-03 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-11-03 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
-                        Last updated on 2026-11-03 by Bruno Caxito
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-11-04T20:39:00" title="2026-11-04" data-absolute-label="Last updated on 2026-11-04 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-11-04 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                        Last updated on 2026-11-04 by Bruno Caxito
                     </time>
                 </div>
 

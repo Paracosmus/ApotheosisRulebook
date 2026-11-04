@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847144542815">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847150764864">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -47,14 +47,14 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.6.0.847144542815" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.847150764864" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.847144542815" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.847150764864" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.847144542815" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.847150764864" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100..900&display=swap" rel="stylesheet">
 
     <!-- Styles -->
     <style>
@@ -75,7 +75,7 @@
         }
 
         div.container {
-            font-family: 'Open Sans', Apotheosis;
+            font-family: 'Noto Sans', Apotheosis;
             max-width: 1530px;
         }
 
@@ -90,6 +90,32 @@
 
         .icon {
             font-weight: normal;
+        }
+
+        .tk-icon {
+            font-weight: normal;
+        }
+
+        .tk-literal {
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .tk-dice > .tk-literal {
+            text-transform: none;
+        }
+
+        .tk-dice {
+            background-color: #e4f1e8;
+            border-radius: 50px;
+            padding: 0px 6px 0px 5px;
+            color: #006558;
+        }
+
+        .tk-dice .tk-literal {
+            letter-spacing: 0px;
+            font-weight: 900;
+            color: #008d7a;
         }
 
         .briefing {
@@ -207,19 +233,10 @@
             background-color: #212121;
             padding: 0px 10px;
             font-weight: 600;
-            /* Corners meet at mid-height; a superellipse between bevel (0) and round (1) gives softly curved points */
             border-radius: 10px / 50%;
             corner-shape: superellipse(0.7);
         }
 
-        .requirement {
-            font-size: 0.8em;
-            color: #F5F5F5;
-            background-color: #5C697A;
-            border-radius: 4px;
-            padding: 0px 8px;
-            font-weight: 550;
-        }
     </style>
 
 
@@ -237,6 +254,7 @@
 
 
     </div>
+
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -296,14 +314,6 @@
                                     <path d="M1.527 13.237a1.75 1.75 0 0 1 0-2.474l9.272-9.273a1.75 1.75 0 0 1 2.475 0l9.272 9.273a1.75 1.75 0 0 1 0 2.474l-9.272 9.272a1.75 1.75 0 0 1-2.475 0Zm1.06-1.414a.25.25 0 0 0 0 .354l9.273 9.272a.25.25 0 0 0 .353 0l9.272-9.272a.25.25 0 0 0 0-.354l-9.272-9.272a.25.25 0 0 0-.353 0Z"/>
                                 </svg>
                                 <span>Ícones</span>
-                            </a>
-                        </li>
-                        <li class="mr-6">
-                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://database.apotheosiscardgame.com/">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
-                                    <path d="M12 1.25c2.487 0 4.773.402 6.466 1.079.844.337 1.577.758 2.112 1.264.536.507.922 1.151.922 1.907v12.987l-.026.013h.026c0 .756-.386 1.4-.922 1.907-.535.506-1.268.927-2.112 1.264-1.693.677-3.979 1.079-6.466 1.079s-4.774-.402-6.466-1.079c-.844-.337-1.577-.758-2.112-1.264C2.886 19.9 2.5 19.256 2.5 18.5h.026l-.026-.013V5.5c0-.756.386-1.4.922-1.907.535-.506 1.268-.927 2.112-1.264C7.226 1.652 9.513 1.25 12 1.25ZM4 14.371v4.116l-.013.013H4c0 .211.103.487.453.817.351.332.898.666 1.638.962 1.475.589 3.564.971 5.909.971 2.345 0 4.434-.381 5.909-.971.739-.296 1.288-.63 1.638-.962.349-.33.453-.607.453-.817h.013L20 18.487v-4.116a7.85 7.85 0 0 1-1.534.8c-1.693.677-3.979 1.079-6.466 1.079s-4.774-.402-6.466-1.079a7.843 7.843 0 0 1-1.534-.8ZM20 12V7.871a7.85 7.85 0 0 1-1.534.8C16.773 9.348 14.487 9.75 12 9.75s-4.774-.402-6.466-1.079A7.85 7.85 0 0 1 4 7.871V12c0 .21.104.487.453.817.35.332.899.666 1.638.961 1.475.59 3.564.972 5.909.972 2.345 0 4.434-.382 5.909-.972.74-.295 1.287-.629 1.638-.96.35-.33.453-.607.453-.818ZM4 5.5c0 .211.103.487.453.817.351.332.898.666 1.638.962 1.475.589 3.564.971 5.909.971 2.345 0 4.434-.381 5.909-.971.739-.296 1.288-.63 1.638-.962.349-.33.453-.607.453-.817 0-.211-.103-.487-.453-.817-.351-.332-.898-.666-1.638-.962-1.475-.589-3.564-.971-5.909-.971-2.345 0-4.434.381-5.909.971-.739.296-1.288.63-1.638.962C4.104 5.013 4 5.29 4 5.5Z"/>
-                                </svg>
-                                <span>Database</span>
                             </a>
                         </li>
     
@@ -379,14 +389,6 @@
                                             <path d="M1.527 13.237a1.75 1.75 0 0 1 0-2.474l9.272-9.273a1.75 1.75 0 0 1 2.475 0l9.272 9.273a1.75 1.75 0 0 1 0 2.474l-9.272 9.272a1.75 1.75 0 0 1-2.475 0Zm1.06-1.414a.25.25 0 0 0 0 .354l9.273 9.272a.25.25 0 0 0 .353 0l9.272-9.272a.25.25 0 0 0 0-.354l-9.272-9.272a.25.25 0 0 0-.353 0Z"/>
                                         </svg>
                                         <span>Ícones</span>
-                                    </a>
-                                </li>
-                                <li class="mr-6">
-                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://database.apotheosiscardgame.com/">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
-                                            <path d="M12 1.25c2.487 0 4.773.402 6.466 1.079.844.337 1.577.758 2.112 1.264.536.507.922 1.151.922 1.907v12.987l-.026.013h.026c0 .756-.386 1.4-.922 1.907-.535.506-1.268.927-2.112 1.264-1.693.677-3.979 1.079-6.466 1.079s-4.774-.402-6.466-1.079c-.844-.337-1.577-.758-2.112-1.264C2.886 19.9 2.5 19.256 2.5 18.5h.026l-.026-.013V5.5c0-.756.386-1.4.922-1.907.535-.506 1.268-.927 2.112-1.264C7.226 1.652 9.513 1.25 12 1.25ZM4 14.371v4.116l-.013.013H4c0 .211.103.487.453.817.351.332.898.666 1.638.962 1.475.589 3.564.971 5.909.971 2.345 0 4.434-.381 5.909-.971.739-.296 1.288-.63 1.638-.962.349-.33.453-.607.453-.817h.013L20 18.487v-4.116a7.85 7.85 0 0 1-1.534.8c-1.693.677-3.979 1.079-6.466 1.079s-4.774-.402-6.466-1.079a7.843 7.843 0 0 1-1.534-.8ZM20 12V7.871a7.85 7.85 0 0 1-1.534.8C16.773 9.348 14.487 9.75 12 9.75s-4.774-.402-6.466-1.079A7.85 7.85 0 0 1 4 7.871V12c0 .21.104.487.453.817.35.332.899.666 1.638.961 1.475.59 3.564.972 5.909.972 2.345 0 4.434-.382 5.909-.972.74-.295 1.287-.629 1.638-.96.35-.33.453-.607.453-.818ZM4 5.5c0 .211.103.487.453.817.351.332.898.666 1.638.962 1.475.589 3.564.971 5.909.971 2.345 0 4.434-.381 5.909-.971.739-.296 1.288-.63 1.638-.962.349-.33.453-.607.453-.817 0-.211-.103-.487-.453-.817-.351-.332-.898-.666-1.638-.962-1.475-.589-3.564-.971-5.909-.971-2.345 0-4.434.381-5.909.971-.739.296-1.288.63-1.638.962C4.104 5.013 4 5.29 4 5.5Z"/>
-                                        </svg>
-                                        <span>Database</span>
                                     </a>
                                 </li>
         
@@ -512,46 +514,46 @@
 <p>TODO</p>
 <h3 id="-evocação"><span class="icon"></span> Evocação</h3>
 <blockquote>
-<p>Evocações são seres artificiais, criados a pártir da vontade de uma pessoa, combinada com uma magia específica de criação.</p>
-<p>Elas podem assumir qualquer forma, bem como possuir certas habilidades. Isso é realizado através de uma complexa e minuciosa transformação do éter em matéria viva, que é operado por um evocador, um personagem que possui o conhecimento e a habilidade necessária para criar e controlar essas criaturas. O processo de criação de uma evocação é extremamente complexo, e requer um profundo entendimento de como moldar e manipular a energia etérea para criar um corpo físico animado (criar corpo e espírito).</p>
-<p>O resultado é uma energia viva que deve ser depositada em um material armazenador de éter, talhado de uma forma que se assemelhe a forma evocada da criatura, mantendo assim a energia em um formato transformável na forma final. Esse objetos são chamados de <em>totens</em> e são feitos geralmente de madeira mágica, por ser mais abundante e fácil de trabalhar, mas podendo ser feito de qualquer outro material armazenador de éter.</p>
+<p>Evocações são seres artificiais, criados a partir da vontade de uma pessoa, combinada com uma magia específica de criação.</p>
+<p>Elas podem assumir qualquer forma, bem como possuir certas habilidades. Isso é realizado através de uma complexa e minuciosa transformação do éter em matéria viva, que é operada por um evocador, um personagem que possui o conhecimento e a habilidade necessários para criar e controlar essas criaturas. O processo de criação de uma evocação é extremamente complexo, e requer um profundo entendimento de como moldar e manipular a energia etérea para criar um corpo físico animado (criar corpo e espírito).</p>
+<p>O resultado é uma energia viva que deve ser depositada em um material armazenador de éter, talhado de uma forma que se assemelhe à forma evocada da criatura, mantendo assim a energia em um formato transformável na forma final. Esses objetos são chamados de <em>totens</em> e são feitos geralmente de madeira mágica, por ser mais abundante e fácil de trabalhar, mas podendo ser feitos de qualquer outro material armazenador de éter.</p>
 </blockquote>
 <blockquote>
-<p>Quando uma nova evocação é criada, sua fórmula de criação é única, e pode ser compartilhada aprendida ou recriada por outros evocadores. Ao criador, cabe a tarefa de dar um nome para está nova espécie, e tradicionalmente a terminação “ero” é utilizada (<em>Perc<strong>ero</strong>, El<strong>ero</strong>, etc..</em>). Porém é também comum, o uso de nomes de criaturas vindas da mitologia ou fantasia que se assemelhem de certa forma àquela evocação.</p>
+<p>Quando uma nova evocação é criada, sua fórmula de criação é única, e pode ser compartilhada, aprendida ou recriada por outros evocadores. Ao criador, cabe a tarefa de dar um nome para esta nova espécie, e tradicionalmente a terminação “ero” é utilizada (<em>Perc<strong>ero</strong>, El<strong>ero</strong>, etc.</em>). Porém, é também comum o uso de nomes de criaturas vindas da mitologia ou fantasia que se assemelhem de certa forma àquela evocação.</p>
 </blockquote>
 <blockquote>
-<p>Para alguns, criar uma ser vivo é uma blasfêmia ou corrupção da natureza, e isso deve ser deixado apenas para o <strong>Grande Criador</strong>, já outros, veem isso como uma forma de se tornarem cocriadores ou apenas ter servos úteis. Apesar disso, existem diferenças claras entre uma evocação e um ser natural, evocações são albinas, com pouca ou nenhuma coloração no corpo, são incapazes de se reproduzir. Além disso, as evocação não possuem um ciclo de vida natural, seus corpos tem pouca duração e se desfazem depois de alguns minutos, precisando ser recriados pelo evocador na proxima vez que forem evocadas.</p>
+<p>Para alguns, criar um ser vivo é uma blasfêmia ou corrupção da natureza, e isso deve ser deixado apenas para o <strong>Grande Criador</strong>; já outros veem isso como uma forma de se tornarem cocriadores ou apenas ter servos úteis. Apesar disso, existem diferenças claras entre uma evocação e um ser natural: evocações são albinas, com pouca ou nenhuma coloração no corpo, e são incapazes de se reproduzir. Além disso, as evocações não possuem um ciclo de vida natural, seus corpos têm pouca duração e se desfazem depois de alguns minutos, precisando ser recriados pelo evocador na próxima vez que forem evocadas.</p>
 </blockquote>
 <p>TODO</p>
 <p>Personagens desse tipo são desevocados ao final do combate.</p>
 <h4 id="evocar">Evocar</h4>
-<p>A carta de evocação permanece oculta até que seja evocada e não possui peça no tabuleiro. Para ser evocada, é necessário que o evocador (Herói) selecione uma casa adjacente vazia, e pague 2 de <a href="/hero/#mana"><span class="skill"><b>MANA</b></span></a>.</p>
-<p>Quando evocada, a carta é revelada e a peça do personagem evocação é adicionado na casa do tabuleiro selecionada.</p>
-<p>Um COMPANHEIRO evocado, é colocado no final da fila de turnos na rodada em que é evocado, na rodada seguinte ele é posicionado na fila de turnos conforme sua PER.</p>
+<p>A carta de evocação permanece oculta até que seja evocada e não possui peça no tabuleiro. Para ser evocada, é necessário que o evocador (Herói) selecione uma casa adjacente vazia, e pague <strong>2</strong> de <a href="/hero/#mana"><span class="skill"><b>MANA</b></span></a> por nível da carta.</p>
+<p>Quando evocada, a carta é revelada e a peça do personagem evocação é adicionada na casa do tabuleiro selecionada.</p>
+<p>Um COMPANHEIRO evocado é colocado no final da fila de turnos na rodada em que é evocado; na rodada seguinte ele é posicionado na fila de turnos conforme sua Iniciativa.</p>
 <h4 id="desevocar">Desevocar</h4>
-<p>O evocador pode a qualquer momento do seu turno, desevocar sua evocação, para isto ele anuncia a ação, oculta a carta da evocação e remove a peça dela do tabuleiro.</p>
+<p>O evocador pode, a qualquer momento do seu turno, desevocar sua evocação; para isto ele anuncia a ação, oculta a carta da evocação e remove a peça dela do tabuleiro.</p>
 <h4 id="morte-da-evocação">Morte da Evocação</h4>
-<p>Diferente de outros personagens, quando uma evocação morre, ela é desevocada (sua carta é ocultada) e sua peça é removida do tabuleiro, não deixando corpo, se ela possuir cartas anexadas, elas não devem ser descartadas. Quando desevocada dessa forma, ela não pode ser evocada novamente até o final da batalha.</p>
-<h3 id="-automato"><span class="icon"></span> Automato</h3>
+<p>Diferente de outros personagens, quando uma evocação morre, ela é desevocada (sua carta é ocultada) e sua peça é removida do tabuleiro, não deixando corpo; se ela possuir cartas anexadas, elas não devem ser descartadas. Quando desevocada dessa forma, ela não pode ser evocada novamente até o final da batalha.</p>
+<h3 id="-autômato"><span class="icon"></span> Autômato</h3>
 <ul>
-<li>Reviver e curar não funciona em automaton, mas sim <strong>Reparar</strong>. Que são feitos por efeito de carta ou mecânica de jogo
+<li>Reviver e curar não funcionam em autômatos, mas sim <strong>Reparar</strong>, que é feito por efeito de carta ou mecânica de jogo
 <ul>
-<li><em>Reparar</em>: Descarte ícones de mech para reparar 25 de <a href="/hero/#vida"><span class="hp"><b>VIDA</b></span></a> por ícone descartado. Sendo que isso vale mesmo quando mortos, podendo recuperar vida e até voltarem a vida se for o caso.</li>
+<li><em>Reparar</em>: Descarte ícones de mech para reparar 25 de <a href="/hero/#vida"><span class="hp"><b>VIDA</b></span></a> por ícone descartado. Sendo que isso vale mesmo quando mortos, podendo recuperar vida e até voltarem à vida se for o caso.</li>
 </ul>
 </li>
-<li>Um personagem só pode concertar automatons do conhecimento e nível que ele possuí
+<li>Um personagem só pode consertar autômatos do conhecimento e nível que ele possui
 <ul>
-<li>O automato tem que estar adjacente. Isso gasta all-in do personagem que reparar</li>
+<li>O autômato tem que estar adjacente. Isso gasta all-in do personagem que reparar</li>
 </ul>
 </li>
-<li>Automatons não podem descansar, nem outras atividades do tipo</li>
-<li>Quando um efeito diz “Recuperar HP” e não curar/reparar, ele ainda vale no automaton</li>
-<li>A grande vantagem do automaton é que eles são imortais. Eles não são descartados apenas se ao final do combate não forem recondicionados.</li>
+<li>Autômatos não podem descansar, nem outras atividades do tipo</li>
+<li>Quando um efeito diz “Recuperar HP” e não curar/reparar, ele ainda vale no autômato</li>
+<li>A grande vantagem do autômato é que eles são imortais. Eles não são descartados apenas se ao final do combate não forem recondicionados.</li>
 <li>Eles ainda podem sofrer perda total normalmente</li>
 </ul>
-<h3 id="-vigilante"><span class="icon"></span> Vigilante</h3>
+<h3 id="-vigilante"><span class="icon"></span> Vigilante</h3>
 <p>Quando no turno de um vigilante, pode ser jogado com qualquer outro vigilante, porém usa-se os <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a> do personagem do turno.</p>
-<h3 id="-drako"><span class="icon"></span> Drako</h3>
+<h3 id="-drako"><span class="icon"></span> Drako</h3>
 <hr>
 <h2 id="caminho"><span class="companion">Caminho</span></h2>
 <p>Um <a href="/cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a> pode ou não pertencer a um caminho, que é uma linha de evolução. O caminho é representado por um ícone de uma peça de dominó, que é o mesmo para todas as cartas daquele caminho.</p>
@@ -564,7 +566,7 @@
 |       | Guerreiros, espadachins                            | Quimeras                      |
 |       | Religiosos, sacerdotes, clérigos                   | Marinhos                      |
 |       | Arqueiros, pistoleiros, atiradores                 | Insetos                       |
-|       | Militares, mercenários, policias, soldados         | Anfíbios                      |
+|       | Militares, mercenários, policiais, soldados        | Anfíbios                      |
 |       | Bárbaros, selvagens, domadores, párias             | Feras                         |
 |       | Eremitas, andarilhos, buscadores, filósofos        | Pássaros                      |
 |       | Comerciantes, jogadores, trapaceiros, mercadores   | Mecanizados                   |
@@ -621,7 +623,7 @@
 </tr>
 <tr>
 <td></td>
-<td>Militares, mercenários, policias, soldados</td>
+<td>Militares, mercenários, policiais, soldados</td>
 <td>Anfíbios</td>
 </tr>
 <tr>
@@ -703,7 +705,7 @@
 <p>Ao custo de 2 de <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a>, esta carta pode ser enviada para um espaço disponível no <a href="/hero/table/support/"><span class="companion"><b>SUPORTE</b></span></a> do Herói.</p>
 <ul>
 <li>
-<p>Se o personagem for <a href="/cards/companion/#-humano"><span class="companion"><b>HUMANO</b></span></a> ou <a href="/cards/companion/#-criatura"><span class="companion"><b>CRIATURA</b></span></a>, ele deve ser colocado em uma <a href="/battle/board/#casa-de-refor%C3%A7o">casa de reforço do tabuleiro</a>. Se não houverem casas de reforço disponíveis, o personagem não pode ser recrutado.</p>
+<p>Se o personagem for <a href="/cards/companion/#-humano"><span class="companion"><b>HUMANO</b></span></a> ou <a href="/cards/companion/#-criatura"><span class="companion"><b>CRIATURA</b></span></a>, ele deve ser colocado em uma <a href="/battle/board/#casa-de-refor%C3%A7o">casa de reforço do tabuleiro</a>. Se não houver casas de reforço disponíveis, o personagem não pode ser recrutado.</p>
 </li>
 <li>
 <p>Se o personagem for uma <a href="/cards/companion/#-evoca%C3%A7%C3%A3o"><span class="companion"><b>EVOCAÇÃO</b></span></a>, coloque sua peça em uma casa adjacente ao Herói. Se não houver nenhuma casa adjacente disponível, este personagem não pode ser evocado.</p>
@@ -723,8 +725,8 @@
 <hr>
 <h2 id="evoluir"><span class="companion">Evoluir</span></h2>
 <p>Este é o processo de trocar uma carta de <a href="/cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a> em seu <a href="/hero/table/support/"><span class="companion"><b>SUPORTE</b></span></a> por outra de nível superior e mesmo caminho.</p>
-<p>A qualquer momento do turno de um personagem <a href="/cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a> que esteja na <a href="/hero/table/"><span class="main"><b>MESA</b></span></a> de um Herói, mesmo que em combate ou quando ele não tem acesso ao <a href="/gameplay/stack/bestiary/"><span class="companion"><b>BESTIÁRIO</b></span></a>, ele pode sacrificar o seu turno e descartar 3 de <a href="/cards/skills/"><span class="skill"><b>XP</b></span></a>, para selecionar uma carta de <a href="/cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a> do <a href="/gameplay/stack/bestiary/"><span class="companion"><b>BESTIÁRIO</b></span></a> de nível imediatamente superior ao seu e de mesmo caminho, observando se o seu Herói possuí o <a href="/gameplay/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a> e nível necessário para ter aquela carta em sua <a href="/hero/table/"><span class="main"><b>MESA</b></span></a>, bem como outros requerimentos, se houverem.</p>
-<p>Enterre então a carta de <a href="/cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a>, substituindo-a ela pela nova carta, que herda seus anexos e contadores.</p>
+<p>A qualquer momento do turno de um personagem <a href="/cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a> que esteja na <a href="/hero/table/"><span class="main"><b>MESA</b></span></a> de um Herói, mesmo que em combate ou quando ele não tem acesso ao <a href="/gameplay/stack/bestiary/"><span class="companion"><b>BESTIÁRIO</b></span></a>, ele pode sacrificar o seu turno e descartar 3 de <a href="/cards/skills/"><span class="skill"><b>XP</b></span></a>, para selecionar uma carta de <a href="/cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a> do <a href="/gameplay/stack/bestiary/"><span class="companion"><b>BESTIÁRIO</b></span></a> de nível imediatamente superior ao seu e de mesmo caminho, observando se o seu Herói possui o <a href="/gameplay/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a> e nível necessários para ter aquela carta em sua <a href="/hero/table/"><span class="main"><b>MESA</b></span></a>, bem como outros requerimentos, se houver.</p>
+<p>Enterre então a carta de <a href="/cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a>, substituindo-a pela nova carta, que herda seus anexos e contadores.</p>
 <p>Selecionar a uma carta de COMPANHEIRO no seu INVENTÁRIO de mesmo Tipo de Companheiro, mesmo Caminho, e nível imediatamente superior. Coloque-a sobre a carta atual, de forma que não cubra as técnicas da mesma.</p>
 <hr>
 <h2 id="anexos"><span class="companion">Anexos</span></h2>
@@ -741,17 +743,17 @@
 </ul>
 <h3 id="tipos-de-anexo">Tipos de Anexo</h3>
 <p>Os tipos de anexos marcam características desejadas de cartas anexadas àquele <a href="/cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a>. As cartas anexadas não precisam ter esta característica, mas se tiverem, desbloqueiam técnicas em sua carta.</p>
-<p>A característica listada abrange basicamente qualquer elemento de uma carta, como valores, propriedades, efeitos, etc..</p>
+<p>A característica listada abrange basicamente qualquer elemento de uma carta, como valores, propriedades, efeitos, etc.</p>
 <hr>
 <h2 id="personagem"><span class="companion">Personagem</span></h2>
-<p>Cartas de <a href="/cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a> são tratadas como personagens, e portanto, possuem uma peça no tabuleiro, podem ser atacados, mortos, realizar testes, etc.. tal qual um Herói.</p>
+<p>Cartas de <a href="/cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a> são tratadas como personagens, e portanto, possuem uma peça no tabuleiro, podem ser atacados, mortos, realizar testes, etc., tal qual um Herói.</p>
 <h3 id="pagamento-de-custos"><span class="companion">Pagamento de Custos</span></h3>
 <p>Os COMPANHEIROS podem ser requeridos a pagar certos custos pelo efeito de outras cartas ou mecânica de jogo, como descartar cartas e valores.</p>
-<p>Observando que COMPANHEIROS não possuem MESA nem <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a>, quando um texto especificar uma ação impossível para um COMPANHEIRO, como “descarte do seu <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a>” ou “deite 2 de <a href="/hero/#mana"><span class="skill"><b>MANA</b></span></a>”, o personagem não tem como cumprir aquela exigência, logo, ela deve ser ignorada quando forem consequências dessa ação, quando forem requerimentos para da ação, então ele não tem como cumprir este requerimentos e a ação não pode ser realizada.</p>
+<p>Observando que COMPANHEIROS não possuem MESA nem <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a>, quando um texto especificar uma ação impossível para um COMPANHEIRO, como “descarte do seu <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a>” ou “deite 2 de <a href="/hero/#mana"><span class="skill"><b>MANA</b></span></a>”, o personagem não tem como cumprir aquela exigência, logo, ela deve ser ignorada quando forem consequências dessa ação; quando forem requerimentos da ação, então ele não tem como cumprir estes requerimentos e a ação não pode ser realizada.</p>
 <p>Porém, quando o texto não apresenta uma restrição, por exemplo, “descarte uma carta” ou “descarte pontos de <a href="/cards/event/"><span class="event"><b>DESTINO</b></span></a>”, o COMPANHEIRO pode/deve utilizar seus anexos nestes casos. Note que se o custo for obrigatório, o personagem precisa pagar, se for opcional o jogador pode optar.</p>
 <p>A mesma consideração deve ser feita quando uma carta é obtida pelo COMPANHEIRO, se o texto disser algo como “enviado para o <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a>”, o COMPANHEIRO não tem como realizar esta ação, mas se o texto apenas diz que a carta é “obtida”, ela pode/deve ser anexada ao companheiro, ainda respeitando o limite de anexos.</p>
 <h3 id="vida"><span class="companion">Vida</span></h3>
-<p>O <a href="/hero/#vida"><span class="hp"><b>VIDA</b></span></a> da peça de um companheiro no tabuleiro é determinada pelo nível da carta.</p>
+<p>A <a href="/hero/#vida"><span class="hp"><b>VIDA</b></span></a> da peça de um companheiro no tabuleiro é determinada pelo nível da carta.</p>
 <retype-table copy-text="| Nível  | Vida           |
 | ---    | ---            |
 | 1      | &lt;span class=&quot;positive&quot;&gt; 5&lt;/span&gt;  |
@@ -883,7 +885,7 @@
                 <span class="card-compact-icon inline-flex shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><!--icon--><path d="M4 9.5a5 5 0 1 1 7.916 4.062 7.973 7.973 0 0 1 5.018 7.166.75.75 0 1 1-1.499.044 6.469 6.469 0 0 0-12.932 0 .75.75 0 0 1-1.499-.044 7.972 7.972 0 0 1 5.059-7.181A4.994 4.994 0 0 1 4 9.5ZM9 6a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Zm10.25-5a.75.75 0 0 1 .75.75V4h2.25a.75.75 0 0 1 0 1.5H20v2.25a.75.75 0 0 1-1.5 0V5.5h-2.25a.75.75 0 0 1 0-1.5h2.25V1.75a.75.75 0 0 1 .75-.75Z"/></svg></span>
                 <span class="card-compact-title">Modelo</span>
             </div>
-            <p class="card-compact-description">Se trata de uma peça no tabuleiro que não representa um personagem Herói, com MESA, e nem um personagem COMPANHEIRO, com uma carta que o define</p>
+            <p class="card-compact-description">Trata-se de uma peça no tabuleiro que não representa um personagem Herói, com MESA, e nem um personagem COMPANHEIRO, com uma carta que o define.</p>
         </div>
     </a>
 </div>
@@ -930,8 +932,8 @@
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-10-22T15:58:59" title="2026-10-22" data-absolute-label="Last updated on 2026-10-22 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-10-22 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
-                        Last updated on 2026-10-22 by Bruno Caxito
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-11-04T20:39:00" title="2026-11-04" data-absolute-label="Last updated on 2026-11-04 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-11-04 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                        Last updated on 2026-11-04 by Bruno Caxito
                     </time>
                 </div>
 

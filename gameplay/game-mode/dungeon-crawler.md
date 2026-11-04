@@ -16,9 +16,9 @@ Deste modo, observe que é possível um personagem estar na sua área do time, s
 
 ### Companions
 
-[<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) devem estar dentro da área do time do seu herói. Se a qualquer momento o [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) sair da área, sua peça é removida do tabuleiro e sua carta carta é enviada para o [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) do herói.
+[<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) devem estar dentro da área do time do seu herói. Se a qualquer momento o [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) sair da área, sua peça é removida do tabuleiro e sua carta é enviada para o [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) do herói.
 
-Ao enviar uma carta de [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) para o [<span class="companion"><b>SUPORTE</b></span>](/hero/table/support.md), a peça daquele personagem aparece no limite da área do time do seu herói, em uma casa a escolha do jogador.
+Ao enviar uma carta de [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) para o [<span class="companion"><b>SUPORTE</b></span>](/hero/table/support.md), a peça daquele personagem aparece no limite da área do time do seu herói, em uma casa à escolha do jogador.
 
 ---
 

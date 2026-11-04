@@ -36,11 +36,11 @@ Consulte a seção [Região](/lore/world.md#região).
 
 ## Efeitos de Campanha
 
-Campanhas podem incluir efeitos especiais, como bônus ou penalidades para os personagens, mudanças no ambiente de jogo, ou outras mecânicas que afetam a jogabilidade. Esses efeitos podem ser temporários ou permanentes, e devem ser claramente definidos e comunicados aos jogadores quando foram ativados ou inativados, sendo que, não é necessário revelá-los antes do momento em que eles são ativados.
+Campanhas podem incluir efeitos especiais, como bônus ou penalidades para os personagens, mudanças no ambiente de jogo, ou outras mecânicas que afetam a jogabilidade. Esses efeitos podem ser temporários ou permanentes, e devem ser claramente definidos e comunicados aos jogadores quando forem ativados ou inativados, sendo que não é necessário revelá-los antes do momento em que eles são ativados.
 
 Os efeitos de campanha funcionam exatamente como qualquer outro efeito, seguindo as mesmas regras e mecânicas estabelecidas no jogo. Porém, eles não estão ligados a uma carta específica, e sim à campanha como um todo.
 
-Durante a campanha, será determinado quando um efeito está ativo ou inativo. Quando ativos, eles são tratados de forma semelhante às cartas no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md), porém sem uma carta associada, e assim como no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md), os efeitos de campanha estão disponíveis e são aplicados à todos os personagens.
+Durante a campanha, será determinado quando um efeito está ativo ou inativo. Quando ativos, eles são tratados de forma semelhante às cartas no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md), porém sem uma carta associada, e assim como no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md), os efeitos de campanha estão disponíveis e são aplicados a todos os personagens.
 
 - Efeitos [<span class="keyword-activation">Ativar</span>](/gameplay/effect.md) podem ser ativados por qualquer personagem no seu turno ou quando as condições para sua ativação forem atendidas.
 - Efeitos [<span class="keyword-activation">Auto</span>](/gameplay/effect.md) são ativados automaticamente quando as condições para sua ativação forem atendidas.
@@ -57,9 +57,9 @@ Em uma campanha onde durante a noite uma maldição afeta todos os animais e ele
 !!!
 
 !!!secondary Exemplo 3 - _Sistema de Sobrevivência_
-Em uma campanha onde existem um sistema de fome, sede, e sono.
+Em uma campanha onde existe um sistema de fome, sede e sono.
 
-> [<span class="keyword-activation">Auto</span>](/gameplay/effect.md) [<span class="keyword-timing">Fase de Recomposição</span>](/gameplay/effect.md) Adicione <span class="negative">1</span> **❂CONTADOR DE FOME**, <span class="negative">1</span> **❂CONTADOR DE SEDE** e <span class="negative">1</span> **❂CONTADOR DE SONO**, a sua [<span class="house"><b>CASA</b></span>](/cards/house.md).
+> [<span class="keyword-activation">Auto</span>](/gameplay/effect.md) [<span class="keyword-timing">Fase de Recomposição</span>](/gameplay/effect.md) Adicione <span class="negative">1</span> **❂CONTADOR DE FOME**, <span class="negative">1</span> **❂CONTADOR DE SEDE** e <span class="negative">1</span> **❂CONTADOR DE SONO** à sua [<span class="house"><b>CASA</b></span>](/cards/house.md).
 
 > [<span class="keyword-activation">Permanente</span>](/gameplay/effect.md) Você recebe bônus de <span class="negative">-1</span> em **Testes** e <b>DANO</b> para cada **❂CONTADOR DE FOME**, **❂CONTADOR DE SEDE** e **❂CONTADOR DE SONO** na sua [<span class="house"><b>CASA</b></span>](/cards/house.md).
 
@@ -84,16 +84,16 @@ Mecânicas de campanha são regras ou modificações especiais que se aplicam a 
 
 Quando uma campanha inclui mecânicas de campanha, elas devem ser claramente definidas e comunicadas aos jogadores antes do início da campanha, para que eles possam entender como elas afetam a jogabilidade e se preparar adequadamente.
 
-O criador da campanha tem liberdade para criar e implementar as mecânicas de campanha que desejar, observando a compatibilidade com os formatos e variantes alvos dessa campanha. Apesar de poderem fazer modificações significativas na jogabilidade, observe que o objectivo não é criar um novo formato de jogo, apenas complementar o existente com uma necessidade narrativa ou temática desta campanha específica.
+O criador da campanha tem liberdade para criar e implementar as mecânicas de campanha que desejar, observando a compatibilidade com os formatos e variantes alvos dessa campanha. Apesar de poderem fazer modificações significativas na jogabilidade, observe que o objetivo não é criar um novo formato de jogo, apenas complementar o existente com uma necessidade narrativa ou temática desta campanha específica.
 
 !!!secondary Exemplo - _Mecânica de Loucura_
-1. Durante a campanha do gênero terror, os personagens podem ser afetados por uma condição de loucura, que representa o impacto psicológico das experiências traumáticas e estressantes que eles enfrentam durante a campanha. A condição de loucura é representada por uma barra horizontal para que representa a sanidade do time como um todo. A barra começa no valor 0 e pode variar de -5 (insano) a +5 (são).
+1. Durante a campanha do gênero terror, os personagens podem ser afetados por uma condição de loucura, que representa o impacto psicológico das experiências traumáticas e estressantes que eles enfrentam durante a campanha. A condição de loucura é representada por uma barra horizontal que representa a sanidade do time como um todo. A barra começa no valor 0 e pode variar de -5 (insano) a +5 (são).
 
 1. O Mestre de jogo concede pontos positivos ou negativos aos personagens conforme se desenrolam os eventos da campanha, e o valor da barra é atualizado de acordo. Por exemplo, se os personagens enfrentarem uma situação traumática, o Mestre de jogo pode conceder pontos negativos à barra, indicando que o time está ficando mais insano. Por outro lado, se os personagens conseguirem superar um desafio difícil ou encontrar um momento de alívio cômico, o Mestre de jogo pode conceder pontos positivos à barra, indicando que o time está ficando mais são.
 
 1. O valor da barra deve ser adicionado a todo teste realizado por membros do time.
 !!!
 
-Como observador no exemplo acima, as Mecânicas de Campanha são demasiadas elaboradas para serem representadas por efeitos de campanha sem que esses efeitos fossem excessivamente longos e detalhados, além de terem uma liberdade completa de modificar, remover e/ou adicionar regras. Em adicional, os efeitos jogam estritamente conforme as regras, não permitindo a intervenção ou gestão do Mestre de Jogo como no caso exemplificado.
+Como observado no exemplo acima, as Mecânicas de Campanha são demasiado elaboradas para serem representadas por efeitos de campanha sem que esses efeitos fossem excessivamente longos e detalhados, além de terem uma liberdade completa de modificar, remover e/ou adicionar regras. Em adicional, os efeitos jogam estritamente conforme as regras, não permitindo a intervenção ou gestão do Mestre de Jogo como no caso exemplificado.
 
 ---

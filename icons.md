@@ -121,7 +121,7 @@
 |  | Alcance | *Range* | <b>ALCANCE</b> | eb3f | - |
 |  | Direto | *Direct* | <b>DIRETO</b> | e939 | - |
 |  | Arqueado | *Arcing* | <b>ARQUEADO</b> | e93a | - |
-|  | Área | *Area* | <b>AREA</b> | e938 | - |
+|  | Área | *Area* | <b>ÁREA</b> | e938 | - |
 
 <br><br>
 
@@ -154,7 +154,7 @@
 | <span style="color: #FF7043;"></span> | Humano | *Human* | [<span class="companion"><b>HUMANO</b></span>](/cards/companion.md#-humano) | e901 | `#FF7043` |
 | <span style="color: #FF7043;"></span> | Criatura | *Creature* | [<span class="companion"><b>CRIATURA</b></span>](/cards/companion.md#-criatura) | e900 | `#FF7043` |
 | <span style="color: #FF7043;"></span> | Evocação | *Summon* | [<span class="companion"><b>EVOCAÇÃO</b></span>](/cards/companion.md#-evocação) | e902 | `#FF7043` |
-| <span style="color: #FF7043;"></span> | Autômato | *Automaton* | [<span class="companion"><b>AUTOMATO</b></span>](/cards/companion.md#-automato) | eb40 | `#FF7043` |
+| <span style="color: #FF7043;"></span> | Autômato | *Automaton* | [<span class="companion"><b>AUTÔMATO</b></span>](/cards/companion.md#-autômato) | eb40 | `#FF7043` |
 | <span style="color: #FF7043;"></span> | Vigilante | *Watcher* | [<span class="companion"><b>VIGILANTE</b></span>](/cards/companion.md) | e94d | `#FF7043` |
 | <span style="color: #FF7043;"></span> | Drako | *Drako* | [<span class="companion"><b>DRAKO</b></span>](/cards/companion.md) | e94c | `#FF7043` |
 
@@ -174,7 +174,7 @@
 |  | D10 | *D10* | - | eb45 | - |
 |  | D12 | *D12* | - | eb46 | - |
 |  | D20 | *D20* | - | eb47 | - |
-|  | D100 | *D100* | - | eb45 | - |
+|  | D100 | *D100* | - | eb47 | - |
 
 <br><br>
 
@@ -333,7 +333,7 @@
 
 | Icon | Termo (PT) | English | Variável | Unicode | Color |
 | ---- | ---------- | ------- | -------- | ------- | ----- |
-| <span style="color: #FF22B2;"></span> | Summus | *Summus* | [<span class="summus"><b>SUMMUS</b></span>](/cards/summus/) | e94b | `#FF22B2` |
+| <span style="color: #FF22B2;"></span> | Summus | *Summus* | [<span class="summus"><b>SUMMUS</b></span>](/gameplay/summus.md) | e94b | `#FF22B2` |
 | <span style="color: #FF22B2;"></span> | Ascensus | *Ascensus* | [<span class="summus"><b>ASCENSUS</b></span>](/cards/summus/ascensus.md) | eaa6 | `#FF22B2` |
 | <span style="color: #FF22B2;"></span> | Collegium | *Collegium* | [<span class="summus"><b>COLLEGIUM</b></span>](/cards/summus/collegium.md) | e9d6 | `#FF22B2` |
 | <span style="color: #FF22B2;"></span> | Daemon | *Daemon* | [<span class="summus"><b>DAEMON</b></span>](/cards/summus/daemon.md) | e96d | `#FF22B2` |

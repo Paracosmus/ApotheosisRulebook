@@ -57,7 +57,7 @@ Cada local do mapa é definido por uma ou mais paisagens, que podem ser utilizad
 * 🫧 Submerso
 
 !!!warning
-Apesar de semelhantes, a paisagem não é o mesmo que o [terreno](/battle/board.md#terreno). A paisagem é uma descrição ambiental, de uma local no mapa, enquanto o terreno refere-se à superfície física de uma casa específica do tabuleiro.
+Apesar de semelhantes, a paisagem não é o mesmo que o [terreno](/battle/board.md#terreno). A paisagem é uma descrição ambiental de um local no mapa, enquanto o terreno refere-se à superfície física de uma casa específica do tabuleiro.
 !!!
 
 ---

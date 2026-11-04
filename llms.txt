@@ -105,7 +105,6 @@
 
 ### Summus
 
-- [Summus](https://apotheosiscardgame.com/cards/summus/index.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [ Ascensus](https://apotheosiscardgame.com/cards/summus/ascensus.md): Ascensus é o termo latino para “ascensão”, no sentido de subir, elevar-se, alcançar um nível superior.
 - [ Collegium](https://apotheosiscardgame.com/cards/summus/collegium.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [ Daemon](https://apotheosiscardgame.com/cards/summus/daemon.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
@@ -120,7 +119,7 @@
 ### Mesa
 
 - [Mesa](https://apotheosiscardgame.com/hero/table/index.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
-- [Zona Extra](https://apotheosiscardgame.com/hero/table/sheet.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [ Ficha](https://apotheosiscardgame.com/hero/table/sheet.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [Equipamento](https://apotheosiscardgame.com/hero/table/equipment.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [Memento](https://apotheosiscardgame.com/hero/table/memento.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [Suporte](https://apotheosiscardgame.com/hero/table/support.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
@@ -133,7 +132,7 @@
 ### Peça
 
 - [Peça](https://apotheosiscardgame.com/battle/piece/index.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
-- [Modelo](https://apotheosiscardgame.com/battle/piece/dummy.md): Se trata de uma peça no tabuleiro que não representa um personagem Herói, com MESA, e nem um personagem COMPANHEIRO, com uma carta que o define
+- [Modelo](https://apotheosiscardgame.com/battle/piece/dummy.md): Trata-se de uma peça no tabuleiro que não representa um personagem Herói, com MESA, e nem um personagem COMPANHEIRO, com uma carta que o define.
 - [Casa do Tabuleiro](https://apotheosiscardgame.com/battle/tile.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [Rodadas e Turnos](https://apotheosiscardgame.com/battle/turn.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [Iniciativa](https://apotheosiscardgame.com/battle/initiative.md): É uma comparação feita entre os personagens para determinar a ordem de ação durante o combate, representando a rapidez com que eles podem agir.
@@ -146,7 +145,7 @@
 
 #### Formato
 
-- [Formato](https://apotheosiscardgame.com/gameplay/setup/format/index.md): São conjuntos personalizados de regras que adicionam ou modificam as regras padrões de jogo, incluindo a forma de interpretar as carta.
+- [Formato](https://apotheosiscardgame.com/gameplay/setup/format/index.md): São conjuntos personalizados de regras que adicionam ou modificam as regras padrões de jogo, incluindo a forma de interpretar as cartas.
 - [Batalha Campal](https://apotheosiscardgame.com/gameplay/setup/format/field-battle.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [Batalha Naval](https://apotheosiscardgame.com/gameplay/setup/format/naval-battle.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [Companion Bowl](https://apotheosiscardgame.com/gameplay/setup/format/companion-bowl.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
@@ -188,12 +187,13 @@
 - [Contador](https://apotheosiscardgame.com/gameplay/counter.md): É uma unidade qualquer colocada sobre uma carta, como uma moeda ou ficha de Poker, com o objetivo de representar uma quantidade específica de algo.
 - [Anexo](https://apotheosiscardgame.com/gameplay/attachment.md): Anexo, ou carta anexada, é uma carta colocada sob outra carta, representando que está ligada àquela.
 - [Bônus](https://apotheosiscardgame.com/gameplay/bonus.md): São valores incluídos em um cálculo e podem ser positivos ou negativos. São aplicados a um valor base, como um teste, Atributo, DANO, etc. Eles são
-- [Modificador](https://apotheosiscardgame.com/gameplay/modifier.md): São valores providos por um efeito que são aplicados à um cálculo e podem ser positivos ou negativos
+- [Modificador](https://apotheosiscardgame.com/gameplay/modifier.md): São valores providos por um efeito que são aplicados a um cálculo e podem ser positivos ou negativos.
 - [Teste](https://apotheosiscardgame.com/gameplay/check.md): Um teste é uma ação realizada por um personagem para determinar se ele consegue ou não alcançar um determinado objetivo ou superar um desafio.
 - [Dado](https://apotheosiscardgame.com/gameplay/die.md): Inúmeras ações no jogo são resolvidas através da rolagem de dados, incluindo testes, ataques, efeitos, entre outros.
 - [Passagem do Tempo](https://apotheosiscardgame.com/gameplay/time.md): Método utilizado para controlar a passagem das horas e a data em jogo.
 - [Coleção](https://apotheosiscardgame.com/gameplay/collection.md): Elemento importante na organização e identificação das cartas em um jogo de cartas colecionáveis, ela representa o conjunto de cartas que foram lançadas juntas, geralmente com uma temática ou história em comum.
 - [Raridade](https://apotheosiscardgame.com/gameplay/rarity.md): A raridade de uma carta é indicada por uma caixinha colorida com uma letra capitalizada, no canto inferior direito. Ela influencia na qualidade da carta, geralmente com um efeito ou status melhores.
 - [Lignum](https://apotheosiscardgame.com/gameplay/lignum.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [Summus](https://apotheosiscardgame.com/gameplay/summus.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [Linha de Montagem](https://apotheosiscardgame.com/gameplay/assembly-line.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [Limbo](https://apotheosiscardgame.com/gameplay/limbo.md): Limbo é um estado de jogo onde um componente está temporariamente fora de jogo.

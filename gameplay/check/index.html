@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847144542815">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847150764864">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -41,14 +41,14 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.6.0.847144542815" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.847150764864" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.847144542815" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.847150764864" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.847144542815" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.847150764864" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100..900&display=swap" rel="stylesheet">
 
     <!-- Styles -->
     <style>
@@ -69,7 +69,7 @@
         }
 
         div.container {
-            font-family: 'Open Sans', Apotheosis;
+            font-family: 'Noto Sans', Apotheosis;
             max-width: 1530px;
         }
 
@@ -84,6 +84,32 @@
 
         .icon {
             font-weight: normal;
+        }
+
+        .tk-icon {
+            font-weight: normal;
+        }
+
+        .tk-literal {
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .tk-dice > .tk-literal {
+            text-transform: none;
+        }
+
+        .tk-dice {
+            background-color: #e4f1e8;
+            border-radius: 50px;
+            padding: 0px 6px 0px 5px;
+            color: #006558;
+        }
+
+        .tk-dice .tk-literal {
+            letter-spacing: 0px;
+            font-weight: 900;
+            color: #008d7a;
         }
 
         .briefing {
@@ -201,19 +227,10 @@
             background-color: #212121;
             padding: 0px 10px;
             font-weight: 600;
-            /* Corners meet at mid-height; a superellipse between bevel (0) and round (1) gives softly curved points */
             border-radius: 10px / 50%;
             corner-shape: superellipse(0.7);
         }
 
-        .requirement {
-            font-size: 0.8em;
-            color: #F5F5F5;
-            background-color: #5C697A;
-            border-radius: 4px;
-            padding: 0px 8px;
-            font-weight: 550;
-        }
     </style>
 
 
@@ -231,6 +248,7 @@
 
 
     </div>
+
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -290,14 +308,6 @@
                                     <path d="M1.527 13.237a1.75 1.75 0 0 1 0-2.474l9.272-9.273a1.75 1.75 0 0 1 2.475 0l9.272 9.273a1.75 1.75 0 0 1 0 2.474l-9.272 9.272a1.75 1.75 0 0 1-2.475 0Zm1.06-1.414a.25.25 0 0 0 0 .354l9.273 9.272a.25.25 0 0 0 .353 0l9.272-9.272a.25.25 0 0 0 0-.354l-9.272-9.272a.25.25 0 0 0-.353 0Z"/>
                                 </svg>
                                 <span>Ícones</span>
-                            </a>
-                        </li>
-                        <li class="mr-6">
-                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://database.apotheosiscardgame.com/">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
-                                    <path d="M12 1.25c2.487 0 4.773.402 6.466 1.079.844.337 1.577.758 2.112 1.264.536.507.922 1.151.922 1.907v12.987l-.026.013h.026c0 .756-.386 1.4-.922 1.907-.535.506-1.268.927-2.112 1.264-1.693.677-3.979 1.079-6.466 1.079s-4.774-.402-6.466-1.079c-.844-.337-1.577-.758-2.112-1.264C2.886 19.9 2.5 19.256 2.5 18.5h.026l-.026-.013V5.5c0-.756.386-1.4.922-1.907.535-.506 1.268-.927 2.112-1.264C7.226 1.652 9.513 1.25 12 1.25ZM4 14.371v4.116l-.013.013H4c0 .211.103.487.453.817.351.332.898.666 1.638.962 1.475.589 3.564.971 5.909.971 2.345 0 4.434-.381 5.909-.971.739-.296 1.288-.63 1.638-.962.349-.33.453-.607.453-.817h.013L20 18.487v-4.116a7.85 7.85 0 0 1-1.534.8c-1.693.677-3.979 1.079-6.466 1.079s-4.774-.402-6.466-1.079a7.843 7.843 0 0 1-1.534-.8ZM20 12V7.871a7.85 7.85 0 0 1-1.534.8C16.773 9.348 14.487 9.75 12 9.75s-4.774-.402-6.466-1.079A7.85 7.85 0 0 1 4 7.871V12c0 .21.104.487.453.817.35.332.899.666 1.638.961 1.475.59 3.564.972 5.909.972 2.345 0 4.434-.382 5.909-.972.74-.295 1.287-.629 1.638-.96.35-.33.453-.607.453-.818ZM4 5.5c0 .211.103.487.453.817.351.332.898.666 1.638.962 1.475.589 3.564.971 5.909.971 2.345 0 4.434-.381 5.909-.971.739-.296 1.288-.63 1.638-.962.349-.33.453-.607.453-.817 0-.211-.103-.487-.453-.817-.351-.332-.898-.666-1.638-.962-1.475-.589-3.564-.971-5.909-.971-2.345 0-4.434.381-5.909.971-.739.296-1.288.63-1.638.962C4.104 5.013 4 5.29 4 5.5Z"/>
-                                </svg>
-                                <span>Database</span>
                             </a>
                         </li>
     
@@ -375,14 +385,6 @@
                                         <span>Ícones</span>
                                     </a>
                                 </li>
-                                <li class="mr-6">
-                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://database.apotheosiscardgame.com/">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
-                                            <path d="M12 1.25c2.487 0 4.773.402 6.466 1.079.844.337 1.577.758 2.112 1.264.536.507.922 1.151.922 1.907v12.987l-.026.013h.026c0 .756-.386 1.4-.922 1.907-.535.506-1.268.927-2.112 1.264-1.693.677-3.979 1.079-6.466 1.079s-4.774-.402-6.466-1.079c-.844-.337-1.577-.758-2.112-1.264C2.886 19.9 2.5 19.256 2.5 18.5h.026l-.026-.013V5.5c0-.756.386-1.4.922-1.907.535-.506 1.268-.927 2.112-1.264C7.226 1.652 9.513 1.25 12 1.25ZM4 14.371v4.116l-.013.013H4c0 .211.103.487.453.817.351.332.898.666 1.638.962 1.475.589 3.564.971 5.909.971 2.345 0 4.434-.381 5.909-.971.739-.296 1.288-.63 1.638-.962.349-.33.453-.607.453-.817h.013L20 18.487v-4.116a7.85 7.85 0 0 1-1.534.8c-1.693.677-3.979 1.079-6.466 1.079s-4.774-.402-6.466-1.079a7.843 7.843 0 0 1-1.534-.8ZM20 12V7.871a7.85 7.85 0 0 1-1.534.8C16.773 9.348 14.487 9.75 12 9.75s-4.774-.402-6.466-1.079A7.85 7.85 0 0 1 4 7.871V12c0 .21.104.487.453.817.35.332.899.666 1.638.961 1.475.59 3.564.972 5.909.972 2.345 0 4.434-.382 5.909-.972.74-.295 1.287-.629 1.638-.96.35-.33.453-.607.453-.818ZM4 5.5c0 .211.103.487.453.817.351.332.898.666 1.638.962 1.475.589 3.564.971 5.909.971 2.345 0 4.434-.381 5.909-.971.739-.296 1.288-.63 1.638-.962.349-.33.453-.607.453-.817 0-.211-.103-.487-.453-.817-.351-.332-.898-.666-1.638-.962-1.475-.589-3.564-.971-5.909-.971-2.345 0-4.434.381-5.909.971-.739.296-1.288.63-1.638.962C4.104 5.013 4 5.29 4 5.5Z"/>
-                                        </svg>
-                                        <span>Database</span>
-                                    </a>
-                                </li>
         
                             </ul>
                         </nav>
@@ -451,8 +453,8 @@
 <p>Desta forma, os jogadores não podem simplesmente declarar que seus personagens conseguem ou fizeram algo, sendo necessário realizar um teste para determinar o sucesso ou falha da ação.</p>
 <hr>
 <h2 id="realizando-um-teste">Realizando um Teste</h2>
-<p>Quando a narração da ação de um personagem, seja por parte dos jogadores ou por parte do Mestre, chegar a um ponto onde a mera declaração dos resultados daquela ação não forem suficientes, óbvios ou justos, é necessário realizar um teste.</p>
-<p>Primariamente, cabe ao jogador descrever como o personagem sobre seu controle está realizando a ação. Dado a descrição fornecida, o jogador então diz qual será a forma que ele vai jogar este teste, ou seja, qual <a href="/gameplay/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a> e Atributo ele irá usar para realizar aquele teste e o Mestre arbitra se esta forma é apropriada ou não, tendo ele a palavra final sobre a forma do teste conforme a descrição, bem como fornecer opções de como realizar o teste ao jogador, se necessário.</p>
+<p>Quando a narração da ação de um personagem, seja por parte dos jogadores ou por parte do Mestre, chegar a um ponto onde a mera declaração dos resultados daquela ação não for suficiente, óbvia ou justa, é necessário realizar um teste.</p>
+<p>Primariamente, cabe ao jogador descrever como o personagem sob seu controle está realizando a ação. Dada a descrição fornecida, o jogador então diz qual será a forma que ele vai jogar este teste, ou seja, qual <a href="/gameplay/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a> e Atributo ele irá usar para realizar aquele teste e o Mestre arbitra se esta forma é apropriada ou não, tendo ele a palavra final sobre a forma do teste conforme a descrição, bem como fornecer opções de como realizar o teste ao jogador, se necessário.</p>
 <p>Não cabe ao Mestre censurar ou orientar as ideias dos jogadores. Se o jogador decidir por uma forma que o mestre julgar mais complexa ou difícil, ele não deve impedir, e apenas ajustar a dificuldade. Sendo a jogada válida, o Mestre deve aceitar a forma escolhida pelo jogador, mesmo que seja diferente do que ele tinha em mente inicialmente.</p>
 <p>Uma vez definida a forma do teste, o Mestre então decide qual a dificuldade lógica para aquele teste, com base nas informações privilegiadas que ele possui.</p>
 <div class="flex mb-6">
@@ -490,9 +492,9 @@
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Exemplo</h5>
-<p>Um teste de <em>Corrida</em> é geralmente realizado com ( <a href="/gameplay/knowledge/#atletismo"><span class="knowledge"><b>ATLETISMO</b></span></a> + <a href="/gameplay/attributes/"><span class="house"><b>AGI</b></span></a> ), enquanto um teste de <em>Persuasão</em> geralmente é realizado com ( <a href="/gameplay/knowledge/#ast%C3%BAcia"><span class="knowledge"><b>ASTÚCIA</b></span></a> + <a href="/gameplay/attributes/"><span class="house"><b>CAR</b></span></a> ), etc..</p>
-<p>Porém, o jogador pode contra-argumentar que nesta situação ele está tentando &quot;<em>convencer um NPC que é atleta, a não abandonar o esporte</em>&quot;, e portanto ele vai usar ( <a href="/gameplay/knowledge/#atletismo"><span class="knowledge"><b>ATLETISMO</b></span></a> + <a href="/gameplay/attributes/"><span class="house"><b>INT</b></span></a> ) para um teste de <em>Persuasão</em>, ao explicar que irá usar seus conhecimentos de <a href="/gameplay/knowledge/#atletismo"><span class="knowledge"><b>ATLETISMO</b></span></a> combinado com lógica (<a href="/gameplay/attributes/"><span class="house"><b>INT</b></span></a>) para apoiar sua tentativa de convencimento do NPC.</p>
-<p>O Mestre então, julga a dificuldade do teste com base na forma. Ele pode decidir que para persuadir o alvo por mentiras e manipulações, o teste de <em>Persuasão</em> tradicional é mais difícil, mas para persuadir o alvo por meio de argumentos lógicos sobre um tema que o NPC ama, o teste de <em>Persuasão</em> alternativo é mais fácil, ou vice-versa, dependendo do contexto da situação.</p>
+<p>Um teste de <em>Corrida</em> é geralmente realizado com ( <a href="/gameplay/knowledge/#atletismo"><span class="knowledge"><b>ATLETISMO</b></span></a> + <a href="/gameplay/attributes/"><span class="house"><b>AGI</b></span></a> ), enquanto um teste de <em>Persuasão</em> geralmente é realizado com ( <a href="/gameplay/knowledge/#ast%C3%BAcia"><span class="knowledge"><b>ASTÚCIA</b></span></a> + <a href="/gameplay/attributes/"><span class="house"><b>CAR</b></span></a> ), etc.</p>
+<p>Porém, o jogador pode contra-argumentar que nesta situação ele está tentando &quot;<em>convencer um NPC que é atleta a não abandonar o esporte</em>&quot;, e portanto ele vai usar ( <a href="/gameplay/knowledge/#atletismo"><span class="knowledge"><b>ATLETISMO</b></span></a> + <a href="/gameplay/attributes/"><span class="house"><b>INT</b></span></a> ) para um teste de <em>Persuasão</em>, ao explicar que irá usar seu conhecimento de <a href="/gameplay/knowledge/#atletismo"><span class="knowledge"><b>ATLETISMO</b></span></a> combinado com lógica (<a href="/gameplay/attributes/"><span class="house"><b>INT</b></span></a>) para apoiar sua tentativa de convencimento do NPC.</p>
+<p>O Mestre, então, julga a dificuldade do teste com base na forma. Ele pode decidir que para persuadir o alvo por mentiras e manipulações, o teste de <em>Persuasão</em> tradicional é mais difícil, mas para persuadir o alvo por meio de argumentos lógicos sobre um tema que o NPC ama, o teste de <em>Persuasão</em> alternativo é mais fácil, ou vice-versa, dependendo do contexto da situação.</p>
 <p>Assim, um jogador experiente ou criativo consegue adaptar a forma de realizar uma ação para as capacidades de seu personagem, e um teste que tradicionalmente seria realizado com um conhecimento específico que talvez o seu personagem nem possua, pode ser realizado com outro conhecimento que ele domina, desde que o jogador consiga justificar sua escolha de forma coerente.</p>
         </div>
     </div>
@@ -590,7 +592,7 @@
 </div>
 </retype-table>
 <blockquote>
-<p>Para o nível <strong>4</strong> em diante, o bônus é de <span class="positive">+10</span> para cada nível adicional, ou seja, nível 4 = 20, nível 5 = 30, etc..</p>
+<p>Para o nível <strong>4</strong> em diante, o bônus é de <span class="positive">+10</span> para cada nível adicional, ou seja, nível 4 = 20, nível 5 = 30, etc.</p>
 </blockquote>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
@@ -642,7 +644,7 @@
    </doc-panel>
    <doc-panel id="bônus" collapsed>
        <template #title>Bônus</template>
-<p>São todos os <a href="/gameplay/bonus/">bônus</a> ou penalidades provenientes regras e de fatores externos, como o ambiente, a situação, as condições do personagem, etc.</p>
+<p>São todos os <a href="/gameplay/bonus/">bônus</a> ou penalidades provenientes de regras e de fatores externos, como o ambiente, a situação, as condições do personagem, etc.</p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-secondary"></div>
     <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
@@ -687,8 +689,8 @@
    </doc-panel>
    <doc-panel id="dado" collapsed>
        <template #title>Dado</template>
-<p>O teste é resolvido por meio de uma rolagem de <a href="/gameplay/die/">dados</a>, onde o jogador rola um dado de 6 faces (<b>(1D6)</b>) e soma o resultado ao total do <a href="/gameplay/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a>, Atributo, Modificadores e Bônus para obter o resultado final do teste.</p>
-<p>Se o teste for de um <a href="/gameplay/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a> que o personagem não possui, ele deve rolar .</p>
+<p>O teste é resolvido por meio de uma rolagem de <a href="/gameplay/die/">dados</a>, onde o jogador rola um dado de 6 faces (<span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">1</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">6</span></span></span>) e soma o resultado ao total do <a href="/gameplay/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a>, Atributo, Modificadores e Bônus para obter o resultado final do teste.</p>
+<p>Se o teste for de um <a href="/gameplay/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a> que o personagem não possui, ele deve rolar <span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">1</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">3</span></span></span>.</p>
 <p>Na rolagem do dado do teste, leva-se em conta a regra de <a href="/gameplay/die/#dados-extras-rolagem-perfeita">rolagem perfeita</a>.</p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
@@ -714,8 +716,8 @@
 <p>A dificuldade é um elemento fundamental para determinar o nível de desafio de um teste, e deve ser escolhida de forma a refletir a dificuldade real da ação ou situação que está sendo testada. Dificuldades mais baixas indicam tarefas mais fáceis, enquanto dificuldades mais altas indicam tarefas mais difíceis.</p>
 <h5 id="teste-oculto">Teste Oculto</h5>
 <p>Em alguns casos, o Mestre pode optar por manter a dificuldade e/ou o nome de um teste ocultos dos jogadores, revelando-os apenas após a rolagem do teste, ou mesmo nunca revelando-os.</p>
-<p>Isso pode ser usado para criar suspense, surpresa ou incerteza em situações onde os jogadores não têm informações suficientes para avaliar a dificuldade da tarefa ou sequer se ela é possível, bem como quando o teste envolve um elemento secretos da narrativa ou descobertas.</p>
-<p>Uma verificação se algum personagem percebeu um objeto relevante, se lembrou ou notou algo, etc.. Também é útil quando não é possível para os personagens saberem se o teste escolhido realmente funcionaria, por exemplo, quando tentando tirar uma informação de um NPC e o Mestre não pode revelar se ele realmente sabe tem aquela informação, pois isso entregaria partes da narrativa.</p>
+<p>Isso pode ser usado para criar suspense, surpresa ou incerteza em situações onde os jogadores não têm informações suficientes para avaliar a dificuldade da tarefa ou sequer se ela é possível, bem como quando o teste envolve um elemento secreto da narrativa ou descobertas.</p>
+<p>Uma verificação se algum personagem percebeu um objeto relevante, se lembrou ou notou algo, etc. Também é útil quando não é possível para os personagens saberem se o teste escolhido realmente funcionaria, por exemplo, quando tentando tirar uma informação de um NPC e o Mestre não pode revelar se ele realmente tem aquela informação, pois isso entregaria partes da narrativa.</p>
 <h5 id="teste-de-qualidade">Teste de Qualidade</h5>
 <p>Em alguns casos, não faz sentido ou não é necessário estabelecer uma dificuldade para um teste, e portanto o teste é considerado como uma medida de competência. Nesses casos o valor obtido no teste é tratado como a <strong>qualidade</strong> da ação.</p>
 <div class="flex mb-6">
@@ -797,7 +799,7 @@
 <p>Quando um personagem falhar em um teste, aquele teste está bloqueado para ele. Falhar em um teste, significa que o personagem já tentou tudo que estava ao seu alcance para realizar aquela ação, não há mais nada que possa ser feito, e o próprio personagem está convencido disto, pois na primeira tentativa ele deu o seu melhor e percebeu que não sabe ou não consegue realizar a ação.</p>
 <p>Se o personagem não conseguiu destrancar a porta de uma casa, ele não pode mais tentar destrancar aquela mesma porta, se ele falhou em tentar escalar uma muralha, ele não pode mais tentar escalar aquela mesma muralha.</p>
 <h4 id="reteste">Reteste</h4>
-<p>Sendo este um jogo de progressão de personagem, dado uma passagem de tempo de <u>pelo menos 1 dia</u>, combinado com uma <u>mudança na construção do personagem</u>, como mudança de <a href="/cards/class/"><span class="class"><b>CLASSE</b></span></a>, uma carta que possa ser advogada como bônus significativo, ou a aquisição de <a href="/gameplay/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a>, isso deve ser interpretado como uma mudança expressiva no personagem, permitindo uma nova tentativa.</p>
+<p>Sendo este um jogo de progressão de personagem, dada uma passagem de tempo de <u>pelo menos 1 dia</u>, combinado com uma <u>mudança na construção do personagem</u>, como mudança de <a href="/cards/class/"><span class="class"><b>CLASSE</b></span></a>, uma carta que possa ser advogada como bônus significativo, ou a aquisição de <a href="/gameplay/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a>, isso deve ser interpretado como uma mudança expressiva no personagem, permitindo uma nova tentativa.</p>
 <hr>
 <h2 id="testes-em-série">Testes em Série</h2>
 <p>Em algumas situações, a ação descrita pelo jogador pode envolver a realização de uma série de testes relacionados, onde o resultado de um teste pode influenciar ou determinar o próximo teste a ser realizado.</p>
@@ -846,13 +848,13 @@
 <em>Saltar para o Telhado</em>( <a href="/gameplay/attributes/"><span class="house"><b>AGI</b></span></a> ➜ <strong>10</strong> )</p>
 </blockquote>
 <p>Neste caso, se falhar no primeiro teste, o personagem não consegue escalar o muro, e portanto não tem a oportunidade de realizar o teste de salto para o telhado.</p>
-<p>Porém, se obter um sucesso de nível 1 por exemplo, o personagem poderia escalar o muro verticalmente e horizontalmente obtendo uma posição ideal para saltar no telhado, diminuindo assim a dificuldade do segundo teste, que já havia sido estabelecida.</p>
+<p>Porém, se obtiver um sucesso de nível 1 por exemplo, o personagem poderia escalar o muro verticalmente e horizontalmente obtendo uma posição ideal para saltar no telhado, diminuindo assim a dificuldade do segundo teste, que já havia sido estabelecida.</p>
         </div>
     </div>
 </div>
 <hr>
 <h2 id="teste-composto">Teste Composto</h2>
-<p>É comum que a ação ação descrita pelo jogador envolva uma ou mais ações que a lógica dita que requerem o uso de múltiplos conhecimentos.</p>
+<p>É comum que a ação descrita pelo jogador envolva uma ou mais ações que a lógica dita que requerem o uso de múltiplos conhecimentos.</p>
 <p>Um teste composto é um teste que envolve a realização de múltiplos testes individuais, onde cada teste representa uma parte ou aspecto diferente da ação descrita pelo jogador. O resultado final do teste composto é determinado por meio da combinação dos resultados dos testes individuais, de acordo com as regras estabelecidas para o teste composto em questão.</p>
 <p>Diferente de uma sequência de testes, onde cada teste subsequente é condicionado ao resultado do teste anterior e a falha em um teste pode impedir a realização dos testes subsequentes, em um teste composto todos os testes são realizados independentemente, e o resultado final é uma combinação dos resultados individuais.</p>
 <div class="flex mb-6">
@@ -873,7 +875,7 @@
 <blockquote>
 <p><em>Acertar Falha da Armadura</em>( <a href="/gameplay/attributes/"><span class="house"><b>PER</b></span></a> ) + <em>Matar Alvo</em>( <a href="/gameplay/attributes/"><span class="house"><b>FOR</b></span></a> ) ➜ <strong>28</strong></p>
 </blockquote>
-<p>Neste caso, o estrago final causado é determinado por quão bem o personagem encaixou o golpe na falha da armadura, bem como pela força e habilidade do personagem ao tentar matar o alvo, sendo que o Mestre expos que 28 causaria a morte do alvo.</p>
+<p>Neste caso, o estrago final causado é determinado por quão bem o personagem encaixou o golpe na falha da armadura, bem como pela força e habilidade do personagem ao tentar matar o alvo, sendo que o Mestre expôs que 28 causaria a morte do alvo.</p>
         </div>
     </div>
 </div>
@@ -895,7 +897,7 @@
 <blockquote>
 <p><em>Equilíbrio</em>( <a href="/gameplay/attributes/"><span class="house"><b>AGI</b></span></a> ) + <em>Correr</em>( <a href="/gameplay/knowledge/#atletismo"><span class="knowledge"><b>ATLETISMO</b></span></a> + <a href="/gameplay/attributes/"><span class="house"><b>AGI</b></span></a> )</p>
 </blockquote>
-<p>Neste caso, a velocidade de travessia é determinado pela composição do equilíbrio e velocidade do personagem.</p>
+<p>Neste caso, a velocidade de travessia é determinada pela composição do equilíbrio e velocidade do personagem.</p>
         </div>
     </div>
 </div>
@@ -903,9 +905,9 @@
 <h2 id="teste-em-conjunto">Teste em Conjunto</h2>
 <p>Um teste em que múltiplos personagens estão envolvidos, colaborando para alcançar um objetivo comum.</p>
 <p>O resultado de um teste em conjunto é determinado por meio da comparação dos resultados individuais dos personagens envolvidos, ou pela soma dos resultados individuais, dependendo do contexto e da natureza do teste.</p>
-<p>Cada jogador descreve e realiza o teste para seu personagem, individualmente, sendo que se possível dado a situação, cada envolvido pode fazer o teste da sua própria forma.</p>
+<p>Cada jogador descreve e realiza o teste para seu personagem, individualmente, sendo que se possível dada a situação, cada envolvido pode fazer o teste da sua própria forma.</p>
 <h3 id="teste-em-conjunto-de-resultado-combinado">Teste em Conjunto de Resultado Combinado</h3>
-<p>Em um teste combinado, os resultados individuais dos personagens envolvidos são somados para determinar o resultado final do teste. Este tipo de teste é comum em situações onde os personagens estão colaborando para alcançar um objetivo comum, como levantar um objeto pesado ou defender uma posição contra um ataque, de forma que a soma das ações conjuntas dos envolvidos adicionam integralmente para o objetivo final.</p>
+<p>Em um teste combinado, os resultados individuais dos personagens envolvidos são somados para determinar o resultado final do teste. Este tipo de teste é comum em situações onde os personagens estão colaborando para alcançar um objetivo comum, como levantar um objeto pesado ou defender uma posição contra um ataque, de forma que a soma das ações conjuntas dos envolvidos adiciona integralmente para o objetivo final.</p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-secondary"></div>
     <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
@@ -938,7 +940,7 @@
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Exemplo 2</h5>
-<p><em>Corrida de Revesamento</em>: vários personagens estão participando de uma corrida de revezamento, e o resultado final do teste é a soma dos resultados individuais de cada personagem, representando o tempo total da equipe para completar a corrida.</p>
+<p><em>Corrida de Revezamento</em>: vários personagens estão participando de uma corrida de revezamento, e o resultado final do teste é a soma dos resultados individuais de cada personagem, representando o tempo total da equipe para completar a corrida.</p>
         </div>
     </div>
 </div>
@@ -978,21 +980,21 @@
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Exemplo 2</h5>
-<p><em>Invasão Furtiva</em>: vários personagens estão tentando realizar uma invasão furtiva de um quartel. Se qualquer um dos personagens não for furtivo o suficiente, os guardas do local vão detectar o grupo so movendo pelo terreno.</p>
+<p><em>Invasão Furtiva</em>: vários personagens estão tentando realizar uma invasão furtiva de um quartel. Se qualquer um dos personagens não for furtivo o suficiente, os guardas do local vão detectar o grupo se movendo pelo terreno.</p>
         </div>
     </div>
 </div>
 <hr>
 <h2 id="competição">Competição</h2>
 <p>Em uma competição, os personagens envolvidos estão competindo entre si para alcançar um objetivo específico, e o resultado é determinado por meio da comparação dos resultados de testes realizados pelas partes envolvidas.</p>
-<p>É comum em situações onde os personagens estão competindo por um recurso limitado, em uma corrida, um duelo, etc..</p>
-<p>Sendo que uma competição pode envolver varias partes, seja essas partes personagens individuais ou grupos de personagens, usando o resultado do testes em conjunto para a comparação da competição.</p>
+<p>É comum em situações onde os personagens estão competindo por um recurso limitado, em uma corrida, um duelo, etc.</p>
+<p>Sendo que uma competição pode envolver várias partes, sejam essas partes personagens individuais ou grupos de personagens, usando o resultado dos testes em conjunto para a comparação da competição.</p>
 <p>Uma competição usa a seguinte notação:</p>
 <blockquote>
 <p><em>Nome</em>( <a href="/gameplay/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a> + <strong>Atributo</strong> + <strong>Modificadores</strong> + <strong>Bônus</strong>  ✖  <a href="/gameplay/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a> + <strong>Atributo</strong> + <strong>Modificadores</strong> + <strong>Bônus</strong> )</p>
 <hr>
 <ul>
-<li>Ex. 1: <em>Luta de Box</em>( <a href="/gameplay/knowledge/#atletismo"><span class="knowledge"><b>ATLETISMO</b></span></a> + <a href="/gameplay/attributes/"><span class="house"><b>FOR</b></span></a> ✖ <a href="/gameplay/knowledge/#atletismo"><span class="knowledge"><b>ATLETISMO</b></span></a> + <a href="/gameplay/attributes/"><span class="house"><b>CON</b></span></a> )</li>
+<li>Ex. 1: <em>Luta de Boxe</em>( <a href="/gameplay/knowledge/#atletismo"><span class="knowledge"><b>ATLETISMO</b></span></a> + <a href="/gameplay/attributes/"><span class="house"><b>FOR</b></span></a> ✖ <a href="/gameplay/knowledge/#atletismo"><span class="knowledge"><b>ATLETISMO</b></span></a> + <a href="/gameplay/attributes/"><span class="house"><b>CON</b></span></a> )</li>
 <li>Ex. 2: <em>Acertar Pedrada</em>( <a href="/gameplay/attributes/"><span class="house"><b>PER</b></span></a> ✖ <a href="/gameplay/attributes/"><span class="house"><b>AGI</b></span></a> )</li>
 </ul>
 </blockquote>
@@ -1010,7 +1012,7 @@
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Exemplo 1 - Teste Simples</h5>
-<p><em>Luta de Box</em>: dois personagens estão competindo em uma luta de boxe, e o resultado do teste de cada personagem é comparado para determinar quem venceu a luta, com base em quem teve o maior resultado. Pode se realizar um teste de competiçao por round se preferirem uma luta longa, onde em cada round os jogadores descrevem suas ações e estratégias para aquele round, determinando assim a forma do teste de cada round.</p>
+<p><em>Luta de Boxe</em>: dois personagens estão competindo em uma luta de boxe, e o resultado do teste de cada personagem é comparado para determinar quem venceu a luta, com base em quem teve o maior resultado. Pode-se realizar um teste de competição por round se preferirem uma luta longa, onde em cada round os jogadores descrevem suas ações e estratégias para aquele round, determinando assim a forma do teste de cada round.</p>
         </div>
     </div>
 </div>
@@ -1046,8 +1048,8 @@
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Exemplo 3 - Teste em Conjunto</h5>
-<p><em>Cabo de Guerra</em>: dois grupos de personagens estão participando de um cabo de guerra, o resultado do Teste em Conjunto de Valor Combinado de cada grupo é comparada para decidir qual grupo venceu a competição.</p>
-<p><em>Corrida de Revesamento</em>: vários grupos de personagens estão participando de uma corrida de revezamento, o resultado do Teste em Conjunto de Valor Combinado de cada grupo é comparada para decidir qual grupo venceu a corrida.</p>
+<p><em>Cabo de Guerra</em>: dois grupos de personagens estão participando de um cabo de guerra, o resultado do Teste em Conjunto de Resultado Combinado de cada grupo é comparado para decidir qual grupo venceu a competição.</p>
+<p><em>Corrida de Revezamento</em>: vários grupos de personagens estão participando de uma corrida de revezamento, o resultado do Teste em Conjunto de Resultado Combinado de cada grupo é comparado para decidir qual grupo venceu a corrida.</p>
         </div>
     </div>
 </div>
@@ -1085,7 +1087,7 @@
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Exemplo 2 - Os dois empatam</h5>
-<p>Em um <em>Luta de Box</em> pode significar que ninguém conseguiu acertar um golpe significativo.</p>
+<p>Em uma <em>Luta de Boxe</em> pode significar que ninguém conseguiu acertar um golpe significativo.</p>
         </div>
     </div>
 </div>
@@ -1093,7 +1095,7 @@
 <h2 id="recursos-em-testes">Recursos em Testes</h2>
 <p>Personagens podem adicionar cartas de recurso em testes, para melhorar as condições do teste, para receber bônus adicionais, para tentar garantir o sucesso do teste, ou para evitar a falha do teste.</p>
 <p>Para isso, o jogador deve descartar uma quantidade de cartas de recurso do <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a> do Herói, ou do anexo do <a href="/cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a>, podendo combinar diferentes recursos para um mesmo teste, sendo que cada tipo de recurso tem uma função diferente, e deve ser usado em um momento específico do teste, como descrito a seguir.</p>
-<p>Se o recurso descartado for do mesmo <a href="/gameplay/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a> do teste (incluindo Livre), ele adiciona o dobro do se valor. Um recurso de ( <a href="/gameplay/knowledge/#arcano"><span class="knowledge"><b>ARCANO</b></span></a> ➜ <strong>2</strong> ) de valor igual a <strong>5</strong>, para um teste de <a href="/gameplay/knowledge/#arcano"><span class="knowledge"><b>ARCANO</b></span></a>, contaria como <strong>10</strong>.</p>
+<p>Se o recurso descartado for do mesmo <a href="/gameplay/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a> do teste (incluindo Livre), ele adiciona o dobro do seu valor. Um recurso de ( <a href="/gameplay/knowledge/#arcano"><span class="knowledge"><b>ARCANO</b></span></a> ➜ <strong>2</strong> ) de valor igual a <strong>5</strong>, para um teste de <a href="/gameplay/knowledge/#arcano"><span class="knowledge"><b>ARCANO</b></span></a>, contaria como <strong>10</strong>.</p>
 <p>Acompanhe o seguinte exemplo:</p>
 <blockquote>
 <p><em>O personagem está tentando destrancar a porta de uma loja.</em><br />
@@ -1107,7 +1109,7 @@
 <blockquote>
 <p>O personagem vai usar as experiências vividas para superar o desafio do teste. Garantindo que, pelo conhecimento adquirido, ele sabe exatamente o que fazer para superar o desafio.</p>
 </blockquote>
-<p>Descarte um a quantidade de <a href="/cards/skills/"><span class="skill"><b>XP</b></span></a> maior ou igual a dificuldade do teste para garantir o sucesso do teste, não sendo mais necessário realizar a rolagem.</p>
+<p>Descarte uma quantidade de <a href="/cards/skills/"><span class="skill"><b>XP</b></span></a> maior ou igual à dificuldade do teste para garantir o sucesso do teste, não sendo mais necessário realizar a rolagem.</p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-secondary"></div>
     <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
@@ -1133,7 +1135,7 @@
     <span>Antes de rolar os dados</span>
 </span></template>
 <blockquote>
-<p>O personagem vai usar o destino, a sorte, o acaso ou a benção dos deuses para facilitar o teste.</p>
+<p>O personagem vai usar o destino, a sorte, o acaso ou a bênção dos deuses para facilitar o teste.</p>
 </blockquote>
 <p>Descarte uma quantidade de <a href="/cards/event/"><span class="event"><b>DESTINO</b></span></a> para diminuir a dificuldade do teste naquela quantidade.</p>
 <div class="flex mb-6">
@@ -1184,9 +1186,9 @@
     </div>
 </div>
    </doc-panel>
-   <doc-panel id="span-classfillspan-classitembpreçobspancardsitemmdspan-badge-for-falhar-no-teste" collapsed>
+   <doc-panel id="span-classfillspan-classitembpreçobspancardsitemmdspan-badge-se-falhar-no-teste" collapsed>
        <template #title><span class="fill"><a href="/cards/item/"><span class="item"><b>PREÇO</b></span></a></span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-primary-text bg-badge-primary border border-badge-primary-border h-6 px-2 text-xs rounded-md">
-    <span>For falhar no teste</span>
+    <span>Se falhar no teste</span>
 </span></template>
 <blockquote>
 <p>Também chamado de <em>&quot;comprar o teste&quot;</em>, esta é uma última medida caso o personagem esteja prestes a falhar no teste, logo após rolar os dados e obter o resultado final, ele então, usando a filosofia de que &quot;<em>dinheiro não resolve apenas se for pouco</em>&quot;, vai usar seus recursos financeiros para tentar comprar o sucesso do teste.</p>
@@ -1261,7 +1263,7 @@
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Exemplo 4</h5>
-<p><em>Queda Livre</em>: um personagem está caindo de uma altura significativa. Ele tenta um teste de <em>Acrobacia</em> para agarrar em um galho de árvore, mas falha, e ele não consegue se segurar. Os jogadores chegam a conclusão que não tem como pagar este teste, a lógica da situação não permite, e o personagem acaba caindo.</p>
+<p><em>Queda Livre</em>: um personagem está caindo de uma altura significativa. Ele tenta um teste de <em>Acrobacia</em> para agarrar em um galho de árvore, mas falha, e ele não consegue se segurar. Os jogadores chegam à conclusão de que não tem como pagar este teste, a lógica da situação não permite, e o personagem acaba caindo.</p>
         </div>
     </div>
 </div>
@@ -1385,8 +1387,8 @@
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-10-17T18:57:17" title="2026-10-17" data-absolute-label="Last updated on 2026-10-17 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-10-17 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
-                        Last updated on 2026-10-17 by Bruno Caxito
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-11-04T20:39:00" title="2026-11-04" data-absolute-label="Last updated on 2026-11-04 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-11-04 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                        Last updated on 2026-11-04 by Bruno Caxito
                     </time>
                 </div>
 

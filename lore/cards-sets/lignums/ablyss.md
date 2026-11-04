@@ -6,8 +6,8 @@ Esta seção ainda não foi completamente revisada. Algumas informações podem 
 
 Sheol; Hades; Inferno; Jahannam; Naraka; Hel;
 
-Estas habilidades ao serem ativadas, fabrica uma evocação falsa, modificada conforma a magia que a criou e a invoca no tabuleiro.
+Estas habilidades, ao serem ativadas, fabricam uma evocação falsa, modificada conforme a magia que a criou, e a invocam no tabuleiro.
 
-Diferente das evocações, os Ablyss não são corpos feitos de éter transformado em matéria temporária, mas sim de matéria escura extraída do abismo, temporariamente transformada em uma matéria semelhante ás das evocações, mas de coloração oposta, preta, devido à matéria-prima utilizada não ser capaz reproduzir de forma exata o princípio das evocações.
+Diferente das evocações, os Ablyss não são corpos feitos de éter transformado em matéria temporária, mas sim de matéria escura extraída do abismo, temporariamente transformada em uma matéria semelhante à das evocações, mas de coloração oposta, preta, devido à matéria-prima utilizada não ser capaz de reproduzir de forma exata o princípio das evocações.
 
 ---

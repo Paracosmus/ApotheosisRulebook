@@ -6,7 +6,7 @@ Esta seção ainda não foi completamente revisada. Algumas informações podem 
 
 > As classes são as especializações do personagem, representando o treinamento e a prática de habilidades específicas bem como seu ofício. Em um patamar narrativo, representam as escolhas profissionais ou de interesse de estudo daquela pessoa.
 
-São os caminhos evolutivos escolhidos pelo personagem. Sua função é principalmente a de adicionar e aprimorar capacidades do personagem. Cada [<span class="class"><b>CLASSE</b></span>](/cards/class.md) possui um caminho, que é uma linha de evolução, e um nível, que indica o quão avançado o personagem está naquela caminho.
+São os caminhos evolutivos escolhidos pelo personagem. Sua função é principalmente a de adicionar e aprimorar capacidades do personagem. Cada [<span class="class"><b>CLASSE</b></span>](/cards/class.md) possui um caminho, que é uma linha de evolução, e um nível, que indica o quão avançado o personagem está naquele caminho.
 
 Cada personagem pode possuir até 3 cartas de [<span class="class"><b>CLASSE</b></span>](/cards/class.md) em sua [<span class="main"><b>FICHA</b></span>](/hero/table/sheet.md), que são adquiridas conforme as regras.
 
@@ -54,7 +54,7 @@ Os 20 caminhos são:
 |     | Guerreiros, espadachins                            |
 |      | Religiosos, sacerdotes, clérigos                   |
 |      | Arqueiros, pistoleiros, atiradores                 |
-|     | Militares, mercenários, policias, soldados         |
+|     | Militares, mercenários, policiais, soldados        |
 |       | Bárbaros, selvagens, domadores, párias             |
 |      | Eremitas, andarilhos, buscadores, filósofos        |
 |       | Comerciantes, jogadores, trapaceiros, mercadores   |
@@ -76,7 +76,7 @@ Os 20 caminhos são:
 
 Para adicionar uma nova [<span class="class"><b>CLASSE</b></span>](/cards/class.md), o personagem precisa estar em um local de [<span class="class"><b>TAVERNA</b></span>](/gameplay/stack/tavern.md) que permita acesso à carta, e então sacrificar seu turno.
 
-Selecionar então, uma carta acessível, de um caminho que não possua e **enterre 5 cartas de recurso do mesmo nível** da carta selecionada.
+Selecione, então, uma carta acessível de um caminho que não possua e **enterre 5 cartas de recurso do mesmo nível** da carta selecionada.
 
 A [<span class="class"><b>CLASSE</b></span>](/cards/class.md) deve então ser enviada para um espaço disponível na sua [<span class="main"><b>MESA</b></span>](/hero/table/). Se não houver espaços disponíveis, o personagem deve escolher uma de suas cartas de [<span class="class"><b>CLASSE</b></span>](/cards/class.md) na [<span class="main"><b>FICHA</b></span>](/hero/table/sheet.md) e colocar a nova carta em seu lugar. A carta anterior é descartada para o [<span class="main"><b>ENTREPOSTO</b></span>](/gameplay/stack/trading-post.md), levando consigo seus anexos, contadores e demais componentes.
 
@@ -84,7 +84,7 @@ A [<span class="class"><b>CLASSE</b></span>](/cards/class.md) deve então ser
 
 ## <span class="class">Progredir</span>
 
-Se o personagem possuir em sua [<span class="main"><b>FICHA</b></span>](/hero/table/sheet.md), uma [<span class="class"><b>CLASSE</b></span>](/cards/class.md) do mesmo caminho de uma outra [<span class="class"><b>CLASSE</b></span>](/cards/class.md) desejada e nível imediatamente inferior ou igual, para adquirir esta carta, siga as mesmas instruções em [Adquirir](/cards/class.md#adquirir), porém no momento de enterrar as cartas de custo, ao invés, enterre sua carta de [<span class="class"><b>CLASSE</b></span>](/cards/class.md) de mesmo caminho e **3** cartas de recurso.
+Se o personagem possuir em sua [<span class="main"><b>FICHA</b></span>](/hero/table/sheet.md) uma [<span class="class"><b>CLASSE</b></span>](/cards/class.md) do mesmo caminho de uma outra [<span class="class"><b>CLASSE</b></span>](/cards/class.md) desejada e de nível imediatamente inferior ou igual, para adquirir esta carta siga as mesmas instruções em [Adquirir](/cards/class.md#adquirir); porém, no momento de enterrar as cartas de custo, em vez disso enterre sua carta de [<span class="class"><b>CLASSE</b></span>](/cards/class.md) de mesmo caminho e **3** cartas de recurso.
 
 A progressão é uma [substituição](/glossary.md#outros): a nova carta ocupa o espaço da anterior e herda seus anexos, contadores e demais componentes.
 

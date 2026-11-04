@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847144542815">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847150764864">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -41,14 +41,14 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.6.0.847144542815" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.847150764864" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.847144542815" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.847150764864" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.847144542815" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.847150764864" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100..900&display=swap" rel="stylesheet">
 
     <!-- Styles -->
     <style>
@@ -69,7 +69,7 @@
         }
 
         div.container {
-            font-family: 'Open Sans', Apotheosis;
+            font-family: 'Noto Sans', Apotheosis;
             max-width: 1530px;
         }
 
@@ -84,6 +84,32 @@
 
         .icon {
             font-weight: normal;
+        }
+
+        .tk-icon {
+            font-weight: normal;
+        }
+
+        .tk-literal {
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .tk-dice > .tk-literal {
+            text-transform: none;
+        }
+
+        .tk-dice {
+            background-color: #e4f1e8;
+            border-radius: 50px;
+            padding: 0px 6px 0px 5px;
+            color: #006558;
+        }
+
+        .tk-dice .tk-literal {
+            letter-spacing: 0px;
+            font-weight: 900;
+            color: #008d7a;
         }
 
         .briefing {
@@ -201,19 +227,10 @@
             background-color: #212121;
             padding: 0px 10px;
             font-weight: 600;
-            /* Corners meet at mid-height; a superellipse between bevel (0) and round (1) gives softly curved points */
             border-radius: 10px / 50%;
             corner-shape: superellipse(0.7);
         }
 
-        .requirement {
-            font-size: 0.8em;
-            color: #F5F5F5;
-            background-color: #5C697A;
-            border-radius: 4px;
-            padding: 0px 8px;
-            font-weight: 550;
-        }
     </style>
 
 
@@ -231,6 +248,7 @@
 
 
     </div>
+
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -290,14 +308,6 @@
                                     <path d="M1.527 13.237a1.75 1.75 0 0 1 0-2.474l9.272-9.273a1.75 1.75 0 0 1 2.475 0l9.272 9.273a1.75 1.75 0 0 1 0 2.474l-9.272 9.272a1.75 1.75 0 0 1-2.475 0Zm1.06-1.414a.25.25 0 0 0 0 .354l9.273 9.272a.25.25 0 0 0 .353 0l9.272-9.272a.25.25 0 0 0 0-.354l-9.272-9.272a.25.25 0 0 0-.353 0Z"/>
                                 </svg>
                                 <span>Ícones</span>
-                            </a>
-                        </li>
-                        <li class="mr-6">
-                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://database.apotheosiscardgame.com/">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
-                                    <path d="M12 1.25c2.487 0 4.773.402 6.466 1.079.844.337 1.577.758 2.112 1.264.536.507.922 1.151.922 1.907v12.987l-.026.013h.026c0 .756-.386 1.4-.922 1.907-.535.506-1.268.927-2.112 1.264-1.693.677-3.979 1.079-6.466 1.079s-4.774-.402-6.466-1.079c-.844-.337-1.577-.758-2.112-1.264C2.886 19.9 2.5 19.256 2.5 18.5h.026l-.026-.013V5.5c0-.756.386-1.4.922-1.907.535-.506 1.268-.927 2.112-1.264C7.226 1.652 9.513 1.25 12 1.25ZM4 14.371v4.116l-.013.013H4c0 .211.103.487.453.817.351.332.898.666 1.638.962 1.475.589 3.564.971 5.909.971 2.345 0 4.434-.381 5.909-.971.739-.296 1.288-.63 1.638-.962.349-.33.453-.607.453-.817h.013L20 18.487v-4.116a7.85 7.85 0 0 1-1.534.8c-1.693.677-3.979 1.079-6.466 1.079s-4.774-.402-6.466-1.079a7.843 7.843 0 0 1-1.534-.8ZM20 12V7.871a7.85 7.85 0 0 1-1.534.8C16.773 9.348 14.487 9.75 12 9.75s-4.774-.402-6.466-1.079A7.85 7.85 0 0 1 4 7.871V12c0 .21.104.487.453.817.35.332.899.666 1.638.961 1.475.59 3.564.972 5.909.972 2.345 0 4.434-.382 5.909-.972.74-.295 1.287-.629 1.638-.96.35-.33.453-.607.453-.818ZM4 5.5c0 .211.103.487.453.817.351.332.898.666 1.638.962 1.475.589 3.564.971 5.909.971 2.345 0 4.434-.381 5.909-.971.739-.296 1.288-.63 1.638-.962.349-.33.453-.607.453-.817 0-.211-.103-.487-.453-.817-.351-.332-.898-.666-1.638-.962-1.475-.589-3.564-.971-5.909-.971-2.345 0-4.434.381-5.909.971-.739.296-1.288.63-1.638.962C4.104 5.013 4 5.29 4 5.5Z"/>
-                                </svg>
-                                <span>Database</span>
                             </a>
                         </li>
     
@@ -375,14 +385,6 @@
                                         <span>Ícones</span>
                                     </a>
                                 </li>
-                                <li class="mr-6">
-                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://database.apotheosiscardgame.com/">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
-                                            <path d="M12 1.25c2.487 0 4.773.402 6.466 1.079.844.337 1.577.758 2.112 1.264.536.507.922 1.151.922 1.907v12.987l-.026.013h.026c0 .756-.386 1.4-.922 1.907-.535.506-1.268.927-2.112 1.264-1.693.677-3.979 1.079-6.466 1.079s-4.774-.402-6.466-1.079c-.844-.337-1.577-.758-2.112-1.264C2.886 19.9 2.5 19.256 2.5 18.5h.026l-.026-.013V5.5c0-.756.386-1.4.922-1.907.535-.506 1.268-.927 2.112-1.264C7.226 1.652 9.513 1.25 12 1.25ZM4 14.371v4.116l-.013.013H4c0 .211.103.487.453.817.351.332.898.666 1.638.962 1.475.589 3.564.971 5.909.971 2.345 0 4.434-.381 5.909-.971.739-.296 1.288-.63 1.638-.962.349-.33.453-.607.453-.817h.013L20 18.487v-4.116a7.85 7.85 0 0 1-1.534.8c-1.693.677-3.979 1.079-6.466 1.079s-4.774-.402-6.466-1.079a7.843 7.843 0 0 1-1.534-.8ZM20 12V7.871a7.85 7.85 0 0 1-1.534.8C16.773 9.348 14.487 9.75 12 9.75s-4.774-.402-6.466-1.079A7.85 7.85 0 0 1 4 7.871V12c0 .21.104.487.453.817.35.332.899.666 1.638.961 1.475.59 3.564.972 5.909.972 2.345 0 4.434-.382 5.909-.972.74-.295 1.287-.629 1.638-.96.35-.33.453-.607.453-.818ZM4 5.5c0 .211.103.487.453.817.351.332.898.666 1.638.962 1.475.589 3.564.971 5.909.971 2.345 0 4.434-.381 5.909-.971.739-.296 1.288-.63 1.638-.962.349-.33.453-.607.453-.817 0-.211-.103-.487-.453-.817-.351-.332-.898-.666-1.638-.962-1.475-.589-3.564-.971-5.909-.971-2.345 0-4.434.381-5.909.971-.739.296-1.288.63-1.638.962C4.104 5.013 4 5.29 4 5.5Z"/>
-                                        </svg>
-                                        <span>Database</span>
-                                    </a>
-                                </li>
         
                             </ul>
                         </nav>
@@ -442,8 +444,8 @@
 <p>No decorrer da partida, os jogadores coletam cartas para construir seus personagens e progredir no objetivo.</p>
 <hr>
 <h2 id="naipe">Naipe</h2>
-<p>O naipe de uma carta é indicado por um ícone no canto superior direito e por uma cor distinta de cada naipe. Ele representa a função daquela carta e como ela interage com o jogo influenciando suas interações, mecânicas e sinergias com outro componentes do jogo.</p>
-<p>Existem sete naipes de cartas, cada um com suas próprias características e mecânicas, e eles estão divididos em dois grupos, <strong>Carta de Ficha</strong> e <strong>Carta de Recurso</strong>. O grupo do naipes define a função e a mecânica em comuns para certos naipes, definindo como elas se comportam no jogo.</p>
+<p>O naipe de uma carta é indicado por um ícone no canto superior direito e por uma cor distinta de cada naipe. Ele representa a função daquela carta e como ela interage com o jogo, influenciando suas interações, mecânicas e sinergias com outros componentes do jogo.</p>
+<p>Existem sete naipes de cartas, cada um com suas próprias características e mecânicas, e eles estão divididos em dois grupos, <strong>Carta de Ficha</strong> e <strong>Carta de Recurso</strong>. O grupo de naipes define a função e a mecânica em comum para certos naipes, definindo como elas se comportam no jogo.</p>
 <doc-panels expando>
    <doc-panel id="carta-de-ficha-badge-textsheet-card-variantghost" collapsed>
        <template #title>Carta de Ficha <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
@@ -483,7 +485,7 @@
 </div>
 </div>
 </p>
-<p>Estas cartas são cartas de composição do personagem, portando não podem ser carregadas em seu <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a>. Podem estar apenas em:</p>
+<p>Estas cartas são cartas de composição do personagem, portanto não podem ser carregadas em seu <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a>. Podem estar apenas em:</p>
 <ul class="list-icon">
 <li><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M17.28 9.28a.75.75 0 0 0-1.06-1.06l-5.97 5.97-2.47-2.47a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l6.5-6.5Z"/><path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Z"/></g></g></svg> No espaço apropriado designado da <a href="/hero/table/"><span class="main"><b>MESA</b></span></a> de um Herói.</li>
 <li><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M17.28 9.28a.75.75 0 0 0-1.06-1.06l-5.97 5.97-2.47-2.47a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l6.5-6.5Z"/><path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Z"/></g></g></svg> Baralhos</li>
@@ -491,7 +493,7 @@
 <li><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M17.28 9.28a.75.75 0 0 0-1.06-1.06l-5.97 5.97-2.47-2.47a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l6.5-6.5Z"/><path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Z"/></g></g></svg> Anexo</li>
 <li><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M17.28 9.28a.75.75 0 0 0-1.06-1.06l-5.97 5.97-2.47-2.47a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l6.5-6.5Z"/><path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Z"/></g></g></svg> Zona extra</li>
 </ul>
-<p>Se uma situação de jogo resultar em uma Carta de Ficha estar ou ser envida para outro local que não estes, ela deve ser enviada para o <a href="/gameplay/stack/trading-post/"><span class="main"><b>ENTREPOSTO</b></span></a>.</p>
+<p>Se uma situação de jogo resultar em uma Carta de Ficha estar ou ser enviada para outro local que não estes, ela deve ser enviada para o <a href="/gameplay/stack/trading-post/"><span class="main"><b>ENTREPOSTO</b></span></a>.</p>
    </doc-panel>
    <doc-panel id="carta-de-recurso-badge-textasset-card-variantghost" collapsed>
        <template #title>Carta de Recurso <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
@@ -543,7 +545,7 @@
 </div>
 </div>
 </p>
-<p>Estas cartas possuem um requerimento de nível mínimo de <a href="/gameplay/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a>, que um Herói precisa ter para ter esta carta em sua <a href="/hero/table/"><span class="main"><b>MESA</b></span></a>, exceto quando anexadas a uma outra carta. Se uma situação de jogo resultar nesta carta estar ou ser envida para <a href="/hero/table/"><span class="main"><b>MESA</b></span></a> de um Herói que não atenda a este requerimento, ela deve ser enviada para o <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a> do mesmo.</p>
+<p>Estas cartas possuem um requerimento de nível mínimo de <a href="/gameplay/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a>, que um Herói precisa ter para ter esta carta em sua <a href="/hero/table/"><span class="main"><b>MESA</b></span></a>, exceto quando anexadas a uma outra carta. Se uma situação de jogo resultar nesta carta estar ou ser enviada para a <a href="/hero/table/"><span class="main"><b>MESA</b></span></a> de um Herói que não atenda a este requerimento, ela deve ser enviada para o <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a> do mesmo.</p>
 <h4 id="valor">Valor</h4>
 <p>Toda carta de Recurso tem um valor, medido em um recurso próprio do seu naipe: <a href="/cards/item/"><span class="item"><b>ITEM</b></span></a> em <a href="/cards/item/"><span class="item"><b>PREÇO</b></span></a>, <a href="/cards/skills/"><span class="skill"><b>HABILIDADE</b></span></a> em <a href="/cards/skills/"><span class="skill"><b>XP</b></span></a>, <a href="/cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a> em <a href="/cards/companion/"><span class="companion"><b>VONTADE</b></span></a> e <a href="/cards/event/"><span class="event"><b>EVENTO</b></span></a> em <a href="/cards/event/"><span class="event"><b>DESTINO</b></span></a>.</p>
 <p>O valor de um <a href="/cards/item/"><span class="item"><b>ITEM</b></span></a> é o <a href="/cards/item/"><span class="item"><b>PREÇO</b></span></a> impresso na carta. Já o valor dos demais naipes é obtido pelo nível da carta, conforme a tabela de conversão de nível em valor abaixo.</p>
@@ -661,7 +663,7 @@
        <template #title>Estendida <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>Full Art</span>
 </span></template>
-<p>Este estilo apresenta a arte estendida, cobrindo toda a extensão da carta, sem bordas ou molduras. Ele é utilizado para destacar a ilustração bem como apresentar um estética diferenciada, além de adicionar um fator colecionável a mais, sendo utilizado exclusivamente em cartas de raridade <a href="/gameplay/rarity/"><span class="rare">RARA</span></a> ou superior.</p>
+<p>Este estilo apresenta a arte estendida, cobrindo toda a extensão da carta, sem bordas ou molduras. Ele é utilizado para destacar a ilustração bem como apresentar uma estética diferenciada, além de adicionar um fator colecionável a mais, sendo utilizado exclusivamente em cartas de raridade <a href="/gameplay/rarity/"><span class="rare">RARA</span></a> ou superior.</p>
    </doc-panel>
 </doc-panels>
 <hr>
@@ -743,7 +745,7 @@
 </div>
   
 <div class="card-signal-container">
-    <a href="/cards/summus/" class="group card-signal no-link">
+    <a href="/gameplay/summus/" class="group card-signal no-link">
         <div class="card-signal-body">
             <div class="card-signal-media-row">
                 <span class="card-signal-media card-signal-icon"><img src="/static/img/icons/suit_summus.svg"></span>
@@ -757,8 +759,8 @@
 </p>
 <hr>
 <h2 id="ativar">Ativar</h2>
-<p>Para usar uma carta você deve ativá-la, o que é feito ao pagar seu custo e cumprir seus requisitos, se houverem. O processo de ativação é o mesmo para todas as cartas, independentemente do naipe.</p>
-<p>Por padrão cada Herói pode ativar apenas as cartas que ele controla, ou seja, as cartas que estão em seu <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a>, <a href="/hero/table/"><span class="main"><b>MESA</b></span></a> ou anexadas a outras cartas que ele controla. No entanto, algumas cartas podem permitir ou exigir que o jogador ative cartas que ele não controla, como as cartas de outros jogadores ou cartas em zonas específicas como às do <a href="/gameplay/stack/scenario/"><span class="event"><b>CENÁRIO</b></span></a>.</p>
+<p>Para usar uma carta você deve ativá-la, o que é feito ao pagar seu custo e cumprir seus requisitos, se houver. O processo de ativação é o mesmo para todas as cartas, independentemente do naipe.</p>
+<p>Por padrão cada Herói pode ativar apenas as cartas que ele controla, ou seja, as cartas que estão em seu <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a>, <a href="/hero/table/"><span class="main"><b>MESA</b></span></a> ou anexadas a outras cartas que ele controla. No entanto, algumas cartas podem permitir ou exigir que o jogador ative cartas que ele não controla, como as cartas de outros jogadores ou cartas em zonas específicas como o <a href="/gameplay/stack/scenario/"><span class="event"><b>CENÁRIO</b></span></a>.</p>
 <div class="mb-6 overflow-hidden border rounded-md docs-columns dark:border-base-border" style="grid-template-columns: repeat(2, minmax(0, 1fr));">
     <div class="flex items-center px-5 py-3 font-medium leading-snug text-gray-900 border-b border-base-border dark:text-white border-r">
         <span>Cartas em Jogo</span>
@@ -791,7 +793,7 @@
 <li>Pontos <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a> necessários</li>
 <li>Custos adicionais do naipe, como energias</li>
 <li>Verificar se atende aos requisitos determinados por palavras-chave de temporização, tarefas, etc.</li>
-<li>outras condições adicionais descritas nos requerimentos do efeito.</li>
+<li>Outras condições adicionais descritas nos requerimentos do efeito.</li>
 </ol>
 </li>
 </ol>
@@ -799,11 +801,11 @@
 <ol>
 <li>O Herói deve pagar o custo da carta, se houver, e cumprir os requisitos necessários para ativar a carta.</li>
 <li>Se a carta possuir um <b>ALCANCE</b> do tipo <b>DIRETO</b> ou <b>ARQUEADO</b>, o jogador deve selecionar como o alvo da carta uma peça, ou uma casa vazia do tabuleiro, dentro do alcance.</li>
-<li>Aplicar o efeito da carta, seguindo a ordem de resolução dos efeitos conforme descrito no texto da carta e as regras do jogo.</li>
-<li>Aplicar o dano da carta, se houver, ao alvo selecionado.
+<li>Aplicar o ataque (<b>DANO</b>) e/ou o efeito da carta, se houver. Quando a carta possuir ambos, o próprio texto do efeito indica em qual momento do ataque ele é inserido (antes, durante ou depois do ataque, ou em uma etapa específica, como durante a rolagem de dados, antes de resolver o <b>DANO</b>, após aplicar a <b>LESÃO</b>, etc.).
 <ol>
-<li>Se a carta possuir um <b>ALCANCE</b> do tipo <b>AREA</b>, o dano é aplicado a todas as peças e casas dentro da área de efeito, sem a necessidade de selecionar um alvo específico.</li>
-<li>Observe que alguns efeitos de carta podem especificar que são aplicados após o dano, ao invés de antes, como seria o padrão.</li>
+<li>Se a carta possuir um <b>ALCANCE</b> do tipo <b>ÁREA</b>, o ataque/efeito é aplicado a todas as peças e casas dentro da área de efeito, sem a necessidade de selecionar um alvo específico.</li>
+<li>Caso o efeito não especifique uma etapa do ataque, siga o seu <a href="/gameplay/effect/#descri%C3%A7%C3%A3o-do-efeito">momento de ativação</a>.</li>
+<li>Respeite a ordem das ações conforme descritas no texto da carta e as regras do jogo.</li>
 </ol>
 </li>
 </ol>
@@ -814,26 +816,26 @@
 <li>A carta deve possuir um ou mais efeitos com a palavra-chave <a href="/gameplay/effect/"><span class="keyword-activation">Auto</span></a>.
 <ol>
 <li>Efeitos com a palavra-chave <a href="/gameplay/effect/"><span class="keyword-activation">Auto</span></a> são ativados automaticamente de forma obrigatória quando suas condições de ativação são atendidas.</li>
-<li>Se a carta possuir mais de um efeito com a palavra-chave <a href="/gameplay/effect/"><span class="keyword-activation">Auto</span></a>, todos os efeitos que puderem ser ativados, serão ativados automaticamente.</li>
+<li>Se a carta possuir mais de um efeito com a palavra-chave <a href="/gameplay/effect/"><span class="keyword-activation">Auto</span></a>, todos os efeitos que puderem ser ativados serão ativados automaticamente.</li>
 </ol>
 </li>
 <li>Verificar se ele cumpre os requisitos para ativar a carta.
 <ol>
 <li>Nível de <a href="/gameplay/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a> necessário</li>
 <li>Verificar se atende aos requisitos determinados por palavras-chave de temporização, tarefas, etc.</li>
-<li>outras condições adicionais descritas nos requerimentos do efeito.</li>
-<li>Ativações automáticas não possuem custos de ativação em <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a> e/ou Energias, se a carta possuir esses custos, eles devem ser considerados para outros efeitos <a href="/gameplay/effect/"><span class="keyword-activation">Ativar</span></a> daquela carta, e ignorados para os efeitos <a href="/gameplay/effect/"><span class="keyword-activation">Auto</span></a>.</li>
+<li>Outras condições adicionais descritas nos requerimentos do efeito.</li>
+<li>Ativações automáticas não possuem custos de ativação em <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a> e/ou Energias; se a carta possuir esses custos, eles devem ser considerados para outros efeitos <a href="/gameplay/effect/"><span class="keyword-activation">Ativar</span></a> daquela carta, e ignorados para os efeitos <a href="/gameplay/effect/"><span class="keyword-activation">Auto</span></a>.</li>
 </ol>
 </li>
 </ol>
 <p>Estando todas as condições atendidas, o jogador deve informar a ativação da carta.</p>
 <ol>
 <li>Se a carta possuir um <b>ALCANCE</b> do tipo <b>DIRETO</b> ou <b>ARQUEADO</b>, o jogador deve selecionar como o alvo da carta uma peça, ou uma casa vazia do tabuleiro, dentro do alcance.</li>
-<li>Aplicar o efeito da carta, seguindo a ordem de resolução dos efeitos conforme descrito no texto da carta e as regras do jogo.</li>
-<li>Aplicar o dano da carta, se houver, ao alvo selecionado.
+<li>Aplicar o ataque (<b>DANO</b>) e/ou o efeito da carta, se houver. Quando a carta possuir ambos, o próprio texto do efeito indica em qual momento do ataque ele é inserido (antes, durante ou depois do ataque, ou em uma etapa específica, como durante a rolagem de dados, antes de resolver o <b>DANO</b>, após aplicar a <b>LESÃO</b>, etc.).
 <ol>
-<li>Se a carta possuir um <b>ALCANCE</b> do tipo <b>AREA</b>, o dano é aplicado a todas as peças e casas dentro da área de efeito, sem a necessidade de selecionar um alvo específico.</li>
-<li>Observe que alguns efeitos de carta podem especificar que são aplicados após o dano, ao invés de antes, como seria o padrão.</li>
+<li>Se a carta possuir um <b>ALCANCE</b> do tipo <b>ÁREA</b>, o ataque/efeito é aplicado a todas as peças e casas dentro da área de efeito, sem a necessidade de selecionar um alvo específico.</li>
+<li>Caso o efeito não especifique uma etapa do ataque, siga o seu <a href="/gameplay/effect/#descri%C3%A7%C3%A3o-do-efeito">momento de ativação</a>.</li>
+<li>Respeite a ordem das ações conforme descritas no texto da carta e as regras do jogo.</li>
 </ol>
 </li>
 </ol>
@@ -870,7 +872,7 @@
 </li>
 <li>Casos Especiais
 <ul>
-<li>Alguns <a href="/cards/summus/"><span class="summus"><b>SUMMUS</b></span></a> estabelecem condições específicas para serem jogáveis, como estar em uma zona específica ou possuir um estado específico.</li>
+<li>Alguns <a href="/gameplay/summus/"><span class="summus"><b>SUMMUS</b></span></a> estabelecem condições específicas para serem jogáveis, como estar em uma zona específica ou possuir um estado específico.</li>
 </ul>
 </li>
 </ul>
@@ -879,7 +881,7 @@
        <template #title><span class="fill">Não Jogável</span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
     <span>Unplayable</span>
 </span></template>
-<p>São as cartas cujo o efeito não está disponível ou não é de conhecimento público.</p>
+<p>São as cartas cujo efeito não está disponível ou não é de conhecimento público.</p>
 <p>A carta não ser jogável significa apenas que seu efeito não está disponível, os demais aspectos da carta, como energias, valor, peça no tabuleiro, etc., devem ser tratados normalmente.</p>
 <ul>
 <li>Cartas ocultas na <a href="/hero/table/"><span class="main"><b>MESA</b></span></a> dos Heróis.</li>
@@ -896,7 +898,7 @@
 <li>Casos Especiais
 <ul>
 <li>Alguns efeitos de carta podem tornar outras cartas não jogáveis, seja permanentemente ou temporariamente.</li>
-<li>Alguns <a href="/cards/summus/"><span class="summus"><b>SUMMUS</b></span></a> estabelecem condições específicas para não serem jogáveis, como estar em uma zona específica ou possuir um estado específico.</li>
+<li>Alguns <a href="/gameplay/summus/"><span class="summus"><b>SUMMUS</b></span></a> estabelecem condições específicas para não serem jogáveis, como estar em uma zona específica ou possuir um estado específico.</li>
 </ul>
 </li>
 </ul>
@@ -931,7 +933,7 @@
     <span>Hidden</span>
 </span></template>
 <p>Toda carta de face para baixo ou não revelada no <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a> é considerada oculta, sendo de conhecimento privado do jogador que a controla.</p>
-<p>Os demais jogadores devem ter conhecimento da existência de cartas ocultas, mas não de suas informações, como nome, arte, efeitos, etc.. Portanto, eles podem ver que elas estão na <a href="/hero/table/"><span class="main"><b>MESA</b></span></a>, ou mesmo contar quantas cartas outro jogador tem no <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a>.</p>
+<p>Os demais jogadores devem ter conhecimento da existência de cartas ocultas, mas não de suas informações, como nome, arte, efeitos, etc. Portanto, eles podem ver que elas estão na <a href="/hero/table/"><span class="main"><b>MESA</b></span></a>, ou mesmo contar quantas cartas outro jogador tem no <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a>.</p>
 <p><em>Anexos são desconsiderados.</em></p>
    </doc-panel>
    <doc-panel id="span-classfillrestauradaspan-badge-textrestored-variantghost" collapsed>
@@ -1027,8 +1029,8 @@
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-10-17T23:24:03" title="2026-10-17" data-absolute-label="Last updated on 2026-10-17 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-10-17 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
-                        Last updated on 2026-10-17 by Bruno Caxito
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-11-04T20:39:00" title="2026-11-04" data-absolute-label="Last updated on 2026-11-04 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-11-04 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                        Last updated on 2026-11-04 by Bruno Caxito
                     </time>
                 </div>
 

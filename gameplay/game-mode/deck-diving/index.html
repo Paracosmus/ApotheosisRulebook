@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847144542815">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847150764864">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -41,16 +41,16 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.6.0.847144542815" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.847150764864" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.847144542815" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.847150764864" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.847144542815" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.847150764864" data-turbo-eval="false" defer></script>
     <link href="/resources/css/katex.css?v=4.6.0" rel="stylesheet">
     <script id="katex-js" data-cfasync="false" src="/resources/js/katex.js?v=4.6.0" defer></script>
 
     <!-- Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100..900&display=swap" rel="stylesheet">
 
     <!-- Styles -->
     <style>
@@ -71,7 +71,7 @@
         }
 
         div.container {
-            font-family: 'Open Sans', Apotheosis;
+            font-family: 'Noto Sans', Apotheosis;
             max-width: 1530px;
         }
 
@@ -86,6 +86,32 @@
 
         .icon {
             font-weight: normal;
+        }
+
+        .tk-icon {
+            font-weight: normal;
+        }
+
+        .tk-literal {
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .tk-dice > .tk-literal {
+            text-transform: none;
+        }
+
+        .tk-dice {
+            background-color: #e4f1e8;
+            border-radius: 50px;
+            padding: 0px 6px 0px 5px;
+            color: #006558;
+        }
+
+        .tk-dice .tk-literal {
+            letter-spacing: 0px;
+            font-weight: 900;
+            color: #008d7a;
         }
 
         .briefing {
@@ -203,19 +229,10 @@
             background-color: #212121;
             padding: 0px 10px;
             font-weight: 600;
-            /* Corners meet at mid-height; a superellipse between bevel (0) and round (1) gives softly curved points */
             border-radius: 10px / 50%;
             corner-shape: superellipse(0.7);
         }
 
-        .requirement {
-            font-size: 0.8em;
-            color: #F5F5F5;
-            background-color: #5C697A;
-            border-radius: 4px;
-            padding: 0px 8px;
-            font-weight: 550;
-        }
     </style>
 
 
@@ -233,6 +250,7 @@
 
 
     </div>
+
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -292,14 +310,6 @@
                                     <path d="M1.527 13.237a1.75 1.75 0 0 1 0-2.474l9.272-9.273a1.75 1.75 0 0 1 2.475 0l9.272 9.273a1.75 1.75 0 0 1 0 2.474l-9.272 9.272a1.75 1.75 0 0 1-2.475 0Zm1.06-1.414a.25.25 0 0 0 0 .354l9.273 9.272a.25.25 0 0 0 .353 0l9.272-9.272a.25.25 0 0 0 0-.354l-9.272-9.272a.25.25 0 0 0-.353 0Z"/>
                                 </svg>
                                 <span>Ícones</span>
-                            </a>
-                        </li>
-                        <li class="mr-6">
-                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://database.apotheosiscardgame.com/">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
-                                    <path d="M12 1.25c2.487 0 4.773.402 6.466 1.079.844.337 1.577.758 2.112 1.264.536.507.922 1.151.922 1.907v12.987l-.026.013h.026c0 .756-.386 1.4-.922 1.907-.535.506-1.268.927-2.112 1.264-1.693.677-3.979 1.079-6.466 1.079s-4.774-.402-6.466-1.079c-.844-.337-1.577-.758-2.112-1.264C2.886 19.9 2.5 19.256 2.5 18.5h.026l-.026-.013V5.5c0-.756.386-1.4.922-1.907.535-.506 1.268-.927 2.112-1.264C7.226 1.652 9.513 1.25 12 1.25ZM4 14.371v4.116l-.013.013H4c0 .211.103.487.453.817.351.332.898.666 1.638.962 1.475.589 3.564.971 5.909.971 2.345 0 4.434-.381 5.909-.971.739-.296 1.288-.63 1.638-.962.349-.33.453-.607.453-.817h.013L20 18.487v-4.116a7.85 7.85 0 0 1-1.534.8c-1.693.677-3.979 1.079-6.466 1.079s-4.774-.402-6.466-1.079a7.843 7.843 0 0 1-1.534-.8ZM20 12V7.871a7.85 7.85 0 0 1-1.534.8C16.773 9.348 14.487 9.75 12 9.75s-4.774-.402-6.466-1.079A7.85 7.85 0 0 1 4 7.871V12c0 .21.104.487.453.817.35.332.899.666 1.638.961 1.475.59 3.564.972 5.909.972 2.345 0 4.434-.382 5.909-.972.74-.295 1.287-.629 1.638-.96.35-.33.453-.607.453-.818ZM4 5.5c0 .211.103.487.453.817.351.332.898.666 1.638.962 1.475.589 3.564.971 5.909.971 2.345 0 4.434-.381 5.909-.971.739-.296 1.288-.63 1.638-.962.349-.33.453-.607.453-.817 0-.211-.103-.487-.453-.817-.351-.332-.898-.666-1.638-.962-1.475-.589-3.564-.971-5.909-.971-2.345 0-4.434.381-5.909.971-.739.296-1.288.63-1.638.962C4.104 5.013 4 5.29 4 5.5Z"/>
-                                </svg>
-                                <span>Database</span>
                             </a>
                         </li>
     
@@ -375,14 +385,6 @@
                                             <path d="M1.527 13.237a1.75 1.75 0 0 1 0-2.474l9.272-9.273a1.75 1.75 0 0 1 2.475 0l9.272 9.273a1.75 1.75 0 0 1 0 2.474l-9.272 9.272a1.75 1.75 0 0 1-2.475 0Zm1.06-1.414a.25.25 0 0 0 0 .354l9.273 9.272a.25.25 0 0 0 .353 0l9.272-9.272a.25.25 0 0 0 0-.354l-9.272-9.272a.25.25 0 0 0-.353 0Z"/>
                                         </svg>
                                         <span>Ícones</span>
-                                    </a>
-                                </li>
-                                <li class="mr-6">
-                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://database.apotheosiscardgame.com/">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
-                                            <path d="M12 1.25c2.487 0 4.773.402 6.466 1.079.844.337 1.577.758 2.112 1.264.536.507.922 1.151.922 1.907v12.987l-.026.013h.026c0 .756-.386 1.4-.922 1.907-.535.506-1.268.927-2.112 1.264-1.693.677-3.979 1.079-6.466 1.079s-4.774-.402-6.466-1.079c-.844-.337-1.577-.758-2.112-1.264C2.886 19.9 2.5 19.256 2.5 18.5h.026l-.026-.013V5.5c0-.756.386-1.4.922-1.907.535-.506 1.268-.927 2.112-1.264C7.226 1.652 9.513 1.25 12 1.25ZM4 14.371v4.116l-.013.013H4c0 .211.103.487.453.817.351.332.898.666 1.638.962 1.475.589 3.564.971 5.909.971 2.345 0 4.434-.381 5.909-.971.739-.296 1.288-.63 1.638-.962.349-.33.453-.607.453-.817h.013L20 18.487v-4.116a7.85 7.85 0 0 1-1.534.8c-1.693.677-3.979 1.079-6.466 1.079s-4.774-.402-6.466-1.079a7.843 7.843 0 0 1-1.534-.8ZM20 12V7.871a7.85 7.85 0 0 1-1.534.8C16.773 9.348 14.487 9.75 12 9.75s-4.774-.402-6.466-1.079A7.85 7.85 0 0 1 4 7.871V12c0 .21.104.487.453.817.35.332.899.666 1.638.961 1.475.59 3.564.972 5.909.972 2.345 0 4.434-.382 5.909-.972.74-.295 1.287-.629 1.638-.96.35-.33.453-.607.453-.818ZM4 5.5c0 .211.103.487.453.817.351.332.898.666 1.638.962 1.475.589 3.564.971 5.909.971 2.345 0 4.434-.381 5.909-.971.739-.296 1.288-.63 1.638-.962.349-.33.453-.607.453-.817 0-.211-.103-.487-.453-.817-.351-.332-.898-.666-1.638-.962-1.475-.589-3.564-.971-5.909-.971-2.345 0-4.434.381-5.909.971-.739.296-1.288.63-1.638.962C4.104 5.013 4 5.29 4 5.5Z"/>
-                                        </svg>
-                                        <span>Database</span>
                                     </a>
                                 </li>
         
@@ -525,11 +527,11 @@
 </table>
 </div>
 </retype-table>
-<p>O objetivo é avançar na exploração do baralho, até que o objetivo estabelecido para quele baralho seja cumprido ou o baralho acabe.</p>
-<p>Quando uma carta sem contexto é revelada</p>
+<p>O objetivo é avançar na exploração do baralho, até que o objetivo estabelecido para aquele baralho seja cumprido ou o baralho acabe.</p>
+<p>Quando uma carta sem contexto é revelada:</p>
 <ul>
-<li>Se for uma carta de ficha ela é descartada sem efeito</li>
-<li>Se for uma carta de recurso, é realizado um teste do ( <a href="/gameplay/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a> + <a href="/gameplay/attributes/"><span class="house"><b>CON</b></span></a> ➜ Dificuldade do Objetivo ✖ <strong>10</strong> ) para tentar obter a carta, se falhar, a carta é descartada sem efeito.</li>
+<li>Se for uma carta de ficha, ela é descartada sem efeito.</li>
+<li>Se for uma carta de recurso, é realizado um teste do ( <a href="/gameplay/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a> + <a href="/gameplay/attributes/"><span class="house"><b>CON</b></span></a> ➜ Dificuldade do Objetivo ✱ <strong>10</strong> ) para tentar obter a carta; se falhar, a carta é descartada sem efeito.</li>
 </ul>
 <hr>
 <h2 id="ciclo-de-jogo">Ciclo de Jogo</h2>
@@ -537,10 +539,10 @@
    <doc-step id="apresentação-do-local-ou-situação" step-number="1">
       <template #title>Apresentação do Local ou Situação</template>
 <p>O narrador apresenta o tema geral do local ou situação representada pelo conjunto de baralhos, deixando claro o objetivo. Ele pode descrever o ambiente, os desafios e as possíveis recompensas que os Heróis podem encontrar ao explorar o baralho.</p>
-<p>São revelados os efeitos de objetivo, se houverem.</p>
+<p>São revelados os efeitos de objetivo, se houver.</p>
 <h5 id="wildcards">Wildcards</h5>
-<p>São apresentadas as regras de wildcards, se houverem.</p>
-<p>A wildcard é uma carta que quando encontrada no baralho ativa uma situação específica. Narrador deve listar as wildcards para os jogadores, mas ele pode escolher não revelar o que cada wildcard representa, deixando um elemento de surpresa para os jogadores quando encontrarem uma wildcard durante a exploração do baralho.</p>
+<p>São apresentadas as regras de wildcards, se houver.</p>
+<p>A wildcard é uma carta que quando encontrada no baralho ativa uma situação específica. O narrador deve listar as wildcards para os jogadores, mas ele pode escolher não revelar o que cada wildcard representa, deixando um elemento de surpresa para os jogadores quando encontrarem uma wildcard durante a exploração do baralho.</p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-secondary"></div>
     <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
@@ -566,7 +568,7 @@
    <doc-step id="apresentação-das-partes-do-local-ou-situação" step-number="2">
       <template #title>Apresentação das Partes do Local ou Situação</template>
 <p>O narrador apresenta as partes do local ou situação representada por cada baralho, explicando o que cada baralho representa e quais tipos de desafios ou recompensas os Heróis podem encontrar ao explorar cada um.</p>
-<p>São revelados os efeitos de baralho, se houverem.</p>
+<p>São revelados os efeitos de baralho, se houver.</p>
 <p>O baralho é então disposto em uma determinada ordem ou embaralhado aleatoriamente, dependendo da preferência do narrador ou das instruções do criador da campanha.</p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-secondary"></div>
@@ -590,7 +592,7 @@
 <li>10x Inimigos Lv 1</li>
 <li>5x Item</li>
 <li>2x Eventos</li>
-<li>1x Wildcard (A carta Inercia representa a chegada à Câmara dos Guardiões)</li>
+<li>1x Wildcard (A carta Inércia representa a chegada à Câmara dos Guardiões)</li>
 </ul>
 </doc-tab>
 <doc-tab v-cloak id="jardim-submerso">
@@ -757,7 +759,7 @@
    <doc-step id="conclusão" step-number="6">
       <template #title>Conclusão</template>
 <p>O ciclo de exploração continua até que o objetivo do baralho seja cumprido ou o baralho acabe.</p>
-<p>Quando um baralho que ainda contem cartas é finalizado, o narrador pode escolher enviar as cartas restantes de volta para os suprimentos da campanha, ou descartá-las, dependendo da situação e do que fizer mais sentido para a narrativa.</p>
+<p>Quando um baralho que ainda contém cartas é finalizado, o narrador pode escolher enviar as cartas restantes de volta para os suprimentos da campanha, ou descartá-las, dependendo da situação e do que fizer mais sentido para a narrativa.</p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-secondary"></div>
     <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
@@ -772,7 +774,7 @@
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Exemplo 1 - Salão Principal</h5>
-<p><em>O Herói que explora o Salão Principal continua enfrentando os inimigos e avançando pelas cartas do baralho, até que finalmente encontra a wildcard &quot;Inércia&quot;, que representa a chegada à Câmara dos Guardiões. Todas as cartas restantes neste baralho são então envidas de volta para os suprimentos da campanha. Agora com um caminho limpo e reconhecido, o Herói pode voltar para ajudar o seu companheiro no baralho (local) do lado.</em></p>
+<p><em>O Herói que explora o Salão Principal continua enfrentando os inimigos e avançando pelas cartas do baralho, até que finalmente encontra a wildcard &quot;Inércia&quot;, que representa a chegada à Câmara dos Guardiões. Todas as cartas restantes neste baralho são então enviadas de volta para os suprimentos da campanha. Agora com um caminho limpo e reconhecido, o Herói pode voltar para ajudar o seu companheiro no baralho (local) do lado.</em></p>
         </div>
     </div>
 </div>
@@ -790,7 +792,7 @@
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Exemplo 2 - Jardim Submerso</h5>
-<p><em>O Herói que explora o Jardim Submerso continua enfrentando os desafios e avançando pelas cartas do baralho, o seu amigo se junto a ele e juntos eles finalmente encontram a wildcard &quot;Chave da Câmara dos Guardiões&quot;. Ele obtém a chave juntos eles cruzam o salão principal, já concluído até o novo baralho adicionado à area do jogo... a Câmara dos Guardiões.</em></p>
+<p><em>O Herói que explora o Jardim Submerso continua enfrentando os desafios e avançando pelas cartas do baralho, o seu amigo se junta a ele e juntos eles finalmente encontram a wildcard &quot;Chave da Câmara dos Guardiões&quot;. Ele obtém a chave e, juntos, eles cruzam o Salão Principal, já concluído, até o novo baralho adicionado à área do jogo... a Câmara dos Guardiões.</em></p>
         </div>
     </div>
 </div>
@@ -838,8 +840,8 @@
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-10-10T23:03:24" title="2026-10-10" data-absolute-label="Last updated on 2026-10-10 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-10-10 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
-                        Last updated on 2026-10-10 by Bruno Caxito
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-11-04T20:39:00" title="2026-11-04" data-absolute-label="Last updated on 2026-11-04 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-11-04 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                        Last updated on 2026-11-04 by Bruno Caxito
                     </time>
                 </div>
 

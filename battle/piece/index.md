@@ -4,7 +4,7 @@ Esta seção ainda não foi completamente revisada. Algumas informações podem 
     
 # Peça
 
-A batalha acontece em um tabuleiro quadriculado. No tabuleiro, podem conter paredes ou casas com diferentes níveis de altura. Cada casa possui um tipo de [terreno](/battle/board.md#terreno).
+A batalha acontece em um tabuleiro quadriculado. O tabuleiro pode conter paredes ou casas com diferentes níveis de altura. Cada casa possui um tipo de [terreno](/battle/board.md#terreno).
 
 - [<span class="hp"><b>VIDA</b></span>](/hero/#vida)
 - [<span class="main"><b>AÇÃO</b></span>](/hero/#ação)
@@ -49,26 +49,26 @@ A cura nunca deixa a [<span class="hp"><b>VIDA</b></span>](/hero/#vida) de um
 
 ### **Dummy**
 
-Personagem que não está ligado a um Herói ou COMPANHEIRO, criados pela campanha ou efeitos de cartas, suas características são definidas pelo que o criou.
+Personagem que não está ligado a um Herói ou COMPANHEIRO, criado pela campanha ou por efeitos de cartas; suas características são definidas pelo que o criou.
 
 ## **Objeto**
 
-Não são personagens: Não tem turno, não interage, etc.
+Não são personagens: não têm turno, não interagem, etc.
 
-Destruído: São removidos do tabuleiro quando sua VIDA chega a 0 (destruído)
+Destruído: São removidos do tabuleiro quando sua VIDA chega a 0 (destruídos)
 
 Objetos não podem ser curados (reparados)
 
 ## **Container**
 
-É um estado de uma peça que torna ela um armazem de cartas. Os personagens podem interagir com eles quando a 1 de distância pagando 2 de  AÇÃO para obter uma carta armazenada neles.
+É um estado de uma peça que a torna um armazém de cartas. Os personagens podem interagir com ele quando estão a 1 de distância, pagando 2 de AÇÃO para obter uma carta armazenada nele.
 
 As cartas armazenadas em um contêiner são [não jogáveis](/cards/index.md#estado-da-carta): nenhum de seus efeitos ou bônus é considerado.
 
-Personagens mortos são containers que outros jogadores podem obter suas cartas de item
+Personagens mortos são contêineres dos quais outros jogadores podem obter suas cartas de item
 
-Objetos podem ser definidos como containers por algum efeito ou mecânica
+Objetos podem ser definidos como contêineres por algum efeito ou mecânica
 
-Quando um ITEM é dropado, é adicionado uma peça naquela casa do tabuleiro que é um container que permite obter os itens que foram dropados alí
+Quando um ITEM é dropado, é adicionada uma peça naquela casa do tabuleiro, que é um contêiner que permite obter os itens que foram dropados ali
 
 Containers nunca bloqueiam trajetória de ataques, sendo considerados baixos demais para isso.

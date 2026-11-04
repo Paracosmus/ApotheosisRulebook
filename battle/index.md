@@ -4,7 +4,7 @@ Esta seção ainda não foi completamente revisada. Algumas informações podem 
     
 # Batalha
 
-A batalha acontece em um tabuleiro quadriculado. No tabuleiro, podem conter paredes ou casas com diferentes níveis de altura. Cada casa possui um tipo de [terreno](/battle/board.md#terreno).
+A batalha acontece em um tabuleiro quadriculado. O tabuleiro pode conter paredes ou casas com diferentes níveis de altura. Cada casa possui um tipo de [terreno](/battle/board.md#terreno).
 
 ---
 
@@ -16,9 +16,9 @@ No seu turno, o personagem pode executar uma variedade de ações. As ações ge
 
 Em seu turno, o personagem pode se mover no tabuleiro. Por padrão, o custo para mover é de 1 de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação) por casa. Alguns terrenos podem ter regras específicas para mover, por exemplo em um terreno de lama pode custar 2 de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação) por casa.
 
-Pode-se mover para casas adjacentes com <b>ALTITUDE</b> diferentes, pagando-se 1 [<span class="main"><b>AÇÃO</b></span>](/hero/#ação) a mais para cada nível a mais de altura.
+Pode-se mover para casas adjacentes com <b>ALTITUDE</b> diferente, pagando-se 1 [<span class="main"><b>AÇÃO</b></span>](/hero/#ação) a mais para cada nível a mais de altura.
 
-Quando terminar de mover, o personagem fica na direção que se moveu até a casa de destino.
+Quando terminar de mover, o personagem fica na direção em que se moveu até a casa de destino.
 
 Adjacente
 Distância
@@ -31,24 +31,24 @@ Casas
 ---
 
 ## ÁREA DE INFLUÊNCIA
-Todo personagem possui uma área de influência sobre o tabuleiro, que são as casas adjacentes a sua peça no tabuleiro com exceção da casa atrás da peça em relação a sua orientação.
+Todo personagem possui uma área de influência sobre o tabuleiro, que são as casas adjacentes à sua peça no tabuleiro, com exceção da casa atrás da peça em relação à sua orientação.
 
 A área de influência aumenta em 1 de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação) o custo para que um personagem inimigo possa se mover para ela. Caso uma casa do tabuleiro esteja na área de influência de 2 ou mais personagens, o custo para se mover para esta casa aumenta em 1 de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação) para cada personagem inimigo.
 
 ---
 
 ## DESCANSAR
-O personagem pode sacrificar o seu turno para recuperar:
+O personagem pode realizar uma Ação Total para:
 
-* 1 de [<span class="hp"><b>VIDA</b></span>](/hero/#vida).
-ou
-* 2 de [<span class="skill"><b>ESTAMINA</b></span>](/hero/#estamina) e/ou [<span class="skill"><b>MANA</b></span>](/hero/#mana).
+* Curar <span class="positive">10</span> de [<span class="hp"><b>VIDA</b></span>](/hero/#vida); e
+
+* Recuperar <span class="positive">2</span> de **Energia** ([<span class="skill"><b>ESTAMINA</b></span>](/hero/#estamina) e/ou [<span class="skill"><b>MANA</b></span>](/hero/#mana)).
 
 ---
 
 ## Ataque Normal
 
-> O personagem sem nenhuma arma ou ferramenta, realiza um ataque corpo a corpo usando a força do seu corpo, mãos, pés, etc., para tentar causar o maior dano possível.
+> O personagem, sem nenhuma arma ou ferramenta, realiza um ataque corpo a corpo usando a força do seu corpo, mãos, pés, etc., para tentar causar o maior dano possível.
 
 <style>
     .normal-attack {
@@ -66,13 +66,13 @@ ou
 
 | {.compact}
 | ---                                                              | ---                            | ---                            |
-| <span class="house"></span> [<span class="house"><b>FOR</b></span>](/gameplay/attributes.md) + <span></span> | <span class="house"></span> 1 | <span class="house"></span> 3 |
+| <span class="hse"></span> [<span class="house"><b>FOR</b></span>](/gameplay/attributes.md) + <span><span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">1</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">2</span></span></span></span> | <span class="hse"></span> 1 | <span class="hse"></span> 3 |
 
 :::
 
 É o ataque padrão que todo personagem pode realizar, sem a necessidade de cartas ou recursos.
 
-Ao custo de 3 de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação) o personagem pode realizar um ataque <b>DIRETO</b> de 1 de <b>ALCANCE</b>, com <b>DANO</b> igual a ( [<span class="house"><b>FOR</b></span>](/gameplay/attributes.md) +  ).
+Ao custo de 3 de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação) o personagem pode realizar um ataque <b>DIRETO</b> de 1 de <b>ALCANCE</b>, com <b>DANO</b> igual a ( [<span class="house"><b>FOR</b></span>](/gameplay/attributes.md) + <span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">1</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">2</span></span></span> ).
 
 Este ataque não possui propriedades ou efeitos, é o mais simples e direto que um ataque pode ser.
 
@@ -86,7 +86,7 @@ Você pode utilizar uma carta conforme as regras durante a batalha. Você pode u
 
 ## Dano
 
-Todo ataque causa uma quantidade de <b>DANO</b>. O personagem que recebeu o ataque perde uma quantidade de [<span class="hp"><b>VIDA</b></span>](/hero/#vida) equivalente ao <b>DANO</b> sofrido. A quantidade de [<span class="hp"><b>VIDA</b></span>](/hero/#vida) perdida é chamada de <b>LESÃO</b> e calculada observando os seguintes passos.
+Todo ataque causa uma quantidade de <b>DANO</b> ao alvo. Desse <b>DANO</b> sofrido, subtrai-se a defesa do alvo — isto é, todos os descontos e reduções que o alvo aplica ao <b>DANO</b> recebido. O resultado final é a <b>LESÃO</b>, que corresponde à quantidade de [<span class="hp"><b>VIDA</b></span>](/hero/#vida) que o personagem perde, calculada observando os seguintes passos:
 
 * +1 de <b>LESÃO</b> se o <b>DANO</b> for maior ou igual à metade da [<span class="house"><b>CON</b></span>](/gameplay/attributes.md) do alvo
 * +1 de <b>LESÃO</b> se o <b>DANO</b> for maior ou igual à [<span class="house"><b>CON</b></span>](/gameplay/attributes.md) do alvo
@@ -95,7 +95,7 @@ Todo ataque causa uma quantidade de <b>DANO</b>. O personagem que recebeu o a
 !!!info
 Por exemplo, se um alvo tem <u>_6 de [<span class="house"><b>CON</b></span>](/gameplay/attributes.md)_</u> e recebe um ataque de <u>_18 de <b>DANO</b>_</u>, o alvo sofre <u>_4 de <b>LESÃO</b>_</u>. O cálculo é feito da seguinte forma:
 
-* +1 de <b>LESÃO</b> por ter sofrido um ataque maior ou igual à ( [<span class="house"><b>CON</b></span>](/gameplay/attributes.md) / 2 ) → (18 ≥ 6 / 2)
+* +1 de <b>LESÃO</b> por ter sofrido um ataque maior ou igual a ( [<span class="house"><b>CON</b></span>](/gameplay/attributes.md) / 2 ) → (18 ≥ 6 / 2)
 * +1 de <b>LESÃO</b> por ter sofrido um ataque maior ou igual à [<span class="house"><b>CON</b></span>](/gameplay/attributes.md) → (18 ≥ 6)
 * +1 de <b>LESÃO</b> por ter sofrido um ataque 5 pontos maior que a [<span class="house"><b>CON</b></span>](/gameplay/attributes.md) → (18 ≥ 11)
 * +1 de <b>LESÃO</b> por ter sofrido um ataque 10 pontos maior que a [<span class="house"><b>CON</b></span>](/gameplay/attributes.md) → (18 ≥ 16)
@@ -140,9 +140,9 @@ $$
 
 Observando a equação acima, note que quando o <b>DANO</b> for menor que a metade da [<span class="house"><b>CON</b></span>](/gameplay/attributes.md) do alvo, o ataque falha e não causa <b>LESÃO</b>. Neste caso é considerado que o atacante errou o ataque, que pode ser por diversos motivos, como o alvo se esquivou, se defendeu ou o ataque não atingiu o alvo.
 
-### Crítico
+### Rolagem Perfeita
 
-Quando o <b>DANO</b> de um ataque incluir a rolagem de dados, um desses dados deve ser considerado um dado crítico. Caso o dado crítico tenha o valor máximo, o atacante deve rolar  (+1D3) e continuar assim até que o dado crítico não tenha o valor máximo. O resultado da soma dos dados críticos é adicionado ao <b>DANO</b> do ataque.
+Quando o <b>DANO</b> de um ataque incluir a rolagem de dados, aplica-se a regra de [rolagem perfeita](/gameplay/die.md#dados-extras-rolagem-perfeita) ao dado principal da rolagem, somando o resultado dos dados extras ao <b>DANO</b> do ataque.
 
 ---
 
@@ -162,7 +162,7 @@ Deve ser feito o cálculo de alcance para verificar se o alvo está dentro do al
 
 TODO
 
-No calculo de alcance deve se adicionar/subtrair a altura do alvo e do atacante.
+No cálculo de alcance deve-se adicionar/subtrair a altura do alvo e do atacante.
 
 ### <span class="icon"></span> Área
 

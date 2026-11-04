@@ -21,14 +21,6 @@ graph LR
 
 ---
 
-## Valor Mínimo
-
-Toda operação matemática cujo resultado final seja um valor **igual ou inferior a zero** deve ser considerada como tendo resultado igual a **1**.
-
-Portanto, não é possível que um personagem tenha um Atributo com valor zero, ou cause <b>DANO</b> negativo, por exemplo.
-
----
-
 ## Divisão e Arredondamento
 
 Toda divisão que tiver como resultado um valor fracionado deve ser arredondada em direção ao zero, de forma a utilizar sempre números inteiros: **3,5** vira **3**, e **−3,5** vira **−3**.
@@ -41,7 +33,7 @@ Em caso de empate entre valores, ambos os valores devem ser considerados quando 
 
 Por exemplo, se o efeito diz algo como:
 * "_+1 de bônus para o seu maior atributo_", e o personagem tiver dois ou mais atributos empatados no maior valor, todos devem receber o bônus.
-* "_Este ataque atinge a peça do tabuleira mais próxima de você_", e houver empate na distância, todas as peças empatadas devem ser atingidas.
+* "_Este ataque atinge a peça do tabuleiro mais próxima de você_", e houver empate na distância, todas as peças empatadas devem ser atingidas.
 * "_Troque de lugar com a peça mais próxima de você_", e houver empate na distância, todas as peças empatadas deveriam trocar de lugar com você, porém como não é possível duas peças ocuparem o mesmo espaço, apenas uma delas poderá efetivamente trocar de lugar, neste caso, favorece-se o controlador do efeito, que então escolhe qual peça será trocada.
 
 ---
@@ -56,7 +48,7 @@ Ninguém pode jogar o turno de um jogador por ele; cada um deve agir por conta p
 
 Isso é um jogo, não um simulador. Quando as regras entrarem em conflito com a lógica, é preferível seguir as regras.
 
-Durante o jogo, inúmeras abstrações narrativas são feitas: o dia a dia do personagem e o que acontece entre as cenas relevantes não é jogado. Situações cotidianas como refeições, descanso, manutenção de equipamentos, idas ao banheiro e cuidados com companheiros acontecem naturalmente nos bastidores.
+Durante o jogo, inúmeras abstrações narrativas são feitas: o dia a dia do personagem e o que acontece entre as cenas relevantes não são jogados. Situações cotidianas como refeições, descanso, manutenção de equipamentos, idas ao banheiro e cuidados com companheiros acontecem naturalmente nos bastidores.
 
 Considere que:
 

@@ -7,7 +7,7 @@ Esta seção ainda não foi completamente revisada. Algumas informações podem 
 > Caído
 >
 
-São uma combinação genérica feita através de um magia de transmutação criada por Vigilantes que se rebelaram. É a mistura do DNA humano com algumas modificações pontuais e adição de alguns poucos genes específicos dos vigilantes.
+São uma combinação genética feita através de uma magia de transmutação criada por Vigilantes que se rebelaram. É a mistura do DNA humano com algumas modificações pontuais e adição de alguns poucos genes específicos dos vigilantes.
 
 A ideia era corromper a criação favorita dos regentes, adicionando criaturas vis, que devorariam sua própria espécie.
 

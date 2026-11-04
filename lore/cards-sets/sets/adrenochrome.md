@@ -9,7 +9,7 @@ Quando a adrenalina se degrada por ação do oxigênio ou de enzimas oxidantes (
 - Adrenalina (C₉H₁₃NO₃) → oxidação → Adrenocromo (C₉H₉NO₃)
 - Processo pode acontecer **in vitro** (em laboratório) ou **em pequena escala no corpo**, mas é **rápido e instável**.
 
-O soro de adrenocromo foi criado pelos [Fallen](https://www.notion.so/Fallen-2a383fd0169e802eb0c9f0fdfd979a00?pvs=21), como uma droga que tem efeito alucinógeno rejuvenescedor neles. Nos humanos comuns, consegue ressuscitar uma pessoa cujo metabolismo sessou a no máximo 5 minutos.
+O soro de adrenocromo foi criado pelos [Fallen](https://www.notion.so/Fallen-2a383fd0169e802eb0c9f0fdfd979a00?pvs=21), como uma droga que tem efeito alucinógeno rejuvenescedor neles. Nos humanos comuns, consegue ressuscitar uma pessoa cujo metabolismo cessou há no máximo 5 minutos.
 
 Existem diferentes formas de fabricação inclusive a completamente sintética laboratorial até aquelas feitas extraindo o sangue de humanos amedrontados.
 

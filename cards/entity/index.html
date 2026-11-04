@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847144542815">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847150764864">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -47,14 +47,14 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.6.0.847144542815" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.847150764864" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.847144542815" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.847150764864" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.847144542815" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.847150764864" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100..900&display=swap" rel="stylesheet">
 
     <!-- Styles -->
     <style>
@@ -75,7 +75,7 @@
         }
 
         div.container {
-            font-family: 'Open Sans', Apotheosis;
+            font-family: 'Noto Sans', Apotheosis;
             max-width: 1530px;
         }
 
@@ -90,6 +90,32 @@
 
         .icon {
             font-weight: normal;
+        }
+
+        .tk-icon {
+            font-weight: normal;
+        }
+
+        .tk-literal {
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .tk-dice > .tk-literal {
+            text-transform: none;
+        }
+
+        .tk-dice {
+            background-color: #e4f1e8;
+            border-radius: 50px;
+            padding: 0px 6px 0px 5px;
+            color: #006558;
+        }
+
+        .tk-dice .tk-literal {
+            letter-spacing: 0px;
+            font-weight: 900;
+            color: #008d7a;
         }
 
         .briefing {
@@ -207,19 +233,10 @@
             background-color: #212121;
             padding: 0px 10px;
             font-weight: 600;
-            /* Corners meet at mid-height; a superellipse between bevel (0) and round (1) gives softly curved points */
             border-radius: 10px / 50%;
             corner-shape: superellipse(0.7);
         }
 
-        .requirement {
-            font-size: 0.8em;
-            color: #F5F5F5;
-            background-color: #5C697A;
-            border-radius: 4px;
-            padding: 0px 8px;
-            font-weight: 550;
-        }
     </style>
 
 
@@ -237,6 +254,7 @@
 
 
     </div>
+
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -296,14 +314,6 @@
                                     <path d="M1.527 13.237a1.75 1.75 0 0 1 0-2.474l9.272-9.273a1.75 1.75 0 0 1 2.475 0l9.272 9.273a1.75 1.75 0 0 1 0 2.474l-9.272 9.272a1.75 1.75 0 0 1-2.475 0Zm1.06-1.414a.25.25 0 0 0 0 .354l9.273 9.272a.25.25 0 0 0 .353 0l9.272-9.272a.25.25 0 0 0 0-.354l-9.272-9.272a.25.25 0 0 0-.353 0Z"/>
                                 </svg>
                                 <span>Ícones</span>
-                            </a>
-                        </li>
-                        <li class="mr-6">
-                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://database.apotheosiscardgame.com/">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
-                                    <path d="M12 1.25c2.487 0 4.773.402 6.466 1.079.844.337 1.577.758 2.112 1.264.536.507.922 1.151.922 1.907v12.987l-.026.013h.026c0 .756-.386 1.4-.922 1.907-.535.506-1.268.927-2.112 1.264-1.693.677-3.979 1.079-6.466 1.079s-4.774-.402-6.466-1.079c-.844-.337-1.577-.758-2.112-1.264C2.886 19.9 2.5 19.256 2.5 18.5h.026l-.026-.013V5.5c0-.756.386-1.4.922-1.907.535-.506 1.268-.927 2.112-1.264C7.226 1.652 9.513 1.25 12 1.25ZM4 14.371v4.116l-.013.013H4c0 .211.103.487.453.817.351.332.898.666 1.638.962 1.475.589 3.564.971 5.909.971 2.345 0 4.434-.381 5.909-.971.739-.296 1.288-.63 1.638-.962.349-.33.453-.607.453-.817h.013L20 18.487v-4.116a7.85 7.85 0 0 1-1.534.8c-1.693.677-3.979 1.079-6.466 1.079s-4.774-.402-6.466-1.079a7.843 7.843 0 0 1-1.534-.8ZM20 12V7.871a7.85 7.85 0 0 1-1.534.8C16.773 9.348 14.487 9.75 12 9.75s-4.774-.402-6.466-1.079A7.85 7.85 0 0 1 4 7.871V12c0 .21.104.487.453.817.35.332.899.666 1.638.961 1.475.59 3.564.972 5.909.972 2.345 0 4.434-.382 5.909-.972.74-.295 1.287-.629 1.638-.96.35-.33.453-.607.453-.818ZM4 5.5c0 .211.103.487.453.817.351.332.898.666 1.638.962 1.475.589 3.564.971 5.909.971 2.345 0 4.434-.381 5.909-.971.739-.296 1.288-.63 1.638-.962.349-.33.453-.607.453-.817 0-.211-.103-.487-.453-.817-.351-.332-.898-.666-1.638-.962-1.475-.589-3.564-.971-5.909-.971-2.345 0-4.434.381-5.909.971-.739.296-1.288.63-1.638.962C4.104 5.013 4 5.29 4 5.5Z"/>
-                                </svg>
-                                <span>Database</span>
                             </a>
                         </li>
     
@@ -381,14 +391,6 @@
                                         <span>Ícones</span>
                                     </a>
                                 </li>
-                                <li class="mr-6">
-                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://database.apotheosiscardgame.com/">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
-                                            <path d="M12 1.25c2.487 0 4.773.402 6.466 1.079.844.337 1.577.758 2.112 1.264.536.507.922 1.151.922 1.907v12.987l-.026.013h.026c0 .756-.386 1.4-.922 1.907-.535.506-1.268.927-2.112 1.264-1.693.677-3.979 1.079-6.466 1.079s-4.774-.402-6.466-1.079c-.844-.337-1.577-.758-2.112-1.264C2.886 19.9 2.5 19.256 2.5 18.5h.026l-.026-.013V5.5c0-.756.386-1.4.922-1.907.535-.506 1.268-.927 2.112-1.264C7.226 1.652 9.513 1.25 12 1.25ZM4 14.371v4.116l-.013.013H4c0 .211.103.487.453.817.351.332.898.666 1.638.962 1.475.589 3.564.971 5.909.971 2.345 0 4.434-.381 5.909-.971.739-.296 1.288-.63 1.638-.962.349-.33.453-.607.453-.817h.013L20 18.487v-4.116a7.85 7.85 0 0 1-1.534.8c-1.693.677-3.979 1.079-6.466 1.079s-4.774-.402-6.466-1.079a7.843 7.843 0 0 1-1.534-.8ZM20 12V7.871a7.85 7.85 0 0 1-1.534.8C16.773 9.348 14.487 9.75 12 9.75s-4.774-.402-6.466-1.079A7.85 7.85 0 0 1 4 7.871V12c0 .21.104.487.453.817.35.332.899.666 1.638.961 1.475.59 3.564.972 5.909.972 2.345 0 4.434-.382 5.909-.972.74-.295 1.287-.629 1.638-.96.35-.33.453-.607.453-.818ZM4 5.5c0 .211.103.487.453.817.351.332.898.666 1.638.962 1.475.589 3.564.971 5.909.971 2.345 0 4.434-.381 5.909-.971.739-.296 1.288-.63 1.638-.962.349-.33.453-.607.453-.817 0-.211-.103-.487-.453-.817-.351-.332-.898-.666-1.638-.962-1.475-.589-3.564-.971-5.909-.971-2.345 0-4.434.381-5.909.971-.739.296-1.288.63-1.638.962C4.104 5.013 4 5.29 4 5.5Z"/>
-                                        </svg>
-                                        <span>Database</span>
-                                    </a>
-                                </li>
         
                             </ul>
                         </nav>
@@ -458,11 +460,11 @@
 </div>
 <h1 id="ente">Ente</h1>
 <blockquote>
-<p>Entes são manifestações de energia pura, que habitam o universo e pelo acumulo, se tornam espíritos sem corpo ou consciência. Eles podem ser incorporados e adormecidos dentro do corpo de um personagem. Quando despertados pelo personagem, causam uma transformação do seu corpo, que concede poderes e habilidades especiais.</p>
-<p>A energia que quando aglomerada em um único ponto, se torna um ente, pode ser de qualquer natureza, como pensamentos, desejos, sentimentos, elementos, forças naturais, crenças, ideias, etc.</p>
+<p>Entes são manifestações de energia pura, que habitam o universo e, pelo acúmulo, se tornam espíritos sem corpo ou consciência. Eles podem ser incorporados e adormecidos dentro do corpo de um personagem. Quando despertados pelo personagem, causam uma transformação do seu corpo, que concede poderes e habilidades especiais.</p>
+<p>A energia que, quando aglomerada em um único ponto, se torna um ente pode ser de qualquer natureza, como pensamentos, desejos, sentimentos, elementos, forças naturais, crenças, ideias, etc.</p>
 </blockquote>
-<p>As cartas de <a href="/cards/entity/"><span class="entity"><b>ENTE</b></span></a> aplicam transformações no personagem, alterando seus atributos e habilidades, o que as tornam uma vantagem estratégica.</p>
-<p>O personagem (receptáculo) pode incorporar, estas formas de energia e dominá-las. Cada corpo humano pode abrigar apenas um <a href="/cards/entity/"><span class="entity"><b>ENTE</b></span></a> por vez. Ele se mantém adormecido (carta oculta) e pode ser despertado (carta revelada) a qualquer momento, pelo receptáculo. Quando despertado, o corpo do receptáculo é transformado pelo <a href="/cards/entity/"><span class="entity"><b>ENTE</b></span></a>.</p>
+<p>As cartas de <a href="/cards/entity/"><span class="entity"><b>ENTE</b></span></a> aplicam transformações no personagem, alterando seus atributos e habilidades, o que as torna uma vantagem estratégica.</p>
+<p>O personagem (receptáculo) pode incorporar estas formas de energia e dominá-las. Cada corpo humano pode abrigar apenas um <a href="/cards/entity/"><span class="entity"><b>ENTE</b></span></a> por vez. Ele se mantém adormecido (carta oculta) e pode ser despertado (carta revelada) a qualquer momento pelo receptáculo. Quando despertado, o corpo do receptáculo é transformado pelo <a href="/cards/entity/"><span class="entity"><b>ENTE</b></span></a>.</p>
 <div class="mb-6 overflow-hidden border rounded-md docs-columns dark:border-base-border" style="grid-template-columns: repeat(2, minmax(0, 1fr));">
     <div class="flex items-center px-5 py-3 font-medium leading-snug text-gray-900 border-b border-base-border dark:text-white border-r">
         <span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M3 3a2 2 0 0 1 2-2h9.982a2 2 0 0 1 1.414.586l4.018 4.018A2 2 0 0 1 21 7.018V21a2 2 0 0 1-2 2H4.75a.75.75 0 0 1 0-1.5H19a.5.5 0 0 0 .5-.5V7a.5.5 0 0 0-.146-.336l-4.018-4.018A.5.5 0 0 0 15 2.5H5a.5.5 0 0 0-.5.5v6.25a.75.75 0 0 1-1.5 0V3Z"/><path d="M7.21 14.25H1.75a.75.75 0 0 0 0 1.5h5.46s-.008 2.249 0 3.256a.75.75 0 0 0 1.262.542l4.285-4a.75.75 0 0 0 0-1.096l-4.285-4A.75.75 0 0 0 7.21 11v3.249Z"/></g></g></svg></span>
@@ -533,8 +535,8 @@
 </retype-table>
 <hr>
 <h2 id="incorporar"><span class="entity">Incorporar</span></h2>
-<p>Cada tipo de <a href="/cards/entity/"><span class="entity"><b>ENTE</b></span></a> possui um requerimento mínimo de nível para ser incorporado pelo personagem. Quanto mais poderoso o ente, mais preparo físico, mental e espiritual, o receptáculo precisa. Este requerimento deve sempre ser considerado, mesmo que o ente seja adicionado ao personagem por efeito de carta ou qualquer outra mecânica de jogo.</p>
-<p>Para incorporar, é necessário que o espaço de <a href="/cards/entity/"><span class="entity"><b>ENTE</b></span></a> na <a href="/hero/table/sheet/"><span class="main"><b>FICHA</b></span></a> esteja disponível e o personagem esteja em uma local de <a href="/gameplay/stack/rift/"><span class="entity"><b>FENDA</b></span></a> que permita o acesso a carta desejada. Você deve selecionar uma carta, sacrificar o seu turno e enterrar 5 cartas de recurso do mesmo nível que o <a href="/cards/entity/"><span class="entity"><b>ENTE</b></span></a> selecionado. Envie a carta, oculta, para o espaço de <a href="/cards/entity/"><span class="entity"><b>ENTE</b></span></a> da sua <a href="/hero/table/"><span class="main"><b>MESA</b></span></a>.</p>
+<p>Cada tipo de <a href="/cards/entity/"><span class="entity"><b>ENTE</b></span></a> possui um requerimento mínimo de nível para ser incorporado pelo personagem. Quanto mais poderoso o ente, mais preparo físico, mental e espiritual o receptáculo precisa. Este requerimento deve sempre ser considerado, mesmo que o ente seja adicionado ao personagem por efeito de carta ou qualquer outra mecânica de jogo.</p>
+<p>Para incorporar, é necessário que o espaço de <a href="/cards/entity/"><span class="entity"><b>ENTE</b></span></a> na <a href="/hero/table/sheet/"><span class="main"><b>FICHA</b></span></a> esteja disponível e o personagem esteja em um local de <a href="/gameplay/stack/rift/"><span class="entity"><b>FENDA</b></span></a> que permita o acesso à carta desejada. Você deve selecionar uma carta, realizar uma Ação Total e enterrar 5 cartas de recurso do mesmo nível que o <a href="/cards/entity/"><span class="entity"><b>ENTE</b></span></a> selecionado. Envie a carta, oculta, para o espaço de <a href="/cards/entity/"><span class="entity"><b>ENTE</b></span></a> da sua <a href="/hero/table/"><span class="main"><b>MESA</b></span></a>.</p>
 <retype-table copy-text="TIPO         | NÍVEL | NÍVEL MÍNIMO REQUERIDO DO HERÓI
 ---          | ---   | ---
 [&lt;span class=&quot;entity&quot;&gt;&lt;b&gt;ESPÍRITO&lt;/b&gt;&lt;/span&gt;](/cards/entity.md) | 1     | 3
@@ -585,29 +587,29 @@
 <p>O <a href="/cards/entity/"><span class="entity"><b>ENTE</b></span></a> não pode ser despertado no mesmo turno em que ele foi adormecido, a não ser por efeito de carta.</p>
 <hr>
 <h2 id="liberar"><span class="entity">Liberar</span></h2>
-<p>Para remover a carta de <a href="/cards/entity/"><span class="entity"><b>ENTE</b></span></a> de sua <a href="/hero/table/sheet/"><span class="main"><b>FICHA</b></span></a>, o personagem pode sacrificar seu turno e enterrar sua carta de <a href="/cards/entity/"><span class="entity"><b>ENTE</b></span></a>.</p>
+<p>Para remover a carta de <a href="/cards/entity/"><span class="entity"><b>ENTE</b></span></a> de sua <a href="/hero/table/sheet/"><span class="main"><b>FICHA</b></span></a>, o personagem pode realizar uma Ação Total e descartar sua carta de <a href="/cards/entity/"><span class="entity"><b>ENTE</b></span></a>.</p>
 <hr>
 <h2 id="ritual-de-apoteose"><span class="entity">Ritual de Apoteose</span></h2>
 <blockquote>
-<p>É chamado de <strong>Apoteose</strong>, o processo de incorporar um ente de nível deus. Porém, os eterligadores costumam dividir a apoteose em dois tipos</p>
+<p>É chamado de <strong>Apoteose</strong> o processo de incorporar um ente de nível deus. Porém, os eterligadores costumam dividir a apoteose em dois tipos:</p>
 </blockquote>
 <h3 id="pequena-apoteose">Pequena Apoteose</h3>
 <blockquote>
-<p>Ou <em>Falsa Apoteose</em>, é realizado ao incorporar um deus de grau menor, de menor poder ou relevância. Geralmente deuses jovens, ligados a eventos específicos ou ações.</p>
+<p>Ou <em>Falsa Apoteose</em>, é realizada ao incorporar um deus de grau menor, de menor poder ou relevância. Geralmente deuses jovens, ligados a eventos específicos ou ações.</p>
 </blockquote>
 <p>Em mecânicas de jogo, é quando o <a href="/cards/entity/"><span class="entity"><b>ENTE</b></span></a> é de <strong>nível 3</strong> (<a href="/cards/entity/"><span class="entity"><b>DEUS</b></span></a>), e a raridade de sua carta é <a href="/gameplay/rarity/"><span class="epic">ÉPICA</span></a> ou inferior.</p>
 <h3 id="grande-apoteose">Grande Apoteose</h3>
 <blockquote>
-<p>Ou <em>Apoteose Verdadeira</em>, é realizado ao incorporar um deus de grau elevado, de grande poder e relevância. Geralmente deuses antigos, ligados aos primórdios da criação.</p>
+<p>Ou <em>Apoteose Verdadeira</em>, é realizada ao incorporar um deus de grau elevado, de grande poder e relevância. Geralmente deuses antigos, ligados aos primórdios da criação.</p>
 </blockquote>
 <p>Em mecânicas de jogo, é quando o <a href="/cards/entity/"><span class="entity"><b>ENTE</b></span></a> é de <strong>nível 3</strong> (<a href="/cards/entity/"><span class="entity"><b>DEUS</b></span></a>), e a raridade de sua carta é <a href="/gameplay/rarity/"><span class="legendary">LENDÁRIA</span></a>.</p>
 <hr>
 <h2 id="curiosidades">Curiosidades</h2>
 <h3 id="nomes">Nomes</h3>
 <p>Os <a href="/cards/entity/"><span class="entity"><b>ESPÍRITO</b></span></a> são inspirados em seres espirituais e espíritos da natureza, como fadas, duendes, elementais, etc. Eles são os entes mais comuns e fáceis de encontrar, mas também os menos poderosos.</p>
-<p>As <a href="/cards/entity/"><span class="entity"><b>DEIDADE</b></span></a> são inspirados em divindades menores, como deuses locais, deuses da natureza, deuses olímpicos, etc. Eles são mais raros e poderosos que os <a href="/cards/entity/"><span class="entity"><b>ESPÍRITO</b></span></a>, mas também mais difíceis de encontrar. Os deuses dos diferentes panteões mitológicos, como grego, romano, nórdico, egípcio, etc., são exemplos de <a href="/cards/entity/"><span class="entity"><b>DEIDADE</b></span></a>.</p>
-<p>Os <a href="/cards/entity/"><span class="entity"><b>DEUS</b></span></a> são inspirados nos Aeons do gnosticismo, que são seres divinos e eternos, que emanam a luz e a sabedoria do Deus supremo. Eles são os entes mais raros e poderosos, mas também os mais difíceis de encontrar. Eles são divididos narrativamente em dois grupos, os deuses primordiais, que são os primeiros seres criados, praticamente tão antigos quando o próprio conceito de existência, ligados à criação do universo e à origem da vida. E os deuses sucessores que são os deuses que surgiram depois, ligados a eventos específicos ou ações. Os deuses primordiais são exemplos de <a href="/cards/entity/"><span class="entity"><b>DEUS</b></span></a> de grande apoteose, enquanto os deuses sucessores são exemplos de <a href="/cards/entity/"><span class="entity"><b>DEUS</b></span></a> de pequena apoteose.</p>
-<p>Os deuses são nomeados conforme o conceito que representam, como por exemplo, deus da vida, deus da morte, deus da sabedoria, etc. Em alguns casos o nome da entidade da qual foram inspirados é mantido, para preservar a sua identidade e referência. Quando for este o caso, uma tradução ou explicação será adicionado após um hífen ao nome do deus como &quot;Sophia - A Sabedoria Divina&quot;, &quot;Abaddon - A Perdição&quot;, etc..</p>
+<p>As <a href="/cards/entity/"><span class="entity"><b>DEIDADE</b></span></a> são inspiradas em divindades menores, como deuses locais, deuses da natureza, deuses olímpicos, etc. Elas são mais raras e poderosas que os <a href="/cards/entity/"><span class="entity"><b>ESPÍRITO</b></span></a>, mas também mais difíceis de encontrar. Os deuses dos diferentes panteões mitológicos, como grego, romano, nórdico, egípcio, etc., são exemplos de <a href="/cards/entity/"><span class="entity"><b>DEIDADE</b></span></a>.</p>
+<p>Os <a href="/cards/entity/"><span class="entity"><b>DEUS</b></span></a> são inspirados nos Aeons do gnosticismo, que são seres divinos e eternos, que emanam a luz e a sabedoria do Deus supremo. Eles são os entes mais raros e poderosos, mas também os mais difíceis de encontrar. Eles são divididos narrativamente em dois grupos: os deuses primordiais, que são os primeiros seres criados, praticamente tão antigos quanto o próprio conceito de existência, ligados à criação do universo e à origem da vida; e os deuses sucessores, que são os deuses que surgiram depois, ligados a eventos específicos ou ações. Os deuses primordiais são exemplos de <a href="/cards/entity/"><span class="entity"><b>DEUS</b></span></a> de grande apoteose, enquanto os deuses sucessores são exemplos de <a href="/cards/entity/"><span class="entity"><b>DEUS</b></span></a> de pequena apoteose.</p>
+<p>Os deuses são nomeados conforme o conceito que representam, como por exemplo, deus da vida, deus da morte, deus da sabedoria, etc. Em alguns casos, o nome da entidade na qual foram inspirados é mantido, para preservar a sua identidade e referência. Quando for este o caso, uma tradução ou explicação será adicionada após um hífen ao nome do deus, como &quot;Sophia - A Sabedoria Divina&quot;, &quot;Abaddon - A Perdição&quot;, etc.</p>
 <div id="retype-backlinks">
     <h2>See also</h2>
 <div class="card-compact-group">
@@ -695,7 +697,7 @@
                 <span class="card-compact-icon inline-flex shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><!--icon--><path d="M4 9.5a5 5 0 1 1 7.916 4.062 7.973 7.973 0 0 1 5.018 7.166.75.75 0 1 1-1.499.044 6.469 6.469 0 0 0-12.932 0 .75.75 0 0 1-1.499-.044 7.972 7.972 0 0 1 5.059-7.181A4.994 4.994 0 0 1 4 9.5ZM9 6a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Zm10.25-5a.75.75 0 0 1 .75.75V4h2.25a.75.75 0 0 1 0 1.5H20v2.25a.75.75 0 0 1-1.5 0V5.5h-2.25a.75.75 0 0 1 0-1.5h2.25V1.75a.75.75 0 0 1 .75-.75Z"/></svg></span>
                 <span class="card-compact-title">Modelo</span>
             </div>
-            <p class="card-compact-description">Se trata de uma peça no tabuleiro que não representa um personagem Herói, com MESA, e nem um personagem COMPANHEIRO, com uma carta que o define</p>
+            <p class="card-compact-description">Trata-se de uma peça no tabuleiro que não representa um personagem Herói, com MESA, e nem um personagem COMPANHEIRO, com uma carta que o define.</p>
         </div>
     </a>
 </div>
@@ -726,7 +728,7 @@
         <div class="card-compact-body">
             <div class="card-compact-header">
                 <span class="card-compact-icon inline-flex shrink-0"><span class="docs-emoji">&#xE99A;</span></span>
-                <span class="card-compact-title">Zona Extra</span>
+                <span class="card-compact-title"> Ficha</span>
             </div>
             <p class="card-compact-description">Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.</p>
         </div>
@@ -752,8 +754,8 @@
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-10-17T18:57:17" title="2026-10-17" data-absolute-label="Last updated on 2026-10-17 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-10-17 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
-                        Last updated on 2026-10-17 by Bruno Caxito
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-11-04T20:39:00" title="2026-11-04" data-absolute-label="Last updated on 2026-11-04 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-11-04 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                        Last updated on 2026-11-04 by Bruno Caxito
                     </time>
                 </div>
 
