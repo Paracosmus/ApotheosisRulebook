@@ -6,7 +6,7 @@ icon: square-fill
 
 ## Batalha Campal
 
-É um formato de batalha onde os jogadores se enfrentam em um campo de batalha terrestre, com regras específicas para o combate e a movimentação, na intensão de simular uma batalha em grande escala entre exércitos.
+É um formato de batalha onde os jogadores se enfrentam em um campo de batalha terrestre, com regras específicas para o combate e a movimentação, na intenção de simular uma batalha em grande escala entre exércitos.
 
 ## Governo Monárquico
 
@@ -28,7 +28,7 @@ E **Recursos**, uma moeda de troca usada para comprar tropas, melhorias, entre o
 
 Nenhum governo consegue se manter sozinho, por isso é necessário manter uma boa relação com seus vizinhos e criar alianças. A diplomacia é o painel de relação com as outras cidades estados relevantes para o conflito.
 
-O exércitos da resistência pode ter um aliado para cada ponto de **Poder** que possuir. Se perderem **Poder**, a última aliança feita é desfeita.
+O exército da resistência pode ter um aliado para cada ponto de **Poder** que possuir. Se perderem **Poder**, a última aliança feita é desfeita.
 
 **Alianças**
 
@@ -36,7 +36,7 @@ O exércitos da resistência pode ter um aliado para cada ponto de **Poder** que
 | --- | --- | --- | --- |
 | **Carrefour** | *Comercial* | **+1** de 💰 por rotação | Podem se aliar a ambos os lados |
 | **Ultramar** | *Produtiva* | **+1** de 🪨 por rotação |  |
-| **~~Akka~~** | *Religiosa* | **+1** de 🍊 por rotação | Não pode ser aliado pois estão sobre controle da Ordem do Caos e já são aliados dos republicanos |
+| **~~Akka~~** | *Religiosa* | **+1** de 🍊 por rotação | Não pode ser aliado pois estão sob controle da Ordem do Caos e já são aliados dos republicanos |
 | **Babel** | *Conveniência* | Tropas Mercenárias | Podem ser usados por ambos os lados |
 
 É possível trocar recursos por tropas se você se aliar a Babel;
@@ -62,11 +62,11 @@ O exércitos da resistência pode ter um aliado para cada ponto de **Poder** que
 
 ## Exército
 
-O exército é divido em batalhões, cada um fica em uma província.
+O exército é dividido em batalhões, cada um fica em uma província.
 
 ### Mudança
 
-Na fase de rotação, os jogadores podem mover unidades a suas escolhas, de um província para uma outra adjacente.
+Na fase de rotação, os jogadores podem mover unidades à sua escolha, de uma província para uma outra adjacente.
 
 - Se a província adjacente for aliada, as tropas apenas se mudam.
 - Se a província adjacente for inimiga, tem início uma batalha campal.
@@ -74,13 +74,13 @@ Na fase de rotação, os jogadores podem mover unidades a suas escolhas, de um p
 
 ### Batalha
 
-A batalha campal segue as mesmas regras de um combate entre [Companion](https://www.notion.so/Companion-27083fd0169e8001a3c9fbac0d8a3684?pvs=21). Respeitando pontos de ação, regras de movimento, calculo de distância, altura, adjacência, etc.
+A batalha campal segue as mesmas regras de um combate entre [Companion](https://www.notion.so/Companion-27083fd0169e8001a3c9fbac0d8a3684?pvs=21). Respeitando pontos de ação, regras de movimento, cálculo de distância, altura, adjacência, etc.
 
 Porém, apenas [Companion](https://www.notion.so/Companion-27083fd0169e8001a3c9fbac0d8a3684?pvs=21) com a propriedade **Unidade** podem participar.
 
 <aside>
 
-Adicionalmente, unidades possuem orientação, e sofrem bônus de ataque quanto atacadas pelas costas e flancos.
+Adicionalmente, unidades possuem orientação, e sofrem bônus de ataque quando atacadas pelas costas e flancos.
 
 - **Retaguarda** **→** **+4** de Dano
 - **Flancos** → **+2** de Dano
@@ -107,16 +107,16 @@ Porém, técnicas que requerem anexos, devem ser garantidas anexando as respecti
 |
 | --- | --- | --- |
 | **CON** | MORAL | Define a quantidade de Vida |
-| **FOR** | DANO | Dano causando em ataques normais |
+| **FOR** | DANO | Dano causado em ataques normais |
 | **AGI** | DESLOCAMENTO | Equivalente à AÇÃO nas regras padrão |
-| **PER** | ALCANCE | Dano causando em ataques à distância |
+| **PER** | ALCANCE | Dano causado em ataques à distância |
 | **INT** | EXPERIÊNCIA MÁXIMA | Número máximo de contadores de Experiência que esta carta pode ter |
 | **CAR** | CONFIANÇA | Valor de Moral recuperado quando uma unidade inimiga é debandada |
-| **ESP** | DANO ESPECIAL | Usado para definir o dano de técnicas domo magias e explosivos |
+| **ESP** | DANO ESPECIAL | Usado para definir o dano de técnicas como magias e explosivos |
 
 ### Experiência
 
-Unidades ganham experiência de combate. Ao final de uma batalha, todas as unidades vivas recebem **+1** contador na sua respectiva carta (**max igual à INT**). O valor desse contador deve ser somado ao valor de qualquer rolagem de dado feita por esta unidades, seja ele proposto por um ataque, teste, ou técnica.
+Unidades ganham experiência de combate. Ao final de uma batalha, todas as unidades vivas recebem **+1** contador na sua respectiva carta (**max igual à INT**). O valor desse contador deve ser somado ao valor de qualquer rolagem de dado feita por esta unidade, seja ele proposto por um ataque, teste, ou técnica.
 
 ### Melhorias
 
@@ -148,7 +148,7 @@ Se a unidade de um comandante morrer, ele pode assumir outra unidade na próxima
 | --- | --- | --- |
 | **Marechal** | Comandante       | +1 de Moral (10 de HP) |
 | **Caleb**    | *Estrategista*   | Sua unidade recebe +1 contadores de EXP ao final da batalha |
-| **Drako**    | *Artilheiro*     | +1d3 de DANO |
+| **Drako**    | *Artilheiro*     | +{{ d1d3 }} de DANO |
 | **Hércules** | *Batedor*        | +1 de DESLOCAMENTO |
 | **Carlos**   | *Defensor*       | -2 sofrido de Ataques |
 | **Ryan**     | *Ponta de Lança* | +3 de DANO quando sem aliados adjacentes |

@@ -31,9 +31,9 @@ Qualquer carta de Recurso pode ser colocada em um espaço de {{ inv }}, não ten
 
 Cartas ocultas no {{ inv }} devem ter seus efeitos e bônus ignorados a todo momento, exceto os efeitos {{ hand }} e {{ anywhere }}, que podem ser usados normalmente.
 
-Cartas permanecidas reveladas no {{ inv }} podem ser ativadas, e seus efeitos e bônus, inclusive os {{ permanent }}, devem ser considerados a todo momento.
+Cartas que permanecem reveladas no {{ inv }} podem ser ativadas, e seus efeitos e bônus, inclusive os {{ permanent }}, devem ser considerados a todo momento.
 
-Porém, {{ event }} são exceção a esta regra, podendo ser ativados normalmente, bem como ativados quando uma condição opcional for cumprida. Assim como as cartas na {{ table }}, um {{ event }} no {{ inv }} segue as mesmas regras de ativação e requerem que o Herói tenha o nível de {{ knowledge }} da carta para poder ativá-la e usar seu efeito.
+Porém, {{ event }} são exceção a esta regra, podendo ser ativados normalmente, bem como ativados quando uma condição opcional for cumprida. Assim como as cartas na {{ table }}, um {{ event }} no {{ inv }} segue as mesmas regras de ativação e requer que o Herói tenha o nível de {{ knowledge }} da carta para poder ativá-la e usar seu efeito.
 
 Se um {{ event }} for ativado do {{ inv }}, ele deve ser revelado, e se após resolver seu efeito, ele não for descartado, ele deve ser ocultado novamente.
 

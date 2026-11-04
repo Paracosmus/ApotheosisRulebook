@@ -31,10 +31,10 @@ Em alguns formatos de jogo, principalmente em formatos onde cada jogador monta s
 
 Um personagem pode realizar uma Ação Total para trocar [cartas de recurso](/cards/index.md) livremente com o {{ tradingPost }} da campanha.
 
-Ele deve selecionar as cartas que deseja obter do {{ tradingPost }} e então selecionar cartas que possui cuja soma dos valores seja igual ou superior à soma dados valores das cartas que deseja obter. As cartas trocadas são descartadas para o {{ tradingPost }}, e as cartas obtidas são colocadas obrigatoriamente no {{ inv }} do Herói.
+Ele deve selecionar as cartas que deseja obter do {{ tradingPost }} e então selecionar cartas que possui cuja soma dos valores seja igual ou superior à soma dos valores das cartas que deseja obter. As cartas trocadas são descartadas para o {{ tradingPost }}, e as cartas obtidas são colocadas obrigatoriamente no {{ inv }} do Herói.
 
 !!!
-Observe que cada naipe de Recurso tem um tipo de valor, e portanto não pode ser trocada por cartas de outro tipo. Por exemplo, uma carta de {{ item }} cujo valor é medido pelo seu {{ price }}, não pode ser trocada por uma carta de {{ skill }}, cujo valor é medido em {{ xp }}.
+Observe que cada naipe de Recurso tem um tipo de valor, e portanto não pode ser trocado por cartas de outro tipo. Por exemplo, uma carta de {{ item }} cujo valor é medido pelo seu {{ price }} não pode ser trocada por uma carta de {{ skill }}, cujo valor é medido em {{ xp }}.
 
 Portanto, se uma troca envolver cartas de múltiplos naipes de recurso, cada tipo de valor deve ser avaliado e quitado individualmente.
 !!!
@@ -45,7 +45,7 @@ Para trocar cartas de recurso com o {{ tradingPost }} ou obter cartas de ficha p
 
 Os locais no jogo são definidos pela campanha ou formato de jogo, e cada local tem um nível de acesso individual, de **0** a **3**, para cada baralho, exceto a {{ cradle }}. A {{ cradle }} não tem nível de acesso, pois cartas de {{ house }} são obtidas apenas por efeitos. O nível de acesso de um local define o nível máximo que as cartas obtidas podem ter.
 
-O nível de casso do local não limita o acesso pelo efeito de cartas. Os efeitos podem ou não estabelecerem seus próprios filtros.
+O nível de acesso do local não limita o acesso pelo efeito de cartas. Os efeitos podem ou não estabelecer seus próprios filtros.
 
 ### Restrição de Batalha
 

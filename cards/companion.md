@@ -47,49 +47,49 @@ TODO
 
 ### <span class="icon"></span> Evocação
 
-> Evocações são seres artificiais, criados a pártir da vontade de uma pessoa, combinada com uma magia específica de criação.
+> Evocações são seres artificiais, criados a partir da vontade de uma pessoa, combinada com uma magia específica de criação.
 >
-> Elas podem assumir qualquer forma, bem como possuir certas habilidades. Isso é realizado através de uma complexa e minuciosa transformação do éter em matéria viva, que é operado por um evocador, um personagem que possui o conhecimento e a habilidade necessária para criar e controlar essas criaturas. O processo de criação de uma evocação é extremamente complexo, e requer um profundo entendimento de como moldar e manipular a energia etérea para criar um corpo físico animado (criar corpo e espírito).
+> Elas podem assumir qualquer forma, bem como possuir certas habilidades. Isso é realizado através de uma complexa e minuciosa transformação do éter em matéria viva, que é operada por um evocador, um personagem que possui o conhecimento e a habilidade necessários para criar e controlar essas criaturas. O processo de criação de uma evocação é extremamente complexo, e requer um profundo entendimento de como moldar e manipular a energia etérea para criar um corpo físico animado (criar corpo e espírito).
 >
-> O resultado é uma energia viva que deve ser depositada em um material armazenador de éter, talhado de uma forma que se assemelhe a forma evocada da criatura, mantendo assim a energia em um formato transformável na forma final. Esse objetos são chamados de _totens_ e são feitos geralmente de madeira mágica, por ser mais abundante e fácil de trabalhar, mas podendo ser feito de qualquer outro material armazenador de éter.
+> O resultado é uma energia viva que deve ser depositada em um material armazenador de éter, talhado de uma forma que se assemelhe à forma evocada da criatura, mantendo assim a energia em um formato transformável na forma final. Esses objetos são chamados de _totens_ e são feitos geralmente de madeira mágica, por ser mais abundante e fácil de trabalhar, mas podendo ser feitos de qualquer outro material armazenador de éter.
 
-> Quando uma nova evocação é criada, sua fórmula de criação é única, e pode ser compartilhada aprendida ou recriada por outros evocadores. Ao criador, cabe a tarefa de dar um nome para está nova espécie, e tradicionalmente a terminação “ero” é utilizada (_Perc**ero**, El**ero**, etc.._). Porém é também comum, o uso de nomes de criaturas vindas da mitologia ou fantasia que se assemelhem de certa forma àquela evocação.
+> Quando uma nova evocação é criada, sua fórmula de criação é única, e pode ser compartilhada, aprendida ou recriada por outros evocadores. Ao criador, cabe a tarefa de dar um nome para esta nova espécie, e tradicionalmente a terminação “ero” é utilizada (_Perc**ero**, El**ero**, etc._). Porém, é também comum o uso de nomes de criaturas vindas da mitologia ou fantasia que se assemelhem de certa forma àquela evocação.
 
-> Para alguns, criar uma ser vivo é uma blasfêmia ou corrupção da natureza, e isso deve ser deixado apenas para o **Grande Criador**, já outros, veem isso como uma forma de se tornarem cocriadores ou apenas ter servos úteis. Apesar disso, existem diferenças claras entre uma evocação e um ser natural, evocações são albinas, com pouca ou nenhuma coloração no corpo, são incapazes de se reproduzir. Além disso, as evocação não possuem um ciclo de vida natural, seus corpos tem pouca duração e se desfazem depois de alguns minutos, precisando ser recriados pelo evocador na proxima vez que forem evocadas.
+> Para alguns, criar um ser vivo é uma blasfêmia ou corrupção da natureza, e isso deve ser deixado apenas para o **Grande Criador**; já outros veem isso como uma forma de se tornarem cocriadores ou apenas ter servos úteis. Apesar disso, existem diferenças claras entre uma evocação e um ser natural: evocações são albinas, com pouca ou nenhuma coloração no corpo, e são incapazes de se reproduzir. Além disso, as evocações não possuem um ciclo de vida natural, seus corpos têm pouca duração e se desfazem depois de alguns minutos, precisando ser recriados pelo evocador na próxima vez que forem evocadas.
 
 TODO
 
 Personagens desse tipo são desevocados ao final do combate.
 
 #### Evocar
-A carta de evocação permanece oculta até que seja evocada e não possui peça no tabuleiro. Para ser evocada, é necessário que o evocador (Herói) selecione uma casa adjacente vazia, e pague 2 de {{ mp }}.
+A carta de evocação permanece oculta até que seja evocada e não possui peça no tabuleiro. Para ser evocada, é necessário que o evocador (Herói) selecione uma casa adjacente vazia, e pague **2** de {{ mp }} por nível da carta.
 
-Quando evocada, a carta é revelada e a peça do personagem evocação é adicionado na casa do tabuleiro selecionada.
+Quando evocada, a carta é revelada e a peça do personagem evocação é adicionada na casa do tabuleiro selecionada.
 
-Um COMPANHEIRO evocado, é colocado no final da fila de turnos na rodada em que é evocado, na rodada seguinte ele é posicionado na fila de turnos conforme sua PER.
+Um COMPANHEIRO evocado é colocado no final da fila de turnos na rodada em que é evocado; na rodada seguinte ele é posicionado na fila de turnos conforme sua Iniciativa.
 
 #### Desevocar
-O evocador pode a qualquer momento do seu turno, desevocar sua evocação, para isto ele anuncia a ação, oculta a carta da evocação e remove a peça dela do tabuleiro.
+O evocador pode, a qualquer momento do seu turno, desevocar sua evocação; para isto ele anuncia a ação, oculta a carta da evocação e remove a peça dela do tabuleiro.
 
 #### Morte da Evocação
-Diferente de outros personagens, quando uma evocação morre, ela é desevocada (sua carta é ocultada) e sua peça é removida do tabuleiro, não deixando corpo, se ela possuir cartas anexadas, elas não devem ser descartadas. Quando desevocada dessa forma, ela não pode ser evocada novamente até o final da batalha.
+Diferente de outros personagens, quando uma evocação morre, ela é desevocada (sua carta é ocultada) e sua peça é removida do tabuleiro, não deixando corpo; se ela possuir cartas anexadas, elas não devem ser descartadas. Quando desevocada dessa forma, ela não pode ser evocada novamente até o final da batalha.
 
-### <span class="icon"></span> Automato
+### <span class="icon"></span> Autômato
 
-- Reviver e curar não funciona em automaton, mas sim **Reparar**. Que são feitos por efeito de carta ou mecânica de jogo
-  - *Reparar*: Descarte ícones de mech para reparar 25 de {{ hp }} por ícone descartado. Sendo que isso vale mesmo quando mortos, podendo recuperar vida e até voltarem a vida se for o caso.
-- Um personagem só pode concertar automatons do conhecimento e nível que ele possuí
-  - O automato tem que estar adjacente. Isso gasta all-in do personagem que reparar
-- Automatons não podem descansar, nem outras atividades do tipo
-- Quando um efeito diz “Recuperar HP” e não curar/reparar, ele ainda vale no automaton
-- A grande vantagem do automaton é que eles são imortais. Eles não são descartados apenas se ao final do combate não forem recondicionados.
+- Reviver e curar não funcionam em autômatos, mas sim **Reparar**, que é feito por efeito de carta ou mecânica de jogo
+  - *Reparar*: Descarte ícones de mech para reparar 25 de {{ hp }} por ícone descartado. Sendo que isso vale mesmo quando mortos, podendo recuperar vida e até voltarem à vida se for o caso.
+- Um personagem só pode consertar autômatos do conhecimento e nível que ele possui
+  - O autômato tem que estar adjacente. Isso gasta all-in do personagem que reparar
+- Autômatos não podem descansar, nem outras atividades do tipo
+- Quando um efeito diz “Recuperar HP” e não curar/reparar, ele ainda vale no autômato
+- A grande vantagem do autômato é que eles são imortais. Eles não são descartados apenas se ao final do combate não forem recondicionados.
 - Eles ainda podem sofrer perda total normalmente
 
-### <span class="icon"></span> Vigilante
+### <span class="icon"></span> Vigilante
 
 Quando no turno de um vigilante, pode ser jogado com qualquer outro vigilante, porém usa-se os {{ ap }} do personagem do turno.
 
-### <span class="icon"></span> Drako
+### <span class="icon"></span> Drako
 
 ---
 
@@ -107,7 +107,7 @@ Os 20 caminhos são:
 |       | Guerreiros, espadachins                            | Quimeras                      |
 |       | Religiosos, sacerdotes, clérigos                   | Marinhos                      |
 |       | Arqueiros, pistoleiros, atiradores                 | Insetos                       |
-|       | Militares, mercenários, policias, soldados         | Anfíbios                      |
+|       | Militares, mercenários, policiais, soldados        | Anfíbios                      |
 |       | Bárbaros, selvagens, domadores, párias             | Feras                         |
 |       | Eremitas, andarilhos, buscadores, filósofos        | Pássaros                      |
 |       | Comerciantes, jogadores, trapaceiros, mercadores   | Mecanizados                   |
@@ -129,7 +129,7 @@ Os 20 caminhos são:
 
 Ao custo de 2 de {{ ap }}, esta carta pode ser enviada para um espaço disponível no {{ support }} do Herói.
 
-- Se o personagem for {{ human }} ou {{ creature }}, ele deve ser colocado em uma [casa de reforço do tabuleiro](/battle/board.md#casa-de-reforço). Se não houverem casas de reforço disponíveis, o personagem não pode ser recrutado.
+- Se o personagem for {{ human }} ou {{ creature }}, ele deve ser colocado em uma [casa de reforço do tabuleiro](/battle/board.md#casa-de-reforço). Se não houver casas de reforço disponíveis, o personagem não pode ser recrutado.
 
 - Se o personagem for uma {{ summon }}, coloque sua peça em uma casa adjacente ao Herói. Se não houver nenhuma casa adjacente disponível, este personagem não pode ser evocado.
 
@@ -149,9 +149,9 @@ Ao custo de 2 de {{ ap }}, esta carta pode ser enviada do {{ support }} para o {
 
 Este é o processo de trocar uma carta de {{ companion }} em seu {{ support }} por outra de nível superior e mesmo caminho.
 
-A qualquer momento do turno de um personagem {{ companion }} que esteja na {{ table }} de um Herói, mesmo que em combate ou quando ele não tem acesso ao {{ bestiary }}, ele pode sacrificar o seu turno e descartar 3 de {{ xp }}, para selecionar uma carta de {{ companion }} do {{ bestiary }} de nível imediatamente superior ao seu e de mesmo caminho, observando se o seu Herói possuí o {{ knowledge }} e nível necessário para ter aquela carta em sua {{ table }}, bem como outros requerimentos, se houverem.
+A qualquer momento do turno de um personagem {{ companion }} que esteja na {{ table }} de um Herói, mesmo que em combate ou quando ele não tem acesso ao {{ bestiary }}, ele pode sacrificar o seu turno e descartar 3 de {{ xp }}, para selecionar uma carta de {{ companion }} do {{ bestiary }} de nível imediatamente superior ao seu e de mesmo caminho, observando se o seu Herói possui o {{ knowledge }} e nível necessários para ter aquela carta em sua {{ table }}, bem como outros requerimentos, se houver.
 
-Enterre então a carta de {{ companion }}, substituindo-a ela pela nova carta, que herda seus anexos e contadores.
+Enterre então a carta de {{ companion }}, substituindo-a pela nova carta, que herda seus anexos e contadores.
 
 Selecionar a uma carta de COMPANHEIRO no seu INVENTÁRIO de mesmo Tipo de Companheiro, mesmo Caminho, e nível imediatamente superior. Coloque-a sobre a carta atual, de forma que não cubra as técnicas da mesma.
 
@@ -176,19 +176,19 @@ Durante o turno do Herói, ele pode anexar e/ou desanexar cartas do seu {{ inv }
 
 Os tipos de anexos marcam características desejadas de cartas anexadas àquele {{ companion }}. As cartas anexadas não precisam ter esta característica, mas se tiverem, desbloqueiam técnicas em sua carta.
 
-A característica listada abrange basicamente qualquer elemento de uma carta, como valores, propriedades, efeitos, etc..
+A característica listada abrange basicamente qualquer elemento de uma carta, como valores, propriedades, efeitos, etc.
 
 ---
 
 ## <span class="companion">Personagem</span>
 
-Cartas de {{ companion }} são tratadas como personagens, e portanto, possuem uma peça no tabuleiro, podem ser atacados, mortos, realizar testes, etc.. tal qual um Herói.
+Cartas de {{ companion }} são tratadas como personagens, e portanto, possuem uma peça no tabuleiro, podem ser atacados, mortos, realizar testes, etc., tal qual um Herói.
 
 ### <span class="companion">Pagamento de Custos</span>
 
 Os COMPANHEIROS podem ser requeridos a pagar certos custos pelo efeito de outras cartas ou mecânica de jogo, como descartar cartas e valores.
 
-Observando que COMPANHEIROS não possuem MESA nem {{ inv }}, quando um texto especificar uma ação impossível para um COMPANHEIRO, como “descarte do seu {{ inv }}” ou “deite 2 de {{ mp }}”, o personagem não tem como cumprir aquela exigência, logo, ela deve ser ignorada quando forem consequências dessa ação, quando forem requerimentos para da ação, então ele não tem como cumprir este requerimentos e a ação não pode ser realizada.
+Observando que COMPANHEIROS não possuem MESA nem {{ inv }}, quando um texto especificar uma ação impossível para um COMPANHEIRO, como “descarte do seu {{ inv }}” ou “deite 2 de {{ mp }}”, o personagem não tem como cumprir aquela exigência, logo, ela deve ser ignorada quando forem consequências dessa ação; quando forem requerimentos da ação, então ele não tem como cumprir estes requerimentos e a ação não pode ser realizada.
 
 Porém, quando o texto não apresenta uma restrição, por exemplo, “descarte uma carta” ou “descarte pontos de {{ fate }}”, o COMPANHEIRO pode/deve utilizar seus anexos nestes casos. Note que se o custo for obrigatório, o personagem precisa pagar, se for opcional o jogador pode optar.
 
@@ -197,7 +197,7 @@ A mesma consideração deve ser feita quando uma carta é obtida pelo COMPANHEIR
 
 ### <span class="companion">Vida</span>
 
-O {{ hp }} da peça de um companheiro no tabuleiro é determinada pelo nível da carta.
+A {{ hp }} da peça de um companheiro no tabuleiro é determinada pelo nível da carta.
 
 | Nível  | Vida           | {.compact}
 | ---    | ---            |

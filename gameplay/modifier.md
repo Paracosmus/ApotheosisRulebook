@@ -6,9 +6,9 @@ order: 80
 
 # Modificador
 
-{{ briefing `Modifier` `São valores providos por um efeito que são aplicados à um cálculo e podem ser positivos ou negativos` }}
+{{ briefing `Modifier` `São valores providos por um efeito que são aplicados a um cálculo e podem ser positivos ou negativos.` }}
 
-Algumas efeitos concedem modificadores para determinadas situações, como testes, ataques e defesas, podendo ser valores constantes, variáveis ou expressões.
+Alguns efeitos concedem modificadores para determinadas situações, como testes, ataques e defesas, podendo ser valores constantes, variáveis ou expressões.
 
 !!!secondary Exemplo 1
   > Efeito: {{ permanent }} {{ p'+2' }} em testes de {{ faith }}

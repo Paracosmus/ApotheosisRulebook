@@ -8,9 +8,9 @@ order: 170
 
 {{ briefing `Effect` `O efeito de uma carta é um texto que descreve sua função e mecânica, explicando como jogá-la e aplicá-la durante a partida. A função do efeito é conferir habilidades adicionais à carta, comumente extrapolando as regras do jogo e permitindo interações mais complexas em busca de uma vantagem estratégica.` }}
 
-Cada personagem pode utilizar e ativar apenas suas próprias cartas, e apenas durante o seu próprio turno. Certas cartas, porém, especificam que podem ou devem ser ativadas como resposta à uma jogada ou situação de jogo, e neste caso, elas são ativadas durante o turno de outros personagem também.
+Cada personagem pode utilizar e ativar apenas suas próprias cartas, e apenas durante o seu próprio turno. Certas cartas, porém, especificam que podem ou devem ser ativadas como resposta a uma jogada ou situação de jogo, e neste caso, elas são ativadas durante o turno de outros personagens também.
 
-O efeito é autodescritivo e deve ser interpretado e aplicado de acordo com o texto, levando em consideração as regras gerais e mecânicas do jogo. Observe que, muitas vezes, a função de um efeito é justamente _"quebrar as regras"_, ou seja, permitir ações ou interações que normalmente não seriam possíveis dentro das regras do jogo, e isso é parte do que torna os efeitos interessantes e estratégicos. Nestes casos, o efeito é a regra, e deve ser aplicado exatamente como descrito, mesmo que isso contradiga as regras gerais do jogo, tendo o texto da carta, precedência sobre as regras gerais.
+O efeito é autodescritivo e deve ser interpretado e aplicado de acordo com o texto, levando em consideração as regras gerais e mecânicas do jogo. Observe que, muitas vezes, a função de um efeito é justamente _"quebrar as regras"_, ou seja, permitir ações ou interações que normalmente não seriam possíveis dentro das regras do jogo, e isso é parte do que torna os efeitos interessantes e estratégicos. Nestes casos, o efeito é a regra, e deve ser aplicado exatamente como descrito, mesmo que isso contradiga as regras gerais do jogo, tendo o texto da carta precedência sobre as regras gerais.
 
 Quando um efeito contradiz as regras gerais do jogo isso é bem descrito e explicado no texto do efeito, não deixando dúvidas sobre como ele deve ser aplicado, dado que o jogador esteja familiarizado com as regras de jogo envolvidas.
 
@@ -30,7 +30,7 @@ O efeito é composto por três partes em seu texto:
 
 ### Ativação [!badge text="Activation" variant="ghost"]
 
-Este conjunto de palavras-chave indica o tipo de ativação do efeito, ou seja, como ele é ativado e aplicado durante a partida. Ele é importante para determinar a natureza do efeito e como ele é ativado. Este é o único tipo de palavras-chave que é obrigatória para um efeito, ou seja, todo efeito deve possuir uma palavras-chave de ativação, e apenas uma.
+Este conjunto de palavras-chave indica o tipo de ativação do efeito, ou seja, como ele é ativado e aplicado durante a partida. Ele é importante para determinar a natureza do efeito e como ele é ativado. Este é o único tipo de palavras-chave que é obrigatório para um efeito, ou seja, todo efeito deve possuir uma palavra-chave de ativação, e apenas uma.
 
 ==- <span class="fill">{{ activate }}</span> [!badge text="Activate" variant="ghost"]
 
@@ -74,7 +74,7 @@ Quando um efeito possuir mais de um momento de ativação, ele pode/deve ser ati
 
 ==- <span class="fill">{{ onConceal }}</span> [!badge text="On Conceal" variant="ghost"]
 
-  Este efeito pode/deve ser ativado quando esta carta for ocultada, ou seja, quando esta carta for virada para baixo na {{ table }} ou escondida de alguma forma dos outros jogadores, com por exemplo, deixando de estar revelada no {{ inv }}.
+  Este efeito pode/deve ser ativado quando esta carta for ocultada, ou seja, quando esta carta for virada para baixo na {{ table }} ou escondida de alguma forma dos outros jogadores, como, por exemplo, deixando de estar revelada no {{ inv }}.
 
 ==- <span class="fill">{{ onExhaust }}</span> [!badge text="On Exhaust" variant="ghost"]
 
@@ -98,15 +98,15 @@ Quando um efeito possuir mais de um momento de ativação, ele pode/deve ser ati
 
 ==- <span class="fill">{{ checking }}</span> [!badge text="When Checking" variant="ghost"]
 
-  Este efeito pode/deve ser ativado quando um personagem estiver fazendo um teste. O efeito deixara claro o momento exato do teste em que ele pode ser ativado, como por exemplo, "quando for fazer um teste", "antes de rolar os dados", "depois de rolar os dados", etc.
+  Este efeito pode/deve ser ativado quando um personagem estiver fazendo um teste. O efeito deixará claro o momento exato do teste em que ele pode ser ativado, como por exemplo, "quando for fazer um teste", "antes de rolar os dados", "depois de rolar os dados", etc.
 
 ==- <span class="fill">{{ attacking }}</span> [!badge text="When Attacking" variant="ghost"]
 
-  Este efeito pode/deve ser ativado quando um personagem estiver realizando uma ação de ataque. O efeito deixara claro o momento exato do ataque em que ele pode ser ativado, como por exemplo, "quando for declarar um ataque", "antes de rolar os dados de ataque", "depois de rolar os dados de ataque", etc.
+  Este efeito pode/deve ser ativado quando um personagem estiver realizando uma ação de ataque. O efeito deixará claro o momento exato do ataque em que ele pode ser ativado, como por exemplo, "quando for declarar um ataque", "antes de rolar os dados de ataque", "depois de rolar os dados de ataque", etc.
 
 ==- <span class="fill">{{ attacked }}</span> [!badge text="When Attacked" variant="ghost"]
 
-  Este efeito pode/deve ser ativado quando um personagem estiver sendo atacado. O efeito deixara claro o momento exato do ataque em que ele pode ser ativado, como por exemplo, "quando for declarado um ataque contra este personagem", "antes de rolar os dados de defesa", "depois de rolar os dados de defesa", etc.
+  Este efeito pode/deve ser ativado quando um personagem estiver sendo atacado. O efeito deixará claro o momento exato do ataque em que ele pode ser ativado, como por exemplo, "quando for declarado um ataque contra este personagem", "antes de rolar os dados de defesa", "depois de rolar os dados de defesa", etc.
 
 ==- <span class="fill">{{ selected }}</span> [!badge text="When Selected" variant="ghost"]
 
@@ -114,10 +114,10 @@ Quando um efeito possuir mais de um momento de ativação, ele pode/deve ser ati
 
 ==- <span class="fill">{{ rolling }}</span> [!badge text="When Rolling" variant="ghost"]
 
-  Este efeito pode/deve ser ativado quando um personagem estiver rolando dados, seja para um teste, ataque, ou outra situação que envolva rolar dados. O efeito deixara claro o momento exato do rolamento em que ele pode ser ativado, como por exemplo, "Quando for rolar os dados", "adicione ao valor obtidos nos dados", etc.
+  Este efeito pode/deve ser ativado quando um personagem estiver rolando dados, seja para um teste, ataque, ou outra situação que envolva rolar dados. O efeito deixará claro o momento exato do rolamento em que ele pode ser ativado, como por exemplo, "Quando for rolar os dados", "adicione ao valor obtido nos dados", etc.
 
   - Não incluindo dados aleatórios
-  - Não incluindo dados extras em caso de crítico
+  - Não incluindo dados extras de [rolagem perfeita](/gameplay/die.md#dados-extras-rolagem-perfeita)
 
 ==- <span class="fill">{{ startOfBattle }}</span> [!badge text="Start of Battle" variant="ghost"]
 
@@ -205,13 +205,13 @@ Quando um efeito possuir mais de um limite, todos os limites listados devem ser 
 
 ==- <span class="fill">{{ allIn }}</span> [!badge text="All-In" variant="ghost"]
 
-  Para ativar este efeito, o Herói não pode ter realizado nenhuma ação não automática durante este turno, ou seja, ele não pode ter ativado nenhuma carta, nem se mover, atacar, etc..
+  Para ativar este efeito, o Herói não pode ter realizado nenhuma ação não automática durante este turno, ou seja, ele não pode ter ativado nenhuma carta, nem se mover, atacar, etc.
 
   Ao ser resolvido, o turno deste Herói termina imediatamente.
 
 ==- <span class="fill">{{ noResponse }}</span> [!badge text="No Response" variant="ghost"]
 
-  Ao ser ativado, nenhuma outro efeito pode ser ativado em resposta a este efeito, mesmo efeitos {{ auto }}.
+  Ao ser ativado, nenhum outro efeito pode ser ativado em resposta a este efeito, mesmo efeitos {{ auto }}.
 
 ==- <span class="fill">{{ noNegation }}</span> [!badge text="No Negation" variant="ghost"]
 
@@ -219,21 +219,21 @@ Quando um efeito possuir mais de um limite, todos os limites listados devem ser 
 
 ==- <span class="fill">{{ lingering }}</span> [!badge text="Lingering" variant="ghost"]
 
-  Este efeito permanece sendo aplicados por um tempo depois de ativados, mesmo se esta carta deixar de estar em jogo, ou seja, ele continua afetando o jogo normalmente, até que sua duração termine ou seja removido por outro efeito.
+  Este efeito permanece sendo aplicado por um tempo depois de ativado, mesmo se esta carta deixar de estar em jogo, ou seja, ele continua afetando o jogo normalmente, até que sua duração termine ou seja removido por outro efeito.
 
-  O efeito deve indicar claramente a sua duração, ou seja, por quanto tempo ele permanecerá ativo depois de ser ativado, e isso deve ser seguido rigorosamente. Geralmente seu termino é marcado em ciclos ou momentos chave como “Até o final do turno”, “até o final da batalha”,  o início do seu próximo turno”, etc..
+  O efeito deve indicar claramente a sua duração, ou seja, por quanto tempo ele permanecerá ativo depois de ser ativado, e isso deve ser seguido rigorosamente. Geralmente seu término é marcado em ciclos ou momentos-chave como “Até o final do turno”, “até o final da batalha”, “até o início do seu próximo turno”, etc.
 
 ===
 
 ### Escopo [!badge text="Scope" variant="ghost"]
 
-Este conjunto de palavras-chave indica de onde o efeito pode ser ativado, ou seja, o local ou situação em que ele pode ser ativado, seja para reduzir ou expandir as possibilidades de ativação do efeito
+Este conjunto de palavras-chave indica de onde o efeito pode ser ativado, ou seja, o local ou situação em que ele pode ser ativado, seja para reduzir ou expandir as possibilidades de ativação do efeito.
 
 Quando um efeito possuir mais de um escopo, ele pode/deve ser ativado em todos os escopos listados, ou seja, sempre que qualquer um dos escopos listados ocorrer.
 
 ==- <span class="fill">{{ anywhere }}</span> [!badge text="From Anywhere" variant="ghost"]
 
-  Este efeito pode ser ativado de qualquer lugar, ele pode ser ativado mesmo que esta carta não esteja em jogo. Pode ser ativado da mão, do {{ tradingPost }}, anexada a outra carta, etc..
+  Este efeito pode ser ativado de qualquer lugar, ele pode ser ativado mesmo que esta carta não esteja em jogo. Pode ser ativado da mão, do {{ tradingPost }}, anexada a outra carta, etc.
 
   Observe que cartas no limbo são consideradas como não existentes, e portanto não podem ser ativadas.
 
@@ -295,7 +295,7 @@ Um efeito nunca possui mais de uma tarefa, mas pode possuir uma tarefa e outros 
 
 ## Requerimentos de Ativação [!badge text="Requirement" variant="ghost"]
 
-Os requerimentos são entre outros, condições, estados ou custos que devem ser atendidos para que um efeito possa ser ativado. São sempre atendidos, pagos e realizados antes do efeito ser aplicado e podem ser respondidos como qualquer outra ação.
+Os requerimentos são, entre outros, condições, estados ou custos que devem ser atendidos para que um efeito possa ser ativado. São sempre atendidos, pagos e realizados antes de o efeito ser aplicado e podem ser respondidos como qualquer outra ação.
 
 Eles são descritos em texto entre os limitadores visuais {{ req '' }} antes do corpo principal do texto do efeito.
 
@@ -329,7 +329,7 @@ Os requerimentos vêm na seguinte ordem, porém isso não determina hierarquia e
 
   > {{ req 'Até <condição>; Enquanto <condição>; Durante <condição>; ...' }}
 
-  > {{ req 'Até que esta carta seja descartada; Enquanto houverem ' + companion + ' no tabuleiro; Durante o turno dos oponentes' }}
+  > {{ req 'Até que esta carta seja descartada; Enquanto houver ' + companion + ' no tabuleiro; Durante o turno dos oponentes' }}
 
 >>> **Condição** → `Quando`, `Se`
 
@@ -352,7 +352,7 @@ Desambiguação.
   - Ex.: {{ req 'Quando uma ' + skill + ' for ativada' }}
 
 **Enquanto** denota uma condição que precisa ser mantida e se quebrada durante ou depois da aplicação do efeito, o efeito encerra.
-  - Ex.: {{ req 'Enquanto houverem ' + companion + ' no tabuleiro' }}
+  - Ex.: {{ req 'Enquanto houver ' + companion + ' no tabuleiro' }}
 
 !!!
 
@@ -378,7 +378,7 @@ Além disso, alguns conceitos relacionados teóricos inferidos no texto são imp
 
   O momento de ativação de um efeito é o momento ou situação específica em que ele pode ser ativado, sendo este um conceito teórico que ajuda a ordenar a sequência de ativação de efeitos. Pode se confundir com o <span class="keyword-timing">timing</span>, mas são conceitos distintos.
 
-  O momento se refere à quando em uma ação este efeito entra em jogo, ou seja, quando ele é aplicado depois de ativado. O texto ou requerimento da carta deve indicar claramente o momento de ativação do efeito através do uso adequado da linguagem, e ele pode ser classificado em três categorias:
+  O momento se refere a quando em uma ação este efeito entra em jogo, ou seja, quando ele é aplicado depois de ativado. O texto ou requerimento da carta deve indicar claramente o momento de ativação do efeito através do uso adequado da linguagem, e ele pode ser classificado em três categorias:
 
   ||| **Antes da ação**
 
@@ -408,7 +408,7 @@ Além disso, alguns conceitos relacionados teóricos inferidos no texto são imp
 
   ||| **<span class="red">( )</span> Expressões**
 
-  Operações são sempre descritos dentro de parênteses, e os valores envolvidos são descritos usando os ícones e símbolos específicos para cada tipo de valor, como por exemplo:
+  Operações são sempre descritas dentro de parênteses, e os valores envolvidos são descritos usando os ícones e símbolos específicos para cada tipo de valor, como por exemplo:
   (  {{ knowledge }} + {{ int }} + **5** )
 
   |||
@@ -447,7 +447,7 @@ Além disso, alguns conceitos relacionados teóricos inferidos no texto são imp
 
   ||| **<span class="red">●</span> Lista**
 
-  Faz uma lista de informações ou textos, seja para escolha, seja para descrever uma sequência de ações, ou qualquer outra função que se encaixe melhor em formato de lista do que em formato de parágrafo.:
+  Faz uma lista de informações ou textos, seja para escolha, seja para descrever uma sequência de ações, ou qualquer outra função que se encaixe melhor em formato de lista do que em formato de parágrafo:
   ● Elemento 1
   ● Elemento 2
 
@@ -455,7 +455,7 @@ Além disso, alguns conceitos relacionados teóricos inferidos no texto são imp
 
   ||| **<span class="red">❙</span> Separador**
 
-  É utilizado uma barra vertical para separar informações de forma semelhante a uma tabela, tendo função apenas organizacional.
+  É utilizada uma barra vertical para separar informações de forma semelhante a uma tabela, tendo função apenas organizacional.
   - {{ cunning }} 2 ❙ {{ instruction }} 2
 
   |||
@@ -531,22 +531,22 @@ O sistema de resolução de efeitos no Apoteose funciona através de uma Pilha D
 
   Com todos os requerimentos atendidos, o efeito entra em estado de espera (halt).
 
-  Neste momento, os jogadores podem ativar outros efeitos em resposta à quaisquer uma das ações feitas para validar o efeito base seguindo a regra de **Prioridade de Resposta**.
+  Neste momento, os jogadores podem ativar outros efeitos em resposta a qualquer uma das ações feitas para validar o efeito base seguindo a regra de **Prioridade de Resposta**.
 
   Se nenhum outro efeito for ativado em resposta, esta etapa é pulada.
 
-  Se uma resposta for ativada, ela é considerada uma nova ativação de carta e colocada da pilha de encadeamento no índice N+1.
+  Se uma resposta for ativada, ela é considerada uma nova ativação de carta e colocada na pilha de encadeamento no índice N+1.
   - Considere que o holofote se move para a nova carta ativada, indicando que esta é a nova carta atualmente em resolução.
   - Recursivamente, tudo que foi feito para a carta base, é feito para a carta N+1, seguindo os mesmos passos, e permitindo respostas em resposta a ela (N+2, N+3, etc).
   - Quando a carta N+1 for resolvida, o holofote volta para a carta base, e o índice N+1 é removido da pilha.
-  - Os jogadores podem novamente ativar outros efeitos em resposta à quaisquer uma das ações feitas para validar o efeito base ainda seguindo a regra de **Prioridade de Resposta**.
+  - Os jogadores podem novamente ativar outros efeitos em resposta a qualquer uma das ações feitas para validar o efeito base ainda seguindo a regra de **Prioridade de Resposta**.
   - Este também é o momento de ativar efeitos que são aplicados antes da ação que será resolvida no corpo do efeito. Por exemplo, se o efeito base for "Cure 25 de HP", este é o momento de ativar efeitos que são aplicados antes da cura.
     - Se o corpo do efeito apresentar uma lista de opções, como não é possível determinar qual ação será escolhida, os efeitos que podem ser aplicados antes de qualquer uma das opções não podem ser ativados.
-  - Apenas quanto todos os jogadores passarem a prioridade, ou seja, não ativarem mais nenhum efeito em resposta, é que o efeito base começa a ser resolvido.
+  - Apenas quando todos os jogadores passarem a prioridade, ou seja, não ativarem mais nenhum efeito em resposta, é que o efeito base começa a ser resolvido.
 
   > Ex.: O jogador ativou uma carta, descartou uma carta e consumiu 2 de {{ sp }} para validar o efeito, e agora o efeito está em espera, e os demais jogadores podem ativar outros efeitos em resposta a qualquer um desses passos, seja em resposta à ativação da carta, seja em resposta ao descarte, seja em resposta ao consumo de {{ sp }}.
   >
-  > Para o caso de respostas ao corpo do efeito, do tipo de deve ser executado antes da ação que ele responde. Por exemplo, como aqueles em resposta a "quando {{ hp }} for ser curado" ou "quando {{ mp }} for ser recuperado", também devem ser ativados durante esta etapa, e não depois, pois eles são aplicados antes da ação de cura ou recuperação. Quando o corpo do efeito começar a ser resolvido, o momento de ativação desses efeitos já terá passado.
+  > Para o caso de respostas ao corpo do efeito, do tipo que deve ser executado antes da ação que ele responde. Por exemplo, como aqueles em resposta a "quando {{ hp }} for ser curado" ou "quando {{ mp }} for ser recuperado", também devem ser ativados durante esta etapa, e não depois, pois eles são aplicados antes da ação de cura ou recuperação. Quando o corpo do efeito começar a ser resolvido, o momento de ativação desses efeitos já terá passado.
 
 >>> Resolução
 
@@ -560,7 +560,7 @@ O sistema de resolução de efeitos no Apoteose funciona através de uma Pilha D
 
 >>> Responder o Corpo do Efeito
 
-  Este Passo é exatamente igual ao passo de "Efeito em Espera", mas ocorre após a resolução do efeito, que não se encontra mais em espera e sim resolvido, ou seja, os jogadores podem ativar outros efeitos em resposta a quaisquer uma das ações feitas durante a resolução do efeito base seguindo a regra de **Prioridade de Resposta**, permitindo inclusive a entrada de novos índices na pilha de encadeamento.
+  Este passo é exatamente igual ao passo de "Efeito em Espera", mas ocorre após a resolução do efeito, que não se encontra mais em espera e sim resolvido, ou seja, os jogadores podem ativar outros efeitos em resposta a qualquer uma das ações feitas durante a resolução do efeito base seguindo a regra de **Prioridade de Resposta**, permitindo inclusive a entrada de novos índices na pilha de encadeamento.
 
   Uma vez que nenhum jogador ative mais nenhum efeito em resposta, o processo de resolução do efeito é considerado completo, e o jogo segue normalmente. A pilha de encadeamento é esvaziada, e o holofote volta para o jogo normal, indicando que não há mais nenhum efeito em resolução. O próximo passo do jogo é determinado pelo fluxo normal do jogo.
 
@@ -568,9 +568,9 @@ O sistema de resolução de efeitos no Apoteose funciona através de uma Pilha D
 
 ### Prioridade de Resposta
 
-Quando um efeito entra na pilha de encadeamento é possível que várias cartas ou jogadores queiram responder a ele. Neste caso deve ser seguida a regra de prioridade de resposta para determinar qual efeito será ativado primeiro, ou seja, qual efeito entrará primeiro na pilha de encadeamento sera resolvido e então liberada para a ativação da próxima resposta.
+Quando um efeito entra na pilha de encadeamento é possível que várias cartas ou jogadores queiram responder a ele. Neste caso deve ser seguida a regra de prioridade de resposta para determinar qual efeito será ativado primeiro, ou seja, qual efeito entrará primeiro na pilha de encadeamento, será resolvido e então liberará a pilha para a ativação da próxima resposta.
 
-Observe que a prioridade define apenas quem vai ativar primeiro, mas não impede que os demais jogadores possam ativar seus efeitos em resposta, ou seja, mesmo que um jogador tenha a prioridade para ativar um efeito em resposta, os demais jogadores ainda podem ativar seus efeitos em resposta a este efeito depois da reposta do primeiro ser resolvida.
+Observe que a prioridade define apenas quem vai ativar primeiro, mas não impede que os demais jogadores possam ativar seus efeitos em resposta, ou seja, mesmo que um jogador tenha a prioridade para ativar um efeito em resposta, os demais jogadores ainda podem ativar seus efeitos em resposta a este efeito depois de a resposta do primeiro ser resolvida.
 
 Todos os efeitos do tipo {{ auto }} que são ativados em resposta a um efeito devem ser todos ativados antes de que os jogadores possam responder manualmente. Eles são ativados seguindo também a ordem de prioridade abaixo.
 
@@ -584,14 +584,14 @@ Uma vez que todos os efeitos {{ auto }} tenham sido ativados, resolvidos e remov
 6. **Efeitos do {{ tradingPost }}**
 7. **Efeitos do Mestre de Jogo**
 
-A prioridade é dada ao efeito e não à carta em si, observe que isso significa que mesmo um efeito que não esteja ligado a uma carta, como um Efeito de Campanha ou Efeito de Modelo, por exemplo, entram na pilha de encadeamento.
+A prioridade é dada ao efeito e não à carta em si, observe que isso significa que mesmo um efeito que não esteja ligado a uma carta, como um Efeito de Campanha ou Efeito de Modelo, por exemplo, entra na pilha de encadeamento.
 
 - Quando dois jogadores do mesmo time possuem efeitos {{ auto }} com a mesma prioridade, o jogador com mais Iniciativa tem prioridade.
-  - Observe que para efeitos {{ activate }} os jogadores, sendo do mesmo time, podem simplesmente entrar em acordo sobre quem ativa primeiro, e isso não é considerado quebra da regra de prioridade, pois a ativação não é obrigatória, assim sendo quando o novo índice de encadeamento for resolvido e a holofote voltar para essa carta, o jogador que decidiu não concorrer na ativação antes pode ativar agora.
+  - Observe que para efeitos {{ activate }} os jogadores, sendo do mesmo time, podem simplesmente entrar em acordo sobre quem ativa primeiro, e isso não é considerado quebra da regra de prioridade, pois a ativação não é obrigatória, assim sendo quando o novo índice de encadeamento for resolvido e o holofote voltar para essa carta, o jogador que decidiu não concorrer na ativação antes pode ativar agora.
 - Quando duas cartas {{ auto }} do mesmo jogador possuem a mesma prioridade, o jogador escolhe qual delas ativar primeiro.
 
 !!!
-Note que uma carta em um entreposto ou baralho controlados por um Herói são consideradas cartas do Herói, e não cartas do {{ tradingPost }}.
+Note que uma carta em um entreposto ou baralho controlado por um Herói é considerada carta do Herói, e não carta do {{ tradingPost }}.
 !!!
 
 ---
@@ -600,10 +600,10 @@ Note que uma carta em um entreposto ou baralho controlados por um Herói são co
 
 ### Nos Requerimentos
 
-Extraordinariamente, se um efeito era possível no momento da ativação da carta, mas um Encadeamento de Respostas ou outra situação de jogo fez com que os demais requerimentos de ativação do efeito fossem quebradas, a ativação do efeito é então parada, não sendo considerado que o efeito foi negado nem ativado, apenas que não é mais possível dar prosseguimento à jogada, quaisquer custos já pagos não são devolvidos.
+Extraordinariamente, se um efeito era possível no momento da ativação da carta, mas um Encadeamento de Respostas ou outra situação de jogo fez com que os demais requerimentos de ativação do efeito fossem quebrados, a ativação do efeito é então parada, não sendo considerado que o efeito foi negado nem ativado, apenas que não é mais possível dar prosseguimento à jogada, quaisquer custos já pagos não são devolvidos.
 
 ### Na Descrição
 
-Extraordinariamente, se os requerimentos de um efeito já foram cumpridos e o efeito já está sendo resolvido, mas um Encadeamento de Respostas ou outra situação de jogo fez com que as condições descritas no texto do efeito fossem quebradas, o que já foi feito é mantido, mas a restante do efeito é ignorado. É considerado que o efeito foi ativado, e não negado, mas que não é mais possível dar prosseguimento à resolução do efeito.
+Extraordinariamente, se os requerimentos de um efeito já foram cumpridos e o efeito já está sendo resolvido, mas um Encadeamento de Respostas ou outra situação de jogo fez com que as condições descritas no texto do efeito fossem quebradas, o que já foi feito é mantido, mas o restante do efeito é ignorado. É considerado que o efeito foi ativado, e não negado, mas que não é mais possível dar prosseguimento à resolução do efeito.
 
 ---

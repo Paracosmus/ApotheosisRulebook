@@ -9,7 +9,7 @@ order: 95
 
 > As classes são as especializações do personagem, representando o treinamento e a prática de habilidades específicas bem como seu ofício. Em um patamar narrativo, representam as escolhas profissionais ou de interesse de estudo daquela pessoa.
 
-São os caminhos evolutivos escolhidos pelo personagem. Sua função é principalmente a de adicionar e aprimorar capacidades do personagem. Cada {{ class }} possui um caminho, que é uma linha de evolução, e um nível, que indica o quão avançado o personagem está naquela caminho.
+São os caminhos evolutivos escolhidos pelo personagem. Sua função é principalmente a de adicionar e aprimorar capacidades do personagem. Cada {{ class }} possui um caminho, que é uma linha de evolução, e um nível, que indica o quão avançado o personagem está naquele caminho.
 
 Cada personagem pode possuir até 3 cartas de {{ class }} em sua {{ sheet }}, que são adquiridas conforme as regras.
 
@@ -57,7 +57,7 @@ Os 20 caminhos são:
 | {{ emperor }}    | Guerreiros, espadachins                            |
 | {{ priest }}     | Religiosos, sacerdotes, clérigos                   |
 | {{ lovers }}     | Arqueiros, pistoleiros, atiradores                 |
-| {{ chariot }}    | Militares, mercenários, policias, soldados         |
+| {{ chariot }}    | Militares, mercenários, policiais, soldados        |
 | {{ force }}      | Bárbaros, selvagens, domadores, párias             |
 | {{ hermit }}     | Eremitas, andarilhos, buscadores, filósofos        |
 | {{ wheel }}      | Comerciantes, jogadores, trapaceiros, mercadores   |
@@ -79,7 +79,7 @@ Os 20 caminhos são:
 
 Para adicionar uma nova {{ class }}, o personagem precisa estar em um local de {{ tavern }} que permita acesso à carta, e então sacrificar seu turno.
 
-Selecionar então, uma carta acessível, de um caminho que não possua e **enterre 5 cartas de recurso do mesmo nível** da carta selecionada.
+Selecione, então, uma carta acessível de um caminho que não possua e **enterre 5 cartas de recurso do mesmo nível** da carta selecionada.
 
 A {{ class }} deve então ser enviada para um espaço disponível na sua {{ table }}. Se não houver espaços disponíveis, o personagem deve escolher uma de suas cartas de {{ class }} na {{ sheet }} e colocar a nova carta em seu lugar. A carta anterior é descartada para o {{ tradingPost }}, levando consigo seus anexos, contadores e demais componentes.
 
@@ -87,7 +87,7 @@ A {{ class }} deve então ser enviada para um espaço disponível na sua {{ tabl
 
 ## <span class="class">Progredir</span>
 
-Se o personagem possuir em sua {{ sheet }}, uma {{ class }} do mesmo caminho de uma outra {{ class }} desejada e nível imediatamente inferior ou igual, para adquirir esta carta, siga as mesmas instruções em [Adquirir](/cards/class.md#adquirir), porém no momento de enterrar as cartas de custo, ao invés, enterre sua carta de {{ class }} de mesmo caminho e **3** cartas de recurso.
+Se o personagem possuir em sua {{ sheet }} uma {{ class }} do mesmo caminho de uma outra {{ class }} desejada e de nível imediatamente inferior ou igual, para adquirir esta carta siga as mesmas instruções em [Adquirir](/cards/class.md#adquirir); porém, no momento de enterrar as cartas de custo, em vez disso enterre sua carta de {{ class }} de mesmo caminho e **3** cartas de recurso.
 
 A progressão é uma [substituição](/glossary.md#outros): a nova carta ocupa o espaço da anterior e herda seus anexos, contadores e demais componentes.
 

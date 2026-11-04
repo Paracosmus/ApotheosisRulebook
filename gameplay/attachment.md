@@ -8,7 +8,7 @@ order: 100
 
 {{ briefing `Attachment` `Anexo, ou carta anexada, é uma carta colocada sob outra carta, representando que está ligada àquela.` }}
 
-A carta a qual os anexos estão ligados é referida como carta **Hospedeira**. Os anexos são utilizados para diferentes funções, comumente relacionados a efeitos ou habilidades da carta hospedeira.
+A carta à qual os anexos estão ligados é referida como carta **Hospedeira**. Os anexos são utilizados para diferentes funções, comumente relacionados a efeitos ou habilidades da carta hospedeira.
 
 Apenas cartas na {{ table }} de um Herói podem ter anexos.
 
@@ -21,7 +21,7 @@ Uma carta anexada é parte da carta hospedeira, e portanto não pode ser tratada
 - O anexo não pode ser usado (consumido, descartado, etc.), mas a carta hospedeira pode.
 - O anexo não pode ser alvo de ações, a não ser quando a ação especificar que seleciona um anexo como alvo.
 - O anexo não pode possuir seus próprios anexos, se isto acontecer, os anexos dele devem ser enviados para o {{ tradingPost }}.
-- O anexo não pode possuir seus próprios {{ counter }}, nesse caso os contadores são perdidos quando o anexo for anexado à outra carta.
+- O anexo não pode possuir seus próprios {{ counter }}, nesse caso os contadores são perdidos quando o anexo for anexado a outra carta.
 - O anexo deve ser sempre mantido revelado, mesmo que a carta hospedeira esteja oculta. Quando isso ocorrer, lembre-se que os anexos se tornam [não jogáveis](/cards/#estado-da-carta), portanto, mesmo efeitos {{ attached }} e {{ anywhere }} não podem ser usados.
 - Anexos não ocupam espaço na {{ table }} do Herói, apenas a hospedeira conta.
 
@@ -45,6 +45,6 @@ Uma carta pode possuir até **5** anexos.
 
 ## Efeitos de Anexos
 
-Cartas anexadas têm seu efeito ignorados, e não podem ser ativadas. A não ser os efeitos com a palavra-chave {{ attached }} ou {{ anywhere }}, que podem ser usados normalmente enquanto a carta hospedeira estiver revelada.
+Cartas anexadas têm seus efeitos ignorados, e não podem ser ativadas. A não ser os efeitos com a palavra-chave {{ attached }} ou {{ anywhere }}, que podem ser usados normalmente enquanto a carta hospedeira estiver revelada.
 
 ---

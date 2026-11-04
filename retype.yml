@@ -44,10 +44,6 @@ links:
   link: /icons.md
   icon: diamond
 
-- text: Database
-  link: https://database.apotheosiscardgame.com/
-  icon: database
-
 markdown:
   lineBreaks: hard
 
@@ -81,7 +77,7 @@ data:
   companion: '[<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md)'
   event:     '[<span class="event"><b>EVENTO</b></span>](/cards/event.md)'
 
-  summus:      '[<span class="summus"><b>SUMMUS</b></span>](/cards/summus/)'
+  summus:      '[<span class="summus"><b>SUMMUS</b></span>](/gameplay/summus.md)'
 
   # Rarity
   common:    '[<span class="common">COMUM</span>](/gameplay/rarity.md)'
@@ -173,7 +169,7 @@ data:
   human:     '[<span class="companion"><b>HUMANO</b></span>](/cards/companion.md#-humano)'
   creature:  '[<span class="companion"><b>CRIATURA</b></span>](/cards/companion.md#-criatura)'
   summon:    '[<span class="companion"><b>EVOCAÇÃO</b></span>](/cards/companion.md#-evocação)'
-  automaton: '[<span class="companion"><b>AUTOMATO</b></span>](/cards/companion.md#-automato)'
+  automaton: '[<span class="companion"><b>AUTÔMATO</b></span>](/cards/companion.md#-autômato)'
   watcher:   '[<span class="companion"><b>VIGILANTE</b></span>](/cards/companion.md)'
   drako:     '[<span class="companion"><b>DRAKO</b></span>](/cards/companion.md)'
 
@@ -226,27 +222,23 @@ data:
   ultimatum:   '[<span class="summus"><b>ULTIMATUM</b></span>](/cards/summus/ultimatum.md)'
 
   # Dice
-  d1d2: 
-  d2d2: 
-  d3d2: 
-  d1d3: 
-  d2d3: 
-  d3d3: 
-  d1d5: 
-  d1d6: 
-  d2d6: 
-  d3d6: 
-  d1d100: 
-
-  e1d2: <b>(1D2)</b>
-  e2d2: <b>(2D2)</b>
-  e3d2: <b>(3D2)</b>
-  e1d3: <b>(1D3)</b>
-  e2d3: <b>(2D3)</b>
-  e3d3: <b>(3D3)</b>
-  e1d6: <b>(1D6)</b>
-  e2d6: <b>(2D6)</b>
-  e3d6: <b>(3D6)</b>
+  d1d2: '<span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">1</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">2</span></span></span>'
+  d2d2: '<span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">2</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">2</span></span></span>'
+  d3d2: '<span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">3</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">2</span></span></span>'
+  d1d3: '<span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">1</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">3</span></span></span>'
+  d2d3: '<span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">2</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">3</span></span></span>'
+  d3d3: '<span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">3</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">3</span></span></span>'
+  d1d4: '<span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">1</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">4</span></span></span>'
+  d1d5: '<span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">1</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">5</span></span></span>'
+  d1d6: '<span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">1</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">6</span></span></span>'
+  d2d6: '<span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">2</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">6</span></span></span>'
+  d3d6: '<span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">3</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">6</span></span></span>'
+  d1d8: '<span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">1</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">8</span></span></span>'
+  d1d10: '<span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">1</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">10</span></span></span>'
+  d2d10: '<span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">2</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">10</span></span></span>'
+  d1d12: '<span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">1</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">12</span></span></span>'
+  d1d20: '<span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">1</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">20</span></span></span>'
+  d1d100: '<span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">1</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">100</span></span></span>'
 
   # Action
   hp: '[<span class="hp"><b>VIDA</b></span>](/hero/#vida)'
@@ -260,7 +252,7 @@ data:
 
   direct: <b>DIRETO</b>
   arcing: <b>ARQUEADO</b>
-  area:   <b>AREA</b>
+  area:   <b>ÁREA</b>
 
   # Others
   marker:  '[<span class="main"><b>MARCADOR</b></span>](/gameplay/marker.md)'

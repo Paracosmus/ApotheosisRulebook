@@ -18,9 +18,9 @@ Desta forma, os jogadores não podem simplesmente declarar que seus personagens 
 
 ## Realizando um Teste
 
-Quando a narração da ação de um personagem, seja por parte dos jogadores ou por parte do Mestre, chegar a um ponto onde a mera declaração dos resultados daquela ação não forem suficientes, óbvios ou justos, é necessário realizar um teste.
+Quando a narração da ação de um personagem, seja por parte dos jogadores ou por parte do Mestre, chegar a um ponto onde a mera declaração dos resultados daquela ação não for suficiente, óbvia ou justa, é necessário realizar um teste.
 
-Primariamente, cabe ao jogador descrever como o personagem sobre seu controle está realizando a ação. Dado a descrição fornecida, o jogador então diz qual será a forma que ele vai jogar este teste, ou seja, qual {{ knowledge}} e Atributo ele irá usar para realizar aquele teste e o Mestre arbitra se esta forma é apropriada ou não, tendo ele a palavra final sobre a forma do teste conforme a descrição, bem como fornecer opções de como realizar o teste ao jogador, se necessário.
+Primariamente, cabe ao jogador descrever como o personagem sob seu controle está realizando a ação. Dada a descrição fornecida, o jogador então diz qual será a forma que ele vai jogar este teste, ou seja, qual {{ knowledge}} e Atributo ele irá usar para realizar aquele teste e o Mestre arbitra se esta forma é apropriada ou não, tendo ele a palavra final sobre a forma do teste conforme a descrição, bem como fornecer opções de como realizar o teste ao jogador, se necessário.
 
 Não cabe ao Mestre censurar ou orientar as ideias dos jogadores. Se o jogador decidir por uma forma que o mestre julgar mais complexa ou difícil, ele não deve impedir, e apenas ajustar a dificuldade. Sendo a jogada válida, o Mestre deve aceitar a forma escolhida pelo jogador, mesmo que seja diferente do que ele tinha em mente inicialmente.
 
@@ -37,11 +37,11 @@ Para persuadir um NPC, o Mestre conhece a real personalidade e motivações do N
 Não existe forma "correta" ou "errada" de fazer um teste, a criatividade e a narrativa são os elementos mais importantes, e o sistema tem função apenas de emular e medir a ação narrada.
 
 !!!secondary Exemplo
-Um teste de _Corrida_ é geralmente realizado com ( {{ athletics }} + {{ agi }} ), enquanto um teste de _Persuasão_ geralmente é realizado com ( {{ cunning }} + {{ cha }} ), etc..
+Um teste de _Corrida_ é geralmente realizado com ( {{ athletics }} + {{ agi }} ), enquanto um teste de _Persuasão_ geralmente é realizado com ( {{ cunning }} + {{ cha }} ), etc.
 
-Porém, o jogador pode contra-argumentar que nesta situação ele está tentando "_convencer um NPC que é atleta, a não abandonar o esporte_", e portanto ele vai usar ( {{ athletics }} + {{ int }} ) para um teste de _Persuasão_, ao explicar que irá usar seus conhecimentos de {{ athletics }} combinado com lógica ({{ int }}) para apoiar sua tentativa de convencimento do NPC.
+Porém, o jogador pode contra-argumentar que nesta situação ele está tentando "_convencer um NPC que é atleta a não abandonar o esporte_", e portanto ele vai usar ( {{ athletics }} + {{ int }} ) para um teste de _Persuasão_, ao explicar que irá usar seu conhecimento de {{ athletics }} combinado com lógica ({{ int }}) para apoiar sua tentativa de convencimento do NPC.
 
-O Mestre então, julga a dificuldade do teste com base na forma. Ele pode decidir que para persuadir o alvo por mentiras e manipulações, o teste de _Persuasão_ tradicional é mais difícil, mas para persuadir o alvo por meio de argumentos lógicos sobre um tema que o NPC ama, o teste de _Persuasão_ alternativo é mais fácil, ou vice-versa, dependendo do contexto da situação.
+O Mestre, então, julga a dificuldade do teste com base na forma. Ele pode decidir que para persuadir o alvo por mentiras e manipulações, o teste de _Persuasão_ tradicional é mais difícil, mas para persuadir o alvo por meio de argumentos lógicos sobre um tema que o NPC ama, o teste de _Persuasão_ alternativo é mais fácil, ou vice-versa, dependendo do contexto da situação.
 
 Assim, um jogador experiente ou criativo consegue adaptar a forma de realizar uma ação para as capacidades de seu personagem, e um teste que tradicionalmente seria realizado com um conhecimento específico que talvez o seu personagem nem possua, pode ser realizado com outro conhecimento que ele domina, desde que o jogador consiga justificar sua escolha de forma coerente.
 !!!
@@ -88,7 +88,7 @@ O teste é composto de **7** elementos, descritos na seguinte notação:
   | 2 | 5  |
   | 3 | 10 |
 
-  > Para o nível **4** em diante, o bônus é de {{ p '+10' }} para cada nível adicional, ou seja, nível 4 = 20, nível 5 = 30, etc..
+  > Para o nível **4** em diante, o bônus é de {{ p '+10' }} para cada nível adicional, ou seja, nível 4 = 20, nível 5 = 30, etc.
 
   !!!
   Em testes que envolvem o uso de cartas, como uma espada, ou uma magia, por padrão deve-se usar o conhecimento da carta (Livre, se não tiver). Porém, assim como em qualquer outro teste, o jogador pode advogar por uma forma diferente.
@@ -116,7 +116,7 @@ O teste é composto de **7** elementos, descritos na seguinte notação:
 
 ==- Bônus
 
-  São todos os [bônus](/gameplay/bonus.md) ou penalidades provenientes regras e de fatores externos, como o ambiente, a situação, as condições do personagem, etc.
+  São todos os [bônus](/gameplay/bonus.md) ou penalidades provenientes de regras e de fatores externos, como o ambiente, a situação, as condições do personagem, etc.
 
   !!!secondary Exemplo
   Um personagem que cresceu em um ambiente montanhoso pode receber um bônus em um teste de "_encontrar uma caverna nas montanhas_".
@@ -138,7 +138,7 @@ O teste é composto de **7** elementos, descritos na seguinte notação:
 
 ==- Dado
 
-  O teste é resolvido por meio de uma rolagem de [dados](/gameplay/die.md), onde o jogador rola um dado de 6 faces ({{ e1d6 }}) e soma o resultado ao total do {{ knowledge }}, Atributo, Modificadores e Bônus para obter o resultado final do teste.
+  O teste é resolvido por meio de uma rolagem de [dados](/gameplay/die.md), onde o jogador rola um dado de 6 faces ({{ d1d6 }}) e soma o resultado ao total do {{ knowledge }}, Atributo, Modificadores e Bônus para obter o resultado final do teste.
 
   Se o teste for de um {{ knowledge }} que o personagem não possui, ele deve rolar {{ d1d3 }}.
 
@@ -158,9 +158,9 @@ O teste é composto de **7** elementos, descritos na seguinte notação:
 
   Em alguns casos, o Mestre pode optar por manter a dificuldade e/ou o nome de um teste ocultos dos jogadores, revelando-os apenas após a rolagem do teste, ou mesmo nunca revelando-os.
 
-  Isso pode ser usado para criar suspense, surpresa ou incerteza em situações onde os jogadores não têm informações suficientes para avaliar a dificuldade da tarefa ou sequer se ela é possível, bem como quando o teste envolve um elemento secretos da narrativa ou descobertas.
+  Isso pode ser usado para criar suspense, surpresa ou incerteza em situações onde os jogadores não têm informações suficientes para avaliar a dificuldade da tarefa ou sequer se ela é possível, bem como quando o teste envolve um elemento secreto da narrativa ou descobertas.
 
-  Uma verificação se algum personagem percebeu um objeto relevante, se lembrou ou notou algo, etc.. Também é útil quando não é possível para os personagens saberem se o teste escolhido realmente funcionaria, por exemplo, quando tentando tirar uma informação de um NPC e o Mestre não pode revelar se ele realmente sabe tem aquela informação, pois isso entregaria partes da narrativa.
+  Uma verificação se algum personagem percebeu um objeto relevante, se lembrou ou notou algo, etc. Também é útil quando não é possível para os personagens saberem se o teste escolhido realmente funcionaria, por exemplo, quando tentando tirar uma informação de um NPC e o Mestre não pode revelar se ele realmente tem aquela informação, pois isso entregaria partes da narrativa.
 
   ##### Teste de Qualidade
 
@@ -226,7 +226,7 @@ Se o personagem não conseguiu destrancar a porta de uma casa, ele não pode mai
 
 #### Reteste
 
-Sendo este um jogo de progressão de personagem, dado uma passagem de tempo de <u>pelo menos 1 dia</u>, combinado com uma <u>mudança na construção do personagem</u>, como mudança de {{ class }}, uma carta que possa ser advogada como bônus significativo, ou a aquisição de {{ knowledge }}, isso deve ser interpretado como uma mudança expressiva no personagem, permitindo uma nova tentativa.
+Sendo este um jogo de progressão de personagem, dada uma passagem de tempo de <u>pelo menos 1 dia</u>, combinado com uma <u>mudança na construção do personagem</u>, como mudança de {{ class }}, uma carta que possa ser advogada como bônus significativo, ou a aquisição de {{ knowledge }}, isso deve ser interpretado como uma mudança expressiva no personagem, permitindo uma nova tentativa.
 
 ---
 
@@ -253,14 +253,14 @@ _O personagem quer escalar um muro e depois saltar do muro para o telhado de uma
 
 Neste caso, se falhar no primeiro teste, o personagem não consegue escalar o muro, e portanto não tem a oportunidade de realizar o teste de salto para o telhado.
 
-Porém, se obter um sucesso de nível 1 por exemplo, o personagem poderia escalar o muro verticalmente e horizontalmente obtendo uma posição ideal para saltar no telhado, diminuindo assim a dificuldade do segundo teste, que já havia sido estabelecida.
+Porém, se obtiver um sucesso de nível 1 por exemplo, o personagem poderia escalar o muro verticalmente e horizontalmente obtendo uma posição ideal para saltar no telhado, diminuindo assim a dificuldade do segundo teste, que já havia sido estabelecida.
 !!!
 
 ---
 
 ## Teste Composto
 
-É comum que a ação ação descrita pelo jogador envolva uma ou mais ações que a lógica dita que requerem o uso de múltiplos conhecimentos.
+É comum que a ação descrita pelo jogador envolva uma ou mais ações que a lógica dita que requerem o uso de múltiplos conhecimentos.
 
 Um teste composto é um teste que envolve a realização de múltiplos testes individuais, onde cada teste representa uma parte ou aspecto diferente da ação descrita pelo jogador. O resultado final do teste composto é determinado por meio da combinação dos resultados dos testes individuais, de acordo com as regras estabelecidas para o teste composto em questão.
 
@@ -270,14 +270,14 @@ Diferente de uma sequência de testes, onde cada teste subsequente é condiciona
 _O personagem quer realizar um ataque de espada, onde ele precisa acertar uma das falhas na armadura do alvo e matá-lo._
 > _Acertar Falha da Armadura_( {{ per }} ) + _Matar Alvo_( {{ str }} ) ➜ **28**
 
-Neste caso, o estrago final causado é determinado por quão bem o personagem encaixou o golpe na falha da armadura, bem como pela força e habilidade do personagem ao tentar matar o alvo, sendo que o Mestre expos que 28 causaria a morte do alvo.
+Neste caso, o estrago final causado é determinado por quão bem o personagem encaixou o golpe na falha da armadura, bem como pela força e habilidade do personagem ao tentar matar o alvo, sendo que o Mestre expôs que 28 causaria a morte do alvo.
 !!!
 
 !!!secondary Exemplo
 _O personagem quer correr de uma ponta a outra de uma corda bamba o mais rápido possível e sem cair._
 > _Equilíbrio_( {{ agi }} ) + _Correr_( {{ athletics }} + {{ agi }} )
 
-Neste caso, a velocidade de travessia é determinado pela composição do equilíbrio e velocidade do personagem.
+Neste caso, a velocidade de travessia é determinada pela composição do equilíbrio e velocidade do personagem.
 !!!
 
 ---
@@ -288,18 +288,18 @@ Um teste em que múltiplos personagens estão envolvidos, colaborando para alcan
 
 O resultado de um teste em conjunto é determinado por meio da comparação dos resultados individuais dos personagens envolvidos, ou pela soma dos resultados individuais, dependendo do contexto e da natureza do teste.
 
-Cada jogador descreve e realiza o teste para seu personagem, individualmente, sendo que se possível dado a situação, cada envolvido pode fazer o teste da sua própria forma.
+Cada jogador descreve e realiza o teste para seu personagem, individualmente, sendo que se possível dada a situação, cada envolvido pode fazer o teste da sua própria forma.
 
 ### Teste em Conjunto de Resultado Combinado
 
-Em um teste combinado, os resultados individuais dos personagens envolvidos são somados para determinar o resultado final do teste. Este tipo de teste é comum em situações onde os personagens estão colaborando para alcançar um objetivo comum, como levantar um objeto pesado ou defender uma posição contra um ataque, de forma que a soma das ações conjuntas dos envolvidos adicionam integralmente para o objetivo final.
+Em um teste combinado, os resultados individuais dos personagens envolvidos são somados para determinar o resultado final do teste. Este tipo de teste é comum em situações onde os personagens estão colaborando para alcançar um objetivo comum, como levantar um objeto pesado ou defender uma posição contra um ataque, de forma que a soma das ações conjuntas dos envolvidos adiciona integralmente para o objetivo final.
 
 !!!secondary Exemplo 1
 _Puxar Objeto_: vários personagens estão tentando puxar um objeto pesado, e o resultado final do teste é a soma dos resultados individuais de cada personagem, representando a força combinada dos personagens para puxar o objeto.
 !!!
 
 !!!secondary Exemplo 2
-_Corrida de Revesamento_: vários personagens estão participando de uma corrida de revezamento, e o resultado final do teste é a soma dos resultados individuais de cada personagem, representando o tempo total da equipe para completar a corrida.
+_Corrida de Revezamento_: vários personagens estão participando de uma corrida de revezamento, e o resultado final do teste é a soma dos resultados individuais de cada personagem, representando o tempo total da equipe para completar a corrida.
 !!!
 
 ### Teste em Conjunto de Maior Resultado
@@ -315,7 +315,7 @@ _Velocidade de Viagem_: vários personagens estão viajando juntos tentando cheg
 !!!
 
 !!!secondary Exemplo 2
-_Invasão Furtiva_: vários personagens estão tentando realizar uma invasão furtiva de um quartel. Se qualquer um dos personagens não for furtivo o suficiente, os guardas do local vão detectar o grupo so movendo pelo terreno.
+_Invasão Furtiva_: vários personagens estão tentando realizar uma invasão furtiva de um quartel. Se qualquer um dos personagens não for furtivo o suficiente, os guardas do local vão detectar o grupo se movendo pelo terreno.
 !!!
 
 ---
@@ -324,19 +324,19 @@ _Invasão Furtiva_: vários personagens estão tentando realizar uma invasão fu
 
 Em uma competição, os personagens envolvidos estão competindo entre si para alcançar um objetivo específico, e o resultado é determinado por meio da comparação dos resultados de testes realizados pelas partes envolvidas.
 
-É comum em situações onde os personagens estão competindo por um recurso limitado, em uma corrida, um duelo, etc..
+É comum em situações onde os personagens estão competindo por um recurso limitado, em uma corrida, um duelo, etc.
 
-Sendo que uma competição pode envolver varias partes, seja essas partes personagens individuais ou grupos de personagens, usando o resultado do testes em conjunto para a comparação da competição.
+Sendo que uma competição pode envolver várias partes, sejam essas partes personagens individuais ou grupos de personagens, usando o resultado dos testes em conjunto para a comparação da competição.
 
 Uma competição usa a seguinte notação:
 
 > _Nome_( {{ knowledge }} + **Atributo** + **Modificadores** + **Bônus**  ✖  {{ knowledge }} + **Atributo** + **Modificadores** + **Bônus** )
 > ---
-> * Ex. 1: _Luta de Box_( {{ athletics }} + {{ str }} ✖ {{ athletics }} + {{ enr }} )
+> * Ex. 1: _Luta de Boxe_( {{ athletics }} + {{ str }} ✖ {{ athletics }} + {{ enr }} )
 > * Ex. 2: _Acertar Pedrada_( {{ per }} ✖ {{ agi }} )
 
 !!!secondary Exemplo 1 - Teste Simples
-_Luta de Box_: dois personagens estão competindo em uma luta de boxe, e o resultado do teste de cada personagem é comparado para determinar quem venceu a luta, com base em quem teve o maior resultado. Pode se realizar um teste de competiçao por round se preferirem uma luta longa, onde em cada round os jogadores descrevem suas ações e estratégias para aquele round, determinando assim a forma do teste de cada round.
+_Luta de Boxe_: dois personagens estão competindo em uma luta de boxe, e o resultado do teste de cada personagem é comparado para determinar quem venceu a luta, com base em quem teve o maior resultado. Pode-se realizar um teste de competição por round se preferirem uma luta longa, onde em cada round os jogadores descrevem suas ações e estratégias para aquele round, determinando assim a forma do teste de cada round.
 !!!
 
 !!!secondary Exemplo 2 - Teste Composto
@@ -344,9 +344,9 @@ _Duelo_: dois personagens estão competindo em um duelo de saque de arma e tiro 
 !!!
 
 !!!secondary Exemplo 3 - Teste em Conjunto
-_Cabo de Guerra_: dois grupos de personagens estão participando de um cabo de guerra, o resultado do Teste em Conjunto de Valor Combinado de cada grupo é comparada para decidir qual grupo venceu a competição.
+_Cabo de Guerra_: dois grupos de personagens estão participando de um cabo de guerra, o resultado do Teste em Conjunto de Resultado Combinado de cada grupo é comparado para decidir qual grupo venceu a competição.
 
-_Corrida de Revesamento_: vários grupos de personagens estão participando de uma corrida de revezamento, o resultado do Teste em Conjunto de Valor Combinado de cada grupo é comparada para decidir qual grupo venceu a corrida.
+_Corrida de Revezamento_: vários grupos de personagens estão participando de uma corrida de revezamento, o resultado do Teste em Conjunto de Resultado Combinado de cada grupo é comparado para decidir qual grupo venceu a corrida.
 !!!
 
 ### Empate
@@ -358,7 +358,7 @@ Em um _Duelo de Tiro_ pode significar que ambos foram baleados.
 !!!
 
 !!!secondary Exemplo 2 - Os dois empatam
-Em um _Luta de Box_ pode significar que ninguém conseguiu acertar um golpe significativo.
+Em uma _Luta de Boxe_ pode significar que ninguém conseguiu acertar um golpe significativo.
 !!!
 
 ---
@@ -369,7 +369,7 @@ Personagens podem adicionar cartas de recurso em testes, para melhorar as condi�
 
 Para isso, o jogador deve descartar uma quantidade de cartas de recurso do {{ inv }} do Herói, ou do anexo do {{ companion }}, podendo combinar diferentes recursos para um mesmo teste, sendo que cada tipo de recurso tem uma função diferente, e deve ser usado em um momento específico do teste, como descrito a seguir.
 
-Se o recurso descartado for do mesmo {{ knowledge }} do teste (incluindo Livre), ele adiciona o dobro do se valor. Um recurso de ( {{ arcane }} ➜ **2** ) de valor igual a **5**, para um teste de {{ arcane }}, contaria como **10**.
+Se o recurso descartado for do mesmo {{ knowledge }} do teste (incluindo Livre), ele adiciona o dobro do seu valor. Um recurso de ( {{ arcane }} ➜ **2** ) de valor igual a **5**, para um teste de {{ arcane }}, contaria como **10**.
 
 Acompanhe o seguinte exemplo:
 
@@ -380,7 +380,7 @@ Acompanhe o seguinte exemplo:
 
   > O personagem vai usar as experiências vividas para superar o desafio do teste. Garantindo que, pelo conhecimento adquirido, ele sabe exatamente o que fazer para superar o desafio.
 
-  Descarte um a quantidade de {{ xp }} maior ou igual a dificuldade do teste para garantir o sucesso do teste, não sendo mais necessário realizar a rolagem.
+  Descarte uma quantidade de {{ xp }} maior ou igual à dificuldade do teste para garantir o sucesso do teste, não sendo mais necessário realizar a rolagem.
 
   !!!secondary Exemplo
   Se a dificuldade do teste for **14**, e o jogador descartar uma {{ skill }} de nível 2 e outra de nível 3, totalizando **15** de {{ xp }}, o teste é automaticamente bem sucedido, sem necessidade de rolar os dados.
@@ -390,7 +390,7 @@ Acompanhe o seguinte exemplo:
 
 ==- <span class="fill">{{ fate }}</span> [!badge Antes de rolar os dados]
 
-  > O personagem vai usar o destino, a sorte, o acaso ou a benção dos deuses para facilitar o teste.
+  > O personagem vai usar o destino, a sorte, o acaso ou a bênção dos deuses para facilitar o teste.
 
   Descarte uma quantidade de {{ fate }} para diminuir a dificuldade do teste naquela quantidade.
 
@@ -412,7 +412,7 @@ Acompanhe o seguinte exemplo:
   _O personagem emprega uma vontade enorme, muito esforço e determinação, motivado por um ideal, uma causa, um objetivo ou um medo, para abrir essa tranca._
   !!!
 
-==- <span class="fill">{{ price }}</span> [!badge For falhar no teste]
+==- <span class="fill">{{ price }}</span> [!badge Se falhar no teste]
 
   > Também chamado de _"comprar o teste"_, esta é uma última medida caso o personagem esteja prestes a falhar no teste, logo após rolar os dados e obter o resultado final, ele então, usando a filosofia de que "_dinheiro não resolve apenas se for pouco_", vai usar seus recursos financeiros para tentar comprar o sucesso do teste.
 
@@ -433,7 +433,7 @@ Acompanhe o seguinte exemplo:
   !!!
 
   !!!secondary Exemplo 4
-  _Queda Livre_: um personagem está caindo de uma altura significativa. Ele tenta um teste de _Acrobacia_ para agarrar em um galho de árvore, mas falha, e ele não consegue se segurar. Os jogadores chegam a conclusão que não tem como pagar este teste, a lógica da situação não permite, e o personagem acaba caindo.
+  _Queda Livre_: um personagem está caindo de uma altura significativa. Ele tenta um teste de _Acrobacia_ para agarrar em um galho de árvore, mas falha, e ele não consegue se segurar. Os jogadores chegam à conclusão de que não tem como pagar este teste, a lógica da situação não permite, e o personagem acaba caindo.
   !!!
 
   !!!

@@ -10,7 +10,7 @@ order: 99
 > Herói (PT-BR)
 > Escolhidos (Chosen One)
 
-> O nome vêm dá ideia de ser o protagonista ou o herói da estória, campanha ou jornada, incluindo a ideia de jornada do herói, presente no tarô de onde as cartas do jogo são baseadas
+> O nome vem da ideia de ser o protagonista ou o herói da estória, campanha ou jornada, incluindo a ideia de jornada do herói, presente no tarô de onde as cartas do jogo são baseadas.
 >
 
 <aside>

@@ -17,8 +17,7 @@ Uma rodada tem início e fim.
 
 ### Início da Rodada
 
-Nesta fase é determinado a ordem dos turnos dos personagens nesta rodada.
-A ordem em que cada personagem joga é definida pela PER de cada um de forma decrescente. Quando personagens tiverem a mesma PER, eles desempatam entre si rolando 1d6. Caso empatem novamente, rola-se novamente entre os empatados até um desempate.
+Nesta fase é determinada a ordem dos turnos dos personagens nesta rodada.
 
 ### Fim da Rodada
 Esta fase acontece quando o último personagem na ordem de turnos encerrar seu turno. Aplica-se quaisquer efeitos que mencionem esta fase e então procede-se para o início da próxima rodada.
@@ -37,7 +36,7 @@ timeline
         Iniciativas
             : Calcula-se a ordem dos turnos dos personagens com base na Iniciativa
         Pontos de Ação
-            : Todos os personagens recebem pontos de ação iguais a sua AGI
+            : Todos os personagens recebem pontos de ação iguais à sua AGI
         Efeitos
             : Executam-se todos os efeitos e mecânicas que mencionam a Fase de Restauração
 
@@ -65,7 +64,7 @@ O jogador pode então tomar decisões e executar as diferentes ações e cartas 
 ### Fim do Turno
 Compõe o momento em que o jogador declara ter encerrado o seu turno. Neste momento são aplicados todos os efeitos que especificam “Ao final do seu turno” e após isso procede-se para o Início do Turno do próximo personagem na ordem de turnos desta rodada.
 
-É nesta fase também que, todos os pontos de {{ ap }} que não foram gastos neste turno são perdidos.
+É nesta fase também que todos os pontos de {{ ap }} que não foram gastos neste turno são perdidos.
 
 ---
 
@@ -85,7 +84,7 @@ Se o personagem voltar durante a {{ resetPhase }}, como acontece com a maioria d
 Note que todos os efeitos que devem ser aplicados durante uma determinada fase são aplicados simultaneamente, ou seja, todos acontecem ao mesmo tempo, não tendo uma sucessão ou ordem a ser seguida.
 
 !!!
-Por exemplo: Se um efeito diz que “No início do seu turno você deve deitar 2 de {{ mp }}” e outro efeito diz que “No início do seu turno você recupera 2 de {{ mp }}”, ambos os efeitos correm simultaneamente, portando você não pode usar a {{ mp }} recuperada no segundo efeito para pagar o primeiro.
+Por exemplo: Se um efeito diz que “No início do seu turno você deve deitar 2 de {{ mp }}” e outro efeito diz que “No início do seu turno você recupera 2 de {{ mp }}”, ambos os efeitos correm simultaneamente, portanto você não pode usar a {{ mp }} recuperada no segundo efeito para pagar o primeiro.
 
 Neste caso recomenda-se como boa prática, aplicar todos os efeitos dedutivos primeiro e então aplicar os efeitos de recuperação, isso evita que recursos sejam utilizados antes de estarem disponíveis.
 !!!

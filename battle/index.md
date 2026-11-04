@@ -7,7 +7,7 @@ order: 96
 
 # Batalha
 
-A batalha acontece em um tabuleiro quadriculado. No tabuleiro, podem conter paredes ou casas com diferentes níveis de altura. Cada casa possui um tipo de [terreno](/battle/board.md#terreno).
+A batalha acontece em um tabuleiro quadriculado. O tabuleiro pode conter paredes ou casas com diferentes níveis de altura. Cada casa possui um tipo de [terreno](/battle/board.md#terreno).
 
 ---
 
@@ -19,9 +19,9 @@ No seu turno, o personagem pode executar uma variedade de ações. As ações ge
 
 Em seu turno, o personagem pode se mover no tabuleiro. Por padrão, o custo para mover é de 1 de {{ ap }} por casa. Alguns terrenos podem ter regras específicas para mover, por exemplo em um terreno de lama pode custar 2 de {{ ap }} por casa.
 
-Pode-se mover para casas adjacentes com {{ alt }} diferentes, pagando-se 1 {{ ap }} a mais para cada nível a mais de altura.
+Pode-se mover para casas adjacentes com {{ alt }} diferente, pagando-se 1 {{ ap }} a mais para cada nível a mais de altura.
 
-Quando terminar de mover, o personagem fica na direção que se moveu até a casa de destino.
+Quando terminar de mover, o personagem fica na direção em que se moveu até a casa de destino.
 
 Adjacente
 Distância
@@ -34,24 +34,24 @@ Casas
 ---
 
 ## ÁREA DE INFLUÊNCIA
-Todo personagem possui uma área de influência sobre o tabuleiro, que são as casas adjacentes a sua peça no tabuleiro com exceção da casa atrás da peça em relação a sua orientação.
+Todo personagem possui uma área de influência sobre o tabuleiro, que são as casas adjacentes à sua peça no tabuleiro, com exceção da casa atrás da peça em relação à sua orientação.
 
 A área de influência aumenta em 1 de {{ ap }} o custo para que um personagem inimigo possa se mover para ela. Caso uma casa do tabuleiro esteja na área de influência de 2 ou mais personagens, o custo para se mover para esta casa aumenta em 1 de {{ ap }} para cada personagem inimigo.
 
 ---
 
 ## DESCANSAR
-O personagem pode sacrificar o seu turno para recuperar:
+O personagem pode realizar uma Ação Total para:
 
-* 1 de {{ hp }}.
-ou
-* 2 de {{ sp }} e/ou {{ mp }}.
+* Curar {{ p'10' }} de {{ hp }}; e
+
+* Recuperar {{ p'2' }} de **Energia** ({{ sp }} e/ou {{ mp }}).
 
 ---
 
 ## Ataque Normal
 
-> O personagem sem nenhuma arma ou ferramenta, realiza um ataque corpo a corpo usando a força do seu corpo, mãos, pés, etc., para tentar causar o maior dano possível.
+> O personagem, sem nenhuma arma ou ferramenta, realiza um ataque corpo a corpo usando a força do seu corpo, mãos, pés, etc., para tentar causar o maior dano possível.
 
 <style>
     .normal-attack {
@@ -69,7 +69,7 @@ ou
 
 | {.compact}
 | ---                                                              | ---                            | ---                            |
-| <span class="house"></span> {{ str }} + <span>{{ d1d2 }}</span> | <span class="house"></span> 1 | <span class="house"></span> 3 |
+| <span class="hse"></span> {{ str }} + <span>{{ d1d2 }}</span> | <span class="hse"></span> 1 | <span class="hse"></span> 3 |
 
 :::
 
@@ -89,7 +89,7 @@ Você pode utilizar uma carta conforme as regras durante a batalha. Você pode u
 
 ## Dano
 
-Todo ataque causa uma quantidade de {{ dmg }}. O personagem que recebeu o ataque perde uma quantidade de {{ hp }} equivalente ao {{ dmg }} sofrido. A quantidade de {{ hp }} perdida é chamada de {{ injury }} e calculada observando os seguintes passos.
+Todo ataque causa uma quantidade de {{ dmg }} ao alvo. Desse {{ dmg }} sofrido, subtrai-se a defesa do alvo — isto é, todos os descontos e reduções que o alvo aplica ao {{ dmg }} recebido. O resultado final é a {{ injury }}, que corresponde à quantidade de {{ hp }} que o personagem perde, calculada observando os seguintes passos:
 
 * +1 de {{ injury }} se o {{ dmg }} for maior ou igual à metade da {{ enr }} do alvo
 * +1 de {{ injury }} se o {{ dmg }} for maior ou igual à {{ enr }} do alvo
@@ -98,7 +98,7 @@ Todo ataque causa uma quantidade de {{ dmg }}. O personagem que recebeu o ataque
 !!!info
 Por exemplo, se um alvo tem <u>_6 de {{ enr }}_</u> e recebe um ataque de <u>_18 de {{ dmg }}_</u>, o alvo sofre <u>_4 de {{ injury }}_</u>. O cálculo é feito da seguinte forma:
 
-* +1 de {{ injury }} por ter sofrido um ataque maior ou igual à ( {{ enr }} / 2 ) → (18 ≥ 6 / 2)
+* +1 de {{ injury }} por ter sofrido um ataque maior ou igual a ( {{ enr }} / 2 ) → (18 ≥ 6 / 2)
 * +1 de {{ injury }} por ter sofrido um ataque maior ou igual à {{ enr }} → (18 ≥ 6)
 * +1 de {{ injury }} por ter sofrido um ataque 5 pontos maior que a {{ enr }} → (18 ≥ 11)
 * +1 de {{ injury }} por ter sofrido um ataque 10 pontos maior que a {{ enr }} → (18 ≥ 16)
@@ -144,9 +144,9 @@ $$
 
 Observando a equação acima, note que quando o {{ dmg }} for menor que a metade da {{ enr }} do alvo, o ataque falha e não causa {{ injury }}. Neste caso é considerado que o atacante errou o ataque, que pode ser por diversos motivos, como o alvo se esquivou, se defendeu ou o ataque não atingiu o alvo.
 
-### Crítico
+### Rolagem Perfeita
 
-Quando o {{ dmg }} de um ataque incluir a rolagem de dados, um desses dados deve ser considerado um dado crítico. Caso o dado crítico tenha o valor máximo, o atacante deve rolar {{ d1d3 }} (+1D3) e continuar assim até que o dado crítico não tenha o valor máximo. O resultado da soma dos dados críticos é adicionado ao {{ dmg }} do ataque.
+Quando o {{ dmg }} de um ataque incluir a rolagem de dados, aplica-se a regra de [rolagem perfeita](/gameplay/die.md#dados-extras-rolagem-perfeita) ao dado principal da rolagem, somando o resultado dos dados extras ao {{ dmg }} do ataque.
 
 ---
 
@@ -166,7 +166,7 @@ Deve ser feito o cálculo de alcance para verificar se o alvo está dentro do al
 
 TODO
 
-No calculo de alcance deve se adicionar/subtrair a altura do alvo e do atacante.
+No cálculo de alcance deve-se adicionar/subtrair a altura do alvo e do atacante.
 
 ### <span class="icon"></span> Área
 

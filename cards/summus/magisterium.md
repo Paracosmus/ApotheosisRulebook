@@ -9,11 +9,11 @@ order: 0
 
 > *Magisterium* é o termo latino para *“magistério”*, no sentido de ensino, autoridade, conhecimento.
 
-Em jogo, o _Magisterium_ representa o estado de maestria de um Herói sobre um determinado aspecto do mundo, seja ele físico, mental ou espiritual. O Herói éterligador combina seu estudo, prática e experiência avançados naquele assunto, com o seu domínio do éter e conhecimento da verdade sobre o universo, levando sua mente a superar os limites esperados do entendimento humano, chegando ao entendimento quase divino e externo, acerca do tema.
+Em jogo, o _Magisterium_ representa o estado de maestria de um Herói sobre um determinado aspecto do mundo, seja ele físico, mental ou espiritual. O Herói eterligador combina seu estudo, prática e experiência avançados naquele assunto, com o seu domínio do éter e conhecimento da verdade sobre o universo, levando sua mente a superar os limites esperados do entendimento humano, chegando ao entendimento quase divino e externo, acerca do tema.
 
 Ele é representado por uma carta de {{ class }} na **Zona Extra** da {{ sheet }}, sendo assim, uma {{ class }} adicional especial.
 
-Este entendimento superior é representado em jogo através de bônus. Sendo o _Magisterium_ primariamente um provedor de modificadores numérico adicional para o Herói em determinados casos relacionados à sua maestria.
+Este entendimento superior é representado em jogo através de bônus. Sendo o _Magisterium_ primariamente um provedor de modificadores numéricos adicionais para o Herói em determinados casos relacionados à sua maestria.
 
 ---
 
@@ -48,7 +48,7 @@ Quando não estiver em batalha, você pode realizar uma **Ação Total** para de
 
 ==- Níveis de Maestria
 
-Os _Magisterium_s são divididos em dois níveis narrativos de maestria, o nível **Mestre** e o nível **Grande Mestre**, indicado pelo nome da carta, sendo que o nome de toda carta de _Magisterium_ começa com um dos dois termos, seguido do tema de maestria.
+Os _Magisteriums_ são divididos em dois níveis narrativos de maestria, o nível **Mestre** e o nível **Grande Mestre**, indicados pelo nome da carta, sendo que o nome de toda carta de _Magisterium_ começa com um dos dois termos, seguido do tema de maestria.
 
 | **Nível de Maestria** | **Atributos** | **Conhecimentos** | **Slots** | **Efeito** | **Raridade**             | {.compact}
 | --------------------- | ------------- | ----------------- | --------- | ---------- | ------------------------ |

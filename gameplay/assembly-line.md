@@ -36,12 +36,12 @@ order: 11
 3. Pagamento do Custo
 4. Pagamento dos Requerimentos
 5. Seleção do Alvo
-6. Calculo do Dano
+6. Cálculo do Dano
    1. Rolagem de Dano
    2. Aplicação de modificadores de dano (como bônus ou penalidades).
 7. Aplicação do Efeito
 8. Aplicação do Dano
-9.  Calculo da Lesão
+9.  Cálculo da Lesão
 10.  Aplicação da Lesão
 11. Clipagem de Valor (Aplica-se a regra de limites de valores)
 12. Remover a vida do alvo

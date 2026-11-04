@@ -14,18 +14,18 @@ Um espaço do {{ mem }} pode conter até 3 cartas de um mesmo LIGNUM. É possív
 - {{ house }}: Sempre adicionam e/ou trabalham com o conhecimento do Lignum.
 - {{ class }}: Fornecem espaços adicionais para cartas do Lignum igual ao nível da {{ class }}.
 - {{ entity }}: Ao invés de serem mantidos consumindo Energia igual ao nível da carta na sua {{ startPhase }}, são mantidos consumindo 1 de Essência da cor do Lignum.
-- {{ item }}: São consumidos depois de usados e não podem mais ser ativados quando consumidos. Possuem um efeito de {{ resetPhase }} para serem restaurados
+- {{ item }}: São consumidos depois de usados e não podem mais ser ativados quando consumidos. Possuem um efeito de {{ resetPhase }} para serem restaurados.
 - {{ skill }}: São o banco de energia do Lignum, estas são as cartas que possuem a Essência, a energia especial colorida do Lignum, usada por todas as cartas para ativar os efeitos.
 - {{ companion }}: Para que as técnicas sejam usadas, os anexos precisam ser do mesmo nível e Lignum desta carta.
 - {{ event }}: Uma vez por ciclo, quando estas cartas são descartadas, seja por qualquer mecânica ou efeito, você recupera uma quantidade de Essência da cor deste Lignum igual ao nível desta carta.
 
-Todas estas situações são explicadas nos efeitos das cartas, não necessitando de memorização, mas é importante entender que cada tipo de naipe possui um tem uma função diferente dentro do Lignum, e que a interação entre elas é o que torna o Lignum um conjunto de cartas tão poderoso e versátil.
+Todas estas situações são explicadas nos efeitos das cartas, não necessitando de memorização, mas é importante entender que cada tipo de naipe tem uma função diferente dentro do Lignum, e que a interação entre elas é o que torna o Lignum um conjunto de cartas tão poderoso e versátil.
 
 ---
 
 ## Limite de Cartas
 
-Cartas de Lignum não ocupam espaços na suas respectivas zonas na {{ table }}, mas são limitadas pelo nível do Herói. Cada Herói pode ter um número de cartas de Lignum igual ao seu nível.
+Cartas de Lignum não ocupam espaços nas suas respectivas zonas na {{ table }}, mas são limitadas pelo nível do Herói. Cada Herói pode ter um número de cartas de Lignum igual ao seu nível.
 
 Cada Herói pode ter apenas uma cópia de cada carta de um Lignum simultaneamente na sua {{ table }}.
 
@@ -56,7 +56,7 @@ Quando você puder _“levantar troco”_, o troco deve ser da mesma cor ou leva
 
 * :icon-chevron-right: {{ black }} - Representa a essência de Lignums de natureza destrutiva, como morte, dor, sofrimento, magia negra, etc.
 
-Se você pagar essência em uma ativação que seja exclusiva de estamina ou mana, você ainda pode pegar o troco do overpay. Agora se a ativação requer ambas, estamina e mana, então você não pode pegar o troco desta ativação
+Se você pagar essência em uma ativação que seja exclusiva de estamina ou mana, você ainda pode pegar o troco do overpay. Agora se a ativação requer ambas, estamina e mana, então você não pode pegar o troco desta ativação.
 
 ---
 
@@ -64,11 +64,11 @@ Se você pagar essência em uma ativação que seja exclusiva de estamina ou man
 
 Cartas de Lignum podem se referenciar, ou seja, uma carta de Lignum pode ter um efeito que se aplica a outras cartas do mesmo Lignum. Por exemplo, uma carta de Lignum pode dizer:
 
-> {{ permanent }} {{ req 'Enquanto esta carta for jogável' }} Todas as outras cartas de deste Lignum ganham +1 de dano.
+> {{ permanent }} {{ req 'Enquanto esta carta for jogável' }} Todas as outras cartas deste Lignum ganham +1 de dano.
 
-Um efeito de carta de Lignum que se aplica a outras cartas do mesmo Lignum é chamado de efeito de apoio. Este efeitos nunca referenciam o Lignum pelo nome, mas sim por meio de auto-referenciação usando expressões como "outras cartas deste Lignum", "todas as cartas deste Lignum", "este Lignum", etc.
+Um efeito de carta de Lignum que se aplica a outras cartas do mesmo Lignum é chamado de efeito de apoio. Estes efeitos nunca referenciam o Lignum pelo nome, mas sim por meio de auto-referenciação usando expressões como "outras cartas deste Lignum", "todas as cartas deste Lignum", "este Lignum", etc.
 
-Quando a referência for inversa, ou seja, quando o efeito se aplica a outros Lignum, isso será indicado por expressões como "cartas de outros Lignums", "outros Lignums {{ blue }}", etc.. Isso significa que o efeito se aplica a cartas de Lignum diferentes do Lignum da carta que está causando o efeito.
+Quando a referência for inversa, ou seja, quando o efeito se aplica a outros Lignum, isso será indicado por expressões como "cartas de outros Lignums", "outros Lignums {{ blue }}", etc. Isso significa que o efeito se aplica a cartas de Lignum diferentes do Lignum da carta que está causando o efeito.
 
 Efeitos nunca se referenciam a cartas de Lignum pelo nome, portanto o nome de um Lignum nunca aparece no texto de um efeito.
 

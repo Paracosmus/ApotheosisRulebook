@@ -7,7 +7,7 @@ order: 85
 
 # ITEM
 
-> Representa objetos úteis, como ferramentas, armas, e alimentos, ou mesmo coisas como veículos e armaduras.
+> Representa objetos úteis, como ferramentas, armas e alimentos, ou mesmo coisas como veículos e armaduras.
 
 São cartas que podem ser usadas para complementar um personagem, servindo como ferramentas que auxiliam em certas atividades bem como fornecem bônus. Eles complementam um personagem, na forma de armaduras, armas, consumíveis, entre outros.
 
@@ -16,7 +16,7 @@ São cartas que podem ser usadas para complementar um personagem, servindo como 
 ||| :icon-arrow-down-right:
 1. **Valor em Preço**
 
-1. **Nível e Conhecimentos**: Requerimento para o Herói poder ter esta carta em a sua {{ table }}
+1. **Nível e Conhecimentos**: Requerimento para o Herói poder ter esta carta em sua {{ table }}
 
 1. **Bônus**: Bônus passivos imediatos
 
@@ -45,19 +45,19 @@ Ao custo de 2 de {{ ap }}, esta carta pode ser enviada do {{ equip }} para o {{ 
 
 ## <span class="item">Barra de Ativação</span>
 
-Quando um {{ item }} em seu {{ equip }} possuir uma barra de ativação, em adicional as regras de ativação de carta, o Herói deve antes deve seguir os seguintes passos:
+Quando um {{ item }} em seu {{ equip }} possuir uma barra de ativação, em adicional às regras de ativação de carta, o Herói deve seguir os seguintes passos:
 
 1. Verificar se a ativação é possível, vendo se o Herói possui os requisitos de custo e condições adicionais que possam existir no texto da carta. Bem como se o texto é possível de ser aplicado naquele momento da partida.
-2. Pagar o custo de {{ ap }} descritos.
-3. Se a barra de ativação possuir um {{ range }}, selecionar um alvo válido
-4. Se a barra de ativação possuir um {{ dmg }}, aplicá-lo ao alvo selecionado
-5. Observar o efeito da carta, e aplicar o que for necessário
+2. Pagar o custo de {{ ap }} descrito.
+3. Se a barra de ativação possuir um {{ range }}, selecionar um alvo válido.
+4. Se a barra de ativação possuir um {{ dmg }}, resolver o ataque contra o alvo selecionado.
+5. Se a carta possuir efeito, aplicá-lo no momento do ataque indicado pelo próprio texto do efeito (antes, durante ou depois do ataque, ou em uma etapa específica como na rolagem de dados, antes de resolver o {{ dmg }}, após aplicar a {{ injury }}, etc.).
 
 ---
 
 ## <span class="item">Item sem Preço</span>
 
-{{ item }} São as únicas cartas de Recurso que podem não ter um valor (preço).
+{{ item }} são as únicas cartas de Recurso que podem não ter um valor (preço).
 
 Se um {{ item }} não possuir {{ price }}, ele não pode ser obtido pelos meios padrões de trocas de cartas com o {{ tradingPost }}, e deve ser considerado como tendo valor zero em qualquer troca. Estes ainda podem ser obtidos de outras formas, como por exemplo, através de ações de personagens ou efeitos de cartas.
 
@@ -65,7 +65,7 @@ Se um {{ item }} não possuir {{ price }}, ele não pode ser obtido pelos meios 
 
 ## <span class="item">Especificadores</span>
 
-Alguns {{ item }} podem possuir especificadores, que são ícones que definem um tipo de objeto. O Herói pode ter apenas uma carta de cada especificador equipado por vez.
+Alguns {{ item }} podem possuir especificadores, que são ícones que definem um tipo de objeto. O Herói pode ter apenas uma carta de cada especificador equipada por vez.
 
 Tipos de Especificadores:
 
@@ -79,7 +79,7 @@ Tipos de Especificadores:
 
 ## <span class="item">Fabricar</span>
 
-Uma forma alternativa de se obter um {{ item }}, é fabricando-o. Para isso, o personagem deve sacrificar seu turno, selecionar um {{ item }} no {{ tradingPost }}, cujo nível mínimo do {{ knowledge }} ele possua, e enterrar cartas de {{ item }} de sua {{ table }} e/ou {{ inv }}, que juntas contenham pelo menos os mesmos ícones de materiais, na mesma quantidade, presentes na carta selecionada.
+Uma forma alternativa de se obter um {{ item }} é fabricando-o. Para isso, o personagem deve sacrificar seu turno, selecionar um {{ item }} no {{ tradingPost }}, cujo nível mínimo do {{ knowledge }} ele possua, e enterrar cartas de {{ item }} de sua {{ table }} e/ou {{ inv }}, que juntas contenham pelo menos os mesmos ícones de materiais, na mesma quantidade, presentes na carta selecionada.
 
 Tipos de Materiais de Fabricação:
 

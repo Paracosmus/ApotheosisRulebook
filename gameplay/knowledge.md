@@ -9,9 +9,9 @@ order: 140
 
 São diferentes áreas do saber humano, que um personagem pode dominar.
 
-Toda Carta de Recurso, tem um CONHECIMENTO e nível e cada naipe utiliza estas informações de sua própria forma. Existem também, as cartas Livres, que não estão na esfera de um determinado CONHECIMENTO.
+Toda Carta de Recurso tem um CONHECIMENTO e nível, e cada naipe utiliza estas informações de sua própria forma. Existem também as cartas Livres, que não estão na esfera de um determinado CONHECIMENTO.
 
-Existem 14 CONHECIMENTO, divididos em dois grupos de cunho narrativo.
+Existem 14 CONHECIMENTOS, divididos em dois grupos de cunho narrativo.
 
 ||| BAIXA ETEREOLOGIA
 
@@ -39,7 +39,7 @@ Existem 14 CONHECIMENTO, divididos em dois grupos de cunho narrativo.
 
 ## Livre
 
-Uma carta {{ free }}, não está vinculada a um {{ knowledge }} específico, podendo ser utilizada por qualquer personagem a partir de um determinado nível em relação ao nível da carta.
+Uma carta {{ free }} não está vinculada a um {{ knowledge }} específico, podendo ser utilizada por qualquer personagem a partir de um determinado nível em relação ao nível da carta.
 
 NÍVEL DA CARTA {{ free}} | NÍVEL REQUERIDO DO HERÓI
 ---                      | ---
@@ -53,7 +53,7 @@ NÍVEL DA CARTA {{ free}} | NÍVEL REQUERIDO DO HERÓI
 
 - Religião
 - Oração
-- Benção
+- Bênção
 - Exorcismo
 - Favor divino, proteção divina, etc.
 - Adivinhação, oráculos, geomancia, cartomancia, taromancia, “mancias”, etc.
@@ -204,7 +204,7 @@ NÍVEL DA CARTA {{ free}} | NÍVEL REQUERIDO DO HERÓI
 - Luz, Luz da vida
 - Cura pela natureza ou energia vital
 - Chás, ervas, etc.
-- biologia, natureza, veterinária
+- Biologia, natureza, veterinária
 
 ---
 

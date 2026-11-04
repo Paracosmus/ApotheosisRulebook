@@ -16,7 +16,7 @@ São cartas utilizadas para criar eventos aleatórios, que podem ser aplicados a
 ||| :icon-arrow-down-right:
 1. **Valor**: Valor da carta em {{ fate }}
 
-1. **Nível e Conhecimentos**: Requerimento para o Herói poder ter esta carta em a sua {{ table }}
+1. **Nível e Conhecimentos**: Requerimento para o Herói poder ter esta carta em sua {{ table }}
 
 1. **Descrição**: Texto narrativo ilustrativo
 
@@ -31,7 +31,7 @@ São cartas utilizadas para criar eventos aleatórios, que podem ser aplicados a
 
 Um evento é geralmente ativado quando o grupo está [viajando](/gameplay/game-mode/travel-mode.md) ou diretamente do {{ inv }} pelo Herói.
 
-Para ser ativado pelo Herói, o evento deve estar em seu {{ inv }} e o Herói deve ter o {{ knowledge }} e nível da carta. A descrição e efeito do {{ event }} são então lidos em voz alta, que por final, é aplicado a todos os Heróis naquele momento e local.
+Para ser ativado pelo Herói, o evento deve estar em seu {{ inv }} e o Herói deve ter o {{ knowledge }} e nível da carta. A descrição e o efeito do {{ event }} são então lidos em voz alta e, por fim, aplicados a todos os Heróis naquele momento e local.
 
 Alguns {{ event }} podem requerer em seu efeito que devem ser enviados para o {{ scenario }}, geralmente determinando por quanto tempo, neste caso, os bônus e efeitos passivos da carta são aplicados continuamente enquanto ela permanecer no {{ scenario }}, bem como qualquer efeito listado que determine como pode ser utilizado.
 

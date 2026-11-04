@@ -21,7 +21,7 @@ A ilustração da carta representa o *frater* ou *soror* daquela egrégora.
 
 #### Regras Especiais
 
-- Para adicionar uma carta Collegium da {{ tavern }} para um espaço extra na sua {{ sheet }}, o Herói deve **banir** uma carta com a propriedade ** INICIAÇÃO**.
+- Para adicionar uma carta Collegium do {{ tradingPost }} para um espaço extra na sua {{ sheet }}, o Herói deve **banir** uma carta com a propriedade ** INICIAÇÃO**.
 - Adicione os bônus de atributos desta carta ao total do Herói, mesmo que ela esteja consumida. (Esta carta não concede espaços na {{ table }})
 - No início e no fim da Batalha, ou ao mudar o período do dia, consuma esta carta.
 - A qualquer momento do seu turno, você pode pagar os custos referidos na caixa de Mecânica para recuperar esta carta.

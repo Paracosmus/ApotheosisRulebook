@@ -28,11 +28,11 @@ Quando a carta do topo do baralho é revelada, o narrador descreve a cena e os d
 | {{ companion }} | Um companheiro pode ser encontrado, enfrentado ou recrutado neste local. |
 | {{ event }}     | Um evento pode ocorrer neste local, afetando os Heróis ou o ambiente de maneiras diversas seja de forma idêntica ao texto da carta ou customizado para o local. |
 
-O objetivo é avançar na exploração do baralho, até que o objetivo estabelecido para quele baralho seja cumprido ou o baralho acabe.
+O objetivo é avançar na exploração do baralho, até que o objetivo estabelecido para aquele baralho seja cumprido ou o baralho acabe.
 
-Quando uma carta sem contexto é revelada
-* Se for uma carta de ficha ela é descartada sem efeito
-* Se for uma carta de recurso, é realizado um teste do ( {{ knowledge }} + {{ enr }} ➜ Dificuldade do Objetivo ✖ **10** ) para tentar obter a carta, se falhar, a carta é descartada sem efeito.
+Quando uma carta sem contexto é revelada:
+* Se for uma carta de ficha, ela é descartada sem efeito.
+* Se for uma carta de recurso, é realizado um teste do ( {{ knowledge }} + {{ enr }} ➜ Dificuldade do Objetivo ✱ **10** ) para tentar obter a carta; se falhar, a carta é descartada sem efeito.
 
 ---
 
@@ -42,13 +42,13 @@ Quando uma carta sem contexto é revelada
 
   O narrador apresenta o tema geral do local ou situação representada pelo conjunto de baralhos, deixando claro o objetivo. Ele pode descrever o ambiente, os desafios e as possíveis recompensas que os Heróis podem encontrar ao explorar o baralho.
 
-  São revelados os efeitos de objetivo, se houverem.
+  São revelados os efeitos de objetivo, se houver.
 
   ##### Wildcards
 
-  São apresentadas as regras de wildcards, se houverem.
+  São apresentadas as regras de wildcards, se houver.
 
-  A wildcard é uma carta que quando encontrada no baralho ativa uma situação específica. Narrador deve listar as wildcards para os jogadores, mas ele pode escolher não revelar o que cada wildcard representa, deixando um elemento de surpresa para os jogadores quando encontrarem uma wildcard durante a exploração do baralho.
+  A wildcard é uma carta que quando encontrada no baralho ativa uma situação específica. O narrador deve listar as wildcards para os jogadores, mas ele pode escolher não revelar o que cada wildcard representa, deixando um elemento de surpresa para os jogadores quando encontrarem uma wildcard durante a exploração do baralho.
 
   !!!secondary Exemplo
 
@@ -63,7 +63,7 @@ Quando uma carta sem contexto é revelada
 
   O narrador apresenta as partes do local ou situação representada por cada baralho, explicando o que cada baralho representa e quais tipos de desafios ou recompensas os Heróis podem encontrar ao explorar cada um.
 
-  São revelados os efeitos de baralho, se houverem.
+  São revelados os efeitos de baralho, se houver.
 
   O baralho é então disposto em uma determinada ordem ou embaralhado aleatoriamente, dependendo da preferência do narrador ou das instruções do criador da campanha.
 
@@ -75,7 +75,7 @@ Quando uma carta sem contexto é revelada
   - 10x Inimigos Lv 1
   - 5x Item
   - 2x Eventos
-  - 1x Wildcard (A carta Inercia representa a chegada à Câmara dos Guardiões)
+  - 1x Wildcard (A carta Inércia representa a chegada à Câmara dos Guardiões)
 
   +++ Jardim Submerso
   _O Jardim Submerso é uma área alagada do templo, cheia de plantas aquáticas e criaturas perigosas. Os Heróis precisam nadar e mergulhar por esse ambiente traiçoeiro para encontrar a chave que abre a Câmara dos Guardiões._
@@ -159,14 +159,14 @@ Quando uma carta sem contexto é revelada
 
   O ciclo de exploração continua até que o objetivo do baralho seja cumprido ou o baralho acabe.
 
-  Quando um baralho que ainda contem cartas é finalizado, o narrador pode escolher enviar as cartas restantes de volta para os suprimentos da campanha, ou descartá-las, dependendo da situação e do que fizer mais sentido para a narrativa.
+  Quando um baralho que ainda contém cartas é finalizado, o narrador pode escolher enviar as cartas restantes de volta para os suprimentos da campanha, ou descartá-las, dependendo da situação e do que fizer mais sentido para a narrativa.
 
   !!!secondary Exemplo 1 - Salão Principal
-  _O Herói que explora o Salão Principal continua enfrentando os inimigos e avançando pelas cartas do baralho, até que finalmente encontra a wildcard "Inércia", que representa a chegada à Câmara dos Guardiões. Todas as cartas restantes neste baralho são então envidas de volta para os suprimentos da campanha. Agora com um caminho limpo e reconhecido, o Herói pode voltar para ajudar o seu companheiro no baralho (local) do lado._
+  _O Herói que explora o Salão Principal continua enfrentando os inimigos e avançando pelas cartas do baralho, até que finalmente encontra a wildcard "Inércia", que representa a chegada à Câmara dos Guardiões. Todas as cartas restantes neste baralho são então enviadas de volta para os suprimentos da campanha. Agora com um caminho limpo e reconhecido, o Herói pode voltar para ajudar o seu companheiro no baralho (local) do lado._
   !!!
 
   !!!secondary Exemplo 2 - Jardim Submerso
-  _O Herói que explora o Jardim Submerso continua enfrentando os desafios e avançando pelas cartas do baralho, o seu amigo se junto a ele e juntos eles finalmente encontram a wildcard "Chave da Câmara dos Guardiões". Ele obtém a chave juntos eles cruzam o salão principal, já concluído até o novo baralho adicionado à area do jogo... a Câmara dos Guardiões._
+  _O Herói que explora o Jardim Submerso continua enfrentando os desafios e avançando pelas cartas do baralho, o seu amigo se junta a ele e juntos eles finalmente encontram a wildcard "Chave da Câmara dos Guardiões". Ele obtém a chave e, juntos, eles cruzam o Salão Principal, já concluído, até o novo baralho adicionado à área do jogo... a Câmara dos Guardiões._
   !!!
 
   !!!secondary Exemplo 3 - Câmara dos Guardiões

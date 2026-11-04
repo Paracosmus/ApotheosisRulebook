@@ -6,7 +6,7 @@ order: 100
 
 # Formato
 
-{{ briefing `Format` `São conjuntos personalizados de regras que adicionam ou modificam as regras padrões de jogo, incluindo a forma de interpretar as carta.` }}
+{{ briefing `Format` `São conjuntos personalizados de regras que adicionam ou modificam as regras padrões de jogo, incluindo a forma de interpretar as cartas.` }}
 
 São utilizados para criar diferentes formas de jogar e permitir a customização por parte dos jogadores.
 
@@ -18,7 +18,7 @@ Cada formato possui suas próprias diretrizes e restrições, e podem ser utiliz
 
 O formato padrão é o formato de jogo mais básico e amplamente utilizado. Se você está jogando sem um formato específico, está jogando no formato padrão.
 
-Ele segue as regras básicas do jogo, sem restrições adicionais ou modificações. É o formato mais comuns para campanhas de RPG tradicionais, onde os jogadores criam personagens e participam de aventuras narrativas.
+Ele segue as regras básicas do jogo, sem restrições adicionais ou modificações. É o formato mais comum para campanhas de RPG tradicionais, onde os jogadores criam personagens e participam de aventuras narrativas.
 
 Neste formato, apenas cartas [neutras](#cartas-neutras) podem ser utilizadas.
 
@@ -44,7 +44,7 @@ Cada formato é livre para estabelecer suas próprias regras e restrições, bem
 
 Isso inclui limites para o uso de certas cartas. Esses limites são importantes para garantir que o jogo seja equilibrado e divertido para todos os jogadores, evitando que certas cartas dominem o jogo ou prejudiquem a experiência de jogo.
 
-Por padrão, é permitido apenas cartas neutras e/ou formatadas especificamente listadas pelo formato **como permitidas**, sendo que um formato pode listar várias formatações como permitidas.
+Por padrão, são permitidas apenas cartas neutras e/ou formatadas especificamente listadas pelo formato **como permitidas**, sendo que um formato pode listar várias formatações como permitidas.
 
 Alguns formatos podem ser absolutamente restritivos, e adicionalmente às restrições de formatação, podem listar cartas restritas, incluindo cartas banidas ou quantidades máximas e mínimas. Ou mesmo restringir categorias inteiras de cartas, como por exemplo, restringir o uso de cartas  de um determinado naipe ou de uma determinada coleção ou raridade.
 

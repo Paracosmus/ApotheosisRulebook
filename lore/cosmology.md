@@ -12,7 +12,7 @@ order: 99
 >
 > Aqui estão descritas a antropomorfização das ações e pensamentos de seres que existem em dimensões e realidades completamente aquém e incompatíveis com a nossa.
 >
-> Portando, leve tudo de forma simbólica ou metafórica, já que são a transliteração de eventos impossíveis de serem explicados de forma literal e fidedigna usando palavras e conceitos do entendimento humano.
+> Portanto, leve tudo de forma simbólica ou metafórica, já que são a transliteração de eventos impossíveis de serem explicados de forma literal e fidedigna usando palavras e conceitos do entendimento humano.
 
 ---
 
@@ -33,16 +33,16 @@ order: 99
 !!-light Antes da Criação
 
   1. **Caos Primordial:** No início existia apenas o **éter** deixado pelo Arquiteto, uma matéria prima vibracional de infinitas possibilidades, que pode ser moldado em qualquer coisa que se desejar, pelo poder da vontade da mente.
-  2. **Ordem no Caos:** A mente do Mestre então põe ordem no caos deixado pelo Arquiteto. De fora desta realidade a vontade do Mestre da início a tudo, e pela sua vontade ele transforma o éter e cria o **Universo** em sua mente, e em sua mente o universo reside.
+  2. **Ordem no Caos:** A mente do Mestre então põe ordem no caos deixado pelo Arquiteto. De fora desta realidade a vontade do Mestre dá início a tudo, e pela sua vontade ele transforma o éter e cria o **Universo** em sua mente, e em sua mente o universo reside.
       1. *Universo → Mental e elétrico por estar na mente do Mestre*
   3. O Mestre começa criando a interface inicial por onde ele pode interagir com o universo, chamada de **Mônada**, “O Primeiro Numinoso”. Aquele de onde se emanou e originou tudo que existe. Um ser assexuado, composto apenas por espírito, de extremos poderes e sabedoria.
-      1. *Numinoso → Um ser de pura emanação. Sua forma de existência e incognoscível para humanos, pois o equivalente a suas mentes são emanações conscientes de éter dotadas de sabedoria e poder, e o equivalente aos seus corpos são os mundos e planos da existência desse universo, portanto, cada camada de existência desse universo é como se fosse um corpo de um numinoso. Um numinoso é capaz de controlar tudo que se passa em seu “corpo”*, exceto aqueles dotados de livre arbítrio.
+      1. *Numinoso → Um ser de pura emanação. Sua forma de existência é incognoscível para humanos, pois o equivalente a suas mentes são emanações conscientes de éter dotadas de sabedoria e poder, e o equivalente aos seus corpos são os mundos e planos da existência desse universo, portanto, cada camada de existência desse universo é como se fosse um corpo de um numinoso. Um numinoso é capaz de controlar tudo que se passa em seu “corpo”*, exceto aqueles dotados de livre arbítrio.
       2. Os Numinosos também são chamados de os *deuses dos deuses*.
   4. A Mônada emana de si mesmo a dualidade, na forma dos gêmeos da **Díada**, Luz e Trevas, formando assim a poderosa trindade que verdadeiramente rege o mundo do jogo. Sendo eles três e um ao mesmo tempo, compartilhando e dividindo o mesmo espírito, mas diferentes corpos, sendo a Díada como gêmeos siameses.
       1. *Luz → Ação, bom, masculino, lado direito,. etc.*
       2. *Trevas → Restrição, mau, feminino, lado esquerdo, etc.*
       3. *Obs.: Note que para os numinosos certo e errado, bom e mau, não são conceitos dotados de julgamento. Isso é visto de forma mais pragmática e lógica para eles, sendo relacionado a frequências vibracionais e não a juízo de valor. Porém, a distinção é clara.*
-  5. A trindade cria os primeiros **Entes**, chamados de **Deuses,** emanações vindas da trindade, tendo certas características vibracionais que os definem e as quais eles representam e emanam. Com a intensão de popular e expandir a existência, gerar, viver e experienciar tudo aquilo que há, a trindade e os deuses continuaram sua expansão e desenvolvimento.
+  5. A trindade cria os primeiros **Entes**, chamados de **Deuses,** emanações vindas da trindade, tendo certas características vibracionais que os definem e as quais eles representam e emanam. Com a intenção de popular e expandir a existência, gerar, viver e experienciar tudo aquilo que há, a trindade e os deuses continuaram sua expansão e desenvolvimento.
       1. *Ente → Quando um conceito, ideia, arquétipo, etc. recebe energia suficiente, através de vibrações, pensamentos, etc., o éter se molda mentalmente neste conceito, se tornando um ente, um ser sem corpo e forma, feito puramente de éter significado, tendo uma existência semelhante a de um pensamento ou ideia arquetípica, portanto, sem corpo, mente ou espírito. Um ente representa e emana o conceito que o define, vibrando e moldando o éter a sua imagem.*
       2. *Deus → Uma emanação pura de um determinado conceito divino, como sabedoria, poder e vida. O primeiro deus criado foi a ideia da emanação do próprio Uno, a ideia do caos de infinitas possibilidades, criando assim o deus de mesmo nome, Uno, também chamado de Caos.*
   6. A trindade então, mais especificamente na persona das Trevas, tenta criar algo semelhante a eles, algo superior aos deuses, um novo numinoso. Tentando mimetizar aquilo que a Mônada fez, as Trevas tenta manipular o éter para dar-lhe a centelha divina da trindade, mas falha, e em suas tentativas e experimentos acaba criando um “corpo sem mente”, um mundo sem uma consciência que o controle, como uma casta vazia. Ela cria o Vazio.
@@ -68,7 +68,7 @@ order: 99
       1. O Plano Físico, chamada **Maedra,** uma numinosa tão “imersa” na baixa vibração da matéria que sua consciência trabalha apenas para manter o Reino e seus fluxos de éter funcionando.
       2. O Submundo, chamado de **Prehod**, é um plano resultante da existência da matéria, que existe em uma dimensão de sombras abaixo do mundo físico por ser ainda mais denso, sendo composta de anti-matéria e principalmente de matéria escura.
           1. *Dimensão de Sombras → Significa que é invisível mas mensurável, já que o que aqui existe, não interage com a luz, mas tem massa e até forma.*
-          2. *Esta plano também é chamado de Pilares do Mundo ou Pilares da Criação, pois é sua estrutura de matéria escura que segura a matéria comum em seu lugar.*
+          2. *Este plano também é chamado de Pilares do Mundo ou Pilares da Criação, pois é sua estrutura de matéria escura que segura a matéria comum em seu lugar.*
       3. *Obs.: Neste momento a terra ainda está se formando, sendo basicamente estéril, mineral e quente.*
   2. As vibrações do corpo do criador diminuem ao entrar em contato com a matéria e o Mundo da Criação se torna o seu corpo. Sendo este mundo o seu corpo ele diz “Eu sou o todo poderoso e tudo a mim pertence”
   3. Ele percebe que seu corpo está colado e preso ao mundo material, o Reino, mas sua consciência ainda pode ser elevada ao Vazio.
@@ -87,7 +87,7 @@ order: 99
 
   Eles criam corpos físicos gigantescos, dos quais as suas mentes numinosas pudessem se anexar e desses corpos terem uma ação direta, ampla, constante, interminável e mais eficiente com a matéria, sobre quaisquer condições.
 
-  Chamaram esses corpos de planetas, criados sobre medida para o tipo de energia de cada Regente, e os colocaram na camada do plano físico entre o Reino e a barreira que os atrapalhava, criando assim o cosmo. Levitando magneticamente, seguindo campos magnéticos eternos, cíclicos, e cuidadosamente arquitedos, eles lá de cima Reinam sobre tudo.
+  Chamaram esses corpos de planetas, criados sob medida para o tipo de energia de cada Regente, e os colocaram na camada do plano físico entre o Reino e a barreira que os atrapalhava, criando assim o cosmo. Levitando magneticamente, seguindo campos magnéticos eternos, cíclicos, e cuidadosamente arquitetados, eles lá de cima Reinam sobre tudo.
   6. Satheos percebendo que pode criar algo vivo ao criar os demais Regentes se envaidece e decide criar outras formas de vida mais simples para entretê-los.
 
   Ele faz inúmeras tentativas de animar a matéria e dar-lhe vida, até que finalmente ele consegue criar uma combinação bem sucedida de dois elementos, da qual ele se orgulha imensamente e que impressiona os demais Regentes.
@@ -96,13 +96,13 @@ order: 99
 
   O segundo é o Pneuma, uma transformação do éter, um sopro de vida que anima o ser criado por DNA.
 
-  E da combinação desses dois elementos ele consegue criar a mente, desde as mais simples até mais elaboradas, conforma a estrutura física permitia. Assim sendo, criando a razão e a emoção.
+  E da combinação desses dois elementos ele consegue criar a mente, desde as mais simples até mais elaboradas, conforme a estrutura física permitia. Assim sendo, criando a razão e a emoção.
 
   Como consequência natural, quando um corpo chega a um estado de dano ou deterioração tal que não seja mais capaz de manter a pneuma dentro, essa energia se libera e volta a ser éter.
   7. Guiados pelos regentes, os seres vivos evoluem desde seres unicelulares até a criação dos reinos vegetal e animal. Permitindo mentes cada vez mais complexas, mas ainda distantes da consciência de um Regente.
   8. Quando os primeiros insetos andaram pela terra, os Regentes ficaram muito satisfeitos ao ver a matéria animada colonizando todos os cantos do Reino.
 
-  Vendo os insetos, suas colônias e colmeias, Satheos tem uma ideia. Ele e os regentes estavam se desgastando com a empreitada monumental que era a criação deste mundo. Uma classe operária seria a forma perfeita de ajudantes, servos leais e obedientes, sem opinião própria, com corpos físicos no mundo material, animados por uma pneuma que os ajudariam sem questionar, na ardua tarefa de de criar este mundo.
+  Vendo os insetos, suas colônias e colmeias, Satheos tem uma ideia. Ele e os regentes estavam se desgastando com a empreitada monumental que era a criação deste mundo. Uma classe operária seria a forma perfeita de ajudantes, servos leais e obedientes, sem opinião própria, com corpos físicos no mundo material, animados por uma pneuma que os ajudariam sem questionar, na árdua tarefa de criar este mundo.
 
   Dessa observação ele cria então os primeiros **Vigilantes**, diferentes grupos de seres insectoids animados por uma única pneuma coletiva por grupo, programadas pelos regentes para administrarem seus assuntos no mundo físico.
 
@@ -111,10 +111,10 @@ order: 99
 
   Mas também percebem o que aconteceu com Satheos ao vislumbrar o mundo abaixo, e que se tentarem interagir com o mundo abaixo, podem também cair nele, e ficarem presos.
 
-  A trindade tem por opinião que o mundo inferior não é algo que deveria existir, sendo coberto da escravidão e sofrimento de seres viventes. Os seres vivos em sua maioria vivem da morte de outros, desde as bactérias até os caçadores, tudo precisa causar sofrimento para existir. A matéria é o éter em uma vibração tão baixa que pode contaminar a vibração de um numinoso. O submundo é tão denso que pode derrubar e aprisionar um numinoso. Eles dizem, “Este mundo é corrupto e deve ser expurgado. O sofrimento deve sessar”.
+  A trindade tem por opinião que o mundo inferior não é algo que deveria existir, sendo coberto da escravidão e sofrimento de seres viventes. Os seres vivos em sua maioria vivem da morte de outros, desde as bactérias até os caçadores, tudo precisa causar sofrimento para existir. A matéria é o éter em uma vibração tão baixa que pode contaminar a vibração de um numinoso. O submundo é tão denso que pode derrubar e aprisionar um numinoso. Eles dizem, “Este mundo é corrupto e deve ser expurgado. O sofrimento deve cessar”.
 
   Porém sem como interagir com o mundo inferior, a trindade se mantem em seu mundo, e começa analisar qual será sua ação.
-  10. A superfície da terra então se torna infestada e tomada de enxames de Vigilantes trabalhando para os Regentes. Colônias enormes que devastam como nuvens de gafanhotos o planeta apenas para poderem se manter vivos. Isso se torna um incomodo para Maedra, que se debate para se livrar da praga, causando um terremoto de proporções globais que devasta todas as colônias, sendo muitas subterrâneas, elas se tornam a sepultura dos Vigilantes.
+  10. A superfície da terra então se torna infestada e tomada de enxames de Vigilantes trabalhando para os Regentes. Colônias enormes que devastam como nuvens de gafanhotos o planeta apenas para poderem se manter vivos. Isso se torna um incômodo para Maedra, que se debate para se livrar da praga, causando um terremoto de proporções globais que devasta todas as colônias, sendo muitas subterrâneas, elas se tornam a sepultura dos Vigilantes.
 
 > TERMINOU EM TERREMOTO (TERRA)
 
@@ -131,14 +131,14 @@ order: 99
   3. Com bastante investimento, os répteis surgem, e os regentes estão convencidos que essa é a matéria animada suprema, o limite da evolução. Eles teriam então finalmente criado a estrutura biológica que poderia ser utilizada para criar um ser inteligente e autônomo.
   4. Usando a estrutura reptiliana como base, eles começam a tentar criar este ser, com várias tentativas, algumas promissoras, eles conseguem criar algumas espécies reptilianas, mas todas acabam sucumbindo para a violência e ignorância, destruindo a si mesmas.
   5. Tentando dar a eles a razão e emoção avançadas, os regentes tentam adicionar uma essência de si mesmos, mas sem resultados frutíferos. Porém essas tentativas de adicionar uma consciência semelhante a deles aos répteis faz eles perceberem que podem criar corpos animados físicos para eles mesmos, corpos que diferentes dos planetas, podem viver na superfície da terra e agir diretamente. São criados então os **Drakos**, corpos de forma draconiana, assustadora, capazes de receber parte da essência do espírito de um regente.
-      1. Drako → Sub corpo mortal de aparência draconiana (humanoide ou não), porém duradouros, criados pelos Regentes para eles mesmos abitarem como seus avatares. Podem durar milhares de anos. O Regente pode abandonar este corpo quando quiser, e ter vários desses em lugares diferentes e trocar de um para o outro com certas magias.
+      1. Drako → Sub corpo mortal de aparência draconiana (humanoide ou não), porém duradouros, criados pelos Regentes para eles mesmos habitarem como seus avatares. Podem durar milhares de anos. O Regente pode abandonar este corpo quando quiser, e ter vários desses em lugares diferentes e trocar de um para o outro com certas magias.
 
       Quando habitando estes corpos, apenas uma parte do Regente é colocado, mesmo um planeta não é a materialização total de um Regente, não são suficientes. Geralmente é colocado apenas a parte do regente compatível com aquele corpo, e para o qual o corpo foi criado, como por exemplo, apenas a parte sábia e calma, ou a parte guerreira e raivosa, etc.
 
       Cada Regente consegue ocupar apenas um drako por vez, mas quando o fazem eles continuam ocupando também o seu respectivo planeta, e é através do planeta que eles controlam o drako, através do chamado fio de prata.
       2. Fio de Prata → Uma estrutura etérea, como um cabo de comunicação entre um ser do plano astral e um corpo material animado por uma pneuma no plano físico. Precisa porem de uma forma de passar pelo firmamento.
           1. Para os drakos → É usado um planeta, grande, móvel e imponente, para poder passar tanto poder. Pois em ultima análise os planetas foram criados como portais interdimensionais por onde as energias de cada regente possa passar para o mundo físico sem a resistência do firmamento.
-          2. Para o espírito humano → É usado a estrela que rege sua Casa. As estrelas assim como os planetas são portais para atravessar o firmamento, dadas suas devidas proporções. Quando mais brilhante a estrela, mais energia os espíritos daquela Casa podem passar sem resistência. Facilitando a vida de todos os membros etérligadores. Lembrando que a quantidade de vibrações passada é dividida entre todos os membros, portando quanto maior a quantidade de membros da Casa, menos sobra para cada um, sendo que a divisão não é igual, quem vibra mais forte, usa mais banda.
+          2. Para o espírito humano → É usada a estrela que rege sua Casa. As estrelas assim como os planetas são portais para atravessar o firmamento, dadas suas devidas proporções. Quanto mais brilhante a estrela, mais energia os espíritos daquela Casa podem passar sem resistência. Facilitando a vida de todos os membros eterligadores. Lembrando que a quantidade de vibrações passada é dividida entre todos os membros, portanto quanto maior a quantidade de membros da Casa, menos sobra para cada um, sendo que a divisão não é igual, quem vibra mais forte, usa mais banda.
   6. Sem futuro para a mentalidade réptil, eles voltam a desenvolver o DNA em busca de uma forma mais adequada. Usando os répteis como base, chegam aos mamíferos e as aves.
   7. Porém com o mundo completamente tomado por répteis gigantes, os seus experimentos não conseguiam proliferar. Os regentes então decidem limpar a terra para poder dar espaço às suas novas criações. Eles então se juntam, e com o seu poder e vontade cobrem a atmosfera com fumaça preta, matando quase tudo na superfície.
 
@@ -152,7 +152,7 @@ order: 99
 
   1. Com menos concorrência, dos mamíferos, um grupo específico começa a se apresentar promissor, os primatas. E é dos primatas que os regentes finalmente conseguem um corpo capaz de receber uma mente consciente de verdade, a para sua surpresa, tão consciente quanto ou mais que os próprios vigilantes.
   2. Os hominídeos começam então a serem usados também como servos.
-  3. Os regentes porem continuam sentido que falta algo. A ideia sempre foi criar um ser senciente, e isso eles conseguiram, mas ainda faltava vontade, e uma menta capaz de chegar aos níveis vibracionais dos regentes. E é aqui que a trindade percebe sua chance de agir.
+  3. Os regentes porém continuam sentindo que falta algo. A ideia sempre foi criar um ser senciente, e isso eles conseguiram, mas ainda faltava vontade, e uma mente capaz de chegar aos níveis vibracionais dos regentes. E é aqui que a trindade percebe sua chance de agir.
   4. A trindade se revela para os regentes quando estes vão ao vazio, e de lá eles todos se conhecem. Satheos não acredita, e fica irado “Blasfêmia, Não há outro além de mim”, mas eventualmente fica tudo muito claro, não há como negar, de onde ele veio, o que eles são. Esse é um período conturbado vibracionalmente, os regentes estão eufóricos, irritados, espantados.
   5. Em um ato de boa fé, a trindade se oferece para ajudá-los na criação de um ser capaz de atingir o nível vibracional dos regentes. Os regentes, sem mais ideias, aceitam a ajuda, também em um ato de boa vontade e paz. Porém tudo isso era uma trama da trindade, para infiltrar “*um que era como eles*” no Mundo da Criação, e assim poderem destruir este mundo por dentro. Sem se arriscarem a ficarem presos.
   6. A trindade cria então o **Lumis**, um espírito engenhado, dotado da centelha divina, que daria ao ser que a recebesse, não só senciência, mas também uma razão e emoção equivalente aos da trindade, “criado a nossa imagem e semelhança”, além da capacidade de distinguir o certo do errado e ver o mundo material como ele realmente é, maligno e que precisava ser desfeito.
@@ -161,7 +161,7 @@ order: 99
 
   Assim como os drakos, o produto final do homem é um corpo biológico, uma pneuma para animar este corpo, e uma central de comando, no caso do drako é um regente e no caso do humano é uma espírito Lumis.
 
-  Também inspirados pelo fio de prata criado pelos regentes, eles explicaram aos regentes como essa pneuma era semelhante a eles e por isso poderia vibrar nas mesmas frequências. Ficariam em uma camada vibracional equivalente no plano astral e seria ligada ao corpo também por um frio de prata.
+  Também inspirados pelo fio de prata criado pelos regentes, eles explicaram aos regentes como essa pneuma era semelhante a eles e por isso poderia vibrar nas mesmas frequências. Ficariam em uma camada vibracional equivalente no plano astral e seria ligada ao corpo também por um fio de prata.
   7. A agente duplo foi então entregue aos arcontes no Vazio, que empolgados logo o adicionaram a um humano, o primeiro de todos. Mas logo que o viram, os regentes perceberam a trapaça, perceberam que aquele homem poderia ser até mesmo mais “mais” do que eles, que seu espírito era capaz de se elevar mais alto que o sétimo céu. Se enfureceram, houve declarações de guerra nos céus.
   8. Os regentes correram para mitigar o problema, matar o homem era inútil, pois seus espírito é imortal e sempre dará um jeito. Exterminar sua espécie não era um opção pois os humanos eram o resultado final de todo este empreendimento.
 
@@ -173,7 +173,7 @@ order: 99
   Tomando ciência de tudo que acontecia, Prehod então percebe o que é o espírito humano e disse “Eu ajudarei o teu, mas o espírito que o anima tem vibração que me contenta, você pode levar os teus, mas aqueles que se corromperem eu farei meus”
       1. O que Prehod está falando aqui é que quando um espírito peca (se corrompe), suas vibrações espirituais diminuem, chegando à níveis tão baixos que ele pode interagir com elas finalmente, da sua dimensão de baixa vibração, e tomar elas para ele. Seu interesse no espírito se dá pelo fato de ser algo divino de um mundo sútil, ou seja uma energia que ele pode usar para seus próprio desejos e alimentação energética.
       2. Neste momento Prehod cria os ceifeiros, seres de matéria escura que se agarram aos fios de prata quando estes se desprendem e levam até ele, ele então tenta se conectar ao fio de prata para drenar as energias do espírito, mas se o espírito não estiver corrompida o fio se solta e sobe, como  um balão. Então quanto mais conexões com o fractal Lumis, melhor.
-          1. Aqui você vê a ideia do julgamento feito por um ser so submundo como a balança de Anubis por exemplo presente nas religiões do jogo. Não é um julgamento de fato, mas um condição natural mecânica.
+          1. Aqui você vê a ideia do julgamento feito por um ser do submundo como a balança de Anúbis por exemplo presente nas religiões do jogo. Não é um julgamento de fato, mas uma condição natural mecânica.
 
       A Trindade e Prehod então criam juntos um túnel de mão dupla, aberto de cada lado, um no acima do Vazio e outro abaixo, uma passagem segura do espírito Lumis até Mundo da Unidade, passando pelo Vazio.
 
@@ -191,7 +191,7 @@ order: 99
 
   ”*Recebem o conhecimento do bem e do mal”*
 
-  Mas de todos os conhecimentos o Portador passa o mais importante, sobre o processo de levar o seu corpo, mente e espírito a uma evolução e desenvolvimento tal que lhe permita receber um deus de grande poder, que seria capaz de levar seu espírito de volta pelo canal cruzando o Vazio de volta para casa, fugindo do julgo cruel e escravizador dos regentes. E a esse processo ele chama de **Apoteose**
+  Mas de todos os conhecimentos o Portador passa o mais importante, sobre o processo de levar o seu corpo, mente e espírito a uma evolução e desenvolvimento tal que lhe permita receber um deus de grande poder, que seria capaz de levar seu espírito de volta pelo canal cruzando o Vazio de volta para casa, fugindo do jugo cruel e escravizador dos regentes. E a esse processo ele chama de **Apoteose**.
 
   Conforme planejado, o portador volta ao Mundo da Unidade e agora, juntos ao exército da Trindade, os deuses, eles aguardam por aqueles que possam invocá-los.
   11. Os dois agora despertos mudam claramente de comportamento, e os regentes percebem. Entendendo o que aconteceu os regentes ficam ainda mais furiosos e punem os dois, sabendo que matá-los é inútil pois seus espíritos são imortais. E para mantê-los aqui para sempre vibrando, eles criam a Roda dos Tempos, um mecanismo parte físico parte astral que garante que o fractal vai ficar perpetuamente reencarnando, e a cada encarnação, esquecerá tudo de novo.
@@ -227,7 +227,7 @@ order: 99
 
   A nossa era, com algumas adaptações.
 
-  Acabou no ano de 2012 com a alinhamento cósmico que os regentes, com a ajuda de seus servos feiticeiros, utilizaram a anergia para realizar uma magia simultânea ao redor do mundo para causar o congelamento prateado e resetar o mundo mais uma vez.
+  Acabou no ano de 2012 com o alinhamento cósmico que os regentes, com a ajuda de seus servos feiticeiros, utilizaram a energia para realizar uma magia simultânea ao redor do mundo para causar o congelamento prateado e resetar o mundo mais uma vez.
 
   > TERMINOU EM GELO PRATEADO
 
@@ -239,7 +239,7 @@ order: 99
 
   O mundo está quebrado em regiões separadas pelos Ermos Prateados, imensidões inconquistáveis de gelo prateado cobrindo tudo
 
-  Está é a era atual onde todas as partidas de Apoteose acontecem.
+  Esta é a era atual onde todas as partidas de Apoteose acontecem.
 
   > TERMINARÁ EM FOGO DOURADO
 
@@ -261,7 +261,7 @@ order: 99
 
   No “Final dos Tempos”, chamado de **Aetherbane**, é travado uma guerra entre a trindade e seus Heróis iluminados, contra os Regentes e seus servos escravizados.
 
-  Nesse processo o Mundo da Criação e os Regentes serão queimando com fogo dourado, que trabalha “queimando” o éter, sendo assim capaz de destruir tudo no mundo abaixo, incluindo o plano astral e as estruturas e fundamentos do Mundo da Criação.
+  Nesse processo o Mundo da Criação e os Regentes serão queimados com fogo dourado, que trabalha “queimando” o éter, sendo assim capaz de destruir tudo no mundo abaixo, incluindo o plano astral e as estruturas e fundamentos do Mundo da Criação.
 
 !!!
 

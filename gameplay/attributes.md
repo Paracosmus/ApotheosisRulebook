@@ -51,11 +51,11 @@ O valor mínimo que um ATRIBUTO pode ter é 1. Se o valor se tornar inferior a 1
 [!badge variant="danger" text="Corpo"]
 
 ||| {{ attr " FORÇA" "FOR" "combat" }}
-Determina a força física do personagem, mais ligada à sua capacidade muscular. pode deixar os músculos mais bem definidos, mas não obrigatoriamente.
+Determina a força física do personagem, mais ligada à sua capacidade muscular. Pode deixar os músculos mais bem definidos, mas não obrigatoriamente.
 
-* Testes relacionados à esforço muscular.
+* Testes relacionados a esforço muscular.
 * {{ dmg }} do Ataque Normal.
-* {{ dmg }} de ataques corpo-a-corpo como espadas, machados, martelos, entre outros.
+* {{ dmg }} de ataques corpo a corpo como espadas, machados, martelos, entre outros.
 
 |||
 
@@ -72,11 +72,10 @@ Está relacionada às ações feitas com o corpo, velocidade, reflexos, equilíb
 [!badge variant="success" text="Mente"]
 
 ||| {{ attr " PERCEPÇÃO" "PER" "ability" }}
-Referente ao uso dos cinco sentidos e acuidade. Um personagem com alta percepção consegue ver e ouvir minúcias imperceptíveis para os demais, em contraparte, um personagem com baixa percepção, é distraído.
+Referente ao uso dos cinco sentidos e acuidade. Um personagem com alta percepção consegue ver e ouvir minúcias imperceptíveis para os demais; em contraparte, um personagem com baixa percepção é distraído.
 
 * Testes relacionados aos sentidos físicos.
 * {{ dmg }} de ataques a distância, como arco e flecha, armas de fogo, entre outros.
-* Ordem de turno dos personagens.
 
 |||
 
@@ -95,7 +94,7 @@ Referente ao uso dos cinco sentidos e acuidade. Um personagem com alta percepç�
 Determina a capacidade do personagem de fazer com que outros gostem dele, seria o seu charme ou característica nata em agradar as pessoas.
 
 * Testes relacionados às habilidades sociais, simpatia, agradabilidade e emoções.
-* Sorte, dádivas e outras bençãos.
+* Sorte, dádivas e outras bênçãos.
 
 |||
 

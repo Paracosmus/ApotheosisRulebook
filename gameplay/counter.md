@@ -14,8 +14,8 @@ Contadores são utilizados comumente para contar unidades ou tempo, como custos 
 
 ## Limites
 
-- Cartas de Ficha podem receber até **5** contadores
-- Cartas de Recurso podem receber até **25** contadores
+- Cartas de Ficha podem receber até **5** contadores.
+- Cartas de Recurso podem receber até **25** contadores.
 
 ---
 
@@ -23,7 +23,7 @@ Contadores são utilizados comumente para contar unidades ou tempo, como custos 
 
 Os contadores de uma carta a acompanham para onde ela for, exceto quando ela é enviada para o {{ tradingPost }} ou para um baralho, neste caso os contadores são perdidos.
 
-Se uma carta com contadores for enviada para o {{ inv }} ou {{ hand }}, ou receber contadores enquanto estiver nesses locais, a carta deve permanecer revelada, de forma que os jogadores possam saber quantos contadores aquela carta possui.
+Se uma carta com contadores for enviada para o {{ inv }}, ou receber contadores enquanto estiver nele, a carta deve permanecer revelada, de forma que os jogadores possam saber quantos contadores aquela carta possui.
 
 Contadores em cartas de Recurso permanecem indefinidamente, porém contadores em cartas de Ficha devem ser removidos ao final do combate ou quando o período do dia mudar.
 

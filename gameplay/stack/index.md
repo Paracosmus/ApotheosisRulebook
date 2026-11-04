@@ -89,11 +89,11 @@ Configuração | Valor
 
 #### Baralho Vazio
 
-Quando um baralho ficar sem cartas e por algum meio for necessário comprar ou descartar uma carta deste baralho, ele deve ser reabastecido a partir do {{ tradingPost }}
+Quando um baralho ficar sem cartas e por algum meio for necessário comprar ou descartar uma carta deste baralho, ele deve ser reabastecido a partir do {{ tradingPost }}.
 
 O Mestre deve embaralhar 100 cartas daquele naipe no {{ tradingPost }}, ou a quantidade que estiver disponível, e colocá-las de face para baixo para formar um novo baralho.
 
-Se não houver nenhuma carta elegível no {{ tradingPost }}, o baralho é considerado vazio e não pode mais ser utilizado até que cartas sejam adicionadas ao baralho por outros meios, ou no futuro, quando houverem cartas elegíveis no {{ tradingPost }} e o baralho tiver que ser reabastecido.
+Se não houver nenhuma carta elegível no {{ tradingPost }}, o baralho é considerado vazio e não pode mais ser utilizado até que cartas sejam adicionadas ao baralho por outros meios, ou no futuro, quando houver cartas elegíveis no {{ tradingPost }} e o baralho tiver que ser reabastecido.
 
 ---
 
@@ -140,7 +140,7 @@ As cartas em um monte não são consideradas nem restauradas, nem consumidas, ne
 
 Alguns efeitos de cartas e mecânicas de jogo permitem que os jogadores busquem cartas em um monte de cartas, e as obtenham, descartem ou realizem outras tarefas.
 
-Este processo de ver um monte a procura de uma carta, ou filtrando cartas por critérios específicos, é conhecido como "busca".
+Este processo de ver um monte à procura de uma carta, ou filtrando cartas por critérios específicos, é conhecido como "busca".
 
 Quando uma busca é realizada em um baralho com cartas ocultas, o jogador precisa olhar as cartas do baralho para encontrar a carta que deseja obter. Após localizar e/ou selecionar a carta desejada, ele deve embaralhar o baralho novamente para ocultar as cartas de forma que ele não tenha mais conhecimento sobre a posição das cartas.
 

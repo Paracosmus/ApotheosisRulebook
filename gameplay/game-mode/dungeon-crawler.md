@@ -20,9 +20,9 @@ Deste modo, observe que é possível um personagem estar na sua área do time, s
 
 ### Companions
 
-{{ companion }} devem estar dentro da área do time do seu herói. Se a qualquer momento o {{ companion }} sair da área, sua peça é removida do tabuleiro e sua carta carta é enviada para o {{ inv }} do herói.
+{{ companion }} devem estar dentro da área do time do seu herói. Se a qualquer momento o {{ companion }} sair da área, sua peça é removida do tabuleiro e sua carta é enviada para o {{ inv }} do herói.
 
-Ao enviar uma carta de {{ companion }} para o {{ support }}, a peça daquele personagem aparece no limite da área do time do seu herói, em uma casa a escolha do jogador.
+Ao enviar uma carta de {{ companion }} para o {{ support }}, a peça daquele personagem aparece no limite da área do time do seu herói, em uma casa à escolha do jogador.
 
 ---
 

@@ -8,27 +8,27 @@ order: 10
 
 {{ briefing `Scavenge Mode` `É o modo de jogo onde os Heróis exploram os ermos prateados em busca de resgatar tesouros e segredos antigos.` }}
 
-Neste modo de jogo começa quando o grupo adentra os ermos prateados, um local repleto de perigos e mistérios. Os Heróis devem explorar as ruínas, enfrentar criaturas e exploradores hostis e resolver enigmas para encontrar tesouros escondidos e segredos antigos.
+Este modo de jogo começa quando o grupo adentra os ermos prateados, um local repleto de perigos e mistérios. Os Heróis devem explorar as ruínas, enfrentar criaturas e exploradores hostis e resolver enigmas para encontrar tesouros escondidos e segredos antigos.
 
 Como os ermos prateados estão cobertos pelo Gelo Prateado, os Heróis devem estar preparados para enfrentar condições climáticas adversas e terrenos traiçoeiros. A regra número 1 dos ermos é "Não se aventure sozinho". Os Heróis devem trabalhar em equipe para sobreviver.
 
-Isto é representado em jogo por teste aleatórios de sobrevivência que os Heróis devem passar em conjunto.
+Isto é representado em jogo por testes aleatórios de sobrevivência pelos quais os Heróis devem passar em conjunto.
 
 ---
 
 ## Duração da Viagem
 
-Uma vez que o destino ou trajeto de viagem for escolhido pelo grupo, a duração da viagem fica clara, dado a distância percorrida no mapa e a ritmo de cruzar os ermos. Sendo essa duração medida em períodos do dia, determinados pelo criador do mapa da região ou pelo criador da campanha.
+Uma vez que o destino ou trajeto de viagem for escolhido pelo grupo, a duração da viagem fica clara, dados a distância percorrida no mapa e o ritmo de cruzar os ermos. Sendo essa duração medida em períodos do dia, determinados pelo criador do mapa da região ou pelo criador da campanha.
 
 O mestre então calcula a quantidade de rodadas de avanço que o time precisa para chegar ao destino com base no trajeto declarado.
 
-O time então se desloca par a borda dos ermos prateados, e uma vez que adentrem os ermos, a viagem começa oficialmente e o time está no _Modo de Vasculhador_.
+O time então se desloca para a borda dos ermos prateados, e uma vez que adentrem os ermos, a viagem começa oficialmente e o time está no _Modo de Vasculhador_.
 
 ---
 
 ## Contadores de Viagem
 
-Sempre que o time avançar par longe das terras descongelados, adicione um {{ counterTravel }} à viagem, usado para acompanhar o progresso do time. Quando o time voltar em direção às terras descongeladas, remova um {{ counterTravel }} da viagem.
+Sempre que o time avançar para longe das terras descongeladas, adicione um {{ counterTravel }} à viagem, usado para acompanhar o progresso do time. Quando o time voltar em direção às terras descongeladas, remova um {{ counterTravel }} da viagem.
 
 O número de {{ counterTravel }} na viagem representa a distância do time em relação à borda dos ermos prateados, e é usado para determinar a quantidade de cartas de gelo prateado que devem ser adicionadas ao {{ scenario }}.
 
@@ -54,15 +54,15 @@ Cada rodada de viagem nos ermos prateados tem a duração de um período do dia 
   - Recuar de volta para as terras descongeladas
   - Manter a posição
 
-  Se o time decidir manter a posição, não é feito o desafio de viagem nesta rodada, e os personagens podem jogar seus turnos narrativos normalmente, equivalentes à um período do dia (4 horas de pausa). Passado este tempo, volte para o passo anterior, o atrito, começando um nova rodada de viagem e período do dia.
+  Se o time decidir manter a posição, não é feito o desafio de viagem nesta rodada, e os personagens podem jogar seus turnos narrativos normalmente, equivalentes a um período do dia (4 horas de pausa). Passado este tempo, volte para o passo anterior, o atrito, começando uma nova rodada de viagem e período do dia.
 
   Se decidirem _avançar_ ou _recuar_ vá para o próximo passo, o desafio de sobrevivência.
 
 >>> Desafio de Sobrevivência
 
-  O desafio de sobrevivência é um teste aleatório que os Heróis devem passar para avançar. Não existem rotas e caminhos pré-determinados, o gelo está em constante mudança, onde antes havia um caminho, agora pode haver um abismo, torres de gelo prateada e dunas de neve prateada aparecem e desaparecem, se movem de lugar. O desafio de sobrevivência representa a imprevisibilidade dos ermos prateados e a necessidade de os Heróis se adaptarem às condições em constante mudança.
+  O desafio de sobrevivência é um teste aleatório que os Heróis devem passar para avançar. Não existem rotas e caminhos pré-determinados, o gelo está em constante mudança, onde antes havia um caminho, agora pode haver um abismo, torres de gelo prateado e dunas de neve prateada aparecem e desaparecem, se movem de lugar. O desafio de sobrevivência representa a imprevisibilidade dos ermos prateados e a necessidade de os Heróis se adaptarem às condições em constante mudança.
 
-  Um dos jogadores rola {{ e1d6 }} (considera a regra de [rolagem perfeita](/gameplay/die#dados-extras-rolagem-perfeita)), para determinar o desafio de sobrevivência conforme a tabela abaixo. O mestre pode adicionar um contexto narrativo e descrever o cenário e os perigos que os Heróis enfrentam.
+  Um dos jogadores rola {{ d1d6 }} (considera a regra de [rolagem perfeita](/gameplay/die#dados-extras-rolagem-perfeita)), para determinar o desafio de sobrevivência conforme a tabela abaixo. O mestre pode adicionar um contexto narrativo e descrever o cenário e os perigos que os Heróis enfrentam.
 
   #### Atributo do Desafio
 
@@ -72,7 +72,7 @@ Cada rodada de viagem nos ermos prateados tem a duração de um período do dia 
   Dado | Atributo    | Nome                   | Exemplo
   ---- | ----------- | ---------------------- | -------
   1	   | CON         | Vento Cortante         | Resistência e perseverança para continuar a viagem
-  2    | FOR         | Terreno Difícil        | Subida ingrime, escalada, pular muros, escombros
+  2    | FOR         | Terreno Difícil        | Subida íngreme, escalada, pular muros, escombros
   3    | AGI         | Chão Congelado         | Equilíbrio, salto, tobogã, deslizar, evitar gelo frágil
   4    | PER         | Necessidade de Pausa   | Precisam descansar, dormir, armar acampamento, cozinhar, coletar água
   5    | ESP         | Geada Sanguessuga      | Granizo, chuva, nevasca, orvalho, ferida
@@ -97,25 +97,25 @@ Cada rodada de viagem nos ermos prateados tem a duração de um período do dia 
 
   Cada personagem significa mais um indivíduo para sobreviver, o que torna a viagem mais difícil, portanto times muito grandes precisam de muitos recursos e valores.
 
-  Isso pode levar a conclusão que é mais fácil viajar sozinho, mas isso não é verdade, pois o trabalho em equipe é essencial para superar os desafios dos ermos prateados, já que diferentes personagens possuem diferentes forças e habilidades. Onde você pode ter dificuldade, um outro personagem do time pode complementar por você, e vice-versa.
+  Isso pode levar à conclusão de que é mais fácil viajar sozinho, mas isso não é verdade, pois o trabalho em equipe é essencial para superar os desafios dos ermos prateados, já que diferentes personagens possuem diferentes forças e habilidades. Onde você pode ter dificuldade, um outro personagem do time pode complementar por você, e vice-versa.
 
   ##### Número de Cartas de Gelo Prateado no {{ scenario }}
 
   Durante a viagem, conforme o time se distancia da borda de gelo prateado, ou seja, quanto mais longe das terras descongeladas, mais severo é o congelamento.
 
-  Isto é representado em jogo adicionando ao {{ scenario }} cartas que tenham pelo menos as propriedades **PAISAGEM** e **GELO PRATEADO** simultaneamente. Estas cartas devem vir do {{ tradingPost }} primariamente, se não houver mais cartas com estas propriedades no {{ tradingPost }}, o mestre busca as cartas no {{ sanctuary }}, se também não houver o suficiente, o mestre pode usar da sua mão.
+  Isto é representado em jogo adicionando ao {{ scenario }} cartas que tenham pelo menos as propriedades **PAISAGEM** e **GELO PRATEADO** simultaneamente. Estas cartas devem vir do {{ tradingPost }} primariamente, se não houver mais cartas com estas propriedades no {{ tradingPost }}, o mestre busca as cartas no {{ sanctuary }}, se também não houver o suficiente, o mestre pode usar da caixa de suprimentos.
 
   A cada **5** {{ counterTravel }}, adicione uma destas cartas ao {{ scenario }}.
 
   Quando fazendo o caminho de volta para as terras descongeladas, estas cartas devem ser reduzidas conforme a distância da mesma forma que foram adicionadas.
 
   !!!
-  O criador da campanha, deve estar atento ao número de cartas com as propriedades que serão necessárias. Se as cartas acabarem, adicione o máximo possível.
+  O criador da campanha deve estar atento ao número de cartas com as propriedades que serão necessárias. Se as cartas acabarem, adicione o máximo possível.
   !!!
 
   ##### Dificuldade Base do Desafio
 
-  A dificuldade base do desafio é determinada pela local do desafio, que por sua vez é determinada pelo criador da campanha.
+  A dificuldade base do desafio é determinada pelo local do desafio, que por sua vez é determinada pelo criador da campanha.
 
   Fatores como relevo, adversidades climáticas, evitar as criaturas mágicas hostis, etc, podem influenciar na dificuldade base do desafio. Comumente um número entre 1 e 20.
 
@@ -137,7 +137,7 @@ Cada rodada de viagem nos ermos prateados tem a duração de um período do dia 
   !!!
 
   !!!secondary Exemplo - Aumento de Dificuldade
-   Os personagens estão transportando-se muito peso, ou com marcadores que podem influenciar, como **FOME**, **EXAUSTÃO**, **DOENÇA**, etc.
+   Os personagens estão transportando muito peso, ou com marcadores que podem influenciar, como **FOME**, **EXAUSTÃO**, **DOENÇA**, etc.
   !!!
 
 >>> Progresso

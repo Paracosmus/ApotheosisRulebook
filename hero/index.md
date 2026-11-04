@@ -7,9 +7,9 @@ order: 97
 
 # Herói
 
-São os personagens principais controlados pelos jogadores, representando suas identidades e habilidades únicas. Cada Herói tem um conjunto de cartas que representam suas habilidades, equipamentos e magias, e é o centro das estratégias dos jogadores
+São os personagens principais controlados pelos jogadores, representando suas identidades e habilidades únicas. Cada Herói tem um conjunto de cartas que representam suas habilidades, equipamentos e magias, e é o centro das estratégias dos jogadores.
 
-Um Herói é todo e qualquer personagem que possua uma {{ table }} de cartas e um {{ inv }}. São os personages primários utilizados pelos jogadores para interagir com o mundo do jogo.
+Um Herói é todo e qualquer personagem que possua uma {{ table }} de cartas e um {{ inv }}. São os personagens primários utilizados pelos jogadores para interagir com o mundo do jogo.
 
 ---
 
@@ -82,19 +82,19 @@ Efeitos de cartas podem modificar a {{ hp }} máxima do Herói.
 
 > Seria o reflexo e velocidade de um personagem, sua capacidade de agir em um espaço limitado de tempo.
 
-Representa a quantidade de ações que um personagem pode realizar em um turno. Algumas jogadas e cartas requerem o consumo de um determinado número de ponto de {{ ap }}, portando, quanto maior este número mais ações o personagem pode realizar.
+Representa a quantidade de ações que um personagem pode realizar em um turno. Algumas jogadas e cartas requerem o consumo de um determinado número de pontos de {{ ap }}; portanto, quanto maior este número, mais ações o personagem pode realizar.
 
 ---
 
 ## Estamina
 
-> Uma das duas formas de energia vital que o éter pode assumir. É a energia física que todos nós consumimos ao realizar exercícios e outros tipos de atividades e esforço físico, como correr, saltar, levantar peso, etc. Aetherbinders conseguem manipular a estamina de forma a aumentar a resistência, força e outra capacidades corporais de um indivíduo, bem como para realizar ações com seu corpo que superam os limites de um ser humano normal.
+> Uma das duas formas de energia vital que o éter pode assumir. É a energia física que todos nós consumimos ao realizar exercícios e outros tipos de atividades e esforço físico, como correr, saltar, levantar peso, etc. Aetherbinders conseguem manipular a estamina de forma a aumentar a resistência, força e outras capacidades corporais de um indivíduo, bem como para realizar ações com seu corpo que superam os limites de um ser humano normal.
 
 ---
 
 ## Mana
 
-> Uma das duas formas de energia vital que o éter pode assumir. É a energia espiritual que todos nós consumimos ao realizar atividades mágicas, como rezar, conjurar, encantar, etc. Aetherbinders conseguem manipular a mana de forma a aumentar a sabedoria, poder mágico, e outra capacidades e espirituais de um indivíduo, bem como para realizar ações metafísicas que quebram os limites da realidade.
+> Uma das duas formas de energia vital que o éter pode assumir. É a energia espiritual que todos nós consumimos ao realizar atividades mágicas, como rezar, conjurar, encantar, etc. Aetherbinders conseguem manipular a mana de forma a aumentar a sabedoria, poder mágico e outras capacidades espirituais de um indivíduo, bem como para realizar ações metafísicas que quebram os limites da realidade.
 
 ---
 
@@ -122,7 +122,7 @@ Cada carta tem o seu próprio Score, que é a soma de:
 
 * **2** pontos por nível, menos **1**. Uma carta de nível **1** vale **1**, uma de nível **2** vale **3**, e assim por diante.
 * Pontos por raridade: {{ common }} **0**, {{ uncommon }} **2**, {{ rare }} **4**, {{ epic }} **6** e {{ legendary }} **8**.
-* **5** pontos se a carta tiver for um {{ summus }}.
+* **5** pontos se a carta for um {{ summus }}.
 
 O Score do Herói é a soma do Score das suas cartas, contadas assim:
 
@@ -165,12 +165,12 @@ Ao final da batalha, o personagem pode ser revivido por alguns efeitos de cartas
 
 Uma vez por batalha, quando uma ação resultar em sua {{ hp }} ficar menor ou igual a 0, antes de determinar que este personagem está morto, ele ainda pode obter uma _Salvação Divina_.
 
-O jogador deve observar quantos pontos {{ hp }} negativa o personagem ficou, o personagem deve então descartar 1 de {{ fate }} para cada ponto de {{ hp }} negativo que tiver. Qualquer excesso descartado é perdido. O personagem então não morre, mas fica com 1 de {{ hp }}.
+O jogador deve observar quantos pontos de {{ hp }} negativa o personagem ficou, o personagem deve então descartar 1 de {{ fate }} para cada ponto de {{ hp }} negativo que tiver. Qualquer excesso descartado é perdido. O personagem então não morre, mas fica com 1 de {{ hp }}.
 
 !!!
 Em uma _Salvação Divina_, não se considera que o personagem tenha morrido, nem que tenha sido curado ou revivido, portanto, não se deve aplicar as mecânicas e efeitos relacionados a estes casos e o personagem pode continuar jogando normalmente.
 
-Efeitos que consideram o {{ dmg }} e {{ injury }} sofrido pelo personagem, devem ser aplicados normalmente e considerando o valor real que resultou em {{ hp }} zerada ou negativa.
+Efeitos que consideram o {{ dmg }} e a {{ injury }} sofridos pelo personagem devem ser aplicados normalmente, considerando o valor real que resultou em {{ hp }} zerada ou negativa.
 !!!
 
 !!!

@@ -28,7 +28,7 @@ Geralmente, o termo se refere a [Heróis](/hero/), {{ companion }} e [Modelos](/
 Quando um personagem morrer, não é o fim definitivo, se sua peça ainda estiver no tabuleiro ele pode ser revivido por alguns efeitos de cartas, ou por ações de outros personagens. Porém, se não for revivido, o personagem está permanentemente morto.
 
 💀 Morto
-:   É o estado de um personagem quando sua {{ hp }} é menor ou igual a 0. Neste estado, o personagem não pode agir, e todos os efeitos e cartas que o personagem possui são ignoradas.
+:   É o estado de um personagem quando sua {{ hp }} é menor ou igual a 0. Neste estado, o personagem não pode agir, e todos os efeitos e cartas que o personagem possui são ignorados.
 
     O personagem também é removido da fila de turnos, não tendo mais forma de jogar.
 
@@ -42,14 +42,14 @@ Quando um personagem morrer, não é o fim definitivo, se sua peça ainda estive
 💣 Perda Total [!badge overkill]
 :   É o estado de um personagem quando o valor absoluto (módulo) da sua {{ hp }} negativa é maior ou igual à sua {{ hp }} máxima positiva.
 
-    Ele é considerado em um estado perda total, e não pode ser revivido, já que os danos ao seu corpo estão de tal forma que não há mais como reverter, e o personagem é considerado morto permanentemente.
+    Ele é considerado em um estado de perda total, e não pode ser revivido, já que os danos ao seu corpo estão de tal forma que não há mais como reverter, e o personagem é considerado morto permanentemente.
 
     !!!
     Alguns efeitos de cartas e situações de campanha podem especificar que um personagem morto deve ser tratado como perda total, nestes casos, altere a {{ hp }} negativa do personagem para que seja igual ao valor necessário para estar neste estado, se o valor atual já não for o suficiente.
     !!!
 
     !!!
-    Em adicional, se o valor absoluto (módulo) da sua {{ hp }} negativa for maior ou igual à **duas vezes** sua {{ hp }} máxima positiva, a peça deste personagem foi destruída, e portanto deve ser removida do tabuleiro.
+    Em adicional, se o valor absoluto (módulo) da sua {{ hp }} negativa for maior ou igual a **duas vezes** sua {{ hp }} máxima positiva, a peça deste personagem foi destruída, e portanto deve ser removida do tabuleiro.
     !!!
 
 Quando um personagem morto é revivido, ele é adicionado ao final da fila de turnos, caso não tenha tido um turno nesta rodada ainda. Jogando na ordem normal, a partir da próxima rodada.
@@ -59,8 +59,8 @@ Quando um personagem morto é revivido, ele é adicionado ao final da fila de tu
 
 
 
-São aliados humanos que podem ser recrutados pelos Heróis para ajudá-los em suas jornadas. Eles possuem habilidades e características específicas, e podem ser usados para complementar as estratégias dos Heróis. Mas tam'bem são muito usados pelo mestre de jogo para representar NPCs (personagens não-jogadores) que interagem com os jogadores durante a campanha, como comerciantes, informantes, ou personagens de apoio, inimigos em batalhas, etc..
+São aliados humanos que podem ser recrutados pelos Heróis para ajudá-los em suas jornadas. Eles possuem habilidades e características específicas, e podem ser usados para complementar as estratégias dos Heróis. Mas também são muito usados pelo mestre de jogo para representar NPCs (personagens não-jogadores) que interagem com os jogadores durante a campanha, como comerciantes, informantes, ou personagens de apoio, inimigos em batalhas, etc.
 
 São os animais, bestas e monstros.
 
-São os seres sobrenaturais, entidades, espíritos, demônios, etc.. que podem ser evocados pelos Heróis para lutar ao seu lado ou realizar ações específicas.
+São os seres sobrenaturais, entidades, espíritos, demônios, etc., que podem ser evocados pelos Heróis para lutar ao seu lado ou realizar ações específicas.

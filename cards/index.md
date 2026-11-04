@@ -16,9 +16,9 @@ No decorrer da partida, os jogadores coletam cartas para construir seus personag
 
 ## Naipe
 
-O naipe de uma carta é indicado por um ícone no canto superior direito e por uma cor distinta de cada naipe. Ele representa a função daquela carta e como ela interage com o jogo influenciando suas interações, mecânicas e sinergias com outro componentes do jogo.
+O naipe de uma carta é indicado por um ícone no canto superior direito e por uma cor distinta de cada naipe. Ele representa a função daquela carta e como ela interage com o jogo, influenciando suas interações, mecânicas e sinergias com outros componentes do jogo.
 
-Existem sete naipes de cartas, cada um com suas próprias características e mecânicas, e eles estão divididos em dois grupos, **Carta de Ficha** e **Carta de Recurso**. O grupo do naipes define a função e a mecânica em comuns para certos naipes, definindo como elas se comportam no jogo.
+Existem sete naipes de cartas, cada um com suas próprias características e mecânicas, e eles estão divididos em dois grupos, **Carta de Ficha** e **Carta de Recurso**. O grupo de naipes define a função e a mecânica em comum para certos naipes, definindo como elas se comportam no jogo.
 
 ==- Carta de Ficha [!badge text="Sheet Card" variant="ghost"]
 
@@ -30,7 +30,7 @@ Existem sete naipes de cartas, cada um com suas próprias características e mec
   [!card layout="snap" title="Entity" icon="/static/img/icons/suit_entity.svg"](/cards/entity.md)
 
 
-  Estas cartas são cartas de composição do personagem, portando não podem ser carregadas em seu {{ inv }}. Podem estar apenas em:
+  Estas cartas são cartas de composição do personagem, portanto não podem ser carregadas em seu {{ inv }}. Podem estar apenas em:
 
   {.list-icon}
   - :icon-check-circle: No espaço apropriado designado da {{ table }} de um Herói.
@@ -39,7 +39,7 @@ Existem sete naipes de cartas, cada um com suas próprias características e mec
   - :icon-check-circle: Anexo
   - :icon-check-circle: Zona extra
 
-  Se uma situação de jogo resultar em uma Carta de Ficha estar ou ser envida para outro local que não estes, ela deve ser enviada para o {{ tradingPost }}.
+  Se uma situação de jogo resultar em uma Carta de Ficha estar ou ser enviada para outro local que não estes, ela deve ser enviada para o {{ tradingPost }}.
 
 ==- Carta de Recurso [!badge text="Asset Card" variant="ghost"]
 
@@ -51,7 +51,7 @@ Existem sete naipes de cartas, cada um com suas próprias características e mec
 
   [!card layout="snap" title="Companion" icon="/static/img/icons/suit_companion.svg"](/cards/companion.md) [!card layout="snap" title="Event" icon="/static/img/icons/suit_event.svg"](/cards/event.md)
 
-  Estas cartas possuem um requerimento de nível mínimo de {{ knowledge }}, que um Herói precisa ter para ter esta carta em sua {{ table }}, exceto quando anexadas a uma outra carta. Se uma situação de jogo resultar nesta carta estar ou ser envida para {{ table }} de um Herói que não atenda a este requerimento, ela deve ser enviada para o {{ inv}} do mesmo.
+  Estas cartas possuem um requerimento de nível mínimo de {{ knowledge }}, que um Herói precisa ter para ter esta carta em sua {{ table }}, exceto quando anexadas a uma outra carta. Se uma situação de jogo resultar nesta carta estar ou ser enviada para a {{ table }} de um Herói que não atenda a este requerimento, ela deve ser enviada para o {{ inv}} do mesmo.
 
   #### Valor
 
@@ -106,7 +106,7 @@ A sua função é principalmente estética, não sendo utilizado para efeitos de
 
 ==- Estendida [!badge text="Full Art" variant="ghost"]
 
-  Este estilo apresenta a arte estendida, cobrindo toda a extensão da carta, sem bordas ou molduras. Ele é utilizado para destacar a ilustração bem como apresentar um estética diferenciada, além de adicionar um fator colecionável a mais, sendo utilizado exclusivamente em cartas de raridade {{ rare }} ou superior.
+  Este estilo apresenta a arte estendida, cobrindo toda a extensão da carta, sem bordas ou molduras. Ele é utilizado para destacar a ilustração bem como apresentar uma estética diferenciada, além de adicionar um fator colecionável a mais, sendo utilizado exclusivamente em cartas de raridade {{ rare }} ou superior.
 
 ===
 
@@ -129,15 +129,15 @@ Uma carta também pode conter outros elementos, sejam eles comuns a todas as car
 
 [!card layout="signal"](/gameplay/tag.md) [!card layout="signal"](/gameplay/collection.md)
 
-[!card layout="signal"](/gameplay/rarity.md)  [!card layout="signal"](/cards/summus/)
+[!card layout="signal"](/gameplay/rarity.md)  [!card layout="signal"](/gameplay/summus.md)
 
 ---
 
 ## Ativar
 
-Para usar uma carta você deve ativá-la, o que é feito ao pagar seu custo e cumprir seus requisitos, se houverem. O processo de ativação é o mesmo para todas as cartas, independentemente do naipe.
+Para usar uma carta você deve ativá-la, o que é feito ao pagar seu custo e cumprir seus requisitos, se houver. O processo de ativação é o mesmo para todas as cartas, independentemente do naipe.
 
-Por padrão cada Herói pode ativar apenas as cartas que ele controla, ou seja, as cartas que estão em seu {{ inv }}, {{ table }} ou anexadas a outras cartas que ele controla. No entanto, algumas cartas podem permitir ou exigir que o jogador ative cartas que ele não controla, como as cartas de outros jogadores ou cartas em zonas específicas como às do {{ scenario }}.
+Por padrão cada Herói pode ativar apenas as cartas que ele controla, ou seja, as cartas que estão em seu {{ inv }}, {{ table }} ou anexadas a outras cartas que ele controla. No entanto, algumas cartas podem permitir ou exigir que o jogador ative cartas que ele não controla, como as cartas de outros jogadores ou cartas em zonas específicas como o {{ scenario }}.
 
 ||| Cartas em Jogo
 
@@ -164,35 +164,35 @@ Ao declarar a ativação de uma carta, o jogador deve seguir os seguintes passos
      a. Pontos {{ ap }} necessários
      a. Custos adicionais do naipe, como energias
      a. Verificar se atende aos requisitos determinados por palavras-chave de temporização, tarefas, etc.
-     a. outras condições adicionais descritas nos requerimentos do efeito.
+     a. Outras condições adicionais descritas nos requerimentos do efeito.
 
   Estando todas as condições atendidas, o jogador pode declarar a ativação da carta.
 
   1. O Herói deve pagar o custo da carta, se houver, e cumprir os requisitos necessários para ativar a carta.
   2. Se a carta possuir um {{ range }} do tipo {{ direct }} ou {{ arcing }}, o jogador deve selecionar como o alvo da carta uma peça, ou uma casa vazia do tabuleiro, dentro do alcance.
-  3. Aplicar o efeito da carta, seguindo a ordem de resolução dos efeitos conforme descrito no texto da carta e as regras do jogo.
-  4. Aplicar o dano da carta, se houver, ao alvo selecionado.
-     1. Se a carta possuir um {{ range }} do tipo {{ area }}, o dano é aplicado a todas as peças e casas dentro da área de efeito, sem a necessidade de selecionar um alvo específico.
-     2. Observe que alguns efeitos de carta podem especificar que são aplicados após o dano, ao invés de antes, como seria o padrão.
+  3. Aplicar o ataque ({{ dmg }}) e/ou o efeito da carta, se houver. Quando a carta possuir ambos, o próprio texto do efeito indica em qual momento do ataque ele é inserido (antes, durante ou depois do ataque, ou em uma etapa específica, como durante a rolagem de dados, antes de resolver o {{ dmg }}, após aplicar a {{ injury }}, etc.).
+     1. Se a carta possuir um {{ range }} do tipo {{ area }}, o ataque/efeito é aplicado a todas as peças e casas dentro da área de efeito, sem a necessidade de selecionar um alvo específico.
+     2. Caso o efeito não especifique uma etapa do ataque, siga o seu [momento de ativação](/gameplay/effect.md#descrição-do-efeito).
+     3. Respeite a ordem das ações conforme descritas no texto da carta e as regras do jogo.
 
 ==- Automaticamente {{ auto }}
 
   1. A carta deve possuir um ou mais efeitos com a palavra-chave {{ auto }}.
      1. Efeitos com a palavra-chave {{ auto }} são ativados automaticamente de forma obrigatória quando suas condições de ativação são atendidas.
-     2. Se a carta possuir mais de um efeito com a palavra-chave {{ auto }}, todos os efeitos que puderem ser ativados, serão ativados automaticamente.
+     2. Se a carta possuir mais de um efeito com a palavra-chave {{ auto }}, todos os efeitos que puderem ser ativados serão ativados automaticamente.
   2. Verificar se ele cumpre os requisitos para ativar a carta.
      1. Nível de {{ knowledge }} necessário
      2. Verificar se atende aos requisitos determinados por palavras-chave de temporização, tarefas, etc.
-     3. outras condições adicionais descritas nos requerimentos do efeito.
-     4. Ativações automáticas não possuem custos de ativação em {{ ap }} e/ou Energias, se a carta possuir esses custos, eles devem ser considerados para outros efeitos {{ activate }} daquela carta, e ignorados para os efeitos {{ auto }}.
+     3. Outras condições adicionais descritas nos requerimentos do efeito.
+     4. Ativações automáticas não possuem custos de ativação em {{ ap }} e/ou Energias; se a carta possuir esses custos, eles devem ser considerados para outros efeitos {{ activate }} daquela carta, e ignorados para os efeitos {{ auto }}.
 
   Estando todas as condições atendidas, o jogador deve informar a ativação da carta.
 
   1. Se a carta possuir um {{ range }} do tipo {{ direct }} ou {{ arcing }}, o jogador deve selecionar como o alvo da carta uma peça, ou uma casa vazia do tabuleiro, dentro do alcance.
-  2. Aplicar o efeito da carta, seguindo a ordem de resolução dos efeitos conforme descrito no texto da carta e as regras do jogo.
-  3. Aplicar o dano da carta, se houver, ao alvo selecionado.
-     1. Se a carta possuir um {{ range }} do tipo {{ area }}, o dano é aplicado a todas as peças e casas dentro da área de efeito, sem a necessidade de selecionar um alvo específico.
-     2. Observe que alguns efeitos de carta podem especificar que são aplicados após o dano, ao invés de antes, como seria o padrão.
+  2. Aplicar o ataque ({{ dmg }}) e/ou o efeito da carta, se houver. Quando a carta possuir ambos, o próprio texto do efeito indica em qual momento do ataque ele é inserido (antes, durante ou depois do ataque, ou em uma etapa específica, como durante a rolagem de dados, antes de resolver o {{ dmg }}, após aplicar a {{ injury }}, etc.).
+     1. Se a carta possuir um {{ range }} do tipo {{ area }}, o ataque/efeito é aplicado a todas as peças e casas dentro da área de efeito, sem a necessidade de selecionar um alvo específico.
+     2. Caso o efeito não especifique uma etapa do ataque, siga o seu [momento de ativação](/gameplay/effect.md#descrição-do-efeito).
+     3. Respeite a ordem das ações conforme descritas no texto da carta e as regras do jogo.
 
 ===
 
@@ -221,7 +221,7 @@ O estado de uma carta é a condição ou situação em que ela se encontra duran
 
 ==- <span class="fill">Não Jogável</span> [!badge text="Unplayable" variant="ghost"]
 
-  São as cartas cujo o efeito não está disponível ou não é de conhecimento público.
+  São as cartas cujo efeito não está disponível ou não é de conhecimento público.
 
   A carta não ser jogável significa apenas que seu efeito não está disponível, os demais aspectos da carta, como energias, valor, peça no tabuleiro, etc., devem ser tratados normalmente.
 
@@ -253,7 +253,7 @@ O estado de uma carta é a condição ou situação em que ela se encontra duran
 
   Toda carta de face para baixo ou não revelada no {{ inv }} é considerada oculta, sendo de conhecimento privado do jogador que a controla.
 
-  Os demais jogadores devem ter conhecimento da existência de cartas ocultas, mas não de suas informações, como nome, arte, efeitos, etc.. Portanto, eles podem ver que elas estão na {{ table }}, ou mesmo contar quantas cartas outro jogador tem no {{ inv }}.
+  Os demais jogadores devem ter conhecimento da existência de cartas ocultas, mas não de suas informações, como nome, arte, efeitos, etc. Portanto, eles podem ver que elas estão na {{ table }}, ou mesmo contar quantas cartas outro jogador tem no {{ inv }}.
 
   _Anexos são desconsiderados._
 

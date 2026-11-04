@@ -6,7 +6,7 @@ icon: square-fill
 
 # Batalha Naval
 
-É um formato de batalha onde os jogadores se enfrentam em um campo de batalha aquático, com regras específicas para o combate e a movimentação, na intensão de simular uma batalha entre frotas navais.
+É um formato de batalha onde os jogadores se enfrentam em um campo de batalha aquático, com regras específicas para o combate e a movimentação, na intenção de simular uma batalha entre frotas navais.
 
 Neste formato, o tabuleiro do jogo é adaptado para simular um campo de batalha aquático, e as cartas de recurso são utilizadas para representar navios, armas, tripulantes e outros elementos navais.
 
@@ -31,7 +31,7 @@ Os 7 atributos de um {{ companion }} são transpostos em cada navio da seguinte 
 
 #### Tabuleiro
 * Por padrão todas as casas do tabuleiro são consideradas do tipo {{ aqua }}.
-* E em certos mapas podem haver casas na terra, que não são acessíveis as peças de jogo, com prias, costas ou ilhas.
+* E em certos mapas podem haver casas na terra, que não são acessíveis às peças de jogo, como praias, costas ou ilhas.
 
 ---
 
@@ -54,22 +54,22 @@ Os 7 atributos de um {{ companion }} são transpostos em cada navio da seguinte 
 ---
 
 #### Movimentação
-* Cada navio tem uma quantidade de pontos de {{ ap }} igual a sua **Velocidade**, que neste formato são utilizados exclusiva mente para movimentação.
+* Cada navio tem uma quantidade de pontos de {{ ap }} igual à sua **Velocidade**, que neste formato são utilizados exclusivamente para movimentação.
     * 1 de {{ ap }} → Mover 1 casa a favor do vento
     * 2 de {{ ap }} → Mover 1 casa perpendicular ao vento
     * 3 de {{ ap }} → Mover 1 casa contra o vento
-* É possível rotaciona o navio uma número limitado de vezes por turno. Uma vez que o navio é rotacionado, ele não pode rotacionar novamente neste turno até que se mova pelo menos 1 casa.
+* É possível rotacionar o navio um número limitado de vezes por turno. Uma vez que o navio é rotacionado, ele não pode rotacionar novamente neste turno até que se mova pelo menos 1 casa.
 
 ---
 
 #### Ataque
-* Os navios atacam em apenas de lado para o alvo e se utiliza as regras padrões de cálculo de {{ dmg }}.
+* Os navios atacam apenas de lado para o alvo e utilizam-se as regras padrões de cálculo de {{ dmg }}.
 * O {{ range }} do ataque é do tipo {{ direct }} e se utiliza as regras padrões de cálculo de distância.
 * O navio pode atacar apenas uma vez por turno, sem custos em {{ ap }}, e seu turno encerra após o ataque.
     * **Round Shot**: Canhões + {{ d1d6 }}
     * **Grape Shot**: Canhões + {{ d1d2 }}; Além da {{ hp }}, o alvo perde tripulação igual à {{ injury }}; Este ataque nunca deixa um navio com menos de 1 de tripulação
     * **Chain Shot**: O alvo perde {{ n"1" }} _Contador de Velocidade_; Este ataque não causa {{ dmg }}
-    * **Abalroar**: Se ao se mover, a seu navio terminar em uma casa do tabuleiro cuja à sua frente esteja outro navio, se o valor de **Carga** do seu navio for maior que a do outro, você pode colidir com ele e causar {{ n"2" }} de {{ injury }}
+    * **Abalroar**: Se, ao se mover, o seu navio terminar em uma casa do tabuleiro que tenha outro navio à sua frente, e o valor de **Carga** do seu navio for maior que o do outro, você pode colidir com ele e causar {{ n"2" }} de {{ injury }}
     * **Abordar**: Ambos os navios rolam uma competição de ( _Contadores de Tripulação_ + {{ d1d6 }} ), quem perder, perde {{ n"2" }} de **Tripulação**; Em caso de empate, os dois perdem {{ n"1" }} de Tripulação; Se um navio ficar com 0 de tripulação durante uma abordagem, ele passa para o controle do outro time.
 * Ataques pelas costas causam {{ n"+3" }} de {{ dmg }}
 * Se a {{ hp }} de um navio chegar a 0 ou menos, ele é considerado afundado e retirado do campo de batalha; Ao final da batalha, o time vencedor pode coletar metade da carga dos navios afundados
@@ -101,7 +101,7 @@ Cada tipo de carga tem um valor de carga específico, que pode ser utilizado par
 ---
 
 #### Melhorias
-Melhorias no navio podem ser adicionados na forma de {{ marker }}.
+Melhorias no navio podem ser adicionadas na forma de {{ marker }}.
 
 Cada navio pode ter até 3 melhorias. Sendo que uma vez adicionada a melhoria, ela não pode ser removida.
 
@@ -111,8 +111,8 @@ Melhorias são compradas em estaleiros, pagando com cargas específicas.
 | ---                | ---          | ---                                 | ---    |
 | Cirurgião de Bordo | Quadrado     | 3 de Chá                            | Sacrificar o turno  para recuperar 1 de tripulação |
 | Quartermestre      | Triângulo    | 3 de Tabaco                         | {{ p"+2" }} de Tripulação |
-| Construtor         | Escudo       | 5 de Madeira                        | Tem que remover o shield primeiro (tem que reparar o navio completamente para recuperar o shild) |
-| Carpinteiro        | Coração      | 3 de Madeira                        | Sacrificar o turno para recuperar 1d2 de vida |
+| Construtor         | Escudo       | 5 de Madeira                        | Tem que remover o shield primeiro (tem que reparar o navio completamente para recuperar o shield) |
+| Carpinteiro        | Coração      | 3 de Madeira                        | Sacrificar o turno para recuperar {{ d1d2 }} de vida |
 | Homem de Armas     | Impacto      | 4 de Rum                            | {{ p"+2" }} em abordagens |
 | Sentinela          | Mira         | 3 de Açúcar                         | {{ p"+1" }} de alcance para os canhões |
 | Piloto             | Estrela      | 1 de Açúcar e 2 de Tabaco           | {{ p"+1" }} de Velocidade e Manobrabilidade |
@@ -121,7 +121,7 @@ Melhorias são compradas em estaleiros, pagando com cargas específicas.
 ---
 
 #### Navio de Comando
-Além disso, o navio de comando da frota, chamado de **Naú Capitania (flagship)**, recebe uma melhoria especial, chamada de **Almirante**. Esta melhoria não conta para o limite de 3 melhorias por navio.
+Além disso, o navio de comando da frota, chamado de **Nau Capitânia (flagship)**, recebe uma melhoria especial, chamada de **Almirante**. Esta melhoria não conta para o limite de 3 melhorias por navio.
 * O navio de comando é escolhido antes do início da batalha, e não pode ser trocado durante a batalha.
 * O navio de comando recebe +{{ d1d3 }} em todas as rolagens de dados.
 * Se o navio de comando for afundado, os navios do outro time recebem {{ n"+2" }} em todas as rolagens de dados

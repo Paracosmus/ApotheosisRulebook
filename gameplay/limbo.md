@@ -8,7 +8,7 @@ order: 10
 
 {{ briefing `Limbo` `Limbo é um estado de jogo onde um componente está temporariamente fora de jogo.` }}
 
-> Um componente pode estar no Limbo por estar incapacitado, exilado, escondido, em uma dimensão paralela, etc..
+> Um componente pode estar no Limbo por estar incapacitado, exilado, escondido, em uma dimensão paralela, etc.
 
 Enquanto estiver no Limbo, o componente não pode ser alcançado por ações, nem pode interagir com outros componentes ou ser afetado por habilidades ou efeitos.
 
@@ -27,13 +27,13 @@ Efeitos de cartas que enviam componentes para o Limbo geralmente especificam as 
 
 O ato de enviar um componente para o Limbo é referido como "_exilar_" o componente.
 
-Quando um componente é exilado para o Limbo, ele leva consigo todos os demais componentes ligados e ele, como anexos, contadores, marcadores, etc., a menos que o efeito que o exilou especifique de outra forma.
+Quando um componente é exilado para o Limbo, ele leva consigo todos os demais componentes ligados a ele, como anexos, contadores, marcadores, etc., a menos que o efeito que o exilou especifique de outra forma.
 
 ### Resgatar
 
 O ato de retornar um componente do Limbo para o jogo é referido como "_resgatar_" o componente.
 
-Quando um componente é resgatado do Limbo, ele retorna ao jogo no mesmo estado e local que estava quando foi exilado, trazendo de volta consigo todos os demais componentes ligados e ele, a menos que o efeito que o trouxe de volta especifique de outra forma.
+Quando um componente é resgatado do Limbo, ele retorna ao jogo no mesmo estado e local que estava quando foi exilado, trazendo de volta consigo todos os demais componentes ligados a ele, a menos que o efeito que o trouxe de volta especifique de outra forma.
 
 Se a carta resgatada do Limbo não puder retornar para a zona onde estava, ela retorna para o {{ inv }} do dono. Caso não tenha dono, ela retorna para o {{ tradingPost }}.
 
