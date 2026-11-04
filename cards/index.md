@@ -129,7 +129,7 @@ Uma carta também pode conter outros elementos, sejam eles comuns a todas as car
 
 [!card layout="signal"](/gameplay/tag.md) [!card layout="signal"](/gameplay/collection.md)
 
-[!card layout="signal"](/gameplay/rarity.md)  [!card layout="signal"](/gameplay/summus.md)
+[!card layout="signal"](/gameplay/rarity.md)  [!card layout="signal"](/gameplay/summus/)
 
 ---
 

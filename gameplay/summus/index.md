@@ -41,16 +41,16 @@ Indiferente do tipo de Summus, elas compartilham as seguintes regras de jogo.
 
 A mecânica adicionada por uma carta Summus é definida pelo seu tipo, e pode ser encontrada na lista a seguir.
 
-[!ref icon="/static/img/icons/summus_ascensus.svg"](/cards/summus/ascensus.md)
+[!ref icon="/static/img/icons/summus_ascensus.svg"](ascensus.md)
 
-[!ref icon="/static/img/icons/summus_collegium.svg"](/cards/summus/collegium.md)
+[!ref icon="/static/img/icons/summus_collegium.svg"](collegium.md)
 
-[!ref icon="/static/img/icons/summus_daemon.svg"](/cards/summus/daemon.md)
+[!ref icon="/static/img/icons/summus_daemon.svg"](daemon.md)
 
-[!ref icon="/static/img/icons/summus_dominium.svg"](/cards/summus/dominium.md)
+[!ref icon="/static/img/icons/summus_dominium.svg"](dominium.md)
 
-[!ref icon="/static/img/icons/summus_magisterium.svg"](/cards/summus/magisterium.md)
+[!ref icon="/static/img/icons/summus_magisterium.svg"](magisterium.md)
 
-[!ref icon="/static/img/icons/summus_ultimatum.svg"](/cards/summus/ultimatum.md)
+[!ref icon="/static/img/icons/summus_ultimatum.svg"](ultimatum.md)
 
 ---

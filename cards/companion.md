@@ -197,13 +197,7 @@ A mesma consideração deve ser feita quando uma carta é obtida pelo COMPANHEIR
 
 ### <span class="companion">Vida</span>
 
-A {{ hp }} da peça de um companheiro no tabuleiro é determinada pelo nível da carta.
-
-| Nível  | Vida           | {.compact}
-| ---    | ---            |
-| 1      | {{ p " 5" }}  |
-| 2      | {{ p " 10" }} |
-| 3      | {{ p " 15" }} |
+A {{ hp }} da peça de um companheiro no tabuleiro é determinada da mesma forma que para um Herói.
 
 ### <span class="companion">Morte</span>
 

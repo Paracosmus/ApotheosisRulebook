@@ -77,7 +77,7 @@ data:
   companion: '[<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md)'
   event:     '[<span class="event"><b>EVENTO</b></span>](/cards/event.md)'
 
-  summus:      '[<span class="summus"><b>SUMMUS</b></span>](/gameplay/summus.md)'
+  summus:      '[<span class="summus"><b>SUMMUS</b></span>](/gameplay/summus/)'
 
   # Rarity
   common:    '[<span class="common">COMUM</span>](/gameplay/rarity.md)'
@@ -214,12 +214,12 @@ data:
   black:  '[<span class="skill"><span class="black"><b>PRETA</b></span>](/gameplay/lignum.md#essência)'
 
   # Summus
-  ascensus:    '[<span class="summus"><b>ASCENSUS</b></span>](/cards/summus/ascensus.md)'
-  collegium:   '[<span class="summus"><b>COLLEGIUM</b></span>](/cards/summus/collegium.md)'
-  daemon:      '[<span class="summus"><b>DAEMON</b></span>](/cards/summus/daemon.md)'
-  dominium:    '[<span class="summus"><b>DOMINIUM</b></span>](/cards/summus/dominium.md)'
-  magisterium: '[<span class="summus"><b>MAGISTERIUM</b></span>](/cards/summus/magisterium.md)'
-  ultimatum:   '[<span class="summus"><b>ULTIMATUM</b></span>](/cards/summus/ultimatum.md)'
+  ascensus:    '[<span class="summus"><b>ASCENSUS</b></span>](/gameplay/summus/ascensus.md)'
+  collegium:   '[<span class="summus"><b>COLLEGIUM</b></span>](/gameplay/summus/collegium.md)'
+  daemon:      '[<span class="summus"><b>DAEMON</b></span>](/gameplay/summus/daemon.md)'
+  dominium:    '[<span class="summus"><b>DOMINIUM</b></span>](/gameplay/summus/dominium.md)'
+  magisterium: '[<span class="summus"><b>MAGISTERIUM</b></span>](/gameplay/summus/magisterium.md)'
+  ultimatum:   '[<span class="summus"><b>ULTIMATUM</b></span>](/gameplay/summus/ultimatum.md)'
 
   # Dice
   d1d2: '<span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">1</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">2</span></span></span>'
