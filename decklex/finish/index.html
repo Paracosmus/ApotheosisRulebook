@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6DMTE08V5G"></script>
+    <script data-cfasync="false">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-6DMTE08V5G');</script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847144542815">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 4.6.0">
+    <meta name="robots" content="noindex">
+
+    <!-- Primary Meta Tags -->
+    <title>Acabamento</title>
+    <meta name="title" content="Acabamento">
+    <meta name="description" content="Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://apotheosiscardgame.com/decklex/finish/">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="https://apotheosiscardgame.com/sitemap.xml">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://apotheosiscardgame.com/decklex/finish/">
+    <meta property="og:title" content="Acabamento">
+    <meta property="og:description" content="Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.">
+    <meta property="og:site_name" content="Apotheosis">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://apotheosiscardgame.com/decklex/finish/">
+    <meta name="twitter:title" content="Acabamento">
+    <meta name="twitter:description" content="Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.">
+
+    <!-- Alternate Markdown -->
+    <link rel="alternate" type="text/markdown" href="https://apotheosiscardgame.com/decklex/finish.md">
+
+    <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
+
+    <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
+    <link href="/resources/css/retype.css?v=4.6.0.847144542815" rel="stylesheet">
+
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.847144542815" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.847144542815" data-turbo-eval="false" defer></script>
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <style>
+        /* Override retype style */
+        :root {
+            /* Link styles */
+            --body-link-decoration-line: none !important;
+            --body-link-decoration-thickness: 0 !important;
+        }
+
+        /* Fallback Apotheosis Icons font */
+        @font-face {
+            font-family: 'Apotheosis';
+            src: url('/static/fonts/apotheosis.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            font-display: block;
+        }
+
+        div.container {
+            font-family: 'Open Sans', Apotheosis;
+            max-width: 1530px;
+        }
+
+        h1, h2 {
+            text-transform: uppercase !important;
+        }
+
+        b {
+            font-weight: 650;
+            letter-spacing: 0.2px;
+        }
+
+        .icon {
+            font-weight: normal;
+        }
+
+        .briefing {
+            color: #1976d2;
+            margin: 0px !important;
+        }
+
+        .rarity-box {
+            width: 24px;
+            background-color: #BDBDBD;
+            display: inline-block;
+            border-radius: 6px 6px 0 0;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.5);
+            font-weight: bold;
+        }
+
+        .req {
+            color: #F78A1F;
+        }
+
+        /* This element fills the line */
+        div:has(> .fill) {
+            display: flex;
+            align-items: center;
+            gap: 0.5em;
+        } .fill {
+            flex: 1;
+        }
+
+        /* Bonus */
+        .positive {
+            font-weight: bold;
+            color: green;
+        }
+
+        .negative {
+            font-weight: bold;
+            color: red;
+        }
+
+        /* Colors */
+        .main      { color: #212121; } .dark .main { color: #DADADA; }
+
+        .house     { color: #673AB7 !important; }
+        .class     { color: #F44336 !important; }
+        .entity    { color: #3F51B5 !important; }
+        .item      { color: #FFC107 !important; }
+        .skill     { color: #2196F3 !important; }
+        .companion { color: #FF7043 !important; }
+        .event     { color: #4CAF50 !important; }
+
+        .summus    { color: #FF22B2 !important; }
+        .knowledge { color: #995D52 !important; }
+
+        .common    { color: #9E9E9E !important; }
+    	.uncommon  { color: #8BC34A !important; }
+    	.rare      { color: #01579B !important; }
+    	.epic      { color: #673AB7 !important; }
+    	.legendary { color: #FFC400 !important; }
+
+        .yellow    { color: #FFEB3B !important; }
+    	.red       { color: #B71C1C !important; }
+    	.blue      { color: #0D47A1 !important; }
+    	.white     { color: #BDBDBD !important; }
+    	.black     { color: #424242 !important; } .dark .black { color: #454545 !important; }
+
+        .hp        { color: #2B6A2E !important; }
+        .format    { color: #03DAC6 !important; }
+
+        .keyword-activation {
+            font-size: 0.8em;
+            text-transform: uppercase;
+            color: #F5F5F5;
+            background-color: #3676BC;
+            border-radius: 4px;
+            padding: 0px 5px;
+            font-weight: 600;
+        }
+
+        .keyword-timing {
+            font-size: 0.8em;
+            text-transform: uppercase;
+            color: #F5F5F5;
+            background-color: #F78A1F;
+            border-radius: 4px;
+            padding: 0px 5px;
+            font-weight: 600;
+        }
+
+        .keyword-limit {
+            font-size: 0.8em;
+            text-transform: uppercase;
+            color: #F5F5F5;
+            background-color: #EF4056;
+            border-radius: 20px;
+            padding: 0px 8px;
+            font-weight: 600;
+        }
+
+        .keyword-scope {
+            font-size: 0.8em;
+            text-transform: uppercase;
+            color: #F5F5F5;
+            background-color: #932969;
+            border-radius: 20px;
+            padding: 0px 8px;
+            font-weight: 600;
+        }
+
+        .keyword-task {
+            font-size: 0.8em;
+            text-transform: uppercase;
+            color: #F5F5F5;
+            background-color: #212121;
+            padding: 0px 10px;
+            font-weight: 600;
+            /* Corners meet at mid-height; a superellipse between bevel (0) and round (1) gives softly curved points */
+            border-radius: 10px / 50%;
+            corner-shape: superellipse(0.7);
+        }
+
+        .requirement {
+            font-size: 0.8em;
+            color: #F5F5F5;
+            background-color: #5C697A;
+            border-radius: 4px;
+            padding: 0px 8px;
+            font-weight: 550;
+        }
+    </style>
+
+
+    <!-- Scripts -->
+    <script>
+
+
+
+    </script>
+
+
+    <!-- Page Header Content -->
+    <div>
+
+
+
+    </div>
+</head>
+<body>
+    <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
+    <div class="absolute bottom-0 left-0" style="top: 5rem; right: 50%"></div>
+
+    <header id="retype-header" class="sticky top-0 z-30 flex w-full h-16 bg-header-bg border-b border-header-border md:h-20">
+        <div class="container relative flex items-center justify-between pr-6 grow md:justify-start">
+            <!-- Mobile menu button skeleton -->
+            <button v-cloak class="skeleton retype-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-hidden rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+            <div v-cloak id="retype-sidebar-left-toggle-button"></div>
+    
+            <!-- Logo -->
+            <div class="flex items-center justify-between h-full py-2 md:w-75">
+                <div class="flex items-center px-2 md:px-6">
+                    <a id="retype-branding-logo" href="https://apotheosiscardgame.com/" class="flex items-center leading-snug text-2xl">
+                        <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
+                            <img class="max-h-10 md:inline-block" src="/static/img/logo.svg" alt="" width="40" height="40">
+                        </span>
+                        <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">Apotheosis</span>
+                    </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">book</span>
+                </div>
+    
+                <span class="hidden h-8 border-r md:inline-block border-base-border"></span>
+            </div>
+    
+            <div class="flex justify-between md:grow">
+                <!-- Top Nav -->
+                <nav id="retype-header-nav" class="hidden md:flex">
+                    <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="/">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M11.03 2.59a1.501 1.501 0 0 1 1.94 0l7.5 6.363a1.5 1.5 0 0 1 .53 1.144V19.5a1.5 1.5 0 0 1-1.5 1.5h-5.75a.75.75 0 0 1-.75-.75V14h-2v6.25a.75.75 0 0 1-.75.75H4.5A1.5 1.5 0 0 1 3 19.5v-9.403c0-.44.194-.859.53-1.144ZM12 3.734l-7.5 6.363V19.5h5v-6.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v6.25h5v-9.403Z"/>
+                                </svg>
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="/glossary/">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M10.414 15H3.586l-1.631 4.505a.75.75 0 1 1-1.41-.51l5.08-14.03a1.463 1.463 0 0 1 2.75 0l5.08 14.03a.75.75 0 1 1-1.411.51Zm4.532-5.098c.913-1.683 2.703-2.205 4.284-2.205 1.047 0 2.084.312 2.878.885.801.577 1.392 1.455 1.392 2.548v8.12a.75.75 0 0 1-1.5 0v-.06l-.044.025c-.893.52-2.096.785-3.451.785-1.051 0-2.048-.315-2.795-.948-.76-.643-1.217-1.578-1.217-2.702 0-.919.349-1.861 1.168-2.563.81-.694 2-1.087 3.569-1.087H22v-1.57c0-.503-.263-.967-.769-1.332-.513-.37-1.235-.6-2.001-.6-1.319 0-2.429.43-2.966 1.42a.75.75 0 0 1-1.318-.716ZM9.87 13.5 7 5.572 4.13 13.5Zm12.13.7h-2.77c-1.331 0-2.134.333-2.593.726a1.822 1.822 0 0 0-.644 1.424c0 .689.267 1.203.686 1.557.43.365 1.065.593 1.826.593 1.183 0 2.102-.235 2.697-.581.582-.34.798-.74.798-1.134Z"/>
+                                </svg>
+                                <span>Glossário</span>
+                            </a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="/chart/">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M5.962 2.513a.75.75 0 0 1-.475.949l-.816.272a.25.25 0 0 0-.171.237V21.25c0 .138.112.25.25.25h14.5a.25.25 0 0 0 .25-.25V3.97a.25.25 0 0 0-.17-.236l-.817-.272a.75.75 0 0 1 .474-1.424l.816.273A1.751 1.751 0 0 1 21 3.97v17.28A1.75 1.75 0 0 1 19.25 23H4.75A1.75 1.75 0 0 1 3 21.25V3.97a1.75 1.75 0 0 1 1.197-1.66l.816-.272a.75.75 0 0 1 .949.475Z"/><path d="M7 1.75C7 .784 7.784 0 8.75 0h6.5C16.216 0 17 .784 17 1.75v1.5A1.75 1.75 0 0 1 15.25 5h-6.5A1.75 1.75 0 0 1 7 3.25Zm1.75-.25a.25.25 0 0 0-.25.25v1.5c0 .138.112.25.25.25h6.5a.25.25 0 0 0 .25-.25v-1.5a.25.25 0 0 0-.25-.25Z"/>
+                                </svg>
+                                <span>Cartilha</span>
+                            </a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="/icons/">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M1.527 13.237a1.75 1.75 0 0 1 0-2.474l9.272-9.273a1.75 1.75 0 0 1 2.475 0l9.272 9.273a1.75 1.75 0 0 1 0 2.474l-9.272 9.272a1.75 1.75 0 0 1-2.475 0Zm1.06-1.414a.25.25 0 0 0 0 .354l9.273 9.272a.25.25 0 0 0 .353 0l9.272-9.272a.25.25 0 0 0 0-.354l-9.272-9.272a.25.25 0 0 0-.353 0Z"/>
+                                </svg>
+                                <span>Ícones</span>
+                            </a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://database.apotheosiscardgame.com/">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M12 1.25c2.487 0 4.773.402 6.466 1.079.844.337 1.577.758 2.112 1.264.536.507.922 1.151.922 1.907v12.987l-.026.013h.026c0 .756-.386 1.4-.922 1.907-.535.506-1.268.927-2.112 1.264-1.693.677-3.979 1.079-6.466 1.079s-4.774-.402-6.466-1.079c-.844-.337-1.577-.758-2.112-1.264C2.886 19.9 2.5 19.256 2.5 18.5h.026l-.026-.013V5.5c0-.756.386-1.4.922-1.907.535-.506 1.268-.927 2.112-1.264C7.226 1.652 9.513 1.25 12 1.25ZM4 14.371v4.116l-.013.013H4c0 .211.103.487.453.817.351.332.898.666 1.638.962 1.475.589 3.564.971 5.909.971 2.345 0 4.434-.381 5.909-.971.739-.296 1.288-.63 1.638-.962.349-.33.453-.607.453-.817h.013L20 18.487v-4.116a7.85 7.85 0 0 1-1.534.8c-1.693.677-3.979 1.079-6.466 1.079s-4.774-.402-6.466-1.079a7.843 7.843 0 0 1-1.534-.8ZM20 12V7.871a7.85 7.85 0 0 1-1.534.8C16.773 9.348 14.487 9.75 12 9.75s-4.774-.402-6.466-1.079A7.85 7.85 0 0 1 4 7.871V12c0 .21.104.487.453.817.35.332.899.666 1.638.961 1.475.59 3.564.972 5.909.972 2.345 0 4.434-.382 5.909-.972.74-.295 1.287-.629 1.638-.96.35-.33.453-.607.453-.818ZM4 5.5c0 .211.103.487.453.817.351.332.898.666 1.638.962 1.475.589 3.564.971 5.909.971 2.345 0 4.434-.381 5.909-.971.739-.296 1.288-.63 1.638-.962.349-.33.453-.607.453-.817 0-.211-.103-.487-.453-.817-.351-.332-.898-.666-1.638-.962-1.475-.589-3.564-.971-5.909-.971-2.345 0-4.434.381-5.909.971-.739.296-1.288.63-1.638.962C4.104 5.013 4 5.29 4 5.5Z"/>
+                                </svg>
+                                <span>Database</span>
+                            </a>
+                        </li>
+    
+                    </ul>
+                </nav>
+    
+                <div v-cloak class="flex justify-end grow">
+                    <div id="retype-mobile-search-button"></div>
+                    <doc-search-desktop></doc-search-desktop>
+    
+                    <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                    <doc-history></doc-history>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div id="retype-container" class="container relative flex bg-white">
+        <!-- Sidebar Skeleton -->
+        <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-sidebar-left-bg border-sidebar-left-border sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton">
+        
+            <div class="flex items-center h-16 px-6">
+                <input id="retype-filter-input-mock" class="w-full h-10 pl-8 px-3 py-2 transition-colors duration-200 ease-linear bg-filter-bg border border-filter-border rounded-lg shadow-none md:text-sm hover:border-filter-border-hover focus:outline-hidden focus:border-filter-border-focus placeholder-filter-placeholder" type="text">
+            </div>
+        
+            <div class="pl-6 mt-1 mb-4">
+                <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+            </div>
+        
+        </div>
+        
+        <!-- Sidebar component -->
+        <doc-sidebar v-cloak>
+            <template #sidebar-footer>
+                <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-base-border">
+        
+                    <div class="py-3 px-6 md:hidden border-b dark:border-base-border">
+                        <nav>
+                            <ul class="flex flex-wrap justify-center items-center">
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M11.03 2.59a1.501 1.501 0 0 1 1.94 0l7.5 6.363a1.5 1.5 0 0 1 .53 1.144V19.5a1.5 1.5 0 0 1-1.5 1.5h-5.75a.75.75 0 0 1-.75-.75V14h-2v6.25a.75.75 0 0 1-.75.75H4.5A1.5 1.5 0 0 1 3 19.5v-9.403c0-.44.194-.859.53-1.144ZM12 3.734l-7.5 6.363V19.5h5v-6.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v6.25h5v-9.403Z"/>
+                                        </svg>
+                                        <span>Home</span>
+                                    </a>
+                                </li>
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="/glossary/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M10.414 15H3.586l-1.631 4.505a.75.75 0 1 1-1.41-.51l5.08-14.03a1.463 1.463 0 0 1 2.75 0l5.08 14.03a.75.75 0 1 1-1.411.51Zm4.532-5.098c.913-1.683 2.703-2.205 4.284-2.205 1.047 0 2.084.312 2.878.885.801.577 1.392 1.455 1.392 2.548v8.12a.75.75 0 0 1-1.5 0v-.06l-.044.025c-.893.52-2.096.785-3.451.785-1.051 0-2.048-.315-2.795-.948-.76-.643-1.217-1.578-1.217-2.702 0-.919.349-1.861 1.168-2.563.81-.694 2-1.087 3.569-1.087H22v-1.57c0-.503-.263-.967-.769-1.332-.513-.37-1.235-.6-2.001-.6-1.319 0-2.429.43-2.966 1.42a.75.75 0 0 1-1.318-.716ZM9.87 13.5 7 5.572 4.13 13.5Zm12.13.7h-2.77c-1.331 0-2.134.333-2.593.726a1.822 1.822 0 0 0-.644 1.424c0 .689.267 1.203.686 1.557.43.365 1.065.593 1.826.593 1.183 0 2.102-.235 2.697-.581.582-.34.798-.74.798-1.134Z"/>
+                                        </svg>
+                                        <span>Glossário</span>
+                                    </a>
+                                </li>
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="/chart/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M5.962 2.513a.75.75 0 0 1-.475.949l-.816.272a.25.25 0 0 0-.171.237V21.25c0 .138.112.25.25.25h14.5a.25.25 0 0 0 .25-.25V3.97a.25.25 0 0 0-.17-.236l-.817-.272a.75.75 0 0 1 .474-1.424l.816.273A1.751 1.751 0 0 1 21 3.97v17.28A1.75 1.75 0 0 1 19.25 23H4.75A1.75 1.75 0 0 1 3 21.25V3.97a1.75 1.75 0 0 1 1.197-1.66l.816-.272a.75.75 0 0 1 .949.475Z"/><path d="M7 1.75C7 .784 7.784 0 8.75 0h6.5C16.216 0 17 .784 17 1.75v1.5A1.75 1.75 0 0 1 15.25 5h-6.5A1.75 1.75 0 0 1 7 3.25Zm1.75-.25a.25.25 0 0 0-.25.25v1.5c0 .138.112.25.25.25h6.5a.25.25 0 0 0 .25-.25v-1.5a.25.25 0 0 0-.25-.25Z"/>
+                                        </svg>
+                                        <span>Cartilha</span>
+                                    </a>
+                                </li>
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="/icons/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M1.527 13.237a1.75 1.75 0 0 1 0-2.474l9.272-9.273a1.75 1.75 0 0 1 2.475 0l9.272 9.273a1.75 1.75 0 0 1 0 2.474l-9.272 9.272a1.75 1.75 0 0 1-2.475 0Zm1.06-1.414a.25.25 0 0 0 0 .354l9.273 9.272a.25.25 0 0 0 .353 0l9.272-9.272a.25.25 0 0 0 0-.354l-9.272-9.272a.25.25 0 0 0-.353 0Z"/>
+                                        </svg>
+                                        <span>Ícones</span>
+                                    </a>
+                                </li>
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://database.apotheosiscardgame.com/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M12 1.25c2.487 0 4.773.402 6.466 1.079.844.337 1.577.758 2.112 1.264.536.507.922 1.151.922 1.907v12.987l-.026.013h.026c0 .756-.386 1.4-.922 1.907-.535.506-1.268.927-2.112 1.264-1.693.677-3.979 1.079-6.466 1.079s-4.774-.402-6.466-1.079c-.844-.337-1.577-.758-2.112-1.264C2.886 19.9 2.5 19.256 2.5 18.5h.026l-.026-.013V5.5c0-.756.386-1.4.922-1.907.535-.506 1.268-.927 2.112-1.264C7.226 1.652 9.513 1.25 12 1.25ZM4 14.371v4.116l-.013.013H4c0 .211.103.487.453.817.351.332.898.666 1.638.962 1.475.589 3.564.971 5.909.971 2.345 0 4.434-.381 5.909-.971.739-.296 1.288-.63 1.638-.962.349-.33.453-.607.453-.817h.013L20 18.487v-4.116a7.85 7.85 0 0 1-1.534.8c-1.693.677-3.979 1.079-6.466 1.079s-4.774-.402-6.466-1.079a7.843 7.843 0 0 1-1.534-.8ZM20 12V7.871a7.85 7.85 0 0 1-1.534.8C16.773 9.348 14.487 9.75 12 9.75s-4.774-.402-6.466-1.079A7.85 7.85 0 0 1 4 7.871V12c0 .21.104.487.453.817.35.332.899.666 1.638.961 1.475.59 3.564.972 5.909.972 2.345 0 4.434-.382 5.909-.972.74-.295 1.287-.629 1.638-.96.35-.33.453-.607.453-.818ZM4 5.5c0 .211.103.487.453.817.351.332.898.666 1.638.962 1.475.589 3.564.971 5.909.971 2.345 0 4.434-.381 5.909-.971.739-.296 1.288-.63 1.638-.962.349-.33.453-.607.453-.817 0-.211-.103-.487-.453-.817-.351-.332-.898-.666-1.638-.962-1.475-.589-3.564-.971-5.909-.971-2.345 0-4.434.381-5.909.971-.739.296-1.288.63-1.638.962C4.104 5.013 4 5.29 4 5.5Z"/>
+                                        </svg>
+                                        <span>Database</span>
+                                    </a>
+                                </li>
+        
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </template>
+        </doc-sidebar>
+
+        <div class="grow min-w-0 bg-body-bg">
+            <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+<div class="flex">
+    <div id="retype-main" class="min-w-0 p-4 grow md:px-16">
+        <main class="relative pb-12 lg:pt-2">
+            <div class="relative retype-markdown" id="retype-content">
+                <!-- Rendered if sidebar right is enabled -->
+                <div id="retype-sidebar-right-toggle"></div>
+                <nav id="retype-breadcrumb" class="breadcrumb" aria-label="Breadcrumb">
+                    <ol role="list">
+                        <li class="pr-4">
+                            <a href="/" class="pr-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M11.03 2.59a1.501 1.501 0 0 1 1.94 0l7.5 6.363a1.5 1.5 0 0 1 .53 1.144V19.5a1.5 1.5 0 0 1-1.5 1.5h-5.75a.75.75 0 0 1-.75-.75V14h-2v6.25a.75.75 0 0 1-.75.75H4.5A1.5 1.5 0 0 1 3 19.5v-9.403c0-.44.194-.859.53-1.144ZM12 3.734l-7.5 6.363V19.5h5v-6.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v6.25h5v-9.403Z"/>
+                                </svg>
+                            </a>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"/>
+                            </svg>
+                        </li>
+                        <li class="pr-4">
+                            <a href="/decklex/" class="pr-4">
+                                Decklex
+                            </a>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"/>
+                            </svg>
+                        </li>
+                        <li class="pr-4">
+                            <a href="/decklex/finish/" class="pr-4">
+                                Acabamento
+                            </a>
+                        </li>
+                    </ol>
+                </nav>
+
+                <doc-page-actions></doc-page-actions>
+
+                <!-- Page content  -->
+
+<div id="protected-content" data="5241./eoy98ID9vnzaKSRqq9KiQ==.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" class="text-center mt-12 pb-16">
+    <div class="inline-block bg-gray-200 dark:bg-dark-550 dark:text-white p-6 rounded-lg">
+        <div class="-mt-2 pb-6 text-2xl">
+            This page is password protected
+        </div>
+        <div>
+            Enter password:
+            <br>
+            <input id="protected-content-password" type="password" class="border-4 h-8 pl-1 rounded text-2xl text-gray-700 w-75" onkeyup="if (event.keyCode === 13){ document.getElementById('protected-content-ok').click(); }">
+        </div>
+        <div id="protected-content-error" class="transition-opacity opacity-0 text-danger-600">
+            Wrong password!
+        </div>
+        <div class="mt-4">
+            <button id="protected-content-ok" class="no-link inline-flex align-middle items-center font-medium cursor-pointer transition-colors duration-200 ease-out focus:outline-hidden bg-button-primary hover:bg-button-primary-hover text-white px-3 h-8 text-sm rounded">
+                Unlock
+            </button>
+        </div>
+    </div>
+</div>
+                <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
+                
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-11-04T18:55:20" title="2026-11-04" data-absolute-label="Last updated on 2026-11-04 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-11-04 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                        Last updated on 2026-11-04 by Bruno Caxito
+                    </time>
+                </div>
+
+                <!-- Required only on API pages -->
+                <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
+            </div>
+            <footer id="retype-content-footer" class="clear-both">
+            
+                <nav id="retype-nextprev" class="print:hidden flex mt-14">
+                    <div class="w-1/2">
+                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r rounded-l-lg transition-colors duration-150 relative hover:z-5" href="/decklex/expressions/">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                            <span>
+                                <span class="block text-xs font-normal text-base-text-muted">Previous</span>
+                                <span class="block mt-1">Express&#245;es</span>
+                            </span>
+                        </a>
+                    </div>
+            
+                    <div class="w-1/2">
+                    </div>
+                </nav>
+            </footer>
+        </main>
+
+        <div id="retype-page-footer" class="print:border-none border-t border-base-border pt-6 mb-8">
+            <footer class="flex flex-wrap items-center justify-between print:justify-center">
+                <div id="retype-footer-links" class="print:hidden">
+                    <ul class="flex flex-wrap items-center text-sm">
+                    </ul>
+                </div>
+                <div id="retype-copyright" class="print:justify-center py-2 text-footer-text font-footer-link text-sm leading-relaxed"><p>© Copyright Bruno Caxito, 2026. All rights reserved.</p></div>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Rendered if sidebar right is enabled -->
+    <!-- Sidebar right skeleton-->
+    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-sidebar-right-bg border-sidebar-right-border lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:translate-x-0 sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton">
+        <div class="pl-5">
+            <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+            <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+            <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+        </div>
+    </div>
+
+    <!-- User should be able to hide sidebar right -->
+    <doc-sidebar-right v-cloak></doc-sidebar-right>
+</div>
+
+        </div>
+    </div>
+
+    <doc-search-mobile></doc-search-mobile>
+    <doc-back-to-top></doc-back-to-top>
+</div>
+
+
+    <div id="retype-overlay-target"></div>
+
+        <script data-cfasync="false">window.__DOCS__ = { "title": "Acabamento", level: 2, icon: "file", hasPrism: false, hasInstagram: false, hasMermaid: false, hasMath: false, tocDepth: 23, "md": "/decklex/finish.md" }</script>
+
+    <!-- Footer -->
+    <footer>
+
+
+
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+
+
+
+    </script>
+
+    <!-- End Content -->
+    <div>
+
+
+
+    </div>
+</body>
+</html>
