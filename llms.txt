@@ -103,15 +103,6 @@
 - [COMPANHEIRO](https://apotheosiscardgame.com/cards/companion.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [EVENTO](https://apotheosiscardgame.com/cards/event.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 
-### Summus
-
-- [ Ascensus](https://apotheosiscardgame.com/cards/summus/ascensus.md): Ascensus é o termo latino para “ascensão”, no sentido de subir, elevar-se, alcançar um nível superior.
-- [ Collegium](https://apotheosiscardgame.com/cards/summus/collegium.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
-- [ Daemon](https://apotheosiscardgame.com/cards/summus/daemon.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
-- [ Dominium](https://apotheosiscardgame.com/cards/summus/dominium.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
-- [ Magisterium](https://apotheosiscardgame.com/cards/summus/magisterium.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
-- [ Ultimatum](https://apotheosiscardgame.com/cards/summus/ultimatum.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
-
 ## Heróis
 
 - [Time](https://apotheosiscardgame.com/hero/team.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
@@ -194,6 +185,15 @@
 - [Coleção](https://apotheosiscardgame.com/gameplay/collection.md): Elemento importante na organização e identificação das cartas em um jogo de cartas colecionáveis, ela representa o conjunto de cartas que foram lançadas juntas, geralmente com uma temática ou história em comum.
 - [Raridade](https://apotheosiscardgame.com/gameplay/rarity.md): A raridade de uma carta é indicada por uma caixinha colorida com uma letra capitalizada, no canto inferior direito. Ela influencia na qualidade da carta, geralmente com um efeito ou status melhores.
 - [Lignum](https://apotheosiscardgame.com/gameplay/lignum.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
-- [Summus](https://apotheosiscardgame.com/gameplay/summus.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+
+### Summus
+
+- [Summus](https://apotheosiscardgame.com/gameplay/summus/index.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [ Ascensus](https://apotheosiscardgame.com/gameplay/summus/ascensus.md): Ascensus é o termo latino para “ascensão”, no sentido de subir, elevar-se, alcançar um nível superior.
+- [ Collegium](https://apotheosiscardgame.com/gameplay/summus/collegium.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [ Daemon](https://apotheosiscardgame.com/gameplay/summus/daemon.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [ Dominium](https://apotheosiscardgame.com/gameplay/summus/dominium.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [ Magisterium](https://apotheosiscardgame.com/gameplay/summus/magisterium.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [ Ultimatum](https://apotheosiscardgame.com/gameplay/summus/ultimatum.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [Linha de Montagem](https://apotheosiscardgame.com/gameplay/assembly-line.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [Limbo](https://apotheosiscardgame.com/gameplay/limbo.md): Limbo é um estado de jogo onde um componente está temporariamente fora de jogo.

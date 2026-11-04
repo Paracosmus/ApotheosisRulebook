@@ -119,7 +119,7 @@ Cada carta tem o seu próprio Score, que é a soma de:
 
 * **2** pontos por nível, menos **1**. Uma carta de nível **1** vale **1**, uma de nível **2** vale **3**, e assim por diante.
 * Pontos por raridade: [<span class="common">COMUM</span>](/gameplay/rarity.md) **0**, [<span class="uncommon">INCOMUM</span>](/gameplay/rarity.md) **2**, [<span class="rare">RARA</span>](/gameplay/rarity.md) **4**, [<span class="epic">ÉPICA</span>](/gameplay/rarity.md) **6** e [<span class="legendary">LENDÁRIA</span>](/gameplay/rarity.md) **8**.
-* **5** pontos se a carta for um [<span class="summus"><b>SUMMUS</b></span>](/gameplay/summus.md).
+* **5** pontos se a carta for um [<span class="summus"><b>SUMMUS</b></span>](/gameplay/summus/).
 
 O Score do Herói é a soma do Score das suas cartas, contadas assim:
 

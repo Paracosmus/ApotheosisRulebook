@@ -333,13 +333,13 @@
 
 | Icon | Termo (PT) | English | Variável | Unicode | Color |
 | ---- | ---------- | ------- | -------- | ------- | ----- |
-| <span style="color: #FF22B2;"></span> | Summus | *Summus* | [<span class="summus"><b>SUMMUS</b></span>](/gameplay/summus.md) | e94b | `#FF22B2` |
-| <span style="color: #FF22B2;"></span> | Ascensus | *Ascensus* | [<span class="summus"><b>ASCENSUS</b></span>](/cards/summus/ascensus.md) | eaa6 | `#FF22B2` |
-| <span style="color: #FF22B2;"></span> | Collegium | *Collegium* | [<span class="summus"><b>COLLEGIUM</b></span>](/cards/summus/collegium.md) | e9d6 | `#FF22B2` |
-| <span style="color: #FF22B2;"></span> | Daemon | *Daemon* | [<span class="summus"><b>DAEMON</b></span>](/cards/summus/daemon.md) | e96d | `#FF22B2` |
-| <span style="color: #FF22B2;"></span> | Dominium | *Dominium* | [<span class="summus"><b>DOMINIUM</b></span>](/cards/summus/dominium.md) | e9dc | `#FF22B2` |
-| <span style="color: #FF22B2;"></span> | Magisterium | *Magisterium* | [<span class="summus"><b>MAGISTERIUM</b></span>](/cards/summus/magisterium.md) | e95c | `#FF22B2` |
-| <span style="color: #FF22B2;"></span> | Ultimatum | *Ultimatum* | [<span class="summus"><b>ULTIMATUM</b></span>](/cards/summus/ultimatum.md) | eab7 | `#FF22B2` |
+| <span style="color: #FF22B2;"></span> | Summus | *Summus* | [<span class="summus"><b>SUMMUS</b></span>](/gameplay/summus/) | e94b | `#FF22B2` |
+| <span style="color: #FF22B2;"></span> | Ascensus | *Ascensus* | [<span class="summus"><b>ASCENSUS</b></span>](/gameplay/summus/ascensus.md) | eaa6 | `#FF22B2` |
+| <span style="color: #FF22B2;"></span> | Collegium | *Collegium* | [<span class="summus"><b>COLLEGIUM</b></span>](/gameplay/summus/collegium.md) | e9d6 | `#FF22B2` |
+| <span style="color: #FF22B2;"></span> | Daemon | *Daemon* | [<span class="summus"><b>DAEMON</b></span>](/gameplay/summus/daemon.md) | e96d | `#FF22B2` |
+| <span style="color: #FF22B2;"></span> | Dominium | *Dominium* | [<span class="summus"><b>DOMINIUM</b></span>](/gameplay/summus/dominium.md) | e9dc | `#FF22B2` |
+| <span style="color: #FF22B2;"></span> | Magisterium | *Magisterium* | [<span class="summus"><b>MAGISTERIUM</b></span>](/gameplay/summus/magisterium.md) | e95c | `#FF22B2` |
+| <span style="color: #FF22B2;"></span> | Ultimatum | *Ultimatum* | [<span class="summus"><b>ULTIMATUM</b></span>](/gameplay/summus/ultimatum.md) | eab7 | `#FF22B2` |
 
 <br><br>
 

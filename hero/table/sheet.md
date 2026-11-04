@@ -20,4 +20,4 @@ Cartas na [<span class="main"><b>FICHA</b></span>](/hero/table/sheet.md) não
 
 ## Zona Extra
 
-Cartas na zona extra não podem ser obtidas, descartadas, enterradas, enviadas de volta para o [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) e/ou adicionadas ou removidas da mesa por qualquer método que não os definidos explicitamente para sua obtenção e remoção na mecânica estabelecida para cada [<span class="summus"><b>SUMMUS</b></span>](/gameplay/summus.md), ou por um efeito que explicitamente especifique essa ação.
+Cartas na zona extra não podem ser obtidas, descartadas, enterradas, enviadas de volta para o [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) e/ou adicionadas ou removidas da mesa por qualquer método que não os definidos explicitamente para sua obtenção e remoção na mecânica estabelecida para cada [<span class="summus"><b>SUMMUS</b></span>](/gameplay/summus/), ou por um efeito que explicitamente especifique essa ação.

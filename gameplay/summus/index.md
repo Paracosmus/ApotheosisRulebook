@@ -8,7 +8,7 @@ Summus são as cartas que possuem os efeitos mais poderosos no jogo. De forma re
 
 A ideia por trás de Summus é adicionar *gimmicks* (mecânicas) novas ao jogo, sem modificar a funcionalidade básica das cartas e naipes, adicionando diversidade, e criando novas possibilidades estratégicas para os jogadores.
 
-Uma carta [<span class="summus"><b>SUMMUS</b></span>](/gameplay/summus.md) pode ser identificada por suas 4 características distintas:
+Uma carta [<span class="summus"><b>SUMMUS</b></span>](/gameplay/summus/) pode ser identificada por suas 4 características distintas:
 
 - O ícone do naipe tem sua cor modificada para <span class="summus">magenta</span>.
 - Raridade [<span class="rare">RARA</span>](/gameplay/rarity.md) ou superior, e *full-art*.
@@ -38,16 +38,16 @@ Indiferente do tipo de Summus, elas compartilham as seguintes regras de jogo.
 
 A mecânica adicionada por uma carta Summus é definida pelo seu tipo, e pode ser encontrada na lista a seguir.
 
-[!ref icon="/static/img/icons/summus_ascensus.svg"](/cards/summus/ascensus.md)
+[!ref icon="/static/img/icons/summus_ascensus.svg"](ascensus.md)
 
-[!ref icon="/static/img/icons/summus_collegium.svg"](/cards/summus/collegium.md)
+[!ref icon="/static/img/icons/summus_collegium.svg"](collegium.md)
 
-[!ref icon="/static/img/icons/summus_daemon.svg"](/cards/summus/daemon.md)
+[!ref icon="/static/img/icons/summus_daemon.svg"](daemon.md)
 
-[!ref icon="/static/img/icons/summus_dominium.svg"](/cards/summus/dominium.md)
+[!ref icon="/static/img/icons/summus_dominium.svg"](dominium.md)
 
-[!ref icon="/static/img/icons/summus_magisterium.svg"](/cards/summus/magisterium.md)
+[!ref icon="/static/img/icons/summus_magisterium.svg"](magisterium.md)
 
-[!ref icon="/static/img/icons/summus_ultimatum.svg"](/cards/summus/ultimatum.md)
+[!ref icon="/static/img/icons/summus_ultimatum.svg"](ultimatum.md)
 
 ---

@@ -124,7 +124,7 @@ Uma carta também pode conter outros elementos, sejam eles comuns a todas as car
 
 [!card layout="signal"](/gameplay/tag.md) [!card layout="signal"](/gameplay/collection.md)
 
-[!card layout="signal"](/gameplay/rarity.md)  [!card layout="signal"](/gameplay/summus.md)
+[!card layout="signal"](/gameplay/rarity.md)  [!card layout="signal"](/gameplay/summus/)
 
 ---
 
@@ -212,7 +212,7 @@ O estado de uma carta é a condição ou situação em que ela se encontra duran
     * Quando o uso do monte é **Sempre**, todos os efeitos são considerados, exceto os que uma palavra-chave de escopo prende a outro lugar, como [<span class="keyword-scope">Da Mesa</span>](/gameplay/effect.md), [<span class="keyword-scope">Da Mão</span>](/gameplay/effect.md) e [<span class="keyword-scope">Do Anexo</span>](/gameplay/effect.md).
     * Quando o uso do monte é **Com palavra-chave**, apesar de serem consideradas jogáveis, apenas os efeitos [<span class="keyword-scope">De Qualquer Lugar</span>](/gameplay/effect.md) e [<span class="keyword-scope">Da Pilha</span>](/gameplay/effect.md) podem/devem ser usados.
   * Casos Especiais
-    * Alguns [<span class="summus"><b>SUMMUS</b></span>](/gameplay/summus.md) estabelecem condições específicas para serem jogáveis, como estar em uma zona específica ou possuir um estado específico.
+    * Alguns [<span class="summus"><b>SUMMUS</b></span>](/gameplay/summus/) estabelecem condições específicas para serem jogáveis, como estar em uma zona específica ou possuir um estado específico.
 
 ==- <span class="fill">Não Jogável</span> [!badge text="Unplayable" variant="ghost"]
 
@@ -230,7 +230,7 @@ O estado de uma carta é a condição ou situação em que ela se encontra duran
   * Cartas em montes de cartas cujo uso é **Nunca**, como as cartas banidas.
   * Casos Especiais
     * Alguns efeitos de carta podem tornar outras cartas não jogáveis, seja permanentemente ou temporariamente.
-    * Alguns [<span class="summus"><b>SUMMUS</b></span>](/gameplay/summus.md) estabelecem condições específicas para não serem jogáveis, como estar em uma zona específica ou possuir um estado específico.
+    * Alguns [<span class="summus"><b>SUMMUS</b></span>](/gameplay/summus/) estabelecem condições específicas para não serem jogáveis, como estar em uma zona específica ou possuir um estado específico.
 
   Em alguns casos, cartas reveladas não jogáveis podem ser colocadas de cabeça para baixo para indicar seu estado.
 

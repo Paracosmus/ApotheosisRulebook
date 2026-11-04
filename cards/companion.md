@@ -193,13 +193,7 @@ A mesma consideração deve ser feita quando uma carta é obtida pelo COMPANHEIR
 
 ### <span class="companion">Vida</span>
 
-A [<span class="hp"><b>VIDA</b></span>](/hero/#vida) da peça de um companheiro no tabuleiro é determinada pelo nível da carta.
-
-| Nível  | Vida           | {.compact}
-| ---    | ---            |
-| 1      | <span class="positive"> 5</span>  |
-| 2      | <span class="positive"> 10</span> |
-| 3      | <span class="positive"> 15</span> |
+A [<span class="hp"><b>VIDA</b></span>](/hero/#vida) da peça de um companheiro no tabuleiro é determinada da mesma forma que para um Herói.
 
 ### <span class="companion">Morte</span>
 
