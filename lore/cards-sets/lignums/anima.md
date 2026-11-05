@@ -6,8 +6,8 @@ icon: square-fill
 
 # Anima
 
-Estas habilidades, ao serem ativadas, fabricam um ente falso, do tipo espírito, porém modificado conforme a magia que o criou, e incorporam-no no usuário.
+Estas {{ skill }}, ao serem ativadas, fabricam um {{ entity }} falso, do tipo {{ sprite }}, porém modificado conforme a magia que o criou, e incorporam-no no usuário.
 
-As transformações promovidas por este lignum são ativadas pelo mesmo princípio daquelas dos entes verdadeiros.
+As transformações promovidas por este lignum são ativadas pelo mesmo princípio daquelas dos {{ entity }} verdadeiros.
 
 ---

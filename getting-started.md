@@ -222,10 +222,10 @@ order: 100
   Existem 3 tipos de personagens:
 
   - [Heróis](/hero/): Personagens dos jogadores.
-  - [Companheiros](/cards/companion.md)
-    - **Humanos**: Aliados dos jogadores ou NPCs de campanha
-    - **Criaturas**: Animais, bestas e monstros
-    - **Evocações**: Seres sobrenaturais evocados por magias
+  - {{ companion }}
+    - {{ human }}: Aliados dos jogadores ou NPCs de campanha
+    - {{ creature }}: Animais, bestas e monstros
+    - {{ summon }}: Seres sobrenaturais evocados por magias
   - [Modelo (Dummy)](/battle/piece/dummy.md): Personagens que fogem das regras de jogo, geralmente chefes de campanha
 
 
@@ -305,7 +305,7 @@ order: 100
   >
   > **João decide tentar negociar com um NPC que parece ser um líder local para obter informações sobre o prédio**: João lembra ao mestre que seu Herói possui a {{ skill }} de _Empreendedor_ e o mestre concede um bônus de +1 para este teste. Ele rola um teste de Negociação( {{ practice }} + {{ charisma }} ) para tentar convencer o NPC, mas falha, e o mestre de jogo descreve a situação: "O NPC não confia em você e se recusa a falar com você. Ele te ignora e continua com suas atividades."
   >
-  > Maria decide tentar seguir o grupo de inimigos para chegar ao prédio, mas eles percebem que estão sendo seguidos e começam a atirar. Ela rola um teste de Esquivar( {{ agi }} ) para tentar escapar, mas falha, e o mestre de jogo descreve a situação: "Os inimigos percebem que estão sendo seguidos e começam a atirar em você. Você é atingida por um tiro e perde 20 pontos de vida."
+  > Maria decide tentar seguir o grupo de inimigos para chegar ao prédio, mas eles percebem que estão sendo seguidos e começam a atirar. Ela rola um teste de Esquivar( {{ agi }} ) para tentar escapar, mas falha, e o mestre de jogo descreve a situação: "Os inimigos percebem que estão sendo seguidos e começam a atirar em você. Você é atingida por um tiro e perde 20 pontos de {{ hp }}."
   >
   > Os inimigos continuam no encalço de Maria; correndo com dificuldade por estar baleada, ela rola um teste de Resistência( {{ enr }} ). Seus amigos escutam os tiros e correm para verificar o que está acontecendo. Neste momento os dois grupos estão de frente um para o outro e o mestre de jogo decide que é hora de **iniciar a batalha**."
 
@@ -321,9 +321,9 @@ order: 100
   >
   > **Iniciativa**: A ordem dos turnos é redefinida a cada rodada pela Iniciativa dos personagens envolvidos.
   >
-  > **Turno de Pedro**: Ele tem um Herói com a {{ class }} de _Cavaleiro_, e decide atacar um inimigo com uma espada. Ele move sua peça no tabuleiro até ficar adjacente ao inimigo, declara o ataque, escolhe o {{ item }} _Espada_, rola os dados para determinar o {{ dmg }} do ataque conforme escrito na carta. O mestre de jogo descreve a situação: "Você ataca o inimigo com sua espada, causando 15 pontos de dano. O inimigo é atingido, mas possui o {{ item }} _Escudo_ que reduz o dano em 1 ponto, e perde 14 pontos de vida."
+  > **Turno de Pedro**: Ele tem um Herói com a {{ class }} de _Cavaleiro_, e decide atacar um inimigo com uma espada. Ele move sua peça no tabuleiro até ficar adjacente ao inimigo, declara o ataque, escolhe o {{ item }} _Espada_, rola os dados para determinar o {{ dmg }} do ataque conforme escrito na carta. O mestre de jogo descreve a situação: "Você ataca o inimigo com sua espada, causando 15 pontos de {{ dmg }}. O inimigo é atingido, mas possui o {{ item }} _Escudo_ que reduz o {{ dmg }} em 1 ponto, e perde 14 pontos de {{ hp }}."
   >
-  > **Turno de Maria**: Ela tem um Herói com a {{ class }} de _Atiradora_, e decide usar uma habilidade de longo alcance para atacar um inimigo. Ela declara o ataque, escolhe a {{ skill }} _Tiro Certo_, descarta a carta de munição requerida por ela, escolhe um inimigo ao alcance, rola os dados para determinar o {{ dmg }} do ataque conforme escrito na carta e aplica os efeitos da mesma. O mestre de jogo descreve a situação: "Você atira no inimigo com sua habilidade, causando 10 pontos de dano. O inimigo, vestindo apenas uma roupa velha que não oferece nenhuma proteção, é atingido e perde 10 pontos de vida."
+  > **Turno de Maria**: Ela tem um Herói com a {{ class }} de _Atiradora_, e decide usar uma habilidade de longo {{ range }} para atacar um inimigo. Ela declara o ataque, escolhe a {{ skill }} _Tiro Certo_, descarta a carta de munição requerida por ela, escolhe um inimigo ao {{ range }}, rola os dados para determinar o {{ dmg }} do ataque conforme escrito na carta e aplica os efeitos da mesma. O mestre de jogo descreve a situação: "Você atira no inimigo com sua habilidade, causando 10 pontos de {{ dmg }}. O inimigo, vestindo apenas uma roupa velha que não oferece nenhuma proteção, é atingido e perde 10 pontos de {{ hp }}."
 
   !!!
   Para saber mais sobre as regras de batalha, turnos, ações, e resolução de ataques e efeitos no modo de batalha, consulte as [seções específicas](/battle) sobre cada tópico neste manual.

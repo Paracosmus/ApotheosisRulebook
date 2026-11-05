@@ -7,13 +7,13 @@ order: 20
 
 # Lignum
 
-É um conjunto de cartas de HABILIDADE interligadas. Você pode identificá-las pela presença do nome do LIGNUM antes do nome da carta, separados por um | (Barra Vertical).
+É um conjunto de cartas de {{ skill }} interligadas. Você pode identificá-las pela presença do nome do LIGNUM antes do nome da carta, separados por um | (Barra Vertical).
 
 Um espaço do {{ mem }} pode conter até 3 cartas de um mesmo LIGNUM. É possível ter cartas de LIGNUM diferentes no {{ mem }}, ocupando espaços diferentes, porém a soma de suas cartas de LIGNUM não pode ser superior a 9.
 
-- {{ house }}: Sempre adicionam e/ou trabalham com o conhecimento do Lignum.
+- {{ house }}: Sempre adicionam e/ou trabalham com o {{ knowledge }} do Lignum.
 - {{ class }}: Fornecem espaços adicionais para cartas do Lignum igual ao nível da {{ class }}.
-- {{ entity }}: Ao invés de serem mantidos consumindo Energia igual ao nível da carta na sua {{ startPhase }}, são mantidos consumindo 1 de Essência da cor do Lignum.
+- {{ entity }}: Ao invés de serem mantidos consumindo Energia igual ao nível da carta na sua {{ yourStartPhase }}, são mantidos consumindo 1 de Essência da cor do Lignum.
 - {{ item }}: São consumidos depois de usados e não podem mais ser ativados quando consumidos. Possuem um efeito de {{ resetPhase }} para serem restaurados.
 - {{ skill }}: São o banco de energia do Lignum, estas são as cartas que possuem a Essência, a energia especial colorida do Lignum, usada por todas as cartas para ativar os efeitos.
 - {{ companion }}: Para que as técnicas sejam usadas, os anexos precisam ser do mesmo nível e Lignum desta carta.
@@ -56,7 +56,7 @@ Quando você puder _“levantar troco”_, o troco deve ser da mesma cor ou leva
 
 * :icon-chevron-right: {{ black }} - Representa a essência de Lignums de natureza destrutiva, como morte, dor, sofrimento, magia negra, etc.
 
-Se você pagar essência em uma ativação que seja exclusiva de estamina ou mana, você ainda pode pegar o troco do overpay. Agora se a ativação requer ambas, estamina e mana, então você não pode pegar o troco desta ativação.
+Se você pagar essência em uma ativação que seja exclusiva de {{ sp }} ou {{ mp }}, você ainda pode pegar o troco do overpay. Agora se a ativação requer ambas, {{ sp }} e {{ mp }}, então você não pode pegar o troco desta ativação.
 
 ---
 
@@ -64,7 +64,7 @@ Se você pagar essência em uma ativação que seja exclusiva de estamina ou man
 
 Cartas de Lignum podem se referenciar, ou seja, uma carta de Lignum pode ter um efeito que se aplica a outras cartas do mesmo Lignum. Por exemplo, uma carta de Lignum pode dizer:
 
-> {{ permanent }} {{ req 'Enquanto esta carta for jogável' }} Todas as outras cartas deste Lignum ganham +1 de dano.
+> {{ permanent }} {{ req 'Enquanto esta carta for jogável' }} Todas as outras cartas deste Lignum ganham +1 de {{ dmg }}.
 
 Um efeito de carta de Lignum que se aplica a outras cartas do mesmo Lignum é chamado de efeito de apoio. Estes efeitos nunca referenciam o Lignum pelo nome, mas sim por meio de auto-referenciação usando expressões como "outras cartas deste Lignum", "todas as cartas deste Lignum", "este Lignum", etc.
 

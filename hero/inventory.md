@@ -20,7 +20,7 @@ Alguns efeitos e mecânicas podem determinar que uma carta do {{ inv }} seja rev
 Assim como a {{ table }}, o {{ inv }} também tem um limite de espaços, que é determinado pelo nível do Herói.
 
 !!!info
-**Capacidade do Inventário do Herói** = Nível do Herói + 10.
+**Capacidade do {{ inv }} do Herói** = Nível do Herói + 10.
 !!!
 
 Qualquer carta de Recurso pode ser colocada em um espaço de {{ inv }}, não tendo requerimentos de nível de {{ knowledge }} ou outras condições.

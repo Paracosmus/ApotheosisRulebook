@@ -15,7 +15,7 @@ Configuração | Valor
 **Uso** | Sempre
 **Afetados** | Todos
 
-O cenário é a zona das cartas em jogo do Mestre de Jogo e/ou da campanha, de qualquer naipe. É onde ficam as cartas de efeito e uso global, que afetam o jogo ou o tabuleiro universalmente, tais como cartas de clima, condições, terrenos e eventos especiais, e também os {{ companion }} que estão em jogo sem acompanhar nenhum Herói, como as criaturas de um encontro.
+O {{ scenario }} é a zona das cartas em jogo do Mestre de Jogo e/ou da campanha, de qualquer naipe. É onde ficam as cartas de efeito e uso global, que afetam o jogo ou o tabuleiro universalmente, tais como cartas de clima, condições, terrenos e eventos especiais, e também os {{ companion }} que estão em jogo sem acompanhar nenhum Herói, como as criaturas de um encontro.
 
 Todas as cartas no {{ scenario }} são consideradas jogáveis por padrão e seus efeitos devem ser considerados para todos os personagens.
 

@@ -112,9 +112,9 @@ Melhorias são compradas em estaleiros, pagando com cargas específicas.
 | Cirurgião de Bordo | Quadrado     | 3 de Chá                            | Sacrificar o turno  para recuperar 1 de tripulação |
 | Quartermestre      | Triângulo    | 3 de Tabaco                         | {{ p"+2" }} de Tripulação |
 | Construtor         | Escudo       | 5 de Madeira                        | Tem que remover o shield primeiro (tem que reparar o navio completamente para recuperar o shield) |
-| Carpinteiro        | Coração      | 3 de Madeira                        | Sacrificar o turno para recuperar {{ d1d2 }} de vida |
+| Carpinteiro        | Coração      | 3 de Madeira                        | Sacrificar o turno para recuperar {{ d1d2 }} de {{ hp }} |
 | Homem de Armas     | Impacto      | 4 de Rum                            | {{ p"+2" }} em abordagens |
-| Sentinela          | Mira         | 3 de Açúcar                         | {{ p"+1" }} de alcance para os canhões |
+| Sentinela          | Mira         | 3 de Açúcar                         | {{ p"+1" }} de {{ range }} para os canhões |
 | Piloto             | Estrela      | 1 de Açúcar e 2 de Tabaco           | {{ p"+1" }} de Velocidade e Manobrabilidade |
 | Artilheiro         | Encantamento | 2 de Rum, 1 de Açúcar e 1 de Tabaco | {{ p"+2" }} de Canhões |
 

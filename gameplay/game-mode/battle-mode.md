@@ -14,8 +14,8 @@ Se o modo narrativo é o modo livre, o modo de batalha é seu extremo oposto, se
 
 Quando um combate é iniciado, os jogadores posicionam seus personagens no tabuleiro conforme as regras de posicionamento ou lógica vinda da situação narrativa, e a batalha começa.
 
-A batalha é resolvida através de uma sequência de turnos, onde cada jogador tem a oportunidade de realizar ações com seus personagens, como mover, atacar, ativar cartas, e interagir com elementos do tabuleiro, pagando custos em pontos de ação que são restaurados a cada nova rodada.
+A batalha é resolvida através de uma sequência de turnos, onde cada jogador tem a oportunidade de realizar ações com seus personagens, como mover, atacar, ativar cartas, e interagir com elementos do tabuleiro, pagando custos em pontos de {{ ap }} que são restaurados a cada nova rodada.
 
-Durante a batalha os efeitos são aplicados de forma direta. No modo narrativo, um ataque, como por exemplo "Atacar com uma espada", pode ser resolvido de forma livre, onde o jogador descreve a ação e o mestre de jogo decide os efeitos e consequências. Já no modo de batalha, a mesma ação precisa seguir as regras específicas para ataques, onde o jogador precisa durante o seu turno declarar o ataque, escolher a carta que representa a espada, escolher um alvo ao alcance daquela carta, rolar os dados para determinar o {{ dmg }} do ataque, e aplicar os efeitos conforme as regras estabelecidas.
+Durante a batalha os efeitos são aplicados de forma direta. No modo narrativo, um ataque, como por exemplo "Atacar com uma espada", pode ser resolvido de forma livre, onde o jogador descreve a ação e o mestre de jogo decide os efeitos e consequências. Já no modo de batalha, a mesma ação precisa seguir as regras específicas para ataques, onde o jogador precisa durante o seu turno declarar o ataque, escolher a carta que representa a espada, escolher um alvo ao {{ range }} daquela carta, rolar os dados para determinar o {{ dmg }} do ataque, e aplicar os efeitos conforme as regras estabelecidas.
 
 ---

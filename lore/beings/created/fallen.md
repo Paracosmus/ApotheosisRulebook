@@ -20,7 +20,7 @@ Atingem a puberdade e depois a maturidade mental e física no mesmo tempo que um
 
 Aos olhos, eles se passam perfeitamente como humanos comuns. São sempre do sexo masculino, altos, fortes e de grande inteligência.
 
-Possuem uma sede instintiva por sangue humano e fome por carne humana, mas conseguem se controlar sem problemas. O que só o fazem, se necessário, já que além de prazeroso para eles, consumir humanos os dá energia, poder mágico, rejuvenesce e fortalece. Por esse motivo acabaram criando o [Adrenochrome ](https://www.notion.so/Adrenochrome-2a383fd0169e80788a4ef06191257108?pvs=21), como uma droga alucinógena.
+Possuem uma sede instintiva por sangue humano e fome por carne humana, mas conseguem se controlar sem problemas. O que só o fazem, se necessário, já que além de prazeroso para eles, consumir humanos os dá energia, poder mágico, rejuvenesce e fortalece. Por esse motivo acabaram criando o [Adrenocromo](/lore/cards-sets/sets/adrenochrome.md), como uma droga alucinógena.
 
 Sendo seu DNA em grande maioria humana, eles podem ser classificados como um tipo de humano ou pelo menos de hominídeo, podendo se reproduzir com mulheres humanas, apesar de ser uma fecundação difícil de acontecer.
 

@@ -21,10 +21,10 @@ Bônus
 
 - Se tiver a carta do arcano maior → +3
 - Se tiver os arcanos menores do número em que está → +1 para cada
-- Nivel do Ente → +1, +3, +5
-- Se tiver a classe do caminho → +10
+- Nível do {{ entity }} → +1, +3, +5
+- Se tiver a {{ class }} do caminho → +10
 
-Para andar um caminho tem que usar o conhecimento em que se está mais um atributo da lista de cada caminho
+Para andar um caminho tem que usar o {{ knowledge }} em que se está mais um atributo da lista de cada caminho
 
 ---
 

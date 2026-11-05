@@ -7,31 +7,31 @@ order: 19
 
 # Summus
 
-Summus são as cartas que possuem os efeitos mais poderosos no jogo. De forma resumida, Summus é uma mecânica extra, que é adicionada a uma carta, conferindo novas capacidades e efeitos a ela, bem como adicionando regras específicas para sua utilização.
+{{ summus }} são as cartas que possuem os efeitos mais poderosos no jogo. De forma resumida, {{ summus }} é uma mecânica extra, que é adicionada a uma carta, conferindo novas capacidades e efeitos a ela, bem como adicionando regras específicas para sua utilização.
 
-A ideia por trás de Summus é adicionar *gimmicks* (mecânicas) novas ao jogo, sem modificar a funcionalidade básica das cartas e naipes, adicionando diversidade, e criando novas possibilidades estratégicas para os jogadores.
+A ideia por trás de {{ summus }} é adicionar *gimmicks* (mecânicas) novas ao jogo, sem modificar a funcionalidade básica das cartas e naipes, adicionando diversidade, e criando novas possibilidades estratégicas para os jogadores.
 
-Uma carta {{ summus }} pode ser identificada por suas 4 características distintas:
+Uma carta {{ summus }} pode ser identificada por suas 4 características distintas:
 
-- O ícone do naipe tem sua cor modificada para <span class="summus">magenta</span>.
-- Raridade {{ rare }} ou superior, e *full-art*.
+- O ícone do naipe tem sua cor modificada para <span class="summus">magenta</span>.
+- Raridade {{ rare }} ou superior, e *full-art*.
 - Cartas de **nível 3** (*Exceto quando cartas de {{ house }}*)
-- A presença de uma caixa identificadora do tipo de Summus, abaixo ou acima do texto do efeito da carta, contendo informações adicionais referentes à sua mecânica extra.
+- A presença de uma caixa identificadora do tipo de {{ summus }}, abaixo ou acima do texto do efeito da carta, contendo informações adicionais referentes à sua mecânica extra.
 
 ---
 
 ## Mecânica Básica
 
-Indiferente do tipo de Summus, elas compartilham as seguintes regras de jogo.
+Indiferente do tipo de {{ summus }}, elas compartilham as seguintes regras de jogo.
 
 **Restrição de Nível**
 :   O Herói precisa ter nível **8✚**
 
 **Limite de Cartas**
-:   Cada Herói pode ter apenas uma carta de cada tipo de Summus e apenas **5** cartas de Summus no total (incluindo {{ table }}, {{ inv }} e Anexos)
+:   Cada Herói pode ter apenas uma carta de cada tipo de {{ summus }} e apenas **5** cartas de {{ summus }} no total (incluindo {{ table }}, {{ inv }} e Anexos)
 
 **Espaço**
-:   Não ocupam um espaço na {{ table }}
+:   Não ocupam um espaço na {{ table }}
     - Quando cartas de Ficha, elas são adicionadas à *Zona Extra* da {{ sheet }}
     - Quando cartas de Recurso, elas são adicionadas às suas respectivas zonas da {{ table }} conforme naipe, porém não ocupam um espaço de carta naquela zona
 
@@ -39,7 +39,7 @@ Indiferente do tipo de Summus, elas compartilham as seguintes regras de jogo.
 
 ## Mecânica Adicional
 
-A mecânica adicionada por uma carta Summus é definida pelo seu tipo, e pode ser encontrada na lista a seguir.
+A mecânica adicionada por uma carta {{ summus }} é definida pelo seu tipo, e pode ser encontrada na lista a seguir.
 
 [!ref icon="/static/img/icons/summus_ascensus.svg"](ascensus.md)
 

@@ -37,9 +37,9 @@ O personagem (receptáculo) pode incorporar estas formas de energia e dominá-la
 
 ## <span class="entity">Incorporar</span>
 
-Cada tipo de {{ entity }} possui um requerimento mínimo de nível para ser incorporado pelo personagem. Quanto mais poderoso o ente, mais preparo físico, mental e espiritual o receptáculo precisa. Este requerimento deve sempre ser considerado, mesmo que o ente seja adicionado ao personagem por efeito ou qualquer outra mecânica de jogo.
+Cada tipo de {{ entity }} possui um requerimento mínimo de nível para ser incorporado pelo personagem. Quanto mais poderoso o {{ entity }}, mais preparo físico, mental e espiritual o receptáculo precisa. Este requerimento deve sempre ser considerado, mesmo que o {{ entity }} seja adicionado ao personagem por efeito ou qualquer outra mecânica de jogo.
 
-Para incorporar, é necessário que o espaço de {{ entity }} na {{ sheet }} esteja disponível e o personagem esteja em um local de {{ rift }} que permita o acesso à carta desejada. Você deve selecionar uma carta, realizar uma Ação Total e enterrar 5 cartas de recurso do mesmo nível que o {{ entity }} selecionado. Envie a carta, oculta, para o espaço de {{ entity }} da sua {{ table }}.
+Para incorporar, é necessário que o espaço de {{ entity }} na {{ sheet }} esteja disponível e o personagem esteja em um local de {{ rift }} que permita o acesso à carta desejada. Você deve selecionar uma carta, realizar uma {{ allIn }} e enterrar 5 cartas de recurso do mesmo nível que o {{ entity }} selecionado. Envie a carta, oculta, para o espaço de {{ entity }} da sua {{ table }}.
 
 TIPO         | NÍVEL | NÍVEL MÍNIMO REQUERIDO DO HERÓI
 ---          | ---   | ---
@@ -47,7 +47,7 @@ TIPO         | NÍVEL | NÍVEL MÍNIMO REQUERIDO DO HERÓI
 {{ deity }}  | 2     | 6
 {{ god }}    | 3     | 9
 
-> Quando um DEUS é incorporado, dá-se o nome de [apoteose](#ritual-de-apoteose).
+> Quando um {{ god }} é incorporado, dá-se o nome de [apoteose](#ritual-de-apoteose).
 
 ---
 
@@ -55,7 +55,7 @@ TIPO         | NÍVEL | NÍVEL MÍNIMO REQUERIDO DO HERÓI
 
 Para despertar seu {{ entity }} (revelar esta carta), o Herói deve consumir Energia igual ao nível do {{ entity }}.
 
-Quando o ente estiver desperto, no início de cada um de seus turnos, o personagem pode consumir Energia igual ao nível do {{ entity }}, caso contrário, o ente adormece.
+Quando o {{ entity }} estiver desperto, no início de cada um de seus turnos, o personagem pode consumir Energia igual ao nível do {{ entity }}, caso contrário, o {{ entity }} adormece.
 
 Quando o {{ entity }} está desperto, sua carta deve ser revelada e o personagem recebe o bônus de atributo indicado na carta, bem como o seu efeito passa a ser considerado.
 
@@ -65,7 +65,7 @@ O {{ entity }} não pode ser adormecido no mesmo turno em que ele foi despertado
 
 ## <span class="entity">Adormecer</span>
 
-Quando o ente está adormecido, sua carta está oculta e seus bônus e efeitos não são mais considerados.
+Quando o {{ entity }} está adormecido, sua carta está oculta e seus bônus e efeitos não são mais considerados.
 
 O jogador pode adormecer seu {{ entity }} a qualquer momento de seu turno. Para isso, basta ocultar a carta de {{ entity }}.
 
@@ -75,7 +75,7 @@ O {{ entity }} não pode ser despertado no mesmo turno em que ele foi adormecido
 
 ## <span class="entity">Liberar</span>
 
-Para remover a carta de {{ entity }} de sua {{ sheet }}, o personagem pode realizar uma Ação Total e descartar sua carta de {{ entity }}.
+Para remover a carta de {{ entity }} de sua {{ sheet }}, o personagem pode realizar uma {{ allIn }} e descartar sua carta de {{ entity }}.
 
 ---
 

@@ -21,12 +21,12 @@ Quando a carta do topo do baralho é revelada, o narrador descreve a cena e os d
 | Naipe           | Narrativa | {.striped .compact}
 | --------------- | --------- |
 | {{ house }}     | Uma missão ou objetivo extra pode ser encontrado ou cumprido neste local. |
-| {{ class }}     | O time tem que enfrentar um time de Heróis e/ou Dummies que representam a ideia daquela classe. |
-| {{ entity }}    | Existe um Ente preso neste local que pode ser libertado ou derrotado. |
-| {{ item }}      | Um item pode ser encontrado ou resgatado neste local. |
-| {{ skill }}     | Uma habilidade pode ser aprendida ou utilizada neste local. |
-| {{ companion }} | Um companheiro pode ser encontrado, enfrentado ou recrutado neste local. |
-| {{ event }}     | Um evento pode ocorrer neste local, afetando os Heróis ou o ambiente de maneiras diversas seja de forma idêntica ao texto da carta ou customizado para o local. |
+| {{ class }}     | O time tem que enfrentar um time de Heróis e/ou Dummies que representam a ideia daquela {{ class }}. |
+| {{ entity }}    | Existe um {{ entity }} preso neste local que pode ser libertado ou derrotado. |
+| {{ item }}      | Um {{ item }} pode ser encontrado ou resgatado neste local. |
+| {{ skill }}     | Uma {{ skill }} pode ser aprendida ou utilizada neste local. |
+| {{ companion }} | Um {{ companion }} pode ser encontrado, enfrentado ou recrutado neste local. |
+| {{ event }}     | Um {{ event }} pode ocorrer neste local, afetando os Heróis ou o ambiente de maneiras diversas seja de forma idêntica ao texto da carta ou customizado para o local. |
 
 O objetivo é avançar na exploração do baralho, até que o objetivo estabelecido para aquele baralho seja cumprido ou o baralho acabe.
 
@@ -52,7 +52,7 @@ Quando uma carta sem contexto é revelada:
 
   !!!secondary Exemplo
 
-  _Os jogadores chegam às ruínas do Templo Esquecido, um local antigo e misterioso cheio de segredos e perigos. O objetivo é encontrar a Lira Flutuante (Carta de Item), um artefato lendário que se diz ter o poder de controlar as emoções e os elementos da natureza. Os baralhos representam diferentes áreas do templo._
+  _Os jogadores chegam às ruínas do Templo Esquecido, um local antigo e misterioso cheio de segredos e perigos. O objetivo é encontrar a Lira Flutuante (Carta de {{ item }}), um artefato lendário que se diz ter o poder de controlar as emoções e os elementos da natureza. Os baralhos representam diferentes áreas do templo._
 
   > **Efeitos de objetivo**: {{ permanent }} Todo {{ fate }} descartado em testes vale o dobro.
 
@@ -73,16 +73,16 @@ Quando uma carta sem contexto é revelada:
   _O Salão Principal é o coração do templo, onde os Heróis enfrentam os desafios iniciais e encontram pistas sobre a localização da Lira Flutuante._
 
   - 10x Inimigos Lv 1
-  - 5x Item
-  - 2x Eventos
+  - 5x {{ item }}
+  - 2x {{ event }}
   - 1x Wildcard (A carta Inércia representa a chegada à Câmara dos Guardiões)
 
   +++ Jardim Submerso
   _O Jardim Submerso é uma área alagada do templo, cheia de plantas aquáticas e criaturas perigosas. Os Heróis precisam nadar e mergulhar por esse ambiente traiçoeiro para encontrar a chave que abre a Câmara dos Guardiões._
 
   - 8x Inimigos Lv 2
-  - 4x Item
-  - 3x Habilidades com ÁGUA
+  - 4x {{ item }}
+  - 3x {{ skill }} com ÁGUA
   - 1x Wildcard (Chave da Câmara dos Guardiões)
 
   > **Efeitos de baralho**: {{ activate }} {{ allIn }} Realize um teste de Mergulho( {{ athletics }} + {{ enr }} ➜ **24** ). Se bem sucedido, o jogador pode buscar uma **wildcard** neste baralho e obtê-la. Se falhar, o Herói sofre {{ n'10' }} de {{ dmg }}.
@@ -91,8 +91,8 @@ Quando uma carta sem contexto é revelada:
   _Essa câmara é protegida por guardiões antigos e cheia de armadilhas mortais. Para chegar nela é preciso passar pelo Salão Principal levando a chave que está perdida no fundo do Jardim Submerso._
 
   - 1x Dummy (Boss fight)
-  - 1x Habilidade
-  - 3x Eventos Lv3 com ENCONTRO
+  - 1x {{ skill }}
+  - 3x {{ event }} Lv3 com ENCONTRO
   - 1x Wildcard (Lira Flutuante, o objetivo da missão) (colocada como a última carta do baralho)
 
   +++
@@ -126,7 +126,7 @@ Quando uma carta sem contexto é revelada:
   !!!
 
   !!!secondary Exemplo 2 - Evento
-  _O Herói que explora o Jardim Submerso revela a primeira carta, que é um evento "Tempestade". O narrador decide por ativar a carta normalmente e descreve que uma tempestade repentina começa a se formar, tornando a água turbulenta e dificultando a natação, fazendo com que tentar mergulhar seja mais desafiador enquanto esta carta estiver no {{ scenario }}._
+  _O Herói que explora o Jardim Submerso revela a primeira carta, que é um {{ event }} "Tempestade". O narrador decide por ativar a carta normalmente e descreve que uma tempestade repentina começa a se formar, tornando a água turbulenta e dificultando a natação, fazendo com que tentar mergulhar seja mais desafiador enquanto esta carta estiver no {{ scenario }}._
   !!!
 
 >>> Resolução
@@ -135,14 +135,14 @@ Quando uma carta sem contexto é revelada:
 
   A resolução de uma carta pode requerer testes de habilidade, combate, uso de recursos ou outras ações específicas, dependendo do tipo de carta e da situação apresentada. Por exemplo:
   - Combater um inimigo revelado pela carta
-  - Encontrar um item representado pela carta
-  - Resolver um evento ou enigma apresentado pela carta
+  - Encontrar um {{ item }} representado pela carta
+  - Resolver um {{ event }} ou enigma apresentado pela carta
   - Entre outros
 
   ||| Sucesso
   Se bem sucedida, a carta é obtida pelo Herói.
   ||| Falha
-  Se falhar a carta é descartada e o Herói pode sofrer consequências, como perder recursos, receber dano ou enfrentar desafios adicionais.
+  Se falhar a carta é descartada e o Herói pode sofrer consequências, como perder recursos, receber {{ dmg }} ou enfrentar desafios adicionais.
   |||
 
   **Se a carta for uma wildcard**, o narrador ativa a situação específica associada àquela wildcard seja para sucesso ou falha.
@@ -152,7 +152,7 @@ Quando uma carta sem contexto é revelada:
   !!!
 
   !!!secondary Exemplo 2 - Falha
-  _O Herói que explora o Jardim Submerso tentou nadar através da tempestade, mas falhou no teste de Mergulho. Ele sofre {{ n'10' }} de {{ dmg }} e a carta de evento "Tempestade" **NÃO** é descartada, pois já foi enviada do topo deste baralho para o {{ scenario }}, e seu efeito continua ativo até que seja resolvido ou removido por outros meios. O Herói então pode tentar a próxima carta do baralho._
+  _O Herói que explora o Jardim Submerso tentou nadar através da tempestade, mas falhou no teste de Mergulho. Ele sofre {{ n'10' }} de {{ dmg }} e a carta de {{ event }} "Tempestade" **NÃO** é descartada, pois já foi enviada do topo deste baralho para o {{ scenario }}, e seu efeito continua ativo até que seja resolvido ou removido por outros meios. O Herói então pode tentar a próxima carta do baralho._
   !!!
 
 >>> Conclusão

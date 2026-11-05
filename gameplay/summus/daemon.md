@@ -21,28 +21,28 @@ order: 0
 >
 > Não existe o conceito de espécie entre eles, sendo cada exemplar único, mas é possível agrupá-los em conjuntos com características semelhantes.
 >
-> Por este motivo, são representados por cartas de @Companion do tipo Evocação.
+> Por este motivo, são representados por cartas de {{ companion }} do tipo {{ summon }}.
 
-Daemons são cartas de {{ companion }} do tipo evocação que ficam de face para baixo no Suporte, quando ativadas elas trazem criaturas de tamanhos variados que por suas dimensões ou condições extra espaciais dimensionais, não possuem uma peça no tabuleiro, mas sim uma área de presença dimensional ou física.
+{{ daemon }} são cartas de {{ companion }} do tipo {{ summon }} que ficam de face para baixo no {{ support }}, quando ativadas elas trazem criaturas de tamanhos variados que por suas dimensões ou condições extra espaciais dimensionais, não possuem uma peça no tabuleiro, mas sim uma área de presença dimensional ou física.
 
-Os daemons são evocados através de um custo em *“sangue”*.
+Os {{ daemon }} são evocados através de um custo em *“sangue”*.
 
 <br>
 
 #### Regras Especiais
 
-- Para evocar um Daemon o Herói deve pagar o custo em VIDA determinado na carta.
-- No início do turno do Daemon, o seu dono deve pagar 25 de VIDA, ou desevocá-lo
-- Ele deve escolher uma área quadrada no tabuleiro conforme o tamanho especificado do daemon.
-    - No início do turno do daemon, essa área pode ser redefinida ao custo de {{ n 1 }} de {{ ap }}.
-- Toda ação do daemon que tiver um alvo, seleciona todos os personagens dentro da área como alvos.
+- Para evocar um {{ daemon }} o Herói deve pagar o custo em {{ hp }} determinado na carta.
+- No início do turno do {{ daemon }}, o seu dono deve pagar 25 de {{ hp }}, ou desevocá-lo
+- Ele deve escolher uma área quadrada no tabuleiro conforme o tamanho especificado do {{ daemon }}.
+    - No início do turno do {{ daemon }}, essa área pode ser redefinida ao custo de {{ n 1 }} de {{ ap }}.
+- Toda ação do {{ daemon }} que tiver um alvo, seleciona todos os personagens dentro da área como alvos.
     - Se o personagem possuir efeitos “ao ser selecionado / ao ser atacado / etc.”, eles são válidos
-- Quando mais de um daemon estiver em jogo, eles podem selecionar um ao outro como alvo sem estar na área um do outro.
-    - Daemons não podem atacar outras peças que não daemons se houver mais de um daemon em jogo.
-    - Considere que o Daemon está adjacente e a 1 de distância, quando atacando
-- Quando a VIDA deles chega a 0 ou menos, aplica-se a mesma regra de outras evocações.
-- Daemons não podem ser curados
-- Seu daemon pode ser evocado apenas uma vez por batalha
+- Quando mais de um {{ daemon }} estiver em jogo, eles podem selecionar um ao outro como alvo sem estar na área um do outro.
+    - {{ daemon }} não podem atacar outras peças que não {{ daemon }} se houver mais de um {{ daemon }} em jogo.
+    - Considere que o {{ daemon }} está adjacente e a 1 de distância, quando atacando
+- Quando a {{ hp }} deles chega a 0 ou menos, aplica-se a mesma regra de outras {{ summon }}.
+- {{ daemon }} não podem ser curados
+- Seu {{ daemon }} pode ser evocado apenas uma vez por batalha
 - Quando tiverem slots de anexos, para ativar as técnicas que utilizam aqueles slots, as respectivas cartas devem ser descartadas
 
 <br>

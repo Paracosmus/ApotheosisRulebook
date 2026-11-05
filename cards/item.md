@@ -14,9 +14,9 @@ São cartas que podem ser usadas para complementar um personagem, servindo como 
 ||| :icon-file-moved:
 ![](/static/img/cards/item.png)
 ||| :icon-arrow-down-right:
-1. **Valor em Preço**
+1. **Valor em {{ price }}**
 
-1. **Nível e Conhecimentos**: Requerimento para o Herói poder ter esta carta em sua {{ table }}
+1. **Nível e {{ knowledge }}**: Requerimento para o Herói poder ter esta carta em sua {{ table }}
 
 1. **Bônus**: Bônus passivos imediatos
 
@@ -69,11 +69,11 @@ Alguns {{ item }} podem possuir especificadores, que são ícones que definem um
 
 Tipos de Especificadores:
 
-* <span class="item"></span> Veste
-* <span class="item"></span> Cabeça
-* <span class="item"></span> Pés
-* <span class="item"></span> Acessório
-* <span class="item"></span> Utilitário
+* {{ vest }}
+* {{ headpiece }}
+* {{ feet }}
+* {{ accessory }}
+* {{ utility }}
 
 ---
 
@@ -83,19 +83,19 @@ Uma forma alternativa de se obter um {{ item }} é fabricando-o. Para isso, o pe
 
 Tipos de Materiais de Fabricação:
 
-* <span class="item"></span> Forja
-* <span class="item"></span> Alquimia
-* <span class="item"></span> Herbalismo
-* <span class="item"></span> Costura
-* <span class="item"></span> Culinária
-* <span class="item"></span> Bebida
-* <span class="item"></span> Joalheria
-* <span class="item"></span> Encantamento
-* <span class="item"></span> Artesanato
-* <span class="item"></span> Armeiro
-* <span class="item"></span> Mecânico
-* <span class="item"></span> Oricalco
-* <span class="item"></span> Âmbar
+* {{ forge }}
+* {{ alchemy }}
+* {{ herbalism }}
+* {{ dressmaking }}
+* {{ cook }}
+* {{ drink }}
+* {{ jewelry }}
+* {{ charm }}
+* {{ handicraft }}
+* {{ gunsmith }}
+* {{ mechanics }}
+* {{ orichalcum }}
+* {{ amber }}
 
 Em adicional, não é possível fabricar um {{ item }} quando em batalha, e não é necessário estar em um local com acesso ao {{ tradingPost }}.
 

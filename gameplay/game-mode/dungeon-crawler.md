@@ -28,7 +28,7 @@ Ao enviar uma carta de {{ companion }} para o {{ support }}, a peça daquele per
 
 ## Alcance Ilimitado
 
-Ações de alcance ilimitado possuem restrição de distância neste modo de jogo. Sendo assim, o alcance máximo é determinado pela {{ per }} do personagem.
+Ações de {{ range }} ilimitado possuem restrição de distância neste modo de jogo. Sendo assim, o {{ range }} máximo é determinado pela {{ per }} do personagem.
 
 ---
 

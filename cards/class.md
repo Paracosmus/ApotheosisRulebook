@@ -20,11 +20,11 @@ Cada personagem pode possuir até 3 cartas de {{ class }} em sua {{ sheet }}, qu
 
 1. **Conhecimentos**: Adiciona {{ p'+1' }} de nível em cada {{ knowledge }} listado
 
-1. **Espaços de Equipamento**: Bônus de espaços de {{ equip }}
+1. **Espaços de {{ equip }}**: Bônus de espaços de {{ equip }}
 
-1. **Espaços de Memento**: Bônus de espaços de {{ mem }}. Sendo que toda classe fornece pelo menos 1 espaço deste tipo
+1. **Espaços de {{ mem }}**: Bônus de espaços de {{ mem }}. Sendo que toda {{ class }} fornece pelo menos 1 espaço deste tipo
 
-1. **Caminho**: Ícone do caminho da classe
+1. **Caminho**: Ícone do caminho da {{ class }}
 
 1. **Nível da Carta**: de 1 a 3
 
@@ -33,11 +33,11 @@ Cada personagem pode possuir até 3 cartas de {{ class }} em sua {{ sheet }}, qu
 1. **Efeito**: Texto do efeito desta carta
 |||
 
-| Nível da Classe                           | Nível 1 | Nível 2 | Nível 3 | {.compact}
-| ---                                       | ---     | ---     | ---     |
-| Somatório dos Bônus de Atributos          | 2       | 4       | 6       |
-| Número de Conhecimentos                   | 2       | 2       | 3       |
-| Soma dos Espaços de Equipamento e Memento | 2       | 3       | 4       |
+| Nível da {{ class }}                               | Nível 1 | Nível 2 | Nível 3 | {.compact}
+| ---                                                | ---     | ---     | ---     |
+| Somatório dos Bônus de Atributos                   | 2       | 4       | 6       |
+| Número de {{ knowledge }}                          | 2       | 2       | 3       |
+| Soma dos Espaços de {{ equip }} e {{ mem }}        | 2       | 3       | 4       |
 
 ---
 

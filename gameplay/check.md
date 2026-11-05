@@ -91,15 +91,15 @@ O teste é composto de **7** elementos, descritos na seguinte notação:
   > Para o nível **4** em diante, o bônus é de {{ p '+10' }} para cada nível adicional, ou seja, nível 4 = 20, nível 5 = 30, etc.
 
   !!!
-  Em testes que envolvem o uso de cartas, como uma espada, ou uma magia, por padrão deve-se usar o conhecimento da carta (Livre, se não tiver). Porém, assim como em qualquer outro teste, o jogador pode advogar por uma forma diferente.
+  Em testes que envolvem o uso de cartas, como uma espada, ou uma magia, por padrão deve-se usar o {{ knowledge }} da carta ({{ free }}, se não tiver). Porém, assim como em qualquer outro teste, o jogador pode advogar por uma forma diferente.
   !!!
 
   ##### Teste Sem Conhecimento
 
-  Existem também os testes de conhecimento **Livre**, que são aqueles testes onde não é possível ou não faz sentido associar um conhecimento específico, e portanto o personagem não recebe nenhum bônus de conhecimento para realizar aquele teste.
+  Existem também os testes de {{ knowledge }} {{ free }}, que são aqueles testes onde não é possível ou não faz sentido associar um {{ knowledge }} específico, e portanto o personagem não recebe nenhum bônus de {{ knowledge }} para realizar aquele teste.
 
   !!!secondary Exemplo
-  _Resistir a Veneno_: um personagem inconsciente está resistindo a uma substância nociva em seu organismo. Seria um teste **Livre** de {{ enr }}, onde os demais bônus são aplicados, mas nenhum {{ knowledge }} é associado.
+  _Resistir a Veneno_: um personagem inconsciente está resistindo a uma substância nociva em seu organismo. Seria um teste {{ free }} de {{ enr }}, onde os demais bônus são aplicados, mas nenhum {{ knowledge }} é associado.
   !!!
 
 ==- Atributo
@@ -369,7 +369,7 @@ Personagens podem adicionar cartas de recurso em testes, para melhorar as condi�
 
 Para isso, o jogador deve descartar uma quantidade de cartas de recurso do {{ inv }} do Herói, ou do anexo do {{ companion }}, podendo combinar diferentes recursos para um mesmo teste, sendo que cada tipo de recurso tem uma função diferente, e deve ser usado em um momento específico do teste, como descrito a seguir.
 
-Se o recurso descartado for do mesmo {{ knowledge }} do teste (incluindo Livre), ele adiciona o dobro do seu valor. Um recurso de ( {{ arcane }} ➜ **2** ) de valor igual a **5**, para um teste de {{ arcane }}, contaria como **10**.
+Se o recurso descartado for do mesmo {{ knowledge }} do teste (incluindo {{ free }}), ele adiciona o dobro do seu valor. Um recurso de ( {{ arcane }} ➜ **2** ) de valor igual a **5**, para um teste de {{ arcane }}, contaria como **10**.
 
 Acompanhe o seguinte exemplo:
 
@@ -456,20 +456,20 @@ O jogador pode advogar por um teste, o que significa que ele pode argumentar que
 
 Advogar não só é permitido como é encorajado, pois promove a criatividade e a narrativa colaborativa entre os jogadores e o mestre. É claro que os jogadores devem entender a diferença entre advogar e discutir. O momento de advogar não é um momento para "fazer valer" a sua ideia de como as coisas deveriam ser, mas sim um momento para tentar convencer o mestre ao seu favor ou contra o oponente.
 
-Isso inclui também, argumentar a favor de bônus positivos ou negativos em um teste, com base na narrativa ou nas circunstâncias do jogo, bem como com base nas cartas na sua mesa, ou anexados quando for um {{ companion }}, que poderiam influenciar na capacidade ou desempenho do personagem.
+Isso inclui também, argumentar a favor de bônus positivos ou negativos em um teste, com base na narrativa ou nas circunstâncias do jogo, bem como com base nas cartas na sua {{ table }}, ou anexados quando for um {{ companion }}, que poderiam influenciar na capacidade ou desempenho do personagem.
 
 Uma vez que o argumento tenha sido apresentado, o mestre aceita ou rejeita a proposta no ato, determinando o bônus recebido, se houver, e a dificuldade do teste, se necessário, sendo esta a palavra final e não podendo ser contestada.
 
 !!!secondary Exemplo 1 - {{ class }}
 _O personagem está fazendo um teste para encontrar onde um livro está na biblioteca._
 
-Ele advoga que ele tem a classe de _Bibliotecário_, e portanto tem um conhecimento especializado em encontrar livros, o que lhe dá um bônus no teste, e o mestre aceita o argumento, concedendo o bônus relacionado ao nível da classe.
+Ele advoga que ele tem a {{ class }} de _Bibliotecário_, e portanto tem um conhecimento especializado em encontrar livros, o que lhe dá um bônus no teste, e o mestre aceita o argumento, concedendo o bônus relacionado ao nível da {{ class }}.
 !!!
 
 !!!secondary Exemplo 2 - {{ item }}
 _O personagem está fazendo um teste para escalar um paredão de pedras._
 
-Ele advoga que ele tem a carta _Corda_, e portanto tem um item que pode ajudá-lo a escalar o paredão, o que lhe dá um bônus no teste, e o mestre aceita o argumento, concedendo um bônus específico para aquele item.
+Ele advoga que ele tem a carta _Corda_, e portanto tem um {{ item }} que pode ajudá-lo a escalar o paredão, o que lhe dá um bônus no teste, e o mestre aceita o argumento, concedendo um bônus específico para aquele {{ item }}.
 !!!
 
 !!!secondary Exemplo 3 - {{ skill }}
@@ -478,6 +478,6 @@ _O personagem está tentando acender uma fogueira._
 Ele advoga que ele tem a carta _Bola de Fogo_, e portanto o teste que seria de ( {{ practice }} + {{ str }} ) para acender a fogueira, pode ser realizado com ( {{ arcane }} + {{ spt }} ) para usar a magia de fogo para acender a fogueira, e o mestre aceita o argumento, permitindo que o teste seja realizado com {{ arcane }} ao invés de {{ practice }}, porém o jogador deve adicionalmente pagar custo de {{ mp }} relacionados à carta.
 !!!
 
-Qualquer carta na mesa de um personagem pode ser usada como argumento para obter bônus em um teste, cabe ao Mestre e jogadores estarem atentos a tais cartas.
+Qualquer carta na {{ table }} de um personagem pode ser usada como argumento para obter bônus em um teste, cabe ao Mestre e jogadores estarem atentos a tais cartas.
 
 ---

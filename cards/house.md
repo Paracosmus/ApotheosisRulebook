@@ -22,17 +22,17 @@ O jogador recebe uma carta de {{ house }} com base em disponibilidade e regras d
 ||| :icon-arrow-down-right:
 1. **Atributos Base**: Valores iniciais dos [Atributos](/gameplay/attributes.md) do personagem.
 
-1. **Espaços iniciais de Equipamento**: Toda casa confere 3 espaços de {{ equip }}
+1. **Espaços iniciais de {{ equip }}**: Toda {{ house }} confere 3 espaços de {{ equip }}
 
-1. **Espaços iniciais de Memento**: Toda casa confere 3 espaços de {{ mem }}
+1. **Espaços iniciais de {{ mem }}**: Toda {{ house }} confere 3 espaços de {{ mem }}
 
-1. **Nível da Carta**: Toda casa é de nível 1
+1. **Nível da Carta**: Toda {{ house }} é de nível 1
 
 1. **Bônus**: Bônus passivo imediato aplicado ao Herói
 
-1. **Descrição**: Texto narrativo da casa, descrevendo sua história, cultura e tradições.
+1. **Descrição**: Texto narrativo da {{ house }}, descrevendo sua história, cultura e tradições.
 
-1. **Efeito**: Habilidade hereditária natural da casa, se houver.
+1. **Efeito**: Habilidade hereditária natural da {{ house }}, se houver.
 |||
 
 | Características                  | Valor | {.compact}

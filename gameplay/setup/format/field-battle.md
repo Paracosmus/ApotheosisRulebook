@@ -14,15 +14,15 @@ O governo da resistência precisa ser administrado, para isso são usados **Pode
 
 |
 | --- | --- | --- | --- |
-| **Poder** | Representa a quantidade de pessoas ao seu lado e seu poder de convencimento geral | O número de milícias recrutadas a cada rotação. | Representado pelo número de contadores na carta de classe no suporte do Exército |
+| **Poder** | Representa a quantidade de pessoas ao seu lado e seu poder de convencimento geral | O número de milícias recrutadas a cada rotação. | Representado pelo número de {{ counter }} na carta de {{ class }} no {{ support }} do Exército |
 
 E **Recursos**, uma moeda de troca usada para comprar tropas, melhorias, entre outros;
 
 |
 | --- | --- |
-| 💰 **Dinheiro** | Representado pelo número de contadores na carta de **Muito Papel Moeda** no suporte do Exército |
-| 🍊 **Alimentos** | Representado pelo número de contadores na carta de **Banquete** no suporte do Exército |
-| 🪨 **Metais** | Representado pelo número de contadores na carta de **Postura Defensiva** no suporte do Exército |
+| 💰 **Dinheiro** | Representado pelo número de {{ counter }} na carta de **Muito Papel Moeda** no {{ support }} do Exército |
+| 🍊 **Alimentos** | Representado pelo número de {{ counter }} na carta de **Banquete** no {{ support }} do Exército |
+| 🪨 **Metais** | Representado pelo número de {{ counter }} na carta de **Postura Defensiva** no {{ support }} do Exército |
 
 ## Diplomacia
 
@@ -74,21 +74,21 @@ Na fase de rotação, os jogadores podem mover unidades à sua escolha, de uma p
 
 ### Batalha
 
-A batalha campal segue as mesmas regras de um combate entre [Companion](https://www.notion.so/Companion-27083fd0169e8001a3c9fbac0d8a3684?pvs=21). Respeitando pontos de ação, regras de movimento, cálculo de distância, altura, adjacência, etc.
+A batalha campal segue as mesmas regras de um combate entre {{ companion }}. Respeitando pontos de {{ ap }}, regras de movimento, cálculo de distância, {{ alt }}, adjacência, etc.
 
-Porém, apenas [Companion](https://www.notion.so/Companion-27083fd0169e8001a3c9fbac0d8a3684?pvs=21) com a propriedade **Unidade** podem participar.
+Porém, apenas {{ companion }} com a propriedade **Unidade** podem participar.
 
 <aside>
 
 Adicionalmente, unidades possuem orientação, e sofrem bônus de ataque quando atacadas pelas costas e flancos.
 
-- **Retaguarda** **→** **+4** de Dano
-- **Flancos** → **+2** de Dano
+- **Retaguarda** **→** **+4** de {{ dmg }}
+- **Flancos** → **+2** de {{ dmg }}
 </aside>
 
 <aside>
 
-A Vida da unidade representa a sua Moral, ou seja, quando a vida de tropa acaba, isso não significa que ela foi completamente dizimada, mas sim que ela dispersou ou debandou mediante a situação de vida ou morte.
+A {{ hp }} da unidade representa a sua Moral, ou seja, quando a {{ hp }} de tropa acaba, isso não significa que ela foi completamente dizimada, mas sim que ela dispersou ou debandou mediante a situação de vida ou morte.
 
 Uma unidade só é exterminada em caso de Perda Total.
 
@@ -98,41 +98,41 @@ Uma unidade só é exterminada em caso de Perda Total.
 
 Cada unidade representa uma tropa ou pelotão daquele exército, tendo técnicas e atributos usados conforme regras normais.
 
-Porém, técnicas que requerem anexos, devem ser garantidas anexando as respectivas cartas de recursos ao remover um contador do marcador do exército.
+Porém, técnicas que requerem anexos, devem ser garantidas anexando as respectivas cartas de recursos ao remover um {{ counter }} do marcador do exército.
 
-- Item → Dinheiro → Muito Papel Moeda
-- Evento → Alimentos → Banquete
-- Habilidade → Metal → Postura Defensiva
+- {{ item }} → Dinheiro → Muito Papel Moeda
+- {{ event }} → Alimentos → Banquete
+- {{ skill }} → Metal → Postura Defensiva
 
 |
 | --- | --- | --- |
-| **CON** | MORAL | Define a quantidade de Vida |
-| **FOR** | DANO | Dano causado em ataques normais |
-| **AGI** | DESLOCAMENTO | Equivalente à AÇÃO nas regras padrão |
-| **PER** | ALCANCE | Dano causado em ataques à distância |
-| **INT** | EXPERIÊNCIA MÁXIMA | Número máximo de contadores de Experiência que esta carta pode ter |
-| **CAR** | CONFIANÇA | Valor de Moral recuperado quando uma unidade inimiga é debandada |
-| **ESP** | DANO ESPECIAL | Usado para definir o dano de técnicas como magias e explosivos |
+| {{ enr }} | MORAL | Define a quantidade de {{ hp }} |
+| {{ str }} | {{ dmg }} | {{ dmg }} causado em ataques normais |
+| {{ agi }} | DESLOCAMENTO | Equivalente à {{ ap }} nas regras padrão |
+| {{ per }} | {{ range }} | {{ dmg }} causado em ataques à distância |
+| {{ int }} | EXPERIÊNCIA MÁXIMA | Número máximo de contadores de Experiência que esta carta pode ter |
+| {{ cha }} | CONFIANÇA | Valor de Moral recuperado quando uma unidade inimiga é debandada |
+| {{ spt }} | DANO ESPECIAL | Usado para definir o {{ dmg }} de técnicas como magias e explosivos |
 
 ### Experiência
 
-Unidades ganham experiência de combate. Ao final de uma batalha, todas as unidades vivas recebem **+1** contador na sua respectiva carta (**max igual à INT**). O valor desse contador deve ser somado ao valor de qualquer rolagem de dado feita por esta unidade, seja ele proposto por um ataque, teste, ou técnica.
+Unidades ganham experiência de combate. Ao final de uma batalha, todas as unidades vivas recebem **+1** {{ counter }} na sua respectiva carta (**max igual à {{ int }}**). O valor desse {{ counter }} deve ser somado ao valor de qualquer rolagem de dado feita por esta unidade, seja ele proposto por um ataque, teste, ou técnica.
 
 ### Melhorias
 
-Cada unidade pode ter até **3** melhorias que podem ser compradas para ela. Adicione o ícone de marcador para representar.
+Cada unidade pode ter até **3** melhorias que podem ser compradas para ela. Adicione o ícone de {{ marker }} para representar.
 
 | **Nome** | **Marcador** | **Preço** | **Efeito** |
 | --- | --- | --- | --- |
 | **Marchar** | *Triângulo* | 🍊🍊 | +1 de Deslocamento |
-| **Formação**  | *Quadrado* | 🪨🪨 | Esta unidade e unidades aliadas adjacentes sofrem -2 de DANO (não cumulativo) |
-| **Entrincheirar**  | *Escudo* | 🪨 | Sofre -3 de DANO se não se mover nesse ciclo |
+| **Formação**  | *Quadrado* | 🪨🪨 | Esta unidade e unidades aliadas adjacentes sofrem -2 de {{ dmg }} (não cumulativo) |
+| **Entrincheirar**  | *Escudo* | 🪨 | Sofre -3 de {{ dmg }} se não se mover nesse ciclo |
 | **Inspirar**  | *Encantamento* | 💰💰 | +10 de CONFIANÇA |
-| **Disciplina** | *Coração* | 💰💰🍊 | +2 de MORAL (20 de HP) |
-| **Flanquear** | *Seta* | 💰🪨 | +2 de DANO quando atacando pelos flancos ou retaguarda |
+| **Disciplina** | *Coração* | 💰💰🍊 | +2 de MORAL (20 de {{ hp }}) |
+| **Flanquear** | *Seta* | 💰🪨 | +2 de {{ dmg }} quando atacando pelos flancos ou retaguarda |
 | **Treinamento**  | *Impacto* | 🪨 | +2 de EXPERIÊNCIA MÁXIMA |
-| **Escaramuça**  | *Mira* | 💰💰🍊 | +1 de ALCANCE |
-| **Reagrupar**  | *Circulo* | 🪨🪨 🍊🍊 | Uma vez por batalha, se debandada por falta de Moral, eles voltam na próxima fase de restauração com 10 de VIDA |
+| **Escaramuça**  | *Mira* | 💰💰🍊 | +1 de {{ range }} |
+| **Reagrupar**  | *Circulo* | 🪨🪨 🍊🍊 | Uma vez por batalha, se debandada por falta de Moral, eles voltam na próxima {{ resetPhase }} com 10 de {{ hp }} |
 
 !!!
 Mercenários não podem receber melhorias.
@@ -142,16 +142,16 @@ Mercenários não podem receber melhorias.
 
 Cada Herói pode se juntar a uma unidade como seu oficial comandante, fornecendo um bônus extra.
 
-Se a unidade de um comandante morrer, ele pode assumir outra unidade na próxima fase de restauração.
+Se a unidade de um comandante morrer, ele pode assumir outra unidade na próxima {{ resetPhase }}.
 
 |
 | --- | --- | --- |
-| **Marechal** | Comandante       | +1 de Moral (10 de HP) |
-| **Caleb**    | *Estrategista*   | Sua unidade recebe +1 contadores de EXP ao final da batalha |
-| **Drako**    | *Artilheiro*     | +{{ d1d3 }} de DANO |
+| **Marechal** | Comandante       | +1 de Moral (10 de {{ hp }}) |
+| **Caleb**    | *Estrategista*   | Sua unidade recebe +1 {{ counter }} de EXP ao final da batalha |
+| **Drako**    | *Artilheiro*     | +{{ d1d3 }} de {{ dmg }} |
 | **Hércules** | *Batedor*        | +1 de DESLOCAMENTO |
 | **Carlos**   | *Defensor*       | -2 sofrido de Ataques |
-| **Ryan**     | *Ponta de Lança* | +3 de DANO quando sem aliados adjacentes |
+| **Ryan**     | *Ponta de Lança* | +3 de {{ dmg }} quando sem aliados adjacentes |
 | **von**      | *Inspiração*     | Unidades recuperam o dobro de moral ao eliminar unidades inimigas |
 
 ### Promoção

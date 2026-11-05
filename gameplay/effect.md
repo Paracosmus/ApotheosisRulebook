@@ -540,7 +540,7 @@ O sistema de resolução de efeitos no Apoteose funciona através de uma Pilha D
   - Recursivamente, tudo que foi feito para a carta base, é feito para a carta N+1, seguindo os mesmos passos, e permitindo respostas em resposta a ela (N+2, N+3, etc).
   - Quando a carta N+1 for resolvida, o holofote volta para a carta base, e o índice N+1 é removido da pilha.
   - Os jogadores podem novamente ativar outros efeitos em resposta a qualquer uma das ações feitas para validar o efeito base ainda seguindo a regra de **Prioridade de Resposta**.
-  - Este também é o momento de ativar efeitos que são aplicados antes da ação que será resolvida no corpo do efeito. Por exemplo, se o efeito base for "Cure 25 de HP", este é o momento de ativar efeitos que são aplicados antes da cura.
+  - Este também é o momento de ativar efeitos que são aplicados antes da ação que será resolvida no corpo do efeito. Por exemplo, se o efeito base for "Cure 25 de {{ hp }}", este é o momento de ativar efeitos que são aplicados antes da cura.
     - Se o corpo do efeito apresentar uma lista de opções, como não é possível determinar qual ação será escolhida, os efeitos que podem ser aplicados antes de qualquer uma das opções não podem ser ativados.
   - Apenas quando todos os jogadores passarem a prioridade, ou seja, não ativarem mais nenhum efeito em resposta, é que o efeito base começa a ser resolvido.
 
@@ -577,10 +577,10 @@ Todos os efeitos do tipo {{ auto }} que são ativados em resposta a um efeito de
 Uma vez que todos os efeitos {{ auto }} tenham sido ativados, resolvidos e removidos da pilha de encadeamento, os jogadores podem então responder manualmente com os efeitos {{ activate }}, também seguindo a ordem de prioridade abaixo.
 
 1. **Efeitos de Campanha**
-2. **Efeitos do Cenário**
+2. **Efeitos do {{ scenario }}**
 3. **Efeitos de Heróis Oponentes**
 4. **Efeitos de Heróis do Time**
-5. **Efeitos do Herói (Ou Herói do Companheiro) do Turno**
+5. **Efeitos do Herói (Ou Herói do {{ companion }}) do Turno**
 6. **Efeitos do {{ tradingPost }}**
 7. **Efeitos do Mestre de Jogo**
 

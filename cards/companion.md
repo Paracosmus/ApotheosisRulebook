@@ -18,9 +18,9 @@ São personagens humanos, animais ou evocações. Diferente de um [Herói](/hero
 
 1. **Caminho**
 
-1. **Valor em Vontade**
+1. **Valor em {{ will }}**
 
-1. **Nível e Conhecimentos**
+1. **Nível e {{ knowledge }}**
 
 1. **Atributos Base**: Valores base dos [Atributos](/gameplay/attributes.md) próprios deste {{ companion }}
 
@@ -62,32 +62,32 @@ TODO
 Personagens desse tipo são desevocados ao final do combate.
 
 #### Evocar
-A carta de evocação permanece oculta até que seja evocada e não possui peça no tabuleiro. Para ser evocada, é necessário que o evocador (Herói) selecione uma casa adjacente vazia, e pague **2** de {{ mp }} por nível da carta.
+A carta de {{ summon }} permanece oculta até que seja evocada e não possui peça no tabuleiro. Para ser evocada, é necessário que o evocador (Herói) selecione uma casa adjacente vazia, e pague **2** de {{ mp }} por nível da carta.
 
-Quando evocada, a carta é revelada e a peça do personagem evocação é adicionada na casa do tabuleiro selecionada.
+Quando evocada, a carta é revelada e a peça do personagem {{ summon }} é adicionada na casa do tabuleiro selecionada.
 
-Um COMPANHEIRO evocado é colocado no final da fila de turnos na rodada em que é evocado; na rodada seguinte ele é posicionado na fila de turnos conforme sua Iniciativa.
+Um {{ companion }} evocado é colocado no final da fila de turnos na rodada em que é evocado; na rodada seguinte ele é posicionado na fila de turnos conforme sua Iniciativa.
 
 #### Desevocar
-O evocador pode, a qualquer momento do seu turno, desevocar sua evocação; para isto ele anuncia a ação, oculta a carta da evocação e remove a peça dela do tabuleiro.
+O evocador pode, a qualquer momento do seu turno, desevocar sua {{ summon }}; para isto ele anuncia a ação, oculta a carta da {{ summon }} e remove a peça dela do tabuleiro.
 
 #### Morte da Evocação
-Diferente de outros personagens, quando uma evocação morre, ela é desevocada (sua carta é ocultada) e sua peça é removida do tabuleiro, não deixando corpo; se ela possuir cartas anexadas, elas não devem ser descartadas. Quando desevocada dessa forma, ela não pode ser evocada novamente até o final da batalha.
+Diferente de outros personagens, quando uma {{ summon }} morre, ela é desevocada (sua carta é ocultada) e sua peça é removida do tabuleiro, não deixando corpo; se ela possuir cartas anexadas, elas não devem ser descartadas. Quando desevocada dessa forma, ela não pode ser evocada novamente até o final da batalha.
 
 ### <span class="icon"></span> Autômato
 
-- Reviver e curar não funcionam em autômatos, mas sim **Reparar**, que é feito por efeito ou mecânica de jogo
-  - *Reparar*: Descarte ícones de mech para reparar 25 de {{ hp }} por ícone descartado. Sendo que isso vale mesmo quando mortos, podendo recuperar vida e até voltarem à vida se for o caso.
-- Um personagem só pode consertar autômatos do conhecimento e nível que ele possui
-  - O autômato tem que estar adjacente. Isso gasta all-in do personagem que reparar
-- Autômatos não podem descansar, nem outras atividades do tipo
-- Quando um efeito diz “Recuperar HP” e não curar/reparar, ele ainda vale no autômato
-- A grande vantagem do autômato é que eles são imortais. Eles não são descartados apenas se ao final do combate não forem recondicionados.
+- Reviver e curar não funcionam em {{ automaton }}, mas sim **Reparar**, que é feito por efeito ou mecânica de jogo
+  - *Reparar*: Descarte ícones de {{ mechanics }} para reparar 25 de {{ hp }} por ícone descartado. Sendo que isso vale mesmo quando mortos, podendo recuperar {{ hp }} e até voltarem à vida se for o caso.
+- Um personagem só pode consertar {{ automaton }} do {{ knowledge }} e nível que ele possui
+  - O {{ automaton }} tem que estar adjacente. Isso gasta {{ allIn }} do personagem que reparar
+- {{ automaton }} não podem descansar, nem outras atividades do tipo
+- Quando um efeito diz “Recuperar {{ hp }}” e não curar/reparar, ele ainda vale no {{ automaton }}
+- A grande vantagem do {{ automaton }} é que eles são imortais. Eles não são descartados apenas se ao final do combate não forem recondicionados.
 - Eles ainda podem sofrer perda total normalmente
 
 ### <span class="icon"></span> Vigilante
 
-Quando no turno de um vigilante, pode ser jogado com qualquer outro vigilante, porém usa-se os {{ ap }} do personagem do turno.
+Quando no turno de um {{ watcher }}, pode ser jogado com qualquer outro {{ watcher }}, porém usa-se os {{ ap }} do personagem do turno.
 
 ### <span class="icon"></span> Drako
 
@@ -99,29 +99,29 @@ Um {{ companion }} pode ou não pertencer a um caminho, que é uma linha de evol
 
 Os 20 caminhos são:
 
-| Caminho | {{ human }}                                        | {{ creature }} e {{ summon }} | {.compact}
-| ---     | ---                                                | ---                           |
-|       | Magos, feiticeiros, bruxas                         | Fantásticos                   |
-|       | Estudiosos, pesquisadores, cientistas, alquimistas | Humanoides                    |
-|       | Herbalistas, druidas, xamãs, curandeiros           | Sintéticos                    |
-|       | Guerreiros, espadachins                            | Quimeras                      |
-|       | Religiosos, sacerdotes, clérigos                   | Marinhos                      |
-|       | Arqueiros, pistoleiros, atiradores                 | Insetos                       |
-|       | Militares, mercenários, policiais, soldados        | Anfíbios                      |
-|       | Bárbaros, selvagens, domadores, párias             | Feras                         |
-|       | Eremitas, andarilhos, buscadores, filósofos        | Pássaros                      |
-|       | Comerciantes, jogadores, trapaceiros, mercadores   | Mecanizados                   |
-|       | Trabalhadores, profissionais, artesãos, ferreiros  | Primatas                      |
-|       | Caçadores, armadilheiros, rastreadores, batedores  | Roedores                      |
-|       | Ladrões, assassinos, espiões                       | Felinos                       |
-|       | Artistas, bardos, músicos, dançarinos              | Peixes                        |
-|       | Ocultistas, cultistas, necromantes                 | Dragões                       |
-|       | Brigões, lutadores                                 | Répteis                       |
-|       | Aventureiros, exploradores, caçadores de tesouros  | Crustáceos                    |
-|       | Mentalistas, ilusionistas, hipnólogos              | Canídeos                      |
-|       | Cavaleiros, heróis                                 | Equinos                       |
-|       | Vasculhadores, sobreviventes, desajustados         | Lendários                     |
-| <span style="color: #AAA">{{ world }}</span> | <span style="color: #AAA">_Usado apenas por casos especiais, como summus._ | |
+| Caminho          | {{ human }}                                        | {{ creature }} e {{ summon }} | {.compact}
+| ---              | ---                                                | ---                           |
+| {{ magician }}   | Magos, feiticeiros, bruxas                         | Fantásticos                   |
+| {{ priestess }}  | Estudiosos, pesquisadores, cientistas, alquimistas | Humanoides                    |
+| {{ empress }}    | Herbalistas, druidas, xamãs, curandeiros           | Sintéticos                    |
+| {{ emperor }}    | Guerreiros, espadachins                            | Quimeras                      |
+| {{ priest }}     | Religiosos, sacerdotes, clérigos                   | Marinhos                      |
+| {{ lovers }}     | Arqueiros, pistoleiros, atiradores                 | Insetos                       |
+| {{ chariot }}    | Militares, mercenários, policiais, soldados        | Anfíbios                      |
+| {{ force }}      | Bárbaros, selvagens, domadores, párias             | Feras                         |
+| {{ hermit }}     | Eremitas, andarilhos, buscadores, filósofos        | Pássaros                      |
+| {{ wheel }}      | Comerciantes, jogadores, trapaceiros, mercadores   | Mecanizados                   |
+| {{ justice }}    | Trabalhadores, profissionais, artesãos, ferreiros  | Primatas                      |
+| {{ hanged }}     | Caçadores, armadilheiros, rastreadores, batedores  | Roedores                      |
+| {{ death }}      | Ladrões, assassinos, espiões                       | Felinos                       |
+| {{ temperance }} | Artistas, bardos, músicos, dançarinos              | Peixes                        |
+| {{ devil }}      | Ocultistas, cultistas, necromantes                 | Dragões                       |
+| {{ tower }}      | Brigões, lutadores                                 | Répteis                       |
+| {{ star }}       | Aventureiros, exploradores, caçadores de tesouros  | Crustáceos                    |
+| {{ moon }}       | Mentalistas, ilusionistas, hipnólogos              | Canídeos                      |
+| {{ sun }}        | Cavaleiros, heróis                                 | Equinos                       |
+| {{ judgment }}   | Vasculhadores, sobreviventes, desajustados         | Lendários                     |
+| <span style="color: #AAA">{{ world }}</span> | <span style="color: #AAA">_Usado apenas por casos especiais, como {{ summus }}._ | |
 
 ---
 
@@ -183,18 +183,18 @@ Cartas de {{ companion }} são tratadas como personagens, e portanto, possuem um
 
 ### <span class="companion">Pagamento de Custos</span>
 
-Os COMPANHEIROS podem ser requeridos a pagar certos custos por efeitos ou mecânicas de jogo, como descartar cartas e valores.
+Os {{ companion }} podem ser requeridos a pagar certos custos por efeitos ou mecânicas de jogo, como descartar cartas e valores.
 
-Observando que COMPANHEIROS não possuem MESA nem {{ inv }}, quando um texto especificar uma ação impossível para um COMPANHEIRO, como “descarte do seu {{ inv }}” ou “deite 2 de {{ mp }}”, o personagem não tem como cumprir aquela exigência, logo, ela deve ser ignorada quando forem consequências dessa ação; quando forem requerimentos da ação, então ele não tem como cumprir estes requerimentos e a ação não pode ser realizada.
+Observando que {{ companion }} não possuem {{ table }} nem {{ inv }}, quando um texto especificar uma ação impossível para um {{ companion }}, como “descarte do seu {{ inv }}” ou “deite 2 de {{ mp }}”, o personagem não tem como cumprir aquela exigência, logo, ela deve ser ignorada quando forem consequências dessa ação; quando forem requerimentos da ação, então ele não tem como cumprir estes requerimentos e a ação não pode ser realizada.
 
-Porém, quando o texto não apresenta uma restrição, por exemplo, “descarte uma carta” ou “descarte pontos de {{ fate }}”, o COMPANHEIRO pode/deve utilizar seus anexos nestes casos. Note que se o custo for obrigatório, o personagem precisa pagar, se for opcional o jogador pode optar.
+Porém, quando o texto não apresenta uma restrição, por exemplo, “descarte uma carta” ou “descarte pontos de {{ fate }}”, o {{ companion }} pode/deve utilizar seus anexos nestes casos. Note que se o custo for obrigatório, o personagem precisa pagar, se for opcional o jogador pode optar.
 
-A mesma consideração deve ser feita quando uma carta é obtida pelo COMPANHEIRO, se o texto disser algo como “enviado para o {{ inv }}”, o COMPANHEIRO não tem como realizar esta ação, mas se o texto apenas diz que a carta é “obtida”, ela pode/deve ser anexada ao companheiro, ainda respeitando o limite de anexos.
+A mesma consideração deve ser feita quando uma carta é obtida pelo {{ companion }}, se o texto disser algo como “enviado para o {{ inv }}”, o {{ companion }} não tem como realizar esta ação, mas se o texto apenas diz que a carta é “obtida”, ela pode/deve ser anexada ao {{ companion }}, ainda respeitando o limite de anexos.
 
 
 ### <span class="companion">Vida</span>
 
-A {{ hp }} da peça de um companheiro no tabuleiro é determinada da mesma forma que para um Herói.
+A {{ hp }} da peça de um {{ companion }} no tabuleiro é determinada da mesma forma que para um Herói.
 
 ### <span class="companion">Morte</span>
 

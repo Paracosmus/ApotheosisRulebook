@@ -32,18 +32,18 @@ Evocar uma {{ summon }}
 :   **2** de {{ mp }} por nível do {{ companion }} a ser evocado
 
 Descansar
-:   Ação total para curar {{p'10'}} de {{ hp }} e recuperar {{p'2'}} de **Energia**
+:   {{ allIn }} para curar {{p'10'}} de {{ hp }} e recuperar {{p'2'}} de **Energia**
 
 Trocar cartas com o {{ tradingPost }}
     - _Comprar {{ item }}_
     - _Aprender {{ skill }}_
     - _Recrutar {{ companion }}_
     - _Colher {{ event }}_
-:   Ação total
+:   {{ allIn }}
 <br><br><br><br><br><br>
 
 Propor/Fechar Pacto
-:   Ação total (_de todos os envolvidos_)
+:   {{ allIn }} (_de todos os envolvidos_)
 
 <br>
 <br>
@@ -56,19 +56,19 @@ Realizar um Teste
 *   3 é um valor padrão médio. O Mestre de Jogo pode ajustar os custos de acordo com a situação, a seu critério, inclusive removendo ou adicionando custos.
 
 Adquirir {{ class }}
-:   Ação total e enterrar {{n 5}} cartas de recurso do mesmo nível da carta desejada
+:   {{ allIn }} e enterrar {{n 5}} cartas de recurso do mesmo nível da carta desejada
 
 Progredir {{ class }}
-:   Ação total e enterrar {{n 3}} cartas de recurso do mesmo nível da carta desejada
+:   {{ allIn }} e enterrar {{n 3}} cartas de recurso do mesmo nível da carta desejada
 
 Incorporar {{ entity }}
-:   Ação total e enterrar {{n 5}} cartas de recurso do mesmo nível da carta desejada
+:   {{ allIn }} e enterrar {{n 5}} cartas de recurso do mesmo nível da carta desejada
 
 Liberar {{ entity }}
-:   Ação total e descartar o seu {{ entity }}
+:   {{ allIn }} e descartar o seu {{ entity }}
 
 Fabricar {{ item }}
-:   Ação total e enterrar cartas de {{ item }} até que a combinação dos materiais seja igual ou superior aos materiais da carta desejada
+:   {{ allIn }} e enterrar cartas de {{ item }} até que a combinação dos materiais seja igual ou superior aos materiais da carta desejada
 
 <br>
 

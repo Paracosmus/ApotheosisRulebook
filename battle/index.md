@@ -41,7 +41,7 @@ A área de influência aumenta em 1 de {{ ap }} o custo para que um personagem i
 ---
 
 ## DESCANSAR
-O personagem pode realizar uma Ação Total para:
+O personagem pode realizar uma {{ allIn }} para:
 
 * Curar {{ p'10' }} de {{ hp }}; e
 
@@ -83,7 +83,7 @@ Este ataque não possui propriedades ou efeitos, é o mais simples e direto que 
 
 ## USAR UMA CARTA
 
-Você pode utilizar uma carta conforme as regras durante a batalha. Você pode utilizar uma HABILIDADE pagando os seus custos. Você pode utilizar uma FERRAMENTA para atacar. Você pode enviar uma carta do {{ inv }} para a {{ table }} ou enviar uma carta da {{ table }} para o {{ inv }}, pagando os custos de {{ ap }}.
+Você pode utilizar uma carta conforme as regras durante a batalha. Você pode utilizar uma {{ skill }} pagando os seus custos. Você pode utilizar um {{ item }} para atacar. Você pode enviar uma carta do {{ inv }} para a {{ table }} ou enviar uma carta da {{ table }} para o {{ inv }}, pagando os custos de {{ ap }}.
 
 ---
 
@@ -160,13 +160,13 @@ Adjacentes
 
 TODO
 
-Deve ser feito o cálculo de alcance para verificar se o alvo está dentro do alcance do ataque.
+Deve ser feito o cálculo de {{ range }} para verificar se o alvo está dentro do {{ range }} do ataque.
 
 ### <span class="icon"></span> Arqueado
 
 TODO
 
-No cálculo de alcance deve-se adicionar/subtrair a altura do alvo e do atacante.
+No cálculo de {{ range }} deve-se adicionar/subtrair a {{ alt }} do alvo e do atacante.
 
 ### <span class="icon"></span> Área
 
