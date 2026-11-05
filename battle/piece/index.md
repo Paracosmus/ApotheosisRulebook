@@ -52,7 +52,7 @@ A cura nunca deixa a {{ hp }} de um personagem acima da sua {{ hp }} máxima.
 
 ### **Dummy**
 
-Personagem que não está ligado a um Herói ou COMPANHEIRO, criado pela campanha ou por efeitos de cartas; suas características são definidas pelo que o criou.
+Personagem que não está ligado a um Herói ou COMPANHEIRO, criado pela campanha ou por efeitos; suas características são definidas pelo que o criou.
 
 ## **Objeto**
 

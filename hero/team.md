@@ -9,7 +9,7 @@ order: 75
 
 Um time é composto por um grupo de Heróis trabalhando em conjunto, geralmente representando o coletivo de Heróis dos jogadores, mas também se referindo a qualquer outro grupo de Heróis.
 
-Alguns efeitos de cartas são aplicados apenas a membros de um mesmo time ou de outro time, portanto, é necessário que Heróis unidos estejam bem definidos como um time.
+Alguns efeitos são aplicados apenas a membros de um mesmo time ou de outro time, portanto, é necessário que Heróis unidos estejam bem definidos como um time.
 
 ---
 

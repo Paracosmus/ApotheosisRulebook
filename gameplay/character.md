@@ -25,7 +25,7 @@ Geralmente, o termo se refere a [Heróis](/hero/), {{ companion }} e [Modelos](/
 
 > É a ação de trazer um personagem de volta à vida, geralmente após a morte ou quando o personagem foi nocauteado.
 
-Quando um personagem morrer, não é o fim definitivo, se sua peça ainda estiver no tabuleiro ele pode ser revivido por alguns efeitos de cartas, ou por ações de outros personagens. Porém, se não for revivido, o personagem está permanentemente morto.
+Quando um personagem morrer, não é o fim definitivo, se sua peça ainda estiver no tabuleiro ele pode ser revivido por alguns efeitos, ou por ações de outros personagens. Porém, se não for revivido, o personagem está permanentemente morto.
 
 💀 Morto
 :   É o estado de um personagem quando sua {{ hp }} é menor ou igual a 0. Neste estado, o personagem não pode agir, e todos os efeitos e cartas que o personagem possui são ignorados.
@@ -36,7 +36,7 @@ Quando um personagem morrer, não é o fim definitivo, se sua peça ainda estive
 :   É o estado de um personagem quando sua {{ hp }} é exatamente 0. Neste estado, para todos os efeitos, o personagem é tratado como morto. Se o personagem não for revivido, ele revive ao final da batalha em 1 de {{ hp }}.
 
     !!!
-    Alguns efeitos de cartas e regras de campanha podem especificar que um personagem morto deve ser tratado como nocauteado, nestes casos, se a {{ hp }} do personagem for menor que 0, o personagem fica com 0 de {{ hp }}.
+    Alguns efeitos e regras de campanha podem especificar que um personagem morto deve ser tratado como nocauteado, nestes casos, se a {{ hp }} do personagem for menor que 0, o personagem fica com 0 de {{ hp }}.
     !!!
 
 💣 Perda Total [!badge overkill]
@@ -45,7 +45,7 @@ Quando um personagem morrer, não é o fim definitivo, se sua peça ainda estive
     Ele é considerado em um estado de perda total, e não pode ser revivido, já que os danos ao seu corpo estão de tal forma que não há mais como reverter, e o personagem é considerado morto permanentemente.
 
     !!!
-    Alguns efeitos de cartas e situações de campanha podem especificar que um personagem morto deve ser tratado como perda total, nestes casos, altere a {{ hp }} negativa do personagem para que seja igual ao valor necessário para estar neste estado, se o valor atual já não for o suficiente.
+    Alguns efeitos e situações de campanha podem especificar que um personagem morto deve ser tratado como perda total, nestes casos, altere a {{ hp }} negativa do personagem para que seja igual ao valor necessário para estar neste estado, se o valor atual já não for o suficiente.
     !!!
 
     !!!

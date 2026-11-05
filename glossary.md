@@ -104,7 +104,7 @@ Este livro e as cartas do jogo utilizam termos com significados específicos. Ab
 | **Resgatar**   | *Retrieve*    | Retornar uma carta do Limbo para o jogo, geralmente nas mesmas condições em que foi exilada |
 | **Mesa**       | *Table*       | Local da área do jogo onde um Herói coloca suas cartas |
 | **Ficha**      | *Sheet*       | Zona da {{ table }} do Herói onde estão suas cartas de ficha |
-| **Zona Extra** | *Extra Zone*  | Zona da {{ sheet }} do Herói onde algumas mecânicas de jogo e efeitos de cartas podem colocar cartas de ficha extras |
+| **Zona Extra** | *Extra Zone*  | Zona da {{ sheet }} do Herói onde algumas mecânicas de jogo e efeitos podem colocar cartas de ficha extras |
 | **Inventário** | *Inventory*   | Zona onde o Herói guarda as cartas que são de sua posse, mas não estão na sua {{ table }}. Geralmente representada pelas cartas seguradas na mão |
 
 Ao enviar, descartar, enterrar, banir ou exilar uma carta para um monte, ela assume a orientação do monte para onde vai, conforme a [visibilidade](/gameplay/stack/index.md#visibilidade) dele.

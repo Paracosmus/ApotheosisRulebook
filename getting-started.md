@@ -43,7 +43,7 @@ order: 100
 
   O objetivo é cumprir missões, enfrentar desafios, ou derrotar outros jogadores, utilizando suas cartas, conforme estabelecido pela variante escolhida.
 
-  Quando um confronto ocorre, os jogadores utilizam um tabuleiro quadriculado para posicionar seus Heróis e outros personagens, e rolam dados para resolver ações, ataques e efeitos de cartas na intenção de derrotar seus oponentes ou cumprir os objetivos da partida.
+  Quando um confronto ocorre, os jogadores utilizam um tabuleiro quadriculado para posicionar seus Heróis e outros personagens, e rolam dados para resolver ações, ataques e efeitos na intenção de derrotar seus oponentes ou cumprir os objetivos da partida.
 
 
 
@@ -326,7 +326,7 @@ order: 100
   > **Turno de Maria**: Ela tem um Herói com a {{ class }} de _Atiradora_, e decide usar uma habilidade de longo alcance para atacar um inimigo. Ela declara o ataque, escolhe a {{ skill }} _Tiro Certo_, descarta a carta de munição requerida por ela, escolhe um inimigo ao alcance, rola os dados para determinar o {{ dmg }} do ataque conforme escrito na carta e aplica os efeitos da mesma. O mestre de jogo descreve a situação: "Você atira no inimigo com sua habilidade, causando 10 pontos de dano. O inimigo, vestindo apenas uma roupa velha que não oferece nenhuma proteção, é atingido e perde 10 pontos de vida."
 
   !!!
-  Para saber mais sobre as regras de batalha, turnos, ações, e resolução de ataques e efeitos de cartas no modo de batalha, consulte as [seções específicas](/battle) sobre cada tópico neste manual.
+  Para saber mais sobre as regras de batalha, turnos, ações, e resolução de ataques e efeitos no modo de batalha, consulte as [seções específicas](/battle) sobre cada tópico neste manual.
   !!!
 
   +++

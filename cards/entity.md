@@ -37,7 +37,7 @@ O personagem (receptáculo) pode incorporar estas formas de energia e dominá-la
 
 ## <span class="entity">Incorporar</span>
 
-Cada tipo de {{ entity }} possui um requerimento mínimo de nível para ser incorporado pelo personagem. Quanto mais poderoso o ente, mais preparo físico, mental e espiritual o receptáculo precisa. Este requerimento deve sempre ser considerado, mesmo que o ente seja adicionado ao personagem por efeito de carta ou qualquer outra mecânica de jogo.
+Cada tipo de {{ entity }} possui um requerimento mínimo de nível para ser incorporado pelo personagem. Quanto mais poderoso o ente, mais preparo físico, mental e espiritual o receptáculo precisa. Este requerimento deve sempre ser considerado, mesmo que o ente seja adicionado ao personagem por efeito ou qualquer outra mecânica de jogo.
 
 Para incorporar, é necessário que o espaço de {{ entity }} na {{ sheet }} esteja disponível e o personagem esteja em um local de {{ rift }} que permita o acesso à carta desejada. Você deve selecionar uma carta, realizar uma Ação Total e enterrar 5 cartas de recurso do mesmo nível que o {{ entity }} selecionado. Envie a carta, oculta, para o espaço de {{ entity }} da sua {{ table }}.
 
@@ -59,7 +59,7 @@ Quando o ente estiver desperto, no início de cada um de seus turnos, o personag
 
 Quando o {{ entity }} está desperto, sua carta deve ser revelada e o personagem recebe o bônus de atributo indicado na carta, bem como o seu efeito passa a ser considerado.
 
-O {{ entity }} não pode ser adormecido no mesmo turno em que ele foi despertado, a não ser por efeito de carta.
+O {{ entity }} não pode ser adormecido no mesmo turno em que ele foi despertado, a não ser por efeito.
 
 ---
 
@@ -69,7 +69,7 @@ Quando o ente está adormecido, sua carta está oculta e seus bônus e efeitos n
 
 O jogador pode adormecer seu {{ entity }} a qualquer momento de seu turno. Para isso, basta ocultar a carta de {{ entity }}.
 
-O {{ entity }} não pode ser despertado no mesmo turno em que ele foi adormecido, a não ser por efeito de carta.
+O {{ entity }} não pode ser despertado no mesmo turno em que ele foi adormecido, a não ser por efeito.
 
 ---
 

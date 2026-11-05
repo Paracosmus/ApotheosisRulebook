@@ -59,7 +59,7 @@ Quando um {{ item }} em seu {{ equip }} possuir uma barra de ativação, em adic
 
 {{ item }} são as únicas cartas de Recurso que podem não ter um valor (preço).
 
-Se um {{ item }} não possuir {{ price }}, ele não pode ser obtido pelos meios padrões de trocas de cartas com o {{ tradingPost }}, e deve ser considerado como tendo valor zero em qualquer troca. Estes ainda podem ser obtidos de outras formas, como por exemplo, através de ações de personagens ou efeitos de cartas.
+Se um {{ item }} não possuir {{ price }}, ele não pode ser obtido pelos meios padrões de trocas de cartas com o {{ tradingPost }}, e deve ser considerado como tendo valor zero em qualquer troca. Estes ainda podem ser obtidos de outras formas, como por exemplo, através de ações de personagens ou efeitos.
 
 ---
 

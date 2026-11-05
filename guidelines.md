@@ -6,7 +6,7 @@ order: 94
 
 # Diretrizes
 
-As diretrizes são regras gerais aplicáveis a todas as situações do jogo. Elas devem ser seguidas sempre que possível, a não ser quando uma regra mais específica ou um efeito de carta disser o contrário.
+As diretrizes são regras gerais aplicáveis a todas as situações do jogo. Elas devem ser seguidas sempre que possível, a não ser quando uma regra mais específica ou um efeito disser o contrário.
 
 ---
 
@@ -64,7 +64,7 @@ Considere que:
 - Itens são reparados e mantidos em boas condições pelo personagem.
 - Companheiros têm suas próprias vidas, experiências e necessidades.
 
-Efeitos de cartas ativadas podem não parecer fazer sentido do ponto de vista narrativo, mas isso não é um problema. Use a criatividade para imaginar como o efeito da carta se encaixa na narrativa, mesmo que seja algo abstrato ou requeira uma interpretação mais livre.
+Efeitos ativados podem não parecer fazer sentido do ponto de vista narrativo, mas isso não é um problema. Use a criatividade para imaginar como o efeito se encaixa na narrativa, mesmo que seja algo abstrato ou requeira uma interpretação mais livre.
 
 Cada mecânica é uma representação simbólica e jogável de uma situação. Não se prenda a possíveis incoerências; o importante é que o jogo seja dinâmico e divertido.
 

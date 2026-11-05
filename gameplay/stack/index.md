@@ -65,7 +65,7 @@ No formato padrão de campanhas, existem **7** baralhos de campanha, um para car
 
 O conteúdo de um baralho é definido pela campanha ou formato de jogo, estando vazios por padrão. Sendo que uma composição inicial de cartas pode ser definida, bem como novas cartas podem ser adicionadas da caixa aos baralhos conforme a campanha progride, certos marcos e tarefas são concluídos ou conforme outras mecânicas estabelecidas pela campanha ou formato são executadas.
 
-Novas cartas podem ser adicionadas a estes baralhos pela campanha, e estas cartas são enviadas para os personagens ou para o {{ tradingPost }} seja pela campanha, mecânica de jogo ou efeito de carta.
+Novas cartas podem ser adicionadas a estes baralhos pela campanha, e estas cartas são enviadas para os personagens ou para o {{ tradingPost }} seja pela campanha, mecânica de jogo ou efeito.
 
 {.striped}
 Baralho         | Naipe
@@ -132,13 +132,13 @@ Em um monte que afeta todos, uma carta que concede +2 de {{ dmg }} concede este 
 
 ### Estado das Cartas
 
-As cartas em um monte não são consideradas nem restauradas, nem consumidas, nem possuem qualquer outro estado, a menos que seja especificado o contrário por um efeito de carta ou mecânica de jogo. A orientação, porém, sempre vale: ela é a do monte e define se os efeitos da carta são considerados.
+As cartas em um monte não são consideradas nem restauradas, nem consumidas, nem possuem qualquer outro estado, a menos que seja especificado o contrário por um efeito ou mecânica de jogo. A orientação, porém, sempre vale: ela é a do monte e define se os efeitos da carta são considerados.
 
 ---
 
 ## Buscar Cartas
 
-Alguns efeitos de cartas e mecânicas de jogo permitem que os jogadores busquem cartas em um monte de cartas, e as obtenham, descartem ou realizem outras tarefas.
+Alguns efeitos e mecânicas de jogo permitem que os jogadores busquem cartas em um monte de cartas, e as obtenham, descartem ou realizem outras tarefas.
 
 Este processo de ver um monte à procura de uma carta, ou filtrando cartas por critérios específicos, é conhecido como "busca".
 

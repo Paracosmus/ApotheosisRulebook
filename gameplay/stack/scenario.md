@@ -47,7 +47,7 @@ Uma carta pode ser adicionada ao {{ scenario }} das seguintes formas:
 
 1. **Palavra-chave**: Quando um efeito com a palavra-chave {{ register }} for ativado.
 
-1. **Efeito de carta**: Algumas cartas possuem efeitos que especificam qual, quando e como uma carta será enviada para o {{ scenario }}.
+1. **Efeito**: Alguns efeitos especificam qual, quando e como uma carta será enviada para o {{ scenario }}.
 
 1. **Configurações**: Algumas campanhas, formatos, modos de jogo, etc. possuem especificações de quais cartas devem ser colocadas no {{ scenario }} e quando.
 
@@ -58,7 +58,7 @@ Uma carta pode ser adicionada ao {{ scenario }} das seguintes formas:
 
 1. **Final do combate**: Ao final de cada combate, todas as cartas no {{ scenario }} devem ser descartadas, a menos que uma regra ou efeito especifique o contrário.
 
-1. **Efeito de carta**: Algumas cartas possuem efeitos que especificam qual, quando e como uma carta será removida do {{ scenario }}.
+1. **Efeito**: Alguns efeitos especificam qual, quando e como uma carta será removida do {{ scenario }}.
 
 1. **Configurações**: Algumas campanhas, formatos, modos de jogo, etc. possuem especificações de quais cartas devem ser removidas do {{ scenario }} e quando.
 

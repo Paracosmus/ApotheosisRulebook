@@ -18,14 +18,14 @@ Quando um número é apresentado na forma **+X** ou **-X**, isso indica que se t
   * Tanto o valor **+3** quanto o valor {{ d1d6 }} são os bônus adicionados ao valor base.
 !!!
 
-Um bônus fixo não pode ser definido por um efeito de carta, apenas por regras e mecânicas do jogo. Efeitos {{ lingering }} podem conceder [bônus temporários](#bônus-temporários).
+Um bônus fixo não pode ser definido por um efeito, apenas por regras e mecânicas do jogo. Efeitos {{ lingering }} podem conceder [bônus temporários](#bônus-temporários).
 
 Os adicionais de Atributos (quando +X, -X) e os espaços extras dados por cartas são bônus, pois são adicionados ao Herói pela regra que define como devem ser aplicados. Por não estarem descritos no texto da carta, eles não são efeitos.
 
-Isto porque o bônus é uma consequência de uma regra, e não algo que pode ser gerado pelos jogadores ativando cartas. Assim sendo, um bônus não pode ser impedido, negado ou modificado por efeitos de cartas a não ser que o efeito em si explicitamente especifique esta capacidade.
+Isto porque o bônus é uma consequência de uma regra, e não algo que pode ser gerado pelos jogadores ativando cartas. Assim sendo, um bônus não pode ser impedido, negado ou modificado por efeitos a não ser que o efeito em si explicitamente especifique esta capacidade.
 
 !!!
-Quando um efeito de carta age sobre um valor isto é chamado de [Modificador](/gameplay/modifier.md).
+Quando um efeito age sobre um valor isto é chamado de [Modificador](/gameplay/modifier.md).
 !!!
 
 ---

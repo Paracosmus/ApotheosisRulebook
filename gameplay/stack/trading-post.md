@@ -45,12 +45,12 @@ Para trocar cartas de recurso com o {{ tradingPost }} ou obter cartas de ficha p
 
 Os locais no jogo são definidos pela campanha ou formato de jogo, e cada local tem um nível de acesso individual, de **0** a **3**, para cada baralho, exceto a {{ cradle }}. A {{ cradle }} não tem nível de acesso, pois cartas de {{ house }} são obtidas apenas por efeitos. O nível de acesso de um local define o nível máximo que as cartas obtidas podem ter.
 
-O nível de acesso do local não limita o acesso pelo efeito de cartas. Os efeitos podem ou não estabelecer seus próprios filtros.
+O nível de acesso do local não limita o acesso por efeitos. Os efeitos podem ou não estabelecer seus próprios filtros.
 
 ### Restrição de Batalha
 
 Indiferente do nível de acesso do local em que a batalha estiver acontecendo, o nível de acesso do {{ tradingPost }} durante uma batalha é sempre 0, impossibilitando a troca de cartas.
 
-Alguns efeitos de cartas, como cartas de {{ event }} no {{ scenario }}, entre outras, podem modificar o nível de acesso de um local, isso inclui durante uma batalha, permitindo dessa forma a troca de cartas em batalha.
+Alguns efeitos, como os de cartas de {{ event }} no {{ scenario }}, entre outros, podem modificar o nível de acesso de um local, isso inclui durante uma batalha, permitindo dessa forma a troca de cartas em batalha.
 
 ---

@@ -6,7 +6,7 @@ order: 170
 
 # Efeito
 
-{{ briefing `Effect` `O efeito de uma carta é um texto que descreve sua função e mecânica, explicando como jogá-la e aplicá-la durante a partida. A função do efeito é conferir habilidades adicionais à carta, comumente extrapolando as regras do jogo e permitindo interações mais complexas em busca de uma vantagem estratégica.` }}
+{{ briefing `Effect` `Um efeito é um texto que descreve uma função e mecânica especial, explicando como aplicá-la durante a partida. A função do efeito é conferir habilidades adicionais, comumente extrapolando as regras do jogo e permitindo interações mais complexas em busca de uma vantagem estratégica.` }}
 
 Cada personagem pode utilizar e ativar apenas suas próprias cartas, e apenas durante o seu próprio turno. Certas cartas, porém, especificam que podem ou devem ser ativadas como resposta a uma jogada ou situação de jogo, e neste caso, elas são ativadas durante o turno de outros personagens também.
 

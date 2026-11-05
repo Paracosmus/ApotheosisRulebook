@@ -16,7 +16,7 @@ A {{ table }} é a área onde o Herói coloca suas cartas, e é composta por dif
 
 As cartas distribuídas pela sua {{ table }} são de visibilidade pública, ou seja, todos os jogadores podem ver as cartas do Herói, e o Herói deve manter sua {{ table }} visível para todos os jogadores durante todo o jogo. Sendo permitido aos outros jogadores pegar as cartas reveladas do Herói a qualquer momento para ler e fazer verificações, e por esta razão, é competência de todos os jogadores zelar pela organização, visibilidade e integridade das {{ table }} e cartas de todos.
 
-Em alguns casos, podem existir cartas ocultas na mesa, este é o caso de {{ entity }} adormecido e {{ summon }} desevocadas por exemplo. Quando uma carta estiver oculta, ela deve ser mantida de face para baixo, e não deve ser revelada a menos que um efeito de carta ou mecânica de jogo o permita. O Herói deve manter essas cartas ocultas visíveis para todos os jogadores, mas sem revelar seu conteúdo. Enquanto uma carta estiver oculta, seus efeitos e bônus devem ser ignorados a todo momento.
+Em alguns casos, podem existir cartas ocultas na mesa, este é o caso de {{ entity }} adormecido e {{ summon }} desevocadas por exemplo. Quando uma carta estiver oculta, ela deve ser mantida de face para baixo, e não deve ser revelada a menos que um efeito ou mecânica de jogo o permita. O Herói deve manter essas cartas ocultas visíveis para todos os jogadores, mas sem revelar seu conteúdo. Enquanto uma carta estiver oculta, seus efeitos e bônus devem ser ignorados a todo momento.
 
 !!!warning
 Note que, o {{ inv }} não é parte da {{ table }} do Herói, e não deve ser colocado na {{ table }}, ele é uma área separada, com suas próprias regras.
@@ -43,7 +43,7 @@ Cartas anexadas não são consideradas como "na {{ table }}".
 
 São nada mais que uma forma de contar quantas cartas podem ser colocadas em cada área; quantos espaços estão disponíveis; e quantos espaços estão ocupados.
 
-Sempre que uma carta for colocada na {{ table }}, mesmo que por efeito de carta, ela deve ser colocada em um espaço vazio. Se não houver espaços vazios, a carta não deve ser colocada, dando sequência ao restante do efeito, mecânica ou jogada. Note que um espaço vazio pode ser listado como uma condição para ativação de tais efeitos, mecânicas ou jogadas.
+Sempre que uma carta for colocada na {{ table }}, mesmo que por efeito, ela deve ser colocada em um espaço vazio. Se não houver espaços vazios, a carta não deve ser colocada, dando sequência ao restante do efeito, mecânica ou jogada. Note que um espaço vazio pode ser listado como uma condição para ativação de tais efeitos, mecânicas ou jogadas.
 
 Se em qualquer momento a quantidade de espaços na {{ table }} for alterada, causando um excedente de cartas em alguma área da {{ table }}, o jogador deve imediatamente escolher quais cartas serão removidas para que a quantidade de espaços seja respeitada, observando e respeitando as consequências de remover tais cartas, como perda de bônus, efeitos, ou mesmo mais espaços.
 

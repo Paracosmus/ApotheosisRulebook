@@ -234,7 +234,7 @@ O estado de uma carta é a condição ou situação em que ela se encontra duran
   * Cartas ocultas em montes de cartas.
   * Cartas em montes de cartas cujo uso é **Nunca**, como as cartas banidas.
   * Casos Especiais
-    * Alguns efeitos de carta podem tornar outras cartas não jogáveis, seja permanentemente ou temporariamente.
+    * Alguns efeitos podem tornar cartas não jogáveis, seja permanentemente ou temporariamente.
     * Alguns {{ summus }} estabelecem condições específicas para não serem jogáveis, como estar em uma zona específica ou possuir um estado específico.
 
   Em alguns casos, cartas reveladas não jogáveis podem ser colocadas de cabeça para baixo para indicar seu estado.

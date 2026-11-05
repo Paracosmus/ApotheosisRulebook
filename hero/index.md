@@ -39,7 +39,7 @@ O nível do Herói é a soma do nível da sua carta de {{ house }} com os nívei
 
 Apenas esses **4** espaços contam: cartas em outros locais da {{ sheet }}, como a Zona Extra, não somam nível, mesmo que sejam de {{ house }} ou {{ class }}.
 
-Efeitos de cartas podem modificar o nível do Herói, mas ele nunca fica abaixo de **1** nem acima de **10**.
+Efeitos podem modificar o nível do Herói, mas ele nunca fica abaixo de **1** nem acima de **10**.
 
 ---
 
@@ -56,7 +56,7 @@ Cada atributo do Herói é a soma dos bônus daquele atributo nas suas cartas re
 
 Não somam atributos ao Herói: cartas ocultas, cartas anexadas e os {{ companion }} no {{ support }}.
 
-Efeitos de cartas podem modificar os atributos do Herói, mas nenhum deles fica abaixo de **1**.
+Efeitos podem modificar os atributos do Herói, mas nenhum deles fica abaixo de **1**.
 
 ---
 
@@ -64,7 +64,7 @@ Efeitos de cartas podem modificar os atributos do Herói, mas nenhum deles fica 
 
 O nível do Herói em cada {{ knowledge }} recebe **+1** para cada vez que aquele {{ knowledge }} aparece listado nas cartas de {{ class }} reveladas na sua {{ sheet }}, inclusive na Zona Extra.
 
-Efeitos de cartas podem modificar os conhecimentos do Herói, mas nenhum deles fica abaixo de **0**. Um {{ knowledge }} de nível **0** é um {{ knowledge }} que o Herói não possui.
+Efeitos podem modificar os conhecimentos do Herói, mas nenhum deles fica abaixo de **0**. Um {{ knowledge }} de nível **0** é um {{ knowledge }} que o Herói não possui.
 
 ---
 
@@ -72,7 +72,7 @@ Efeitos de cartas podem modificar os conhecimentos do Herói, mas nenhum deles f
 
 A {{ hp }} máxima do Herói é a sua {{ enr }} multiplicada por **10**.
 
-Efeitos de cartas podem modificar a {{ hp }} máxima do Herói.
+Efeitos podem modificar a {{ hp }} máxima do Herói.
 
 > {{ hp }} máxima: {{ enr }} × **10**.
 
@@ -153,7 +153,7 @@ O personagem morre quando a sua {{ hp }} é reduzida a 0 ou menos. Caso o person
 Os critérios para morte podem ser modificados de acordo com a campanha. Por exemplo, uma determinada missão pode especificar que um personagem deve ser nocauteado e capturado vivo, e que naquela missão específica, aquele personagem é considerado nocauteado quando sua {{ hp }} for 0 ou menos.
 !!!
 
-Ao final da batalha, o personagem pode ser revivido por alguns efeitos de cartas, se isto não for feito, o personagem está então permanentemente morto.
+Ao final da batalha, o personagem pode ser revivido por alguns efeitos, se isto não for feito, o personagem está então permanentemente morto.
 
 * A carta de {{ house }} deve ser banida.
 * Cartas de {{ item }} devem ser distribuídas entre os membros do seu time e/ou enviadas para o {{ market }}.

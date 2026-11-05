@@ -76,7 +76,7 @@ Diferente de outros personagens, quando uma evocação morre, ela é desevocada 
 
 ### <span class="icon"></span> Autômato
 
-- Reviver e curar não funcionam em autômatos, mas sim **Reparar**, que é feito por efeito de carta ou mecânica de jogo
+- Reviver e curar não funcionam em autômatos, mas sim **Reparar**, que é feito por efeito ou mecânica de jogo
   - *Reparar*: Descarte ícones de mech para reparar 25 de {{ hp }} por ícone descartado. Sendo que isso vale mesmo quando mortos, podendo recuperar vida e até voltarem à vida se for o caso.
 - Um personagem só pode consertar autômatos do conhecimento e nível que ele possui
   - O autômato tem que estar adjacente. Isso gasta all-in do personagem que reparar
@@ -183,7 +183,7 @@ Cartas de {{ companion }} são tratadas como personagens, e portanto, possuem um
 
 ### <span class="companion">Pagamento de Custos</span>
 
-Os COMPANHEIROS podem ser requeridos a pagar certos custos pelo efeito de outras cartas ou mecânica de jogo, como descartar cartas e valores.
+Os COMPANHEIROS podem ser requeridos a pagar certos custos por efeitos ou mecânicas de jogo, como descartar cartas e valores.
 
 Observando que COMPANHEIROS não possuem MESA nem {{ inv }}, quando um texto especificar uma ação impossível para um COMPANHEIRO, como “descarte do seu {{ inv }}” ou “deite 2 de {{ mp }}”, o personagem não tem como cumprir aquela exigência, logo, ela deve ser ignorada quando forem consequências dessa ação; quando forem requerimentos da ação, então ele não tem como cumprir estes requerimentos e a ação não pode ser realizada.
 
