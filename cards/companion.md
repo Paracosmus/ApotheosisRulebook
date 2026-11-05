@@ -19,11 +19,11 @@ São personagens humanos, animais ou evocações. Diferente de um [Herói](/hero
 
 1. **Nível e Conhecimentos**
 
-1. **Atributos Base**: Bônus passivo imediato providos por esta carta
+1. **Atributos Base**: Valores base dos [Atributos](/gameplay/attributes.md) próprios deste [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md)
 
-1. **Tipos de Anexos**: Texto do efeito desta carta
+1. **Tipos de Anexos**: Características de cartas anexadas que desbloqueiam técnicas desta carta
 
-1. **Técnicas**: Texto do efeito deste movimento carta
+1. **Técnicas**: Ações e efeitos próprios deste [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md)
 
 1. **Efeito**: Texto do efeito desta carta
 |||
@@ -142,38 +142,35 @@ Ao custo de 2 de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação), es
 
 ---
 
-## <span class="companion">Evoluir</span>
+## <span class="companion">Anexos</span>
 
-Este é o processo de trocar uma carta de [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) em seu [<span class="companion"><b>SUPORTE</b></span>](/hero/table/support.md) por outra de nível superior e mesmo caminho.
+Um [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) pode ter até **5** cartas anexadas a ele.
 
-A qualquer momento do turno de um personagem [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) que esteja na [<span class="main"><b>MESA</b></span>](/hero/table/) de um Herói, mesmo que em combate ou quando ele não tem acesso ao [<span class="companion"><b>BESTIÁRIO</b></span>](/gameplay/stack/bestiary.md), ele pode sacrificar o seu turno e descartar 3 de [<span class="skill"><b>XP</b></span>](/cards/skills.md), para selecionar uma carta de [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) do [<span class="companion"><b>BESTIÁRIO</b></span>](/gameplay/stack/bestiary.md) de nível imediatamente superior ao seu e de mesmo caminho, observando se o seu Herói possui o [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md) e nível necessários para ter aquela carta em sua [<span class="main"><b>MESA</b></span>](/hero/table/), bem como outros requerimentos, se houver.
+Durante o turno do Herói, ao custo de **2** de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação), ele pode anexar uma carta do seu [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) a um de seus [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) que esteja em uma casa adjacente a ele no tabuleiro. Da mesma forma, ao custo de **2** de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação), ele pode desanexar uma carta de um de seus [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) adjacente a ele, enviando-a de volta para o seu [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md). (No [Modo Narrativo](/gameplay/game-mode/story-mode.md), anexar e desanexar pode ser feito livremente.)
 
-Enterre então a carta de [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md), substituindo-a pela nova carta, que herda seus anexos e contadores.
+### Restrições de Anexo
 
-Selecionar a uma carta de COMPANHEIRO no seu INVENTÁRIO de mesmo Tipo de Companheiro, mesmo Caminho, e nível imediatamente superior. Coloque-a sobre a carta atual, de forma que não cubra as técnicas da mesma.
+- **Apenas Cartas de Recurso**: Somente cartas de Recurso podem ser anexadas a um [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) por esta mecânica. Uma carta de Ficha só pode ser anexada a um [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) se um efeito especificar isso explicitamente.
+- **Mesmo Tipo e Caminho**: Um [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) **não** pode ter anexada a ele outra carta de [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) que possua o mesmo **Tipo** e o mesmo **Caminho** que ele, mesmo que por efeito, a não ser que seja uma carta de nível inferior anexada por meio da mecânica de [Evoluir](#evoluir).
+
+### Características de Anexo
+
+As características de anexos marcam características desejadas de cartas anexadas àquele [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md). As cartas anexadas não precisam ter esta característica, mas se tiverem, podem desbloquear técnicas em sua hospedeira.
+
+A característica listada abrange basicamente qualquer elemento de uma carta, como valores, propriedades, efeitos, etc. Para que a característica seja válida, ela deve ser do mesmo nível da carta hospedeira.
 
 ---
 
-## <span class="companion">Anexos</span>
+## <span class="companion">Evoluir</span>
 
-Um [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) pode ter até 5 cartas anexadas a ele. Esse limite não pode ser excedido, nem mesmo por efeito de carta.
+Este é o processo de evoluir um [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) que está no seu [<span class="companion"><b>SUPORTE</b></span>](/hero/table/support.md) utilizando uma carta de [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) do seu [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) que possua o **mesmo Tipo**, o **mesmo Caminho** e **nível imediatamente superior** (do nível **1** para o **2**, ou do nível **2** para o **3**), observando se o Herói cumpre os requerimentos de [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md) e nível da nova carta, e se o limite de **5** anexos será respeitado.
 
-Durante o turno do Herói, ele pode anexar e/ou desanexar cartas do seu [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) a um de seus [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) em uma casa adjacente.
+1. Selecione a carta de [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) no seu [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) de mesmo Tipo, mesmo Caminho e nível imediatamente superior ao do [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) no seu [<span class="companion"><b>SUPORTE</b></span>](/hero/table/support.md).
+2. Substitua a carta atual no [<span class="companion"><b>SUPORTE</b></span>](/hero/table/support.md) pela nova carta. A nova carta recebe tudo o que pertencia à carta anterior (seus anexos, contadores, marcadores, etc.).
+3. A carta anterior passa a ficar **anexada** à nova carta de [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) (posicionada sob ela de forma que suas técnicas permaneçam visíveis).
+4. O [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) hospedeiro passa a ter acesso às **técnicas** da carta anexada por meio desta evolução.
 
-### [Modo Narrativo](/gameplay/game-mode/story-mode.md)
-
-- O jogador pode anexar cartas de recurso livremente
-
-### [Modo de Batalha](/gameplay/game-mode/battle-mode.md)
-
-- Custo de **2** de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação)
-- O personagem deve estar em uma casa adjacente ao herói no tabuleiro.
-
-### Tipos de Anexo
-
-Os tipos de anexos marcam características desejadas de cartas anexadas àquele [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md). As cartas anexadas não precisam ter esta característica, mas se tiverem, desbloqueiam técnicas em sua carta.
-
-A característica listada abrange basicamente qualquer elemento de uma carta, como valores, propriedades, efeitos, etc.
+Se um [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) de nível **2** que já possui um [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) de nível **1** anexado evoluir para o nível **3**, a carta de nível **1** é mantida como anexo e a carta de nível **2** também passa a ficar anexada ao novo [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) de nível **3**, que passa a ter acesso às técnicas de ambas as cartas anexadas.
 
 ---
 
