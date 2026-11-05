@@ -16,7 +16,7 @@ O nome do marcador é a sua única característica, ele é utilizado para identi
 
 ## Receber um Marcador
 
-Marcadores podem ser recebidos por meio de efeitos de cartas, ou por efeitos de campanha, ou por situações narrativas criadas sob demanda pelo mestre de jogo.
+Marcadores podem ser recebidos por meio de efeitos, ou por situações narrativas criadas sob demanda pelo mestre de jogo.
 
 Os marcadores são de caráter permanente. Uma vez recebido um marcador, ele permanece no personagem até que seja removido por um efeito.
 
@@ -26,7 +26,7 @@ Cada personagem pode ter infinitos marcadores, mas apenas um marcador de cada no
 
 ## Remover um Marcador
 
-Marcadores podem ser removidos por meio de efeitos de cartas, ou por efeitos de campanha, ou por situações narrativas criadas sob demanda pelo mestre de jogo.
+Marcadores podem ser removidos por meio de efeitos, ou por situações narrativas criadas sob demanda pelo mestre de jogo.
 
 Para remover um marcador, o efeito deve especificar o nome do marcador a ser removido. Se o personagem não possuir o marcador especificado, o efeito pode ser aplicado, apenas ignore a parte de remoção.
 
@@ -34,7 +34,7 @@ Para remover um marcador, o efeito deve especificar o nome do marcador a ser rem
 
 ## Usar um Marcador
 
-Marcadores podem ser usados por meio de efeitos, o marcador não tem um efeito por si só. Efeitos de carta e campanha exploram o marcador para criar condições e situações específicas para o personagem, que podem ser boas ou ruins.
+Marcadores podem ser usados por meio de efeitos, o marcador não tem um efeito por si só. Efeitos exploram o marcador para criar condições e situações específicas para o personagem, que podem ser boas ou ruins.
 
 !!!secondary Exemplo 1 - Bom
   Uma carta com os seguintes efeitos:

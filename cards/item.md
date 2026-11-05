@@ -56,7 +56,7 @@ Quando um [<span class="item"><b>ITEM</b></span>](/cards/item.md) em seu [<sp
 
 [<span class="item"><b>ITEM</b></span>](/cards/item.md) são as únicas cartas de Recurso que podem não ter um valor (preço).
 
-Se um [<span class="item"><b>ITEM</b></span>](/cards/item.md) não possuir [<span class="item"><b>PREÇO</b></span>](/cards/item.md), ele não pode ser obtido pelos meios padrões de trocas de cartas com o [<span class="main"><b>ENTREPOSTO</b></span>](/gameplay/stack/trading-post.md), e deve ser considerado como tendo valor zero em qualquer troca. Estes ainda podem ser obtidos de outras formas, como por exemplo, através de ações de personagens ou efeitos de cartas.
+Se um [<span class="item"><b>ITEM</b></span>](/cards/item.md) não possuir [<span class="item"><b>PREÇO</b></span>](/cards/item.md), ele não pode ser obtido pelos meios padrões de trocas de cartas com o [<span class="main"><b>ENTREPOSTO</b></span>](/gameplay/stack/trading-post.md), e deve ser considerado como tendo valor zero em qualquer troca. Estes ainda podem ser obtidos de outras formas, como por exemplo, através de ações de personagens ou efeitos.
 
 ---
 

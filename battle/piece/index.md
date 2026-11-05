@@ -49,7 +49,7 @@ A cura nunca deixa a [<span class="hp"><b>VIDA</b></span>](/hero/#vida) de um
 
 ### **Dummy**
 
-Personagem que não está ligado a um Herói ou COMPANHEIRO, criado pela campanha ou por efeitos de cartas; suas características são definidas pelo que o criou.
+Personagem que não está ligado a um Herói ou COMPANHEIRO, criado pela campanha ou por efeitos; suas características são definidas pelo que o criou.
 
 ## **Objeto**
 

@@ -34,7 +34,7 @@ O personagem (receptáculo) pode incorporar estas formas de energia e dominá-la
 
 ## <span class="entity">Incorporar</span>
 
-Cada tipo de [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) possui um requerimento mínimo de nível para ser incorporado pelo personagem. Quanto mais poderoso o ente, mais preparo físico, mental e espiritual o receptáculo precisa. Este requerimento deve sempre ser considerado, mesmo que o ente seja adicionado ao personagem por efeito de carta ou qualquer outra mecânica de jogo.
+Cada tipo de [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) possui um requerimento mínimo de nível para ser incorporado pelo personagem. Quanto mais poderoso o ente, mais preparo físico, mental e espiritual o receptáculo precisa. Este requerimento deve sempre ser considerado, mesmo que o ente seja adicionado ao personagem por efeito ou qualquer outra mecânica de jogo.
 
 Para incorporar, é necessário que o espaço de [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) na [<span class="main"><b>FICHA</b></span>](/hero/table/sheet.md) esteja disponível e o personagem esteja em um local de [<span class="entity"><b>FENDA</b></span>](/gameplay/stack/rift.md) que permita o acesso à carta desejada. Você deve selecionar uma carta, realizar uma Ação Total e enterrar 5 cartas de recurso do mesmo nível que o [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) selecionado. Envie a carta, oculta, para o espaço de [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) da sua [<span class="main"><b>MESA</b></span>](/hero/table/).
 
@@ -56,7 +56,7 @@ Quando o ente estiver desperto, no início de cada um de seus turnos, o personag
 
 Quando o [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) está desperto, sua carta deve ser revelada e o personagem recebe o bônus de atributo indicado na carta, bem como o seu efeito passa a ser considerado.
 
-O [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) não pode ser adormecido no mesmo turno em que ele foi despertado, a não ser por efeito de carta.
+O [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) não pode ser adormecido no mesmo turno em que ele foi despertado, a não ser por efeito.
 
 ---
 
@@ -66,7 +66,7 @@ Quando o ente está adormecido, sua carta está oculta e seus bônus e efeitos n
 
 O jogador pode adormecer seu [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) a qualquer momento de seu turno. Para isso, basta ocultar a carta de [<span class="entity"><b>ENTE</b></span>](/cards/entity.md).
 
-O [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) não pode ser despertado no mesmo turno em que ele foi adormecido, a não ser por efeito de carta.
+O [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) não pode ser despertado no mesmo turno em que ele foi adormecido, a não ser por efeito.
 
 ---
 

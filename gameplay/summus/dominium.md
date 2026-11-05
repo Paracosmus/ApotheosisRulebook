@@ -23,7 +23,7 @@ Dominiums são cartas de [<span class="event"><b>EVENTO</b></span>](/cards/ev
     - O efeito na caixa identificadora do Summus é válido apenas para o Herói que a ativou.
 - A carta deve ser removida do [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md) após passada a quantidade de *Fases de Restauração* definida na carta.
   - O jogador que ativou o Dominium pode optar por remover o Dominium do [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md) antes do tempo.
-- Quando no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md), o Dominium não pode ser removido por efeito de carta.
+- Quando no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md), o Dominium não pode ser removido por efeito.
 - Pode ser ativado apenas no turno do seu dono, e o turno se encerra imediatamente após sua ativação.
 
 <br>

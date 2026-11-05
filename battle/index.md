@@ -176,5 +176,5 @@ Uma área ao redor do usuário. Não confundir com explosivos.
 
 ---
 
-- [ ]  Explicar o que é um ataque. É a ação de ataque normal ou a ativação de uma carta que possui um dano na sua barra de ação. Um dano causado pelo efeito de uma carta não é um ataque, assim como quando você recebe dano de explosivo, apenas o tile alvo que foi atacado
+- [ ]  Explicar o que é um ataque. É a ação de ataque normal ou a ativação de uma carta que possui um dano na sua barra de ação. Um dano causado por um efeito não é um ataque, assim como quando você recebe dano de explosivo, apenas o tile alvo que foi atacado
 - [ ]  Explicar a diferença de sofrer dano, lesão e perder vida

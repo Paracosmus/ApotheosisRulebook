@@ -43,7 +43,7 @@ Uma carta pode ser adicionada ao [<span class="event"><b>CENÁRIO</b></span>]
 
 1. **Palavra-chave**: Quando um efeito com a palavra-chave [<span class="keyword-task">Registre</span>](/gameplay/effect.md) for ativado.
 
-1. **Efeito de carta**: Algumas cartas possuem efeitos que especificam qual, quando e como uma carta será enviada para o [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md).
+1. **Efeito**: Alguns efeitos especificam qual, quando e como uma carta será enviada para o [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md).
 
 1. **Configurações**: Algumas campanhas, formatos, modos de jogo, etc. possuem especificações de quais cartas devem ser colocadas no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md) e quando.
 
@@ -53,7 +53,7 @@ Uma carta pode ser adicionada ao [<span class="event"><b>CENÁRIO</b></span>]
 
 1. **Final do combate**: Ao final de cada combate, todas as cartas no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md) devem ser descartadas, a menos que uma regra ou efeito especifique o contrário.
 
-1. **Efeito de carta**: Algumas cartas possuem efeitos que especificam qual, quando e como uma carta será removida do [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md).
+1. **Efeito**: Alguns efeitos especificam qual, quando e como uma carta será removida do [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md).
 
 1. **Configurações**: Algumas campanhas, formatos, modos de jogo, etc. possuem especificações de quais cartas devem ser removidas do [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md) e quando.
 

@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847157659890">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847161701942">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -41,11 +41,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.6.0.847157659890" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.847161701942" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.847157659890" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.847161701942" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.847157659890" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.847161701942" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100..900&display=swap" rel="stylesheet">
@@ -559,7 +559,7 @@
 <h4 id="baralhos-de-campanha">Baralhos de Campanha</h4>
 <p>No formato padrão de campanhas, existem <strong>7</strong> baralhos de campanha, um para cartas de cada naipe. Estes baralhos são a fonte principal de novas cartas para os jogadores, e são utilizados para expandir o pool de cartas conforme a campanha progride.</p>
 <p>O conteúdo de um baralho é definido pela campanha ou formato de jogo, estando vazios por padrão. Sendo que uma composição inicial de cartas pode ser definida, bem como novas cartas podem ser adicionadas da caixa aos baralhos conforme a campanha progride, certos marcos e tarefas são concluídos ou conforme outras mecânicas estabelecidas pela campanha ou formato são executadas.</p>
-<p>Novas cartas podem ser adicionadas a estes baralhos pela campanha, e estas cartas são enviadas para os personagens ou para o <a href="/gameplay/stack/trading-post/"><span class="main"><b>ENTREPOSTO</b></span></a> seja pela campanha, mecânica de jogo ou efeito de carta.</p>
+<p>Novas cartas podem ser adicionadas a estes baralhos pela campanha, e estas cartas são enviadas para os personagens ou para o <a href="/gameplay/stack/trading-post/"><span class="main"><b>ENTREPOSTO</b></span></a> seja pela campanha, mecânica de jogo ou efeito.</p>
 <retype-table copy-text="Baralho         | Naipe
 --------------- |------
 [&lt;span class=&quot;house&quot;&gt;&lt;b&gt;MATRIZ&lt;/b&gt;&lt;/span&gt;](/gameplay/stack/cradle.md)    | Para cartas de [&lt;span class=&quot;house&quot;&gt;&lt;b&gt;CASA&lt;/b&gt;&lt;/span&gt;](/cards/house.md)
@@ -738,10 +738,10 @@
     </div>
 </div>
 <h3 id="estado-das-cartas">Estado das Cartas</h3>
-<p>As cartas em um monte não são consideradas nem restauradas, nem consumidas, nem possuem qualquer outro estado, a menos que seja especificado o contrário por um efeito de carta ou mecânica de jogo. A orientação, porém, sempre vale: ela é a do monte e define se os efeitos da carta são considerados.</p>
+<p>As cartas em um monte não são consideradas nem restauradas, nem consumidas, nem possuem qualquer outro estado, a menos que seja especificado o contrário por um efeito ou mecânica de jogo. A orientação, porém, sempre vale: ela é a do monte e define se os efeitos da carta são considerados.</p>
 <hr>
 <h2 id="buscar-cartas">Buscar Cartas</h2>
-<p>Alguns efeitos de cartas e mecânicas de jogo permitem que os jogadores busquem cartas em um monte de cartas, e as obtenham, descartem ou realizem outras tarefas.</p>
+<p>Alguns efeitos e mecânicas de jogo permitem que os jogadores busquem cartas em um monte de cartas, e as obtenham, descartem ou realizem outras tarefas.</p>
 <p>Este processo de ver um monte à procura de uma carta, ou filtrando cartas por critérios específicos, é conhecido como &quot;busca&quot;.</p>
 <p>Quando uma busca é realizada em um baralho com cartas ocultas, o jogador precisa olhar as cartas do baralho para encontrar a carta que deseja obter. Após localizar e/ou selecionar a carta desejada, ele deve embaralhar o baralho novamente para ocultar as cartas de forma que ele não tenha mais conhecimento sobre a posição das cartas.</p>
 <hr>
@@ -788,7 +788,7 @@
                 <span class="card-compact-icon inline-flex shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><!--icon--><path d="M15.22 4.97a.75.75 0 0 1 1.06 0l6.5 6.5a.75.75 0 0 1 0 1.06l-6.5 6.5a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L21.19 12l-5.97-5.97a.75.75 0 0 1 0-1.06Zm-6.44 0a.75.75 0 0 1 0 1.06L2.81 12l5.97 5.97a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215l-6.5-6.5a.75.75 0 0 1 0-1.06l6.5-6.5a.75.75 0 0 1 1.06 0Z"/></svg></span>
                 <span class="card-compact-title">Efeito</span>
             </div>
-            <p class="card-compact-description">O efeito de uma carta é um texto que descreve sua função e mecânica, explicando como jogá-la e aplicá-la durante a partida. A função do efeito é conferir</p>
+            <p class="card-compact-description">Um efeito é um texto que descreve uma função e mecânica especial, explicando como aplicá-la durante a partida. A função do efeito é conferir habilidades adicionais, comumente extrapolando as regras do jogo e permitindo interações mais complexas em busca de uma vantagem estratégica.</p>
         </div>
     </a>
 </div>
@@ -876,7 +876,7 @@
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-11-04T20:39:00" title="2026-11-04" data-absolute-label="Last updated on 2026-11-04 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-11-04 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-11-04T23:41:16" title="2026-11-04" data-absolute-label="Last updated on 2026-11-04 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-11-04 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
                         Last updated on 2026-11-04 by Bruno Caxito
                     </time>
                 </div>

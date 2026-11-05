@@ -29,7 +29,7 @@ Em outras palavras, anexos devem ser ignorados por efeitos e mecânicas de jogo,
 
 ## Anexar e Desanexar
 
-Cartas são anexadas ou desanexadas da hospedeira por efeitos de cartas, com exceção de cartas de [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md), cujos anexos podem também ser gerenciados por sua [regra específica](/cards/companion.md#anexos).
+Cartas são anexadas ou desanexadas da hospedeira por efeitos, com exceção de cartas de [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md), cujos anexos podem também ser gerenciados por sua [regra específica](/cards/companion.md#anexos).
 
 ---
 

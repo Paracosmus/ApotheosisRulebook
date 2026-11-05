@@ -8,7 +8,7 @@ Geralmente, esse método é utilizado para deslocamentos de grandes distâncias,
 
 O tempo de duração de uma viagem é medido em períodos do dia, e pode variar dependendo da distância entre os locais, condições das estradas, meios de transporte utilizados, e outros fatores.
 
-Durante a viagem, o grupo pode enfrentar eventos e desafios específicos relacionados ao deslocamento, como encontros aleatórios, condições climáticas adversas, ou efeitos de cartas que podem ser ativados durante a viagem.
+Durante a viagem, o grupo pode enfrentar eventos e desafios específicos relacionados ao deslocamento, como encontros aleatórios, condições climáticas adversas, ou efeitos que podem ser ativados durante a viagem.
 
 ---
 
@@ -19,7 +19,7 @@ Uma viagem começa quando o grupo anuncia que irá se deslocar para outro local 
 {.list-icon}
 - 🕦 Verifique a distância em [períodos do dia](/gameplay/time.md#período-do-dia) entre o local atual e o local de destino. Este será o tempo inicial necessário para a viagem, caso não haja interrupções. O mapa da região, geralmente fornecido pela campanha, contém esses valores ou permite calcular a distância com base em outros critérios.
 
-- 👣 Aplique quaisquer modificadores de tempo de viagem, geralmente causados pela situação das estradas ou do percurso, por condições de campanha, meios de transporte, efeitos de cartas etc., e então determine o tempo total de viagem. Serão então utilizados [<span class="main">❂<b>CONTADOR DE VIAGEM</b></span>](/gameplay/counter/) para medir o tempo de viagem, a viagem começa com zero contadores e a cada avanço é adicionado um contador.
+- 👣 Aplique quaisquer modificadores de tempo de viagem, geralmente causados pela situação das estradas ou do percurso, por condições de campanha, meios de transporte, efeitos, etc., e então determine o tempo total de viagem. Serão então utilizados [<span class="main">❂<b>CONTADOR DE VIAGEM</b></span>](/gameplay/counter/) para medir o tempo de viagem, a viagem começa com zero contadores e a cada avanço é adicionado um contador.
 
 - 🗺️ O grupo então entra no _"modo de viagem"_, e suas regras específicas de jogo são aplicadas.
 
@@ -59,7 +59,7 @@ Observe que algumas cartas de [<span class="event"><b>EVENTO</b></span>](/car
 
 Ao chegar ao destino, avance para o próximo período do dia, e o modo de viagem se encerra, retornando ao modo narrativo.
 
-O grupo deve resolver quaisquer efeitos ou eventos que possam ocorrer ao chegar no novo local, como recompensas, resolver efeitos de cartas ou enfrentar desafios específicos do local.
+O grupo deve resolver quaisquer efeitos ou eventos que possam ocorrer ao chegar no novo local, como recompensas, ou enfrentar desafios específicos do local.
 
 ---
 
@@ -67,12 +67,12 @@ O grupo deve resolver quaisquer efeitos ou eventos que possam ocorrer ao chegar 
 
 Uma viagem rápida é uma mecânica que permite ao grupo se deslocar instantaneamente entre locais, sem a necessidade de jogar o modo de viagem.
 
-Essa opção de viagem não fica disponível livremente e só se torna acessível por meio de efeitos de cartas ou de condições estabelecidas pela campanha, como viajar com caravanas mercantes, passagens de navios e trens, entre outras.
+Essa opção de viagem não fica disponível livremente e só se torna acessível por meio de efeitos ou de condições estabelecidas pela campanha, como viajar com caravanas mercantes, passagens de navios e trens, entre outras.
 
 Quando uma viagem rápida é realizada, o grupo deve:
-- Resolver quaisquer efeitos de cartas e condições de campanha relacionados ao [início](#iniciando-uma-viagem) de uma viagem ou viagem rápida.
+- Resolver quaisquer efeitos e condições de campanha relacionados ao [início](#iniciando-uma-viagem) de uma viagem ou viagem rápida.
 - Calcular normalmente o tempo necessário para a viagem e seus modificadores.
 - O período do dia é avançado de acordo com o tempo de viagem, e o grupo chega ao novo local sem a necessidade de jogar o modo de viagem.
-- Resolver quaisquer efeitos de cartas e condições de campanha relacionados ao [fim](#fim-da-viagem) de uma viagem ou viagem rápida.
+- Resolver quaisquer efeitos e condições de campanha relacionados ao [fim](#fim-da-viagem) de uma viagem ou viagem rápida.
 
 ---

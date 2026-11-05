@@ -36,7 +36,7 @@ O nível do Herói é a soma do nível da sua carta de [<span class="house"><
 
 Apenas esses **4** espaços contam: cartas em outros locais da [<span class="main"><b>FICHA</b></span>](/hero/table/sheet.md), como a Zona Extra, não somam nível, mesmo que sejam de [<span class="house"><b>CASA</b></span>](/cards/house.md) ou [<span class="class"><b>CLASSE</b></span>](/cards/class.md).
 
-Efeitos de cartas podem modificar o nível do Herói, mas ele nunca fica abaixo de **1** nem acima de **10**.
+Efeitos podem modificar o nível do Herói, mas ele nunca fica abaixo de **1** nem acima de **10**.
 
 ---
 
@@ -53,7 +53,7 @@ Cada atributo do Herói é a soma dos bônus daquele atributo nas suas cartas re
 
 Não somam atributos ao Herói: cartas ocultas, cartas anexadas e os [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) no [<span class="companion"><b>SUPORTE</b></span>](/hero/table/support.md).
 
-Efeitos de cartas podem modificar os atributos do Herói, mas nenhum deles fica abaixo de **1**.
+Efeitos podem modificar os atributos do Herói, mas nenhum deles fica abaixo de **1**.
 
 ---
 
@@ -61,7 +61,7 @@ Efeitos de cartas podem modificar os atributos do Herói, mas nenhum deles fica 
 
 O nível do Herói em cada [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md) recebe **+1** para cada vez que aquele [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md) aparece listado nas cartas de [<span class="class"><b>CLASSE</b></span>](/cards/class.md) reveladas na sua [<span class="main"><b>FICHA</b></span>](/hero/table/sheet.md), inclusive na Zona Extra.
 
-Efeitos de cartas podem modificar os conhecimentos do Herói, mas nenhum deles fica abaixo de **0**. Um [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md) de nível **0** é um [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md) que o Herói não possui.
+Efeitos podem modificar os conhecimentos do Herói, mas nenhum deles fica abaixo de **0**. Um [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md) de nível **0** é um [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md) que o Herói não possui.
 
 ---
 
@@ -69,7 +69,7 @@ Efeitos de cartas podem modificar os conhecimentos do Herói, mas nenhum deles f
 
 A [<span class="hp"><b>VIDA</b></span>](/hero/#vida) máxima do Herói é a sua [<span class="house"><b>CON</b></span>](/gameplay/attributes.md) multiplicada por **10**.
 
-Efeitos de cartas podem modificar a [<span class="hp"><b>VIDA</b></span>](/hero/#vida) máxima do Herói.
+Efeitos podem modificar a [<span class="hp"><b>VIDA</b></span>](/hero/#vida) máxima do Herói.
 
 > [<span class="hp"><b>VIDA</b></span>](/hero/#vida) máxima: [<span class="house"><b>CON</b></span>](/gameplay/attributes.md) × **10**.
 
@@ -150,7 +150,7 @@ O personagem morre quando a sua [<span class="hp"><b>VIDA</b></span>](/hero/#
 Os critérios para morte podem ser modificados de acordo com a campanha. Por exemplo, uma determinada missão pode especificar que um personagem deve ser nocauteado e capturado vivo, e que naquela missão específica, aquele personagem é considerado nocauteado quando sua [<span class="hp"><b>VIDA</b></span>](/hero/#vida) for 0 ou menos.
 !!!
 
-Ao final da batalha, o personagem pode ser revivido por alguns efeitos de cartas, se isto não for feito, o personagem está então permanentemente morto.
+Ao final da batalha, o personagem pode ser revivido por alguns efeitos, se isto não for feito, o personagem está então permanentemente morto.
 
 * A carta de [<span class="house"><b>CASA</b></span>](/cards/house.md) deve ser banida.
 * Cartas de [<span class="item"><b>ITEM</b></span>](/cards/item.md) devem ser distribuídas entre os membros do seu time e/ou enviadas para o [<span class="item"><b>MERCADO</b></span>](/gameplay/stack/market.md).

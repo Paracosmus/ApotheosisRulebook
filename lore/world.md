@@ -42,7 +42,7 @@ Por fim, cada local define também, as [paisagens](#paisagem) presentes nele.
 
 > A paisagem é a descrição visual e ambiental de uma região específica do mapa. Ela inclui detalhes sobre o terreno, vegetação, clima e outros elementos naturais que ajudam a criar uma atmosfera única para cada local. A paisagem pode influenciar as aventuras dos jogadores, afetando a forma como eles interagem com o ambiente e os desafios que enfrentam.
 
-Cada local do mapa é definido por uma ou mais paisagens, que podem ser utilizadas por certos efeitos de cartas, especialmente cartas de [<span class="event"><b>EVENTO</b></span>](/cards/event.md) relacionados a natureza, clima e terreno. Em certas campanhas, a paisagem também pode afetar a mecânica do jogo, como a movimentação dos personagens, a visibilidade e a interação com o ambiente.
+Cada local do mapa é definido por uma ou mais paisagens, que podem ser utilizadas por certos efeitos, especialmente cartas de [<span class="event"><b>EVENTO</b></span>](/cards/event.md) relacionados a natureza, clima e terreno. Em certas campanhas, a paisagem também pode afetar a mecânica do jogo, como a movimentação dos personagens, a visibilidade e a interação com o ambiente.
 
 * 🌾 Campo
 * 🌳 Florestal

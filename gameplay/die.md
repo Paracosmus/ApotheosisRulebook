@@ -60,7 +60,7 @@ Em uma rolagem perfeita, o jogador deve:
 
 ## Dado Aleatório
 
-Em alguns casos, pode ser solicitada a rolagem de **Dados Aleatórios**. Isso significa que o jogador deve rolar os dados solicitados, ignorar quaisquer bônus e efeitos de carta que afetem a rolagem de dados e considerar apenas o valor obtido no dado.
+Em alguns casos, pode ser solicitada a rolagem de **Dados Aleatórios**. Isso significa que o jogador deve rolar os dados solicitados, ignorar quaisquer bônus e efeitos que afetem a rolagem de dados e considerar apenas o valor obtido no dado.
 
 Estes dados também não compartilham as características da carta ou mecânica que os solicitou.
 

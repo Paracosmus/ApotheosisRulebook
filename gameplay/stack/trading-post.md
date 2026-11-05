@@ -41,12 +41,12 @@ Para trocar cartas de recurso com o [<span class="main"><b>ENTREPOSTO</b></span>
 
 Os locais no jogo são definidos pela campanha ou formato de jogo, e cada local tem um nível de acesso individual, de **0** a **3**, para cada baralho, exceto a [<span class="house"><b>MATRIZ</b></span>](/gameplay/stack/cradle.md). A [<span class="house"><b>MATRIZ</b></span>](/gameplay/stack/cradle.md) não tem nível de acesso, pois cartas de [<span class="house"><b>CASA</b></span>](/cards/house.md) são obtidas apenas por efeitos. O nível de acesso de um local define o nível máximo que as cartas obtidas podem ter.
 
-O nível de acesso do local não limita o acesso pelo efeito de cartas. Os efeitos podem ou não estabelecer seus próprios filtros.
+O nível de acesso do local não limita o acesso por efeitos. Os efeitos podem ou não estabelecer seus próprios filtros.
 
 ### Restrição de Batalha
 
 Indiferente do nível de acesso do local em que a batalha estiver acontecendo, o nível de acesso do [<span class="main"><b>ENTREPOSTO</b></span>](/gameplay/stack/trading-post.md) durante uma batalha é sempre 0, impossibilitando a troca de cartas.
 
-Alguns efeitos de cartas, como cartas de [<span class="event"><b>EVENTO</b></span>](/cards/event.md) no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md), entre outras, podem modificar o nível de acesso de um local, isso inclui durante uma batalha, permitindo dessa forma a troca de cartas em batalha.
+Alguns efeitos, como os de cartas de [<span class="event"><b>EVENTO</b></span>](/cards/event.md) no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md), entre outros, podem modificar o nível de acesso de um local, isso inclui durante uma batalha, permitindo dessa forma a troca de cartas em batalha.
 
 ---

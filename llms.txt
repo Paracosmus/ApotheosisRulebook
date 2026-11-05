@@ -8,7 +8,7 @@
 - [Cartas](https://apotheosiscardgame.com/cards/index.md): São a base do jogo, as partículas que compõem os personagens e eventos. Cada carta possui um conjunto de informações que são utilizadas para dar função e significado.
 - [Herói](https://apotheosiscardgame.com/hero/index.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [Batalha](https://apotheosiscardgame.com/battle/index.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
-- [Diretrizes](https://apotheosiscardgame.com/guidelines.md): As diretrizes são regras gerais aplicáveis a todas as situações do jogo. Elas devem ser seguidas sempre que possível, a não ser quando uma regra mais específica ou um efeito de carta disser o contrário.
+- [Diretrizes](https://apotheosiscardgame.com/guidelines.md): As diretrizes são regras gerais aplicáveis a todas as situações do jogo. Elas devem ser seguidas sempre que possível, a não ser quando uma regra mais específica ou um efeito disser o contrário.
 - [Cartilha](https://apotheosiscardgame.com/chart.md): Custo de AÇÃO e/ou Energia (ESTAMINA, MANA e/ou Essência), além dos requerimentos e custos adicionais descritos na carta, se houver
 - [Glossário](https://apotheosiscardgame.com/glossary.md): Este livro e as cartas do jogo utilizam termos com significados específicos. Abaixo estão listados esses termos e seus significados.
 - [Ícones](https://apotheosiscardgame.com/icons.md): Icon
@@ -147,7 +147,7 @@
 ### Modo de Jogo
 
 - [Modo de Jogo](https://apotheosiscardgame.com/gameplay/game-mode/index.md): A forma como os jogadores interagem com o sistema. Pode variar desde um modo imaginativo, até um modo apenas no tabuleiro.
-- [Modo de Batalha](https://apotheosiscardgame.com/gameplay/game-mode/battle-mode.md): É o modo de jogo onde os jogadores participam de combates táticos, utilizando as regras de batalha para resolver ações e efeitos de cartas.
+- [Modo de Batalha](https://apotheosiscardgame.com/gameplay/game-mode/battle-mode.md): É o modo de jogo onde os jogadores participam de combates táticos, utilizando as regras de batalha para resolver ações e efeitos.
 - [Modo Narrativo](https://apotheosiscardgame.com/gameplay/game-mode/story-mode.md): É o modo de jogo onde os jogadores participam de uma narrativa livre, focada em interpretação e estória, com resolução de ações através de testes.
 - [Modo de Viagem](https://apotheosiscardgame.com/gameplay/game-mode/travel-mode.md): É um modo utilizado quando o grupo se desloca de um local do mapa da região para outro local distante, sem que seja necessário jogar todos os momentos de uma longa viagem.
 - [Modo de Vasculhador](https://apotheosiscardgame.com/gameplay/game-mode/scavenger-mode.md): É o modo de jogo onde os Heróis exploram os ermos prateados em busca de resgatar tesouros e segredos antigos.
@@ -169,7 +169,7 @@
 - [Entreposto](https://apotheosiscardgame.com/gameplay/stack/trading-post.md): Esta é a zona do jogo para onde as cartas são enviadas quando são descartadas.
 - [Cenário](https://apotheosiscardgame.com/gameplay/stack/scenario.md): É a área onde ficam as cartas em jogo do Mestre ou da campanha. Cartas que estão em jogo, mas não pertencem a nenhum Herói.
 - [Banidas](https://apotheosiscardgame.com/gameplay/stack/banished.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
-- [Efeito](https://apotheosiscardgame.com/gameplay/effect.md): O efeito de uma carta é um texto que descreve sua função e mecânica, explicando como jogá-la e aplicá-la durante a partida. A função do efeito é conferir
+- [Efeito](https://apotheosiscardgame.com/gameplay/effect.md): Um efeito é um texto que descreve uma função e mecânica especial, explicando como aplicá-la durante a partida. A função do efeito é conferir habilidades adicionais, comumente extrapolando as regras do jogo e permitindo interações mais complexas em busca de uma vantagem estratégica.
 - [Técnica](https://apotheosiscardgame.com/gameplay/technique.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [ATRIBUTOS](https://apotheosiscardgame.com/gameplay/attributes.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [Conhecimentos](https://apotheosiscardgame.com/gameplay/knowledge.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.

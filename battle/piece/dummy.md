@@ -4,11 +4,11 @@
   Trata-se de uma peça no tabuleiro que não representa um personagem Herói, com [<span class="main"><b>MESA</b></span>](/hero/table/), e nem um personagem [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md), com uma carta que o define.
 |||
     
-São usados primariamente para representar personagens avulsos, sejam gerados por efeitos de carta ou pela campanha.
+São usados primariamente para representar personagens avulsos, sejam gerados por efeitos ou pela campanha.
 
 É comum que chefes de campanha (boss) sejam representados por Modelos que possam funcionar em suas próprias regras, permitindo ao chefe realizar ações e possuir habilidades sem a necessidade da construção de um personagem completo e complexo, dado que chefes são comumente extremamente poderosos e com suas próprias mecânicas únicas.
 
-Outra forma comum é para gerar personagens temporários ou voláteis gerados por efeitos de cartas, como por exemplo, o efeito de uma carta que gera um personagem aliado temporário, ou um personagem inimigo temporário.
+Outra forma comum é para gerar personagens temporários ou voláteis gerados por efeitos, como por exemplo, um efeito que gera um personagem aliado temporário, ou um personagem inimigo temporário.
 
 ---
 
