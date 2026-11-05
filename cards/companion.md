@@ -22,11 +22,11 @@ São personagens humanos, animais ou evocações. Diferente de um [Herói](/hero
 
 1. **Nível e Conhecimentos**
 
-1. **Atributos Base**: Bônus passivo imediato providos por esta carta
+1. **Atributos Base**: Valores base dos [Atributos](/gameplay/attributes.md) próprios deste {{ companion }}
 
-1. **Tipos de Anexos**: Texto do efeito desta carta
+1. **Tipos de Anexos**: Características de cartas anexadas que desbloqueiam técnicas desta carta
 
-1. **Técnicas**: Texto do efeito deste movimento carta
+1. **Técnicas**: Ações e efeitos próprios deste {{ companion }}
 
 1. **Efeito**: Texto do efeito desta carta
 |||
@@ -145,38 +145,35 @@ Ao custo de 2 de {{ ap }}, esta carta pode ser enviada do {{ support }} para o {
 
 ---
 
-## <span class="companion">Evoluir</span>
+## <span class="companion">Anexos</span>
 
-Este é o processo de trocar uma carta de {{ companion }} em seu {{ support }} por outra de nível superior e mesmo caminho.
+Um {{ companion }} pode ter até **5** cartas anexadas a ele.
 
-A qualquer momento do turno de um personagem {{ companion }} que esteja na {{ table }} de um Herói, mesmo que em combate ou quando ele não tem acesso ao {{ bestiary }}, ele pode sacrificar o seu turno e descartar 3 de {{ xp }}, para selecionar uma carta de {{ companion }} do {{ bestiary }} de nível imediatamente superior ao seu e de mesmo caminho, observando se o seu Herói possui o {{ knowledge }} e nível necessários para ter aquela carta em sua {{ table }}, bem como outros requerimentos, se houver.
+Durante o turno do Herói, ao custo de **2** de {{ ap }}, ele pode anexar uma carta do seu {{ inv }} a um de seus {{ companion }} que esteja em uma casa adjacente a ele no tabuleiro. Da mesma forma, ao custo de **2** de {{ ap }}, ele pode desanexar uma carta de um de seus {{ companion }} adjacente a ele, enviando-a de volta para o seu {{ inv }}. (No [Modo Narrativo](/gameplay/game-mode/story-mode.md), anexar e desanexar pode ser feito livremente.)
 
-Enterre então a carta de {{ companion }}, substituindo-a pela nova carta, que herda seus anexos e contadores.
+### Restrições de Anexo
 
-Selecionar a uma carta de COMPANHEIRO no seu INVENTÁRIO de mesmo Tipo de Companheiro, mesmo Caminho, e nível imediatamente superior. Coloque-a sobre a carta atual, de forma que não cubra as técnicas da mesma.
+- **Apenas Cartas de Recurso**: Somente cartas de Recurso podem ser anexadas a um {{ companion }} por esta mecânica. Uma carta de Ficha só pode ser anexada a um {{ companion }} se um efeito especificar isso explicitamente.
+- **Mesmo Tipo e Caminho**: Um {{ companion }} **não** pode ter anexada a ele outra carta de {{ companion }} que possua o mesmo **Tipo** e o mesmo **Caminho** que ele, mesmo que por efeito, a não ser que seja uma carta de nível inferior anexada por meio da mecânica de [Evoluir](#evoluir).
+
+### Características de Anexo
+
+As características de anexos marcam características desejadas de cartas anexadas àquele {{ companion }}. As cartas anexadas não precisam ter esta característica, mas se tiverem, podem desbloquear técnicas em sua hospedeira.
+
+A característica listada abrange basicamente qualquer elemento de uma carta, como valores, propriedades, efeitos, etc. Para que a característica seja válida, ela deve ser do mesmo nível da carta hospedeira.
 
 ---
 
-## <span class="companion">Anexos</span>
+## <span class="companion">Evoluir</span>
 
-Um {{ companion }} pode ter até 5 cartas anexadas a ele. Esse limite não pode ser excedido, nem mesmo por efeito de carta.
+Este é o processo de evoluir um {{ companion }} que está no seu {{ support }} utilizando uma carta de {{ companion }} do seu {{ inv }} que possua o **mesmo Tipo**, o **mesmo Caminho** e **nível imediatamente superior** (do nível **1** para o **2**, ou do nível **2** para o **3**), observando se o Herói cumpre os requerimentos de {{ knowledge }} e nível da nova carta, e se o limite de **5** anexos será respeitado.
 
-Durante o turno do Herói, ele pode anexar e/ou desanexar cartas do seu {{ inv }} a um de seus {{ companion }} em uma casa adjacente.
+1. Selecione a carta de {{ companion }} no seu {{ inv }} de mesmo Tipo, mesmo Caminho e nível imediatamente superior ao do {{ companion }} no seu {{ support }}.
+2. Substitua a carta atual no {{ support }} pela nova carta. A nova carta recebe tudo o que pertencia à carta anterior (seus anexos, contadores, marcadores, etc.).
+3. A carta anterior passa a ficar **anexada** à nova carta de {{ companion }} (posicionada sob ela de forma que suas técnicas permaneçam visíveis).
+4. O {{ companion }} hospedeiro passa a ter acesso às **técnicas** da carta anexada por meio desta evolução.
 
-### [Modo Narrativo](/gameplay/game-mode/story-mode.md)
-
-- O jogador pode anexar cartas de recurso livremente
-
-### [Modo de Batalha](/gameplay/game-mode/battle-mode.md)
-
-- Custo de **2** de {{ ap }}
-- O personagem deve estar em uma casa adjacente ao herói no tabuleiro.
-
-### Tipos de Anexo
-
-Os tipos de anexos marcam características desejadas de cartas anexadas àquele {{ companion }}. As cartas anexadas não precisam ter esta característica, mas se tiverem, desbloqueiam técnicas em sua carta.
-
-A característica listada abrange basicamente qualquer elemento de uma carta, como valores, propriedades, efeitos, etc.
+Se um {{ companion }} de nível **2** que já possui um {{ companion }} de nível **1** anexado evoluir para o nível **3**, a carta de nível **1** é mantida como anexo e a carta de nível **2** também passa a ficar anexada ao novo {{ companion }} de nível **3**, que passa a ter acesso às técnicas de ambas as cartas anexadas.
 
 ---
 
