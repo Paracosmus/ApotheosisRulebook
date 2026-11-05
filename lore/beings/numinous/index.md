@@ -14,7 +14,7 @@ Possuem um equivalente a uma consciência e um equivalente a um corpo.
 <aside>
 <img src="/icons/bookmark_gray.svg" alt="/icons/bookmark_gray.svg" width="40px" />
 
-Por exemplo, [**Maedra**](https://www.notion.so/Maedra-2a383fd0169e80768000ebd10f9cc42a?pvs=21) é a numinosa do mundo físico, sendo o “corpo“ dela as dimensões espaciais onde toda a matéria existe.
+Por exemplo, [**Maedra**](/lore/beings/numinous/Others/maedra.md) é a numinosa do mundo físico, sendo o “corpo“ dela as dimensões espaciais onde toda a matéria existe.
 
 </aside>
 
@@ -30,7 +30,7 @@ O conjunto desses dois componentes que formam um numinoso definem sobre o que el
 <aside>
 <img src="/icons/bookmark_gray.svg" alt="/icons/bookmark_gray.svg" width="40px" />
 
-Por exemplo, [**Maedra**](https://www.notion.so/Maedra-2a383fd0169e80768000ebd10f9cc42a?pvs=21) sendo a numinosa do mundo físico, ela age sobre a matéria e o espaço físico. Dessa forma, as linhas leys da terra e do cosmos são as linhas leys do corpo dela, e todos os seres biológicos vivem nela, por isso sendo chamada de a *Grande Mãe.*
+Por exemplo, [**Maedra**](/lore/beings/numinous/Others/maedra.md) sendo a numinosa do mundo físico, ela age sobre a matéria e o espaço físico. Dessa forma, as linhas leys da terra e do cosmos são as linhas leys do corpo dela, e todos os seres biológicos vivem nela, por isso sendo chamada de a *Grande Mãe.*
 
 </aside>
 

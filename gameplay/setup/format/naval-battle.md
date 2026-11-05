@@ -110,9 +110,9 @@ Melhorias são compradas em estaleiros, pagando com cargas específicas.
 | Cirurgião de Bordo | Quadrado     | 3 de Chá                            | Sacrificar o turno  para recuperar 1 de tripulação |
 | Quartermestre      | Triângulo    | 3 de Tabaco                         | <span class="positive">+2</span> de Tripulação |
 | Construtor         | Escudo       | 5 de Madeira                        | Tem que remover o shield primeiro (tem que reparar o navio completamente para recuperar o shield) |
-| Carpinteiro        | Coração      | 3 de Madeira                        | Sacrificar o turno para recuperar <span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">1</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">2</span></span></span> de vida |
+| Carpinteiro        | Coração      | 3 de Madeira                        | Sacrificar o turno para recuperar <span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">1</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">2</span></span></span> de [<span class="hp"><b>VIDA</b></span>](/hero/#vida) |
 | Homem de Armas     | Impacto      | 4 de Rum                            | <span class="positive">+2</span> em abordagens |
-| Sentinela          | Mira         | 3 de Açúcar                         | <span class="positive">+1</span> de alcance para os canhões |
+| Sentinela          | Mira         | 3 de Açúcar                         | <span class="positive">+1</span> de <b>ALCANCE</b> para os canhões |
 | Piloto             | Estrela      | 1 de Açúcar e 2 de Tabaco           | <span class="positive">+1</span> de Velocidade e Manobrabilidade |
 | Artilheiro         | Encantamento | 2 de Rum, 1 de Açúcar e 1 de Tabaco | <span class="positive">+2</span> de Canhões |
 

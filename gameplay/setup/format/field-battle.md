@@ -12,15 +12,15 @@ O governo da resistência precisa ser administrado, para isso são usados **Pode
 
 |
 | --- | --- | --- | --- |
-| **Poder** | Representa a quantidade de pessoas ao seu lado e seu poder de convencimento geral | O número de milícias recrutadas a cada rotação. | Representado pelo número de contadores na carta de classe no suporte do Exército |
+| **Poder** | Representa a quantidade de pessoas ao seu lado e seu poder de convencimento geral | O número de milícias recrutadas a cada rotação. | Representado pelo número de [<span class="main">❂<b>CONTADOR</b></span>](/gameplay/counter/) na carta de [<span class="class"><b>CLASSE</b></span>](/cards/class.md) no [<span class="companion"><b>SUPORTE</b></span>](/hero/table/support.md) do Exército |
 
 E **Recursos**, uma moeda de troca usada para comprar tropas, melhorias, entre outros;
 
 |
 | --- | --- |
-| 💰 **Dinheiro** | Representado pelo número de contadores na carta de **Muito Papel Moeda** no suporte do Exército |
-| 🍊 **Alimentos** | Representado pelo número de contadores na carta de **Banquete** no suporte do Exército |
-| 🪨 **Metais** | Representado pelo número de contadores na carta de **Postura Defensiva** no suporte do Exército |
+| 💰 **Dinheiro** | Representado pelo número de [<span class="main">❂<b>CONTADOR</b></span>](/gameplay/counter/) na carta de **Muito Papel Moeda** no [<span class="companion"><b>SUPORTE</b></span>](/hero/table/support.md) do Exército |
+| 🍊 **Alimentos** | Representado pelo número de [<span class="main">❂<b>CONTADOR</b></span>](/gameplay/counter/) na carta de **Banquete** no [<span class="companion"><b>SUPORTE</b></span>](/hero/table/support.md) do Exército |
+| 🪨 **Metais** | Representado pelo número de [<span class="main">❂<b>CONTADOR</b></span>](/gameplay/counter/) na carta de **Postura Defensiva** no [<span class="companion"><b>SUPORTE</b></span>](/hero/table/support.md) do Exército |
 
 ## Diplomacia
 
@@ -72,21 +72,21 @@ Na fase de rotação, os jogadores podem mover unidades à sua escolha, de uma p
 
 ### Batalha
 
-A batalha campal segue as mesmas regras de um combate entre [Companion](https://www.notion.so/Companion-27083fd0169e8001a3c9fbac0d8a3684?pvs=21). Respeitando pontos de ação, regras de movimento, cálculo de distância, altura, adjacência, etc.
+A batalha campal segue as mesmas regras de um combate entre [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md). Respeitando pontos de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação), regras de movimento, cálculo de distância, <b>ALTITUDE</b>, adjacência, etc.
 
-Porém, apenas [Companion](https://www.notion.so/Companion-27083fd0169e8001a3c9fbac0d8a3684?pvs=21) com a propriedade **Unidade** podem participar.
+Porém, apenas [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) com a propriedade **Unidade** podem participar.
 
 <aside>
 
 Adicionalmente, unidades possuem orientação, e sofrem bônus de ataque quando atacadas pelas costas e flancos.
 
-- **Retaguarda** **→** **+4** de Dano
-- **Flancos** → **+2** de Dano
+- **Retaguarda** **→** **+4** de <b>DANO</b>
+- **Flancos** → **+2** de <b>DANO</b>
 </aside>
 
 <aside>
 
-A Vida da unidade representa a sua Moral, ou seja, quando a vida de tropa acaba, isso não significa que ela foi completamente dizimada, mas sim que ela dispersou ou debandou mediante a situação de vida ou morte.
+A [<span class="hp"><b>VIDA</b></span>](/hero/#vida) da unidade representa a sua Moral, ou seja, quando a [<span class="hp"><b>VIDA</b></span>](/hero/#vida) de tropa acaba, isso não significa que ela foi completamente dizimada, mas sim que ela dispersou ou debandou mediante a situação de vida ou morte.
 
 Uma unidade só é exterminada em caso de Perda Total.
 
@@ -96,41 +96,41 @@ Uma unidade só é exterminada em caso de Perda Total.
 
 Cada unidade representa uma tropa ou pelotão daquele exército, tendo técnicas e atributos usados conforme regras normais.
 
-Porém, técnicas que requerem anexos, devem ser garantidas anexando as respectivas cartas de recursos ao remover um contador do marcador do exército.
+Porém, técnicas que requerem anexos, devem ser garantidas anexando as respectivas cartas de recursos ao remover um [<span class="main">❂<b>CONTADOR</b></span>](/gameplay/counter/) do marcador do exército.
 
-- Item → Dinheiro → Muito Papel Moeda
-- Evento → Alimentos → Banquete
-- Habilidade → Metal → Postura Defensiva
+- [<span class="item"><b>ITEM</b></span>](/cards/item.md) → Dinheiro → Muito Papel Moeda
+- [<span class="event"><b>EVENTO</b></span>](/cards/event.md) → Alimentos → Banquete
+- [<span class="skill"><b>HABILIDADE</b></span>](/cards/skills.md) → Metal → Postura Defensiva
 
 |
 | --- | --- | --- |
-| **CON** | MORAL | Define a quantidade de Vida |
-| **FOR** | DANO | Dano causado em ataques normais |
-| **AGI** | DESLOCAMENTO | Equivalente à AÇÃO nas regras padrão |
-| **PER** | ALCANCE | Dano causado em ataques à distância |
-| **INT** | EXPERIÊNCIA MÁXIMA | Número máximo de contadores de Experiência que esta carta pode ter |
-| **CAR** | CONFIANÇA | Valor de Moral recuperado quando uma unidade inimiga é debandada |
-| **ESP** | DANO ESPECIAL | Usado para definir o dano de técnicas como magias e explosivos |
+| [<span class="house"><b>CON</b></span>](/gameplay/attributes.md) | MORAL | Define a quantidade de [<span class="hp"><b>VIDA</b></span>](/hero/#vida) |
+| [<span class="house"><b>FOR</b></span>](/gameplay/attributes.md) | <b>DANO</b> | <b>DANO</b> causado em ataques normais |
+| [<span class="house"><b>AGI</b></span>](/gameplay/attributes.md) | DESLOCAMENTO | Equivalente à [<span class="main"><b>AÇÃO</b></span>](/hero/#ação) nas regras padrão |
+| [<span class="house"><b>PER</b></span>](/gameplay/attributes.md) | <b>ALCANCE</b> | <b>DANO</b> causado em ataques à distância |
+| [<span class="house"><b>INT</b></span>](/gameplay/attributes.md) | EXPERIÊNCIA MÁXIMA | Número máximo de contadores de Experiência que esta carta pode ter |
+| [<span class="house"><b>CAR</b></span>](/gameplay/attributes.md) | CONFIANÇA | Valor de Moral recuperado quando uma unidade inimiga é debandada |
+| [<span class="house"><b>ESP</b></span>](/gameplay/attributes.md) | DANO ESPECIAL | Usado para definir o <b>DANO</b> de técnicas como magias e explosivos |
 
 ### Experiência
 
-Unidades ganham experiência de combate. Ao final de uma batalha, todas as unidades vivas recebem **+1** contador na sua respectiva carta (**max igual à INT**). O valor desse contador deve ser somado ao valor de qualquer rolagem de dado feita por esta unidade, seja ele proposto por um ataque, teste, ou técnica.
+Unidades ganham experiência de combate. Ao final de uma batalha, todas as unidades vivas recebem **+1** [<span class="main">❂<b>CONTADOR</b></span>](/gameplay/counter/) na sua respectiva carta (**max igual à [<span class="house"><b>INT</b></span>](/gameplay/attributes.md)**). O valor desse [<span class="main">❂<b>CONTADOR</b></span>](/gameplay/counter/) deve ser somado ao valor de qualquer rolagem de dado feita por esta unidade, seja ele proposto por um ataque, teste, ou técnica.
 
 ### Melhorias
 
-Cada unidade pode ter até **3** melhorias que podem ser compradas para ela. Adicione o ícone de marcador para representar.
+Cada unidade pode ter até **3** melhorias que podem ser compradas para ela. Adicione o ícone de [<span class="main"><b>MARCADOR</b></span>](/gameplay/marker.md) para representar.
 
 | **Nome** | **Marcador** | **Preço** | **Efeito** |
 | --- | --- | --- | --- |
 | **Marchar** | *Triângulo* | 🍊🍊 | +1 de Deslocamento |
-| **Formação**  | *Quadrado* | 🪨🪨 | Esta unidade e unidades aliadas adjacentes sofrem -2 de DANO (não cumulativo) |
-| **Entrincheirar**  | *Escudo* | 🪨 | Sofre -3 de DANO se não se mover nesse ciclo |
+| **Formação**  | *Quadrado* | 🪨🪨 | Esta unidade e unidades aliadas adjacentes sofrem -2 de <b>DANO</b> (não cumulativo) |
+| **Entrincheirar**  | *Escudo* | 🪨 | Sofre -3 de <b>DANO</b> se não se mover nesse ciclo |
 | **Inspirar**  | *Encantamento* | 💰💰 | +10 de CONFIANÇA |
-| **Disciplina** | *Coração* | 💰💰🍊 | +2 de MORAL (20 de HP) |
-| **Flanquear** | *Seta* | 💰🪨 | +2 de DANO quando atacando pelos flancos ou retaguarda |
+| **Disciplina** | *Coração* | 💰💰🍊 | +2 de MORAL (20 de [<span class="hp"><b>VIDA</b></span>](/hero/#vida)) |
+| **Flanquear** | *Seta* | 💰🪨 | +2 de <b>DANO</b> quando atacando pelos flancos ou retaguarda |
 | **Treinamento**  | *Impacto* | 🪨 | +2 de EXPERIÊNCIA MÁXIMA |
-| **Escaramuça**  | *Mira* | 💰💰🍊 | +1 de ALCANCE |
-| **Reagrupar**  | *Circulo* | 🪨🪨 🍊🍊 | Uma vez por batalha, se debandada por falta de Moral, eles voltam na próxima fase de restauração com 10 de VIDA |
+| **Escaramuça**  | *Mira* | 💰💰🍊 | +1 de <b>ALCANCE</b> |
+| **Reagrupar**  | *Circulo* | 🪨🪨 🍊🍊 | Uma vez por batalha, se debandada por falta de Moral, eles voltam na próxima [<span class="keyword-timing">Fase de Recomposição</span>](/gameplay/effect.md) com 10 de [<span class="hp"><b>VIDA</b></span>](/hero/#vida) |
 
 !!!
 Mercenários não podem receber melhorias.
@@ -140,16 +140,16 @@ Mercenários não podem receber melhorias.
 
 Cada Herói pode se juntar a uma unidade como seu oficial comandante, fornecendo um bônus extra.
 
-Se a unidade de um comandante morrer, ele pode assumir outra unidade na próxima fase de restauração.
+Se a unidade de um comandante morrer, ele pode assumir outra unidade na próxima [<span class="keyword-timing">Fase de Recomposição</span>](/gameplay/effect.md).
 
 |
 | --- | --- | --- |
-| **Marechal** | Comandante       | +1 de Moral (10 de HP) |
-| **Caleb**    | *Estrategista*   | Sua unidade recebe +1 contadores de EXP ao final da batalha |
-| **Drako**    | *Artilheiro*     | +<span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">1</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">3</span></span></span> de DANO |
+| **Marechal** | Comandante       | +1 de Moral (10 de [<span class="hp"><b>VIDA</b></span>](/hero/#vida)) |
+| **Caleb**    | *Estrategista*   | Sua unidade recebe +1 [<span class="main">❂<b>CONTADOR</b></span>](/gameplay/counter/) de EXP ao final da batalha |
+| **Drako**    | *Artilheiro*     | +<span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">1</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">3</span></span></span> de <b>DANO</b> |
 | **Hércules** | *Batedor*        | +1 de DESLOCAMENTO |
 | **Carlos**   | *Defensor*       | -2 sofrido de Ataques |
-| **Ryan**     | *Ponta de Lança* | +3 de DANO quando sem aliados adjacentes |
+| **Ryan**     | *Ponta de Lança* | +3 de <b>DANO</b> quando sem aliados adjacentes |
 | **von**      | *Inspiração*     | Unidades recuperam o dobro de moral ao eliminar unidades inimigas |
 
 ### Promoção

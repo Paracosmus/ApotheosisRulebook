@@ -25,7 +25,7 @@ Em alguns formatos de jogo, principalmente em formatos onde cada jogador monta s
 
 ## Trocar Cartas
 
-Um personagem pode realizar uma Ação Total para trocar [cartas de recurso](/cards/index.md) livremente com o [<span class="main"><b>ENTREPOSTO</b></span>](/gameplay/stack/trading-post.md) da campanha.
+Um personagem pode realizar uma [<span class="keyword-limit">Ação Total</span>](/gameplay/effect.md) para trocar [cartas de recurso](/cards/index.md) livremente com o [<span class="main"><b>ENTREPOSTO</b></span>](/gameplay/stack/trading-post.md) da campanha.
 
 Ele deve selecionar as cartas que deseja obter do [<span class="main"><b>ENTREPOSTO</b></span>](/gameplay/stack/trading-post.md) e então selecionar cartas que possui cuja soma dos valores seja igual ou superior à soma dos valores das cartas que deseja obter. As cartas trocadas são descartadas para o [<span class="main"><b>ENTREPOSTO</b></span>](/gameplay/stack/trading-post.md), e as cartas obtidas são colocadas obrigatoriamente no [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) do Herói.
 

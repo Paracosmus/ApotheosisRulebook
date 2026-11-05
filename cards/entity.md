@@ -34,9 +34,9 @@ O personagem (receptáculo) pode incorporar estas formas de energia e dominá-la
 
 ## <span class="entity">Incorporar</span>
 
-Cada tipo de [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) possui um requerimento mínimo de nível para ser incorporado pelo personagem. Quanto mais poderoso o ente, mais preparo físico, mental e espiritual o receptáculo precisa. Este requerimento deve sempre ser considerado, mesmo que o ente seja adicionado ao personagem por efeito ou qualquer outra mecânica de jogo.
+Cada tipo de [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) possui um requerimento mínimo de nível para ser incorporado pelo personagem. Quanto mais poderoso o [<span class="entity"><b>ENTE</b></span>](/cards/entity.md), mais preparo físico, mental e espiritual o receptáculo precisa. Este requerimento deve sempre ser considerado, mesmo que o [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) seja adicionado ao personagem por efeito ou qualquer outra mecânica de jogo.
 
-Para incorporar, é necessário que o espaço de [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) na [<span class="main"><b>FICHA</b></span>](/hero/table/sheet.md) esteja disponível e o personagem esteja em um local de [<span class="entity"><b>FENDA</b></span>](/gameplay/stack/rift.md) que permita o acesso à carta desejada. Você deve selecionar uma carta, realizar uma Ação Total e enterrar 5 cartas de recurso do mesmo nível que o [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) selecionado. Envie a carta, oculta, para o espaço de [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) da sua [<span class="main"><b>MESA</b></span>](/hero/table/).
+Para incorporar, é necessário que o espaço de [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) na [<span class="main"><b>FICHA</b></span>](/hero/table/sheet.md) esteja disponível e o personagem esteja em um local de [<span class="entity"><b>FENDA</b></span>](/gameplay/stack/rift.md) que permita o acesso à carta desejada. Você deve selecionar uma carta, realizar uma [<span class="keyword-limit">Ação Total</span>](/gameplay/effect.md) e enterrar 5 cartas de recurso do mesmo nível que o [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) selecionado. Envie a carta, oculta, para o espaço de [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) da sua [<span class="main"><b>MESA</b></span>](/hero/table/).
 
 TIPO         | NÍVEL | NÍVEL MÍNIMO REQUERIDO DO HERÓI
 ---          | ---   | ---
@@ -44,7 +44,7 @@ TIPO         | NÍVEL | NÍVEL MÍNIMO REQUERIDO DO HERÓI
 [<span class="entity"><b>DEIDADE</b></span>](/cards/entity.md)  | 2     | 6
 [<span class="entity"><b>DEUS</b></span>](/cards/entity.md)    | 3     | 9
 
-> Quando um DEUS é incorporado, dá-se o nome de [apoteose](#ritual-de-apoteose).
+> Quando um [<span class="entity"><b>DEUS</b></span>](/cards/entity.md) é incorporado, dá-se o nome de [apoteose](#ritual-de-apoteose).
 
 ---
 
@@ -52,7 +52,7 @@ TIPO         | NÍVEL | NÍVEL MÍNIMO REQUERIDO DO HERÓI
 
 Para despertar seu [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) (revelar esta carta), o Herói deve consumir Energia igual ao nível do [<span class="entity"><b>ENTE</b></span>](/cards/entity.md).
 
-Quando o ente estiver desperto, no início de cada um de seus turnos, o personagem pode consumir Energia igual ao nível do [<span class="entity"><b>ENTE</b></span>](/cards/entity.md), caso contrário, o ente adormece.
+Quando o [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) estiver desperto, no início de cada um de seus turnos, o personagem pode consumir Energia igual ao nível do [<span class="entity"><b>ENTE</b></span>](/cards/entity.md), caso contrário, o [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) adormece.
 
 Quando o [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) está desperto, sua carta deve ser revelada e o personagem recebe o bônus de atributo indicado na carta, bem como o seu efeito passa a ser considerado.
 
@@ -62,7 +62,7 @@ O [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) não pode ser a
 
 ## <span class="entity">Adormecer</span>
 
-Quando o ente está adormecido, sua carta está oculta e seus bônus e efeitos não são mais considerados.
+Quando o [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) está adormecido, sua carta está oculta e seus bônus e efeitos não são mais considerados.
 
 O jogador pode adormecer seu [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) a qualquer momento de seu turno. Para isso, basta ocultar a carta de [<span class="entity"><b>ENTE</b></span>](/cards/entity.md).
 
@@ -72,7 +72,7 @@ O [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) não pode ser d
 
 ## <span class="entity">Liberar</span>
 
-Para remover a carta de [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) de sua [<span class="main"><b>FICHA</b></span>](/hero/table/sheet.md), o personagem pode realizar uma Ação Total e descartar sua carta de [<span class="entity"><b>ENTE</b></span>](/cards/entity.md).
+Para remover a carta de [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) de sua [<span class="main"><b>FICHA</b></span>](/hero/table/sheet.md), o personagem pode realizar uma [<span class="keyword-limit">Ação Total</span>](/gameplay/effect.md) e descartar sua carta de [<span class="entity"><b>ENTE</b></span>](/cards/entity.md).
 
 ---
 

@@ -67,13 +67,13 @@ Cada rodada de viagem nos ermos prateados tem a duração de um período do dia 
   {.striped}
   Dado | Atributo    | Nome                   | Exemplo
   ---- | ----------- | ---------------------- | -------
-  1	   | CON         | Vento Cortante         | Resistência e perseverança para continuar a viagem
-  2    | FOR         | Terreno Difícil        | Subida íngreme, escalada, pular muros, escombros
-  3    | AGI         | Chão Congelado         | Equilíbrio, salto, tobogã, deslizar, evitar gelo frágil
-  4    | PER         | Necessidade de Pausa   | Precisam descansar, dormir, armar acampamento, cozinhar, coletar água
-  5    | ESP         | Geada Sanguessuga      | Granizo, chuva, nevasca, orvalho, ferida
-  6-1  | CAR         | Neblina Fantasmagórica | Sorte, cuidado onde pisa, ilusões, dificuldade sensorial
-  6-2  | INT         | Passagem Ardilosa      | Enigmas, desafios, artimanhas, requer raciocinar por onde passar
+  1	   | [<span class="house"><b>CON</b></span>](/gameplay/attributes.md)   | Vento Cortante         | Resistência e perseverança para continuar a viagem
+  2    | [<span class="house"><b>FOR</b></span>](/gameplay/attributes.md)   | Terreno Difícil        | Subida íngreme, escalada, pular muros, escombros
+  3    | [<span class="house"><b>AGI</b></span>](/gameplay/attributes.md)   | Chão Congelado         | Equilíbrio, salto, tobogã, deslizar, evitar gelo frágil
+  4    | [<span class="house"><b>PER</b></span>](/gameplay/attributes.md)   | Necessidade de Pausa   | Precisam descansar, dormir, armar acampamento, cozinhar, coletar água
+  5    | [<span class="house"><b>ESP</b></span>](/gameplay/attributes.md)   | Geada Sanguessuga      | Granizo, chuva, nevasca, orvalho, ferida
+  6-1  | [<span class="house"><b>CAR</b></span>](/gameplay/attributes.md)   | Neblina Fantasmagórica | Sorte, cuidado onde pisa, ilusões, dificuldade sensorial
+  6-2  | [<span class="house"><b>INT</b></span>](/gameplay/attributes.md)   | Passagem Ardilosa      | Enigmas, desafios, artimanhas, requer raciocinar por onde passar
   6-3  | _Sem Teste_ | Planície               | Travessia fácil e segura pela neve prateada.
 
   > **Abrigo encontrado**
@@ -140,7 +140,7 @@ Cada rodada de viagem nos ermos prateados tem a duração de um período do dia 
 
   #### Avançar / Recuar
 
-  Se o teste de sobrevivência for bem-sucedido, o time avança mais profundamente nos ermos prateados adicionando um contador de viagem, ou recua de volta para as terras descongeladas removendo um contador de viagem.
+  Se o teste de sobrevivência for bem-sucedido, o time avança mais profundamente nos ermos prateados adicionando um [<span class="main">❂<b>CONTADOR DE VIAGEM</b></span>](/gameplay/counter/), ou recua de volta para as terras descongeladas removendo um [<span class="main">❂<b>CONTADOR DE VIAGEM</b></span>](/gameplay/counter/).
 
   Conforme o mapa da região, e os locais existentes, eles podem chegar a um local específico, ou continuar a viagem.
 
@@ -148,7 +148,7 @@ Cada rodada de viagem nos ermos prateados tem a duração de um período do dia 
 
   #### Encalhe
 
-  Se o teste de sobrevivência falhar, o time não conseguiu avançar ou recuar nesta rodada, tendo sido impedido ou atrapalhado pelas adversidades apresentadas e mantidos estagnados mais ou menos na mesma posição do mapa e não altera a quantidade de contadores de viagem.
+  Se o teste de sobrevivência falhar, o time não conseguiu avançar ou recuar nesta rodada, tendo sido impedido ou atrapalhado pelas adversidades apresentadas e mantidos estagnados mais ou menos na mesma posição do mapa e não altera a quantidade de [<span class="main">❂<b>CONTADOR DE VIAGEM</b></span>](/gameplay/counter/).
 
   O ciclo de viagem então recomeça, começando pelo passo do atrito, em um novo período do dia.
 

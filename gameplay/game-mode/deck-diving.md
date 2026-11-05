@@ -17,12 +17,12 @@ Quando a carta do topo do baralho é revelada, o narrador descreve a cena e os d
 | Naipe           | Narrativa | {.striped .compact}
 | --------------- | --------- |
 | [<span class="house"><b>CASA</b></span>](/cards/house.md)     | Uma missão ou objetivo extra pode ser encontrado ou cumprido neste local. |
-| [<span class="class"><b>CLASSE</b></span>](/cards/class.md)     | O time tem que enfrentar um time de Heróis e/ou Dummies que representam a ideia daquela classe. |
-| [<span class="entity"><b>ENTE</b></span>](/cards/entity.md)    | Existe um Ente preso neste local que pode ser libertado ou derrotado. |
-| [<span class="item"><b>ITEM</b></span>](/cards/item.md)      | Um item pode ser encontrado ou resgatado neste local. |
-| [<span class="skill"><b>HABILIDADE</b></span>](/cards/skills.md)     | Uma habilidade pode ser aprendida ou utilizada neste local. |
-| [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) | Um companheiro pode ser encontrado, enfrentado ou recrutado neste local. |
-| [<span class="event"><b>EVENTO</b></span>](/cards/event.md)     | Um evento pode ocorrer neste local, afetando os Heróis ou o ambiente de maneiras diversas seja de forma idêntica ao texto da carta ou customizado para o local. |
+| [<span class="class"><b>CLASSE</b></span>](/cards/class.md)     | O time tem que enfrentar um time de Heróis e/ou Dummies que representam a ideia daquela [<span class="class"><b>CLASSE</b></span>](/cards/class.md). |
+| [<span class="entity"><b>ENTE</b></span>](/cards/entity.md)    | Existe um [<span class="entity"><b>ENTE</b></span>](/cards/entity.md) preso neste local que pode ser libertado ou derrotado. |
+| [<span class="item"><b>ITEM</b></span>](/cards/item.md)      | Um [<span class="item"><b>ITEM</b></span>](/cards/item.md) pode ser encontrado ou resgatado neste local. |
+| [<span class="skill"><b>HABILIDADE</b></span>](/cards/skills.md)     | Uma [<span class="skill"><b>HABILIDADE</b></span>](/cards/skills.md) pode ser aprendida ou utilizada neste local. |
+| [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) | Um [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) pode ser encontrado, enfrentado ou recrutado neste local. |
+| [<span class="event"><b>EVENTO</b></span>](/cards/event.md)     | Um [<span class="event"><b>EVENTO</b></span>](/cards/event.md) pode ocorrer neste local, afetando os Heróis ou o ambiente de maneiras diversas seja de forma idêntica ao texto da carta ou customizado para o local. |
 
 O objetivo é avançar na exploração do baralho, até que o objetivo estabelecido para aquele baralho seja cumprido ou o baralho acabe.
 
@@ -48,7 +48,7 @@ Quando uma carta sem contexto é revelada:
 
   !!!secondary Exemplo
 
-  _Os jogadores chegam às ruínas do Templo Esquecido, um local antigo e misterioso cheio de segredos e perigos. O objetivo é encontrar a Lira Flutuante (Carta de Item), um artefato lendário que se diz ter o poder de controlar as emoções e os elementos da natureza. Os baralhos representam diferentes áreas do templo._
+  _Os jogadores chegam às ruínas do Templo Esquecido, um local antigo e misterioso cheio de segredos e perigos. O objetivo é encontrar a Lira Flutuante (Carta de [<span class="item"><b>ITEM</b></span>](/cards/item.md)), um artefato lendário que se diz ter o poder de controlar as emoções e os elementos da natureza. Os baralhos representam diferentes áreas do templo._
 
   > **Efeitos de objetivo**: [<span class="keyword-activation">Permanente</span>](/gameplay/effect.md) Todo [<span class="event"><b>DESTINO</b></span>](/cards/event.md) descartado em testes vale o dobro.
 
@@ -68,16 +68,16 @@ Quando uma carta sem contexto é revelada:
   _O Salão Principal é o coração do templo, onde os Heróis enfrentam os desafios iniciais e encontram pistas sobre a localização da Lira Flutuante._
 
   - 10x Inimigos Lv 1
-  - 5x Item
-  - 2x Eventos
+  - 5x [<span class="item"><b>ITEM</b></span>](/cards/item.md)
+  - 2x [<span class="event"><b>EVENTO</b></span>](/cards/event.md)
   - 1x Wildcard (A carta Inércia representa a chegada à Câmara dos Guardiões)
 
   +++ Jardim Submerso
   _O Jardim Submerso é uma área alagada do templo, cheia de plantas aquáticas e criaturas perigosas. Os Heróis precisam nadar e mergulhar por esse ambiente traiçoeiro para encontrar a chave que abre a Câmara dos Guardiões._
 
   - 8x Inimigos Lv 2
-  - 4x Item
-  - 3x Habilidades com ÁGUA
+  - 4x [<span class="item"><b>ITEM</b></span>](/cards/item.md)
+  - 3x [<span class="skill"><b>HABILIDADE</b></span>](/cards/skills.md) com ÁGUA
   - 1x Wildcard (Chave da Câmara dos Guardiões)
 
   > **Efeitos de baralho**: [<span class="keyword-activation">Ativar</span>](/gameplay/effect.md) [<span class="keyword-limit">Ação Total</span>](/gameplay/effect.md) Realize um teste de Mergulho( [<span class="knowledge"><b>ATLETISMO</b></span>](/gameplay/knowledge.md#atletismo) + [<span class="house"><b>CON</b></span>](/gameplay/attributes.md) ➜ **24** ). Se bem sucedido, o jogador pode buscar uma **wildcard** neste baralho e obtê-la. Se falhar, o Herói sofre <span class="negative">10</span> de <b>DANO</b>.
@@ -86,8 +86,8 @@ Quando uma carta sem contexto é revelada:
   _Essa câmara é protegida por guardiões antigos e cheia de armadilhas mortais. Para chegar nela é preciso passar pelo Salão Principal levando a chave que está perdida no fundo do Jardim Submerso._
 
   - 1x Dummy (Boss fight)
-  - 1x Habilidade
-  - 3x Eventos Lv3 com ENCONTRO
+  - 1x [<span class="skill"><b>HABILIDADE</b></span>](/cards/skills.md)
+  - 3x [<span class="event"><b>EVENTO</b></span>](/cards/event.md) Lv3 com ENCONTRO
   - 1x Wildcard (Lira Flutuante, o objetivo da missão) (colocada como a última carta do baralho)
 
   +++
@@ -120,7 +120,7 @@ Quando uma carta sem contexto é revelada:
   !!!
 
   !!!secondary Exemplo 2 - Evento
-  _O Herói que explora o Jardim Submerso revela a primeira carta, que é um evento "Tempestade". O narrador decide por ativar a carta normalmente e descreve que uma tempestade repentina começa a se formar, tornando a água turbulenta e dificultando a natação, fazendo com que tentar mergulhar seja mais desafiador enquanto esta carta estiver no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md)._
+  _O Herói que explora o Jardim Submerso revela a primeira carta, que é um [<span class="event"><b>EVENTO</b></span>](/cards/event.md) "Tempestade". O narrador decide por ativar a carta normalmente e descreve que uma tempestade repentina começa a se formar, tornando a água turbulenta e dificultando a natação, fazendo com que tentar mergulhar seja mais desafiador enquanto esta carta estiver no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md)._
   !!!
 
 >>> Resolução
@@ -129,14 +129,14 @@ Quando uma carta sem contexto é revelada:
 
   A resolução de uma carta pode requerer testes de habilidade, combate, uso de recursos ou outras ações específicas, dependendo do tipo de carta e da situação apresentada. Por exemplo:
   - Combater um inimigo revelado pela carta
-  - Encontrar um item representado pela carta
-  - Resolver um evento ou enigma apresentado pela carta
+  - Encontrar um [<span class="item"><b>ITEM</b></span>](/cards/item.md) representado pela carta
+  - Resolver um [<span class="event"><b>EVENTO</b></span>](/cards/event.md) ou enigma apresentado pela carta
   - Entre outros
 
   ||| Sucesso
   Se bem sucedida, a carta é obtida pelo Herói.
   ||| Falha
-  Se falhar a carta é descartada e o Herói pode sofrer consequências, como perder recursos, receber dano ou enfrentar desafios adicionais.
+  Se falhar a carta é descartada e o Herói pode sofrer consequências, como perder recursos, receber <b>DANO</b> ou enfrentar desafios adicionais.
   |||
 
   **Se a carta for uma wildcard**, o narrador ativa a situação específica associada àquela wildcard seja para sucesso ou falha.
@@ -146,7 +146,7 @@ Quando uma carta sem contexto é revelada:
   !!!
 
   !!!secondary Exemplo 2 - Falha
-  _O Herói que explora o Jardim Submerso tentou nadar através da tempestade, mas falhou no teste de Mergulho. Ele sofre <span class="negative">10</span> de <b>DANO</b> e a carta de evento "Tempestade" **NÃO** é descartada, pois já foi enviada do topo deste baralho para o [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md), e seu efeito continua ativo até que seja resolvido ou removido por outros meios. O Herói então pode tentar a próxima carta do baralho._
+  _O Herói que explora o Jardim Submerso tentou nadar através da tempestade, mas falhou no teste de Mergulho. Ele sofre <span class="negative">10</span> de <b>DANO</b> e a carta de [<span class="event"><b>EVENTO</b></span>](/cards/event.md) "Tempestade" **NÃO** é descartada, pois já foi enviada do topo deste baralho para o [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md), e seu efeito continua ativo até que seja resolvido ou removido por outros meios. O Herói então pode tentar a próxima carta do baralho._
   !!!
 
 >>> Conclusão

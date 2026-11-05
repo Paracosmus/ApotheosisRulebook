@@ -10,20 +10,20 @@ Esta seção ainda não foi completamente revisada. Algumas informações podem 
 >
 > Por este motivo, são representados por cartas de [<span class="event"><b>EVENTO</b></span>](/cards/event.md) no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md), aplicando seus efeitos a todos.
 
-Dominiums são cartas de [<span class="event"><b>EVENTO</b></span>](/cards/event.md) que quando ativadas do [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) são enviadas para o [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md) para aplicar efeitos a todos os personagens.
+[<span class="summus"><b>DOMINIUM</b></span>](/gameplay/summus/dominium.md) são cartas de [<span class="event"><b>EVENTO</b></span>](/cards/event.md) que quando ativadas do [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) são enviadas para o [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md) para aplicar efeitos a todos os personagens.
 
 <br>
 
 #### Regras Especiais
 
-- Para ativar um Dominium do seu [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) o Herói deve consumir **10** de **Energia** e então enviar a carta para o [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md).
-    - Apenas um Dominium pode estar ativo por vez, portanto não é possível ativar um Dominium se já houver outro no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md).
+- Para ativar um [<span class="summus"><b>DOMINIUM</b></span>](/gameplay/summus/dominium.md) do seu [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) o Herói deve consumir **10** de **Energia** e então enviar a carta para o [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md).
+    - Apenas um [<span class="summus"><b>DOMINIUM</b></span>](/gameplay/summus/dominium.md) pode estar ativo por vez, portanto não é possível ativar um [<span class="summus"><b>DOMINIUM</b></span>](/gameplay/summus/dominium.md) se já houver outro no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md).
 - Enquanto estiver no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md) os bônus e efeitos da carta são aplicados a todos os personagens no tabuleiro.
     - Quaisquer bônus negativos proporcionados pela carta **não** são aplicados ao Herói que a ativou.
-    - O efeito na caixa identificadora do Summus é válido apenas para o Herói que a ativou.
-- A carta deve ser removida do [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md) após passada a quantidade de *Fases de Restauração* definida na carta.
-  - O jogador que ativou o Dominium pode optar por remover o Dominium do [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md) antes do tempo.
-- Quando no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md), o Dominium não pode ser removido por efeito.
+    - O efeito na caixa identificadora do [<span class="summus"><b>SUMMUS</b></span>](/gameplay/summus/) é válido apenas para o Herói que a ativou.
+- A carta deve ser removida do [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md) após passada a quantidade de [<span class="keyword-timing">Fase de Recomposição</span>](/gameplay/effect.md) definida na carta.
+  - O jogador que ativou o [<span class="summus"><b>DOMINIUM</b></span>](/gameplay/summus/dominium.md) pode optar por remover o [<span class="summus"><b>DOMINIUM</b></span>](/gameplay/summus/dominium.md) do [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md) antes do tempo.
+- Quando no [<span class="event"><b>CENÁRIO</b></span>](/gameplay/stack/scenario.md), o [<span class="summus"><b>DOMINIUM</b></span>](/gameplay/summus/dominium.md) não pode ser removido por efeito.
 - Pode ser ativado apenas no turno do seu dono, e o turno se encerra imediatamente após sua ativação.
 
 <br>
@@ -31,8 +31,8 @@ Dominiums são cartas de [<span class="event"><b>EVENTO</b></span>](/cards/ev
 ||| Caixa de Mecânica
 ![Exemplo](/static/img/summus/dominium.png)
 
-- ***Ampulheta***: Quantidade de Fases de Restauração até esta carta ser enviada de volta para o [Inventory](https://www.notion.so/Inventory-27083fd0169e80aba6baefb8c6107f82?pvs=21) do ativador.
-- ***Texto***: Efeito que é usado ou aplicado apenas pelo ativador desta carta. São sempre **PERMANENTES**.
+- ***Ampulheta***: Quantidade de [<span class="keyword-timing">Fase de Recomposição</span>](/gameplay/effect.md) até esta carta ser enviada de volta para o [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) do ativador.
+- ***Texto***: Efeito que é usado ou aplicado apenas pelo ativador desta carta. São sempre [<span class="keyword-activation">Permanente</span>](/gameplay/effect.md).
 |||
 
 ---

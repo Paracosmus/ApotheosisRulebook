@@ -6,46 +6,46 @@ Esta seção ainda não foi completamente revisada. Algumas informações podem 
 
 #### 👥 Estrutura de Times
 Cada time pode ter até 3 jogadores.
-Cada jogador deve ter pelo menos 1 companheiro ativo no início de cada rodada.
-Cada time pode manter até 3 companheiros ativos simultaneamente no campo.
-Quando 6 companheiros de um mesmo time forem derrotados, o time perde.
+Cada jogador deve ter pelo menos 1 [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) ativo no início de cada rodada.
+Cada time pode manter até 3 [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) ativos simultaneamente no campo.
+Quando 6 [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) de um mesmo time forem derrotados, o time perde.
 
 #### 🧬 Companheiros e Evoluções
 Cada time escolhe:
-6 companheiros de Nível 1 (iniciam no suporte, deitados).
-Até 3 companheiros de Nível 2 (reservados para evoluções).
-Até 1 companheiro de Nível 3 (também reservado para evolução).
+6 [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) de Nível 1 (iniciam no [<span class="companion"><b>SUPORTE</b></span>](/hero/table/support.md), deitados).
+Até 3 [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) de Nível 2 (reservados para evoluções).
+Até 1 [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) de Nível 3 (também reservado para evolução).
 
 #### 📈 Regras de Evolução
-Para evoluir um companheiro o companheiro deve sacrificar seu turno e descartar:
-Do Nível 1 → 2:  2 de Vontade
-Do Nível 2 → 3:  3 de Vontade
+Para evoluir um [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) o [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) deve sacrificar seu turno e descartar:
+Do Nível 1 → 2:  2 de [<span class="companion"><b>VONTADE</b></span>](/cards/companion.md)
+Do Nível 2 → 3:  3 de [<span class="companion"><b>VONTADE</b></span>](/cards/companion.md)
 
 #### 🎲 Mapa e Cartas no Campo
 O campo é um mapa quadriculado (ex: 11x11).
 Para as batalhas é criado um baralho do local composto por 30 cartas e
 
 No início de cada rodada, 5 cartas aparecem aleatoriamente no mapa, podendo ser:
-Vontade
-Destino ou
-Item Consumível
+[<span class="companion"><b>VONTADE</b></span>](/cards/companion.md)
+[<span class="event"><b>DESTINO</b></span>](/cards/event.md) ou
+[<span class="item"><b>ITEM</b></span>](/cards/item.md) Consumível
 
 Ao final da rodada as cartas não coletadas voltam para o baralho do local.
 
 #### 📦 Coleta e Anexos
-Um companheiro deve ir até a célula da carta e gastar:
-1 Ponto de Ação (PA) para anexá-la a si ou enviá-la ao inventário compartilhado do time.
+Um [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) deve ir até a célula da carta e gastar:
+1 Ponto de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação) para anexá-la a si ou enviá-la ao [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) compartilhado do time.
 Cartas anexadas não podem ser removidas.
 Todos os anexos são coringa: não importa o tipo, apenas a quantidade necessária para ativar efeitos ou evoluções.
 
 #### 💀 Salvação Divina
-1x por rodada por companheiro, o treinador pode:
-Descartar cartas de Destino do inventário cujo a soma de seus níveis, equivalentes ao nível do companheiro,
-Para impedir sua morte, mantendo-o com 1 de PV.
+1x por rodada por [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md), o treinador pode:
+Descartar cartas de [<span class="event"><b>DESTINO</b></span>](/cards/event.md) do [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) cujo a soma de seus níveis, equivalentes ao nível do [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md),
+Para impedir sua morte, mantendo-o com 1 de [<span class="hp"><b>VIDA</b></span>](/hero/#vida).
 
 #### 🌀 Destino e Cartas Especiais
-Algumas cartas de Destino possuem efeitos ativáveis.
-Se estiverem no inventário, qualquer companheiro pode ativá-las durante sua vez, sem custo.
+Algumas cartas de [<span class="event"><b>DESTINO</b></span>](/cards/event.md) possuem efeitos ativáveis.
+Se estiverem no [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md), qualquer [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) pode ativá-las durante sua vez, sem custo.
 
 #### 🍭 Efeitos Tolos
 Cartas com efeitos tolos são permitidas.

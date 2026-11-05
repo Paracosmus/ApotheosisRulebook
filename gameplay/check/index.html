@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847161701942">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847226098581">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -41,11 +41,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.6.0.847161701942" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.847226098581" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.847161701942" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.847226098581" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.847161701942" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.847226098581" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100..900&display=swap" rel="stylesheet">
@@ -607,12 +607,12 @@
             </svg>
         </div>
         <div class="pr-5 ml-3 w-full">
-<p>Em testes que envolvem o uso de cartas, como uma espada, ou uma magia, por padrão deve-se usar o conhecimento da carta (Livre, se não tiver). Porém, assim como em qualquer outro teste, o jogador pode advogar por uma forma diferente.</p>
+<p>Em testes que envolvem o uso de cartas, como uma espada, ou uma magia, por padrão deve-se usar o <a href="/gameplay/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a> da carta (<a href="/gameplay/knowledge/#livre"><span class="knowledge"><b>LIVRE</b></span></a>, se não tiver). Porém, assim como em qualquer outro teste, o jogador pode advogar por uma forma diferente.</p>
         </div>
     </div>
 </div>
 <h5 id="teste-sem-conhecimento">Teste Sem Conhecimento</h5>
-<p>Existem também os testes de conhecimento <strong>Livre</strong>, que são aqueles testes onde não é possível ou não faz sentido associar um conhecimento específico, e portanto o personagem não recebe nenhum bônus de conhecimento para realizar aquele teste.</p>
+<p>Existem também os testes de <a href="/gameplay/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a> <a href="/gameplay/knowledge/#livre"><span class="knowledge"><b>LIVRE</b></span></a>, que são aqueles testes onde não é possível ou não faz sentido associar um <a href="/gameplay/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a> específico, e portanto o personagem não recebe nenhum bônus de <a href="/gameplay/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a> para realizar aquele teste.</p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-secondary"></div>
     <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
@@ -627,7 +627,7 @@
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Exemplo</h5>
-<p><em>Resistir a Veneno</em>: um personagem inconsciente está resistindo a uma substância nociva em seu organismo. Seria um teste <strong>Livre</strong> de <a href="/gameplay/attributes/"><span class="house"><b>CON</b></span></a>, onde os demais bônus são aplicados, mas nenhum <a href="/gameplay/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a> é associado.</p>
+<p><em>Resistir a Veneno</em>: um personagem inconsciente está resistindo a uma substância nociva em seu organismo. Seria um teste <a href="/gameplay/knowledge/#livre"><span class="knowledge"><b>LIVRE</b></span></a> de <a href="/gameplay/attributes/"><span class="house"><b>CON</b></span></a>, onde os demais bônus são aplicados, mas nenhum <a href="/gameplay/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a> é associado.</p>
         </div>
     </div>
 </div>
@@ -1095,7 +1095,7 @@
 <h2 id="recursos-em-testes">Recursos em Testes</h2>
 <p>Personagens podem adicionar cartas de recurso em testes, para melhorar as condições do teste, para receber bônus adicionais, para tentar garantir o sucesso do teste, ou para evitar a falha do teste.</p>
 <p>Para isso, o jogador deve descartar uma quantidade de cartas de recurso do <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a> do Herói, ou do anexo do <a href="/cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a>, podendo combinar diferentes recursos para um mesmo teste, sendo que cada tipo de recurso tem uma função diferente, e deve ser usado em um momento específico do teste, como descrito a seguir.</p>
-<p>Se o recurso descartado for do mesmo <a href="/gameplay/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a> do teste (incluindo Livre), ele adiciona o dobro do seu valor. Um recurso de ( <a href="/gameplay/knowledge/#arcano"><span class="knowledge"><b>ARCANO</b></span></a> ➜ <strong>2</strong> ) de valor igual a <strong>5</strong>, para um teste de <a href="/gameplay/knowledge/#arcano"><span class="knowledge"><b>ARCANO</b></span></a>, contaria como <strong>10</strong>.</p>
+<p>Se o recurso descartado for do mesmo <a href="/gameplay/knowledge/"><span class="knowledge"><b>CONHECIMENTO</b></span></a> do teste (incluindo <a href="/gameplay/knowledge/#livre"><span class="knowledge"><b>LIVRE</b></span></a>), ele adiciona o dobro do seu valor. Um recurso de ( <a href="/gameplay/knowledge/#arcano"><span class="knowledge"><b>ARCANO</b></span></a> ➜ <strong>2</strong> ) de valor igual a <strong>5</strong>, para um teste de <a href="/gameplay/knowledge/#arcano"><span class="knowledge"><b>ARCANO</b></span></a>, contaria como <strong>10</strong>.</p>
 <p>Acompanhe o seguinte exemplo:</p>
 <blockquote>
 <p><em>O personagem está tentando destrancar a porta de uma loja.</em><br />
@@ -1293,7 +1293,7 @@
 <h2 id="advogar">Advogar</h2>
 <p>O jogador pode advogar por um teste, o que significa que ele pode argumentar que um teste específico deve ser realizado para resolver uma situação, mesmo que as regras não especifiquem isso diretamente. O mestre tem a autoridade final para decidir se o teste é apropriado e como ele deve ser conduzido.</p>
 <p>Advogar não só é permitido como é encorajado, pois promove a criatividade e a narrativa colaborativa entre os jogadores e o mestre. É claro que os jogadores devem entender a diferença entre advogar e discutir. O momento de advogar não é um momento para &quot;fazer valer&quot; a sua ideia de como as coisas deveriam ser, mas sim um momento para tentar convencer o mestre ao seu favor ou contra o oponente.</p>
-<p>Isso inclui também, argumentar a favor de bônus positivos ou negativos em um teste, com base na narrativa ou nas circunstâncias do jogo, bem como com base nas cartas na sua mesa, ou anexados quando for um <a href="/cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a>, que poderiam influenciar na capacidade ou desempenho do personagem.</p>
+<p>Isso inclui também, argumentar a favor de bônus positivos ou negativos em um teste, com base na narrativa ou nas circunstâncias do jogo, bem como com base nas cartas na sua <a href="/hero/table/"><span class="main"><b>MESA</b></span></a>, ou anexados quando for um <a href="/cards/companion/"><span class="companion"><b>COMPANHEIRO</b></span></a>, que poderiam influenciar na capacidade ou desempenho do personagem.</p>
 <p>Uma vez que o argumento tenha sido apresentado, o mestre aceita ou rejeita a proposta no ato, determinando o bônus recebido, se houver, e a dificuldade do teste, se necessário, sendo esta a palavra final e não podendo ser contestada.</p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-secondary"></div>
@@ -1310,7 +1310,7 @@
         <div class="pr-5 ml-3 w-full">
             <h5>Exemplo 1 - <a href="/cards/class/"><span class="class"><b>CLASSE</b></span></a></h5>
 <p><em>O personagem está fazendo um teste para encontrar onde um livro está na biblioteca.</em></p>
-<p>Ele advoga que ele tem a classe de <em>Bibliotecário</em>, e portanto tem um conhecimento especializado em encontrar livros, o que lhe dá um bônus no teste, e o mestre aceita o argumento, concedendo o bônus relacionado ao nível da classe.</p>
+<p>Ele advoga que ele tem a <a href="/cards/class/"><span class="class"><b>CLASSE</b></span></a> de <em>Bibliotecário</em>, e portanto tem um conhecimento especializado em encontrar livros, o que lhe dá um bônus no teste, e o mestre aceita o argumento, concedendo o bônus relacionado ao nível da <a href="/cards/class/"><span class="class"><b>CLASSE</b></span></a>.</p>
         </div>
     </div>
 </div>
@@ -1329,7 +1329,7 @@
         <div class="pr-5 ml-3 w-full">
             <h5>Exemplo 2 - <a href="/cards/item/"><span class="item"><b>ITEM</b></span></a></h5>
 <p><em>O personagem está fazendo um teste para escalar um paredão de pedras.</em></p>
-<p>Ele advoga que ele tem a carta <em>Corda</em>, e portanto tem um item que pode ajudá-lo a escalar o paredão, o que lhe dá um bônus no teste, e o mestre aceita o argumento, concedendo um bônus específico para aquele item.</p>
+<p>Ele advoga que ele tem a carta <em>Corda</em>, e portanto tem um <a href="/cards/item/"><span class="item"><b>ITEM</b></span></a> que pode ajudá-lo a escalar o paredão, o que lhe dá um bônus no teste, e o mestre aceita o argumento, concedendo um bônus específico para aquele <a href="/cards/item/"><span class="item"><b>ITEM</b></span></a>.</p>
         </div>
     </div>
 </div>
@@ -1352,7 +1352,7 @@
         </div>
     </div>
 </div>
-<p>Qualquer carta na mesa de um personagem pode ser usada como argumento para obter bônus em um teste, cabe ao Mestre e jogadores estarem atentos a tais cartas.</p>
+<p>Qualquer carta na <a href="/hero/table/"><span class="main"><b>MESA</b></span></a> de um personagem pode ser usada como argumento para obter bônus em um teste, cabe ao Mestre e jogadores estarem atentos a tais cartas.</p>
 <hr>
 <div id="retype-backlinks">
     <h2>See also</h2>
@@ -1387,8 +1387,8 @@
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-11-04T20:39:00" title="2026-11-04" data-absolute-label="Last updated on 2026-11-04 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-11-04 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
-                        Last updated on 2026-11-04 by Bruno Caxito
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-11-05T17:34:23" title="2026-11-05" data-absolute-label="Last updated on 2026-11-05 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-11-05 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                        Last updated on 2026-11-05 by Bruno Caxito
                     </time>
                 </div>
 

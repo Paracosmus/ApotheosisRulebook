@@ -19,17 +19,17 @@ O jogador recebe uma carta de [<span class="house"><b>CASA</b></span>](/cards
 ||| :icon-arrow-down-right:
 1. **Atributos Base**: Valores iniciais dos [Atributos](/gameplay/attributes.md) do personagem.
 
-1. **Espaços iniciais de Equipamento**: Toda casa confere 3 espaços de [<span class="item"><b>EQUIPAMENTO</b></span>](/hero/table/equipment.md)
+1. **Espaços iniciais de [<span class="item"><b>EQUIPAMENTO</b></span>](/hero/table/equipment.md)**: Toda [<span class="house"><b>CASA</b></span>](/cards/house.md) confere 3 espaços de [<span class="item"><b>EQUIPAMENTO</b></span>](/hero/table/equipment.md)
 
-1. **Espaços iniciais de Memento**: Toda casa confere 3 espaços de [<span class="skill"><b>MEMENTO</b></span>](/hero/table/memento.md)
+1. **Espaços iniciais de [<span class="skill"><b>MEMENTO</b></span>](/hero/table/memento.md)**: Toda [<span class="house"><b>CASA</b></span>](/cards/house.md) confere 3 espaços de [<span class="skill"><b>MEMENTO</b></span>](/hero/table/memento.md)
 
-1. **Nível da Carta**: Toda casa é de nível 1
+1. **Nível da Carta**: Toda [<span class="house"><b>CASA</b></span>](/cards/house.md) é de nível 1
 
 1. **Bônus**: Bônus passivo imediato aplicado ao Herói
 
-1. **Descrição**: Texto narrativo da casa, descrevendo sua história, cultura e tradições.
+1. **Descrição**: Texto narrativo da [<span class="house"><b>CASA</b></span>](/cards/house.md), descrevendo sua história, cultura e tradições.
 
-1. **Efeito**: Habilidade hereditária natural da casa, se houver.
+1. **Efeito**: Habilidade hereditária natural da [<span class="house"><b>CASA</b></span>](/cards/house.md), se houver.
 |||
 
 | Características                  | Valor | {.compact}

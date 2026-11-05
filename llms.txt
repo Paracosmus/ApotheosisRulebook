@@ -37,7 +37,7 @@
 - [Ichor](https://apotheosiscardgame.com/lore/cards-sets/sets/ichor.md)
 - [Iluminação](https://apotheosiscardgame.com/lore/cards-sets/sets/enlightenment.md): Usa-se o mapa de iluminação
 - [Outras Propriedades](https://apotheosiscardgame.com/lore/cards-sets/sets/other-tags.md): Montarias
-- [Protobot](https://apotheosiscardgame.com/lore/cards-sets/sets/protobot.md): Robôs, porém em vez de IA, uma pneuma humana (companion) é dada a eles
+- [Protobot](https://apotheosiscardgame.com/lore/cards-sets/sets/protobot.md): Robôs, porém em vez de IA, uma pneuma humana (COMPANHEIRO) é dada a eles
 - [Teography](https://apotheosiscardgame.com/lore/cards-sets/sets/teography.md)
 
 #### Lignums

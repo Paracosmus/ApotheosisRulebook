@@ -164,10 +164,10 @@
   Existem 3 tipos de personagens:
 
   - [Heróis](/hero/): Personagens dos jogadores.
-  - [Companheiros](/cards/companion.md)
-    - **Humanos**: Aliados dos jogadores ou NPCs de campanha
-    - **Criaturas**: Animais, bestas e monstros
-    - **Evocações**: Seres sobrenaturais evocados por magias
+  - [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md)
+    - [<span class="companion"><b>HUMANO</b></span>](/cards/companion.md#-humano): Aliados dos jogadores ou NPCs de campanha
+    - [<span class="companion"><b>CRIATURA</b></span>](/cards/companion.md#-criatura): Animais, bestas e monstros
+    - [<span class="companion"><b>EVOCAÇÃO</b></span>](/cards/companion.md#-evocação): Seres sobrenaturais evocados por magias
   - [Modelo (Dummy)](/battle/piece/dummy.md): Personagens que fogem das regras de jogo, geralmente chefes de campanha
 
   ==- A Mesa
@@ -228,7 +228,7 @@
   >
   > **João decide tentar negociar com um NPC que parece ser um líder local para obter informações sobre o prédio**: João lembra ao mestre que seu Herói possui a [<span class="skill"><b>HABILIDADE</b></span>](/cards/skills.md) de _Empreendedor_ e o mestre concede um bônus de +1 para este teste. Ele rola um teste de Negociação( [<span class="knowledge"><b>PRÁTICA</b></span>](/gameplay/knowledge.md#prática) + [<span class="house"><b>CARISMA</b>](/gameplay/attributes.md) ) para tentar convencer o NPC, mas falha, e o mestre de jogo descreve a situação: "O NPC não confia em você e se recusa a falar com você. Ele te ignora e continua com suas atividades."
   >
-  > Maria decide tentar seguir o grupo de inimigos para chegar ao prédio, mas eles percebem que estão sendo seguidos e começam a atirar. Ela rola um teste de Esquivar( [<span class="house"><b>AGI</b></span>](/gameplay/attributes.md) ) para tentar escapar, mas falha, e o mestre de jogo descreve a situação: "Os inimigos percebem que estão sendo seguidos e começam a atirar em você. Você é atingida por um tiro e perde 20 pontos de vida."
+  > Maria decide tentar seguir o grupo de inimigos para chegar ao prédio, mas eles percebem que estão sendo seguidos e começam a atirar. Ela rola um teste de Esquivar( [<span class="house"><b>AGI</b></span>](/gameplay/attributes.md) ) para tentar escapar, mas falha, e o mestre de jogo descreve a situação: "Os inimigos percebem que estão sendo seguidos e começam a atirar em você. Você é atingida por um tiro e perde 20 pontos de [<span class="hp"><b>VIDA</b></span>](/hero/#vida)."
   >
   > Os inimigos continuam no encalço de Maria; correndo com dificuldade por estar baleada, ela rola um teste de Resistência( [<span class="house"><b>CON</b></span>](/gameplay/attributes.md) ). Seus amigos escutam os tiros e correm para verificar o que está acontecendo. Neste momento os dois grupos estão de frente um para o outro e o mestre de jogo decide que é hora de **iniciar a batalha**."
 
@@ -244,9 +244,9 @@
   >
   > **Iniciativa**: A ordem dos turnos é redefinida a cada rodada pela Iniciativa dos personagens envolvidos.
   >
-  > **Turno de Pedro**: Ele tem um Herói com a [<span class="class"><b>CLASSE</b></span>](/cards/class.md) de _Cavaleiro_, e decide atacar um inimigo com uma espada. Ele move sua peça no tabuleiro até ficar adjacente ao inimigo, declara o ataque, escolhe o [<span class="item"><b>ITEM</b></span>](/cards/item.md) _Espada_, rola os dados para determinar o <b>DANO</b> do ataque conforme escrito na carta. O mestre de jogo descreve a situação: "Você ataca o inimigo com sua espada, causando 15 pontos de dano. O inimigo é atingido, mas possui o [<span class="item"><b>ITEM</b></span>](/cards/item.md) _Escudo_ que reduz o dano em 1 ponto, e perde 14 pontos de vida."
+  > **Turno de Pedro**: Ele tem um Herói com a [<span class="class"><b>CLASSE</b></span>](/cards/class.md) de _Cavaleiro_, e decide atacar um inimigo com uma espada. Ele move sua peça no tabuleiro até ficar adjacente ao inimigo, declara o ataque, escolhe o [<span class="item"><b>ITEM</b></span>](/cards/item.md) _Espada_, rola os dados para determinar o <b>DANO</b> do ataque conforme escrito na carta. O mestre de jogo descreve a situação: "Você ataca o inimigo com sua espada, causando 15 pontos de <b>DANO</b>. O inimigo é atingido, mas possui o [<span class="item"><b>ITEM</b></span>](/cards/item.md) _Escudo_ que reduz o <b>DANO</b> em 1 ponto, e perde 14 pontos de [<span class="hp"><b>VIDA</b></span>](/hero/#vida)."
   >
-  > **Turno de Maria**: Ela tem um Herói com a [<span class="class"><b>CLASSE</b></span>](/cards/class.md) de _Atiradora_, e decide usar uma habilidade de longo alcance para atacar um inimigo. Ela declara o ataque, escolhe a [<span class="skill"><b>HABILIDADE</b></span>](/cards/skills.md) _Tiro Certo_, descarta a carta de munição requerida por ela, escolhe um inimigo ao alcance, rola os dados para determinar o <b>DANO</b> do ataque conforme escrito na carta e aplica os efeitos da mesma. O mestre de jogo descreve a situação: "Você atira no inimigo com sua habilidade, causando 10 pontos de dano. O inimigo, vestindo apenas uma roupa velha que não oferece nenhuma proteção, é atingido e perde 10 pontos de vida."
+  > **Turno de Maria**: Ela tem um Herói com a [<span class="class"><b>CLASSE</b></span>](/cards/class.md) de _Atiradora_, e decide usar uma habilidade de longo <b>ALCANCE</b> para atacar um inimigo. Ela declara o ataque, escolhe a [<span class="skill"><b>HABILIDADE</b></span>](/cards/skills.md) _Tiro Certo_, descarta a carta de munição requerida por ela, escolhe um inimigo ao <b>ALCANCE</b>, rola os dados para determinar o <b>DANO</b> do ataque conforme escrito na carta e aplica os efeitos da mesma. O mestre de jogo descreve a situação: "Você atira no inimigo com sua habilidade, causando 10 pontos de <b>DANO</b>. O inimigo, vestindo apenas uma roupa velha que não oferece nenhuma proteção, é atingido e perde 10 pontos de [<span class="hp"><b>VIDA</b></span>](/hero/#vida)."
 
   !!!
   Para saber mais sobre as regras de batalha, turnos, ações, e resolução de ataques e efeitos no modo de batalha, consulte as [seções específicas](/battle) sobre cada tópico neste manual.

@@ -6,17 +6,17 @@ Esta seção ainda não foi completamente revisada. Algumas informações podem 
 
 > *Magisterium* é o termo latino para *“magistério”*, no sentido de ensino, autoridade, conhecimento.
 
-Em jogo, o _Magisterium_ representa o estado de maestria de um Herói sobre um determinado aspecto do mundo, seja ele físico, mental ou espiritual. O Herói eterligador combina seu estudo, prática e experiência avançados naquele assunto, com o seu domínio do éter e conhecimento da verdade sobre o universo, levando sua mente a superar os limites esperados do entendimento humano, chegando ao entendimento quase divino e externo, acerca do tema.
+Em jogo, o [<span class="summus"><b>MAGISTERIUM</b></span>](/gameplay/summus/magisterium.md) representa o estado de maestria de um Herói sobre um determinado aspecto do mundo, seja ele físico, mental ou espiritual. O Herói eterligador combina seu estudo, prática e experiência avançados naquele assunto, com o seu domínio do éter e conhecimento da verdade sobre o universo, levando sua mente a superar os limites esperados do entendimento humano, chegando ao entendimento quase divino e externo, acerca do tema.
 
 Ele é representado por uma carta de [<span class="class"><b>CLASSE</b></span>](/cards/class.md) na **Zona Extra** da [<span class="main"><b>FICHA</b></span>](/hero/table/sheet.md), sendo assim, uma [<span class="class"><b>CLASSE</b></span>](/cards/class.md) adicional especial.
 
-Este entendimento superior é representado em jogo através de bônus. Sendo o _Magisterium_ primariamente um provedor de modificadores numéricos adicionais para o Herói em determinados casos relacionados à sua maestria.
+Este entendimento superior é representado em jogo através de bônus. Sendo o [<span class="summus"><b>MAGISTERIUM</b></span>](/gameplay/summus/magisterium.md) primariamente um provedor de modificadores numéricos adicionais para o Herói em determinados casos relacionados à sua maestria.
 
 ---
 
 ## Usar
 
-- Os bônus de **Atributos**, **Conhecimentos**, **Zonas**, etc. proporcionados por um _Magisterium_ são aplicados normalmente como qualquer outra carta de [<span class="class"><b>CLASSE</b></span>](/cards/class.md).
+- Os bônus de **Atributos**, [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md), **Zonas**, etc. proporcionados por um [<span class="summus"><b>MAGISTERIUM</b></span>](/gameplay/summus/magisterium.md) são aplicados normalmente como qualquer outra carta de [<span class="class"><b>CLASSE</b></span>](/cards/class.md).
 - Observando os casos listados na Caixa de Mecânica, quando um deles ocorrer, o bônus de <span class="summus">✚</span> é aplicado para o Herói.
     - Os bônus são cumulativos, ou seja, se mais de um caso ocorrer, o bônus é aplicado para cada um deles.
 
@@ -28,14 +28,14 @@ Este entendimento superior é representado em jogo através de bônus. Sendo o _
 |||
 
 ==- Requerimentos
-É necessário ter pelo menos um dos [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md) listados na carta de _Magisterium_ no nível **3**.
-- Se em algum momento o Herói perder o [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md) necessário (sem considerar o provido pelo próprio _Magisterium_), ele deve descartar o _Magisterium_ da sua **Zona Extra**.
+É necessário ter pelo menos um dos [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md) listados na carta de [<span class="summus"><b>MAGISTERIUM</b></span>](/gameplay/summus/magisterium.md) no nível **3**.
+- Se em algum momento o Herói perder o [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md) necessário (sem considerar o provido pelo próprio [<span class="summus"><b>MAGISTERIUM</b></span>](/gameplay/summus/magisterium.md)), ele deve descartar o [<span class="summus"><b>MAGISTERIUM</b></span>](/gameplay/summus/magisterium.md) da sua **Zona Extra**.
 
 ==- Obter
-Quando não estiver em batalha, você pode realizar uma **Ação Total** e **Banir** <span class="negative">5</span> [<span class="class"><b>CLASSE</b></span>](/cards/class.md) de **Caminhos** que você possua, do [<span class="main"><b>ENTREPOSTO</b></span>](/gameplay/stack/trading-post.md), para adicionar um _Magisterium_ à sua **Zona Extra**.
+Quando não estiver em batalha, você pode realizar uma [<span class="keyword-limit">Ação Total</span>](/gameplay/effect.md) e [<span class="keyword-task">Bane</span>](/gameplay/effect.md) <span class="negative">5</span> [<span class="class"><b>CLASSE</b></span>](/cards/class.md) de **Caminhos** que você possua, do [<span class="main"><b>ENTREPOSTO</b></span>](/gameplay/stack/trading-post.md), para adicionar um [<span class="summus"><b>MAGISTERIUM</b></span>](/gameplay/summus/magisterium.md) à sua **Zona Extra**.
 
 ==- Remover
-Quando não estiver em batalha, você pode realizar uma **Ação Total** para descartar um _Magisterium_ da sua **Zona Extra**.
+Quando não estiver em batalha, você pode realizar uma [<span class="keyword-limit">Ação Total</span>](/gameplay/effect.md) para descartar um [<span class="summus"><b>MAGISTERIUM</b></span>](/gameplay/summus/magisterium.md) da sua **Zona Extra**.
 
 ===
 
@@ -45,9 +45,9 @@ Quando não estiver em batalha, você pode realizar uma **Ação Total** para de
 
 ==- Níveis de Maestria
 
-Os _Magisteriums_ são divididos em dois níveis narrativos de maestria, o nível **Mestre** e o nível **Grande Mestre**, indicados pelo nome da carta, sendo que o nome de toda carta de _Magisterium_ começa com um dos dois termos, seguido do tema de maestria.
+Os [<span class="summus"><b>MAGISTERIUM</b></span>](/gameplay/summus/magisterium.md) são divididos em dois níveis narrativos de maestria, o nível **Mestre** e o nível **Grande Mestre**, indicados pelo nome da carta, sendo que o nome de toda carta de [<span class="summus"><b>MAGISTERIUM</b></span>](/gameplay/summus/magisterium.md) começa com um dos dois termos, seguido do tema de maestria.
 
-| **Nível de Maestria** | **Atributos** | **Conhecimentos** | **Slots** | **Efeito** | **Raridade**             | {.compact}
+| **Nível de Maestria** | **Atributos** | [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md)   | **Slots** | **Efeito** | **Raridade**             | {.compact}
 | --------------------- | ------------- | ----------------- | --------- | ---------- | ------------------------ |
 | **Mestre**            | +2            | +1                |           | Não tem    | [<span class="rare">RARA</span>](/gameplay/rarity.md) ou [<span class="epic">ÉPICA</span>](/gameplay/rarity.md) |
 | **Grande Mestre**     | +4            | +2                | 1         | Pode ter   | [<span class="legendary">LENDÁRIA</span>](/gameplay/rarity.md)          |

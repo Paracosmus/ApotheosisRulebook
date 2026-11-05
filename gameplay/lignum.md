@@ -4,13 +4,13 @@ Esta seção ainda não foi completamente revisada. Algumas informações podem 
     
 # Lignum
 
-É um conjunto de cartas de HABILIDADE interligadas. Você pode identificá-las pela presença do nome do LIGNUM antes do nome da carta, separados por um | (Barra Vertical).
+É um conjunto de cartas de [<span class="skill"><b>HABILIDADE</b></span>](/cards/skills.md) interligadas. Você pode identificá-las pela presença do nome do LIGNUM antes do nome da carta, separados por um | (Barra Vertical).
 
 Um espaço do [<span class="skill"><b>MEMENTO</b></span>](/hero/table/memento.md) pode conter até 3 cartas de um mesmo LIGNUM. É possível ter cartas de LIGNUM diferentes no [<span class="skill"><b>MEMENTO</b></span>](/hero/table/memento.md), ocupando espaços diferentes, porém a soma de suas cartas de LIGNUM não pode ser superior a 9.
 
-- [<span class="house"><b>CASA</b></span>](/cards/house.md): Sempre adicionam e/ou trabalham com o conhecimento do Lignum.
+- [<span class="house"><b>CASA</b></span>](/cards/house.md): Sempre adicionam e/ou trabalham com o [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md) do Lignum.
 - [<span class="class"><b>CLASSE</b></span>](/cards/class.md): Fornecem espaços adicionais para cartas do Lignum igual ao nível da [<span class="class"><b>CLASSE</b></span>](/cards/class.md).
-- [<span class="entity"><b>ENTE</b></span>](/cards/entity.md): Ao invés de serem mantidos consumindo Energia igual ao nível da carta na sua , são mantidos consumindo 1 de Essência da cor do Lignum.
+- [<span class="entity"><b>ENTE</b></span>](/cards/entity.md): Ao invés de serem mantidos consumindo Energia igual ao nível da carta na sua [<span class="keyword-timing">Sua Fase Inicial</span>](/gameplay/effect.md), são mantidos consumindo 1 de Essência da cor do Lignum.
 - [<span class="item"><b>ITEM</b></span>](/cards/item.md): São consumidos depois de usados e não podem mais ser ativados quando consumidos. Possuem um efeito de [<span class="keyword-timing">Fase de Recomposição</span>](/gameplay/effect.md) para serem restaurados.
 - [<span class="skill"><b>HABILIDADE</b></span>](/cards/skills.md): São o banco de energia do Lignum, estas são as cartas que possuem a Essência, a energia especial colorida do Lignum, usada por todas as cartas para ativar os efeitos.
 - [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md): Para que as técnicas sejam usadas, os anexos precisam ser do mesmo nível e Lignum desta carta.
@@ -53,7 +53,7 @@ Quando você puder _“levantar troco”_, o troco deve ser da mesma cor ou leva
 
 * :icon-chevron-right: [<span class="skill"><span class="black"><b>PRETA</b></span>](/gameplay/lignum.md#essência) - Representa a essência de Lignums de natureza destrutiva, como morte, dor, sofrimento, magia negra, etc.
 
-Se você pagar essência em uma ativação que seja exclusiva de estamina ou mana, você ainda pode pegar o troco do overpay. Agora se a ativação requer ambas, estamina e mana, então você não pode pegar o troco desta ativação.
+Se você pagar essência em uma ativação que seja exclusiva de [<span class="skill"><b>ESTAMINA</b></span>](/hero/#estamina) ou [<span class="skill"><b>MANA</b></span>](/hero/#mana), você ainda pode pegar o troco do overpay. Agora se a ativação requer ambas, [<span class="skill"><b>ESTAMINA</b></span>](/hero/#estamina) e [<span class="skill"><b>MANA</b></span>](/hero/#mana), então você não pode pegar o troco desta ativação.
 
 ---
 
@@ -61,7 +61,7 @@ Se você pagar essência em uma ativação que seja exclusiva de estamina ou man
 
 Cartas de Lignum podem se referenciar, ou seja, uma carta de Lignum pode ter um efeito que se aplica a outras cartas do mesmo Lignum. Por exemplo, uma carta de Lignum pode dizer:
 
-> [<span class="keyword-activation">Permanente</span>](/gameplay/effect.md) <span class="req">【</span> Enquanto esta carta for jogável <span class="req">】</span> Todas as outras cartas deste Lignum ganham +1 de dano.
+> [<span class="keyword-activation">Permanente</span>](/gameplay/effect.md) <span class="req">【</span> Enquanto esta carta for jogável <span class="req">】</span> Todas as outras cartas deste Lignum ganham +1 de <b>DANO</b>.
 
 Um efeito de carta de Lignum que se aplica a outras cartas do mesmo Lignum é chamado de efeito de apoio. Estes efeitos nunca referenciam o Lignum pelo nome, mas sim por meio de auto-referenciação usando expressões como "outras cartas deste Lignum", "todas as cartas deste Lignum", "este Lignum", etc.
 

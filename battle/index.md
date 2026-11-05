@@ -38,7 +38,7 @@ A área de influência aumenta em 1 de [<span class="main"><b>AÇÃO</b></spa
 ---
 
 ## DESCANSAR
-O personagem pode realizar uma Ação Total para:
+O personagem pode realizar uma [<span class="keyword-limit">Ação Total</span>](/gameplay/effect.md) para:
 
 * Curar <span class="positive">10</span> de [<span class="hp"><b>VIDA</b></span>](/hero/#vida); e
 
@@ -80,7 +80,7 @@ Este ataque não possui propriedades ou efeitos, é o mais simples e direto que 
 
 ## USAR UMA CARTA
 
-Você pode utilizar uma carta conforme as regras durante a batalha. Você pode utilizar uma HABILIDADE pagando os seus custos. Você pode utilizar uma FERRAMENTA para atacar. Você pode enviar uma carta do [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) para a [<span class="main"><b>MESA</b></span>](/hero/table/) ou enviar uma carta da [<span class="main"><b>MESA</b></span>](/hero/table/) para o [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md), pagando os custos de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação).
+Você pode utilizar uma carta conforme as regras durante a batalha. Você pode utilizar uma [<span class="skill"><b>HABILIDADE</b></span>](/cards/skills.md) pagando os seus custos. Você pode utilizar um [<span class="item"><b>ITEM</b></span>](/cards/item.md) para atacar. Você pode enviar uma carta do [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) para a [<span class="main"><b>MESA</b></span>](/hero/table/) ou enviar uma carta da [<span class="main"><b>MESA</b></span>](/hero/table/) para o [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md), pagando os custos de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação).
 
 ---
 
@@ -156,13 +156,13 @@ Adjacentes
 
 TODO
 
-Deve ser feito o cálculo de alcance para verificar se o alvo está dentro do alcance do ataque.
+Deve ser feito o cálculo de <b>ALCANCE</b> para verificar se o alvo está dentro do <b>ALCANCE</b> do ataque.
 
 ### <span class="icon"></span> Arqueado
 
 TODO
 
-No cálculo de alcance deve-se adicionar/subtrair a altura do alvo e do atacante.
+No cálculo de <b>ALCANCE</b> deve-se adicionar/subtrair a <b>ALTITUDE</b> do alvo e do atacante.
 
 ### <span class="icon"></span> Área
 

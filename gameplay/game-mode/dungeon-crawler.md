@@ -24,7 +24,7 @@ Ao enviar uma carta de [<span class="companion"><b>COMPANHEIRO</b></span>](/c
 
 ## Alcance Ilimitado
 
-Ações de alcance ilimitado possuem restrição de distância neste modo de jogo. Sendo assim, o alcance máximo é determinado pela [<span class="house"><b>PER</b></span>](/gameplay/attributes.md) do personagem.
+Ações de <b>ALCANCE</b> ilimitado possuem restrição de distância neste modo de jogo. Sendo assim, o <b>ALCANCE</b> máximo é determinado pela [<span class="house"><b>PER</b></span>](/gameplay/attributes.md) do personagem.
 
 ---
 

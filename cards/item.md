@@ -11,9 +11,9 @@ São cartas que podem ser usadas para complementar um personagem, servindo como 
 ||| :icon-file-moved:
 ![](/static/img/cards/item.png)
 ||| :icon-arrow-down-right:
-1. **Valor em Preço**
+1. **Valor em [<span class="item"><b>PREÇO</b></span>](/cards/item.md)**
 
-1. **Nível e Conhecimentos**: Requerimento para o Herói poder ter esta carta em sua [<span class="main"><b>MESA</b></span>](/hero/table/)
+1. **Nível e [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md)**: Requerimento para o Herói poder ter esta carta em sua [<span class="main"><b>MESA</b></span>](/hero/table/)
 
 1. **Bônus**: Bônus passivos imediatos
 
@@ -66,11 +66,11 @@ Alguns [<span class="item"><b>ITEM</b></span>](/cards/item.md) podem possuir 
 
 Tipos de Especificadores:
 
-* <span class="item"></span> Veste
-* <span class="item"></span> Cabeça
-* <span class="item"></span> Pés
-* <span class="item"></span> Acessório
-* <span class="item"></span> Utilitário
+* [<span class="item"><b>VESTE</b>](/cards/item.md#fabricar)
+* [<span class="item"><b>CABEÇA</b>](/cards/item.md#fabricar)
+* [<span class="item"><b>PÉS</b>](/cards/item.md#fabricar)
+* [<span class="item"><b>ACESSÓRIO</b>](/cards/item.md#fabricar)
+* [<span class="item"><b>UTILITÁRIO</b>](/cards/item.md#fabricar)
 
 ---
 
@@ -80,19 +80,19 @@ Uma forma alternativa de se obter um [<span class="item"><b>ITEM</b></span>](
 
 Tipos de Materiais de Fabricação:
 
-* <span class="item"></span> Forja
-* <span class="item"></span> Alquimia
-* <span class="item"></span> Herbalismo
-* <span class="item"></span> Costura
-* <span class="item"></span> Culinária
-* <span class="item"></span> Bebida
-* <span class="item"></span> Joalheria
-* <span class="item"></span> Encantamento
-* <span class="item"></span> Artesanato
-* <span class="item"></span> Armeiro
-* <span class="item"></span> Mecânico
-* <span class="item"></span> Oricalco
-* <span class="item"></span> Âmbar
+* [<span class="item"><b>FORJA</b>](/cards/item.md#fabricar)
+* [<span class="item"><b>ALQUIMIA</b>](/cards/item.md#fabricar)
+* [<span class="item"><b>HERBALISMO</b>](/cards/item.md#fabricar)
+* [<span class="item"><b>COSTURA</b>](/cards/item.md#fabricar)
+* [<span class="item"><b>CULINÁRIA</b>](/cards/item.md#fabricar)
+* [<span class="item"><b>BEBIDA</b>](/cards/item.md#fabricar)
+* [<span class="item"><b>JOIA</b>](/cards/item.md#fabricar)
+* [<span class="item"><b>ENCANTAMENTO</b>](/cards/item.md#fabricar)
+* [<span class="item"><b>ARTESANATO</b>](/cards/item.md#fabricar)
+* [<span class="item"><b>ARMEIRO</b>](/cards/item.md#fabricar)
+* [<span class="item"><b>MECÂNICO</b>](/cards/item.md#fabricar)
+* [<span class="item"><b>ORICALCO</b>](/cards/item.md#fabricar)
+* [<span class="item"><b>ÂMBAR</b>](/cards/item.md#fabricar)
 
 Em adicional, não é possível fabricar um [<span class="item"><b>ITEM</b></span>](/cards/item.md) quando em batalha, e não é necessário estar em um local com acesso ao [<span class="main"><b>ENTREPOSTO</b></span>](/gameplay/stack/trading-post.md).
 

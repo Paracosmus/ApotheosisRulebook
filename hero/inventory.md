@@ -17,7 +17,7 @@ Alguns efeitos e mecânicas podem determinar que uma carta do [<span class="main
 Assim como a [<span class="main"><b>MESA</b></span>](/hero/table/), o [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) também tem um limite de espaços, que é determinado pelo nível do Herói.
 
 !!!info
-**Capacidade do Inventário do Herói** = Nível do Herói + 10.
+**Capacidade do [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md) do Herói** = Nível do Herói + 10.
 !!!
 
 Qualquer carta de Recurso pode ser colocada em um espaço de [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md), não tendo requerimentos de nível de [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md) ou outras condições.

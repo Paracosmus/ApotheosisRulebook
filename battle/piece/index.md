@@ -21,10 +21,10 @@ Uma peça é criada com a [<span class="hp"><b>VIDA</b></span>](/hero/#vida) 
 
 ## Sair do Tabuleiro
 
-Uma peça que sai do tabuleiro guarda o seu estado, como [<span class="hp"><b>VIDA</b></span>](/hero/#vida) e [marcadores](/gameplay/marker.md). Quando volta ao tabuleiro, ela volta exatamente como estava, exceto pelos pontos de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação) e pelo seu lugar na [ordem dos turnos](/battle/turn.md#entrar-e-sair-da-ordem-dos-turnos).
+Uma peça que sai do tabuleiro guarda o seu estado, como [<span class="hp"><b>VIDA</b></span>](/hero/#vida) e [<span class="main"><b>MARCADOR</b></span>](/gameplay/marker.md). Quando volta ao tabuleiro, ela volta exatamente como estava, exceto pelos pontos de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação) e pelo seu lugar na [ordem dos turnos](/battle/turn.md#entrar-e-sair-da-ordem-dos-turnos).
 
 !!!
-Isso impede, por exemplo, que um [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) seja retirado da [<span class="main"><b>MESA</b></span>](/hero/table/) e recrutado de novo para recuperar sua [<span class="hp"><b>VIDA</b></span>](/hero/#vida) ou se livrar de marcadores.
+Isso impede, por exemplo, que um [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) seja retirado da [<span class="main"><b>MESA</b></span>](/hero/table/) e recrutado de novo para recuperar sua [<span class="hp"><b>VIDA</b></span>](/hero/#vida) ou se livrar de [<span class="main"><b>MARCADOR</b></span>](/gameplay/marker.md).
 !!!
 
 ---
@@ -49,26 +49,26 @@ A cura nunca deixa a [<span class="hp"><b>VIDA</b></span>](/hero/#vida) de um
 
 ### **Dummy**
 
-Personagem que não está ligado a um Herói ou COMPANHEIRO, criado pela campanha ou por efeitos; suas características são definidas pelo que o criou.
+Personagem que não está ligado a um Herói ou [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md), criado pela campanha ou por efeitos; suas características são definidas pelo que o criou.
 
 ## **Objeto**
 
 Não são personagens: não têm turno, não interagem, etc.
 
-Destruído: São removidos do tabuleiro quando sua VIDA chega a 0 (destruídos)
+Destruído: São removidos do tabuleiro quando sua [<span class="hp"><b>VIDA</b></span>](/hero/#vida) chega a 0 (destruídos)
 
 Objetos não podem ser curados (reparados)
 
 ## **Container**
 
-É um estado de uma peça que a torna um armazém de cartas. Os personagens podem interagir com ele quando estão a 1 de distância, pagando 2 de AÇÃO para obter uma carta armazenada nele.
+É um estado de uma peça que a torna um armazém de cartas. Os personagens podem interagir com ele quando estão a 1 de distância, pagando 2 de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação) para obter uma carta armazenada nele.
 
 As cartas armazenadas em um contêiner são [não jogáveis](/cards/index.md#estado-da-carta): nenhum de seus efeitos ou bônus é considerado.
 
-Personagens mortos são contêineres dos quais outros jogadores podem obter suas cartas de item
+Personagens mortos são contêineres dos quais outros jogadores podem obter suas cartas de [<span class="item"><b>ITEM</b></span>](/cards/item.md)
 
 Objetos podem ser definidos como contêineres por algum efeito ou mecânica
 
-Quando um ITEM é dropado, é adicionada uma peça naquela casa do tabuleiro, que é um contêiner que permite obter os itens que foram dropados ali
+Quando um [<span class="item"><b>ITEM</b></span>](/cards/item.md) é dropado, é adicionada uma peça naquela casa do tabuleiro, que é um contêiner que permite obter os [<span class="item"><b>ITEM</b></span>](/cards/item.md) que foram dropados ali
 
 Containers nunca bloqueiam trajetória de ataques, sendo considerados baixos demais para isso.

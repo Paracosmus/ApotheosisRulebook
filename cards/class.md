@@ -17,11 +17,11 @@ Cada personagem pode possuir até 3 cartas de [<span class="class"><b>CLASSE<
 
 1. **Conhecimentos**: Adiciona <span class="positive">+1</span> de nível em cada [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md) listado
 
-1. **Espaços de Equipamento**: Bônus de espaços de [<span class="item"><b>EQUIPAMENTO</b></span>](/hero/table/equipment.md)
+1. **Espaços de [<span class="item"><b>EQUIPAMENTO</b></span>](/hero/table/equipment.md)**: Bônus de espaços de [<span class="item"><b>EQUIPAMENTO</b></span>](/hero/table/equipment.md)
 
-1. **Espaços de Memento**: Bônus de espaços de [<span class="skill"><b>MEMENTO</b></span>](/hero/table/memento.md). Sendo que toda classe fornece pelo menos 1 espaço deste tipo
+1. **Espaços de [<span class="skill"><b>MEMENTO</b></span>](/hero/table/memento.md)**: Bônus de espaços de [<span class="skill"><b>MEMENTO</b></span>](/hero/table/memento.md). Sendo que toda [<span class="class"><b>CLASSE</b></span>](/cards/class.md) fornece pelo menos 1 espaço deste tipo
 
-1. **Caminho**: Ícone do caminho da classe
+1. **Caminho**: Ícone do caminho da [<span class="class"><b>CLASSE</b></span>](/cards/class.md)
 
 1. **Nível da Carta**: de 1 a 3
 
@@ -30,11 +30,11 @@ Cada personagem pode possuir até 3 cartas de [<span class="class"><b>CLASSE<
 1. **Efeito**: Texto do efeito desta carta
 |||
 
-| Nível da Classe                           | Nível 1 | Nível 2 | Nível 3 | {.compact}
-| ---                                       | ---     | ---     | ---     |
-| Somatório dos Bônus de Atributos          | 2       | 4       | 6       |
-| Número de Conhecimentos                   | 2       | 2       | 3       |
-| Soma dos Espaços de Equipamento e Memento | 2       | 3       | 4       |
+| Nível da [<span class="class"><b>CLASSE</b></span>](/cards/class.md)                               | Nível 1 | Nível 2 | Nível 3 | {.compact}
+| ---                                                | ---     | ---     | ---     |
+| Somatório dos Bônus de Atributos                   | 2       | 4       | 6       |
+| Número de [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md)                          | 2       | 2       | 3       |
+| Soma dos Espaços de [<span class="item"><b>EQUIPAMENTO</b></span>](/hero/table/equipment.md) e [<span class="skill"><b>MEMENTO</b></span>](/hero/table/memento.md)        | 2       | 3       | 4       |
 
 ---
 

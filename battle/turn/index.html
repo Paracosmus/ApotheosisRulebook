@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847161701942">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847226098581">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -41,11 +41,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.6.0.847161701942" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.847226098581" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.847161701942" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.847226098581" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.847161701942" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.847226098581" data-turbo-eval="false" defer></script>
     <script id="mermaid-js" data-cfasync="false" src="/resources/js/mermaid.js?v=4.6.0" defer></script>
 
     <!-- Font -->
@@ -493,7 +493,7 @@ timeline
 <h3 id="início-do-turno">Início do Turno</h3>
 <p>Compõe o momento em que o turno de um personagem começa, antes que ele possa agir. Neste momento são aplicados todos os efeitos e mecânicas que especificam “No início do seu turno”.</p>
 <h3 id="durante-o-turno">Durante o Turno</h3>
-<p>Nesta fase o personagem recebe uma quantidade de Pontos de <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a> equivalentes à sua AGI.<br />
+<p>Nesta fase o personagem recebe uma quantidade de Pontos de <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a> equivalentes à sua <a href="/gameplay/attributes/"><span class="house"><b>AGI</b></span></a>.<br />
 O jogador pode então tomar decisões e executar as diferentes ações e cartas disponíveis, observando os custos das mesmas e os recursos disponíveis.</p>
 <h3 id="fim-do-turno">Fim do Turno</h3>
 <p>Compõe o momento em que o jogador declara ter encerrado o seu turno. Neste momento são aplicados todos os efeitos que especificam “Ao final do seu turno” e após isso procede-se para o Início do Turno do próximo personagem na ordem de turnos desta rodada.</p>
@@ -546,10 +546,10 @@ O jogador pode então tomar decisões e executar as diferentes ações e cartas 
 <p>O jogador pode passar e guardar para a próxima rodada</p>
 <p>Cada um faz uma ação e passa para o próximo</p>
 <ul>
-<li>Ações que não contam seriam: deslocamento; ativar o Ente;</li>
+<li>Ações que não contam seriam: deslocamento; ativar o <a href="/cards/entity/"><span class="entity"><b>ENTE</b></span></a>;</li>
 </ul>
-<p>Os PAs resetam apenas no início de uma nova rodada</p>
-<p>A rodada so muda quando todos estão sem PAs depois de várias iterações</p>
+<p>Os <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a> resetam apenas no início de uma nova rodada</p>
+<p>A rodada so muda quando todos estão sem <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a> depois de várias iterações</p>
 <p>Talvez seja melhor não existir efeito de turno, todos seriam efeitos de rodada</p>
 <p>Início da Batalha</p>
 <ul>
@@ -561,12 +561,12 @@ O jogador pode então tomar decisões e executar as diferentes ações e cartas 
 <li>Draw phase</li>
 <li>Start Phase
 <ul>
-<li>Clean-up: Faz todos os efeitos de adicionar ou remover marcadores, contadores, etc.</li>
-<li>Earnings: Recebe todos os ganhos em ap, mp, sp, ep, etc. (simultaneamente)</li>
-<li>Payment: Paga todos os custos em ap, mp, sp, ep, etc. (simultaneamente)</li>
+<li>Clean-up: Faz todos os efeitos de adicionar ou remover <a href="/gameplay/marker/"><span class="main"><b>MARCADOR</b></span></a>, <a href="/gameplay/counter/"><span class="main">❂<b>CONTADOR</b></span></a>, etc.</li>
+<li>Earnings: Recebe todos os ganhos em <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a>, <a href="/hero/#mana"><span class="skill"><b>MANA</b></span></a>, <a href="/hero/#estamina"><span class="skill"><b>ESTAMINA</b></span></a>, ep, etc. (simultaneamente)</li>
+<li>Payment: Paga todos os custos em <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a>, <a href="/hero/#mana"><span class="skill"><b>MANA</b></span></a>, <a href="/hero/#estamina"><span class="skill"><b>ESTAMINA</b></span></a>, ep, etc. (simultaneamente)</li>
 </ul>
 </li>
-<li>Main Phase (nenhum efeito trigga nesta fase, ele é a fase de jogo manual, e não automático, o momento onde você pode ativar cartas do tipo activate)</li>
+<li>Main Phase (nenhum efeito trigga nesta fase, ele é a fase de jogo manual, e não automático, o momento onde você pode ativar cartas do tipo <a href="/gameplay/effect/"><span class="keyword-activation">Ativar</span></a>)</li>
 <li>End Phase</li>
 </ul>
 </li>
@@ -577,7 +577,7 @@ O jogador pode então tomar decisões e executar as diferentes ações e cartas 
 <p>No modo rush, o que muda é que</p>
 <ul>
 <li>A Draw phase e start phase só acontecem no seu primeiro turno desde a última reset phase</li>
-<li>A sua end phase só acontece quando você declarar, ou quando você ficar sem AP</li>
+<li>A sua end phase só acontece quando você declarar, ou quando você ficar sem <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a></li>
 <li>Seu turno então é composto apenas de Main phase</li>
 <li>A reset phase não acontece a cada round, mas sim apenas quando todos os personagens jogaram suas end phases</li>
 </ul>
@@ -603,8 +603,8 @@ O jogador pode então tomar decisões e executar as diferentes ações e cartas 
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-11-04T20:39:00" title="2026-11-04" data-absolute-label="Last updated on 2026-11-04 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-11-04 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
-                        Last updated on 2026-11-04 by Bruno Caxito
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-11-05T17:34:23" title="2026-11-05" data-absolute-label="Last updated on 2026-11-05 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-11-05 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                        Last updated on 2026-11-05 by Bruno Caxito
                     </time>
                 </div>
 

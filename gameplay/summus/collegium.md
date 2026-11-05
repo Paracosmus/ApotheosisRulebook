@@ -8,17 +8,17 @@ Esta seção ainda não foi completamente revisada. Algumas informações podem 
 > 
 > O Collegium de um Herói é a egrégora da qual ele faz parte (religiosa, profissional, política), conceito que geralmente descreve uma consciência coletiva formada pelo pensamento ou energia de um grupo, e que concede poderes adicionais aos iniciados. Como membro da egrégora, o personagem fornece e recebe energia do coletivo.
 > 
-> Por este motivo são representados por cartas de CASA, que são o berço, herança e legado do Herói.
+> Por este motivo são representados por cartas de [<span class="house"><b>CASA</b></span>](/cards/house.md), que são o berço, herança e legado do Herói.
 
-Collegiums são cartas de [<span class="house"><b>CASA</b></span>](/cards/house.md) adicionadas na área extra da [<span class="main"><b>FICHA</b></span>](/hero/table/sheet.md), conferindo efeitos adicionais ao Herói quando pago o *"preço"* cobrado por aquele coletivo de energias.
+[<span class="summus"><b>COLLEGIUM</b></span>](/gameplay/summus/collegium.md) são cartas de [<span class="house"><b>CASA</b></span>](/cards/house.md) adicionadas na área extra da [<span class="main"><b>FICHA</b></span>](/hero/table/sheet.md), conferindo efeitos adicionais ao Herói quando pago o *"preço"* cobrado por aquele coletivo de energias.
 
-A ilustração da carta representa o *frater* ou *soror* daquela egrégora.
+A ilustração da carta representa o *frater* ou *soror* daquela egrégora.
 
 <br>
 
 #### Regras Especiais
 
-- Para adicionar uma carta Collegium do [<span class="main"><b>ENTREPOSTO</b></span>](/gameplay/stack/trading-post.md) para um espaço extra na sua [<span class="main"><b>FICHA</b></span>](/hero/table/sheet.md), o Herói deve **banir** uma carta com a propriedade ** INICIAÇÃO**.
+- Para adicionar uma carta [<span class="summus"><b>COLLEGIUM</b></span>](/gameplay/summus/collegium.md) do [<span class="main"><b>ENTREPOSTO</b></span>](/gameplay/stack/trading-post.md) para um espaço extra na sua [<span class="main"><b>FICHA</b></span>](/hero/table/sheet.md), o Herói deve [<span class="keyword-task">Bane</span>](/gameplay/effect.md) uma carta com a propriedade ** INICIAÇÃO**.
 - Adicione os bônus de atributos desta carta ao total do Herói, mesmo que ela esteja consumida. (Esta carta não concede espaços na [<span class="main"><b>MESA</b></span>](/hero/table/))
 - No início e no fim da Batalha, ou ao mudar o período do dia, consuma esta carta.
 - A qualquer momento do seu turno, você pode pagar os custos referidos na caixa de Mecânica para recuperar esta carta.

@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847161701942">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847226098581">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -41,11 +41,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.6.0.847161701942" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.847226098581" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.847161701942" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.847226098581" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.847161701942" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.847226098581" data-turbo-eval="false" defer></script>
     <link href="/resources/css/katex.css?v=4.6.0" rel="stylesheet">
     <script id="katex-js" data-cfasync="false" src="/resources/js/katex.js?v=4.6.0" defer></script>
 
@@ -466,7 +466,7 @@ Casas</p>
 <p>A área de influência aumenta em 1 de <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a> o custo para que um personagem inimigo possa se mover para ela. Caso uma casa do tabuleiro esteja na área de influência de 2 ou mais personagens, o custo para se mover para esta casa aumenta em 1 de <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a> para cada personagem inimigo.</p>
 <hr>
 <h2 id="descansar">DESCANSAR</h2>
-<p>O personagem pode realizar uma Ação Total para:</p>
+<p>O personagem pode realizar uma <a href="/gameplay/effect/"><span class="keyword-limit">Ação Total</span></a> para:</p>
 <ul>
 <li>
 <p>Curar <span class="positive">10</span> de <a href="/hero/#vida"><span class="hp"><b>VIDA</b></span></a>; e</p>
@@ -520,7 +520,7 @@ Casas</p>
 <p>Este ataque não possui propriedades ou efeitos, é o mais simples e direto que um ataque pode ser.</p>
 <hr>
 <h2 id="usar-uma-carta">USAR UMA CARTA</h2>
-<p>Você pode utilizar uma carta conforme as regras durante a batalha. Você pode utilizar uma HABILIDADE pagando os seus custos. Você pode utilizar uma FERRAMENTA para atacar. Você pode enviar uma carta do <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a> para a <a href="/hero/table/"><span class="main"><b>MESA</b></span></a> ou enviar uma carta da <a href="/hero/table/"><span class="main"><b>MESA</b></span></a> para o <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a>, pagando os custos de <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a>.</p>
+<p>Você pode utilizar uma carta conforme as regras durante a batalha. Você pode utilizar uma <a href="/cards/skills/"><span class="skill"><b>HABILIDADE</b></span></a> pagando os seus custos. Você pode utilizar um <a href="/cards/item/"><span class="item"><b>ITEM</b></span></a> para atacar. Você pode enviar uma carta do <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a> para a <a href="/hero/table/"><span class="main"><b>MESA</b></span></a> ou enviar uma carta da <a href="/hero/table/"><span class="main"><b>MESA</b></span></a> para o <a href="/hero/inventory/"><span class="main"><b>INVENTÁRIO</b></span></a>, pagando os custos de <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a>.</p>
 <hr>
 <h2 id="dano">Dano</h2>
 <p>Todo ataque causa uma quantidade de <b>DANO</b> ao alvo. Desse <b>DANO</b> sofrido, subtrai-se a defesa do alvo — isto é, todos os descontos e reduções que o alvo aplica ao <b>DANO</b> recebido. O resultado final é a <b>LESÃO</b>, que corresponde à quantidade de <a href="/hero/#vida"><span class="hp"><b>VIDA</b></span></a> que o personagem perde, calculada observando os seguintes passos:</p>
@@ -598,10 +598,10 @@ Casas<br />
 Adjacentes</p>
 <h3 id="-direto"><span class="icon"></span> Direto</h3>
 <p>TODO</p>
-<p>Deve ser feito o cálculo de alcance para verificar se o alvo está dentro do alcance do ataque.</p>
+<p>Deve ser feito o cálculo de <b>ALCANCE</b> para verificar se o alvo está dentro do <b>ALCANCE</b> do ataque.</p>
 <h3 id="-arqueado"><span class="icon"></span> Arqueado</h3>
 <p>TODO</p>
-<p>No cálculo de alcance deve-se adicionar/subtrair a altura do alvo e do atacante.</p>
+<p>No cálculo de <b>ALCANCE</b> deve-se adicionar/subtrair a <b>ALTITUDE</b> do alvo e do atacante.</p>
 <h3 id="-área"><span class="icon"></span> Área</h3>
 <p>TODO</p>
 <p>Uma área ao redor do usuário. Não confundir com explosivos.</p>
@@ -634,8 +634,8 @@ Adjacentes</p>
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-11-04T23:41:16" title="2026-11-04" data-absolute-label="Last updated on 2026-11-04 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-11-04 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
-                        Last updated on 2026-11-04 by Bruno Caxito
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-11-05T17:34:23" title="2026-11-05" data-absolute-label="Last updated on 2026-11-05 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-11-05 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                        Last updated on 2026-11-05 by Bruno Caxito
                     </time>
                 </div>
 
