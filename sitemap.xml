@@ -33,12 +33,12 @@
     <lastmod>2026-11-05T17:34:23Z</lastmod>
   </url>
   <url>
-    <loc>https://apotheosiscardgame.com/cards/class/</loc>
-    <lastmod>2026-11-05T17:34:23Z</lastmod>
-  </url>
-  <url>
     <loc>https://apotheosiscardgame.com/hero/table/</loc>
     <lastmod>2026-11-04T23:41:16Z</lastmod>
+  </url>
+  <url>
+    <loc>https://apotheosiscardgame.com/cards/class/</loc>
+    <lastmod>2026-11-05T17:34:23Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/cards/item/</loc>
@@ -446,7 +446,7 @@
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/decklex/function/</loc>
-    <lastmod>2026-11-06T16:55:31Z</lastmod>
+    <lastmod>2026-11-06T18:30:22Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/decklex/statements/</loc>
@@ -459,6 +459,10 @@
   <url>
     <loc>https://apotheosiscardgame.com/decklex/variables/</loc>
     <lastmod>2026-11-06T16:55:31Z</lastmod>
+  </url>
+  <url>
+    <loc>https://apotheosiscardgame.com/decklex/expressions/</loc>
+    <lastmod>2026-11-06T18:30:22Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/lore/beings/synthetic/robots/</loc>
@@ -503,10 +507,6 @@
   <url>
     <loc>https://apotheosiscardgame.com/gameplay/assembly-line/</loc>
     <lastmod>2026-11-04T20:39:00Z</lastmod>
-  </url>
-  <url>
-    <loc>https://apotheosiscardgame.com/decklex/expressions/</loc>
-    <lastmod>2026-11-06T16:55:31Z</lastmod>
   </url>
   <url>
     <loc>https://apotheosiscardgame.com/lore/beings/numinous/others/maedra/</loc>

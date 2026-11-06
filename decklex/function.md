@@ -32,11 +32,11 @@ Hoje só uma coisa roda funções: o cálculo de uma [propriedade](properties.md
 Os efeitos rodam da maior prioridade para a menor. Efeitos com a mesma prioridade rodam na ordem em que o jogo os encontrou.
 
 !!!warning Nada filtra o alvo
-Todo efeito em jogo que modifica uma propriedade roda para **todo** herói cujo valor é pedido, não só para o dono da carta. Um efeito que deve valer só para o dono precisa verificar isso ele mesmo. Hoje nenhuma instrução consegue fazer essa verificação: veja [O que ainda falta](#o-que-ainda-falta).
+Todo efeito em jogo que modifica uma propriedade roda para **todo** herói cujo valor é pedido, não só para o dono da carta. Um efeito que deve valer só para o dono precisa verificar isso ele mesmo, com a função [`is_owner()`](expressions.md#do-jogo).
 !!!
 
 !!!secondary Exemplo
-Uma carta com `$hero_level += 1` e sem validação, revelada na [<span class="main"><b>MESA</b></span>](/hero/table/) de um herói, dá **+1** de nível a todos os heróis em cena.
+Uma carta com `$hero_level += 1` e sem validação, revelada na [<span class="main"><b>MESA</b></span>](/hero/table/) de um herói, dá **+1** de nível a todos os heróis em cena. Com `[[{ "Expr": "is_owner()" }]]` na `validation`, dá **+1** só ao herói dono da carta.
 !!!
 
 ---
@@ -61,7 +61,7 @@ Um limite como "nível no máximo **5**" usa uma prioridade negativa, para rodar
 
 ## O que ainda falta
 
-- Ler a situação em que a função roda: a quem o cálculo se aplica e de qual carta o efeito vem. O jogo já entrega essas informações à função, mas nenhuma instrução as lê.
+- Ler mais da situação em que a função roda. Hoje as [funções do jogo](expressions.md#do-jogo) só comparam o agente com o dono da carta e o time dele.
 - Gatilhos. Hoje só rodam modificadores permanentes.
 - Efeitos de campanha.
 
