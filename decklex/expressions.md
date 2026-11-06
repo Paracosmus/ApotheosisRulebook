@@ -67,6 +67,33 @@ Sem parênteses, os operadores são calculados nesta ordem, do primeiro ao últi
 
 Uma função é escrita com seus valores entre parênteses, separados por vírgula: `min($base, 3)`. Com um único valor, os parênteses são opcionais: `math::abs $x` é o mesmo que `math::abs($x)`.
 
+### Do jogo
+
+Funções da Decklex que leem a situação em que o efeito roda. O agente é quem recebe o efeito: no cálculo de uma [propriedade](properties.md), o herói cujo valor está sendo calculado.
+
+| Função       | O que devolve                                                                                     | {.compact}
+| ---          | ---                                                                                               |
+| `is_owner()` | Verdadeiro se o agente é o dono da carta do efeito: o herói em cuja {{ table }} ela está. Um dummy é o dono das próprias técnicas. Uma carta numa pilha não tem dono, e o resultado é falso. |
+| `is_self()` | Verdadeiro se o agente é a peça da própria carta do efeito, como um {{ companion }} cujo efeito vale só para ele. Um dummy é a peça das próprias técnicas. |
+| `is_team_member()` | Verdadeiro se o agente é um membro do time do dono, contando o próprio dono. |
+| `is_teammate()` | Verdadeiro se o agente é um parceiro do dono: está no time do dono, mas não é o dono. |
+| `is_opponent()` | Verdadeiro se o agente está num time em que o dono não está. |
+
+Um herói está no time que o lista. Um {{ companion }} está no time do herói dono da carta dele. Um herói sem time, um {{ companion }} sem dono, um dummy, um tile e uma carta sem dono dão falso nas três funções de time. A exceção é `is_team_member()`, verdadeiro para um dummy nas próprias técnicas, porque inclui o dono.
+
+!!!
+Hoje só as propriedades de heróis são calculadas, então um {{ companion }} nunca é o agente, e `is_self()` só é verdadeiro para um dummy.
+!!!
+
+!!!secondary Exemplo
+Um efeito que dá **+1** de nível só ao dono da carta:
+
+```json
+"validation": [[{ "Expr": "is_owner()" }]],
+"body": [{ "Expr": "$hero_level += 1" }]
+```
+!!!
+
 ### Uso geral
 
 | Função                 | O que devolve                                           | {.compact}
