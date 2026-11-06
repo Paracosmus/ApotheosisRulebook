@@ -25,6 +25,7 @@ O resultado de uma expressão é sempre um número inteiro, um booleano ou um te
 | Booleano           | `true`, `false`                                      |
 | Texto              | `"abc"`, com `\"` para aspas e `\\` para barra       |
 | Variável           | `$nome`                                              |
+| Vazio              | `()`                                                 |
 
 Uma variável é sempre escrita com `$` na frente do nome. Uma variável que ainda não recebeu valor vale `0`.
 
@@ -37,6 +38,9 @@ Uma variável é sempre escrita com `$` na frente do nome. Uma variável que ain
 - **Comparação:** `==` `!=` `<` `>` `<=` `>=`
 - **Lógica:** `&&` (e), `||` (ou), `!` (não)
 - **Texto:** `+` junta dois textos
+- **Atribuição:** `=` `+=` `-=` `*=` `/=` `%=` `^=` `&&=` `||=`, gravam a variável à esquerda
+- **Sequência:** `;` separa expressões, calculadas em ordem. O resultado é o da última: `$x = 2; $x * 3` resulta em `6`. Com um `;` no final, o resultado é vazio, que conta como `true`
+- **Agregação:** `,` junta valores num [conjunto](#conjuntos)
 - **Agrupamento:** `( )`, com quantos níveis forem necessários
 - **Comentário:** `/* … */` e `// …`, ignorados no cálculo
 
@@ -53,12 +57,15 @@ Sem parênteses, os operadores são calculados nesta ordem, do primeiro ao últi
 1. `==` `!=` `<` `>` `<=` `>=`
 1. `&&`
 1. `||`
+1. `=` `+=` e as demais atribuições
+1. `,`
+1. `;`
 
 ---
 
 ## Funções
 
-Uma função é escrita com seus valores entre parênteses, separados por vírgula: `min($base, 3)`.
+Uma função é escrita com seus valores entre parênteses, separados por vírgula: `min($base, 3)`. Com um único valor, os parênteses são opcionais: `math::abs $x` é o mesmo que `math::abs($x)`.
 
 ### Uso geral
 
@@ -82,7 +89,7 @@ Uma função é escrita com seus valores entre parênteses, separados por vírgu
 | `str::to_uppercase(t)`           | `t` em maiúsculas                          |
 | `str::trim(t)`                   | `t` sem os espaços do início e do fim      |
 | `str::from(x)`                   | `x` escrito como texto                     |
-| `str::substring(t, início, fim)` | O trecho de `t` entre as duas posições     |
+| `str::substring(t, início, fim)` | O trecho de `t` entre as duas posições. Sem `fim`, vai até o final do texto |
 
 ### Conjuntos
 
@@ -138,5 +145,7 @@ Uma expressão que não pode ser calculada resulta em `false`, sem nenhum aviso.
 - **Comparações não se encadeiam.** `1 < 2 < 3` falha. Escreva `1 < 2 && 2 < 3`.
 - **Booleano não é número.** `true && 1` e `1 + true` falham.
 - **O resto de um negativo é negativo.** `-7 % 3` é `-1`.
-- **Uma expressão não altera variáveis.** `=`, `+=` e os demais operadores de atribuição falham.
+- **Uma atribuição só grava se a expressão inteira der certo.** `=`, `+=` e os demais operadores de atribuição gravam a variável, e `;` junta várias expressões: `$hero_agility += 1; $hero_strength += 1`. Se qualquer parte falhar, nenhuma variável é gravada.
+- **Uma variável não muda de tipo.** A primeira atribuição dá o tipo da variável, e uma atribuição posterior de outro tipo falha. Como `$hero_level` é um número inteiro, `$hero_level /= 2.0` e `$hero_level = floor($hero_level / 2)` falham, porque o resultado é fracionário. Use a divisão entre inteiros: `$hero_level /= 2`.
 - **Não há sorteio.** Não existe função de número aleatório.
+- **Não há expressões regulares** (`str::regex_matches`, `str::regex_replace`) nem funções novas criadas pela carta.

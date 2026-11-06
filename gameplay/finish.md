@@ -1,7 +1,7 @@
 ---
 label: Acabamento
-icon: paintbrush
-order: 90
+icon: sparkle-fill
+order: 15
 ---
 {{ review() }}
 
