@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6DMTE08V5G"></script>
+    <script data-cfasync="false">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-6DMTE08V5G');</script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847310163908">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 4.6.0">
+    <meta name="robots" content="noindex">
+
+    <!-- Primary Meta Tags -->
+    <title>Vari&#225;veis</title>
+    <meta name="title" content="Variáveis">
+    <meta name="description" content="Uma variável é um valor com nome, escrito com $ na frente: $base, $hero_level. As variáveis pertencem à partida, não ao efeito. Todos os efeitos que rodam durante uma mesma ação leem e gravam as mesmas variáveis, e o jogo apaga todas quando a ação termina.">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://apotheosiscardgame.com/decklex/variables/">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="https://apotheosiscardgame.com/sitemap.xml">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://apotheosiscardgame.com/decklex/variables/">
+    <meta property="og:title" content="Variáveis">
+    <meta property="og:description" content="Uma variável é um valor com nome, escrito com $ na frente: $base, $hero_level. As variáveis pertencem à partida, não ao efeito. Todos os efeitos que rodam durante uma mesma ação leem e gravam as mesmas variáveis, e o jogo apaga todas quando a ação termina.">
+    <meta property="og:site_name" content="Apotheosis">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://apotheosiscardgame.com/decklex/variables/">
+    <meta name="twitter:title" content="Variáveis">
+    <meta name="twitter:description" content="Uma variável é um valor com nome, escrito com $ na frente: $base, $hero_level. As variáveis pertencem à partida, não ao efeito. Todos os efeitos que rodam durante uma mesma ação leem e gravam as mesmas variáveis, e o jogo apaga todas quando a ação termina.">
+
+    <!-- Alternate Markdown -->
+    <link rel="alternate" type="text/markdown" href="https://apotheosiscardgame.com/decklex/variables.md">
+
+    <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
+
+    <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
+    <link href="/resources/css/retype.css?v=4.6.0.847310163908" rel="stylesheet">
+
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.847310163908" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.847310163908" data-turbo-eval="false" defer></script>
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <style>
+        /* Override retype style */
+        :root {
+            /* Link styles */
+            --body-link-decoration-line: none !important;
+            --body-link-decoration-thickness: 0 !important;
+        }
+
+        /* Fallback Apotheosis Icons font */
+        @font-face {
+            font-family: 'Apotheosis';
+            src: url('/static/fonts/apotheosis.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            font-display: block;
+        }
+
+        div.container {
+            font-family: 'Noto Sans', Apotheosis;
+            max-width: 1530px;
+        }
+
+        h1, h2 {
+            text-transform: uppercase !important;
+        }
+
+        b {
+            font-weight: 650;
+            letter-spacing: 0.2px;
+        }
+
+        .icon {
+            font-weight: normal;
+        }
+
+        .tk-icon {
+            font-weight: normal;
+        }
+
+        .tk-literal {
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .tk-dice > .tk-literal {
+            text-transform: none;
+        }
+
+        .tk-dice {
+            background-color: #e4f1e8;
+            border-radius: 50px;
+            padding: 0px 6px 0px 5px;
+            color: #006558;
+        }
+
+        .tk-dice .tk-literal {
+            letter-spacing: 0px;
+            font-weight: 900;
+            color: #008d7a;
+        }
+
+        .briefing {
+            color: #1976d2;
+            margin: 0px !important;
+        }
+
+        .rarity-box {
+            width: 24px;
+            background-color: #BDBDBD;
+            display: inline-block;
+            border-radius: 6px 6px 0 0;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.5);
+            font-weight: bold;
+        }
+
+        .req {
+            color: #F78A1F;
+        }
+
+        /* This element fills the line */
+        div:has(> .fill) {
+            display: flex;
+            align-items: center;
+            gap: 0.5em;
+        } .fill {
+            flex: 1;
+        }
+
+        /* Bonus */
+        .positive {
+            font-weight: bold;
+            color: green;
+        }
+
+        .negative {
+            font-weight: bold;
+            color: red;
+        }
+
+        /* Colors */
+        .main      { color: #212121; } .dark .main { color: #DADADA; }
+
+        .house     { color: #673AB7 !important; }
+        .class     { color: #F44336 !important; }
+        .entity    { color: #3F51B5 !important; }
+        .item      { color: #FFC107 !important; }
+        .skill     { color: #2196F3 !important; }
+        .companion { color: #FF7043 !important; }
+        .event     { color: #4CAF50 !important; }
+
+        .summus    { color: #FF22B2 !important; }
+        .knowledge { color: #995D52 !important; }
+
+        .common    { color: #9E9E9E !important; }
+    	.uncommon  { color: #8BC34A !important; }
+    	.rare      { color: #01579B !important; }
+    	.epic      { color: #673AB7 !important; }
+    	.legendary { color: #FFC400 !important; }
+
+        .yellow    { color: #FFEB3B !important; }
+    	.red       { color: #B71C1C !important; }
+    	.blue      { color: #0D47A1 !important; }
+    	.white     { color: #BDBDBD !important; }
+    	.black     { color: #424242 !important; } .dark .black { color: #454545 !important; }
+
+        .hp        { color: #2B6A2E !important; }
+        .format    { color: #03DAC6 !important; }
+
+        .keyword-activation {
+            font-size: 0.8em;
+            text-transform: uppercase;
+            color: #F5F5F5;
+            background-color: #3676BC;
+            border-radius: 4px;
+            padding: 0px 5px;
+            font-weight: 600;
+        }
+
+        .keyword-timing {
+            font-size: 0.8em;
+            text-transform: uppercase;
+            color: #F5F5F5;
+            background-color: #F78A1F;
+            border-radius: 4px;
+            padding: 0px 5px;
+            font-weight: 600;
+        }
+
+        .keyword-limit {
+            font-size: 0.8em;
+            text-transform: uppercase;
+            color: #F5F5F5;
+            background-color: #EF4056;
+            border-radius: 20px;
+            padding: 0px 8px;
+            font-weight: 600;
+        }
+
+        .keyword-scope {
+            font-size: 0.8em;
+            text-transform: uppercase;
+            color: #F5F5F5;
+            background-color: #932969;
+            border-radius: 20px;
+            padding: 0px 8px;
+            font-weight: 600;
+        }
+
+        /* Decklex reference entries, as in the Quillscript docs */
+        .api {
+            padding: 15px;
+            border: 1px solid #EEEEEE;
+            border-radius: 8px;
+            background-color: #FBFBFB;
+        } .api h3 {
+            padding-bottom: 10px;
+            border-right: 3px solid #3676BC;
+        }
+        .dark .api {
+            border-color: rgba(255, 255, 255, 0.1);
+            background-color: rgba(255, 255, 255, 0.03);
+        }
+
+        .keyword-task {
+            font-size: 0.8em;
+            text-transform: uppercase;
+            color: #F5F5F5;
+            background-color: #212121;
+            padding: 0px 10px;
+            font-weight: 600;
+            border-radius: 10px / 50%;
+            corner-shape: superellipse(0.7);
+        }
+
+    </style>
+
+
+    <!-- Scripts -->
+    <script>
+
+
+
+    </script>
+
+
+    <!-- Page Header Content -->
+    <div>
+
+
+
+    </div>
+
+</head>
+<body>
+    <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
+    <div class="absolute bottom-0 left-0" style="top: 5rem; right: 50%"></div>
+
+    <header id="retype-header" class="sticky top-0 z-30 flex w-full h-16 bg-header-bg border-b border-header-border md:h-20">
+        <div class="container relative flex items-center justify-between pr-6 grow md:justify-start">
+            <!-- Mobile menu button skeleton -->
+            <button v-cloak class="skeleton retype-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-hidden rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+            <div v-cloak id="retype-sidebar-left-toggle-button"></div>
+    
+            <!-- Logo -->
+            <div class="flex items-center justify-between h-full py-2 md:w-75">
+                <div class="flex items-center px-2 md:px-6">
+                    <a id="retype-branding-logo" href="https://apotheosiscardgame.com/" class="flex items-center leading-snug text-2xl">
+                        <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
+                            <img class="max-h-10 md:inline-block" src="/static/img/logo.svg" alt="" width="40" height="40">
+                        </span>
+                        <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">Apotheosis</span>
+                    </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">book</span>
+                </div>
+    
+                <span class="hidden h-8 border-r md:inline-block border-base-border"></span>
+            </div>
+    
+            <div class="flex justify-between md:grow">
+                <!-- Top Nav -->
+                <nav id="retype-header-nav" class="hidden md:flex">
+                    <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="/">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M11.03 2.59a1.501 1.501 0 0 1 1.94 0l7.5 6.363a1.5 1.5 0 0 1 .53 1.144V19.5a1.5 1.5 0 0 1-1.5 1.5h-5.75a.75.75 0 0 1-.75-.75V14h-2v6.25a.75.75 0 0 1-.75.75H4.5A1.5 1.5 0 0 1 3 19.5v-9.403c0-.44.194-.859.53-1.144ZM12 3.734l-7.5 6.363V19.5h5v-6.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v6.25h5v-9.403Z"/>
+                                </svg>
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="/glossary/">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M10.414 15H3.586l-1.631 4.505a.75.75 0 1 1-1.41-.51l5.08-14.03a1.463 1.463 0 0 1 2.75 0l5.08 14.03a.75.75 0 1 1-1.411.51Zm4.532-5.098c.913-1.683 2.703-2.205 4.284-2.205 1.047 0 2.084.312 2.878.885.801.577 1.392 1.455 1.392 2.548v8.12a.75.75 0 0 1-1.5 0v-.06l-.044.025c-.893.52-2.096.785-3.451.785-1.051 0-2.048-.315-2.795-.948-.76-.643-1.217-1.578-1.217-2.702 0-.919.349-1.861 1.168-2.563.81-.694 2-1.087 3.569-1.087H22v-1.57c0-.503-.263-.967-.769-1.332-.513-.37-1.235-.6-2.001-.6-1.319 0-2.429.43-2.966 1.42a.75.75 0 0 1-1.318-.716ZM9.87 13.5 7 5.572 4.13 13.5Zm12.13.7h-2.77c-1.331 0-2.134.333-2.593.726a1.822 1.822 0 0 0-.644 1.424c0 .689.267 1.203.686 1.557.43.365 1.065.593 1.826.593 1.183 0 2.102-.235 2.697-.581.582-.34.798-.74.798-1.134Z"/>
+                                </svg>
+                                <span>Glossário</span>
+                            </a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="/chart/">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M5.962 2.513a.75.75 0 0 1-.475.949l-.816.272a.25.25 0 0 0-.171.237V21.25c0 .138.112.25.25.25h14.5a.25.25 0 0 0 .25-.25V3.97a.25.25 0 0 0-.17-.236l-.817-.272a.75.75 0 0 1 .474-1.424l.816.273A1.751 1.751 0 0 1 21 3.97v17.28A1.75 1.75 0 0 1 19.25 23H4.75A1.75 1.75 0 0 1 3 21.25V3.97a1.75 1.75 0 0 1 1.197-1.66l.816-.272a.75.75 0 0 1 .949.475Z"/><path d="M7 1.75C7 .784 7.784 0 8.75 0h6.5C16.216 0 17 .784 17 1.75v1.5A1.75 1.75 0 0 1 15.25 5h-6.5A1.75 1.75 0 0 1 7 3.25Zm1.75-.25a.25.25 0 0 0-.25.25v1.5c0 .138.112.25.25.25h6.5a.25.25 0 0 0 .25-.25v-1.5a.25.25 0 0 0-.25-.25Z"/>
+                                </svg>
+                                <span>Cartilha</span>
+                            </a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="/icons/">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M1.527 13.237a1.75 1.75 0 0 1 0-2.474l9.272-9.273a1.75 1.75 0 0 1 2.475 0l9.272 9.273a1.75 1.75 0 0 1 0 2.474l-9.272 9.272a1.75 1.75 0 0 1-2.475 0Zm1.06-1.414a.25.25 0 0 0 0 .354l9.273 9.272a.25.25 0 0 0 .353 0l9.272-9.272a.25.25 0 0 0 0-.354l-9.272-9.272a.25.25 0 0 0-.353 0Z"/>
+                                </svg>
+                                <span>Ícones</span>
+                            </a>
+                        </li>
+    
+                    </ul>
+                </nav>
+    
+                <div v-cloak class="flex justify-end grow">
+                    <div id="retype-mobile-search-button"></div>
+                    <doc-search-desktop></doc-search-desktop>
+    
+                    <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                    <doc-history></doc-history>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div id="retype-container" class="container relative flex bg-white">
+        <!-- Sidebar Skeleton -->
+        <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-sidebar-left-bg border-sidebar-left-border sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton">
+        
+            <div class="flex items-center h-16 px-6">
+                <input id="retype-filter-input-mock" class="w-full h-10 pl-8 px-3 py-2 transition-colors duration-200 ease-linear bg-filter-bg border border-filter-border rounded-lg shadow-none md:text-sm hover:border-filter-border-hover focus:outline-hidden focus:border-filter-border-focus placeholder-filter-placeholder" type="text">
+            </div>
+        
+            <div class="pl-6 mt-1 mb-4">
+                <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+            </div>
+        
+        </div>
+        
+        <!-- Sidebar component -->
+        <doc-sidebar v-cloak>
+            <template #sidebar-footer>
+                <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-base-border">
+        
+                    <div class="py-3 px-6 md:hidden border-b dark:border-base-border">
+                        <nav>
+                            <ul class="flex flex-wrap justify-center items-center">
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M11.03 2.59a1.501 1.501 0 0 1 1.94 0l7.5 6.363a1.5 1.5 0 0 1 .53 1.144V19.5a1.5 1.5 0 0 1-1.5 1.5h-5.75a.75.75 0 0 1-.75-.75V14h-2v6.25a.75.75 0 0 1-.75.75H4.5A1.5 1.5 0 0 1 3 19.5v-9.403c0-.44.194-.859.53-1.144ZM12 3.734l-7.5 6.363V19.5h5v-6.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v6.25h5v-9.403Z"/>
+                                        </svg>
+                                        <span>Home</span>
+                                    </a>
+                                </li>
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="/glossary/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M10.414 15H3.586l-1.631 4.505a.75.75 0 1 1-1.41-.51l5.08-14.03a1.463 1.463 0 0 1 2.75 0l5.08 14.03a.75.75 0 1 1-1.411.51Zm4.532-5.098c.913-1.683 2.703-2.205 4.284-2.205 1.047 0 2.084.312 2.878.885.801.577 1.392 1.455 1.392 2.548v8.12a.75.75 0 0 1-1.5 0v-.06l-.044.025c-.893.52-2.096.785-3.451.785-1.051 0-2.048-.315-2.795-.948-.76-.643-1.217-1.578-1.217-2.702 0-.919.349-1.861 1.168-2.563.81-.694 2-1.087 3.569-1.087H22v-1.57c0-.503-.263-.967-.769-1.332-.513-.37-1.235-.6-2.001-.6-1.319 0-2.429.43-2.966 1.42a.75.75 0 0 1-1.318-.716ZM9.87 13.5 7 5.572 4.13 13.5Zm12.13.7h-2.77c-1.331 0-2.134.333-2.593.726a1.822 1.822 0 0 0-.644 1.424c0 .689.267 1.203.686 1.557.43.365 1.065.593 1.826.593 1.183 0 2.102-.235 2.697-.581.582-.34.798-.74.798-1.134Z"/>
+                                        </svg>
+                                        <span>Glossário</span>
+                                    </a>
+                                </li>
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="/chart/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M5.962 2.513a.75.75 0 0 1-.475.949l-.816.272a.25.25 0 0 0-.171.237V21.25c0 .138.112.25.25.25h14.5a.25.25 0 0 0 .25-.25V3.97a.25.25 0 0 0-.17-.236l-.817-.272a.75.75 0 0 1 .474-1.424l.816.273A1.751 1.751 0 0 1 21 3.97v17.28A1.75 1.75 0 0 1 19.25 23H4.75A1.75 1.75 0 0 1 3 21.25V3.97a1.75 1.75 0 0 1 1.197-1.66l.816-.272a.75.75 0 0 1 .949.475Z"/><path d="M7 1.75C7 .784 7.784 0 8.75 0h6.5C16.216 0 17 .784 17 1.75v1.5A1.75 1.75 0 0 1 15.25 5h-6.5A1.75 1.75 0 0 1 7 3.25Zm1.75-.25a.25.25 0 0 0-.25.25v1.5c0 .138.112.25.25.25h6.5a.25.25 0 0 0 .25-.25v-1.5a.25.25 0 0 0-.25-.25Z"/>
+                                        </svg>
+                                        <span>Cartilha</span>
+                                    </a>
+                                </li>
+                                <li class="mr-6">
+                                    <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="/icons/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M1.527 13.237a1.75 1.75 0 0 1 0-2.474l9.272-9.273a1.75 1.75 0 0 1 2.475 0l9.272 9.273a1.75 1.75 0 0 1 0 2.474l-9.272 9.272a1.75 1.75 0 0 1-2.475 0Zm1.06-1.414a.25.25 0 0 0 0 .354l9.273 9.272a.25.25 0 0 0 .353 0l9.272-9.272a.25.25 0 0 0 0-.354l-9.272-9.272a.25.25 0 0 0-.353 0Z"/>
+                                        </svg>
+                                        <span>Ícones</span>
+                                    </a>
+                                </li>
+        
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </template>
+        </doc-sidebar>
+
+        <div class="grow min-w-0 bg-body-bg">
+            <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+<div class="flex">
+    <div id="retype-main" class="min-w-0 p-4 grow md:px-16">
+        <main class="relative pb-12 lg:pt-2">
+            <div class="relative retype-markdown" id="retype-content">
+                <!-- Rendered if sidebar right is enabled -->
+                <div id="retype-sidebar-right-toggle"></div>
+                <nav id="retype-breadcrumb" class="breadcrumb" aria-label="Breadcrumb">
+                    <ol role="list">
+                        <li class="pr-4">
+                            <a href="/" class="pr-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M11.03 2.59a1.501 1.501 0 0 1 1.94 0l7.5 6.363a1.5 1.5 0 0 1 .53 1.144V19.5a1.5 1.5 0 0 1-1.5 1.5h-5.75a.75.75 0 0 1-.75-.75V14h-2v6.25a.75.75 0 0 1-.75.75H4.5A1.5 1.5 0 0 1 3 19.5v-9.403c0-.44.194-.859.53-1.144ZM12 3.734l-7.5 6.363V19.5h5v-6.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v6.25h5v-9.403Z"/>
+                                </svg>
+                            </a>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"/>
+                            </svg>
+                        </li>
+                        <li class="pr-4">
+                            <a href="/decklex/" class="pr-4">
+                                Decklex
+                            </a>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"/>
+                            </svg>
+                        </li>
+                        <li class="pr-4">
+                            <a href="/decklex/variables/" class="pr-4">
+                                Vari&#225;veis
+                            </a>
+                        </li>
+                    </ol>
+                </nav>
+
+                <doc-page-actions></doc-page-actions>
+
+                <!-- Page content  -->
+
+<div id="protected-content" data="10904.z78naYM6AEAaYXDXumyZZQ==.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" class="text-center mt-12 pb-16">
+    <div class="inline-block bg-gray-200 dark:bg-dark-550 dark:text-white p-6 rounded-lg">
+        <div class="-mt-2 pb-6 text-2xl">
+            This page is password protected
+        </div>
+        <div>
+            Enter password:
+            <br>
+            <input id="protected-content-password" type="password" class="border-4 h-8 pl-1 rounded text-2xl text-gray-700 w-75" onkeyup="if (event.keyCode === 13){ document.getElementById('protected-content-ok').click(); }">
+        </div>
+        <div id="protected-content-error" class="transition-opacity opacity-0 text-danger-600">
+            Wrong password!
+        </div>
+        <div class="mt-4">
+            <button id="protected-content-ok" class="no-link inline-flex align-middle items-center font-medium cursor-pointer transition-colors duration-200 ease-out focus:outline-hidden bg-button-primary hover:bg-button-primary-hover text-white px-3 h-8 text-sm rounded">
+                Unlock
+            </button>
+        </div>
+    </div>
+</div>
+                <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
+                
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-11-06T16:55:31" title="2026-11-06" data-absolute-label="Last updated on 2026-11-06 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-11-06 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                        Last updated on 2026-11-06 by Bruno Caxito
+                    </time>
+                </div>
+
+                <!-- Required only on API pages -->
+                <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
+            </div>
+            <footer id="retype-content-footer" class="clear-both">
+            
+                <nav id="retype-nextprev" class="print:hidden flex mt-14">
+                    <div class="w-1/2">
+                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="/decklex/actions/">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                            <span>
+                                <span class="block text-xs font-normal text-base-text-muted">Previous</span>
+                                <span class="block mt-1">A&#231;&#245;es de jogo</span>
+                            </span>
+                        </a>
+                    </div>
+            
+                    <div class="w-1/2">
+                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="/decklex/expressions/">
+                            <span>
+                                <span class="block text-xs font-normal text-right text-base-text-muted">Next</span>
+                                <span class="block mt-1">Express&#245;es</span>
+                            </span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                        </a>
+                    </div>
+                </nav>
+            </footer>
+        </main>
+
+        <div id="retype-page-footer" class="print:border-none border-t border-base-border pt-6 mb-8">
+            <footer class="flex flex-wrap items-center justify-between print:justify-center">
+                <div id="retype-footer-links" class="print:hidden">
+                    <ul class="flex flex-wrap items-center text-sm">
+                    </ul>
+                </div>
+                <div id="retype-copyright" class="print:justify-center py-2 text-footer-text font-footer-link text-sm leading-relaxed"><p>© Copyright Bruno Caxito, 2026. All rights reserved.</p></div>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Rendered if sidebar right is enabled -->
+    <!-- Sidebar right skeleton-->
+    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-sidebar-right-bg border-sidebar-right-border lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:translate-x-0 sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton">
+        <div class="pl-5">
+            <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+            <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+            <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+        </div>
+    </div>
+
+    <!-- User should be able to hide sidebar right -->
+    <doc-sidebar-right v-cloak></doc-sidebar-right>
+</div>
+
+        </div>
+    </div>
+
+    <doc-search-mobile></doc-search-mobile>
+    <doc-back-to-top></doc-back-to-top>
+</div>
+
+
+    <div id="retype-overlay-target"></div>
+
+        <script data-cfasync="false">window.__DOCS__ = { "title": "Variáveis", level: 2, icon: "file", hasPrism: false, hasInstagram: false, hasMermaid: false, hasMath: false, tocDepth: 23, "md": "/decklex/variables.md" }</script>
+
+    <!-- Footer -->
+    <footer>
+
+
+
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+
+
+
+    </script>
+
+    <!-- End Content -->
+    <div>
+
+
+
+    </div>
+</body>
+</html>
