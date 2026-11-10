@@ -320,6 +320,7 @@ layout: page
 | Descarte | *Discard* | {{ discard }} | `#212121` |
 | Enterre | *Bury* | {{ bury }} | `#212121` |
 | Bane | *Banish* | {{ banish }} | `#212121` |
+| Exile | *Exile* | {{ exile }} | `#212121` |
 | Registre | *Register* | {{ register }} | `#212121` |
 
 <br><br>

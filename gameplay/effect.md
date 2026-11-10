@@ -285,6 +285,10 @@ Um efeito nunca possui mais de uma tarefa, mas pode possuir uma tarefa e outros 
 
   Bane esta carta ao ativá-la.
 
+==- <span class="fill">{{ exile }}</span> [!badge text="Exile" variant="ghost"]
+
+  Exile esta carta ao ativá-la.
+
 ==- <span class="fill">{{ register }}</span> [!badge text="Register" variant="ghost"]
 
   Registre esta carta ao ativá-la.
