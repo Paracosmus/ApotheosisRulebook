@@ -315,6 +315,7 @@
 | Descarte | *Discard* | [<span class="keyword-task">Descarte</span>](/gameplay/effect.md) | `#212121` |
 | Enterre | *Bury* | [<span class="keyword-task">Enterre</span>](/gameplay/effect.md) | `#212121` |
 | Bane | *Banish* | [<span class="keyword-task">Bane</span>](/gameplay/effect.md) | `#212121` |
+| Exile | *Exile* | [<span class="keyword-task">Exile</span>](/gameplay/effect.md) | `#212121` |
 | Registre | *Register* | [<span class="keyword-task">Registre</span>](/gameplay/effect.md) | `#212121` |
 
 <br><br>
