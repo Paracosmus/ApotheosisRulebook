@@ -7,45 +7,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847315847873">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847647379943">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
 
     <!-- Primary Meta Tags -->
-    <title>Rodadas e Turnos</title>
-    <meta name="title" content="Rodadas e Turnos">
+    <title>Ciclo</title>
+    <meta name="title" content="Ciclo">
     <meta name="description" content="Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.">
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://apotheosiscardgame.com/battle/turn/">
+    <link rel="canonical" href="https://apotheosiscardgame.com/battle/stint/">
     <link rel="sitemap" type="application/xml" title="Sitemap" href="https://apotheosiscardgame.com/sitemap.xml">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://apotheosiscardgame.com/battle/turn/">
-    <meta property="og:title" content="Rodadas e Turnos">
+    <meta property="og:url" content="https://apotheosiscardgame.com/battle/stint/">
+    <meta property="og:title" content="Ciclo">
     <meta property="og:description" content="Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.">
     <meta property="og:site_name" content="Apotheosis">
     <meta property="og:locale" content="en_US">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://apotheosiscardgame.com/battle/turn/">
-    <meta name="twitter:title" content="Rodadas e Turnos">
+    <meta name="twitter:url" content="https://apotheosiscardgame.com/battle/stint/">
+    <meta name="twitter:title" content="Ciclo">
     <meta name="twitter:description" content="Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.">
 
     <!-- Alternate Markdown -->
-    <link rel="alternate" type="text/markdown" href="https://apotheosiscardgame.com/battle/turn.md">
+    <link rel="alternate" type="text/markdown" href="https://apotheosiscardgame.com/battle/stint.md">
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.6.0.847315847873" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.847647379943" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.847315847873" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.847647379943" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.847315847873" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.847647379943" data-turbo-eval="false" defer></script>
     <script id="mermaid-js" data-cfasync="false" src="/resources/js/mermaid.js?v=4.6.0" defer></script>
 
     <!-- Font -->
@@ -438,8 +438,8 @@
                             </svg>
                         </li>
                         <li class="pr-4">
-                            <a href="/battle/turn/" class="pr-4">
-                                Turnos
+                            <a href="/battle/stint/" class="pr-4">
+                                Ciclo
                             </a>
                         </li>
                     </ol>
@@ -468,55 +468,101 @@
         </div>
     </div>
 </div>
-<h1 id="rodadas-e-turnos">Rodadas e Turnos</h1>
-<p>Este é um jogo de turnos, isso quer dizer que cada jogador realiza suas jogadas e então passa a vez para o próximo jogador.</p>
+<h1 id="ciclo">Ciclo</h1>
+<div class="mb-6 overflow-hidden border rounded-md docs-columns dark:border-base-border" style="grid-template-columns: repeat(1, minmax(0, 1fr));">
+    <div class="flex items-center px-5 py-3 font-medium leading-snug text-gray-900 border-b border-base-border dark:text-white">
+        <span><p class="briefing"> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Stint</span>
+</span></p>
+</span>
+    </div>
+    <div class="px-5 py-3 docs-columns-content">
+<p>O ciclo é o período entre uma <a href="/gameplay/effect/"><span class="keyword-timing">Fase de Recomposição</span></a> e a próxima. Nele, os personagens jogam em rodadas, na ordem da fila de turnos, até a fila ficar vazia.</p>
+    </div>
+</div>
+<p>A batalha se divide em ciclos, cada ciclo em rodadas, e cada rodada nos turnos dos personagens. Só os personagens têm turno: um objeto não age e, por isso, não tem turno.</p>
+<div class="overflow-hidden mb-6 py-4 dark:px-5 dark:bg-white rounded-md"><pre translate="no" class="mermaid w-full">flowchart TD
+    inicio([&quot;Início da Batalha&quot;]) --&gt; recomposicao[&quot;Fase de Recomposição&quot;]
+    recomposicao --&gt; rodada[&quot;Rodada&lt;br/&gt;cada personagem da fila de turnos joga um turno&quot;]
+    rodada --&gt; pergunta{&quot;Ainda há personagens&lt;br/&gt;na fila de turnos?&quot;}
+    pergunta --&gt;|&quot;Sim: nova rodada&quot;| rodada
+    pergunta --&gt;|&quot;Não: novo ciclo&quot;| recomposicao
+    rodada -.-&gt;|&quot;batalha declarada encerrada&quot;| final([&quot;Final da Batalha&quot;])</pre></div>
 <hr>
-<h2 id="rodada">Rodada</h2>
-<p>Uma rodada é composta pela sequência de turnos de todos os personagens. Quando todos os personagens terminarem seus turnos em ordem, tem início uma nova rodada.</p>
-<p>Uma rodada tem início e fim.</p>
-<h3 id="início-da-rodada">Início da Rodada</h3>
-<p>Nesta fase é determinada a ordem dos turnos dos personagens nesta rodada.</p>
-<h3 id="fim-da-rodada">Fim da Rodada</h3>
-<p>Esta fase acontece quando o último personagem na ordem de turnos encerrar seu turno. Aplica-se quaisquer efeitos que mencionem esta fase e então procede-se para o início da próxima rodada.</p>
-<div class="overflow-hidden mb-6 py-4 dark:px-5 dark:bg-white rounded-md"><pre translate="no" class="mermaid w-full">%%{init: { 'logLevel': 'debug', 'theme': 'default' , 'themeVariables': {
-    'cScale0': '#BBDEFB', 'cScaleLabel0': '#000000',
-    'cScale1': '#C8E6C9',
-    'cScale2': '#FFCDD2'
-} } }%%
-
-timeline
-    title Anatomia de um Ciclo de Batalha
-
-    section Fase de Restauração
-        Iniciativas
-            : Calcula-se a ordem dos turnos dos personagens com base na Iniciativa
-        Pontos de Ação
-            : Todos os personagens recebem pontos de ação iguais à sua AGI
-        Efeitos
-            : Executam-se todos os efeitos e mecânicas que mencionam a Fase de Restauração
-
-    section Turno de cada Personagem
-        Fase Inicial
-            : Executam-se todos os efeitos e mecânicas que mencionam a Fase Inicial
-        Fase de Ação
-            : O jogador toma decisões e executa ações
-        Fase Final
-            : Executam-se todos os efeitos e mecânicas que mencionam a Fase Final</pre></div>
+<h2 id="batalha">Batalha <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Battle</span>
+</span></h2>
+<p>A batalha abre com o <a href="/gameplay/effect/"><span class="keyword-timing">Início da Batalha</span></a>, antes de qualquer ação dos personagens, e fecha com o <a href="/gameplay/effect/"><span class="keyword-timing">Final da Batalha</span></a>, quando é declarada encerrada. São os momentos dos efeitos com essas palavras-chave.</p>
+<p>Entre os dois, joga-se um ciclo após o outro.</p>
+<hr>
+<h2 id="fase-de-recomposição">Fase de Recomposição <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Reset Phase</span>
+</span></h2>
+<p>Todo ciclo começa por esta fase, em três passos:</p>
+<ol>
+<li>É o momento dos efeitos <a href="/gameplay/effect/"><span class="keyword-timing">Fase de Recomposição</span></a>.</li>
+<li>Todos os personagens são ordenados por <a href="/battle/initiative/">Iniciativa</a>, formando a fila de turnos do ciclo.</li>
+<li>Cada personagem recebe pontos de <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a> iguais à sua <a href="/gameplay/attributes/"><span class="house"><b>AGI</b></span></a>, no mínimo <strong>3</strong> e no máximo <strong>25</strong>, somados aos que já tem.</li>
+</ol>
+<p>Os pontos de <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a> não se perdem de um ciclo para o outro: o que sobra fica guardado. Mas um personagem nunca tem mais pontos de <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a> do que a sua <a href="/gameplay/attributes/"><span class="house"><b>AGI</b></span></a> somada ao seu nível. O que passar disso se perde. Esse máximo nunca fica abaixo de <strong>3</strong>.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-secondary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-secondary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Exemplo</h5>
+<p>Um personagem de nível <strong>10</strong> e <strong>10</strong> de <a href="/gameplay/attributes/"><span class="house"><b>AGI</b></span></a> pode ter até <strong>20</strong> de <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a>.</p>
+<ul>
+<li>Ele encerra o ciclo com <strong>3</strong> de <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a>. Na <a href="/gameplay/effect/"><span class="keyword-timing">Fase de Recomposição</span></a>, um efeito lhe dá <strong>2</strong>, e depois ele recebe <strong>10</strong>: fica com <strong>15</strong>.</li>
+<li>Se tivesse guardado <strong>15</strong>, ficaria com <strong>20</strong>, e os outros <strong>5</strong> se perderiam.</li>
+</ul>
+        </div>
+    </div>
+</div>
+<hr>
+<h2 id="rodada">Rodada <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Round</span>
+</span></h2>
+<p>Na rodada, cada personagem da fila de turnos joga um turno, na ordem da fila. Quando todos jogaram, começa uma nova rodada com quem continua na fila.</p>
 <hr>
 <h2 id="turno">Turno</h2>
-<p>O turno de um personagem é composto por 3 fases em sequência.</p>
-<h3 id="início-do-turno">Início do Turno</h3>
-<p>Compõe o momento em que o turno de um personagem começa, antes que ele possa agir. Neste momento são aplicados todos os efeitos e mecânicas que especificam “No início do seu turno”.</p>
-<h3 id="durante-o-turno">Durante o Turno</h3>
-<p>Nesta fase o personagem recebe uma quantidade de Pontos de <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a> equivalentes à sua <a href="/gameplay/attributes/"><span class="house"><b>AGI</b></span></a>.<br />
-O jogador pode então tomar decisões e executar as diferentes ações e cartas disponíveis, observando os custos das mesmas e os recursos disponíveis.</p>
-<h3 id="fim-do-turno">Fim do Turno</h3>
-<p>Compõe o momento em que o jogador declara ter encerrado o seu turno. Neste momento são aplicados todos os efeitos que especificam “Ao final do seu turno” e após isso procede-se para o Início do Turno do próximo personagem na ordem de turnos desta rodada.</p>
-<p>É nesta fase também que todos os pontos de <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a> que não foram gastos neste turno são perdidos.</p>
+<div class="mb-6 overflow-hidden border rounded-md docs-columns dark:border-base-border" style="grid-template-columns: repeat(1, minmax(0, 1fr));">
+    <div class="flex items-center px-5 py-3 font-medium leading-snug text-gray-900 border-b border-base-border dark:text-white">
+        <span><p class="briefing"> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-ghost-text bg-badge-ghost border border-badge-ghost-border h-6 px-2 text-xs rounded-md">
+    <span>Turn</span>
+</span></p>
+</span>
+    </div>
+    <div class="px-5 py-3 docs-columns-content">
+<p>O turno é a vez de um personagem agir na batalha.</p>
+    </div>
+</div>
+<p>No seu turno, o personagem age: move a sua peça, ataca, ativa efeitos, etc., pagando o custo de cada ação.</p>
+<p>O turno termina quando o personagem faz uma ação que encerra o turno ou encerra o seu ciclo. Então joga o próximo personagem da fila. As ações que encerram o turno são:</p>
+<ul>
+<li>ativar por conta própria um efeito ou uma <a href="/gameplay/technique/">técnica</a>, de qualquer origem, como uma carta ou um <a href="/battle/piece/dummy/">Modelo</a>;</li>
+<li>fazer um <a href="/battle/#ataque-normal">ataque normal</a>.</li>
+</ul>
+<p>Ativar por conta própria é escolher um efeito e ativá-lo manualmente, sem gatilho e sem ser em <a href="/gameplay/effect/#responder-a-um-efeito">resposta</a> a outro efeito. Assim, não encerram o turno os efeitos <a href="/gameplay/effect/"><span class="keyword-activation">Permanente</span></a> e <a href="/gameplay/effect/"><span class="keyword-activation">Auto</span></a>, nem um efeito <a href="/gameplay/effect/"><span class="keyword-activation">Ativar</span></a> que foi engatilhado ou ativado em resposta.</p>
+<p>Nenhuma outra ação encerra o turno. Ficar sem pontos de <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a> também não: o personagem continua podendo fazer as ações que não custam <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a>.</p>
+<p>Os efeitos de fase inicial, como <a href="/gameplay/effect/"><span class="keyword-timing">Sua Fase Inicial</span></a>, acontecem no início do primeiro turno de cada personagem no ciclo, e os de fase final, como <a href="/gameplay/effect/"><span class="keyword-timing">Sua Fase Final</span></a>, quando o ciclo dele termina.</p>
 <hr>
-<h2 id="entrar-e-sair-da-ordem-dos-turnos">Entrar e Sair da Ordem dos Turnos</h2>
-<p>Um personagem que sai do tabuleiro, morre ou é nocauteado é removido da ordem dos turnos. Mover a peça no tabuleiro não altera a sua vez.</p>
-<p>Quando ele volta ao tabuleiro, é revivido ou acorda, entra no <strong>final</strong> da ordem dos turnos e <strong>sem</strong> pontos de <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a>. Nesta rodada, ele só pode realizar ações que não custam <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a>, e joga normalmente a partir da próxima rodada.</p>
+<h2 id="encerrar-o-ciclo">Encerrar o Ciclo</h2>
+<p>O ciclo de um personagem termina quando:</p>
+<ul>
+<li>ele declara que encerra o seu ciclo, o que pode fazer a qualquer momento, mesmo sem ter agido no turno;</li>
+<li>um turno seu termina e ele está sem pontos de <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a>;</li>
+<li>ele faz uma <a href="/gameplay/effect/"><span class="keyword-limit">Ação Total</span></a>, que é a única ação dele no ciclo.</li>
+</ul>
+<p>Ao encerrar o ciclo, o personagem sai da fila de turnos e não volta a ela neste ciclo, mesmo que receba pontos de <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a>. Se for o seu turno, o turno termina.</p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
     <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
@@ -530,7 +576,77 @@ O jogador pode então tomar decisões e executar as diferentes ações e cartas 
             </svg>
         </div>
         <div class="pr-5 ml-3 w-full">
-<p>Se o personagem voltar durante a <a href="/gameplay/effect/"><span class="keyword-timing">Fase de Recomposição</span></a>, como acontece com a maioria dos efeitos que retiram personagens do tabuleiro, ele recebe pontos de <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a> normalmente e entra na ordem dos turnos recalculada para a nova rodada.</p>
+<p>Encerrar o ciclo só tira o personagem da fila de turnos. Ele continua podendo ativar efeitos em <a href="/gameplay/effect/#responder-a-um-efeito">resposta</a> e efeitos <a href="/gameplay/effect/#requerimentos-de-ativa%C3%A7%C3%A3o">engatilhados</a>, pagando os custos deles, inclusive em <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a>. Por isso, guardar pontos de <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a> pode ser estratégico.</p>
+        </div>
+    </div>
+</div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-secondary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-secondary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Exemplo</h5>
+<p>Na <a href="/gameplay/effect/"><span class="keyword-timing">Fase de Recomposição</span></a>, a fila de turnos fica A, B e C, com <strong>5</strong>, <strong>3</strong> e <strong>4</strong> de <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a>.</p>
+<p><strong>Rodada 1</strong></p>
+<ul>
+<li>A move a sua peça, gastando <strong>2</strong> de <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a>, e ativa uma carta que custa <strong>1</strong> de <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a>. A ativação encerra o turno, e A fica com <strong>2</strong> de <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a>.</li>
+<li>B ativa uma carta que custa <strong>3</strong> de <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a>. O turno termina com B sem <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a>, o que encerra o seu ciclo.</li>
+<li>C encerra o seu ciclo sem agir e guarda os seus <strong>4</strong> de <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a>.</li>
+</ul>
+<p><strong>Rodada 2</strong></p>
+<ul>
+<li>Só A continua na fila. Ele move a sua peça, gastando os seus <strong>2</strong> de <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a>. Sem <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a>, o turno continua: A ativa um efeito que não custa <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a>, e o turno termina, encerrando o seu ciclo.</li>
+</ul>
+<p>Fora da fila, B e C ainda podem responder às cartas de A, e C pode pagar essas respostas com os <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a> que guardou.</p>
+<p>A fila de turnos ficou vazia: o ciclo termina, e o próximo começa pela <a href="/gameplay/effect/"><span class="keyword-timing">Fase de Recomposição</span></a>.</p>
+        </div>
+    </div>
+</div>
+<hr>
+<h2 id="entrar-e-sair-da-fila-de-turnos">Entrar e Sair da Fila de Turnos</h2>
+<p>Um personagem que sai do tabuleiro, morre ou é nocauteado sai da fila de turnos. Mover a peça no tabuleiro não altera o seu lugar na fila.</p>
+<p>Um personagem que entra na fila durante o ciclo, depois da <a href="/gameplay/effect/"><span class="keyword-timing">Fase de Recomposição</span></a>, como quem volta ao tabuleiro, é revivido ou acorda, entra no <strong>final</strong> da fila. Ele não recebe pontos de <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a> ao entrar, pois só os recebe na <a href="/gameplay/effect/"><span class="keyword-timing">Fase de Recomposição</span></a>, mas continua com os que já tinha.</p>
+<p>Quem já encerrou o seu ciclo não volta à fila neste ciclo, mesmo que volte ao tabuleiro.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-secondary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-secondary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Exemplo</h5>
+<p>Um efeito tira do tabuleiro uma peça com <strong>5</strong> de <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a> e a traz de volta uma rodada depois. Ela entra no final da fila, ainda com os seus <strong>5</strong> de <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a>.</p>
+        </div>
+    </div>
+</div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+<p>Se o personagem voltar durante a <a href="/gameplay/effect/"><span class="keyword-timing">Fase de Recomposição</span></a>, como acontece com a maioria dos efeitos que retiram personagens do tabuleiro, ele entra na fila de turnos recalculada para o novo ciclo e recebe pontos de <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a> normalmente.</p>
         </div>
     </div>
 </div>
@@ -555,50 +671,31 @@ O jogador pode então tomar decisões e executar as diferentes ações e cartas 
         </div>
     </div>
 </div>
-<hr>
-<p>Normal VS Rush</p>
-<p>Cada rodada tem várias iterações de cada jogador, sendo que efeito de inicio e fim de turno são executadas na primeira e última iteração respectivamente</p>
-<p>O jogador pode passar e guardar para a próxima rodada</p>
-<p>Cada um faz uma ação e passa para o próximo</p>
-<ul>
-<li>Ações que não contam seriam: deslocamento; ativar o <a href="/cards/entity/"><span class="entity"><b>ENTE</b></span></a>;</li>
-</ul>
-<p>Os <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a> resetam apenas no início de uma nova rodada</p>
-<p>A rodada so muda quando todos estão sem <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a> depois de várias iterações</p>
-<p>Talvez seja melhor não existir efeito de turno, todos seriam efeitos de rodada</p>
-<p>Início da Batalha</p>
-<ul>
-<li>Reset Phase (O período entre uma reset phase e outra é chamado de sprint ())</li>
-<li><em>Começa o Round (Não é uma phase)</em>
-<ul>
-<li><em>Turno de Cada Jogador (Não é uma phase)</em>
-<ul>
-<li>Draw phase</li>
-<li>Start Phase
-<ul>
-<li>Clean-up: Faz todos os efeitos de adicionar ou remover <a href="/gameplay/marker/"><span class="main"><b>MARCADOR</b></span></a>, <a href="/gameplay/counter/"><span class="main">❂<b>CONTADOR</b></span></a>, etc.</li>
-<li>Earnings: Recebe todos os ganhos em <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a>, <a href="/hero/#mana"><span class="skill"><b>MANA</b></span></a>, <a href="/hero/#estamina"><span class="skill"><b>ESTAMINA</b></span></a>, ep, etc. (simultaneamente)</li>
-<li>Payment: Paga todos os custos em <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a>, <a href="/hero/#mana"><span class="skill"><b>MANA</b></span></a>, <a href="/hero/#estamina"><span class="skill"><b>ESTAMINA</b></span></a>, ep, etc. (simultaneamente)</li>
-</ul>
-</li>
-<li>Main Phase (nenhum efeito trigga nesta fase, ele é a fase de jogo manual, e não automático, o momento onde você pode ativar cartas do tipo <a href="/gameplay/effect/"><span class="keyword-activation">Ativar</span></a>)</li>
-<li>End Phase</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><em>Termina o Round (Não é uma phase)</em></li>
-</ul>
-<p>No modo rush, o que muda é que</p>
-<ul>
-<li>A Draw phase e start phase só acontecem no seu primeiro turno desde a última reset phase</li>
-<li>A sua end phase só acontece quando você declarar, ou quando você ficar sem <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a></li>
-<li>Seu turno então é composto apenas de Main phase</li>
-<li>A reset phase não acontece a cada round, mas sim apenas quando todos os personagens jogaram suas end phases</li>
-</ul>
 <div id="retype-backlinks">
     <h2>See also</h2>
 <div class="card-compact-group">
+<div class="card-compact-container">
+    <a href="/gameplay/effect/" class="group card-compact no-link">
+        <div class="card-compact-body">
+            <div class="card-compact-header">
+                <span class="card-compact-icon inline-flex shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><!--icon--><path d="M15.22 4.97a.75.75 0 0 1 1.06 0l6.5 6.5a.75.75 0 0 1 0 1.06l-6.5 6.5a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L21.19 12l-5.97-5.97a.75.75 0 0 1 0-1.06Zm-6.44 0a.75.75 0 0 1 0 1.06L2.81 12l5.97 5.97a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215l-6.5-6.5a.75.75 0 0 1 0-1.06l6.5-6.5a.75.75 0 0 1 1.06 0Z"/></svg></span>
+                <span class="card-compact-title">Efeito</span>
+            </div>
+            <p class="card-compact-description">Um efeito é um texto que descreve uma função e mecânica especial, explicando como aplicá-la durante a partida. A função do efeito é conferir habilidades adicionais, comumente extrapolando as regras do jogo e permitindo interações mais complexas em busca de uma vantagem estratégica.</p>
+        </div>
+    </a>
+</div>
+<div class="card-compact-container">
+    <a href="/gameplay/game-mode/battle-mode/" class="group card-compact no-link">
+        <div class="card-compact-body">
+            <div class="card-compact-header">
+                <span class="card-compact-icon inline-flex shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><!--icon--><path d="M8 2a3 3 0 0 1 3 3v.75h2V5a3 3 0 0 1 3-3h3a3 3 0 0 1 3 3v3a3 3 0 0 1-2.846 2.996L19 11h-3l-.154-.004a2.988 2.988 0 0 1-1.369-.413l-3.895 3.896c.264.446.418.965.418 1.521v.75h8.689l-2.219-2.22a.749.749 0 1 1 1.06-1.06l3.5 3.5a.749.749 0 0 1 0 1.06l-3.5 3.5a.749.749 0 1 1-1.06-1.06l2.219-2.22H11V19a3 3 0 0 1-2.846 2.996L8 22H5l-.154-.004a3.001 3.001 0 0 1-2.842-2.842L2 19v-3a3 3 0 0 1 3-3h3c.556 0 1.075.153 1.521.417l3.895-3.895a2.975 2.975 0 0 1-.412-1.368L13 8v-.75h-2V8a3 3 0 0 1-2.846 2.996L8 11H5l-.154-.004a3.001 3.001 0 0 1-2.842-2.842L2 8V5a3 3 0 0 1 3-3h3ZM5 14.5A1.5 1.5 0 0 0 3.5 16v3A1.5 1.5 0 0 0 5 20.5h3A1.5 1.5 0 0 0 9.5 19v-3A1.5 1.5 0 0 0 8 14.5H5Zm0-11A1.5 1.5 0 0 0 3.5 5v3A1.5 1.5 0 0 0 5 9.5h3A1.5 1.5 0 0 0 9.5 8V5A1.5 1.5 0 0 0 8 3.5H5Zm11 0A1.5 1.5 0 0 0 14.5 5v3A1.5 1.5 0 0 0 16 9.5h3A1.5 1.5 0 0 0 20.5 8V5A1.5 1.5 0 0 0 19 3.5h-3Z"/></svg></span>
+                <span class="card-compact-title">Modo de Batalha</span>
+            </div>
+            <p class="card-compact-description">É o modo de jogo onde os jogadores participam de combates táticos, utilizando as regras de batalha para resolver ações e efeitos.</p>
+        </div>
+    </a>
+</div>
 <div class="card-compact-container">
     <a href="/battle/piece/" class="group card-compact no-link">
         <div class="card-compact-body">
@@ -618,8 +715,8 @@ O jogador pode então tomar decisões e executar as diferentes ações e cartas 
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-11-05T17:34:23" title="2026-11-05" data-absolute-label="Last updated on 2026-11-05 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-11-05 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
-                        Last updated on 2026-11-05 by Bruno Caxito
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-11-10T14:35:55" title="2026-11-10" data-absolute-label="Last updated on 2026-11-10 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-11-10 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                        Last updated on 2026-11-10 by Bruno Caxito
                     </time>
                 </div>
 
@@ -687,7 +784,7 @@ O jogador pode então tomar decisões e executar as diferentes ações e cartas 
 
     <div id="retype-overlay-target"></div>
 
-        <script data-cfasync="false">window.__DOCS__ = { "title": "Turnos", level: 2, icon: "file", hasPrism: false, hasInstagram: false, hasMermaid: true, hasMath: false, tocDepth: 23, "md": "/battle/turn.md" }</script>
+        <script data-cfasync="false">window.__DOCS__ = { "title": "Ciclo", level: 2, icon: "file", hasPrism: false, hasInstagram: false, hasMermaid: true, hasMath: false, tocDepth: 23, "md": "/battle/stint.md" }</script>
 
     <!-- Footer -->
     <footer>

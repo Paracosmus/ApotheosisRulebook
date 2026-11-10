@@ -21,7 +21,7 @@ Uma peça é criada com a [<span class="hp"><b>VIDA</b></span>](/hero/#vida) 
 
 ## Sair do Tabuleiro
 
-Uma peça que sai do tabuleiro guarda o seu estado, como [<span class="hp"><b>VIDA</b></span>](/hero/#vida) e [<span class="main"><b>MARCADOR</b></span>](/gameplay/marker.md). Quando volta ao tabuleiro, ela volta exatamente como estava, exceto pelos pontos de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação) e pelo seu lugar na [ordem dos turnos](/battle/turn.md#entrar-e-sair-da-ordem-dos-turnos).
+Uma peça que sai do tabuleiro guarda o seu estado, como [<span class="hp"><b>VIDA</b></span>](/hero/#vida) e [<span class="main"><b>MARCADOR</b></span>](/gameplay/marker.md). Quando volta ao tabuleiro, ela volta exatamente como estava, exceto pelo seu lugar na [fila de turnos](/battle/stint.md#entrar-e-sair-da-fila-de-turnos).
 
 !!!
 Isso impede, por exemplo, que um [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) seja retirado da [<span class="main"><b>MESA</b></span>](/hero/table/) e recrutado de novo para recuperar sua [<span class="hp"><b>VIDA</b></span>](/hero/#vida) ou se livrar de [<span class="main"><b>MARCADOR</b></span>](/gameplay/marker.md).

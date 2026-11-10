@@ -242,7 +242,7 @@
 
   > **_Exemplo de Sequência de Batalha_**
   >
-  > **Iniciativa**: A ordem dos turnos é redefinida a cada rodada pela Iniciativa dos personagens envolvidos.
+  > **Iniciativa**: A ordem dos turnos é redefinida a cada ciclo pela Iniciativa dos personagens envolvidos.
   >
   > **Turno de Pedro**: Ele tem um Herói com a [<span class="class"><b>CLASSE</b></span>](/cards/class.md) de _Cavaleiro_, e decide atacar um inimigo com uma espada. Ele move sua peça no tabuleiro até ficar adjacente ao inimigo, declara o ataque, escolhe o [<span class="item"><b>ITEM</b></span>](/cards/item.md) _Espada_, rola os dados para determinar o <b>DANO</b> do ataque conforme escrito na carta. O mestre de jogo descreve a situação: "Você ataca o inimigo com sua espada, causando 15 pontos de <b>DANO</b>. O inimigo é atingido, mas possui o [<span class="item"><b>ITEM</b></span>](/cards/item.md) _Escudo_ que reduz o <b>DANO</b> em 1 ponto, e perde 14 pontos de [<span class="hp"><b>VIDA</b></span>](/hero/#vida)."
   >

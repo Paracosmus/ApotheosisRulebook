@@ -69,7 +69,7 @@ Efeitos podem modificar os conhecimentos do Herói, mas nenhum deles fica abaixo
 
 A [<span class="hp"><b>VIDA</b></span>](/hero/#vida) máxima do Herói é a sua [<span class="house"><b>CON</b></span>](/gameplay/attributes.md) multiplicada por **10**.
 
-Efeitos podem modificar a [<span class="hp"><b>VIDA</b></span>](/hero/#vida) máxima do Herói.
+Efeitos podem modificar a [<span class="hp"><b>VIDA</b></span>](/hero/#vida) máxima do Herói, mas ela nunca fica abaixo de **10**.
 
 > [<span class="hp"><b>VIDA</b></span>](/hero/#vida) máxima: [<span class="house"><b>CON</b></span>](/gameplay/attributes.md) × **10**.
 

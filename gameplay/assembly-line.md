@@ -38,7 +38,7 @@ Esta seção ainda não foi completamente revisada. Algumas informações podem 
 8. Aplicação do Dano
 9.  Cálculo da Lesão
 10.  Aplicação da Lesão
-11. Clipagem de Valor (Aplica-se a regra de limites de valores)
+11. [Limite da Regra](/gameplay/modifier.md#ordem-de-aplicação) (cada valor é ajustado aos limites que a regra define)
 12. Remover a vida do alvo
     1. Salvação Divina
 13. Resolução de Consequências

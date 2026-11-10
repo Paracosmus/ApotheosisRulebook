@@ -133,7 +133,7 @@ Quando um efeito possuir mais de um momento de ativação, ele pode/deve ser ati
 
 ==- <span class="fill">[<span class="keyword-timing">Sua Fase Final</span>](/gameplay/effect.md)</span> [!badge text="Your End Phase" variant="ghost"]
 
-  Este efeito pode/deve ser ativado no final do seu último turno neste ciclo, quando você declara que encerrou suas ações deste ciclo.
+  Este efeito pode/deve ser ativado no final do seu último turno neste ciclo, quando o seu ciclo termina.
 
 ==- <span class="fill">[<span class="keyword-timing">Fase Inicial do Membro do Time</span>](/gameplay/effect.md)</span> [!badge text="Team Member's Start Phase" variant="ghost"]
 
@@ -141,7 +141,7 @@ Quando um efeito possuir mais de um momento de ativação, ele pode/deve ser ati
 
 ==- <span class="fill">[<span class="keyword-timing">Fase Final do Membro do Time</span>](/gameplay/effect.md)</span> [!badge text="Team Member's End Phase" variant="ghost"]
 
-  Este efeito pode/deve ser ativado no final do último turno de personagens do seu time neste ciclo, incluindo você, quando aquele personagem declara que encerrou suas ações deste ciclo.
+  Este efeito pode/deve ser ativado no final do último turno de personagens do seu time neste ciclo, incluindo você, quando o ciclo daquele personagem termina.
 
 ==- <span class="fill">[<span class="keyword-timing">Fase Inicial do Parceiro</span>](/gameplay/effect.md)</span> [!badge text="Teammate's Start Phase" variant="ghost"]
 
@@ -149,7 +149,7 @@ Quando um efeito possuir mais de um momento de ativação, ele pode/deve ser ati
 
 ==- <span class="fill">[<span class="keyword-timing">Fase Final do Parceiro</span>](/gameplay/effect.md)</span> [!badge text="Teammate's End Phase" variant="ghost"]
 
-  Este efeito pode/deve ser ativado no final do último turno de um personagem do seu time neste ciclo, exceto você, quando aquele personagem declara que encerrou suas ações deste ciclo.
+  Este efeito pode/deve ser ativado no final do último turno de um personagem do seu time neste ciclo, exceto você, quando o ciclo daquele personagem termina.
 
 ==- <span class="fill">[<span class="keyword-timing">Fase Inicial do Oponente</span>](/gameplay/effect.md)</span> [!badge text="Opponent's Start Phase" variant="ghost"]
 
@@ -157,7 +157,7 @@ Quando um efeito possuir mais de um momento de ativação, ele pode/deve ser ati
 
 ==- <span class="fill">[<span class="keyword-timing">Fase Final do Oponente</span>](/gameplay/effect.md)</span> [!badge text="Opponent's End Phase" variant="ghost"]
 
-  Este efeito pode/deve ser ativado no final do último turno de personagens de outros times neste ciclo, quando aquele personagem declara que encerrou suas ações deste ciclo.
+  Este efeito pode/deve ser ativado no final do último turno de personagens de outros times neste ciclo, quando o ciclo daquele personagem termina.
 
 ==- <span class="fill">[<span class="keyword-timing">Fase Inicial de Todos</span>](/gameplay/effect.md)</span> [!badge text="All Start Phase" variant="ghost"]
 
@@ -165,7 +165,7 @@ Quando um efeito possuir mais de um momento de ativação, ele pode/deve ser ati
 
 ==- <span class="fill">[<span class="keyword-timing">Fase Final de Todos</span>](/gameplay/effect.md)</span> [!badge text="All End Phase" variant="ghost"]
 
-  Este efeito pode/deve ser ativado no final do último turno de qualquer personagem neste ciclo, quando aquele personagem declara que encerrou suas ações deste ciclo.
+  Este efeito pode/deve ser ativado no final do último turno de qualquer personagem neste ciclo, quando o ciclo daquele personagem termina.
 
 ==- <span class="fill">[<span class="keyword-timing">Fase Inicial deste Personagem</span>](/gameplay/effect.md)</span> [!badge text="This Character's Start Phase" variant="ghost"]
 
@@ -177,7 +177,7 @@ Quando um efeito possuir mais de um momento de ativação, ele pode/deve ser ati
 
   Esta palavra-chave é usada para efeitos em cartas de [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) que se referem ao próprio personagem, ou seja, o personagem representado por esta carta, e não ao Herói que a controla, como é o caso dos demais efeitos.
 
-  Este efeito pode/deve ser ativado no final do último turno deste [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) neste ciclo, quando ele declara que encerrou suas ações deste ciclo.
+  Este efeito pode/deve ser ativado no final do último turno deste [<span class="companion"><b>COMPANHEIRO</b></span>](/cards/companion.md) neste ciclo, quando o ciclo dele termina.
 
 ===
 
@@ -201,9 +201,9 @@ Quando um efeito possuir mais de um limite, todos os limites listados devem ser 
 
 ==- <span class="fill">[<span class="keyword-limit">Ação Total</span>](/gameplay/effect.md)</span> [!badge text="All-In" variant="ghost"]
 
-  Para ativar este efeito, o Herói não pode ter realizado nenhuma ação não automática durante este turno, ou seja, ele não pode ter ativado nenhuma carta, nem se mover, atacar, etc.
+  Para ativar este efeito, o Herói não pode ter realizado nenhuma ação não automática neste [ciclo](/battle/stint.md), ou seja, ele não pode ter ativado nenhuma carta, nem se mover, atacar, etc.
 
-  Ao ser resolvido, o turno deste Herói termina imediatamente.
+  Este efeito é a única ação do Herói no ciclo: ao ser resolvido, o ciclo deste Herói termina, e ele só volta a ter turno no próximo ciclo.
 
 ==- <span class="fill">[<span class="keyword-limit">Não Respondível</span>](/gameplay/effect.md)</span> [!badge text="No Response" variant="ghost"]
 

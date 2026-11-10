@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847315847873">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847647379943">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -41,11 +41,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.6.0.847315847873" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.847647379943" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.847315847873" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.847647379943" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.847315847873" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.847647379943" data-turbo-eval="false" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100..900&display=swap" rel="stylesheet">
@@ -539,7 +539,7 @@
 <hr>
 <h2 id="vida">Vida</h2>
 <p>A <a href="/hero/#vida"><span class="hp"><b>VIDA</b></span></a> máxima do Herói é a sua <a href="/gameplay/attributes/"><span class="house"><b>CON</b></span></a> multiplicada por <strong>10</strong>.</p>
-<p>Efeitos podem modificar a <a href="/hero/#vida"><span class="hp"><b>VIDA</b></span></a> máxima do Herói.</p>
+<p>Efeitos podem modificar a <a href="/hero/#vida"><span class="hp"><b>VIDA</b></span></a> máxima do Herói, mas ela nunca fica abaixo de <strong>10</strong>.</p>
 <blockquote>
 <p><a href="/hero/#vida"><span class="hp"><b>VIDA</b></span></a> máxima: <a href="/gameplay/attributes/"><span class="house"><b>CON</b></span></a> × <strong>10</strong>.</p>
 </blockquote>
@@ -718,6 +718,17 @@
     </a>
 </div>
 <div class="card-compact-container">
+    <a href="/battle/stint/" class="group card-compact no-link">
+        <div class="card-compact-body">
+            <div class="card-compact-header">
+                <span class="card-compact-icon inline-flex shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><!--icon--><path d="M4.75 2h14.5a.75.75 0 0 1 0 1.5h-.75v2.982a4.75 4.75 0 0 1-2.215 4.017l-2.044 1.29a.25.25 0 0 0 0 .422l2.044 1.29a4.75 4.75 0 0 1 2.215 4.017V20.5h.75a.75.75 0 0 1 0 1.5H4.75a.75.75 0 0 1 0-1.5h.75v-2.982a4.75 4.75 0 0 1 2.215-4.017l2.044-1.29a.25.25 0 0 0 0-.422l-2.044-1.29A4.75 4.75 0 0 1 5.5 6.482V3.5h-.75a.75.75 0 0 1 0-1.5ZM17 3.5H7v2.982A3.25 3.25 0 0 0 8.516 9.23l2.044 1.29a1.75 1.75 0 0 1 0 2.96l-2.044 1.29A3.25 3.25 0 0 0 7 17.518V20.5h10v-2.982a3.25 3.25 0 0 0-1.516-2.748l-2.044-1.29a1.75 1.75 0 0 1 0-2.96l2.044-1.29A3.25 3.25 0 0 0 17 6.482Z"/></svg></span>
+                <span class="card-compact-title">Ciclo</span>
+            </div>
+            <p class="card-compact-description">Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.</p>
+        </div>
+    </a>
+</div>
+<div class="card-compact-container">
     <a href="/cards/companion/" class="group card-compact no-link">
         <div class="card-compact-body">
             <div class="card-compact-header">
@@ -736,16 +747,6 @@
                 <span class="card-compact-title">Efeito</span>
             </div>
             <p class="card-compact-description">Um efeito é um texto que descreve uma função e mecânica especial, explicando como aplicá-la durante a partida. A função do efeito é conferir habilidades adicionais, comumente extrapolando as regras do jogo e permitindo interações mais complexas em busca de uma vantagem estratégica.</p>
-        </div>
-    </a>
-</div>
-<div class="card-compact-container">
-    <a href="/glossary/" class="group card-compact no-link">
-        <div class="card-compact-body">
-            <div class="card-compact-header">
-                <span class="card-compact-title">Glossário</span>
-            </div>
-            <p class="card-compact-description">Este livro e as cartas do jogo utilizam termos com significados específicos. Abaixo estão listados esses termos e seus significados.</p>
         </div>
     </a>
 </div>
@@ -834,8 +835,8 @@
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-11-04T23:41:16" title="2026-11-04" data-absolute-label="Last updated on 2026-11-04 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-11-04 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
-                        Last updated on 2026-11-04 by Bruno Caxito
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-11-10T14:35:55" title="2026-11-10" data-absolute-label="Last updated on 2026-11-10 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-11-10 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                        Last updated on 2026-11-10 by Bruno Caxito
                     </time>
                 </div>
 
