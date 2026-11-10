@@ -24,7 +24,7 @@ Uma peça é criada com a {{ hp }} cheia, igual à sua {{ hp }} máxima. Isso ac
 
 ## Sair do Tabuleiro
 
-Uma peça que sai do tabuleiro guarda o seu estado, como {{ hp }} e {{ marker }}. Quando volta ao tabuleiro, ela volta exatamente como estava, exceto pelos pontos de {{ ap }} e pelo seu lugar na [ordem dos turnos](/battle/turn.md#entrar-e-sair-da-ordem-dos-turnos).
+Uma peça que sai do tabuleiro guarda o seu estado, como {{ hp }} e {{ marker }}. Quando volta ao tabuleiro, ela volta exatamente como estava, exceto pelo seu lugar na [fila de turnos](/battle/stint.md#entrar-e-sair-da-fila-de-turnos).
 
 !!!
 Isso impede, por exemplo, que um {{ companion }} seja retirado da {{ table }} e recrutado de novo para recuperar sua {{ hp }} ou se livrar de {{ marker }}.

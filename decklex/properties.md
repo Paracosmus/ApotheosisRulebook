@@ -24,7 +24,9 @@ Toda propriedade é calculada para um herói de cada vez. O limite é aplicado a
 | `hero_intelligence` | {{ intelligence }}             | O mesmo, com o bônus de {{ intelligence }}                                                | No mínimo **1**     |
 | `hero_charisma`     | {{ charisma }}                 | O mesmo, com o bônus de {{ charisma }}                                                    | No mínimo **1**     |
 | `hero_spiritual`    | {{ spiritual }}                | O mesmo, com o bônus de {{ spiritual }}                                                   | No mínimo **1**     |
-| `hero_health`       | A {{ hp }} máxima              | **10** vezes cada parte de `hero_endurance`, efeitos incluídos                            | Nenhum              |
+| `hero_health`       | A {{ hp }} máxima              | **10** vezes cada parte de `hero_endurance`, efeitos incluídos                            | No mínimo **10**    |
+| `hero_max_action_points` | O máximo de pontos de {{ ap }} | Cada parte de `hero_agility` e de `hero_level`, efeitos incluídos             | No mínimo **3**     |
+| `hero_restored_action_points` | Os pontos de {{ ap }} recebidos na {{ resetPhase }} | Cada parte de `hero_agility`, efeitos incluídos                 | De **3** a **25**   |
 | `hero_<conhecimento>` | O nível do herói num {{ knowledge }} | **+1** para cada vez que uma {{ class }} revelada na {{ sheet }} lista o conhecimento | No mínimo **0**     |
 
 ### Bônus de atributo por zona

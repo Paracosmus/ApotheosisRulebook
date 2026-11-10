@@ -72,7 +72,7 @@ Efeitos podem modificar os conhecimentos do Herói, mas nenhum deles fica abaixo
 
 A {{ hp }} máxima do Herói é a sua {{ enr }} multiplicada por **10**.
 
-Efeitos podem modificar a {{ hp }} máxima do Herói.
+Efeitos podem modificar a {{ hp }} máxima do Herói, mas ela nunca fica abaixo de **10**.
 
 > {{ hp }} máxima: {{ enr }} × **10**.
 
