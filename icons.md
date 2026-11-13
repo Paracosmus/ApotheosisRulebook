@@ -339,7 +339,7 @@
 | <span style="color: #FF22B2;"></span> | Collegium | *Collegium* | [<span class="summus"><b>COLLEGIUM</b></span>](/gameplay/summus/collegium.md) | e9d6 | `#FF22B2` |
 | <span style="color: #FF22B2;"></span> | Daemon | *Daemon* | [<span class="summus"><b>DAEMON</b></span>](/gameplay/summus/daemon.md) | e96d | `#FF22B2` |
 | <span style="color: #FF22B2;"></span> | Dominium | *Dominium* | [<span class="summus"><b>DOMINIUM</b></span>](/gameplay/summus/dominium.md) | e9dc | `#FF22B2` |
-| <span style="color: #FF22B2;"></span> | Lorica | *Lorica* | [<span class="summus"><b>LORICA</b></span>](/gameplay/summus/lorica.md) | eab7 | `#FF22B2` |
+| <span style="color: #FF22B2;"></span> | Corpus | *Corpus* | [<span class="summus"><b>CORPUS</b></span>](/gameplay/summus/corpus.md) | eab7 | `#FF22B2` |
 | <span style="color: #FF22B2;"></span> | Magisterium | *Magisterium* | [<span class="summus"><b>MAGISTERIUM</b></span>](/gameplay/summus/magisterium.md) | e95c | `#FF22B2` |
 | <span style="color: #FF22B2;"></span> | Ultimatum | *Ultimatum* | [<span class="summus"><b>ULTIMATUM</b></span>](/gameplay/summus/ultimatum.md) | eab7 | `#FF22B2` |
 

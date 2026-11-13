@@ -191,9 +191,9 @@
 - [Summus](https://apotheosiscardgame.com/gameplay/summus/index.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [ Ascensus](https://apotheosiscardgame.com/gameplay/summus/ascensus.md): Ascensus é o termo latino para “ascensão”, no sentido de subir, elevar-se, alcançar um nível superior.
 - [ Collegium](https://apotheosiscardgame.com/gameplay/summus/collegium.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
+- [ Corpus](https://apotheosiscardgame.com/gameplay/summus/corpus.md): Corpus é o termo latino para “couraça”, no sentido de proteção, defesa.
 - [ Daemon](https://apotheosiscardgame.com/gameplay/summus/daemon.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [ Dominium](https://apotheosiscardgame.com/gameplay/summus/dominium.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
-- [ Lorica](https://apotheosiscardgame.com/gameplay/summus/lorica.md): Lorica é o termo latino para “couraça”, no sentido de proteção, defesa.
 - [ Magisterium](https://apotheosiscardgame.com/gameplay/summus/magisterium.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [ Ultimatum](https://apotheosiscardgame.com/gameplay/summus/ultimatum.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
 - [Acabamento](https://apotheosiscardgame.com/gameplay/finish.md): Esta seção ainda não foi completamente revisada. Algumas informações podem estar desatualizadas ou incompletas, e a formatação pode não estar finalizada.
