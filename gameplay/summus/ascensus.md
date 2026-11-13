@@ -26,15 +26,15 @@ O poder adquirido se manifesta na forma de bônus altíssimos de Atributos.
 - Quando revelada, a carta de {{ ascensus }}
   - Concede seus bônus em cada Atributo.
   - Seus efeitos podem ser usados normalmente.
-  - Adicione **20** {{ counter_ascended }} a esta carta
+  - Adicione **20** {{ counterAscended }} a esta carta
 - A primeira linha da caixa de mecânica indica uma condição que o {{ entity }} do Herói deve cumprir para poder revelar o {{ ascensus }}.
 - A caixa de mecânica do {{ ascensus }} possui 3 colunas com valores indicados. O jogador deve calcular o valor de cada coluna e somar os 3 resultados. Essa soma é então aplicada como bônus em cada Atributo do Herói.
-- {{ counter_ascended }} são a energia especial do modo Ascendido. Eles são gastos tanto pelo tempo quanto pelas ações do Herói, além de servirem como um escudo etéreo.
-  - Na {{ yourStartPhase }}, remova **2** {{ counter_ascended }} desta carta.
-  - Ao ativar uma carta, remova **1** {{ counter_ascended }} desta carta.
-  - Ao realizar um Ataque Normal, remova **1** {{ counter_ascended }} desta carta.
-  - Quando sofrer {{ dmg }}, ao invés de calcular a {{ injury }} e remover {{ hp }}, para cada {{ n"50" }} de {{ dmg }} sofrido, remova **1** {{ counter_ascended }} desta carta. Logo, um ataque que cause {{ n"60" }} de {{ dmg }} remove 1, um ataque de {{ n"90" }} remove 1, um ataque de {{ n"120" }} remove 2, e assim por diante.
-  - Quando esta carta não tiver mais {{ counter_ascended }}, o Herói perde o estado de Ascendido. O {{ ascensus }} é ocultado imediatamente.
+- {{ counterAscended }} são a energia especial do modo Ascendido. Eles são gastos tanto pelo tempo quanto pelas ações do Herói, além de servirem como um escudo etéreo.
+  - Na {{ yourStartPhase }}, remova **2** {{ counterAscended }} desta carta.
+  - Ao ativar uma carta, remova **1** {{ counterAscended }} desta carta.
+  - Ao realizar um Ataque Normal, remova **1** {{ counterAscended }} desta carta.
+  - Quando sofrer {{ dmg }}, ao invés de calcular a {{ injury }} e remover {{ hp }}, para cada {{ n"50" }} de {{ dmg }} sofrido, remova **1** {{ counterAscended }} desta carta. Logo, um ataque que cause {{ n"60" }} de {{ dmg }} remove 1, um ataque de {{ n"90" }} remove 1, um ataque de {{ n"120" }} remove 2, e assim por diante.
+  - Quando esta carta não tiver mais {{ counterAscended }}, o Herói perde o estado de Ascendido. O {{ ascensus }} é ocultado imediatamente.
 - Quando a carta de {{ ascensus }} é ocultada por qualquer motivo, o turno do personagem é encerrado imediatamente. Se isso ocorrer durante uma batalha, o personagem não recupera {{ ap }} na próxima {{ resetPhase }}.
 
 ||| Caixa de Mecânica

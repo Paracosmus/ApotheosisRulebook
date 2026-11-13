@@ -169,7 +169,7 @@ Ao declarar a ativação de uma carta, o jogador deve seguir os seguintes passos
   Estando todas as condições atendidas, o jogador pode declarar a ativação da carta.
 
   1. O Herói deve pagar o custo da carta, se houver, e cumprir os requisitos necessários para ativar a carta.
-  2. Se a carta possuir um {{ range }} do tipo {{ direct }} ou {{ arcing }}, o jogador deve selecionar como o alvo da carta uma peça, ou uma casa vazia do tabuleiro, dentro do alcance.
+  2. Se a carta possuir um {{ range }} do tipo {{ melee }}, {{ direct }} ou {{ arcing }}, o jogador deve selecionar como o alvo da carta uma peça, ou uma casa vazia do tabuleiro, dentro do alcance.
   3. Aplicar o ataque ({{ dmg }}) e/ou o efeito da carta, se houver. Quando a carta possuir ambos, o próprio texto do efeito indica em qual momento do ataque ele é inserido (antes, durante ou depois do ataque, ou em uma etapa específica, como durante a rolagem de dados, antes de resolver o {{ dmg }}, após aplicar a {{ injury }}, etc.).
      1. Se a carta possuir um {{ range }} do tipo {{ area }}, o ataque/efeito é aplicado a todas as peças e casas dentro da área de efeito, sem a necessidade de selecionar um alvo específico.
      2. Caso o efeito não especifique uma etapa do ataque, siga o seu [momento de ativação](/gameplay/effect.md#descrição-do-efeito).
@@ -188,7 +188,7 @@ Ao declarar a ativação de uma carta, o jogador deve seguir os seguintes passos
 
   Estando todas as condições atendidas, o jogador deve informar a ativação da carta.
 
-  1. Se a carta possuir um {{ range }} do tipo {{ direct }} ou {{ arcing }}, o jogador deve selecionar como o alvo da carta uma peça, ou uma casa vazia do tabuleiro, dentro do alcance.
+  1. Se a carta possuir um {{ range }} do tipo {{ melee }}, {{ direct }} ou {{ arcing }}, o jogador deve selecionar como o alvo da carta uma peça, ou uma casa vazia do tabuleiro, dentro do alcance.
   2. Aplicar o ataque ({{ dmg }}) e/ou o efeito da carta, se houver. Quando a carta possuir ambos, o próprio texto do efeito indica em qual momento do ataque ele é inserido (antes, durante ou depois do ataque, ou em uma etapa específica, como durante a rolagem de dados, antes de resolver o {{ dmg }}, após aplicar a {{ injury }}, etc.).
      1. Se a carta possuir um {{ range }} do tipo {{ area }}, o ataque/efeito é aplicado a todas as peças e casas dentro da área de efeito, sem a necessidade de selecionar um alvo específico.
      2. Caso o efeito não especifique uma etapa do ataque, siga o seu [momento de ativação](/gameplay/effect.md#descrição-do-efeito).

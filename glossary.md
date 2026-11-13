@@ -118,7 +118,8 @@ Ao enviar, descartar, enterrar, banir ou exilar uma carta para um monte, ela ass
 | **Componente**           | *Component*     | Qualquer elemento físico do jogo, como cartas, peças, contadores, tabuleiros, mapas, etc. |
 | **Peça**                 | *Piece*         | Peão que representa um personagem ou objeto no tabuleiro de batalha |
 | **Mover**                | *Move*          | Colocar uma peça em outra casa do tabuleiro |
-| **Distância**            | *Distance*      | Alcance da ação ou movimento |
+| **Distância**            | *Distance*      | Quantidade de casas do tabuleiro de uma casa até outra, contadas de casa adjacente em casa adjacente |
+| **Alcance**              | *Range*         | Distância entre quem realiza uma ação e o seu alvo, e a forma como a ação chega até ele, conforme o seu [tipo de alcance](/battle/range.md) |
 | **Trajeto / Trajetória** | *Trajectory*    | Conjunto de casas do tabuleiro por onde passa a linha reta entre o personagem que executa a ação e o alvo da ação |
 | **Direção**              | *Direction*     | Vetor de direção de uma ação que parte de uma casa do tabuleiro até outra casa. É uma linha reta com comprimento infinito para ambos os lados e um sentido de direção |
 | **Adjacente**            | *Adjacent Tile* | Aquilo que está em uma casa do tabuleiro, ou é uma casa do tabuleiro, que está ao lado de outra casa do tabuleiro. Não inclui casas diagonais |

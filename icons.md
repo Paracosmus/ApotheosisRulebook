@@ -124,7 +124,8 @@ layout: page
 | Icon | Termo (PT) | English | Variável | Unicode | Color |
 | ---- | ---------- | ------- | -------- | ------- | ----- |
 |  | Alcance | *Range* | {{ range }} | eb3f | - |
-|  | Direto | *Direct* | {{ direct }} | e939 | - |
+|  | Contato | *Melee* | {{ melee }} | e939 | - |
+|  | Direto | *Direct* | {{ direct }} | eb4a | - |
 |  | Arqueado | *Arcing* | {{ arcing }} | e93a | - |
 |  | Área | *Area* | {{ area }} | e938 | - |
 

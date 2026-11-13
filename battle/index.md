@@ -23,10 +23,6 @@ Pode-se mover para casas adjacentes com {{ alt }} diferente, pagando-se 1 {{ ap 
 
 Quando terminar de mover, o personagem fica na direção em que se moveu até a casa de destino.
 
-Adjacente
-Distância
-Casas
-
 ---
 
 ## DIREÇÃO (TODO)
@@ -75,7 +71,7 @@ O personagem pode realizar uma {{ allIn }} para:
 
 É o ataque padrão que todo personagem pode realizar, sem a necessidade de cartas ou recursos.
 
-Ao custo de 3 de {{ ap }} o personagem pode realizar um ataque {{ direct }} de 1 de {{ range }}, com {{ dmg }} igual a ( {{ str }} + {{ d1d2 }} ).
+Ao custo de 3 de {{ ap }} o personagem pode realizar um ataque {{ melee }} de 1 de {{ range }}, com {{ dmg }} igual a ( {{ str }} + {{ d1d2 }} ).
 
 Este ataque não possui propriedades ou efeitos, é o mais simples e direto que um ataque pode ser.
 
@@ -147,32 +143,6 @@ Observando a equação acima, note que quando o {{ dmg }} for menor que a metade
 ### Rolagem Perfeita
 
 Quando o {{ dmg }} de um ataque incluir a rolagem de dados, aplica-se a regra de [rolagem perfeita](/gameplay/die.md#dados-extras-rolagem-perfeita) ao dado principal da rolagem, somando o resultado dos dados extras ao {{ dmg }} do ataque.
-
----
-
-## ALCANCE (TODO)
-
-Distância
-Casas
-Adjacentes
-
-### <span class="icon"></span> Direto
-
-TODO
-
-Deve ser feito o cálculo de {{ range }} para verificar se o alvo está dentro do {{ range }} do ataque.
-
-### <span class="icon"></span> Arqueado
-
-TODO
-
-No cálculo de {{ range }} deve-se adicionar/subtrair a {{ alt }} do alvo e do atacante.
-
-### <span class="icon"></span> Área
-
-TODO
-
-Uma área ao redor do usuário. Não confundir com explosivos.
 
 ---
 
