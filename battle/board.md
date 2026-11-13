@@ -76,8 +76,6 @@ Quando a trajetória de uma ação passa exatamente pela quina entre duas casas,
 
 ### Névoa de Guerra
 
-## Distância
-
 ## Mover
 
 Ao se mover, uma peça pode passar por uma [casa ocupada](#casa-ocupada), mas não pode terminar o movimento nela. É a mesma regra das [camadas](#camadas) inferiores de uma casa: a peça passa por elas, mas não para nelas.

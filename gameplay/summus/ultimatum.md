@@ -5,7 +5,7 @@ Esta seção ainda não foi completamente revisada. Algumas informações podem 
 # <span class="summus"> Ultimatum</span>
 
 > Ultimatum é o termo latino para "último", e refere-se a uma ação final ou definitiva.
-> 
+>
 > O Ultimatum de um Herói é sua habilidade mais poderosa e definitiva, que quando carregada e pronta, pode mudar o rumo da batalha.
 
 [<span class="summus"><b>ULTIMATUM</b></span>](/gameplay/summus/ultimatum.md) são cartas de [<span class="skill"><b>HABILIDADE</b></span>](/cards/skills.md), focados em causar uma enorme quantidade de <b>DANO</b> em um único ataque, e/ou em causar um efeito devastador na [<span class="main"><b>MESA</b></span>](/hero/table/) do oponente ou no tabuleiro.

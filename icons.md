@@ -119,7 +119,8 @@
 | Icon | Termo (PT) | English | Variável | Unicode | Color |
 | ---- | ---------- | ------- | -------- | ------- | ----- |
 |  | Alcance | *Range* | <b>ALCANCE</b> | eb3f | - |
-|  | Direto | *Direct* | <b>DIRETO</b> | e939 | - |
+|  | Contato | *Melee* | <b>CONTATO</b> | e939 | - |
+|  | Direto | *Direct* | <b>DIRETO</b> | eb4a | - |
 |  | Arqueado | *Arcing* | <b>ARQUEADO</b> | e93a | - |
 |  | Área | *Area* | <b>ÁREA</b> | e938 | - |
 

@@ -20,10 +20,6 @@ Pode-se mover para casas adjacentes com <b>ALTITUDE</b> diferente, pagando-se
 
 Quando terminar de mover, o personagem fica na direção em que se moveu até a casa de destino.
 
-Adjacente
-Distância
-Casas
-
 ---
 
 ## DIREÇÃO (TODO)
@@ -72,7 +68,7 @@ O personagem pode realizar uma [<span class="keyword-limit">Ação Total</span>]
 
 É o ataque padrão que todo personagem pode realizar, sem a necessidade de cartas ou recursos.
 
-Ao custo de 3 de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação) o personagem pode realizar um ataque <b>DIRETO</b> de 1 de <b>ALCANCE</b>, com <b>DANO</b> igual a ( [<span class="house"><b>FOR</b></span>](/gameplay/attributes.md) + <span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">1</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">2</span></span></span> ).
+Ao custo de 3 de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação) o personagem pode realizar um ataque <b>CONTATO</b> de 1 de <b>ALCANCE</b>, com <b>DANO</b> igual a ( [<span class="house"><b>FOR</b></span>](/gameplay/attributes.md) + <span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">1</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">2</span></span></span> ).
 
 Este ataque não possui propriedades ou efeitos, é o mais simples e direto que um ataque pode ser.
 
@@ -143,32 +139,6 @@ Observando a equação acima, note que quando o <b>DANO</b> for menor que a m
 ### Rolagem Perfeita
 
 Quando o <b>DANO</b> de um ataque incluir a rolagem de dados, aplica-se a regra de [rolagem perfeita](/gameplay/die.md#dados-extras-rolagem-perfeita) ao dado principal da rolagem, somando o resultado dos dados extras ao <b>DANO</b> do ataque.
-
----
-
-## ALCANCE (TODO)
-
-Distância
-Casas
-Adjacentes
-
-### <span class="icon"></span> Direto
-
-TODO
-
-Deve ser feito o cálculo de <b>ALCANCE</b> para verificar se o alvo está dentro do <b>ALCANCE</b> do ataque.
-
-### <span class="icon"></span> Arqueado
-
-TODO
-
-No cálculo de <b>ALCANCE</b> deve-se adicionar/subtrair a <b>ALTITUDE</b> do alvo e do atacante.
-
-### <span class="icon"></span> Área
-
-TODO
-
-Uma área ao redor do usuário. Não confundir com explosivos.
 
 ---
 

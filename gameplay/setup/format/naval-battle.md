@@ -62,7 +62,7 @@ Os 7 atributos de um [<span class="companion"><b>COMPANHEIRO</b></span>](/car
 
 #### Ataque
 * Os navios atacam apenas de lado para o alvo e utilizam-se as regras padrões de cálculo de <b>DANO</b>.
-* O <b>ALCANCE</b> do ataque é do tipo <b>DIRETO</b> e se utiliza as regras padrões de cálculo de distância.
+* O <b>ALCANCE</b> do ataque é do tipo <b>DIRETO</b> e se utiliza as regras padrões de cálculo de distância.
 * O navio pode atacar apenas uma vez por turno, sem custos em [<span class="main"><b>AÇÃO</b></span>](/hero/#ação), e seu turno encerra após o ataque.
     * **Round Shot**: Canhões + <span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">1</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">6</span></span></span>
     * **Grape Shot**: Canhões + <span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">1</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">2</span></span></span>; Além da [<span class="hp"><b>VIDA</b></span>](/hero/#vida), o alvo perde tripulação igual à <b>LESÃO</b>; Este ataque nunca deixa um navio com menos de 1 de tripulação

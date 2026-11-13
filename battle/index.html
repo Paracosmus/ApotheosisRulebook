@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847899770046">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847905610938">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -41,11 +41,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="/static/img/favicon.ico" />
-    <link href="/resources/css/retype.css?v=4.6.0.847899770046" rel="stylesheet">
+    <link href="/resources/css/retype.css?v=4.6.0.847905610938" rel="stylesheet">
 
-    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.847899770046" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="/resources/js/config.js?v=4.6.0.847905610938" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="/resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.847899770046" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="/resources/js/lunr.js?v=4.6.0.847905610938" data-turbo-eval="false" defer></script>
     <link href="/resources/css/katex.css?v=4.6.0" rel="stylesheet">
     <script id="katex-js" data-cfasync="false" src="/resources/js/katex.js?v=4.6.0" defer></script>
 
@@ -470,9 +470,6 @@
 <p>Em seu turno, o personagem pode se mover no tabuleiro. Por padrão, o custo para mover é de 1 de <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a> por casa. Alguns terrenos podem ter regras específicas para mover, por exemplo em um terreno de lama pode custar 2 de <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a> por casa.</p>
 <p>Pode-se mover para casas adjacentes com <b>ALTITUDE</b> diferente, pagando-se 1 <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a> a mais para cada nível a mais de altura.</p>
 <p>Quando terminar de mover, o personagem fica na direção em que se moveu até a casa de destino.</p>
-<p>Adjacente<br />
-Distância<br />
-Casas</p>
 <hr>
 <h2 id="direção-todo">DIREÇÃO (TODO)</h2>
 <hr>
@@ -531,7 +528,7 @@ Casas</p>
 </retype-table>
 </div>
 <p>É o ataque padrão que todo personagem pode realizar, sem a necessidade de cartas ou recursos.</p>
-<p>Ao custo de 3 de <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a> o personagem pode realizar um ataque <b>DIRETO</b> de 1 de <b>ALCANCE</b>, com <b>DANO</b> igual a ( <a href="/gameplay/attributes/"><span class="house"><b>FOR</b></span></a> + <span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">1</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">2</span></span></span> ).</p>
+<p>Ao custo de 3 de <a href="/hero/#a%C3%A7%C3%A3o"><span class="main"><b>AÇÃO</b></span></a> o personagem pode realizar um ataque <b>CONTATO</b> de 1 de <b>ALCANCE</b>, com <b>DANO</b> igual a ( <a href="/gameplay/attributes/"><span class="house"><b>FOR</b></span></a> + <span class="tk tk-dice"><span class="tk-icon"></span><span class="tk-literal"><span class="tk-dice-number">1</span><span class="tk-dice-separator">d</span><span class="tk-dice-sides">2</span></span></span> ).</p>
 <p>Este ataque não possui propriedades ou efeitos, é o mais simples e direto que um ataque pode ser.</p>
 <hr>
 <h2 id="usar-uma-carta">USAR UMA CARTA</h2>
@@ -607,20 +604,6 @@ Casas</p>
 <h3 id="rolagem-perfeita">Rolagem Perfeita</h3>
 <p>Quando o <b>DANO</b> de um ataque incluir a rolagem de dados, aplica-se a regra de <a href="/gameplay/die/#dados-extras-rolagem-perfeita">rolagem perfeita</a> ao dado principal da rolagem, somando o resultado dos dados extras ao <b>DANO</b> do ataque.</p>
 <hr>
-<h2 id="alcance-todo">ALCANCE (TODO)</h2>
-<p>Distância<br />
-Casas<br />
-Adjacentes</p>
-<h3 id="-direto"><span class="icon"></span> Direto</h3>
-<p>TODO</p>
-<p>Deve ser feito o cálculo de <b>ALCANCE</b> para verificar se o alvo está dentro do <b>ALCANCE</b> do ataque.</p>
-<h3 id="-arqueado"><span class="icon"></span> Arqueado</h3>
-<p>TODO</p>
-<p>No cálculo de <b>ALCANCE</b> deve-se adicionar/subtrair a <b>ALTITUDE</b> do alvo e do atacante.</p>
-<h3 id="-área"><span class="icon"></span> Área</h3>
-<p>TODO</p>
-<p>Uma área ao redor do usuário. Não confundir com explosivos.</p>
-<hr>
 <h2 id="terreno-todo">TERRENO (TODO)</h2>
 <hr>
 <ul class="contains-task-list">
@@ -660,8 +643,8 @@ Adjacentes</p>
 
                 <div id="retype-tags" class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mt-6 mb-6 clear-both">
                 
-                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-11-05T17:34:23" title="2026-11-05" data-absolute-label="Last updated on 2026-11-05 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-11-05 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
-                        Last updated on 2026-11-05 by Bruno Caxito
+                    <time id="retype-last-updated" class="text-sm whitespace-nowrap text-base-text-muted ml-auto" datetime="2026-11-13T14:19:49" title="2026-11-13" data-absolute-label="Last updated on 2026-11-13 by Bruno Caxito" data-absolute-label-html="Last updated on 2026-11-13 by Bruno Caxito" data-relative-template="Last updated {0} by {1}" data-relative-template-html="Last updated RETYPETEMPLATELASTUPDATEDVALUETOKEN by RETYPETEMPLATELASTUPDATEDAUTHORTOKEN" data-last-updated-by="Bruno Caxito">
+                        Last updated on 2026-11-13 by Bruno Caxito
                     </time>
                 </div>
 
