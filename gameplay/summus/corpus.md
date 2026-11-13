@@ -14,7 +14,7 @@ Esses *Aetherframe* possuem uma abertura, geralmente no peito, por onde a própr
 
 - Os anexos desta carta não podem ser alvos ou sofrer efeitos que não o efeito da própria [<span class="summus"><b>CORPUS</b></span>](/gameplay/summus/corpus.md).
 - Os anexos desta carta não podem ser adicionados ou removidos individualmente, apenas a [<span class="summus"><b>CORPUS</b></span>](/gameplay/summus/corpus.md) inteira pode ser *construída* ou descartada.
-- Quando você sofrer perda total, bana esta carta, remova sua peça do tabuleiro e permaneça com <span class="positive">1</span> de [<span class="hp"><b>VIDA</b></span>](/hero/#vida).
+- Quando você sofrer perda total, bana esta carta, remova sua peça do tabuleiro e permaneça com metade do seu [<span class="hp"><b>VIDA</b></span>](/hero/#vida) máximo.
 - A [<span class="summus"><b>CORPUS</b></span>](/gameplay/summus/corpus.md) recebe o valor integral da soma dos bônus de atributos das cartas de Ficha anexadas a ela, provendo esse bônus diretamente ao Herói.
 - A carta pode ser ocultada ou revelada a qualquer momento, ao custo de **4** de [<span class="main"><b>AÇÃO</b></span>](/hero/#ação).
 
