@@ -20,7 +20,7 @@ Esses *Aetherframe* possuem uma abertura, geralmente no peito, por onde a própr
 
 - Os anexos desta carta não podem ser alvos ou sofrer efeitos que não o efeito da própria {{ corpus }}.
 - Os anexos desta carta não podem ser adicionados ou removidos individualmente, apenas a {{ corpus }} inteira pode ser *construída* ou descartada.
-- Quando você sofrer perda total, bana esta carta, remova sua peça do tabuleiro e permaneça com {{ p 1 }} de {{ hp }}.
+- Quando você sofrer perda total, bana esta carta, remova sua peça do tabuleiro e permaneça com metade do seu {{ hp }} máximo.
 - A {{ corpus }} recebe o valor integral da soma dos bônus de atributos das cartas de Ficha anexadas a ela, provendo esse bônus diretamente ao Herói.
 - A carta pode ser ocultada ou revelada a qualquer momento, ao custo de **4** de {{ ap }}.
 
