@@ -344,6 +344,7 @@ layout: page
 | <span style="color: #FF22B2;"></span> | Collegium | *Collegium* | {{ collegium }} | e9d6 | `#FF22B2` |
 | <span style="color: #FF22B2;"></span> | Daemon | *Daemon* | {{ daemon }} | e96d | `#FF22B2` |
 | <span style="color: #FF22B2;"></span> | Dominium | *Dominium* | {{ dominium }} | e9dc | `#FF22B2` |
+| <span style="color: #FF22B2;"></span> | Lorica | *Lorica* | {{ lorica }} | eab7 | `#FF22B2` |
 | <span style="color: #FF22B2;"></span> | Magisterium | *Magisterium* | {{ magisterium }} | e95c | `#FF22B2` |
 | <span style="color: #FF22B2;"></span> | Ultimatum | *Ultimatum* | {{ ultimatum }} | eab7 | `#FF22B2` |
 
