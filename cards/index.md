@@ -242,6 +242,8 @@ O estado de uma carta é a condição ou situação em que ela se encontra duran
 
   Toda carta de face para cima é considerada revelada, sendo de conhecimento público de todos os jogadores.
 
+  Quando uma carta for revelada, antes de aplicar seus bônus e efeitos, deve-se considerar se ela pode estar na zona em que se encontra. Isso significa verificar se o Herói ainda possui os requisitos necessários como [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md), nível, especificadores do [<span class="item"><b>EQUIPAMENTO</b></span>](/hero/table/equipment.md) não usados, etc..
+
   _Anexos são desconsiderados._
 
 ==- <span class="fill">Oculta</span> [!badge text="Hidden" variant="ghost"]
