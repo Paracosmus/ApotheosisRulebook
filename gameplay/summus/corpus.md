@@ -30,7 +30,7 @@ Esses *Aetherframe* possuem uma abertura, geralmente no peito, por onde a própr
 É necessário ter o nível de [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md) da carta para obter esta carta.
 - Se em algum momento o Herói perder o [<span class="knowledge"><b>CONHECIMENTO</b></span>](/gameplay/knowledge.md) e/ou nível necessário, esta carta deve ser descartada.
 
-O Herói não pode ter cartas com quaisquer dos especificados [<span class="item"><b>VESTE</b>](/cards/item.md#fabricar), [<span class="item"><b>CABEÇA</b>](/cards/item.md#fabricar) e/ou [<span class="item"><b>PÉS</b>](/cards/item.md#fabricar).
+O Herói não pode ter cartas com quaisquer dos especificados presentes na carta de [<span class="summus"><b>CORPUS</b></span>](/gameplay/summus/corpus.md).
 - Ao obter ou revelar uma [<span class="summus"><b>CORPUS</b></span>](/gameplay/summus/corpus.md), envie quaisquer cartas com estes especificadores para o [<span class="main"><b>INVENTÁRIO</b></span>](/hero/inventory.md).
 
 ==- Obter
