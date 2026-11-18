@@ -36,7 +36,7 @@ Esses *Aetherframe* possuem uma abertura, geralmente no peito, por onde a própr
 É necessário ter o nível de {{ knowledge }} da carta para obter esta carta.
 - Se em algum momento o Herói perder o {{ knowledge }} e/ou nível necessário, esta carta deve ser descartada.
 
-O Herói não pode ter cartas com quaisquer dos especificados {{ vest }}, {{ headpiece }} e/ou {{ feet }}.
+O Herói não pode ter cartas com quaisquer dos especificados presentes na carta de {{ corpus }}.
 - Ao obter ou revelar uma {{ corpus }}, envie quaisquer cartas com estes especificadores para o {{ inv }}.
 
 ==- Obter
